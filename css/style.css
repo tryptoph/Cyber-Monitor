@@ -1,38 +1,35 @@
 /* ============================================================
-   Global Hackathon & Tech News Monitor — Custom Styles
+   CyberVulnDB — Cybersecurity Intelligence Dashboard
    ============================================================ */
 
 :root {
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-card: #1e293b;
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-  --border: #334155;
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
-
-  --hackathon: #22c55e;
-  --security: #ef4444;
-  --conference: #f59e0b;
-  --technews: #3b82f6;
-
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111827;
+  --bg-card: #1a1f2e;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --border: #374151;
+  --border-light: #4b5563;
+  
+  --accent-cyan: #06b6d4;
+  --accent-blue: #3b82f6;
+  --accent-purple: #8b5cf6;
+  
+  --critical: #dc2626;
+  --high: #ea580c;
+  --medium: #f59e0b;
+  --low: #22c55e;
+  --info: #3b82f6;
+  
+  --ransomware: #ef4444;
+  --apt: #8b5cf6;
+  --cve: #f59e0b;
+  
   --shadow: 0 4px 24px rgba(0,0,0,0.4);
   --radius: 12px;
   --radius-sm: 8px;
   --transition: 0.2s ease;
-}
-
-[data-theme="light"] {
-  --bg-primary: #f8fafc;
-  --bg-secondary: #ffffff;
-  --bg-card: #ffffff;
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #94a3b8;
-  --border: #e2e8f0;
-  --shadow: 0 4px 24px rgba(0,0,0,0.1);
 }
 
 * {
@@ -47,6 +44,15 @@ html, body {
   background: var(--bg-primary);
   color: var(--text-primary);
   overflow: hidden;
+}
+
+a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* ── App Shell ───────────────────────────────────────────── */
@@ -88,7 +94,7 @@ html, body {
 .logo-icon {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -100,9 +106,9 @@ html, body {
   display: flex;
   align-items: center;
   gap: 5px;
-  background: rgba(239,68,68,0.15);
-  color: #ef4444;
-  border: 1px solid rgba(239,68,68,0.3);
+  background: rgba(220, 38, 38, 0.15);
+  color: var(--critical);
+  border: 1px solid rgba(220, 38, 38, 0.3);
   border-radius: 20px;
   padding: 3px 10px;
   font-size: 0.72rem;
@@ -110,12 +116,18 @@ html, body {
   letter-spacing: 0.05em;
 }
 
+.live-badge.cyber {
+  background: rgba(6, 182, 212, 0.15);
+  color: var(--accent-cyan);
+  border-color: rgba(6, 182, 212, 0.3);
+}
+
 .live-dot {
   width: 7px;
   height: 7px;
-  background: #ef4444;
-  border-radius: 50%;
-  animation: pulse 1.5s infinite;
+  background: var(--accent-cyan);
+  border-radius: animation: pulse  50%;
+ 1.5s infinite;
 }
 
 @keyframes pulse {
@@ -150,7 +162,7 @@ html, body {
   color: var(--text-primary);
   padding: 7px 12px 7px 32px;
   font-size: 0.875rem;
-  width: 240px;
+  width: 300px;
   outline: none;
   transition: border-color var(--transition);
 }
@@ -158,8 +170,8 @@ html, body {
 #search-input::placeholder { color: var(--text-muted); }
 
 #search-input:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.15);
 }
 
 .header-right {
@@ -194,8 +206,8 @@ html, body {
 
 /* ── Sidebar ─────────────────────────────────────────────── */
 #sidebar {
-  width: 340px;
-  min-width: 280px;
+  width: 380px;
+  min-width: 300px;
   background: var(--bg-secondary);
   border-right: 1px solid var(--border);
   display: flex;
@@ -211,142 +223,157 @@ html, body {
   overflow: hidden;
 }
 
-.sidebar-header {
-  padding: 14px 16px 10px;
+/* ── Tab Navigation ──────────────────────────────────────── */
+.sidebar-tabs {
+  display: flex;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 8px 0;
+  gap: 4px;
+}
+
+.tab-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 8px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.tab-btn:hover {
+  color: var(--text-secondary);
+}
+
+.tab-btn.active {
+  color: var(--accent-cyan);
+  border-bottom-color: var(--accent-cyan);
+}
+
+/* ── Panels ──────────────────────────────────────────────── */
+.panel {
+  display: none;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.panel.active {
+  display: flex;
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
 
-.sidebar-title {
-  font-size: 0.8rem;
+.panel-header h3 {
+  font-size: 0.85rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  margin-bottom: 10px;
+  color: var(--text-primary);
 }
 
-/* ── Category Filter Chips ───────────────────────────────── */
-.filter-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.chip {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  cursor: pointer;
-  border: 1.5px solid transparent;
-  transition: all var(--transition);
-  user-select: none;
-}
-
-.chip-hackathon  { background: rgba(34,197,94,0.1);  color: var(--hackathon);  border-color: rgba(34,197,94,0.3);  }
-.chip-security   { background: rgba(239,68,68,0.1);  color: var(--security);   border-color: rgba(239,68,68,0.3);  }
-.chip-conference { background: rgba(245,158,11,0.1); color: var(--conference); border-color: rgba(245,158,11,0.3); }
-.chip-technews   { background: rgba(59,130,246,0.1); color: var(--technews);   border-color: rgba(59,130,246,0.3); }
-
-.chip.active { opacity: 1; }
-.chip.inactive { opacity: 0.4; }
-
-.chip-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: currentColor;
-}
-
-/* ── Event Count Badges ──────────────────────────────────── */
-.event-counts {
-  display: flex;
-  gap: 6px;
-  padding: 10px 16px;
-  border-bottom: 1px solid var(--border);
-  flex-wrap: wrap;
-}
-
-.count-badge {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.72rem;
+.panel-header select {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
   color: var(--text-secondary);
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  outline: none;
+  cursor: pointer;
 }
 
-.count-badge strong { color: var(--text-primary); font-size: 0.85rem; }
-
-/* ── Event List ──────────────────────────────────────────── */
-#event-list {
+/* ── Threat Lists ─────────────────────────────────────────── */
+.threat-list {
   flex: 1;
   overflow-y: auto;
   padding: 8px;
 }
 
-#event-list::-webkit-scrollbar { width: 5px; }
-#event-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.threat-list::-webkit-scrollbar { width: 5px; }
+.threat-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
-.event-card {
+.threat-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 11px 13px;
-  margin-bottom: 6px;
+  padding: 12px;
+  margin-bottom: 8px;
   cursor: pointer;
   transition: border-color var(--transition), transform var(--transition);
   position: relative;
   overflow: hidden;
 }
 
-.event-card::before {
+.threat-card::before {
   content: '';
   position: absolute;
-  left: 0; top: 0; bottom: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
   width: 3px;
-  border-radius: 3px 0 0 3px;
 }
 
-.event-card.hackathon::before  { background: var(--hackathon);  }
-.event-card.security::before   { background: var(--security);   }
-.event-card.conference::before { background: var(--conference); }
-.event-card.technews::before   { background: var(--technews);   }
+.threat-card.cve::before { background: var(--cve); }
+.threat-card.ransomware::before { background: var(--ransomware); }
+.threat-card.news::before { background: var(--accent-blue); }
+.threat-card.apt::before { background: var(--apt); }
 
-.event-card:hover {
-  border-color: var(--accent);
+.threat-card:hover {
+  border-color: var(--accent-cyan);
   transform: translateX(2px);
 }
 
-.event-card-type {
-  font-size: 0.68rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  margin-bottom: 4px;
+.threat-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
 }
 
-.event-card.hackathon  .event-card-type { color: var(--hackathon); }
-.event-card.security   .event-card-type { color: var(--security); }
-.event-card.conference .event-card-type { color: var(--conference); }
-.event-card.technews   .event-card-type { color: var(--technews); }
+.threat-card-type {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
 
-.event-card-title {
-  font-size: 0.83rem;
+.threat-card.cve .threat-card-type { color: var(--cve); }
+.threat-card.ransomware .threat-card-type { color: var(--ransomware); }
+.threat-card.news .threat-card-type { color: var(--accent-blue); }
+.threat-card.apt .threat-card-type { color: var(--apt); }
+
+.threat-card-date {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.threat-card-title {
+  font-size: 0.82rem;
   font-weight: 500;
   color: var(--text-primary);
   line-height: 1.4;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.event-card-meta {
+.threat-card-meta {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -354,10 +381,39 @@ html, body {
   color: var(--text-muted);
 }
 
-.event-card-meta span {
-  display: flex;
+/* ── Severity Badges ─────────────────────────────────────── */
+.badge {
+  display: inline-flex;
   align-items: center;
-  gap: 3px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.badge.critical {
+  background: rgba(220, 38, 38, 0.2);
+  color: var(--critical);
+}
+
+.badge.high {
+  background: rgba(234, 88, 12, 0.2);
+  color: var(--high);
+}
+
+.badge.medium {
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--medium);
+}
+
+.badge.low {
+  background: rgba(34, 197, 94, 0.2);
+  color: var(--low);
+}
+
+.badge.info {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--info);
 }
 
 /* ── Map Container ───────────────────────────────────────── */
@@ -372,7 +428,7 @@ html, body {
   height: 100%;
 }
 
-/* ── Map Overlay Controls ────────────────────────────────── */
+/* ── Map Controls ───────────────────────────────────────── */
 .map-controls {
   position: absolute;
   top: 12px;
@@ -402,10 +458,6 @@ html, body {
 .leaflet-container {
   background: #0d1117 !important;
   font-family: inherit !important;
-}
-
-[data-theme="light"] .leaflet-container {
-  background: #e8edf2 !important;
 }
 
 .leaflet-control-zoom {
@@ -439,45 +491,7 @@ html, body {
   min-width: 200px;
 }
 
-.popup-type {
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 4px;
-}
-
-.popup-title {
-  font-weight: 600;
-  font-size: 0.88rem;
-  line-height: 1.4;
-  color: var(--text-primary);
-  margin-bottom: 6px;
-}
-
-.popup-meta {
-  color: var(--text-muted);
-  font-size: 0.75rem;
-  margin-bottom: 8px;
-}
-
-.popup-btn {
-  display: inline-block;
-  padding: 5px 12px;
-  background: var(--accent);
-  color: #fff;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-  text-decoration: none;
-  transition: background var(--transition);
-}
-
-.popup-btn:hover { background: var(--accent-hover); }
-
-/* ── Custom Map Markers ──────────────────────────────────── */
+/* ── Custom Markers ──────────────────────────────────────── */
 .custom-marker {
   display: flex;
   align-items: center;
@@ -492,10 +506,9 @@ html, body {
 
 .custom-marker:hover { transform: scale(1.2); }
 
-.marker-hackathon  { background: var(--hackathon);  width: 28px; height: 28px; }
-.marker-security   { background: var(--security);   width: 30px; height: 30px; }
-.marker-conference { background: var(--conference); width: 26px; height: 26px; }
-.marker-technews   { background: var(--technews);   width: 26px; height: 26px; }
+.marker-cve { background: var(--cve); width: 24px; height: 24px; }
+.marker-ransomware { background: var(--ransomware); width: 28px; height: 28px; }
+.marker-apt { background: var(--apt); width: 26px; height: 26px; }
 
 /* ── Status Bar ──────────────────────────────────────────── */
 #status-bar {
@@ -516,9 +529,6 @@ html, body {
   align-items: center;
   gap: 5px;
 }
-
-#status-bar .status-ok { color: #22c55e; }
-#status-bar .status-error { color: #ef4444; }
 
 /* ── Loading Overlay ─────────────────────────────────────── */
 #loading-overlay {
@@ -543,7 +553,7 @@ html, body {
   width: 48px;
   height: 48px;
   border: 4px solid var(--border);
-  border-top-color: var(--accent);
+  border-top-color: var(--accent-cyan);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
@@ -555,7 +565,7 @@ html, body {
   font-size: 0.9rem;
 }
 
-/* ── Event Modal ─────────────────────────────────────────── */
+/* ── Modal ──────────────────────────────────────────────── */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -589,31 +599,6 @@ html, body {
   border-bottom: 1px solid var(--border);
 }
 
-.modal-type-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 8px;
-}
-
-.badge-hackathon  { background: rgba(34,197,94,0.15);  color: var(--hackathon);  }
-.badge-security   { background: rgba(239,68,68,0.15);  color: var(--security);   }
-.badge-conference { background: rgba(245,158,11,0.15); color: var(--conference); }
-.badge-technews   { background: rgba(59,130,246,0.15); color: var(--technews);   }
-
-.modal-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 1.4;
-  color: var(--text-primary);
-}
-
 .modal-close {
   background: none;
   border: none;
@@ -624,8 +609,6 @@ html, body {
   padding: 2px 6px;
   border-radius: 6px;
   transition: background var(--transition), color var(--transition);
-  flex-shrink: 0;
-  margin-left: 12px;
 }
 
 .modal-close:hover {
@@ -637,6 +620,13 @@ html, body {
   padding: 16px 20px 20px;
 }
 
+.modal-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
 .modal-meta-row {
   display: flex;
   flex-wrap: wrap;
@@ -646,12 +636,6 @@ html, body {
   color: var(--text-secondary);
 }
 
-.modal-meta-item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
 .modal-description {
   font-size: 0.875rem;
   line-height: 1.65;
@@ -659,51 +643,7 @@ html, body {
   margin-bottom: 16px;
 }
 
-.modal-footer {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  background: var(--accent);
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 0.83rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background var(--transition);
-}
-
-.btn-primary:hover { background: var(--accent-hover); }
-
-.btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  background: transparent;
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  font-size: 0.83rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background var(--transition), color var(--transition);
-}
-
-.btn-secondary:hover {
-  background: var(--bg-primary);
-  color: var(--text-primary);
-}
-
-/* ── Toast Notifications ─────────────────────────────────── */
+/* ── Toast ──────────────────────────────────────────────── */
 #toast-container {
   position: fixed;
   bottom: 48px;
@@ -728,8 +668,6 @@ html, body {
   gap: 8px;
   pointer-events: auto;
   animation: slideIn 0.3s ease;
-  min-width: 220px;
-  max-width: 320px;
 }
 
 .toast.success { border-left: 3px solid #22c55e; }
@@ -779,10 +717,10 @@ html, body {
   flex-shrink: 0;
 }
 
-/* ── Sidebar Toggle Button ───────────────────────────────── */
+/* ── Sidebar Toggle ──────────────────────────────────────── */
 .sidebar-toggle {
   position: absolute;
-  left: 340px;
+  left: 380px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 600;
@@ -807,31 +745,6 @@ html, body {
   left: 0;
 }
 
-/* ── Responsive ──────────────────────────────────────────── */
-@media (max-width: 768px) {
-  #sidebar {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 700;
-    box-shadow: var(--shadow);
-  }
-
-  #sidebar.collapsed { width: 0; }
-
-  #search-input { width: 160px; }
-
-  .header-center { display: none; }
-
-  .map-legend { display: none; }
-}
-
-@media (max-width: 480px) {
-  .live-badge { display: none; }
-  #header { padding: 0 12px; }
-}
-
 /* ── Empty State ─────────────────────────────────────────── */
 .empty-state {
   display: flex;
@@ -847,10 +760,35 @@ html, body {
 .empty-state-icon { font-size: 36px; }
 .empty-state-text { font-size: 0.85rem; }
 
-/* ── Scrollbar for sidebar ───────────────────────────────── */
-#event-list::-webkit-scrollbar { width: 4px; }
-#event-list::-webkit-scrollbar-track { background: transparent; }
-#event-list::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 2px;
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 768px) {
+  #sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 700;
+    box-shadow: var(--shadow);
+  }
+  #sidebar.collapsed { width: 0; }
+  #search-input { width: 160px; }
+  .header-center { display: none; }
+  .map-legend { display: none; }
+}
+
+@media (max-width: 480px) {
+  .live-badge { display: none; }
+  #header { padding: 0 12px; }
+}
+
+/* ── CVE specific ───────────────────────────────────────── */
+.cve-id {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.85rem;
+  color: var(--accent-cyan);
+}
+
+.cve-score {
+  font-weight: 700;
+  font-size: 0.9rem;
 }
