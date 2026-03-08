@@ -440,20 +440,33 @@ const API = (() => {
   // Fetch CVEs from NVD API 2.0
   async function fetchCVEsFromNVD(limit = 30, severity = '') {
     try {
-      const params = new URLSearchParams();
-
-      // Last 30 days — NVD has a 5-7 day processing lag, so 7 days would miss most recent entries
       const endDate = new Date();
       const startDate = new Date();
-      startDate.setDate(startDate.getDate() - 30);
+      startDate.setDate(startDate.getDate() - 7);
 
-      params.append('pubStartDate', startDate.toISOString());
-      params.append('pubEndDate', endDate.toISOString());
-      params.append('resultsPerPage', String(limit));
+      const baseParams = new URLSearchParams();
+      baseParams.append('pubStartDate', startDate.toISOString());
+      baseParams.append('pubEndDate', endDate.toISOString());
+      if (severity) baseParams.append('cvssV3Severity', severity.toUpperCase());
 
-      if (severity) params.append('cvssV3Severity', severity.toUpperCase());
+      // Step 1: Get total count (1 result) to know how many exist
+      const countParams = new URLSearchParams(baseParams);
+      countParams.append('resultsPerPage', '1');
+      const countResp = await Promise.race([fetch(`${NVD_API}?${countParams}`), timeout(8000)]);
+      if (!countResp.ok) throw new Error(`NVD API returned ${countResp.status}`);
+      const countData = await countResp.json();
+      const total = countData.totalResults || 0;
+      console.log(`[API] NVD: ${total} CVEs in last 7 days`);
 
-      const url = `${NVD_API}?${params.toString()}`;
+      if (total === 0) return [];
+
+      // Step 2: Fetch the newest items (from the end of the ascending list)
+      const startIndex = Math.max(0, total - limit);
+      const fetchParams = new URLSearchParams(baseParams);
+      fetchParams.append('resultsPerPage', String(limit));
+      fetchParams.append('startIndex', String(startIndex));
+
+      const url = `${NVD_API}?${fetchParams.toString()}`;
       console.log('[API] Fetching from NVD:', url);
 
       const response = await Promise.race([fetch(url), timeout(8000)]);
