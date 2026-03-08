@@ -1213,8 +1213,8 @@ const API = (() => {
 
   // Main entry: load all data
   async function loadAllData() {
-    const CACHE_KEY = 'cybervulndb_data_v7';
-    const CACHE_TS_KEY = 'cybervulndb_ts_v7';
+    const CACHE_KEY = 'cybervulndb_data_v8';
+    const CACHE_TS_KEY = 'cybervulndb_ts_v8';
     const CACHE_MAX_AGE = 15 * 60 * 1000; // 15 minutes
 
     const cachedTs = Utils.storageGet(CACHE_TS_KEY);
