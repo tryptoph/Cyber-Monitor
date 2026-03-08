@@ -776,6 +776,11 @@ a:hover {
 }
 
 /* ── Custom Markers ──────────────────────────────────────── */
+.marker-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+
 .custom-marker {
   display: flex;
   align-items: center;
@@ -807,8 +812,201 @@ a:hover {
 }
 .marker-apt { 
   background: var(--apt); 
-  width: 24px; 
-  height: 24px; 
+  width: 30px; 
+  height: 30px; 
+}
+
+/* Pulsing ring animation for APT markers */
+.marker-pulse-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid;
+  opacity: 0;
+  animation: markerPulse 2.5s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes markerPulse {
+  0% { width: 30px; height: 30px; opacity: 0.6; }
+  100% { width: 60px; height: 60px; opacity: 0; }
+}
+
+/* Map labels for APT country names */
+.map-label-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+
+.map-label {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(0,0,0,0.8), 0 0 12px rgba(0,0,0,0.5);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Attack flow lines */
+.attack-flow-line {
+  animation: flowDash 20s linear infinite;
+}
+
+@keyframes flowDash {
+  to { stroke-dashoffset: -100; }
+}
+
+.attack-target-dot {
+  animation: targetPulse 2s ease-in-out infinite;
+}
+
+@keyframes targetPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.7; }
+}
+
+/* Cyber-styled map popups */
+.cyber-popup .leaflet-popup-content-wrapper {
+  background: rgba(13, 16, 24, 0.95) !important;
+  border: 1px solid rgba(0, 255, 213, 0.3) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6), 0 0 20px rgba(0, 255, 213, 0.1) !important;
+  backdrop-filter: blur(12px);
+}
+
+.cyber-popup .leaflet-popup-tip {
+  background: rgba(13, 16, 24, 0.95) !important;
+  border: 1px solid rgba(0, 255, 213, 0.2) !important;
+}
+
+.cyber-popup .leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.map-popup-content {
+  padding: 14px 16px;
+  font-family: 'IBM Plex Mono', monospace;
+  min-width: 200px;
+}
+
+.popup-type-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.popup-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #e4e4e7;
+  margin-bottom: 6px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.popup-country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-bottom: 4px;
+}
+
+.popup-flag {
+  font-size: 1rem;
+}
+
+.popup-aliases {
+  font-size: 0.65rem;
+  color: #52525b;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.popup-detail {
+  font-size: 0.7rem;
+  color: #9ca3af;
+  margin-bottom: 3px;
+}
+
+.popup-label {
+  color: #52525b;
+  font-weight: 600;
+}
+
+.popup-severity {
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.popup-score {
+  font-weight: 700;
+  color: #e4e4e7;
+  margin-left: 8px;
+}
+
+.popup-desc {
+  font-size: 0.68rem;
+  color: #6b7280;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+/* Cyber tooltip */
+.cyber-tooltip {
+  background: rgba(13, 16, 24, 0.9) !important;
+  border: 1px solid rgba(0, 255, 213, 0.3) !important;
+  border-radius: 4px !important;
+  color: var(--accent-cyan) !important;
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-size: 0.7rem !important;
+  padding: 4px 10px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
+}
+
+.cyber-tooltip::before {
+  border-top-color: rgba(0, 255, 213, 0.3) !important;
+}
+
+/* Map radar sweep overlay */
+#map-container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(0, 255, 213, 0.03) 30deg,
+    transparent 60deg
+  );
+  animation: radarSweep 8s linear infinite;
+  pointer-events: none;
+  z-index: 400;
+  opacity: 0.5;
+}
+
+@keyframes radarSweep {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 /* ── Status Bar ──────────────────────────────────────────── */
@@ -1242,6 +1440,13 @@ a:hover {
   flex-shrink: 0;
 }
 
+.legend-line {
+  width: 16px;
+  height: 0;
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
 /* ── Sidebar Toggle ──────────────────────────────────────── */
 .sidebar-toggle {
   position: absolute;
@@ -1613,4 +1818,129 @@ select:focus-visible {
 }
 .stat-critical .stat-value {
   color: var(--severity-critical, #ff4444);
+}
+
+/* ── Threat Activity Ticker ─────────────────────────────── */
+.threat-ticker {
+  position: fixed;
+  bottom: 28px;
+  left: 0;
+  right: 0;
+  height: 26px;
+  background: rgba(5, 5, 8, 0.9);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  z-index: 1500;
+  overflow: hidden;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.ticker-label {
+  flex-shrink: 0;
+  padding: 0 12px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  background: rgba(0, 255, 213, 0.08);
+  border-right: 1px solid var(--border);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.08em;
+}
+
+.ticker-track {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.ticker-content {
+  white-space: nowrap;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  padding-left: 100%;
+  animation: tickerScroll 60s linear infinite;
+}
+
+.ticker-content .ticker-item {
+  display: inline;
+  margin-right: 40px;
+}
+
+.ticker-content .ticker-cve { color: var(--cve); }
+.ticker-content .ticker-malware { color: var(--ransomware); }
+.ticker-content .ticker-apt { color: var(--apt); }
+.ticker-content .ticker-news { color: var(--info); }
+.ticker-content .ticker-sep { color: var(--border-light); margin: 0 16px; }
+
+@keyframes tickerScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Adjust status bar to sit above ticker */
+#status-bar {
+  position: relative;
+  z-index: 1501;
+}
+
+/* ── Enhanced stats bar ─────────────────────────────────── */
+.stat-item {
+  position: relative;
+  padding: 4px 16px;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.stat-item:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.stat-item::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  background: var(--accent-cyan);
+  transition: width 0.3s ease;
+}
+
+.stat-item:hover::after {
+  width: 80%;
+}
+
+/* ── Card hover glow effect ─────────────────────────────── */
+.threat-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.threat-card.cve:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 20px rgba(255, 204, 0, 0.05);
+}
+
+.threat-card.ransomware:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 20px rgba(255, 45, 85, 0.05);
+}
+
+.threat-card.apt:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 20px rgba(191, 90, 242, 0.05);
+}
+
+.threat-card.news:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 20px rgba(100, 210, 255, 0.05);
 }

@@ -22,17 +22,70 @@
   if (refreshBtn) refreshBtn.addEventListener('click', refreshData);
   let handlersInitialized = false;
 
-  // ── Stats bar updater ──────────────────────────────────────
+  // ── Stats bar updater with animated counting ──────────────
+  function animateCounter(el, target) {
+    const current = parseInt(el.textContent);
+    if (isNaN(current) || current === target) {
+      el.textContent = target;
+      return;
+    }
+    const duration = 600;
+    const start = performance.now();
+    const step = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(current + (target - current) * eased);
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
   function updateStatsBar(data) {
     const set = (id, val) => {
       const el = document.querySelector(`#${id} .stat-value`);
-      if (el) el.textContent = val;
+      if (el) animateCounter(el, val);
     };
     set('stat-cves', data.cves.length);
     set('stat-critical', data.cves.filter(c => c.cvss?.severity === 'CRITICAL').length);
     set('stat-malware', data.ransomware.length);
     set('stat-apt', data.apt.length);
     set('stat-news', data.news.length);
+  }
+
+  // ── Threat activity ticker ──────────────────────────────────
+  function updateThreatTicker(data) {
+    const tickerEl = document.getElementById('ticker-content');
+    if (!tickerEl) return;
+
+    const items = [];
+
+    // Add latest CVEs
+    data.cves.slice(0, 8).forEach(cve => {
+      const sev = cve.cvss?.severity || '';
+      items.push(`<span class="ticker-item ticker-cve">⚡ ${cve.id} [${sev}]</span>`);
+    });
+
+    // Add latest malware
+    data.ransomware.slice(0, 5).forEach(m => {
+      items.push(`<span class="ticker-item ticker-malware">🔒 ${m.group || 'Malware'}: ${(m.organization || '').substring(0, 30)}</span>`);
+    });
+
+    // Add APT groups
+    data.apt.slice(0, 5).forEach(apt => {
+      const flag = API.getCountryFlag(apt.country);
+      items.push(`<span class="ticker-item ticker-apt">${flag} ${apt.name} [${apt.country}]</span>`);
+    });
+
+    // Add latest news
+    data.news.slice(0, 5).forEach(n => {
+      items.push(`<span class="ticker-item ticker-news">📰 ${(n.title || '').substring(0, 50)}</span>`);
+    });
+
+    if (items.length) {
+      // Duplicate items for seamless loop
+      const content = items.join('<span class="ticker-sep">│</span>');
+      tickerEl.innerHTML = content + '<span class="ticker-sep">│</span>' + content;
+    }
   }
 
   // ── Core load + render cycle ───────────────────────────────
@@ -67,6 +120,13 @@
 
     // Update stats bar
     updateStatsBar(data);
+
+    // Update threat ticker
+    updateThreatTicker(data);
+
+    // Update map marker count
+    const markerCountEl = document.getElementById('status-markers');
+    if (markerCountEl) markerCountEl.textContent = `Map: ${MapManager.getMarkerCount()} markers`;
 
     // Update status
     UI.updateStatus(sourceOk, data.cves.length + data.ransomware.length + data.apt.length + data.news.length);
@@ -271,10 +331,16 @@
         if (cve) showCVEModal(cve);
       });
 
-      // Add to map
+      // Add to map with popup data
       const coords = card.dataset.coords.split(',').map(Number);
       if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
-        MapManager.addMarker(coords[0], coords[1], 'cve', card.dataset.id);
+        const cve = cves.find(c => c.id === card.dataset.id);
+        MapManager.addMarker(coords[0], coords[1], 'cve', card.dataset.id, {
+          id: cve?.id,
+          severity: cve?.cvss?.severity,
+          score: cve?.cvss?.score,
+          description: cve?.description,
+        });
       }
     });
   }
@@ -329,7 +395,13 @@
       
       const coords = card.dataset.coords.split(',').map(Number);
       if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
-        MapManager.addMarker(coords[0], coords[1], 'ransomware', card.dataset.id);
+        const victim = victims.find(v => v.id === card.dataset.id);
+        MapManager.addMarker(coords[0], coords[1], 'ransomware', card.dataset.id, {
+          organization: victim?.organization,
+          group: victim?.group,
+          country: victim?.country,
+          name: victim?.organization,
+        });
       }
     });
   }
@@ -356,23 +428,32 @@
     container.innerHTML = groups.map(apt => {
       const coords = API.getCoords(apt.country);
       const sourceName = aptSourceNames[apt.source] || apt.source || 'ATT&CK';
+      const flag = API.getCountryFlag(apt.country);
+      const countryName = API.getCountryName(apt.country);
       
       return `
         <div class="threat-card apt" data-id="${apt.id}" data-coords="${coords.join(',')}">
           <div class="threat-card-header">
             <span class="threat-card-type">APT GROUP</span>
             <span class="source-badge">${escapeHtml(sourceName)}</span>
-            <span>${apt.country}</span>
+            <span>${flag} ${apt.country}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(apt.name)}</div>
           <div class="threat-card-meta">
+            <span>${countryName}</span>
             <span>${apt.targetSectors.slice(0, 2).join(', ')}</span>
           </div>
         </div>
       `;
     }).join('');
 
-    // Add click handlers and map markers
+    // Clear old attack lines before adding new ones
+    MapManager.clearAttackLines();
+
+    // Track which countries have APT labels already
+    const labeledCountries = new Set();
+
+    // Add click handlers, map markers, labels, and attack lines
     container.querySelectorAll('.threat-card').forEach(card => {
       card.addEventListener('click', () => {
         const id = card.dataset.id;
@@ -382,7 +463,41 @@
       
       const coords = card.dataset.coords.split(',').map(Number);
       if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
-        MapManager.addMarker(coords[0], coords[1], 'apt', card.dataset.id);
+        const apt = groups.find(a => a.id === card.dataset.id);
+        const countryCode = apt?.country || '';
+
+        // Add marker with rich popup data
+        MapManager.addMarker(coords[0], coords[1], 'apt', card.dataset.id, {
+          name: apt?.name,
+          country: countryCode,
+          countryName: API.getCountryName(countryCode),
+          countryFlag: API.getCountryFlag(countryCode),
+          aliases: apt?.aliases,
+          targetSectors: apt?.targetSectors,
+          victims: apt?.suspectedVictims,
+        });
+
+        // Add country label on map (once per country)
+        if (countryCode && countryCode !== 'Unknown' && !labeledCountries.has(countryCode)) {
+          labeledCountries.add(countryCode);
+          MapManager.addLabel(coords[0], coords[1], API.getCountryName(countryCode), '#8b5cf6');
+        }
+
+        // Draw attack lines to target countries
+        if (apt?.suspectedVictims && apt.suspectedVictims.length > 0) {
+          const victimCountries = apt.suspectedVictims.slice(0, 5);
+          victimCountries.forEach(victim => {
+            // Try to match victim name to country code
+            const targetCode = Object.entries(API.COUNTRY_COORDS).find(([code]) => {
+              const name = API.getCountryName(code);
+              return name && victim.toLowerCase().includes(name.toLowerCase());
+            });
+            if (targetCode) {
+              const targetCoords = API.getCoords(targetCode[0]);
+              MapManager.addAttackLine(coords[0], coords[1], targetCoords[0], targetCoords[1], '#8b5cf680');
+            }
+          });
+        }
       }
     });
   }

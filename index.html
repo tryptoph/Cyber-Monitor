@@ -257,6 +257,7 @@
         <div class="legend-item"><div class="legend-dot" style="background:var(--high)"></div> High CVE</div>
         <div class="legend-item"><div class="legend-dot" style="background:var(--ransomware)"></div> Ransomware</div>
         <div class="legend-item"><div class="legend-dot" style="background:var(--apt)"></div> APT Activity</div>
+        <div class="legend-item"><div class="legend-line" style="border-top:2px dashed var(--apt)"></div> Attack Flow</div>
       </div>
     </main>
 
@@ -267,6 +268,7 @@
     <div class="status-item" id="status-source">[INIT] Initializing...</div>
     <div class="status-item" id="status-update">--:--:--</div>
     <div class="status-item" id="status-count">0 threats</div>
+    <div class="status-item" id="status-markers">Map: 0 markers</div>
     <div class="status-item" style="margin-left:auto;color:var(--text-muted)">
       Data: CVEProject / GitHub / CVE.org / NVD / ransomware.live / RSS
     </div>
@@ -281,16 +283,24 @@
   </div>
 </div>
 
+<!-- Threat Activity Ticker -->
+<div id="threat-ticker" class="threat-ticker" aria-live="polite">
+  <div class="ticker-label">⚡ LIVE</div>
+  <div class="ticker-track">
+    <div class="ticker-content" id="ticker-content">Initializing threat intelligence feeds...</div>
+  </div>
+</div>
+
 <!-- Toast -->
 <div id="toast-container" aria-live="polite"></div>
 
 <!-- Scripts -->
 <script src="lib/leaflet.js"></script>
-<script src="js/utils.js?v=11"></script>
-<script src="js/api.js?v=11"></script>
-<script src="js/map.js?v=11"></script>
-<script src="js/ui.js?v=11"></script>
-<script src="js/app.js?v=11"></script>
+<script src="js/utils.js?v=12"></script>
+<script src="js/api.js?v=12"></script>
+<script src="js/map.js?v=12"></script>
+<script src="js/ui.js?v=12"></script>
+<script src="js/app.js?v=12"></script>
 
 </body>
 </html>

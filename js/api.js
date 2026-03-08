@@ -1219,12 +1219,52 @@ const API = (() => {
     PH: [12.8797, 121.7740], TH: [15.8700, 100.9925], ID: [-0.7893, 113.9213],
     CO: [4.5709, -74.2973], AR: [-38.4161, -63.6167], CL: [-35.6751, -71.5430],
     NG: [9.0820, 8.6753], EG: [26.8206, 30.8025], TR: [38.9637, 35.2433],
-    MY: [4.2105, 101.9758], VN: [14.0583, 108.2772], PK: [30.3753, 69.3451]
+    MY: [4.2105, 101.9758], VN: [14.0583, 108.2772], PK: [30.3753, 69.3451],
+    IQ: [33.2232, 43.6793], SY: [34.8021, 38.9968], TW: [23.6978, 120.9605],
+    PS: [31.9522, 35.2332], LB: [33.8547, 35.8623], YE: [15.5527, 48.5164],
+    AF: [33.9391, 67.7100], LY: [26.3351, 17.2283], SD: [12.8628, 30.2176],
+    KE: [0.0236, 37.9062], GH: [7.9465, -1.0232], BD: [23.685, 90.3563],
+    MM: [21.9162, 95.956], KH: [12.5657, 104.991], LA: [19.8563, 102.4955],
+    GE: [42.3154, 43.3569], AM: [40.0691, 45.0382], AZ: [40.1431, 47.5769],
+    KZ: [48.0196, 66.9237], UZ: [41.3775, 64.5853], BY: [53.7098, 27.9534]
+  };
+
+  const COUNTRY_NAMES = {
+    US:'United States',CN:'China',RU:'Russia',DE:'Germany',GB:'United Kingdom',
+    FR:'France',JP:'Japan',IN:'India',KR:'South Korea',BR:'Brazil',AU:'Australia',
+    IL:'Israel',IR:'Iran',UA:'Ukraine',SG:'Singapore',KP:'North Korea',CA:'Canada',
+    IT:'Italy',ES:'Spain',NL:'Netherlands',SE:'Sweden',CH:'Switzerland',PL:'Poland',
+    MX:'Mexico',ZA:'South Africa',AE:'UAE',SA:'Saudi Arabia',BE:'Belgium',AT:'Austria',
+    CZ:'Czechia',PH:'Philippines',TH:'Thailand',ID:'Indonesia',CO:'Colombia',
+    AR:'Argentina',CL:'Chile',NG:'Nigeria',EG:'Egypt',TR:'Turkey',MY:'Malaysia',
+    VN:'Vietnam',PK:'Pakistan',IQ:'Iraq',SY:'Syria',TW:'Taiwan',PS:'Palestine',
+    LB:'Lebanon',YE:'Yemen',AF:'Afghanistan',LY:'Libya',SD:'Sudan',KE:'Kenya',
+    GH:'Ghana',BD:'Bangladesh',MM:'Myanmar',KH:'Cambodia',LA:'Laos',GE:'Georgia',
+    AM:'Armenia',AZ:'Azerbaijan',KZ:'Kazakhstan',UZ:'Uzbekistan',BY:'Belarus'
+  };
+
+  const COUNTRY_FLAGS = {
+    US:'🇺🇸',CN:'🇨🇳',RU:'🇷🇺',DE:'🇩🇪',GB:'🇬🇧',FR:'🇫🇷',JP:'🇯🇵',IN:'🇮🇳',
+    KR:'🇰🇷',BR:'🇧🇷',AU:'🇦🇺',IL:'🇮🇱',IR:'🇮🇷',UA:'🇺🇦',SG:'🇸🇬',KP:'🇰🇵',
+    CA:'🇨🇦',IT:'🇮🇹',ES:'🇪🇸',NL:'🇳🇱',SE:'🇸🇪',CH:'🇨🇭',PL:'🇵🇱',MX:'🇲🇽',
+    ZA:'🇿🇦',AE:'🇦🇪',SA:'🇸🇦',BE:'🇧🇪',AT:'🇦🇹',CZ:'🇨🇿',PH:'🇵🇭',TH:'🇹🇭',
+    ID:'🇮🇩',CO:'🇨🇴',AR:'🇦🇷',CL:'🇨🇱',NG:'🇳🇬',EG:'🇪🇬',TR:'🇹🇷',MY:'🇲🇾',
+    VN:'🇻🇳',PK:'🇵🇰',IQ:'🇮🇶',SY:'🇸🇾',TW:'🇹🇼',PS:'🇵🇸',LB:'🇱🇧',YE:'🇾🇪',
+    AF:'🇦🇫',LY:'🇱🇾',SD:'🇸🇩',KE:'🇰🇪',GH:'🇬🇭',BD:'🇧🇩',MM:'🇲🇲',KH:'🇰🇭',
+    LA:'🇱🇦',GE:'🇬🇪',AM:'🇦🇲',AZ:'🇦🇿',KZ:'🇰🇿',UZ:'🇺🇿',BY:'🇧🇾'
   };
 
   // Get coordinates for a threat
   function getCoords(countryCode) {
     return COUNTRY_COORDS[countryCode] || [20, 0];
+  }
+
+  function getCountryName(code) {
+    return COUNTRY_NAMES[code] || code || 'Unknown';
+  }
+
+  function getCountryFlag(code) {
+    return COUNTRY_FLAGS[code] || '🌍';
   }
 
   // Main entry: load all data
@@ -1302,6 +1342,8 @@ const API = (() => {
     fetchMISPGalaxy,
     fetchAPTBySource,
     getCoords,
+    getCountryName,
+    getCountryFlag,
     COUNTRY_COORDS,
     COUNTRY_KEYWORDS
   };

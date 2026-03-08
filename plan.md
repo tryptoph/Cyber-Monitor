@@ -66,11 +66,39 @@ Deployed 4 parallel agents to implement:
 - **CISA KEV** — 1536 known exploited vulnerabilities. Shows "Exploited in Wild" badge with pulse animation.
 
 **How CVE merge works:**
-1. All 4 sources fetched in parallel via `Promise.allSettled()`
-2. Deduplicated by CVE ID (first source wins, priority: CVEProject → GitHub → NVD → CVE.org)
-3. Sorted by `published` date, newest first
-4. Enriched with EPSS scores via batch API call
-5. Limited to user-selected count (10/50/100)
+1. All 4 sources fetched in parallel via `Promise.allSettled()` — each source has an 8-15s timeout
+2. Results collected into a single array; deduplicated by CVE ID using a `Set` — first source wins
+3. Priority order: CVEProject → GitHub Advisory → NVD → CVE.org (real-time sources first)
+4. Each CVE object tagged with `_source` field (e.g., `_source: 'NVD'`)
+5. Sorted by `published` date, newest first
+6. Enriched with EPSS exploit probability scores via batch API call to first.org
+7. Limited to user-selected count (10/50/100)
+8. When user selects a specific source from dropdown, only that source is fetched (skips merge)
+
+**How Malware merge works:**
+1. 5 sources fetched in parallel: ransomware.live, URLhaus, ThreatFox, InQuest, HIBP
+2. Simple concatenation (no deduplication — different data types per source)
+3. Each item already has `source` field from its fetcher
+4. Sorted by `discovered` date, newest first
+5. Limited to count selector value
+
+**How APT merge works:**
+1. MISP Galaxy (primary: 953 actors) + RSS feeds (secondary) fetched in parallel
+2. Simple concatenation — MISP actors listed first, then RSS items
+3. MISP actors sorted: those with country attribution first, then alphabetical
+4. Each APT has `country` field (ISO 2-letter code) mapped to lat/lng for map placement
+
+**How News merge works:**
+1. 10 RSS feeds + HackerNews Algolia API queried in parallel
+2. Each feed goes through 3-proxy fallback chain (rss2json → allorigins → corsproxy)
+3. Deduplicated by normalized title (lowercase, stripped punctuation)
+4. Sorted by publish date, newest first
+
+**NVD Date Fix (Critical):**
+NVD API returns results in ASCENDING order (oldest first) with no way to reverse. Our fix uses a 2-step approach:
+- Step 1: Count query with `resultsPerPage=1` to get `totalResults` count
+- Step 2: Fetch with `startIndex = totalResults - limit` to get the NEWEST entries
+- Window: last 7 days (yields ~1400 results; fetching from the end gives today's CVEs)
 
 **Why dates may show older than today:**
 CVEs have a `published` date that reflects when the vulnerability was originally disclosed, NOT when the API indexed it. NVD may add a CVE to its feed today, but the CVE itself was published days or weeks ago. cvelistV5 gives the most recent CVEs, but during quiet periods even those may be hours/days old. The dates shown are the real publication dates — this is correct behavior.
@@ -200,7 +228,7 @@ test_app.py     — 6 Playwright tests
 | Source Selectors | ✅ Done | All 4 panels have source dropdowns |
 | Count Selectors | ✅ Done | 10/50/100 on all panels, default 50 |
 | Stats Bar | ✅ Done | CVE count, critical, malware, APT, news |
-| Map | ✅ Done | CVE, ransomware, APT markers plotted |
+| Map | ✅ Done | CVE, ransomware, APT markers plotted with popups |
 | EPSS Badges | ✅ Done | Color-coded exploit probability |
 | KEV Badges | ✅ Done | "Exploited in Wild" with pulse animation |
 | Keyboard Shortcuts | ✅ Done | 1-4 tabs, R, S, Esc |
