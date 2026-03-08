@@ -22,6 +22,19 @@
   if (refreshBtn) refreshBtn.addEventListener('click', refreshData);
   let handlersInitialized = false;
 
+  // ── Stats bar updater ──────────────────────────────────────
+  function updateStatsBar(data) {
+    const set = (id, val) => {
+      const el = document.querySelector(`#${id} .stat-value`);
+      if (el) el.textContent = val;
+    };
+    set('stat-cves', data.cves.length);
+    set('stat-critical', data.cves.filter(c => c.cvss?.severity === 'CRITICAL').length);
+    set('stat-malware', data.ransomware.length);
+    set('stat-apt', data.apt.length);
+    set('stat-news', data.news.length);
+  }
+
   // ── Core load + render cycle ───────────────────────────────
   async function loadAndRender() {
     let data = { cves: [], ransomware: [], apt: [], news: [] };
@@ -46,6 +59,9 @@
     renderRansomware(data.ransomware);
     renderAPT(data.apt);
     renderNews(data.news);
+
+    // Update stats bar
+    updateStatsBar(data);
 
     // Update status
     UI.updateStatus(sourceOk, data.cves.length + data.ransomware.length + data.apt.length + data.news.length);
@@ -208,6 +224,20 @@
       // Register this ID as seen
       knownCveIds.add(cve.id);
 
+      // EPSS badge
+      let epssBadge = '';
+      if (cve.epss && cve.epss.score != null) {
+        const epssPercent = (cve.epss.score * 100).toFixed(1);
+        let epssClass = 'epss-low';
+        if (cve.epss.score > 0.5) epssClass = 'epss-critical';
+        else if (cve.epss.score > 0.1) epssClass = 'epss-high';
+        else if (cve.epss.score > 0.01) epssClass = 'epss-medium';
+        epssBadge = `<span class="badge epss-badge ${epssClass}" title="EPSS Exploit Probability: ${epssPercent}% (Percentile: ${(cve.epss.percentile * 100).toFixed(0)}%)">EPSS: ${epssPercent}%</span>`;
+      }
+
+      // KEV badge
+      const kevBadge = isKEV ? '<span class="badge kev-badge" title="CISA Known Exploited Vulnerability">⚠ KEV</span>' : '';
+
       return `
         <div class="threat-card cve ${isKEV ? 'kev' : ''} ${isNew ? 'cve-new' : ''}" data-id="${cve.id}" data-coords="${coords.join(',')}">
           <div class="threat-card-header">
@@ -220,6 +250,8 @@
           <div class="threat-card-meta">
             <span class="cve-id">${cve.id}</span>
             <span class="badge ${severityClass}">${cve.cvss?.severity || 'N/A'} ${cve.cvss?.score ? cve.cvss.score.toFixed(1) : ''}</span>
+            ${epssBadge}
+            ${kevBadge}
           </div>
         </div>
       `;
@@ -254,13 +286,23 @@
       return;
     }
 
+    const malwareSourceNames = {
+      ransomware: 'ransomware.live',
+      threatfox: 'ThreatFox',
+      inquest: 'InQuest',
+      hibp: 'HIBP',
+      urlhaus: 'URLhaus'
+    };
+
     container.innerHTML = victims.map(v => {
       const coords = API.getCoords(v.countryCode);
+      const sourceName = malwareSourceNames[v.source] || v.source || 'Unknown';
       
       return `
         <div class="threat-card ransomware" data-id="${v.id}" data-coords="${coords.join(',')}">
           <div class="threat-card-header">
             <span class="threat-card-type">RANSOMWARE</span>
+            <span class="source-badge">${escapeHtml(sourceName)}</span>
             <span class="threat-card-date">${formatDate(v.discovered)}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(v.organization)}</div>
@@ -299,13 +341,22 @@
       return;
     }
 
+    const aptSourceNames = {
+      misp: 'MISP',
+      mandiant: 'Mandiant',
+      crowdstrike: 'CrowdStrike',
+      securelist: 'Securelist'
+    };
+
     container.innerHTML = groups.map(apt => {
       const coords = API.getCoords(apt.country);
+      const sourceName = aptSourceNames[apt.source] || apt.source || 'ATT&CK';
       
       return `
         <div class="threat-card apt" data-id="${apt.id}" data-coords="${coords.join(',')}">
           <div class="threat-card-header">
             <span class="threat-card-type">APT GROUP</span>
+            <span class="source-badge">${escapeHtml(sourceName)}</span>
             <span>${apt.country}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(apt.name)}</div>
@@ -446,6 +497,47 @@
     if (!overlay || !content) return;
 
     const severityClass = getSeverityClass(cve.cvss?.severity);
+    const isKEV = cachedKEVList && cachedKEVList.length > 0 && API.isInKEV(cve.id, cachedKEVList);
+    const kevDetails = isKEV ? API.getKEVDetails(cve.id, cachedKEVList) : null;
+
+    // Build EPSS section
+    let epssSection = '';
+    if (cve.epss && cve.epss.score != null) {
+      const epssPercent = (cve.epss.score * 100).toFixed(1);
+      const epssPercentile = (cve.epss.percentile * 100).toFixed(0);
+      let epssClass = 'epss-low';
+      if (cve.epss.score > 0.5) epssClass = 'epss-critical';
+      else if (cve.epss.score > 0.1) epssClass = 'epss-high';
+      else if (cve.epss.score > 0.01) epssClass = 'epss-medium';
+      epssSection = `
+        <div class="modal-section">
+          <h4>EPSS — Exploit Prediction</h4>
+          <div class="epss-detail">
+            <div class="epss-detail-row">
+              <span class="badge epss-badge ${epssClass}">Probability: ${epssPercent}%</span>
+              <span class="badge epss-badge epss-percentile">Percentile: ${epssPercentile}th</span>
+            </div>
+            <p class="epss-description">This vulnerability has a <strong>${epssPercent}%</strong> probability of being exploited in the next 30 days, placing it in the <strong>${epssPercentile}th</strong> percentile of all scored CVEs.</p>
+          </div>
+        </div>`;
+    }
+
+    // Build KEV section
+    let kevSection = '';
+    if (isKEV) {
+      kevSection = `
+        <div class="kev-banner">
+          <span class="kev-icon">⚠</span>
+          <span><strong>Known Exploited Vulnerability</strong> — This CVE is in the CISA KEV catalog and has confirmed active exploitation.</span>
+          ${kevDetails?.dateAdded ? `<span class="kev-date">Added: ${kevDetails.dateAdded}</span>` : ''}
+        </div>
+        ${kevDetails?.requiredAction ? `
+        <div class="modal-section">
+          <h4>Required Action</h4>
+          <p class="modal-description">${escapeHtml(kevDetails.requiredAction)}</p>
+          ${kevDetails?.dueDate ? `<p class="text-muted" style="margin-top:6px;">Due: ${kevDetails.dueDate}</p>` : ''}
+        </div>` : ''}`;
+    }
 
     // Build references list
     const refs = cve.references?.length > 0
@@ -469,14 +561,20 @@
         <div class="modal-meta-row">
           ${cve.cvss?.score ? `<span class="badge ${severityClass}">CVSS: ${cve.cvss.score.toFixed(1)}</span>` : ''}
           ${cve.cvss?.severity ? `<span class="badge info">${cve.cvss.severity}</span>` : ''}
+          ${cve.epss?.score != null ? `<span class="badge epss-badge ${cve.epss.score > 0.5 ? 'epss-critical' : cve.epss.score > 0.1 ? 'epss-high' : cve.epss.score > 0.01 ? 'epss-medium' : 'epss-low'}">EPSS: ${(cve.epss.score * 100).toFixed(1)}%</span>` : ''}
+          ${isKEV ? '<span class="badge kev-badge">⚠ KEV</span>' : ''}
           <span>Published: ${formatDate(cve.published)}</span>
           ${cve.modified ? `<span>Modified: ${formatDate(cve.modified)}</span>` : ''}
         </div>
+
+        ${kevSection}
 
         <div class="modal-section">
           <h4>Description</h4>
           <p class="modal-description">${escapeHtml(cve.description)}</p>
         </div>
+
+        ${epssSection}
 
         ${cve.cvss?.vector ? `
         <div class="modal-section">
@@ -764,6 +862,31 @@
       heatmapBtn.style.borderColor = active ? 'var(--accent-cyan)' : '';
     });
   }
+
+  // ── Keyboard shortcuts ──────────────────────────────────
+  function initKeyboardShortcuts() {
+    const tabKeys = { '1': 'cve', '2': 'ransomware', '3': 'news', '4': 'apt' };
+    document.addEventListener('keydown', (e) => {
+      const tag = e.target.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+
+      if (tabKeys[e.key]) {
+        const btn = document.querySelector(`.tab-btn[data-tab="${tabKeys[e.key]}"]`);
+        if (btn) btn.click();
+      } else if (e.key === 'r') {
+        const rb = document.getElementById('refresh-btn');
+        if (rb) rb.click();
+      } else if (e.key === 's' || e.key === '/') {
+        e.preventDefault();
+        const si = document.getElementById('search-input');
+        if (si) si.focus();
+      } else if (e.key === 'Escape') {
+        const overlay = document.getElementById('modal-overlay');
+        if (overlay && !overlay.classList.contains('hidden')) overlay.click();
+      }
+    });
+  }
+  initKeyboardShortcuts();
 
   // ── Kick off ───────────────────────────────────────────
   await loadAndRender();
