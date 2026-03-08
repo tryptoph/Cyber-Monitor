@@ -20,6 +20,7 @@
 
   const refreshBtn = document.getElementById('refresh-btn');
   if (refreshBtn) refreshBtn.addEventListener('click', refreshData);
+  let handlersInitialized = false;
 
   // ── Core load + render cycle ───────────────────────────────
   async function loadAndRender() {
@@ -47,23 +48,18 @@
     renderNews(data.news);
 
     // Update status
-    UI.updateStatus(sourceOk, data.cves.length + data.ransomware.length + data.news.length);
+    UI.updateStatus(sourceOk, data.cves.length + data.ransomware.length + data.apt.length + data.news.length);
     UI.hideLoading();
 
-    // ── Wire up tab navigation ───────────────────────────────
-    initTabs();
-
-    // ── Wire up filters ─────────────────────────────────────
-    initFilters();
-
-    // ── Wire up search ─────────────────────────────────────
-    initSearch();
-
-    // ── Wire up sidebar toggle ─────────────────────────────
-    UI.initSidebarToggle();
-
-    // ── Wire up export ─────────────────────────────────────
-    UI.initExport();
+    if (!handlersInitialized) {
+      // ── Wire up static event handlers only once ─────────────
+      initTabs();
+      initFilters();
+      initSearch();
+      UI.initSidebarToggle();
+      UI.initExport();
+      handlersInitialized = true;
+    }
   }
 
   // ── Auto-refresh every 5 minutes ─────────────────────────
@@ -72,7 +68,88 @@
     Utils.storageSet('cybervulndb_ts', null);
     await loadAndRender();
     UI.showToast('Data auto-refreshed', 'info');
-  }, 5 * 60 * 1000); // 5 minutes
+  }, 5 * 60 * 1000);
+
+  // ── Live news refresh every 3 minutes (silent, no full reload) ─
+  let newsLastFetchTime = null;
+
+  async function refreshNewsPanel() {
+    try {
+      const news = await API.fetchNewsOnly();
+      if (news.length > 0) {
+        if (window.cyberData) window.cyberData.news = news;
+        newsLastFetchTime = Date.now();
+        renderNews(news);
+        updateNewsTimestamp();
+        console.log(`[App] News live-refreshed: ${news.length} items`);
+      }
+    } catch (err) {
+      console.warn('[App] News refresh failed:', err.message);
+    }
+  }
+
+  function updateNewsTimestamp() {
+    const el = document.getElementById('news-last-updated');
+    if (!el || !newsLastFetchTime) return;
+    const s = Math.floor((Date.now() - newsLastFetchTime) / 1000);
+    el.textContent = s < 60 ? 'just now' : `${Math.floor(s / 60)}m ago`;
+  }
+
+  // Tick the "last updated" label every 30 s
+  setInterval(updateNewsTimestamp, 30 * 1000);
+
+  // Refresh only the news panel every 3 minutes
+  setInterval(refreshNewsPanel, 3 * 60 * 1000);
+
+  // ── Live CVE refresh every 2 minutes (silent, panel-only) ─
+  let cveLastFetchTime = null;
+  let knownCveIds = new Set();   // track IDs we've already shown
+
+  function updateCveTimestamp() {
+    const el = document.getElementById('cve-last-updated');
+    if (!el || !cveLastFetchTime) return;
+    const s = Math.floor((Date.now() - cveLastFetchTime) / 1000);
+    el.textContent = s < 60 ? 'just now' : `${Math.floor(s / 60)}m ago`;
+  }
+
+  setInterval(updateCveTimestamp, 30 * 1000);
+
+  async function refreshCVEPanel() {
+    try {
+      const fresh = await API.fetchCVEsOnly();
+      if (!fresh || !fresh.length) return;
+
+      // Find IDs that are truly new since last render
+      const newIds = fresh.filter(c => !knownCveIds.has(c.id)).map(c => c.id);
+
+      // Merge: new CVEs first, then existing ones not in fresh list
+      const existing = (window.cyberData?.cves || []).filter(
+        c => !fresh.find(f => f.id === c.id)
+      );
+      const merged = [...fresh, ...existing].slice(0, 50);
+
+      if (window.cyberData) window.cyberData.cves = merged;
+      cveLastFetchTime = Date.now();
+
+      // Re-render with "new" IDs flagged
+      renderCVEs(merged, new Set(newIds));
+      updateCveTimestamp();
+
+      // Update count badge
+      const badge = document.getElementById('cve-count-badge');
+      if (badge) badge.textContent = merged.length || '';
+
+      if (newIds.length > 0) {
+        UI.showToast(`${newIds.length} new CVE${newIds.length > 1 ? 's' : ''} detected`, 'info');
+        console.log(`[App] CVE live-refresh: ${newIds.length} new, ${fresh.length} total`);
+      }
+    } catch (err) {
+      console.warn('[App] CVE refresh failed:', err.message);
+    }
+  }
+
+  // Refresh CVE panel every 2 minutes
+  setInterval(refreshCVEPanel, 2 * 60 * 1000);
 
   // ── Render functions ──────────────────────────────────────
   // Store current filter
@@ -81,27 +158,34 @@
 
   // Load KEV data (non-blocking)
   function loadKEVData() {
-    if (!cachedKEVList) {
-      API.fetchKEV().then(kev => {
-        cachedKEVList = kev || [];
-      }).catch(() => {
-        cachedKEVList = [];
-      });
-    }
+    if (cachedKEVList !== null) return;
+    API.fetchKEV().then(kev => {
+      cachedKEVList = kev || [];
+      const data = window.cyberData;
+      if (data && data.cves && data.cves.length) {
+        renderCVEs(data.cves);
+      }
+    }).catch(() => {
+      cachedKEVList = [];
+    });
   }
 
-  function renderCVEs(cves) {
+  function renderCVEs(cves, newIds = new Set()) {
     const container = document.getElementById('cve-list');
     if (!container) return;
 
-    // Sort by date (newest first)
+    // Sort by published — newest first
     cves.sort((a, b) => new Date(b.published) - new Date(a.published));
 
-    // Apply severity filter if set
+    // Apply severity filter
     let filteredCves = cves;
     if (currentSeverityFilter) {
       filteredCves = cves.filter(c => c.cvss && c.cvss.severity === currentSeverityFilter);
     }
+
+    // Update count badge on CVE tab
+    const badge = document.getElementById('cve-count-badge');
+    if (badge) badge.textContent = filteredCves.length || '';
 
     if (!filteredCves.length) {
       container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⟩</div><div class="empty-state-text">No CVEs found</div></div>';
@@ -116,17 +200,23 @@
       const countryCode = detectCountryFromText(cve.description);
       const coords = API.getCoords(countryCode);
       const isKEV = cachedKEVList && cachedKEVList.length > 0 && API.isInKEV(cve.id, cachedKEVList);
+      const isNew = newIds.has(cve.id);
+
+      // Register this ID as seen
+      knownCveIds.add(cve.id);
 
       return `
-        <div class="threat-card cve ${isKEV ? 'kev' : ''}" data-id="${cve.id}" data-coords="${coords.join(',')}" onclick="window.showCVEModalById && window.showCVEModalById('${cve.id}')">
+        <div class="threat-card cve ${isKEV ? 'kev' : ''} ${isNew ? 'cve-new' : ''}" data-id="${cve.id}" data-coords="${coords.join(',')}">
           <div class="threat-card-header">
-            <span class="threat-card-type">${isKEV ? '⚠ CVE (KEV)' : 'CVE'}</span>
-            <span class="threat-card-date">${formatDate(cve.published)}</span>
+            <span class="threat-card-type">
+              ${isNew ? '<span class="cve-new-badge">NEW</span> ' : ''}${isKEV ? '⚠ CVE (KEV)' : 'CVE'}
+            </span>
+            <span class="threat-card-date" data-ts="${cve.published}">${timeAgo(cve.published)}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(cve.description.substring(0, 100))}...</div>
           <div class="threat-card-meta">
             <span class="cve-id">${cve.id}</span>
-            <span class="badge ${severityClass}">${cve.cvss?.score?.toFixed(1) || 'N/A'}</span>
+            <span class="badge ${severityClass}">${cve.cvss?.severity || 'N/A'} ${cve.cvss?.score ? cve.cvss.score.toFixed(1) : ''}</span>
           </div>
         </div>
       `;
@@ -135,21 +225,15 @@
     // Add click handlers
     container.querySelectorAll('.threat-card').forEach(card => {
       card.addEventListener('click', (e) => {
-        console.log('[App] Card clicked:', card.dataset.id);
         e.preventDefault();
         e.stopPropagation();
-        try {
-          const cveId = card.dataset.id;
-          const cve = cves.find(c => c.id === cveId);
-          if (cve) showCVEModal(cve);
-        } catch (err) {
-          console.error('[App] Error showing CVE modal:', err);
-        }
+        const cve = cves.find(c => c.id === card.dataset.id);
+        if (cve) showCVEModal(cve);
       });
-      
+
       // Add to map
       const coords = card.dataset.coords.split(',').map(Number);
-      if (coords[0]) {
+      if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
         MapManager.addMarker(coords[0], coords[1], 'cve', card.dataset.id);
       }
     });
@@ -191,7 +275,7 @@
       });
       
       const coords = card.dataset.coords.split(',').map(Number);
-      if (coords[0]) {
+      if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
         MapManager.addMarker(coords[0], coords[1], 'ransomware', card.dataset.id);
       }
     });
@@ -232,7 +316,7 @@
       });
       
       const coords = card.dataset.coords.split(',').map(Number);
-      if (coords[0]) {
+      if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
         MapManager.addMarker(coords[0], coords[1], 'apt', card.dataset.id);
       }
     });
@@ -242,21 +326,33 @@
     const container = document.getElementById('news-list');
     if (!container) return;
     
+    // Update count badge on the NEWS tab
+    const badge = document.getElementById('news-count-badge');
+    if (badge) badge.textContent = news.length > 0 ? news.length : '';
+
     if (!news.length) {
-      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⟩</div><div class="empty-state-text">No news available</div></div>';
+      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⟩</div><div class="empty-state-text">Fetching live news...</div></div>';
       return;
     }
 
+    const now = Date.now();
+    const FRESH_MS = 30 * 60 * 1000; // highlight items under 30 minutes old
+
     container.innerHTML = news.map(item => {
+      const isFresh = (now - new Date(item.published).getTime()) < FRESH_MS;
+      const categoryLabel = (item.category || 'news').toUpperCase();
       return `
-        <div class="threat-card news" data-link="${item.link}">
+        <div class="threat-card news ${isFresh ? 'news-fresh' : ''}" data-link="${escapeHtml(item.link)}">
           <div class="threat-card-header">
-            <span class="threat-card-type">${item.category}</span>
-            <span class="threat-card-date">${formatDate(item.published)}</span>
+            <span class="threat-card-type${isFresh ? ' news-live-badge' : ''}">
+              ${isFresh ? '<span class="news-dot"></span>' : ''}${categoryLabel}
+            </span>
+            <span class="threat-card-date" data-ts="${item.published}">${formatDate(item.published)}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(item.title)}</div>
           <div class="threat-card-meta">
-            <span>${item.source}</span>
+            <span class="news-source-label">${escapeHtml(item.source)}</span>
+            ${item.points ? `<span class="news-points">▲ ${item.points}</span>` : ''}
           </div>
         </div>
       `;
@@ -294,19 +390,31 @@
     return 'US';
   }
 
-  function formatDate(dateStr) {
+  // Precise relative time: "just now" / "5m ago" / "3h 20m ago" / "Mar 2, 07:16" / "Oct 5, 2025"
+  function timeAgo(dateStr) {
     const date = new Date(dateStr);
-    const now = new Date();
-    const diff = now - date;
-    const hours = Math.floor(diff / (1000 * 60 * 60));
-    
-    if (hours < 1) return 'Just now';
-    if (hours < 24) return `${hours}h ago`;
-    const days = Math.floor(hours / 24);
-    if (days < 7) return `${days}d ago`;
-    // Show actual date for older items
-    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const diff = Date.now() - date.getTime();
+    if (diff < 0) return 'just now';
+    const sec  = Math.floor(diff / 1000);
+    const min  = Math.floor(sec / 60);
+    const hr   = Math.floor(min / 60);
+    const days = Math.floor(hr / 24);
+
+    if (sec  < 60)  return 'just now';
+    if (min  < 60)  return `${min}m ago`;
+    if (hr   < 24)  return min % 60 ? `${hr}h ${min % 60}m ago` : `${hr}h ago`;
+    if (days < 2)   return `${days}d ago`;
+
+    // For items > 2 days old, show exact date + time — much more readable
+    const sameYear = date.getFullYear() === new Date().getFullYear();
+    const opts = sameYear
+      ? { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }
+      : { month: 'short', day: 'numeric', year: 'numeric' };
+    return date.toLocaleDateString('en-US', opts);
   }
+
+  // formatDate used in cards (same as timeAgo)
+  function formatDate(dateStr) { return timeAgo(dateStr); }
 
   function escapeHtml(text) {
     const div = document.createElement('div');
@@ -314,13 +422,12 @@
     return div.innerHTML;
   }
 
-  // Global function to show CVE modal by ID (for onclick handlers)
-  window.showCVEModalById = function(cveId) {
-    const data = window.cyberData;
-    if (!data || !data.cves) return;
-    const cve = data.cves.find(c => c.id === cveId);
-    if (cve) showCVEModal(cve);
-  };
+  // Tick every minute — re-render all visible date spans in-place
+  setInterval(() => {
+    document.querySelectorAll('[data-ts]').forEach(el => {
+      el.textContent = timeAgo(el.dataset.ts);
+    });
+  }, 60 * 1000);
 
   // ── Modal functions ─────────────────────────────────────
   function showCVEModal(cve) {
@@ -555,4 +662,13 @@
 
   // ── Kick off ───────────────────────────────────────────
   await loadAndRender();
+
+  // Seed known IDs so first refresh only flags genuinely new CVEs
+  (window.cyberData?.cves || []).forEach(c => knownCveIds.add(c.id));
+  cveLastFetchTime = Date.now();
+  updateCveTimestamp();
+
+  // Set initial news timestamp after first load
+  newsLastFetchTime = Date.now();
+  updateNewsTimestamp();
 })();

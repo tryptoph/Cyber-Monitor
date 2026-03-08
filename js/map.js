@@ -68,7 +68,7 @@ const MapManager = (() => {
   }
 
   function addMarker(lat, lng, type, id) {
-    if (!map || !lat || !lng) return;
+    if (!map || !Number.isFinite(lat) || !Number.isFinite(lng)) return;
 
     // Check if marker already exists
     const existing = markers.find(m => m._id === id);
@@ -89,7 +89,7 @@ const MapManager = (() => {
   }
 
   function flyTo(lat, lng, zoom = 5) {
-    if (map && lat && lng) {
+    if (map && Number.isFinite(lat) && Number.isFinite(lng)) {
       map.flyTo([lat, lng], zoom, { duration: 1 });
     }
   }

@@ -12,6 +12,13 @@ const API = (() => {
   const CISA_KEV_URL = 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json';
   const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
 
+  // Ordered proxy fallback chain for RSS feeds
+  const RSS_PROXIES = [
+    url => `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&count=10`,
+    url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+    url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+  ];
+
   // Timeout helper
   function timeout(ms) {
     return new Promise((_, reject) => 
@@ -24,16 +31,18 @@ const API = (() => {
   let kevCacheTime = null;
   const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
   
-  // Security RSS Feeds
+  // Security RSS Feeds — broader, more reliable sources
   const RSS_FEEDS = [
-    { name: 'The Hacker News', url: 'https://feeds.feedburner.com/TheHackersNews', category: 'vulnerabilities' },
-    { name: 'Krebs on Security', url: 'https://krebsonsecurity.com/feed/', category: 'breaches' },
-    { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', category: 'vulnerabilities' },
-    { name: 'Dark Reading', url: 'https://www.darkreading.com/rss.xml', category: 'enterprise' },
-    { name: 'SecurityWeek', url: 'https://www.securityweek.com/feed/', category: 'enterprise' },
-    { name: 'SANS ISC', url: 'https://isc.sans.edu/rssfeed.xml', category: 'malware' },
-    { name: 'Malwarebytes', url: 'https://blog.malwarebytes.com/feed/', category: 'malware' },
-    { name: 'Schneier', url: 'https://www.schneier.com/blog/atom.xml', category: 'policy' },
+    { name: 'The Hacker News',  url: 'https://feeds.feedburner.com/TheHackersNews',           category: 'vulnerabilities' },
+    { name: 'Krebs on Security', url: 'https://krebsonsecurity.com/feed/',                    category: 'breaches' },
+    { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/',                 category: 'vulnerabilities' },
+    { name: 'SANS ISC',         url: 'https://isc.sans.edu/rssfeed.xml',                       category: 'malware' },
+    { name: 'SecurityWeek',     url: 'https://www.securityweek.com/feed/',                     category: 'enterprise' },
+    { name: 'Dark Reading',     url: 'https://www.darkreading.com/rss.xml',                    category: 'enterprise' },
+    { name: 'Malwarebytes',     url: 'https://blog.malwarebytes.com/feed/',                    category: 'malware' },
+    { name: 'Threatpost',       url: 'https://threatpost.com/feed/',                           category: 'vulnerabilities' },
+    { name: 'Schneier',         url: 'https://www.schneier.com/blog/atom.xml',                 category: 'policy' },
+    { name: 'Wired Security',   url: 'https://www.wired.com/category/security/feed/rss/',      category: 'enterprise' },
   ];
 
   // Country code mapping for CVEs
@@ -51,23 +60,112 @@ const API = (() => {
     JP: ['japan', 'japanese', 'tokyo'],
   };
 
-  // Parse RSS feed
-  async function fetchRSS(feed) {
+  // ── HackerNews Algolia API ────────────────────────────────
+  // Primary news source — no CORS issues, always live, proper JSON
+  async function fetchHackerNews() {
+    const QUERIES = [
+      { q: 'cybersecurity vulnerability CVE exploit zero-day', category: 'vulnerabilities' },
+      { q: 'ransomware breach data leak hacked attack',        category: 'breaches' },
+      { q: 'malware threat actor apt trojan backdoor',         category: 'malware' },
+    ];
+
     try {
-      // Use allorigins CORS proxy
-      const proxyUrl = `${CORS_PROXY}${encodeURIComponent(feed.url)}`;
-      const response = await fetch(proxyUrl);
-      if (!response.ok) return [];
-      
-      const xml = await response.text();
-      return parseRSSItems(xml, feed);
+      const promises = QUERIES.map(({ q, category }) => {
+        const url = `https://hn.algolia.com/api/v1/search_by_date?tags=story&query=${encodeURIComponent(q)}&hitsPerPage=8&numericFilters=points%3E2`;
+        return Promise.race([fetch(url), timeout(8000)])
+          .then(r => r.ok ? r.json() : { hits: [] })
+          .then(data => (data.hits || [])
+            .filter(h => h.url && h.title)
+            .map(h => ({
+              id: `hn-${h.objectID}`,
+              title: h.title,
+              link: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
+              description: (h.story_text || '').replace(/<[^>]+>/g, '').substring(0, 200) || h.title,
+              source: 'HackerNews',
+              category,
+              published: h.created_at,
+              type: 'news',
+              points: h.points || 0,
+            }))
+          )
+          .catch(() => []);
+      });
+
+      const results = await Promise.all(promises);
+      const items = results.flat().filter(i => i.title && i.link);
+      console.log(`[API] HackerNews: ${items.length} items`);
+      return items;
     } catch (err) {
-      console.warn(`[API] RSS fetch failed for ${feed.name}:`, err.message);
+      console.warn('[API] HackerNews fetch failed:', err.message);
       return [];
     }
   }
 
-  // Parse RSS XML
+  // ── RSS with proxy fallback chain ─────────────────────────
+  // Tries rss2json (JSON) → allorigins (raw XML) → corsproxy.io (raw XML)
+  async function fetchRSSWithFallbacks(feed) {
+    // 1. rss2json — converts RSS to clean JSON, most reliable
+    try {
+      const url = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=10`;
+      const res = await Promise.race([fetch(url), timeout(7000)]);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.status === 'ok' && data.items?.length > 0) {
+          console.log(`[API] rss2json ✓ ${feed.name} (${data.items.length})`);
+          return data.items.map(item => ({
+            id: item.guid || item.link || Utils.uid(),
+            title: (item.title || '').trim(),
+            link: item.link || '',
+            description: (item.description || '').replace(/<[^>]+>/g, '').substring(0, 200),
+            source: feed.name,
+            category: feed.category,
+            published: item.pubDate || new Date().toISOString(),
+            type: 'news',
+          })).filter(i => i.title && i.link);
+        }
+      }
+    } catch { /* try next */ }
+
+    // 2. allorigins raw proxy → parse XML ourselves
+    try {
+      const res = await Promise.race([
+        fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(feed.url)}`),
+        timeout(6000)
+      ]);
+      if (res.ok) {
+        const items = parseRSSItems(await res.text(), feed);
+        if (items.length > 0) {
+          console.log(`[API] allorigins ✓ ${feed.name} (${items.length})`);
+          return items;
+        }
+      }
+    } catch { /* try next */ }
+
+    // 3. corsproxy.io
+    try {
+      const res = await Promise.race([
+        fetch(`https://corsproxy.io/?${encodeURIComponent(feed.url)}`),
+        timeout(6000)
+      ]);
+      if (res.ok) {
+        const items = parseRSSItems(await res.text(), feed);
+        if (items.length > 0) {
+          console.log(`[API] corsproxy ✓ ${feed.name} (${items.length})`);
+          return items;
+        }
+      }
+    } catch { /* all proxies failed */ }
+
+    console.warn(`[API] All proxies failed: ${feed.name}`);
+    return [];
+  }
+
+  // Keep legacy fetchRSS for backward compat
+  async function fetchRSS(feed) {
+    return fetchRSSWithFallbacks(feed);
+  }
+
+  // ── Parse RSS XML ─────────────────────────────────────────
   function parseRSSItems(xml, feed) {
     const items = [];
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
@@ -97,15 +195,36 @@ const API = (() => {
     return items.slice(0, 10); // Limit per feed
   }
 
-  // Fetch all RSS feeds
+  // ── Aggregate all news sources ────────────────────────────
   async function fetchAllNews() {
-    const promises = RSS_FEEDS.map(feed => fetchRSS(feed));
-    const results = await Promise.all(promises);
-    const allNews = results.flat();
-    
-    // Sort by date
-    allNews.sort((a, b) => new Date(b.published) - new Date(a.published));
-    return allNews.slice(0, 50);
+    console.log('[API] Fetching news from all sources...');
+
+    const [hnItems, ...rssResults] = await Promise.all([
+      fetchHackerNews(),
+      ...RSS_FEEDS.map(feed => fetchRSSWithFallbacks(feed)),
+    ]);
+
+    const allItems = [...hnItems, ...rssResults.flat()];
+
+    // Deduplicate by normalised URL
+    const seen = new Set();
+    const deduped = allItems.filter(item => {
+      if (!item.link || !item.title) return false;
+      const key = item.link.toLowerCase().replace(/\/$/, '').replace(/^https?:\/\//, '');
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+    deduped.sort((a, b) => new Date(b.published) - new Date(a.published));
+
+    console.log(`[API] News: ${hnItems.length} HN + ${rssResults.flat().length} RSS → ${deduped.length} unique`);
+    return deduped.slice(0, 60);
+  }
+
+  // Fetch only news (bypasses main data cache — use for live panel updates)
+  async function fetchNewsOnly() {
+    return fetchAllNews();
   }
 
   // Fetch CISA KEV data
@@ -147,12 +266,11 @@ const API = (() => {
   }
 
   // Fetch CVEs from NVD API 2.0
-  async function fetchCVEsFromNVD(limit = 20, severity = '') {
+  async function fetchCVEsFromNVD(limit = 30, severity = '') {
     try {
-      // Build query parameters
       const params = new URLSearchParams();
 
-      // Get CVEs from last 30 days
+      // Last 30 days — NVD has a 5-7 day processing lag, so 7 days would miss most recent entries
       const endDate = new Date();
       const startDate = new Date();
       startDate.setDate(startDate.getDate() - 30);
@@ -161,32 +279,22 @@ const API = (() => {
       params.append('pubEndDate', endDate.toISOString());
       params.append('resultsPerPage', String(limit));
 
-      if (severity) {
-        params.append('cvssV3Severity', severity.toUpperCase());
-      }
+      if (severity) params.append('cvssV3Severity', severity.toUpperCase());
 
       const url = `${NVD_API}?${params.toString()}`;
       console.log('[API] Fetching from NVD:', url);
 
-      const response = await Promise.race([
-        fetch(url),
-        timeout(15000) // 15 second timeout
-      ]);
-      
-      if (!response.ok) {
-        throw new Error(`NVD API returned ${response.status}`);
-      }
+      const response = await Promise.race([fetch(url), timeout(15000)]);
+      if (!response.ok) throw new Error(`NVD API returned ${response.status}`);
 
       const data = await response.json();
       const vulnerabilities = data.vulnerabilities || [];
-
       console.log(`[API] Fetched ${vulnerabilities.length} CVEs from NVD`);
 
-      return vulnerabilities.map(item => {
+      const mapped = vulnerabilities.map(item => {
         const cve = item.cve;
         const metrics = cve.metrics?.cvssMetricV31?.[0] || cve.metrics?.cvssMetricV30?.[0];
         const cvssData = metrics?.cvssData;
-
         return {
           id: cve.id,
           description: cve.descriptions?.find(d => d.lang === 'en')?.value || 'No description',
@@ -199,31 +307,39 @@ const API = (() => {
           } : { score: 0, severity: 'NONE', vector: '' },
           references: cve.references?.map(r => r.url) || [],
           cpe: cve.configurations?.flatMap(c =>
-            c.nodes?.flatMap(n =>
-              n.cpeMatch?.map(m => m.criteria) || []
-            ) || []
+            c.nodes?.flatMap(n => n.cpeMatch?.map(m => m.criteria) || []) || []
           ) || [],
           type: 'cve'
         };
       });
+
+      // Sort by published date — newest first
+      mapped.sort((a, b) => new Date(b.published) - new Date(a.published));
+      return mapped;
     } catch (err) {
       console.error('[API] NVD fetch failed:', err);
-      return null; // Return null to indicate failure
+      return null;
     }
   }
 
-  // Fetch CVEs - use fallback data (NVD API unreliable)
-  async function fetchCVEs(limit = 20, severity = '') {
-    // Use fallback data directly - NVD API is unreliable
-    console.log('[API] Using fallback CVE data');
-    let fallback = getFallbackCVEs();
-
-    // Apply severity filter if specified
-    if (severity) {
-      fallback = fallback.filter(c => c.cvss?.severity === severity.toUpperCase());
+  // Fetch CVEs - live NVD first, fallback data on failure
+  async function fetchCVEs(limit = 30, severity = '') {
+    const live = await fetchCVEsFromNVD(limit, severity);
+    if (Array.isArray(live) && live.length > 0) {
+      console.log(`[API] Using live NVD data (${live.length} CVEs)`);
+      return live.slice(0, limit);
     }
 
+    console.log('[API] Live NVD unavailable, using fallback CVE data');
+    let fallback = getFallbackCVEs();
+    if (severity) fallback = fallback.filter(c => c.cvss?.severity === severity.toUpperCase());
+    fallback.sort((a, b) => new Date(b.published) - new Date(a.published));
     return fallback.slice(0, limit);
+  }
+
+  // Dedicated live CVE fetch — always bypasses cache, used for panel-only refresh
+  async function fetchCVEsOnly() {
+    return fetchCVEsFromNVD(30);
   }
   
   // Fallback CVEs - actually recent from NVD (verified latest - March 7, 2026)
@@ -327,11 +443,14 @@ const API = (() => {
 
     console.log('[API] Loading fresh data...');
     
-    // Load data - use fallback/mock for reliability
-    const cves = await fetchCVEs(20);
+    // Load data with resilient fallbacks
+    const cves = await fetchCVEs(30);
     const ransomware = getMockRansomware();
     const apt = getMockAPT();
-    const news = []; // Skip RSS for now
+    const news = await Promise.race([
+      fetchAllNews().catch(() => []),
+      timeout(20000).catch(() => [])  // allow more time for multi-source news
+    ]);
 
     const data = { cves, ransomware, apt, news };
     
@@ -351,7 +470,9 @@ const API = (() => {
   return {
     loadAllData,
     fetchCVEs,
+    fetchCVEsOnly,
     fetchAllNews,
+    fetchNewsOnly,
     fetchKEV,
     isInKEV,
     getKEVDetails,

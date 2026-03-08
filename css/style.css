@@ -1294,3 +1294,117 @@ select:focus-visible {
   background: var(--accent-cyan);
   color: var(--bg-primary);
 }
+
+/* ── Live News styles ────────────────────────────────────── */
+.news-header-right,
+.cve-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.news-timestamp {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  font-family: 'IBM Plex Mono', monospace;
+  white-space: nowrap;
+}
+
+/* Pulsing left border for items < 30 min old */
+.threat-card.news.news-fresh::before {
+  animation: newsFreshPulse 2s ease-in-out 4;
+}
+
+@keyframes newsFreshPulse {
+  0%, 100% { box-shadow: 0 0 6px var(--info); }
+  50%       { box-shadow: 0 0 14px var(--info), 0 0 24px rgba(100,210,255,0.3); }
+}
+
+/* Live dot inside the category label for fresh items */
+.news-live-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.news-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: var(--accent-cyan);
+  border-radius: 50%;
+  flex-shrink: 0;
+  animation: blink 1.2s ease-in-out infinite;
+}
+
+/* Source label below card title */
+.news-source-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  opacity: 0.85;
+}
+
+/* HN upvote points */
+.news-points {
+  font-size: 0.62rem;
+  color: var(--high);
+  opacity: 0.8;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Count badge on tab buttons */
+.tab-count {
+  display: inline-block;
+  background: var(--accent-cyan);
+  color: var(--bg-primary);
+  border-radius: 999px;
+  padding: 0 5px;
+  font-size: 0.55rem;
+  font-weight: 700;
+  min-width: 16px;
+  text-align: center;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+/* NVD lag note */
+.nvd-lag-note {
+  font-size: 0.58rem;
+  color: var(--text-muted);
+  opacity: 0.7;
+  cursor: help;
+  white-space: nowrap;
+  border-bottom: 1px dotted var(--text-muted);
+}
+.cve-new-badge {
+  display: inline-block;
+  background: rgba(0, 255, 213, 0.15);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(0, 255, 213, 0.4);
+  border-radius: 3px;
+  font-size: 0.55rem;
+  font-weight: 700;
+  padding: 1px 5px;
+  vertical-align: middle;
+  letter-spacing: 0.08em;
+  animation: newBadgeFade 8s forwards;
+}
+
+@keyframes newBadgeFade {
+  0%   { opacity: 1; }
+  70%  { opacity: 1; }
+  100% { opacity: 0; width: 0; padding: 0; margin: 0; overflow: hidden; }
+}
+
+/* Slide-in animation for newly added CVE cards */
+.threat-card.cve-new {
+  animation: slideInNew 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  border-color: rgba(0, 255, 213, 0.35);
+  box-shadow: 0 0 12px rgba(0, 255, 213, 0.12);
+}
+
+@keyframes slideInNew {
+  from { transform: translateX(-10px); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}

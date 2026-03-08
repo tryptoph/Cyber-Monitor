@@ -70,13 +70,13 @@
       <!-- Tab Navigation -->
       <div class="sidebar-tabs">
         <button class="tab-btn active" data-tab="cve">
-          <span>⚡</span> CVE
+          <span>⚡</span> CVE <span id="cve-count-badge" class="tab-count"></span>
         </button>
         <button class="tab-btn" data-tab="ransomware">
           <span>⚠</span> RANSOM
         </button>
         <button class="tab-btn" data-tab="news">
-          <span>◉</span> NEWS
+          <span>◉</span> NEWS <span id="news-count-badge" class="tab-count"></span>
         </button>
         <button class="tab-btn" data-tab="apt">
           <span>◎</span> APT
@@ -87,13 +87,17 @@
       <div class="panel active" id="panel-cve">
         <div class="panel-header">
           <h3>// Latest CVEs</h3>
-          <select id="cve-severity-filter">
-            <option value="">All Severity</option>
-            <option value="CRITICAL">Critical</option>
-            <option value="HIGH">High</option>
-            <option value="MEDIUM">Medium</option>
-            <option value="LOW">Low</option>
-          </select>
+          <div class="cve-header-right">
+            <span id="cve-last-updated" class="news-timestamp"></span>
+            <span class="nvd-lag-note" title="NVD typically publishes CVEs 3–7 days after disclosure">⚡ NVD ~6d lag</span>
+            <select id="cve-severity-filter">
+              <option value="">All Severity</option>
+              <option value="CRITICAL">Critical</option>
+              <option value="HIGH">High</option>
+              <option value="MEDIUM">Medium</option>
+              <option value="LOW">Low</option>
+            </select>
+          </div>
         </div>
         <div id="cve-list" class="threat-list">
           <div class="empty-state">
@@ -120,12 +124,15 @@
       <div class="panel" id="panel-news">
         <div class="panel-header">
           <h3>// Security News</h3>
-          <select id="news-category-filter">
-            <option value="">All Categories</option>
-            <option value="vulnerabilities">Vulnerabilities</option>
-            <option value="breaches">Breaches</option>
-            <option value="malware">Malware</option>
-          </select>
+          <div class="news-header-right">
+            <span id="news-last-updated" class="news-timestamp"></span>
+            <select id="news-category-filter">
+              <option value="">All Categories</option>
+              <option value="vulnerabilities">Vulnerabilities</option>
+              <option value="breaches">Breaches</option>
+              <option value="malware">Malware</option>
+            </select>
+          </div>
         </div>
         <div id="news-list" class="threat-list">
           <div class="empty-state">
