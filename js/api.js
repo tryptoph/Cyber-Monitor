@@ -102,25 +102,23 @@ const API = (() => {
     return getFallbackCVEs();
   }
   
-  // Fallback CVEs - actually recent from NVD (verified latest)
+  // Fallback CVEs - actually recent from NVD (verified latest - March 7, 2026)
   function getFallbackCVEs() {
     return [
+      // March 7, 2026 (TODAY)
+      { id: 'CVE-2026-30823', description: 'Flowise before 3.0.13 IDOR vulnerability leading to account takeover and enterprise feature bypass via SSO configuration', published: '2026-03-07T06:16:00.000Z', cvss: { score: 8.8, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
+      { id: 'CVE-2026-28802', description: 'Authlib Python library from 1.6.5 to before 1.6.7 - malicious JWT with alg: none can bypass signature verification', published: '2026-03-07T00:00:00.000Z', cvss: { score: 7.5, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
       // March 6, 2026
+      { id: 'CVE-2026-3537', description: 'Object lifecycle issue in PowerVR in Google Chrome on Android prior to 145.0.7632.159 - heap corruption via crafted HTML', published: '2026-03-06T00:00:00.000Z', cvss: { score: 8.8, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
+      { id: 'CVE-2026-28133', description: 'WP Chill Filr filr-protection unrestricted file upload vulnerability allowing web shell upload', published: '2026-03-06T00:00:00.000Z', cvss: { score: 9.8, severity: 'CRITICAL', vector: 'CVSS:3.1' }, type: 'cve' },
       { id: 'CVE-2026-28485', description: 'OpenClaw fail to enforce mandatory authentication on /agent/act browser-control HTTP route', published: '2026-03-06T00:00:00.000Z', cvss: { score: 8.4, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
       { id: 'CVE-2026-3383', description: 'ChaiScript up to 6.1.0 weakness in chaiscript::Boxed_Number::go function', published: '2026-03-06T00:00:00.000Z', cvss: { score: 6.5, severity: 'MEDIUM', vector: 'CVSS:3.1' }, type: 'cve' },
       // March 5, 2026
       { id: 'CVE-2026-26720', description: 'Twenty CRM v1.15.0 remote attacker execute arbitrary code via local.driver.ts module', published: '2026-03-05T00:00:00.000Z', cvss: { score: 9.8, severity: 'CRITICAL', vector: 'CVSS:3.1' }, type: 'cve' },
       { id: 'CVE-2026-27971', description: 'Qwik <=1.19.0 vulnerable to RCE due to unsafe deserialization in server$ RPC mechanism', published: '2026-03-05T00:00:00.000Z', cvss: { score: 9.8, severity: 'CRITICAL', vector: 'CVSS:3.1' }, type: 'cve' },
       { id: 'CVE-2026-27820', description: 'Buffer overflow vulnerability in Zlib::GzipReader in Ruby zlib gem', published: '2026-03-05T00:00:00.000Z', cvss: { score: 7.5, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-3336', description: 'Vulnerability in wren-lang wren up to 0.4.0 - out-of-bounds read', published: '2026-03-05T00:00:00.000Z', cvss: { score: 5.3, severity: 'MEDIUM', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-28546', description: 'Buffer overflow vulnerability in the scanning module', published: '2026-03-05T04:16:11.000Z', cvss: { score: 5.5, severity: 'MEDIUM', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-28547', description: 'Uninitialized pointer access vulnerability in scanning module', published: '2026-03-05T04:16:11.000Z', cvss: { score: 5.5, severity: 'MEDIUM', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-28552', description: 'Out-of-bounds write vulnerability in the IMS module', published: '2026-03-05T03:15:59.000Z', cvss: { score: 7.5, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
       // March 3, 2026
       { id: 'CVE-2026-3136', description: 'Improper authorization vulnerability in Google Cloud Build Trigger Comment Control', published: '2026-03-03T12:16:19.000Z', cvss: { score: 9.8, severity: 'CRITICAL', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-26892', description: 'Sourcecodester Logistic Hub Parcel Management System SQL Injection', published: '2026-03-03T15:16:49.000Z', cvss: { score: 7.2, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
-      // Older but critical
-      { id: 'CVE-2026-1633', description: 'Synectix LAN 232 TRIO adapter unauthenticated web interface', published: '2026-02-04T00:16:08.000Z', cvss: { score: 10.0, severity: 'CRITICAL', vector: 'CVSS:3.1' }, type: 'cve' },
     ];
   }
 

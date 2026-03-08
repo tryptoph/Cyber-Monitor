@@ -61,13 +61,15 @@
 
     // ── Wire up export ─────────────────────────────────────
     UI.initExport();
-
-    // Auto-refresh every 15 minutes
-    setTimeout(() => {
-      Utils.storageSet('cybervulndb_ts', null);
-      loadAndRender();
-    }, 15 * 60 * 1000);
   }
+
+  // ── Auto-refresh every 5 minutes ─────────────────────────
+  setInterval(async () => {
+    console.log('[App] Auto-refreshing data...');
+    Utils.storageSet('cybervulndb_ts', null);
+    await loadAndRender();
+    UI.showToast('Data auto-refreshed', 'info');
+  }, 5 * 60 * 1000); // 5 minutes
 
   // ── Render functions ──────────────────────────────────────
   // Store current filter
@@ -87,7 +89,7 @@
     }
     
     if (!filteredCves.length) {
-      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⚡</div><div class="empty-state-text">No CVEs found</div></div>';
+      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⟩</div><div class="empty-state-text">No CVEs found</div></div>';
       return;
     }
 
@@ -113,10 +115,16 @@
 
     // Add click handlers
     container.querySelectorAll('.threat-card').forEach(card => {
-      card.addEventListener('click', () => {
-        const cveId = card.dataset.id;
-        const cve = cves.find(c => c.id === cveId);
-        if (cve) showCVEModal(cve);
+      card.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        try {
+          const cveId = card.dataset.id;
+          const cve = cves.find(c => c.id === cveId);
+          if (cve) showCVEModal(cve);
+        } catch (err) {
+          console.error('[App] Error showing CVE modal:', err);
+        }
       });
       
       // Add to map
@@ -132,7 +140,7 @@
     if (!container) return;
     
     if (!victims.length) {
-      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">🔒</div><div class="empty-state-text">No ransomware data</div></div>';
+      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⟩</div><div class="empty-state-text">No ransomware data</div></div>';
       return;
     }
 
@@ -174,7 +182,7 @@
     if (!container) return;
     
     if (!groups.length) {
-      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">🎯</div><div class="empty-state-text">No APT data</div></div>';
+      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⟩</div><div class="empty-state-text">No APT data</div></div>';
       return;
     }
 
@@ -215,7 +223,7 @@
     if (!container) return;
     
     if (!news.length) {
-      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📰</div><div class="empty-state-text">No news available</div></div>';
+      container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⟩</div><div class="empty-state-text">No news available</div></div>';
       return;
     }
 

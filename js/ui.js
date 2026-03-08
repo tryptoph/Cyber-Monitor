@@ -17,6 +17,15 @@ const UI = (() => {
     els.statusSource = document.getElementById('status-source');
     els.statusUpdate = document.getElementById('status-update');
     els.statusCount = document.getElementById('status-count');
+    
+    // Modal click outside to close
+    if (els.modalOverlay) {
+      els.modalOverlay.addEventListener('click', (e) => {
+        if (e.target === els.modalOverlay) {
+          els.modalOverlay.classList.add('hidden');
+        }
+      });
+    }
   }
 
   function showLoading() {
@@ -28,7 +37,7 @@ const UI = (() => {
   }
 
   function showToast(message, type = 'info', duration = 3500) {
-    const icons = { success: '✅', error: '❌', info: 'ℹ️' };
+    const icons = { success: '✓', error: '✗', info: '›' };
     const toast = document.createElement('div');
     toast.className = `toast ${type}`;
     toast.innerHTML = `<span>${icons[type] || ''}</span><span>${message}</span>`;
@@ -41,11 +50,11 @@ const UI = (() => {
 
   function updateStatus(ok, count) {
     if (els.statusSource) {
-      els.statusSource.innerHTML = ok ? '● Connected' : '● Using cached data';
+      els.statusSource.innerHTML = ok ? '[OK] Connected' : '[WARN] Using cached data';
       els.statusSource.className = 'status-item ' + (ok ? 'status-ok' : 'status-error');
     }
     if (els.statusUpdate) {
-      els.statusUpdate.textContent = `Updated: ${new Date().toLocaleTimeString()}`;
+      els.statusUpdate.textContent = new Date().toLocaleTimeString();
     }
     if (els.statusCount) {
       els.statusCount.textContent = `${count} threats`;
