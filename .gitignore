@@ -2,12 +2,13 @@ node_modules/
 package-lock.json
 package.json
 
-# Design mockups and screenshots (now in images/ folder, tracked)
-# Root-level stray PNGs (old paths)
-dashboard-screenshot.png
-dashboard-v2.png
-dashboard-v2-final.png
-design-v12-*.png
+# Root-level stray PNGs only (files in images/ are tracked)
+/dashboard-screenshot.png
+/dashboard-v2.png
+/dashboard-v2-final.png
+/design-v12-overview.png
+/design-v12-apt-tab.png
+/design-v12-popup.png
 
 # Session/plan files
 plan.md
