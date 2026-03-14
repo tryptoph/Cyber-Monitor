@@ -1,3 +1,30 @@
 node_modules/
 package-lock.json
 package.json
+
+# Design mockups and screenshots (not part of deployable code)
+dashboard-screenshot.png
+dashboard-v2.png
+dashboard-v2-final.png
+design-v12-*.png
+
+# Session/plan files
+plan.md
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files
+test_app.py
+*.log

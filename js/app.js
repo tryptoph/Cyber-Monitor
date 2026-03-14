@@ -113,10 +113,10 @@
     const aptLimit = parseInt(document.getElementById('apt-count-filter')?.value) || 50;
     const newsLimit = parseInt(document.getElementById('news-count-filter')?.value) || 50;
     
-    renderCVEs(data.cves.slice(0, cveLimit));
-    renderRansomware(data.ransomware.slice(0, malwareLimit));
-    renderAPT(data.apt.slice(0, aptLimit));
-    renderNews(data.news.slice(0, newsLimit));
+    renderCVEs(filterForSearch(data.cves.slice(0, cveLimit), 'cve'));
+    renderRansomware(filterForSearch(data.ransomware.slice(0, malwareLimit), 'ransomware'));
+    renderAPT(filterForSearch(data.apt.slice(0, aptLimit), 'apt'));
+    renderNews(filterForSearch(data.news.slice(0, newsLimit), 'news'));
 
     // Update stats bar
     updateStatsBar(data);
@@ -160,7 +160,7 @@
       if (news.length > 0) {
         if (window.cyberData) window.cyberData.news = news;
         newsLastFetchTime = Date.now();
-        renderNews(news);
+        renderNews(filterForSearch(news, 'news'));
         updateNewsTimestamp();
         console.log(`[App] News live-refreshed: ${news.length} items`);
       }
@@ -215,8 +215,8 @@
       if (window.cyberData) window.cyberData.cves = merged;
       cveLastFetchTime = Date.now();
 
-      // Re-render with "new" IDs flagged
-      renderCVEs(merged, new Set(newIds));
+      // Re-render with "new" IDs flagged (respect active search)
+      renderCVEs(filterForSearch(merged, 'cve'), new Set(newIds));
       updateCveTimestamp();
 
       // Update count badge
@@ -235,6 +235,40 @@
   // Refresh CVE panel every 2 minutes
   setInterval(refreshCVEPanel, 2 * 60 * 1000);
 
+  // ── Search state & filter helper ─────────────────────────
+  let currentSearchQuery = '';
+
+  function filterForSearch(items, type) {
+    if (!currentSearchQuery) return items;
+    const q = currentSearchQuery;
+    switch (type) {
+      case 'cve':
+        return items.filter(c =>
+          c.id.toLowerCase().includes(q) ||
+          (c.description || '').toLowerCase().includes(q)
+        );
+      case 'ransomware':
+        return items.filter(r =>
+          (r.organization || '').toLowerCase().includes(q) ||
+          (r.group || '').toLowerCase().includes(q) ||
+          (r.country || '').toLowerCase().includes(q)
+        );
+      case 'apt':
+        return items.filter(a =>
+          (a.name || '').toLowerCase().includes(q) ||
+          (a.aliases || []).some(alias => alias.toLowerCase().includes(q)) ||
+          (a.targets || []).some(t => t.toLowerCase().includes(q))
+        );
+      case 'news':
+        return items.filter(n =>
+          (n.title || '').toLowerCase().includes(q) ||
+          (n.description || '').toLowerCase().includes(q)
+        );
+      default:
+        return items;
+    }
+  }
+
   // ── Render functions ──────────────────────────────────────
   // Store current filter
   let currentSeverityFilter = '';
@@ -247,7 +281,7 @@
       cachedKEVList = kev || [];
       const data = window.cyberData;
       if (data && data.cves && data.cves.length) {
-        renderCVEs(data.cves);
+        renderCVEs(filterForSearch(data.cves, 'cve'));
       }
     }).catch(() => {
       cachedKEVList = [];
@@ -795,6 +829,15 @@
             p.classList.add('active');
           }
         });
+
+        // Re-apply active search filter when switching tabs
+        if (currentSearchQuery) {
+          const data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] };
+          if (tabId === 'cve') renderCVEs(filterForSearch(data.cves, 'cve'));
+          else if (tabId === 'ransomware') renderRansomware(filterForSearch(data.ransomware, 'ransomware'));
+          else if (tabId === 'apt') renderAPT(filterForSearch(data.apt, 'apt'));
+          else if (tabId === 'news') renderNews(filterForSearch(data.news, 'news'));
+        }
       });
     });
   }
@@ -813,7 +856,7 @@
           await refetchCVESource();
         } else {
           const data = window.cyberData || { cves: [] };
-          renderCVEs(data.cves);
+          renderCVEs(filterForSearch(data.cves, 'cve'));
         }
       });
     }
@@ -847,7 +890,7 @@
         try {
           const items = await API.fetchNewsBySource(source, limit);
           if (window.cyberData) window.cyberData.news = items;
-          renderNews(items);
+          renderNews(filterForSearch(items, 'news'));
           const badge = document.getElementById('news-count-badge');
           if (badge) badge.textContent = items.length || '';
           UI.showToast(`Loaded ${items.length} articles from ${source === 'all' ? 'all sources' : source}`, 'info');
@@ -870,7 +913,7 @@
         try {
           const items = await API.fetchNewsBySource(source, limit);
           if (window.cyberData) window.cyberData.news = items;
-          renderNews(items);
+          renderNews(filterForSearch(items, 'news'));
           const badge = document.getElementById('news-count-badge');
           if (badge) badge.textContent = items.length || '';
           UI.showToast(`Loaded ${items.length} articles`, 'info');
@@ -893,7 +936,7 @@
         try {
           const items = await API.fetchMalwareBySource(source, limit);
           if (window.cyberData) window.cyberData.ransomware = items;
-          renderRansomware(items);
+          renderRansomware(filterForSearch(items, 'ransomware'));
           UI.showToast(`Loaded ${items.length} threats from ${source === 'all' ? 'all sources' : source}`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch malware data', 'error');
@@ -914,7 +957,7 @@
         try {
           const items = await API.fetchMalwareBySource(source, limit);
           if (window.cyberData) window.cyberData.ransomware = items;
-          renderRansomware(items);
+          renderRansomware(filterForSearch(items, 'ransomware'));
           UI.showToast(`Loaded ${items.length} threats`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch malware data', 'error');
@@ -935,7 +978,7 @@
         try {
           const items = await API.fetchAPTBySource(source, limit);
           if (window.cyberData) window.cyberData.apt = items;
-          renderAPT(items);
+          renderAPT(filterForSearch(items, 'apt'));
           UI.showToast(`Loaded ${items.length} APT groups from ${source === 'all' ? 'all sources' : source}`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch APT data', 'error');
@@ -956,7 +999,7 @@
         try {
           const items = await API.fetchAPTBySource(source, limit);
           if (window.cyberData) window.cyberData.apt = items;
-          renderAPT(items);
+          renderAPT(filterForSearch(items, 'apt'));
           UI.showToast(`Loaded ${items.length} APT groups`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch APT data', 'error');
@@ -976,7 +1019,7 @@
       const limit = parseInt(document.getElementById('cve-count-filter')?.value) || 50;
       const cves = await API.fetchCVEsBySource(currentCVESource, limit, currentSeverityFilter);
       if (window.cyberData) window.cyberData.cves = cves;
-      renderCVEs(cves);
+      renderCVEs(filterForSearch(cves, 'cve'));
       cveLastFetchTime = Date.now();
       updateCveTimestamp();
 
@@ -1001,47 +1044,28 @@
     const searchInput = document.getElementById('search-input');
     if (!searchInput) return;
 
-    searchInput.addEventListener('input', async (e) => {
-      const query = e.target.value.toLowerCase();
-      if (!query) {
-        // Reset views using current data (don't re-fetch)
-        const data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] };
+    searchInput.addEventListener('input', (e) => {
+      currentSearchQuery = e.target.value.toLowerCase().trim();
+      const data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] };
+
+      if (!currentSearchQuery) {
+        // Clear search — restore all panels with current limits
+        const cveLimit = parseInt(document.getElementById('cve-count-filter')?.value) || 50;
+        const malwareLimit = parseInt(document.getElementById('malware-count-filter')?.value) || 50;
+        const aptLimit = parseInt(document.getElementById('apt-count-filter')?.value) || 50;
+        const newsLimit = parseInt(document.getElementById('news-count-filter')?.value) || 50;
         MapManager.clearMarkers();
-        renderCVEs(data.cves);
-        renderRansomware(data.ransomware);
-        renderAPT(data.apt);
-        renderNews(data.news);
+        renderCVEs(data.cves.slice(0, cveLimit));
+        renderRansomware(data.ransomware.slice(0, malwareLimit));
+        renderAPT(data.apt.slice(0, aptLimit));
+        renderNews(data.news.slice(0, newsLimit));
         return;
       }
 
-      const data = window.cyberData;
-      if (!data) return;
-
-      // Filter all data by query
-      const filteredCVEs = data.cves.filter(c => 
-        c.id.toLowerCase().includes(query) || 
-        c.description.toLowerCase().includes(query)
-      );
-      
-      const filteredRansomware = data.ransomware.filter(r => 
-        r.organization.toLowerCase().includes(query) ||
-        r.group.toLowerCase().includes(query)
-      );
-      
-      const filteredAPT = data.apt.filter(a => 
-        a.name.toLowerCase().includes(query) ||
-        a.aliases.some(alias => alias.toLowerCase().includes(query))
-      );
-      
-      const filteredNews = data.news.filter(n => 
-        n.title.toLowerCase().includes(query) ||
-        n.description.toLowerCase().includes(query)
-      );
-
-      renderCVEs(filteredCVEs);
-      renderRansomware(filteredRansomware);
-      renderAPT(filteredAPT);
-      renderNews(filteredNews);
+      renderCVEs(filterForSearch(data.cves, 'cve'));
+      renderRansomware(filterForSearch(data.ransomware, 'ransomware'));
+      renderAPT(filterForSearch(data.apt, 'apt'));
+      renderNews(filterForSearch(data.news, 'news'));
     });
   }
 
