@@ -30,3 +30,6 @@ desktop.ini
 # Test files
 test_app.py
 *.log
+
+# graphify knowledge graph outputs
+graphify-out/
