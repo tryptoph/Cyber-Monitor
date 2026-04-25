@@ -14,11 +14,16 @@ const API = (() => {
 
   // Ordered proxy fallback chain for RSS feeds
 
-  // Timeout helper
+  // Timeout helper — used only for non-fetch Promise.race guards
   function timeout(ms) {
     return new Promise((_, reject) => 
       setTimeout(() => reject(new Error('Timeout')), ms)
     );
+  }
+
+  // Fetch with AbortSignal timeout — replaces Promise.race([fetch, timeout]) pattern
+  function fetchWithAbort(url, options = {}, ms = 8000) {
+    return fetch(url, { ...options, signal: AbortSignal.timeout(ms) });
   }
 
   // ── Time range helpers ──────────────────────────────────
@@ -96,7 +101,7 @@ const API = (() => {
     try {
       const promises = QUERIES.map(({ q, category }) => {
         const url = `https://hn.algolia.com/api/v1/search_by_date?tags=story&query=${encodeURIComponent(q)}&hitsPerPage=8&numericFilters=points%3E2`;
-        return Promise.race([fetch(url), timeout(8000)])
+        return fetchWithAbort(url, {}, 8000)
           .then(r => r.ok ? r.json() : { hits: [] })
           .then(data => (data.hits || [])
             .filter(h => h.url && h.title)
@@ -132,7 +137,7 @@ const API = (() => {
     // 1. rss2json — converts RSS to clean JSON, most reliable
     try {
       const url = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}&count=10`;
-      const res = await Promise.race([fetch(url), timeout(7000)]);
+      const res = await fetchWithAbort(url, {}, 7000);
       if (res.ok) {
         const data = await res.json();
         if (data.status === 'ok' && data.items?.length > 0) {
@@ -154,10 +159,7 @@ const API = (() => {
 
     // 2. allorigins raw proxy → parse XML ourselves
     try {
-      const res = await Promise.race([
-        fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(feed.url)}`),
-        timeout(6000)
-      ]);
+      const res = await fetchWithAbort(`https://api.allorigins.win/raw?url=${encodeURIComponent(feed.url)}`, {}, 6000);
       if (res.ok) {
         const items = parseRSSItems(await res.text(), feed);
         if (items.length > 0) {
@@ -169,10 +171,7 @@ const API = (() => {
 
     // 3. corsproxy.io
     try {
-      const res = await Promise.race([
-        fetch(`https://corsproxy.io/?${encodeURIComponent(feed.url)}`),
-        timeout(6000)
-      ]);
+      const res = await fetchWithAbort(`https://corsproxy.io/?${encodeURIComponent(feed.url)}`, {}, 6000);
       if (res.ok) {
         const items = parseRSSItems(await res.text(), feed);
         if (items.length > 0) {
@@ -247,11 +246,6 @@ const API = (() => {
 
     console.log(`[API] News: ${hnItems.length} HN + ${rssResults.flat().length} RSS → ${deduped.length} unique`);
     return deduped.slice(0, 200);
-  }
-
-  // Fetch only news (bypasses main data cache — use for live panel updates)
-  async function fetchNewsOnly() {
-    return fetchAllNews();
   }
 
   // Fetch news filtered by source key and time range
@@ -357,10 +351,7 @@ const API = (() => {
     const limit = timeRangeCap(timeRange);
     const startDate = timeRangeToStart(timeRange);
     try {
-      const commitsResp = await Promise.race([
-        fetch(`${CVELIST_COMMITS_API}?per_page=30`),
-        timeout(8000)
-      ]);
+      const commitsResp = await fetchWithAbort(`${CVELIST_COMMITS_API}?per_page=30`, {}, 8000);
       if (!commitsResp.ok) throw new Error(`GitHub commits API: ${commitsResp.status}`);
       const commits = await commitsResp.json();
 
@@ -369,8 +360,10 @@ const API = (() => {
         const msg = c.commit?.message || '';
         const newBlock = msg.match(/new CVEs?:\s*(CVE[\s\S]*?)(?:\n|$)/i);
         if (newBlock) {
-          const ids = newBlock[1].match(/CVE-\d{4}-\d+/g) || [];
-          ids.forEach(id => cveIds.add(id));
+          const cveMatches = (newBlock[1].match(/CVE-\d{4}-\d{4,}/gi) || [])
+            .map(id => id.toUpperCase())
+            .filter((id, i, arr) => arr.indexOf(id) === i);
+          cveMatches.forEach(id => cveIds.add(id));
         }
       }
       if (cveIds.size === 0) throw new Error('No CVE IDs found in commits');
@@ -380,7 +373,7 @@ const API = (() => {
 
       const results = await Promise.allSettled(
         idsToFetch.map(id =>
-          Promise.race([fetch(cveIdToPath(id)), timeout(5000)])
+          fetchWithAbort(cveIdToPath(id), {}, 5000)
             .then(r => r.ok ? r.json() : null)
             .then(data => data ? mapCveListEntry(data) : null)
         )
@@ -429,9 +422,9 @@ const API = (() => {
       const startDate = timeRangeToStart(timeRange);
       const mapped = data
         .map(adv => {
-          const v3 = adv.cvss_severities?.cvss_v3?.score;
-          const v4 = adv.cvss_severities?.cvss_v4?.score;
-          const score = (v3 && v3 > 0) ? v3 : (v4 && v4 > 0) ? v4 : 0;
+          const v4Score = adv.cvss_severities?.cvss_v4?.score;
+          const v3Score = adv.cvss_severities?.cvss_v3?.score;
+          const score = (v4Score && v4Score > 0) ? v4Score : (v3Score && v3Score > 0) ? v3Score : 0;
           const sevMap = { critical: 'CRITICAL', high: 'HIGH', medium: 'MEDIUM', low: 'LOW' };
           const sev = sevMap[adv.severity] || 'NONE';
           const pkg = adv.vulnerabilities?.[0]?.package;
@@ -440,7 +433,7 @@ const API = (() => {
             description: adv.summary || 'No description',
             published: adv.published_at,
             modified: adv.updated_at,
-            cvss: { score, severity: sev, vector: adv.cvss_severities?.cvss_v3?.vector_string || '' },
+            cvss: { score, severity: sev, vector: adv.cvss_severities?.cvss_v4?.vector_string || adv.cvss_severities?.cvss_v3?.vector_string || '' },
             references: adv.references || [],
             cpe: pkg ? [`${pkg.ecosystem}:${pkg.name}`] : [],
             link: adv.html_url,
@@ -471,32 +464,21 @@ const API = (() => {
       baseParams.append('pubEndDate', endDate.toISOString());
       if (severity) baseParams.append('cvssV3Severity', severity.toUpperCase());
 
-      // Step 1: Get total count (1 result) to know how many exist
-      const countParams = new URLSearchParams(baseParams);
-      countParams.append('resultsPerPage', '1');
-      const countResp = await Promise.race([fetch(`${NVD_API}?${countParams}`), timeout(8000)]);
-      if (!countResp.ok) throw new Error(`NVD API returned ${countResp.status}`);
-      const countData = await countResp.json();
-      const total = countData.totalResults || 0;
-      console.log(`[API] NVD: ${total} CVEs in range ${timeRange}`);
-
-      if (total === 0) return [];
-
-      // Step 2: Fetch the newest items (from the end of the ascending list)
-      const startIndex = Math.max(0, total - limit);
+      // Fetch directly — read totalResults from the response itself
       const fetchParams = new URLSearchParams(baseParams);
       fetchParams.append('resultsPerPage', String(limit));
-      fetchParams.append('startIndex', String(startIndex));
+      fetchParams.append('startIndex', '0');
 
       const url = `${NVD_API}?${fetchParams.toString()}`;
       console.log('[API] Fetching from NVD:', url);
 
-      const response = await Promise.race([fetch(url), timeout(8000)]);
+      const response = await fetchWithAbort(url, {}, 8000);
       if (!response.ok) throw new Error(`NVD API returned ${response.status}`);
 
       const data = await response.json();
+      const totalResults = data.totalResults || 0;
       const vulnerabilities = data.vulnerabilities || [];
-      console.log(`[API] Fetched ${vulnerabilities.length} CVEs from NVD`);
+      console.log(`[API] Fetched ${vulnerabilities.length} CVEs from NVD (${totalResults} total in range)`);
 
       const mapped = vulnerabilities.map(item => {
         const cve = item.cve;
@@ -537,10 +519,7 @@ const API = (() => {
     const limit = timeRangeCap(timeRange);
     const startDate = timeRangeToStart(timeRange);
     try {
-      const commitsResp = await Promise.race([
-        fetch(`${CVELIST_COMMITS_API}?per_page=15`),
-        timeout(10000)
-      ]);
+      const commitsResp = await fetchWithAbort(`${CVELIST_COMMITS_API}?per_page=15`, {}, 10000);
       if (!commitsResp.ok) throw new Error(`GitHub commits API: ${commitsResp.status}`);
       const commits = await commitsResp.json();
 
@@ -549,8 +528,10 @@ const API = (() => {
         const msg = c.commit?.message || '';
         const newBlock = msg.match(/new CVEs?:\s*(CVE[\s\S]*?)(?:\n|$)/i);
         if (newBlock) {
-          const ids = newBlock[1].match(/CVE-\d{4}-\d+/g) || [];
-          ids.forEach(id => cveIds.add(id));
+          const cveMatches = (newBlock[1].match(/CVE-\d{4}-\d{4,}/gi) || [])
+            .map(id => id.toUpperCase())
+            .filter((id, i, arr) => arr.indexOf(id) === i);
+          cveMatches.forEach(id => cveIds.add(id));
         }
       }
       if (cveIds.size === 0) throw new Error('No CVE IDs found');
@@ -560,7 +541,7 @@ const API = (() => {
 
       const results = await Promise.allSettled(
         idsToFetch.map(id =>
-          Promise.race([fetch(`${CVEORG_API}/${id}`), timeout(5000)])
+          fetchWithAbort(`${CVEORG_API}/${id}`, {}, 5000)
             .then(r => r.ok ? r.json() : null)
             .then(data => {
               if (!data) return null;
@@ -690,7 +671,6 @@ const API = (() => {
     console.log(`[API] All sources merged: ${all.length} unique CVEs (${cvelist.value?.length || 0} CVEProject + ${github.value?.length || 0} GitHub + ${nvd.value?.length || 0} NVD + ${cveorg.value?.length || 0} CVE.org)`);
 
     const result = filtered.slice(0, limit);
-    await enrichWithEPSS(result);
     return result;
   }
 
@@ -723,15 +703,6 @@ const API = (() => {
     // Don't filter fallback by time range — it's last-resort data when all live sources fail
     fallback.sort((a, b) => new Date(b.published) - new Date(a.published));
     return fallback.slice(0, limit);
-  }
-
-  // Dedicated live CVE fetch — always bypasses cache, used for panel-only refresh
-  async function fetchCVEsOnly(timeRange = '1w') {
-    const rt = await fetchCVEsFromCveList(timeRange);
-    if (rt) return rt;
-    const gh = await fetchGitHubAdvisories(timeRange);
-    if (Array.isArray(gh) && gh.length >= 5) return gh;
-    return fetchCVEsFromNVD(timeRange);
   }
   
   // Fallback CVEs - actually recent from NVD (verified latest - March 7, 2026)
@@ -766,19 +737,7 @@ const API = (() => {
         if (lower.includes(kw)) return code;
       }
     }
-    return 'US'; // Default
-  }
-
-  // Mock CVE data for fallback
-  function getMockCVEs() {
-    const now = new Date();
-    return [
-      { id: 'CVE-2026-0001', description: 'Critical buffer overflow in popular authentication library allows remote code execution', published: new Date(now - 2*24*60*60*1000).toISOString(), cvss: { score: 9.8, severity: 'CRITICAL', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-0002', description: 'SQL injection vulnerability in content management system', published: new Date(now - 1*24*60*60*1000).toISOString(), cvss: { score: 8.2, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-0003', description: 'Cross-site scripting vulnerability in web application firewall', published: new Date(now - 3*24*60*60*1000).toISOString(), cvss: { score: 6.1, severity: 'MEDIUM', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-0004', description: 'Privilege escalation vulnerability in cloud container runtime', published: new Date(now - 5*24*60*60*1000).toISOString(), cvss: { score: 7.5, severity: 'HIGH', vector: 'CVSS:3.1' }, type: 'cve' },
-      { id: 'CVE-2026-0005', description: 'Information disclosure in API endpoint exposes sensitive headers', published: new Date(now - 4*24*60*60*1000).toISOString(), cvss: { score: 5.3, severity: 'MEDIUM', vector: 'CVSS:3.1' }, type: 'cve' },
-    ];
+    return null;
   }
 
   // ── ransomware.live API — Real-time ransomware victims ───
@@ -804,7 +763,7 @@ const API = (() => {
     for (const proxy of proxies) {
       try {
         const url = proxy(`${RANSOMWARE_LIVE_API}/recentvictims`);
-        const resp = await Promise.race([fetch(url), timeout(8000)]);
+        const resp = await fetchWithAbort(url, {}, 8000);
         if (!resp.ok) continue;
         const data = await resp.json();
         if (!Array.isArray(data) || data.length === 0) continue;
@@ -855,20 +814,17 @@ const API = (() => {
     for (const proxy of proxies) {
       try {
         const url = proxy(apiUrl);
-        const resp = await Promise.race([fetch(url), timeout(8000)]);
+        const resp = await fetchWithAbort(url, {}, 8000);
         if (!resp.ok) continue;
         const data = await resp.json();
         if (!data || typeof data !== 'object') continue;
 
-        const entries = Object.keys(data)
-          .filter(k => !isNaN(k))
-          .slice(0, limit);
-
-        const mapped = entries.map(key => {
-          const entry = Array.isArray(data[key]) ? data[key][0] : data[key];
+        const items = Array.isArray(data) ? data : Object.values(data).filter(v => typeof v === 'object' && v !== null);
+        const mapped = items.slice(0, limit).map(item => {
+          const entry = Array.isArray(item) ? item[0] : item;
           if (!entry) return null;
           return {
-            id: `urlhaus-${key}`,
+            id: `urlhaus-${entry.id || entry.url || Math.random()}`,
             organization: entry.url || 'Unknown URL',
             group: entry.threat || 'Unknown',
             country: 'Unknown',
@@ -903,20 +859,17 @@ const API = (() => {
     for (const proxy of proxies) {
       try {
         const url = proxy(apiUrl);
-        const resp = await Promise.race([fetch(url), timeout(8000)]);
+        const resp = await fetchWithAbort(url, {}, 8000);
         if (!resp.ok) continue;
         const data = await resp.json();
         if (!data || typeof data !== 'object') continue;
 
-        const entries = Object.keys(data)
-          .filter(k => !isNaN(k))
-          .slice(0, limit);
-
-        const mapped = entries.map(key => {
-          const entry = Array.isArray(data[key]) ? data[key][0] : data[key];
+        const items = Array.isArray(data) ? data : Object.values(data).filter(v => typeof v === 'object' && v !== null);
+        const mapped = items.slice(0, limit).map(item => {
+          const entry = Array.isArray(item) ? item[0] : item;
           if (!entry) return null;
           return {
-            id: `tf-${key}`,
+            id: `tf-${entry.id || entry.ioc_value || Math.random()}`,
             organization: entry.ioc_value || 'Unknown IOC',
             group: entry.malware_printable || entry.malware || 'Unknown',
             country: 'Unknown',
@@ -953,7 +906,7 @@ const API = (() => {
     for (const proxy of proxies) {
       try {
         const url = proxy(apiUrl);
-        const resp = await Promise.race([fetch(url), timeout(8000)]);
+        const resp = await fetchWithAbort(url, {}, 8000);
         if (!resp.ok) continue;
         const data = await resp.json();
         const items = data.data || data;
@@ -987,10 +940,7 @@ const API = (() => {
     const apiUrl = 'https://haveibeenpwned.com/api/v3/breaches';
 
     try {
-      const resp = await Promise.race([
-        fetch(apiUrl),
-        timeout(8000)
-      ]);
+      const resp = await fetchWithAbort(apiUrl, {}, 8000);
       if (!resp.ok) throw new Error(`HIBP ${resp.status}`);
       const breaches = await resp.json();
       if (!Array.isArray(breaches)) throw new Error('Bad HIBP response');
@@ -1123,7 +1073,7 @@ const API = (() => {
     }
 
     try {
-      const res = await Promise.race([fetch(MISP_GALAXY_URL), timeout(8000)]);
+      const res = await fetchWithAbort(MISP_GALAXY_URL, {}, 8000);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       const values = data.values || [];
@@ -1214,7 +1164,8 @@ const API = (() => {
     const mispActors = misp.status === 'fulfilled' ? misp.value : [];
     const rssItems = rss.status === 'fulfilled' ? rss.value : [];
 
-    const merged = [...mispActors, ...rssItems];
+    const dateFiltered = filterByTimeRange(rssItems, 'published', timeRange);
+    const merged = [...mispActors, ...dateFiltered];
     return merged.slice(0, limit);
   }
 
@@ -1343,12 +1294,12 @@ const API = (() => {
       ])
     ]);
 
-    enrichWithEPSS(cves); // non-blocking: enriches in background
-
     const data = { cves, ransomware, apt, news };
-    
-    Utils.storageSet(CACHE_KEY, data);
-    Utils.storageSet(CACHE_TS_KEY, Date.now());
+
+    enrichWithEPSS(cves).then(() => {
+      Utils.storageSet(CACHE_KEY, { ...data, cves });
+      Utils.storageSet(CACHE_TS_KEY, Date.now());
+    });
     
     console.log('[API] Data loaded:', {
       cves: cves.length,
@@ -1363,7 +1314,6 @@ const API = (() => {
   return {
     loadAllData,
     fetchCVEs,
-    fetchCVEsOnly,
     fetchCVEsBySource,
     fetchCVEsFromCVEOrg,
     enrichWithEPSS,
@@ -1374,7 +1324,6 @@ const API = (() => {
     fetchInQuestIOCs,
     fetchHIBPBreaches,
     fetchAllNews,
-    fetchNewsOnly,
     fetchNewsBySource,
     fetchKEV,
     isInKEV,

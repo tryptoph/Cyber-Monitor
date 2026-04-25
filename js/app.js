@@ -116,6 +116,7 @@
     }
 
     // Store data globally for UI to access
+    window.cyberData = null; // release old reference for GC
     window.cyberData = data;
 
     // Clear existing markers before re-rendering
@@ -287,10 +288,10 @@
   let currentSeverityFilter = '';
   let cachedKEVList = null;
 
-  // Load KEV data (non-blocking)
+  // Load KEV data (non-blocking) — returns a promise
   function loadKEVData() {
-    if (cachedKEVList !== null) return;
-    API.fetchKEV().then(kev => {
+    if (cachedKEVList !== null) return Promise.resolve();
+    return API.fetchKEV().then(kev => {
       cachedKEVList = kev || [];
       const data = window.cyberData;
       if (data && data.cves && data.cves.length) {
@@ -324,7 +325,14 @@
     }
 
     // Start loading KEV data (non-blocking)
-    loadKEVData();
+    loadKEVData().then(() => {
+      if (window.cyberData?.cves?.length) renderCVEs(window.cyberData.cves);
+    });
+
+    // Build knownCveIds set before map to avoid side-effects inside transform
+    filteredCves.forEach(cve => {
+      if (knownCveIds.size < 500) knownCveIds.add(cve.id);
+    });
 
     container.innerHTML = filteredCves.map(cve => {
       const severityClass = getSeverityClass(cve.cvss?.severity);
@@ -332,13 +340,6 @@
       const coords = API.getCoords(countryCode);
       const isKEV = cachedKEVList && cachedKEVList.length > 0 && API.isInKEV(cve.id, cachedKEVList);
       const isNew = newIds.has(cve.id);
-
-      // Register this ID as seen; cap the set to prevent unbounded memory growth
-      knownCveIds.add(cve.id);
-      if (knownCveIds.size > 500) {
-        const oldest = knownCveIds.values().next().value;
-        knownCveIds.delete(oldest);
-      }
 
       // EPSS badge
       let epssBadge = '';
@@ -435,7 +436,7 @@
           <div class="threat-card-header">
             <span class="threat-card-type">${typeLabel}</span>
             <span class="source-badge">${escapeHtml(sourceName)}</span>
-            <span class="threat-card-date">${formatDate(v.discovered)}</span>
+            <span class="threat-card-date">${timeAgo(v.discovered)}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(v.organization)}</div>
           <div class="threat-card-meta">
@@ -592,7 +593,7 @@
               ${isFresh ? '<span class="news-dot"></span>' : ''}${categoryLabel}
             </span>
             <span class="source-badge">${escapeHtml(item.source || item.sourceKey || 'Unknown')}</span>
-            <span class="threat-card-date" data-ts="${item.published}">${formatDate(item.published)}</span>
+            <span class="threat-card-date" data-ts="${item.published}">${timeAgo(item.published)}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(item.title)}</div>
           <div class="threat-card-meta">
@@ -649,21 +650,17 @@
     return date.toLocaleDateString('en-US', opts);
   }
 
-  // formatDate used in cards (same as timeAgo)
-  function formatDate(dateStr) { return timeAgo(dateStr); }
-
-  function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
+  // escapeHtml from Utils (removes local duplicate)
+  const { escapeHtml } = Utils;
 
   // Tick every minute — re-render all visible date spans in-place
   setInterval(() => {
-    document.querySelectorAll('[data-ts]').forEach(el => {
-      el.textContent = timeAgo(el.dataset.ts);
+    requestAnimationFrame(() => {
+      document.querySelectorAll('[data-ts]').forEach(el => {
+        el.textContent = timeAgo(Number(el.dataset.ts));
+      });
     });
-  }, 60 * 1000);
+  }, 60000);
 
   // ── Modal functions ─────────────────────────────────────
   function showCVEModal(cve) {
@@ -738,8 +735,8 @@
           ${cve.cvss?.severity ? `<span class="badge info">${cve.cvss.severity}</span>` : ''}
           ${cve.epss?.score != null ? `<span class="badge epss-badge ${cve.epss.score > 0.5 ? 'epss-critical' : cve.epss.score > 0.1 ? 'epss-high' : cve.epss.score > 0.01 ? 'epss-medium' : 'epss-low'}">EPSS: ${(cve.epss.score * 100).toFixed(1)}%</span>` : ''}
           ${isKEV ? '<span class="badge kev-badge">⚠ KEV</span>' : ''}
-          <span>Published: ${formatDate(cve.published)}</span>
-          ${cve.modified ? `<span>Modified: ${formatDate(cve.modified)}</span>` : ''}
+          <span>Published: ${timeAgo(cve.published)}</span>
+          ${cve.modified ? `<span>Modified: ${timeAgo(cve.modified)}</span>` : ''}
         </div>
 
         ${kevSection}
@@ -799,7 +796,7 @@
           <span>${escapeHtml(victim.sector)}</span>
         </div>
         <p class="modal-description">${escapeHtml(victim.description || 'Ransomware attack reported.')}</p>
-        <p class="modal-meta-item">Discovered: ${formatDate(victim.discovered)}</p>
+        <p class="modal-meta-item">Discovered: ${timeAgo(victim.discovered)}</p>
       </div>
     `;
     
