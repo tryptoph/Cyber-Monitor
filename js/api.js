@@ -584,10 +584,8 @@ const API = (() => {
       const epssMap = new Map();
       const results = await Promise.allSettled(
         batches.map(batch =>
-          Promise.race([
-            fetch(`${EPSS_API}?cve=${batch.join(',')}`),
-            timeout(8000)
-          ]).then(r => r.ok ? r.json() : null)
+          fetchWithAbort(`${EPSS_API}?cve=${batch.join(',')}`, {}, 8000)
+            .then(r => r.ok ? r.json() : null)
         )
       );
 
@@ -1165,7 +1163,11 @@ const API = (() => {
     const rssItems = rss.status === 'fulfilled' ? rss.value : [];
 
     const dateFiltered = filterByTimeRange(rssItems, 'published', timeRange);
-    const merged = [...mispActors, ...dateFiltered];
+    // MISP Galaxy actors are static (no date field) — scale their count by time range
+    // so shorter ranges emphasise recent RSS intel over the full static catalogue
+    const mispRatio = { '24h': 0.1, '1w': 0.3, '1m': 0.6 }[timeRange] ?? 0.3;
+    const mispSlice = mispActors.slice(0, Math.ceil(limit * mispRatio));
+    const merged = [...mispSlice, ...dateFiltered];
     return merged.slice(0, limit);
   }
 

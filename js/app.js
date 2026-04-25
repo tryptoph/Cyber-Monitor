@@ -324,11 +324,6 @@
       return;
     }
 
-    // Start loading KEV data (non-blocking)
-    loadKEVData().then(() => {
-      if (window.cyberData?.cves?.length) renderCVEs(window.cyberData.cves);
-    });
-
     // Build knownCveIds set before map to avoid side-effects inside transform
     filteredCves.forEach(cve => {
       if (knownCveIds.size < 500) knownCveIds.add(cve.id);
