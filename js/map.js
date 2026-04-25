@@ -10,6 +10,12 @@ const MapManager = (() => {
   let heatmapLayer = null;
   let heatmapVisible = false;
 
+  function hashCode(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) h = (Math.imul(31, h) + str.charCodeAt(i)) | 0;
+    return h;
+  }
+
   const TYPE_ICONS = {
     cve: '⚡',
     ransomware: '🔒',
@@ -183,7 +189,8 @@ const MapManager = (() => {
     if (!Number.isFinite(toLat) || !Number.isFinite(toLng)) return;
 
     // Create curved line using intermediate point
-    const midLat = (fromLat + toLat) / 2 + (Math.random() * 10 - 5);
+    const offset = ((hashCode(String(fromLat) + String(fromLng)) & 0xFFFF) / 0xFFFF - 0.5) * 2;
+    const midLat = (fromLat + toLat) / 2 + offset * 5;
     const midLng = (fromLng + toLng) / 2;
 
     const line = L.polyline(
@@ -218,6 +225,7 @@ const MapManager = (() => {
   }
 
   function clearMarkers() {
+    if (!map) return;
     markers.forEach(m => map.removeLayer(m));
     markers = [];
     clearAttackLines();

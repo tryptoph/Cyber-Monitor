@@ -13,11 +13,6 @@ const API = (() => {
   const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
 
   // Ordered proxy fallback chain for RSS feeds
-  const RSS_PROXIES = [
-    url => `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}&count=10`,
-    url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-    url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-  ];
 
   // Timeout helper
   function timeout(ms) {
@@ -251,7 +246,7 @@ const API = (() => {
     deduped.sort((a, b) => new Date(b.published) - new Date(a.published));
 
     console.log(`[API] News: ${hnItems.length} HN + ${rssResults.flat().length} RSS → ${deduped.length} unique`);
-    return deduped.slice(0, 60);
+    return deduped.slice(0, 200);
   }
 
   // Fetch only news (bypasses main data cache — use for live panel updates)
@@ -285,7 +280,7 @@ const API = (() => {
   // Fetch CISA KEV data
   async function fetchKEV() {
     // Check cache
-    if (kevCache && kevCacheTime && (Date.now() - kevCacheTime) < KEV_CACHE_DURATION) {
+    if (kevCache !== null && kevCacheTime && (Date.now() - kevCacheTime) < KEV_CACHE_DURATION) {
       console.log('[API] Using cached KEV data');
       return kevCache;
     }
@@ -619,8 +614,8 @@ const API = (() => {
         if (r.status !== 'fulfilled' || !r.value?.data) continue;
         for (const entry of r.value.data) {
           epssMap.set(entry.cve, {
-            score: parseFloat(entry.epss),
-            percentile: parseFloat(entry.percentile)
+            score: isNaN(parseFloat(entry.epss)) ? 0 : parseFloat(entry.epss),
+            percentile: isNaN(parseFloat(entry.percentile)) ? 0 : parseFloat(entry.percentile)
           });
         }
       }
@@ -824,14 +819,13 @@ const API = (() => {
           discovered: v.discovered || v.published,
           description: v.description ? v.description.replace(/\[AI generated\]\s*/i, '').slice(0, 200) : `${v.group_name} ransomware attack on ${v.post_title}`,
           website: v.website || '',
+          source: 'ransomware',
           type: 'ransomware'
         }));
 
         console.log(`[API] ransomware.live: ${mapped.length} live victims`);
         return mapped;
-      } catch (err) {
-        continue;
-      }
+      } catch (err) { console.warn('[proxy fallback]', err.message); continue; }
     }
     console.warn('[API] ransomware.live unreachable, using fallback');
     return null;
@@ -891,9 +885,7 @@ const API = (() => {
 
         console.log(`[API] URLhaus: ${mapped.length} malicious URLs`);
         return mapped;
-      } catch (err) {
-        continue;
-      }
+      } catch (err) { console.warn('[proxy fallback]', err.message); continue; }
     }
     console.warn('[API] URLhaus unreachable');
     return [];
@@ -941,9 +933,7 @@ const API = (() => {
 
         console.log(`[API] ThreatFox: ${mapped.length} IOCs`);
         return mapped;
-      } catch (err) {
-        continue;
-      }
+      } catch (err) { console.warn('[proxy fallback]', err.message); continue; }
     }
     console.warn('[API] ThreatFox unreachable');
     return [];
@@ -986,9 +976,7 @@ const API = (() => {
 
         console.log(`[API] InQuest: ${mapped.length} IOCs`);
         return mapped;
-      } catch (err) {
-        continue;
-      }
+      } catch (err) { console.warn('[proxy fallback]', err.message); continue; }
     }
     console.warn('[API] InQuest unreachable');
     return [];
@@ -1000,7 +988,7 @@ const API = (() => {
 
     try {
       const resp = await Promise.race([
-        fetch(apiUrl, { headers: { 'User-Agent': 'CyberVulnDB/2.0' } }),
+        fetch(apiUrl),
         timeout(8000)
       ]);
       if (!resp.ok) throw new Error(`HIBP ${resp.status}`);
@@ -1106,7 +1094,7 @@ const API = (() => {
       { id: 'G0007', name: 'APT28', aliases: ['Fancy Bear', 'Strontium', 'Sofacy', 'Sednit'], country: 'RU', targetSectors: ['Government', 'Defense', 'Energy', 'Media'], description: 'Russian GRU Unit 26165. Active since 2004, targeting NATO allies, election interference, and defense contractors. Uses spearphishing, zero-days, and credential harvesting.', techniques: ['T1566', 'T1059', 'T1071'], type: 'apt' },
       { id: 'G0016', name: 'APT29', aliases: ['Cozy Bear', 'The Dukes', 'Midnight Blizzard', 'Nobelium'], country: 'RU', targetSectors: ['Government', 'Healthcare', 'Think Tanks', 'Technology'], description: 'Russian SVR intelligence. Behind SolarWinds (2020) and Microsoft breach (2024). Highly sophisticated supply-chain attacks.', techniques: ['T1195', 'T1078', 'T1550'], type: 'apt' },
       { id: 'G0034', name: 'Sandworm', aliases: ['Voodoo Bear', 'IRIDIUM', 'Seashell Blizzard'], country: 'RU', targetSectors: ['Energy', 'Government', 'Critical Infrastructure'], description: 'Russian GRU Unit 74455. Responsible for NotPetya (2017), Ukraine power grid attacks, and Olympic Destroyer.', techniques: ['T1498', 'T1485', 'T1486'], type: 'apt' },
-      { id: 'G0032', name: 'Turla', aliases: ['Snake', 'Venomous Bear', 'Waterbug'], country: 'RU', targetSectors: ['Government', 'Diplomatic', 'Military', 'Research'], description: 'Russian FSB-linked. One of the most sophisticated APTs, known for hijacking other groups\' infrastructure and satellite-based C2.', techniques: ['T1071', 'T1102', 'T1573'], type: 'apt' },
+      { id: 'G0010', name: 'Turla', aliases: ['Snake', 'Venomous Bear', 'Waterbug'], country: 'RU', targetSectors: ['Government', 'Diplomatic', 'Military', 'Research'], description: 'Russian FSB-linked. One of the most sophisticated APTs, known for hijacking other groups\' infrastructure and satellite-based C2.', techniques: ['T1071', 'T1102', 'T1573'], type: 'apt' },
       // China
       { id: 'G0006', name: 'APT1', aliases: ['Comment Crew', 'PLA Unit 61398'], country: 'CN', targetSectors: ['Technology', 'Aerospace', 'Energy', 'Manufacturing'], description: 'Chinese PLA Unit 61398. Prolific espionage group first exposed by Mandiant in 2013. Economic espionage focus.', techniques: ['T1566', 'T1003', 'T1005'], type: 'apt' },
       { id: 'G0096', name: 'APT41', aliases: ['Winnti', 'Barium', 'Wicked Panda'], country: 'CN', targetSectors: ['Healthcare', 'Pharmaceuticals', 'Software', 'Gaming'], description: 'Chinese dual-purpose group conducting both state espionage and financially motivated operations. Supply-chain attacks on software companies.', techniques: ['T1195', 'T1059', 'T1055'], type: 'apt' },
@@ -1295,7 +1283,7 @@ const API = (() => {
 
   // Get coordinates for a threat
   function getCoords(countryCode) {
-    return COUNTRY_COORDS[countryCode] || [20, 0];
+    return COUNTRY_COORDS[countryCode] || null;
   }
 
   function getCountryName(code) {
@@ -1316,8 +1304,17 @@ const API = (() => {
     // Include time range in cache key so changing range busts cache
     const rangeKey = `${cveRange}-${malwareRange}-${newsRange}-${aptRange}`;
     const CACHE_KEY = `cybervulndb_data_v9_${rangeKey}`;
-    const CACHE_TS_KEY = `cybervulndb_ts_v8_${rangeKey}`;
+    const CACHE_TS_KEY = `cybervulndb_ts_v9_${rangeKey}`;
     const CACHE_MAX_AGE = 15 * 60 * 1000; // 15 minutes
+
+    // Clean up stale versioned cache keys
+    (function cleanOldCacheKeys() {
+      const staleVersions = ['v1','v2','v3','v4','v5','v6','v7','v8'];
+      const prefixes = staleVersions.flatMap(v => [`cybervulndb_data_${v}_`, `cybervulndb_ts_${v}_`]);
+      Object.keys(localStorage).forEach(k => {
+        if (prefixes.some(p => k.startsWith(p))) localStorage.removeItem(k);
+      });
+    })();
 
     const cachedTs = Utils.storageGet(CACHE_TS_KEY);
     if (Utils.isCacheFresh(cachedTs, CACHE_MAX_AGE)) {
@@ -1346,7 +1343,7 @@ const API = (() => {
       ])
     ]);
 
-    await enrichWithEPSS(cves);
+    enrichWithEPSS(cves); // non-blocking: enriches in background
 
     const data = { cves, ransomware, apt, news };
     
@@ -1387,6 +1384,7 @@ const API = (() => {
     getCoords,
     getCountryName,
     getCountryFlag,
+    detectCountry,
     COUNTRY_COORDS,
     COUNTRY_KEYWORDS
   };

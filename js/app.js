@@ -13,7 +13,10 @@
   // ── Refresh handler ───────────────────────────────────────
   async function refreshData() {
     UI.showLoading();
-    Utils.storageSet('cybervulndb_ts', null);
+    // Clear all versioned cybervulndb cache entries so the next load fetches fresh data
+    Object.keys(localStorage)
+      .filter(k => k.startsWith('cybervulndb_'))
+      .forEach(k => localStorage.removeItem(k));
     await loadAndRender();
     UI.showToast('Data refreshed!', 'success');
   }
@@ -35,9 +38,10 @@
       const progress = Math.min((now - start) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
       el.textContent = Math.round(current + (target - current) * eased);
-      if (progress < 1) requestAnimationFrame(step);
+      if (progress < 1) el._rafHandle = requestAnimationFrame(step);
     };
-    requestAnimationFrame(step);
+    if (el._rafHandle) cancelAnimationFrame(el._rafHandle);
+    el._rafHandle = requestAnimationFrame(step);
   }
 
   function updateStatsBar(data) {
@@ -62,23 +66,23 @@
     // Add latest CVEs
     data.cves.slice(0, 8).forEach(cve => {
       const sev = cve.cvss?.severity || '';
-      items.push(`<span class="ticker-item ticker-cve">⚡ ${cve.id} [${sev}]</span>`);
+      items.push(`<span class="ticker-item ticker-cve">⚡ ${escapeHtml(cve.id)} [${escapeHtml(sev)}]</span>`);
     });
 
     // Add latest malware
     data.ransomware.slice(0, 5).forEach(m => {
-      items.push(`<span class="ticker-item ticker-malware">🔒 ${m.group || 'Malware'}: ${(m.organization || '').substring(0, 30)}</span>`);
+      items.push(`<span class="ticker-item ticker-malware">🔒 ${escapeHtml(m.group || 'Malware')}: ${escapeHtml((m.organization || '').substring(0, 30))}</span>`);
     });
 
     // Add APT groups
     data.apt.slice(0, 5).forEach(apt => {
       const flag = API.getCountryFlag(apt.country);
-      items.push(`<span class="ticker-item ticker-apt">${flag} ${apt.name} [${apt.country}]</span>`);
+      items.push(`<span class="ticker-item ticker-apt">${flag} ${escapeHtml(apt.name)} [${escapeHtml(apt.country)}]</span>`);
     });
 
     // Add latest news
     data.news.slice(0, 5).forEach(n => {
-      items.push(`<span class="ticker-item ticker-news">📰 ${(n.title || '').substring(0, 50)}</span>`);
+      items.push(`<span class="ticker-item ticker-news">📰 ${escapeHtml((n.title || '').substring(0, 50))}</span>`);
     });
 
     if (items.length) {
@@ -151,7 +155,9 @@
   // ── Auto-refresh every 5 minutes ─────────────────────────
   setInterval(async () => {
     console.log('[App] Auto-refreshing data...');
-    Utils.storageSet('cybervulndb_ts', null);
+    Object.keys(localStorage)
+      .filter(k => k.startsWith('cybervulndb_ts_'))
+      .forEach(k => localStorage.removeItem(k));
     await loadAndRender();
     UI.showToast('Data auto-refreshed', 'info');
   }, 5 * 60 * 1000);
@@ -300,12 +306,12 @@
     if (!container) return;
 
     // Sort by published — newest first
-    cves.sort((a, b) => new Date(b.published) - new Date(a.published));
+    const sorted = [...cves].sort((a, b) => new Date(b.published) - new Date(a.published));
 
     // Apply severity filter
-    let filteredCves = cves;
+    let filteredCves = sorted;
     if (currentSeverityFilter) {
-      filteredCves = cves.filter(c => c.cvss && c.cvss.severity === currentSeverityFilter);
+      filteredCves = sorted.filter(c => c.cvss && c.cvss.severity === currentSeverityFilter);
     }
 
     // Update count badge on CVE tab
@@ -327,8 +333,12 @@
       const isKEV = cachedKEVList && cachedKEVList.length > 0 && API.isInKEV(cve.id, cachedKEVList);
       const isNew = newIds.has(cve.id);
 
-      // Register this ID as seen
+      // Register this ID as seen; cap the set to prevent unbounded memory growth
       knownCveIds.add(cve.id);
+      if (knownCveIds.size > 500) {
+        const oldest = knownCveIds.values().next().value;
+        knownCveIds.delete(oldest);
+      }
 
       // EPSS badge
       let epssBadge = '';
@@ -345,14 +355,14 @@
       const kevBadge = isKEV ? '<span class="badge kev-badge" title="CISA Known Exploited Vulnerability">⚠ KEV</span>' : '';
 
       return `
-        <div class="threat-card cve ${isKEV ? 'kev' : ''} ${isNew ? 'cve-new' : ''}" data-id="${cve.id}" data-coords="${coords.join(',')}">
+        <div class="threat-card cve ${isKEV ? 'kev' : ''} ${isNew ? 'cve-new' : ''}" data-id="${cve.id}" data-coords="${coords ? coords.join(',') : ''}">
           <div class="threat-card-header">
             <span class="threat-card-type">
               ${isNew ? '<span class="cve-new-badge">NEW</span> ' : ''}${isKEV ? '⚠ CVE (KEV)' : 'CVE'}
             </span>
             <span class="threat-card-date" data-ts="${cve.published}">${timeAgo(cve.published)}</span>
           </div>
-          <div class="threat-card-title">${escapeHtml(cve.description.substring(0, 100))}...</div>
+          <div class="threat-card-title">${escapeHtml((cve.description || '').substring(0, 100))}...</div>
           <div class="threat-card-meta">
             <span class="cve-id">${cve.id}</span>
             <span class="badge ${severityClass}">${cve.cvss?.severity || 'N/A'} ${cve.cvss?.score ? cve.cvss.score.toFixed(1) : ''}</span>
@@ -364,18 +374,19 @@
     }).join('');
 
     // Add click handlers
+    const cveMap = new Map(cves.map(c => [c.id, c]));
     container.querySelectorAll('.threat-card').forEach(card => {
       card.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
-        const cve = cves.find(c => c.id === card.dataset.id);
+        const cve = cveMap.get(card.dataset.id);
         if (cve) showCVEModal(cve);
       });
 
       // Add to map with popup data
       const coords = card.dataset.coords.split(',').map(Number);
       if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
-        const cve = cves.find(c => c.id === card.dataset.id);
+        const cve = cveMap.get(card.dataset.id);
         MapManager.addMarker(coords[0], coords[1], 'cve', card.dataset.id, {
           id: cve?.id,
           severity: cve?.cvss?.severity,
@@ -406,37 +417,47 @@
       urlhaus: 'URLhaus'
     };
 
+    const malwareTypeLabels = {
+      ransomware: 'RANSOMWARE',
+      threatfox: 'IOC',
+      inquest: 'IOC',
+      hibp: 'BREACH',
+      urlhaus: 'MALWARE URL'
+    };
+
     container.innerHTML = victims.map(v => {
       const coords = API.getCoords(v.countryCode);
       const sourceName = malwareSourceNames[v.source] || v.source || 'Unknown';
+      const typeLabel = malwareTypeLabels[v.source] || 'RANSOMWARE';
       
       return `
-        <div class="threat-card ransomware" data-id="${v.id}" data-coords="${coords.join(',')}">
+        <div class="threat-card ransomware" data-id="${v.id}" data-coords="${coords ? coords.join(',') : ''}">
           <div class="threat-card-header">
-            <span class="threat-card-type">RANSOMWARE</span>
+            <span class="threat-card-type">${typeLabel}</span>
             <span class="source-badge">${escapeHtml(sourceName)}</span>
             <span class="threat-card-date">${formatDate(v.discovered)}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(v.organization)}</div>
           <div class="threat-card-meta">
-            <span class="badge high">${v.group}</span>
-            <span>${v.country}</span>
+            <span class="badge high">${escapeHtml(v.group || '')}</span>
+            <span>${escapeHtml(v.country || '')}</span>
           </div>
         </div>
       `;
     }).join('');
 
     // Add click handlers and map markers
+    const victimMap = new Map(victims.map(v => [v.id, v]));
     container.querySelectorAll('.threat-card').forEach(card => {
       card.addEventListener('click', () => {
         const id = card.dataset.id;
-        const victim = victims.find(v => v.id === id);
+        const victim = victimMap.get(id);
         if (victim) showRansomwareModal(victim);
       });
       
       const coords = card.dataset.coords.split(',').map(Number);
       if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
-        const victim = victims.find(v => v.id === card.dataset.id);
+        const victim = victimMap.get(card.dataset.id);
         MapManager.addMarker(coords[0], coords[1], 'ransomware', card.dataset.id, {
           organization: victim?.organization,
           group: victim?.group,
@@ -473,16 +494,16 @@
       const countryName = API.getCountryName(apt.country);
       
       return `
-        <div class="threat-card apt" data-id="${apt.id}" data-coords="${coords.join(',')}">
+        <div class="threat-card apt" data-id="${apt.id}" data-coords="${coords ? coords.join(',') : ''}">
           <div class="threat-card-header">
             <span class="threat-card-type">APT GROUP</span>
             <span class="source-badge">${escapeHtml(sourceName)}</span>
-            <span>${flag} ${apt.country}</span>
+            <span>${flag} ${escapeHtml(apt.country || '')}</span>
           </div>
           <div class="threat-card-title">${escapeHtml(apt.name)}</div>
           <div class="threat-card-meta">
             <span>${countryName}</span>
-            <span>${apt.targetSectors.slice(0, 2).join(', ')}</span>
+            <span>${escapeHtml((apt.targetSectors || []).slice(0, 2).join(', '))}</span>
           </div>
         </div>
       `;
@@ -495,16 +516,17 @@
     const labeledCountries = new Set();
 
     // Add click handlers, map markers, labels, and attack lines
+    const aptMap = new Map(groups.map(a => [a.id, a]));
     container.querySelectorAll('.threat-card').forEach(card => {
       card.addEventListener('click', () => {
         const id = card.dataset.id;
-        const apt = groups.find(a => a.id === id);
+        const apt = aptMap.get(id);
         if (apt) showAPTModal(apt);
       });
       
       const coords = card.dataset.coords.split(',').map(Number);
       if (Number.isFinite(coords[0]) && Number.isFinite(coords[1])) {
-        const apt = groups.find(a => a.id === card.dataset.id);
+        const apt = aptMap.get(card.dataset.id);
         const countryCode = apt?.country || '';
 
         // Add marker with rich popup data
@@ -535,6 +557,7 @@
             });
             if (targetCode) {
               const targetCoords = API.getCoords(targetCode[0]);
+              if (!targetCoords) return;
               MapManager.addAttackLine(coords[0], coords[1], targetCoords[0], targetCoords[1], '#8b5cf680');
             }
           });
@@ -573,7 +596,6 @@
           </div>
           <div class="threat-card-title">${escapeHtml(item.title)}</div>
           <div class="threat-card-meta">
-            <span class="news-source-label">${escapeHtml(item.source)}</span>
             ${item.points ? `<span class="news-points">▲ ${item.points}</span>` : ''}
           </div>
         </div>
@@ -601,15 +623,7 @@
   }
 
   function detectCountryFromText(text) {
-    const lower = text.toLowerCase();
-    if (/china|chinese|beijing/i.test(lower)) return 'CN';
-    if (/russia|russian|moscow/i.test(lower)) return 'RU';
-    if (/iran|iranian|tehran/i.test(lower)) return 'IR';
-    if (/north korea|dprk/i.test(lower)) return 'KP';
-    if (/korea|seoul/i.test(lower)) return 'KR';
-    if (/germany|berlin/i.test(lower)) return 'DE';
-    if (/uk|britain|london/i.test(lower)) return 'GB';
-    return 'US';
+    return API.detectCountry(text);
   }
 
   // Precise relative time: "just now" / "5m ago" / "3h 20m ago" / "Mar 2, 07:16" / "Oct 5, 2025"
@@ -774,17 +788,17 @@
       <div class="modal-header">
         <div>
           <div class="modal-type-badge badge-security">RANSOMWARE</div>
-          <div class="modal-title">${victim.organization}</div>
+          <div class="modal-title">${escapeHtml(victim.organization)}</div>
         </div>
         <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.add('hidden')">×</button>
       </div>
       <div class="modal-body">
         <div class="modal-meta-row">
-          <span class="badge high">${victim.group}</span>
-          <span>${victim.country}</span>
-          <span>${victim.sector}</span>
+          <span class="badge high">${escapeHtml(victim.group)}</span>
+          <span>${escapeHtml(victim.country)}</span>
+          <span>${escapeHtml(victim.sector)}</span>
         </div>
-        <p class="modal-description">${victim.description || 'Ransomware attack reported.'}</p>
+        <p class="modal-description">${escapeHtml(victim.description || 'Ransomware attack reported.')}</p>
         <p class="modal-meta-item">Discovered: ${formatDate(victim.discovered)}</p>
       </div>
     `;
@@ -801,17 +815,17 @@
       <div class="modal-header">
         <div>
           <div class="modal-type-badge" style="background: rgba(139,92,246,0.15); color: #8b5cf6;">APT</div>
-          <div class="modal-title">${apt.name}</div>
+          <div class="modal-title">${escapeHtml(apt.name)}</div>
         </div>
         <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.add('hidden')">×</button>
       </div>
       <div class="modal-body">
         <div class="modal-meta-row">
-          <span>Country: ${apt.country}</span>
+          <span>Country: ${escapeHtml(apt.country)}</span>
         </div>
-        <p class="modal-description">${apt.description}</p>
-        <p><strong>Aliases:</strong> ${apt.aliases.join(', ')}</p>
-        <p><strong>Target Sectors:</strong> ${apt.targetSectors.join(', ')}</p>
+        <p class="modal-description">${escapeHtml(apt.description)}</p>
+        <p><strong>Aliases:</strong> ${escapeHtml((apt.aliases || []).join(', '))}</p>
+        <p><strong>Target Sectors:</strong> ${escapeHtml((apt.targetSectors || []).join(', '))}</p>
       </div>
     `;
     
@@ -1052,7 +1066,7 @@
     const searchInput = document.getElementById('search-input');
     if (!searchInput) return;
 
-    searchInput.addEventListener('input', (e) => {
+    searchInput.addEventListener('input', Utils.debounce((e) => {
       currentSearchQuery = e.target.value.toLowerCase().trim();
       const data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] };
 
@@ -1063,14 +1077,21 @@
         renderRansomware(data.ransomware);
         renderAPT(data.apt);
         renderNews(data.news);
+        updateStatsBar(data);
         return;
       }
 
-      renderCVEs(filterForSearch(data.cves, 'cve'));
-      renderRansomware(filterForSearch(data.ransomware, 'ransomware'));
-      renderAPT(filterForSearch(data.apt, 'apt'));
-      renderNews(filterForSearch(data.news, 'news'));
-    });
+      MapManager.clearMarkers();
+      const filteredCVEs = filterForSearch(data.cves, 'cve');
+      const filteredRansomware = filterForSearch(data.ransomware, 'ransomware');
+      const filteredApt = filterForSearch(data.apt, 'apt');
+      const filteredNews = filterForSearch(data.news, 'news');
+      renderCVEs(filteredCVEs);
+      renderRansomware(filteredRansomware);
+      renderAPT(filteredApt);
+      renderNews(filteredNews);
+      updateStatsBar({ cves: filteredCVEs, ransomware: filteredRansomware, apt: filteredApt, news: filteredNews });
+    }, 250));
   }
 
   // Map reset button
