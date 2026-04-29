@@ -371,8 +371,7 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     const limit = timeRangeCap(timeRange);
     const startDate = timeRangeToStart(timeRange);
     try {
-    const commitsResp = await getSharedCvelistCommits(30);
-      const commits = await commitsResp.json();
+    const commits = await getSharedCvelistCommits(30);
 
       const cveIds = new Set();
       for (const c of commits) {
@@ -832,11 +831,11 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
         if (!data || typeof data !== 'object') continue;
 
         const items = Array.isArray(data) ? data : Object.values(data).filter(v => typeof v === 'object' && v !== null);
-        const mapped = items.slice(0, limit).map(item => {
+        const mapped = items.slice(0, limit).map((item, idx) => {
           const entry = Array.isArray(item) ? item[0] : item;
           if (!entry) return null;
           return {
-            id: `urlhaus-${entry.id || Utils.slugify(entry.url || '') || Utils.uid()}`,
+            id: `urlhaus-${entry.id || Utils.slugify(entry.url || '') || String(idx)}`,
             organization: entry.url || 'Unknown URL',
             group: entry.threat || 'Unknown',
             country: 'Unknown',
@@ -877,11 +876,11 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
         if (!data || typeof data !== 'object') continue;
 
         const items = Array.isArray(data) ? data : Object.values(data).filter(v => typeof v === 'object' && v !== null);
-        const mapped = items.slice(0, limit).map(item => {
+        const mapped = items.slice(0, limit).map((item, idx) => {
           const entry = Array.isArray(item) ? item[0] : item;
           if (!entry) return null;
           return {
-            id: `tf-${entry.id || Utils.slugify(entry.ioc_value || '') || Utils.uid()}`,
+            id: `tf-${entry.id || Utils.slugify(entry.ioc_value || '') || String(idx)}`,
             organization: entry.ioc_value || 'Unknown IOC',
             group: entry.malware_printable || entry.malware || 'Unknown',
             country: 'Unknown',

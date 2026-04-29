@@ -1595,9 +1595,9 @@ select:focus-visible {
 #cve-source-filter {
   font-size: 0.62rem;
   padding: 2px 4px;
-  background: var(--surface);
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
-  color: var(--primary);
+  color: var(--accent-cyan);
   border-radius: 3px;
   font-family: 'IBM Plex Mono', monospace;
   cursor: pointer;
@@ -1605,7 +1605,7 @@ select:focus-visible {
 }
 
 #cve-source-filter:focus {
-  border-color: var(--primary);
+  border-color: var(--accent-cyan);
   outline: none;
 }
 
