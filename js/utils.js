@@ -7,15 +7,24 @@ const Utils = (() => {
    * Format a Unix timestamp (seconds) or Date into a relative time string.
    */
   function timeAgo(timestamp) {
-    const now = Date.now();
-    const ts = typeof timestamp === 'number' && timestamp < 1e12
-      ? timestamp * 1000
-      : typeof timestamp === 'string' ? new Date(timestamp).getTime() : timestamp;
-    const diff = Math.floor((now - ts) / 1000);
-    if (diff < 60)    return `${diff}s ago`;
-    if (diff < 3600)  return `${Math.floor(diff / 60)}m ago`;
-    if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-    return `${Math.floor(diff / 86400)}d ago`;
+    const date = typeof timestamp === 'string' ? new Date(timestamp) : new Date(timestamp);
+    const diff = Date.now() - date.getTime();
+    if (diff < 0) return 'just now';
+    const sec = Math.floor(diff / 1000);
+    const min = Math.floor(sec / 60);
+    const hr = Math.floor(min / 60);
+    const days = Math.floor(hr / 24);
+
+    if (sec < 60) return 'just now';
+    if (min < 60) return `${min}m ago`;
+    if (hr < 24) return min % 60 ? `${hr}h ${min % 60}m ago` : `${hr}h ago`;
+    if (days < 2) return `${days}d ago`;
+
+    const sameYear = date.getFullYear() === new Date().getFullYear();
+    const opts = sameYear
+      ? { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }
+      : { month: 'short', day: 'numeric', year: 'numeric' };
+    return date.toLocaleDateString('en-US', opts);
   }
 
   /**

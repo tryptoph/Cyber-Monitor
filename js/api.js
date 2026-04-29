@@ -41,19 +41,22 @@ const API = (() => {
 
   // Filter an array of items to those within the time range
   // dateField: the property name holding an ISO date string
-  function filterByTimeRange(items, dateField, range) {
-    if (!range || range === 'all') return items;
-    const start = timeRangeToStart(range);
-    return items.filter(item => {
-      const d = item[dateField] ? new Date(item[dateField]) : null;
-      return d && d >= start;
-    });
-  }
+function filterByTimeRange(items, dateField, range) {
+  if (!range || range === 'all') return items;
+  const start = timeRangeToStart(range);
+  return items.filter(item => {
+    const val = item[dateField];
+    if (!val) return true;
+    const d = new Date(val);
+    return !isNaN(d.getTime()) && d >= start;
+  });
+}
 
-  // Cache for KEV data
-  let kevCache = null;
-  let kevCacheTime = null;
-  const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
+// Cache for KEV data
+let kevCache = null;
+let kevCacheTime = null;
+let kevIdSet = null;
+const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
 
   // Cache for MISP Galaxy data (3MB payload, 30 min TTL)
   let mispCache = null;
@@ -181,16 +184,11 @@ const API = (() => {
       }
     } catch { /* all proxies failed */ }
 
-    console.warn(`[API] All proxies failed: ${feed.name}`);
-    return [];
-  }
+  console.warn(`[API] All proxies failed: ${feed.name}`);
+  return [];
+}
 
-  // Keep legacy fetchRSS for backward compat
-  async function fetchRSS(feed) {
-    return fetchRSSWithFallbacks(feed);
-  }
-
-  // ── Parse RSS XML ─────────────────────────────────────────
+// ── Parse RSS XML ─────────────────────────────────────────
   function parseRSSItems(xml, feed) {
     const items = [];
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
@@ -279,35 +277,40 @@ const API = (() => {
       return kevCache;
     }
 
-    try {
-      const response = await fetch(`${CORS_PROXY}${encodeURIComponent(CISA_KEV_URL)}`);
-      if (!response.ok) {
-        console.warn('[API] KEV fetch failed, using empty catalog');
-        return [];
-      }
-      const data = await response.json();
-      const vulnerabilities = data.vulnerabilities || [];
-      kevCache = vulnerabilities;
+  try {
+    const response = await fetch(`${CORS_PROXY}${encodeURIComponent(CISA_KEV_URL)}`);
+    if (!response.ok) {
+      console.warn('[API] KEV fetch failed, using empty catalog');
+      kevCache = [];
       kevCacheTime = Date.now();
-      console.log(`[API] Loaded ${vulnerabilities.length} KEV entries`);
-      return vulnerabilities;
-    } catch (err) {
-      console.warn('[API] KEV fetch error:', err.message);
       return [];
     }
+    const data = await response.json();
+    const vulnerabilities = data.vulnerabilities || [];
+    kevCache = vulnerabilities;
+    kevCacheTime = Date.now();
+    kevIdSet = new Set(vulnerabilities.map(v => v.cveID));
+    console.log(`[API] Loaded ${vulnerabilities.length} KEV entries`);
+    return vulnerabilities;
+  } catch (err) {
+    console.warn('[API] KEV fetch error:', err.message);
+    kevCache = [];
+    kevCacheTime = Date.now();
+    return [];
+  }
   }
 
   // Check if a CVE is in KEV catalog
-  function isInKEV(cveId, kevList) {
-    if (!kevList || !kevList.length) return false;
-    return kevList.some(kev => kev.cveID === cveId);
-  }
+function isInKEV(cveId, kevList) {
+  if (kevIdSet) return kevIdSet.has(cveId);
+  if (!kevList || !kevList.length) return false;
+  return kevList.some(kev => kev.cveID === cveId);
+}
 
-  // Get KEV details for a CVE
-  function getKEVDetails(cveId, kevList) {
-    if (!kevList || !kevList.length) return null;
-    return kevList.find(kev => kev.cveID === cveId) || null;
-  }
+function getKEVDetails(cveId, kevList) {
+  if (!kevList || !kevList.length) return null;
+  return kevList.find(kev => kev.cveID === cveId) || null;
+}
 
   // ── CVEProject/cvelistV5 — Real-time CVEs (0 lag) ────────
   const CVELIST_COMMITS_API = 'https://api.github.com/repos/CVEProject/cvelistV5/commits';
@@ -347,12 +350,28 @@ const API = (() => {
     };
   }
 
-  async function fetchCVEsFromCveList(timeRange = '1w') {
+  let sharedCvelistCommits = null;
+let sharedCvelistCommitsTime = 0;
+const SHARED_COMMITS_TTL = 60 * 1000;
+
+async function getSharedCvelistCommits(perPage = 30) {
+  const now = Date.now();
+  if (sharedCvelistCommits && (now - sharedCvelistCommitsTime < SHARED_COMMITS_TTL)) {
+    return sharedCvelistCommits;
+  }
+  const resp = await fetchWithAbort(`${CVELIST_COMMITS_API}?per_page=${perPage}`, {}, 8000);
+  if (!resp.ok) throw new Error(`GitHub commits API: ${resp.status}`);
+  const commits = await resp.json();
+  sharedCvelistCommits = commits;
+  sharedCvelistCommitsTime = now;
+  return commits;
+}
+
+async function fetchCVEsFromCveList(timeRange = '1w') {
     const limit = timeRangeCap(timeRange);
     const startDate = timeRangeToStart(timeRange);
     try {
-      const commitsResp = await fetchWithAbort(`${CVELIST_COMMITS_API}?per_page=30`, {}, 8000);
-      if (!commitsResp.ok) throw new Error(`GitHub commits API: ${commitsResp.status}`);
+    const commitsResp = await getSharedCvelistCommits(30);
       const commits = await commitsResp.json();
 
       const cveIds = new Set();
@@ -410,11 +429,8 @@ const API = (() => {
       const url = `${GITHUB_ADVISORY_API}?${params.toString()}`;
       console.log('[API] Fetching from GitHub Advisory DB:', url);
 
-      const response = await Promise.race([
-        fetch(url, { headers: { Accept: 'application/vnd.github+json' } }),
-        timeout(10000)
-      ]);
-      if (!response.ok) throw new Error(`GitHub Advisory API returned ${response.status}`);
+	const response = await fetchWithAbort(url, { headers: { Accept: 'application/vnd.github+json' } }, 10000);
+    if (!response.ok) throw new Error(`GitHub Advisory API returned ${response.status}`);
 
       const data = await response.json();
       if (!Array.isArray(data) || data.length === 0) return null;
@@ -519,9 +535,7 @@ const API = (() => {
     const limit = timeRangeCap(timeRange);
     const startDate = timeRangeToStart(timeRange);
     try {
-      const commitsResp = await fetchWithAbort(`${CVELIST_COMMITS_API}?per_page=15`, {}, 10000);
-      if (!commitsResp.ok) throw new Error(`GitHub commits API: ${commitsResp.status}`);
-      const commits = await commitsResp.json();
+    const commits = await getSharedCvelistCommits(15);
 
       const cveIds = new Set();
       for (const c of commits) {
@@ -656,10 +670,10 @@ const API = (() => {
       }
     }
 
-    addUnique(cvelist.value, 'CVEProject');
-    addUnique(github.value, 'GitHub');
-    addUnique(nvd.value, 'NVD');
-    addUnique(cveorg.value, 'CVE.org');
+  addUnique(cvelist.status === 'fulfilled' ? cvelist.value : null, 'CVEProject');
+  addUnique(github.status === 'fulfilled' ? github.value : null, 'GitHub');
+  addUnique(nvd.status === 'fulfilled' ? nvd.value : null, 'NVD');
+  addUnique(cveorg.status === 'fulfilled' ? cveorg.value : null, 'CVE.org');
 
     all.sort((a, b) => new Date(b.published) - new Date(a.published));
 
@@ -822,7 +836,7 @@ const API = (() => {
           const entry = Array.isArray(item) ? item[0] : item;
           if (!entry) return null;
           return {
-            id: `urlhaus-${entry.id || entry.url || Math.random()}`,
+            id: `urlhaus-${entry.id || Utils.slugify(entry.url || '') || Utils.uid()}`,
             organization: entry.url || 'Unknown URL',
             group: entry.threat || 'Unknown',
             country: 'Unknown',
@@ -867,7 +881,7 @@ const API = (() => {
           const entry = Array.isArray(item) ? item[0] : item;
           if (!entry) return null;
           return {
-            id: `tf-${entry.id || entry.ioc_value || Math.random()}`,
+            id: `tf-${entry.id || Utils.slugify(entry.ioc_value || '') || Utils.uid()}`,
             organization: entry.ioc_value || 'Unknown IOC',
             group: entry.malware_printable || entry.malware || 'Unknown',
             country: 'Unknown',
@@ -1296,12 +1310,11 @@ const API = (() => {
       ])
     ]);
 
-    const data = { cves, ransomware, apt, news };
+  const data = { cves, ransomware, apt, news };
 
-    enrichWithEPSS(cves).then(() => {
-      Utils.storageSet(CACHE_KEY, { ...data, cves });
-      Utils.storageSet(CACHE_TS_KEY, Date.now());
-    });
+  await enrichWithEPSS(cves);
+  Utils.storageSet(CACHE_KEY, data);
+  Utils.storageSet(CACHE_TS_KEY, Date.now());
     
     console.log('[API] Data loaded:', {
       cves: cves.length,

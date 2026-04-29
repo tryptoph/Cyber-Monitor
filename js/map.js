@@ -6,6 +6,7 @@
 const MapManager = (() => {
   let map = null;
   let markers = [];
+  let markerIndex = new Map();
   let attackLines = [];
   let heatmapLayer = null;
   let heatmapVisible = false;
@@ -81,57 +82,58 @@ const MapManager = (() => {
   function buildPopupContent(type, data) {
     if (!data) return '';
     const color = TYPE_COLORS[type] || '#64748b';
+    const esc = Utils.escapeHtml;
 
     if (type === 'apt') {
-      const targets = data.targetSectors ? data.targetSectors.slice(0, 4).join(', ') : 'Unknown';
-      const aliases = data.aliases ? data.aliases.slice(0, 3).join(', ') : '';
+      const targets = data.targetSectors ? data.targetSectors.slice(0, 4).map(esc).join(', ') : 'Unknown';
+      const aliases = data.aliases ? data.aliases.slice(0, 3).map(esc).join(', ') : '';
       return `
-        <div class="map-popup-content">
-          <div class="popup-type-badge" style="background:${color}20;color:${color};border:1px solid ${color}50">🎯 APT GROUP</div>
-          <div class="popup-title">${data.name || 'Unknown'}</div>
-          <div class="popup-country">
-            <span class="popup-flag">${data.countryFlag || '🌍'}</span>
-            <span>${data.countryName || data.country || 'Unknown'}</span>
-          </div>
-          ${aliases ? `<div class="popup-aliases">aka: ${aliases}</div>` : ''}
-          <div class="popup-detail"><span class="popup-label">Targets:</span> ${targets}</div>
-          ${data.victims ? `<div class="popup-detail"><span class="popup-label">Known victims:</span> ${data.victims.slice(0, 3).join(', ')}</div>` : ''}
-        </div>`;
+  <div class="map-popup-content">
+    <div class="popup-type-badge" style="background:${color}20;color:${color};border:1px solid ${color}50">🎯 APT GROUP</div>
+    <div class="popup-title">${esc(data.name || 'Unknown')}</div>
+    <div class="popup-country">
+      <span class="popup-flag">${data.countryFlag || '🌍'}</span>
+      <span>${esc(data.countryName || data.country || 'Unknown')}</span>
+    </div>
+    ${aliases ? `<div class="popup-aliases">aka: ${aliases}</div>` : ''}
+    <div class="popup-detail"><span class="popup-label">Targets:</span> ${targets}</div>
+    ${data.victims ? `<div class="popup-detail"><span class="popup-label">Known victims:</span> ${data.victims.slice(0, 3).map(esc).join(', ')}</div>` : ''}
+  </div>`;
     }
 
     if (type === 'cve') {
       const sev = data.severity || 'N/A';
       const sevColor = sev === 'CRITICAL' ? '#ff2d55' : sev === 'HIGH' ? '#ff9500' : sev === 'MEDIUM' ? '#ffcc00' : '#30d158';
+      const desc = esc((data.description || '').substring(0, 120));
       return `
-        <div class="map-popup-content">
-          <div class="popup-type-badge" style="background:${color}20;color:${color};border:1px solid ${color}50">⚡ CVE</div>
-          <div class="popup-title">${data.id || 'Unknown'}</div>
-          <div class="popup-detail">
-            <span class="popup-severity" style="color:${sevColor}">● ${sev}</span>
-            ${data.score ? `<span class="popup-score">${data.score}</span>` : ''}
-          </div>
-          <div class="popup-desc">${(data.description || '').substring(0, 120)}${(data.description || '').length > 120 ? '...' : ''}</div>
-        </div>`;
+  <div class="map-popup-content">
+    <div class="popup-type-badge" style="background:${color}20;color:${color};border:1px solid ${color}50">⚡ CVE</div>
+    <div class="popup-title">${esc(data.id || 'Unknown')}</div>
+    <div class="popup-detail">
+      <span class="popup-severity" style="color:${sevColor}">● ${esc(sev)}</span>
+      ${data.score ? `<span class="popup-score">${data.score}</span>` : ''}
+    </div>
+    <div class="popup-desc">${desc}${(data.description || '').length > 120 ? '...' : ''}</div>
+  </div>`;
     }
 
     if (type === 'ransomware') {
       return `
-        <div class="map-popup-content">
-          <div class="popup-type-badge" style="background:${color}20;color:${color};border:1px solid ${color}50">🔒 RANSOMWARE</div>
-          <div class="popup-title">${data.organization || data.name || 'Unknown'}</div>
-          <div class="popup-detail"><span class="popup-label">Group:</span> ${data.group || 'Unknown'}</div>
-          <div class="popup-detail"><span class="popup-label">Country:</span> ${data.country || 'Unknown'}</div>
-        </div>`;
+  <div class="map-popup-content">
+    <div class="popup-type-badge" style="background:${color}20;color:${color};border:1px solid ${color}50">🔒 RANSOMWARE</div>
+    <div class="popup-title">${esc(data.organization || data.name || 'Unknown')}</div>
+    <div class="popup-detail"><span class="popup-label">Group:</span> ${esc(data.group || 'Unknown')}</div>
+    <div class="popup-detail"><span class="popup-label">Country:</span> ${esc(data.country || 'Unknown')}</div>
+  </div>`;
     }
 
-    return `<div class="map-popup-content"><div class="popup-title">${data.name || data.id || 'Item'}</div></div>`;
+    return `<div class="map-popup-content"><div class="popup-title">${esc(data.name || data.id || 'Item')}</div></div>`;
   }
 
   function addMarker(lat, lng, type, id, data) {
     if (!map || !Number.isFinite(lat) || !Number.isFinite(lng)) return;
 
-    const existing = markers.find(m => m._id === id);
-    if (existing) return;
+    if (markerIndex.has(id)) return;
 
     const icon = createIcon(type, id);
     const marker = L.marker([lat, lng], { icon });
@@ -154,15 +156,16 @@ const MapManager = (() => {
 
     // Add tooltip for quick hover
     if (data && (data.name || data.id)) {
-      marker.bindTooltip(data.name || data.id, {
+      marker.bindTooltip(Utils.escapeHtml(data.name || data.id), {
         className: 'cyber-tooltip',
         direction: 'top',
         offset: [0, -15],
       });
     }
 
-    marker.addTo(map);
-    markers.push(marker);
+  marker.addTo(map);
+  markers.push(marker);
+  markerIndex.set(id, marker);
   }
 
   // Add APT label marker (country name label on map)
@@ -170,7 +173,7 @@ const MapManager = (() => {
     if (!map || !Number.isFinite(lat) || !Number.isFinite(lng)) return;
 
     const labelIcon = L.divIcon({
-      html: `<div class="map-label" style="color:${color || '#8b5cf6'}">${text}</div>`,
+      html: `<div class="map-label" style="color:${color || '#8b5cf6'}">${Utils.escapeHtml(text)}</div>`,
       className: 'map-label-wrapper',
       iconSize: [100, 20],
       iconAnchor: [50, -8],
@@ -228,6 +231,7 @@ const MapManager = (() => {
     if (!map) return;
     markers.forEach(m => map.removeLayer(m));
     markers = [];
+    markerIndex.clear();
     clearAttackLines();
   }
 

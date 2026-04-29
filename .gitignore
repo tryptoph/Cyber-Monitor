@@ -33,3 +33,6 @@ test_app.py
 
 # graphify knowledge graph outputs
 graphify-out/
+
+# Issue tracker
+issues.md

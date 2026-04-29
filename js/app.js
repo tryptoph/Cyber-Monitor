@@ -269,9 +269,9 @@
         );
       case 'apt':
         return items.filter(a =>
-          (a.name || '').toLowerCase().includes(q) ||
-          (a.aliases || []).some(alias => alias.toLowerCase().includes(q)) ||
-          (a.targets || []).some(t => t.toLowerCase().includes(q))
+      (a.name || '').toLowerCase().includes(q) ||
+      (a.aliases || []).some(alias => alias.toLowerCase().includes(q)) ||
+      (a.targetSectors || []).some(t => t.toLowerCase().includes(q))
         );
       case 'news':
         return items.filter(n =>
@@ -307,7 +307,7 @@
     if (!container) return;
 
     // Sort by published — newest first
-    const sorted = [...cves].sort((a, b) => new Date(b.published) - new Date(a.published));
+    const sorted = [...cves];
 
     // Apply severity filter
     let filteredCves = sorted;
@@ -331,8 +331,8 @@
 
     container.innerHTML = filteredCves.map(cve => {
       const severityClass = getSeverityClass(cve.cvss?.severity);
-      const countryCode = detectCountryFromText(cve.description);
-      const coords = API.getCoords(countryCode);
+  const countryCode = detectCountryFromText(cve.description);
+  const coords = API.getCoords(countryCode) || [];
       const isKEV = cachedKEVList && cachedKEVList.length > 0 && API.isInKEV(cve.id, cachedKEVList);
       const isNew = newIds.has(cve.id);
 
@@ -422,7 +422,7 @@
     };
 
     container.innerHTML = victims.map(v => {
-      const coords = API.getCoords(v.countryCode);
+      const coords = API.getCoords(v.countryCode) || [];
       const sourceName = malwareSourceNames[v.source] || v.source || 'Unknown';
       const typeLabel = malwareTypeLabels[v.source] || 'RANSOMWARE';
       
@@ -620,45 +620,30 @@
 
   function detectCountryFromText(text) {
     return API.detectCountry(text);
-  }
+}
 
-  // Precise relative time: "just now" / "5m ago" / "3h 20m ago" / "Mar 2, 07:16" / "Oct 5, 2025"
-  function timeAgo(dateStr) {
-    const date = new Date(dateStr);
-    const diff = Date.now() - date.getTime();
-    if (diff < 0) return 'just now';
-    const sec  = Math.floor(diff / 1000);
-    const min  = Math.floor(sec / 60);
-    const hr   = Math.floor(min / 60);
-    const days = Math.floor(hr / 24);
+const { escapeHtml, timeAgo } = Utils;
 
-    if (sec  < 60)  return 'just now';
-    if (min  < 60)  return `${min}m ago`;
-    if (hr   < 24)  return min % 60 ? `${hr}h ${min % 60}m ago` : `${hr}h ago`;
-    if (days < 2)   return `${days}d ago`;
-
-    // For items > 2 days old, show exact date + time — much more readable
-    const sameYear = date.getFullYear() === new Date().getFullYear();
-    const opts = sameYear
-      ? { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }
-      : { month: 'short', day: 'numeric', year: 'numeric' };
-    return date.toLocaleDateString('en-US', opts);
-  }
-
-  // escapeHtml from Utils (removes local duplicate)
-  const { escapeHtml } = Utils;
-
-  // Tick every minute — re-render all visible date spans in-place
+// Tick every minute — re-render all visible date spans in-place
   setInterval(() => {
     requestAnimationFrame(() => {
-      document.querySelectorAll('[data-ts]').forEach(el => {
-        el.textContent = timeAgo(Number(el.dataset.ts));
+    document.querySelectorAll('[data-ts]').forEach(el => {
+      const raw = el.dataset.ts;
+      const parsed = Number(raw);
+      el.textContent = timeAgo(isNaN(parsed) ? raw : parsed);
       });
     });
   }, 60000);
 
-  // ── Modal functions ─────────────────────────────────────
-  function showCVEModal(cve) {
+// ── Modal functions ─────────────────────────────────────
+document.addEventListener('click', (e) => {
+  if (e.target.matches('[data-action="close-modal"]')) {
+    const overlay = document.getElementById('modal-overlay');
+    if (overlay) overlay.classList.add('hidden');
+  }
+});
+
+function showCVEModal(cve) {
     const overlay = document.getElementById('modal-overlay');
     const content = document.getElementById('modal-content');
     if (!overlay || !content) return;
@@ -722,11 +707,11 @@
           <div class="modal-type-badge badge-${severityClass}">CVE</div>
           <div class="modal-title">${cve.id}</div>
         </div>
-        <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.add('hidden')">×</button>
-      </div>
-      <div class="modal-body">
-        <div class="modal-meta-row">
-          ${cve.cvss?.score ? `<span class="badge ${severityClass}">CVSS: ${cve.cvss.score.toFixed(1)}</span>` : ''}
+    <button class="modal-close" data-action="close-modal">×</button>
+  </div>
+  <div class="modal-body">
+    <div class="modal-meta-row">
+      ${cve.cvss?.score ? `<span class="badge ${severityClass}">CVSS: ${cve.cvss.score.toFixed(1)}</span>` : ''}
           ${cve.cvss?.severity ? `<span class="badge info">${cve.cvss.severity}</span>` : ''}
           ${cve.epss?.score != null ? `<span class="badge epss-badge ${cve.epss.score > 0.5 ? 'epss-critical' : cve.epss.score > 0.1 ? 'epss-high' : cve.epss.score > 0.01 ? 'epss-medium' : 'epss-low'}">EPSS: ${(cve.epss.score * 100).toFixed(1)}%</span>` : ''}
           ${isKEV ? '<span class="badge kev-badge">⚠ KEV</span>' : ''}
@@ -782,11 +767,11 @@
           <div class="modal-type-badge badge-security">RANSOMWARE</div>
           <div class="modal-title">${escapeHtml(victim.organization)}</div>
         </div>
-        <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.add('hidden')">×</button>
-      </div>
-      <div class="modal-body">
-        <div class="modal-meta-row">
-          <span class="badge high">${escapeHtml(victim.group)}</span>
+    <button class="modal-close" data-action="close-modal">×</button>
+  </div>
+  <div class="modal-body">
+    <div class="modal-meta-row">
+      <span class="badge high">${escapeHtml(victim.group)}</span>
           <span>${escapeHtml(victim.country)}</span>
           <span>${escapeHtml(victim.sector)}</span>
         </div>
@@ -809,7 +794,7 @@
           <div class="modal-type-badge" style="background: rgba(139,92,246,0.15); color: #8b5cf6;">APT</div>
           <div class="modal-title">${escapeHtml(apt.name)}</div>
         </div>
-        <button class="modal-close" onclick="document.getElementById('modal-overlay').classList.add('hidden')">×</button>
+        <button class="modal-close" data-action="close-modal">×</button>
       </div>
       <div class="modal-body">
         <div class="modal-meta-row">

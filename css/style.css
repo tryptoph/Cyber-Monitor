@@ -1797,7 +1797,7 @@ select:focus-visible {
   padding: 8px 16px;
   background: rgba(0,0,0,0.3);
   border-bottom: 1px solid var(--border);
-  font-family: var(--font-mono);
+  font-family: 'IBM Plex Mono', monospace;
 }
 .stat-item {
   display: flex;
@@ -1813,11 +1813,11 @@ select:focus-visible {
 .stat-label {
   font-size: 0.65rem;
   text-transform: uppercase;
-  color: var(--text-dim);
+  color: var(--text-muted);
   letter-spacing: 1px;
 }
 .stat-critical .stat-value {
-  color: var(--severity-critical, #ff4444);
+  color: var(--critical);
 }
 
 /* ── Threat Activity Ticker ─────────────────────────────── */

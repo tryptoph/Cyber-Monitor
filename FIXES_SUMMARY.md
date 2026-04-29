@@ -92,25 +92,98 @@ New styles added:
 | Search Reset | ❌ Full reload | ✅ Data-only reset |
 | LocalStorage Error Handling | ❌ Silent fail | ✅ Clears cache + retry |
 
+## Round 2 Fixes (Bug sweep from knowledge-graph analysis)
+
+### Fix 1: Null crash on `cve.description`
+**File:** `js/app.js` — `renderCVEs`  
+**Problem:** `cve.description.substring(0, 100)` throws when description is `null`/`undefined`.  
+**Fix:** Changed to `(cve.description || '').substring(0, 100)`.
+
+### Fix 2: Refresh button did not bust versioned cache
+**File:** `js/app.js` — `refreshData()`  
+**Problem:** Cleared `cybervulndb_ts` but cache keys are versioned as `cybervulndb_ts_v8_${rangeKey}` — old key clear had no effect.  
+**Fix:** Now removes every localStorage key starting with `cybervulndb_`.
+
+### Fix 3: XSS in `showRansomwareModal`
+**File:** `js/app.js`  
+**Problem:** `victim.organization`, `victim.description`, `victim.group`, `victim.country`, `victim.sector` injected raw into `innerHTML`.  
+**Fix:** All fields wrapped in `escapeHtml()`.
+
+### Fix 4: XSS in `showAPTModal`
+**File:** `js/app.js`  
+**Problem:** `apt.country`, `apt.description`, `apt.aliases.join(', ')`, `apt.targetSectors.join(', ')` injected raw into `innerHTML`.  
+**Fix:** All fields wrapped in `escapeHtml()`.
+
+### Fix 5: XSS in `renderAPT` card
+**File:** `js/app.js`  
+**Problem:** `apt.targetSectors.slice(0, 2).join(', ')` inserted unescaped in card innerHTML.  
+**Fix:** Wrapped in `escapeHtml()`.
+
+### Fix 6: Hardcoded "RANSOMWARE" type label
+**File:** `js/app.js` — `renderRansomware`  
+**Problem:** Every malware card showed `RANSOMWARE` regardless of source (ThreatFox=IOC, URLhaus=MALWARE URL, HIBP=BREACH, InQuest=IOC).  
+**Fix:** Added `malwareTypeLabels` map; label now derived dynamically from `v.source`.
+
+### Fix 7: Duplicate APT ID (Turla / Lazarus Group both `G0032`)
+**File:** `js/api.js` — mock APT dataset  
+**Problem:** Both Turla and Lazarus Group had `id: 'G0032'`; MITRE ID for Turla is G0010.  
+**Fix:** Changed Turla's ID to `'G0010'`.
+
+### Fix 8: Missing `source` field on ransomware.live items
+**File:** `js/api.js` — `fetchLiveRansomware()`  
+**Problem:** Live items mapped without `source` field → source badge always showed "Unknown".  
+**Fix:** Added `source: 'ransomware'` to the mapped object.
+
+### Fix 9: CSS undefined variables
+**File:** `css/style.css`  
+**Problem:** `--font-mono`, `--text-dim`, `--severity-critical` were undefined; layout/color not applied.  
+**Fix:** `--font-mono` → literal `'IBM Plex Mono', monospace`; `--text-dim` → `var(--text-muted)`; `--severity-critical` → `var(--critical)`.
+
+### Fix 10: Duplicate news source display
+**File:** `js/app.js` — `renderNews`  
+**Problem:** `item.source` shown in both the header badge and `news-source-label` meta span.  
+**Fix:** Removed redundant `news-source-label` span.
+
+### Fix 11: `knownCveIds` Set grows unboundedly
+**File:** `js/app.js` — `renderCVEs`  
+**Problem:** Set accumulates every CVE ID seen with no upper bound; leaks memory over long sessions.  
+**Fix:** After each `add()`, if size exceeds 500 the oldest entry is removed.
+
+---
+
+## SPEC Compliance Status
+
+| Feature | Before | After |
+|---------|--------|-------|
+| CISA KEV Integration | ❌ Missing | ✅ Implemented |
+| Live NVD API | ❌ Fallback only | ✅ Live API with fallback |
+| CVSS Vector Display | ❌ Missing | ✅ In modal |
+| CPE/Affected Products | ❌ Missing | ✅ In modal |
+| References in Modal | ⚠️ First only | ✅ Full list |
+| Heatmap Toggle | ❌ Non-functional | ✅ Working |
+| Search Reset | ❌ Full reload | ✅ Data-only reset |
+| LocalStorage Error Handling | ❌ Silent fail | ✅ Clears cache + retry |
+| Refresh Button Cache Bust | ❌ Wrong key | ✅ Fixed |
+| XSS in Ransomware Modal | ❌ Raw innerHTML | ✅ Escaped |
+| XSS in APT Modal | ❌ Raw innerHTML | ✅ Escaped |
+| XSS in APT Cards | ❌ Raw innerHTML | ✅ Escaped |
+| CVE Null Description Crash | ❌ Throws | ✅ Guarded |
+| Dynamic Malware Type Label | ❌ Always RANSOMWARE | ✅ Source-based |
+| Duplicate APT IDs | ❌ Turla/Lazarus G0032 | ✅ Turla → G0010 |
+| Ransomware Source Badge | ❌ Always "Unknown" | ✅ Correct |
+| CSS Undefined Variables | ❌ 3 missing | ✅ All resolved |
+| Duplicate News Source | ❌ Shown twice | ✅ Once only |
+| knownCveIds Memory | ❌ Unbounded | ✅ Capped at 500 |
+
 ## Known Limitations (Still Missing from SPEC)
 
 1. **React/Next.js/TypeScript** - Still vanilla JS (major architectural difference)
 2. **EPSS Scoring** - Not implemented
-3. **Ransomware Live API** - Still using mock data
-4. **MITRE ATT&CK Integration** - Still using mock data
-5. **AI Features** - Not implemented
-6. **3D Globe** - Only 2D Leaflet map
-7. **Read/Unread Tracking** - Not implemented
-8. **Entity Extraction** - Not implemented
-
-## Testing Recommendations
-
-1. Test CISA KEV fetch with network throttling
-2. Test localStorage quota handling
-3. Test severity filter with CVEs missing CVSS data
-4. Test heatmap toggle with many markers
-5. Test search reset performance
-6. Test modal with CVEs having many references
+3. **MITRE ATT&CK Integration** - Still using mock data
+4. **AI Features** - Not implemented
+5. **3D Globe** - Only 2D Leaflet map
+6. **Read/Unread Tracking** - Not implemented
+7. **Entity Extraction** - Not implemented
 
 ## Security Improvements
 
@@ -118,3 +191,4 @@ New styles added:
 2. URLs in references are validated before rendering
 3. LocalStorage quota errors now handled gracefully
 4. CORS proxy failures handled with fallbacks
+5. XSS vectors in APT and ransomware modals fully closed

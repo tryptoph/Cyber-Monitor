@@ -40,7 +40,12 @@ const UI = (() => {
     const icons = { success: '✓', error: '✗', info: '›' };
     const toast = document.createElement('div');
     toast.className = `toast ${type}`;
-    toast.innerHTML = `<span>${icons[type] || ''}</span><span>${message}</span>`;
+    const iconSpan = document.createElement('span');
+    iconSpan.textContent = icons[type] || '';
+    const msgSpan = document.createElement('span');
+    msgSpan.textContent = message;
+    toast.appendChild(iconSpan);
+    toast.appendChild(msgSpan);
     els.toastContainer.appendChild(toast);
     setTimeout(() => {
       toast.style.opacity = '0';
