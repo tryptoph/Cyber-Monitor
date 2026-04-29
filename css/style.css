@@ -6,43 +6,77 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg-primary: #050508;
-  --bg-secondary: #0a0c10;
-  --bg-card: #0d1018;
-  --bg-elevated: #12161f;
-  --text-primary: #e4e4e7;
-  --text-secondary: #9ca3af;
-  --text-muted: #52525b;
-  --border: #1f222d;
-  --border-light: #2a2e3a;
-  
+  /* Background System - Layered Depth */
+  --bg-void: #020203;
+  --bg-primary: #080a0f;
+  --bg-secondary: #0d1018;
+  --bg-card: #121621;
+  --bg-elevated: #1a1e2a;
+  --bg-floating: #202530;
+
+  /* Text Colors - AAA Compliant */
+  --text-primary: #e8eaed;
+  --text-secondary: #9aa0a6;
+  --text-muted: #5f6368;
+  --text-placeholder: #80868b;
+
+  /* Border System */
+  --border: rgba(255, 255, 255, 0.08);
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.12);
+  --border-hover: rgba(0, 255, 213, 0.3);
+
+  /* Accent Colors */
   --accent-cyan: #00ffd5;
   --accent-cyan-dim: rgba(0, 255, 213, 0.15);
-  --accent-green: #39ff14;
-  --accent-red: #ff2d55;
-  
-  --critical: #ff2d55;
-  --critical-glow: rgba(255, 45, 85, 0.4);
-  --high: #ff9500;
-  --high-glow: rgba(255, 149, 0, 0.3);
-  --medium: #ffcc00;
-  --medium-glow: rgba(255, 204, 0, 0.3);
-  --low: #30d158;
-  --info: #64d2ff;
-  
-  --ransomware: #ff375f;
-  --apt: #bf5af2;
-  --cve: #ffcc00;
-  
-  --glow-cyan: 0 0 20px rgba(0, 255, 213, 0.3);
-  --glow-critical: 0 0 15px rgba(255, 45, 85, 0.4);
-  
-  --shadow: 0 4px 30px rgba(0,0,0,0.5);
-  --shadow-card: 0 8px 32px rgba(0,0,0,0.4);
+  --accent-green: #2ed573;
+  --accent-red: #ff4757;
+
+  /* Severity Colors - Graduated System */
+  --critical: #ff4757;
+  --critical-glow: rgba(255, 71, 87, 0.4);
+  --high: #ff793f;
+  --high-glow: rgba(255, 121, 63, 0.35);
+  --medium: #ffa502;
+  --medium-glow: rgba(255, 165, 2, 0.3);
+  --low: #2ed573;
+  --low-glow: rgba(46, 213, 115, 0.25);
+  --info: #70a1ff;
+  --info-glow: rgba(112, 161, 255, 0.25);
+
+  /* Data Type Accents */
+  --ransomware: #ff6b9d;
+  --apt: #9b59b6;
+  --cve: #ffd700;
+  --news: #3498db;
+
+  /* Glow Effects */
+  --glow-cyan: 0 0 20px rgba(0, 255, 213, 0.3), 0 0 40px rgba(0, 255, 213, 0.15);
+  --glow-critical: 0 0 20px rgba(255, 71, 87, 0.4), 0 0 40px rgba(255, 71, 87, 0.2);
+  --glow-subtle: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+  /* Shadows */
+  --shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 12px 48px rgba(0, 0, 0, 0.5);
+
+  /* Radius */
   --radius: 6px;
   --radius-sm: 4px;
   --radius-lg: 12px;
+
+  /* Transitions */
   --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-snap: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
 }
 
 * {
@@ -53,15 +87,17 @@
 
 html, body {
   height: 100%;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Fira Code', monospace;
   background: var(--bg-primary);
   color: var(--text-primary);
   overflow: hidden;
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Scanline overlay effect */
+/* Refined scanline effect */
 body::before {
   content: '';
   position: fixed;
@@ -70,11 +106,12 @@ body::before {
     0deg,
     transparent,
     transparent 2px,
-    rgba(0, 0, 0, 0.03) 2px,
-    rgba(0, 0, 0, 0.03) 4px
+    rgba(0, 0, 0, 0.02) 2px,
+    rgba(0, 0, 0, 0.02) 4px
   );
   pointer-events: none;
   z-index: 9998;
+  opacity: 0.6;
 }
 
 /* Subtle vignette */
@@ -82,7 +119,7 @@ body::after {
   content: '';
   position: fixed;
   inset: 0;
-  background: radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.3) 100%);
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
   pointer-events: none;
   z-index: 9997;
 }
@@ -112,7 +149,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 var(--space-5);
   height: 56px;
   background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
   border-bottom: 1px solid var(--border);
@@ -128,8 +165,14 @@ a:hover {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
-  opacity: 0.3;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--accent-cyan) 20%,
+    var(--cve) 50%,
+    var(--ransomware) 80%,
+    transparent 100%
+  );
+  opacity: 0.6;
 }
 
 .header-left {
@@ -452,53 +495,92 @@ a:hover {
 }
 
 .threat-card {
-  background: var(--bg-card);
+  background: linear-gradient(145deg, #121621 0%, #0d1018 50%, #0a0c12 100%);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 12px;
+  padding: 16px;
+  padding-left: 20px;
   margin-bottom: 0;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s var(--ease-snap);
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
 }
 
+/* Left accent bar - type specific */
 .threat-card::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 0;
-  bottom: 0;
+  top: 8px;
+  bottom: 8px;
   width: 3px;
+  border-radius: 0 2px 2px 0;
   transition: all var(--transition);
 }
 
-.threat-card.cve::before { 
-  background: var(--cve); 
+.threat-card.cve::before {
+  background: linear-gradient(180deg, var(--cve) 0%, rgba(255, 215, 0, 0.6) 100%);
   box-shadow: 0 0 10px var(--cve);
 }
-.threat-card.ransomware::before { 
-  background: var(--ransomware);
+.threat-card.ransomware::before {
+  background: linear-gradient(180deg, var(--ransomware) 0%, rgba(255, 107, 157, 0.6) 100%);
   box-shadow: 0 0 10px var(--ransomware);
 }
-.threat-card.news::before { 
-  background: var(--info);
+.threat-card.news::before {
+  background: linear-gradient(180deg, var(--info) 0%, rgba(112, 161, 255, 0.6) 100%);
   box-shadow: 0 0 10px var(--info);
 }
-.threat-card.apt::before { 
-  background: var(--apt);
+.threat-card.apt::before {
+  background: linear-gradient(180deg, var(--apt) 0%, rgba(155, 89, 182, 0.6) 100%);
   box-shadow: 0 0 10px var(--apt);
+}
+
+/* Hover glow effect */
+.threat-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.threat-card.cve:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.08);
+}
+.threat-card.ransomware:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 30px rgba(255, 107, 157, 0.08);
+}
+.threat-card.apt:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 30px rgba(155, 89, 182, 0.08);
+}
+.threat-card.news:hover::after {
+  opacity: 1;
+  box-shadow: inset 0 0 30px rgba(112, 161, 255, 0.08);
 }
 
 .threat-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
-  border-color: var(--accent-cyan);
+  border-color: var(--border-hover);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4),
+              0 0 0 1px rgba(0, 255, 213, 0.1);
 }
 
 .threat-card:hover::before {
   width: 4px;
+}
+
+/* Active/selected state */
+.threat-card.active {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 1px var(--accent-cyan),
+              0 8px 24px rgba(0, 255, 213, 0.1);
 }
 
 .threat-card-header {
@@ -516,35 +598,36 @@ a:hover {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-.threat-card.cve .threat-card-type { 
-  color: var(--cve); 
-  text-shadow: 0 0 8px rgba(255, 204, 0, 0.3);
+.threat-card.cve .threat-card-type {
+  color: var(--cve);
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
 }
-.threat-card.ransomware .threat-card-type { 
+.threat-card.ransomware .threat-card-type {
   color: var(--ransomware);
-  text-shadow: 0 0 8px rgba(255, 45, 85, 0.3);
+  text-shadow: 0 0 8px rgba(255, 107, 157, 0.3);
 }
-.threat-card.news .threat-card-type { 
+.threat-card.news .threat-card-type {
   color: var(--info);
-  text-shadow: 0 0 8px rgba(100, 210, 255, 0.3);
+  text-shadow: 0 0 8px rgba(112, 161, 255, 0.3);
 }
-.threat-card.apt .threat-card-type { 
+.threat-card.apt .threat-card-type {
   color: var(--apt);
-  text-shadow: 0 0 8px rgba(191, 90, 242, 0.3);
+  text-shadow: 0 0 8px rgba(155, 89, 182, 0.3);
 }
 
 .threat-card-date {
   font-size: 0.65rem;
   color: var(--text-muted);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  font-variant-numeric: tabular-nums;
 }
 
 .threat-card-title {
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--text-primary);
-  line-height: 1.5;
-  margin-bottom: 8px;
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -554,9 +637,9 @@ a:hover {
 .threat-card-meta {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: var(--space-3);
   flex-wrap: wrap;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   color: var(--text-muted);
 }
 
@@ -564,13 +647,95 @@ a:hover {
 .badge {
   display: inline-flex;
   align-items: center;
-  padding: 2px 8px;
-  border-radius: 3px;
-  font-size: 0.6rem;
-  font-weight: 700;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
   font-family: 'Space Grotesk', sans-serif;
+}
+
+/* KEV Badge */
+.badge.kev-badge {
+  background: linear-gradient(135deg, rgba(255, 71, 87, 0.2) 0%, rgba(255, 71, 87, 0.08) 100%);
+  border: 1px solid rgba(255, 71, 87, 0.4);
+  color: #ff8a95;
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+
+@keyframes badge-pulse {
+  0%, 100% { box-shadow: 0 0 5px rgba(255, 71, 87, 0.3); }
+  50% { box-shadow: 0 0 12px rgba(255, 71, 87, 0.5); }
+}
+
+/* EPSS Badges */
+.badge.epss-badge {
+  font-variant-numeric: tabular-nums;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.badge.epss-badge.epss-critical {
+  background: linear-gradient(135deg, rgba(255, 71, 87, 0.15) 0%, rgba(255, 71, 87, 0.05) 100%);
+  border: 1px solid rgba(255, 71, 87, 0.3);
+  color: #ff6b7a;
+}
+
+.badge.epss-badge.epss-high {
+  background: linear-gradient(135deg, rgba(255, 121, 63, 0.12) 0%, rgba(255, 121, 63, 0.04) 100%);
+  border: 1px solid rgba(255, 121, 63, 0.25);
+  color: #ff9a6b;
+}
+
+.badge.epss-badge.epss-medium {
+  background: linear-gradient(135deg, rgba(255, 165, 2, 0.1) 0%, rgba(255, 165, 2, 0.03) 100%);
+  border: 1px solid rgba(255, 165, 2, 0.2);
+  color: #ffc04d;
+}
+
+.badge.epss-badge.epss-low {
+  background: linear-gradient(135deg, rgba(142, 142, 147, 0.1) 0%, rgba(142, 142, 147, 0.03) 100%);
+  border: 1px solid rgba(142, 142, 147, 0.2);
+  color: #8e8e93;
+}
+
+.badge.epss-badge.epss-percentile {
+  background: linear-gradient(135deg, rgba(112, 161, 255, 0.1) 0%, rgba(112, 161, 255, 0.03) 100%);
+  border: 1px solid rgba(112, 161, 255, 0.2);
+  color: var(--info);
+}
+
+/* Severity Badges */
+.badge.critical {
+  background: linear-gradient(135deg, rgba(255, 71, 87, 0.12) 0%, rgba(255, 71, 87, 0.04) 100%);
+  border: 1px solid rgba(255, 71, 87, 0.25);
+  color: #ff6b7a;
+  box-shadow: 0 0 8px var(--critical-glow);
+}
+
+.badge.high {
+  background: linear-gradient(135deg, rgba(255, 121, 63, 0.1) 0%, rgba(255, 121, 63, 0.03) 100%);
+  border: 1px solid rgba(255, 121, 63, 0.2);
+  color: #ff9a6b;
+}
+
+.badge.medium {
+  background: linear-gradient(135deg, rgba(255, 165, 2, 0.08) 0%, rgba(255, 165, 2, 0.02) 100%);
+  border: 1px solid rgba(255, 165, 2, 0.15);
+  color: #ffc04d;
+}
+
+.badge.low {
+  background: linear-gradient(135deg, rgba(46, 213, 115, 0.08) 0%, rgba(46, 213, 115, 0.02) 100%);
+  border: 1px solid rgba(46, 213, 115, 0.15);
+  color: #5ee691;
+}
+
+.badge.info {
+  background: linear-gradient(135deg, rgba(112, 161, 255, 0.08) 0%, rgba(112, 161, 255, 0.02) 100%);
+  border: 1px solid rgba(112, 161, 255, 0.15);
+  color: #8fb8ff;
 }
 
 .badge.kev-badge {
@@ -786,43 +951,51 @@ a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 2px solid rgba(255,255,255,0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   font-size: 11px;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
 }
 
-.custom-marker:hover { 
-  transform: scale(1.3); 
+.custom-marker:hover {
+  transform: scale(1.3);
   border-color: var(--accent-cyan);
 }
 
-.marker-cve { 
-  background: var(--cve); 
-  width: 22px; 
-  height: 22px;
-  color: #000;
-}
-.marker-ransomware { 
-  background: var(--ransomware); 
-  width: 26px; 
-  height: 26px; 
-}
-.marker-apt { 
-  background: var(--apt); 
-  width: 30px; 
-  height: 30px; 
+.marker-cve {
+  background: radial-gradient(circle at 30% 30%, #ffd700, #e6c200);
+  width: 24px;
+  height: 24px;
+  color: #1a1a1a;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4),
+              0 0 16px rgba(255, 215, 0, 0.2);
 }
 
-/* Pulsing ring animation for APT markers */
+.marker-ransomware {
+  background: radial-gradient(circle at 30% 30%, #ff6b9d, #e55a8a);
+  width: 28px;
+  height: 28px;
+  box-shadow: 0 2px 8px rgba(255, 107, 157, 0.4),
+              0 0 16px rgba(255, 107, 157, 0.2);
+}
+
+.marker-apt {
+  background: radial-gradient(circle at 30% 30%, #9b59b6, #8e44ad);
+  width: 32px;
+  height: 32px;
+  box-shadow: 0 2px 8px rgba(155, 89, 182, 0.4),
+              0 0 16px rgba(155, 89, 182, 0.2);
+}
+
+/* Pulse animation for APT markers */
 .marker-pulse-ring {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border: 2px solid;
@@ -1099,37 +1272,40 @@ a:hover {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2000;
-  padding: 20px;
-  backdrop-filter: blur(4px);
+  padding: var(--space-5);
+  backdrop-filter: blur(12px) saturate(180%);
 }
 
-.modal-overlay.hidden { 
-  display: none; 
+.modal-overlay.hidden {
+  display: none;
 }
 
 .modal {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: linear-gradient(165deg, rgba(26, 30, 42, 0.95) 0%, rgba(18, 22, 33, 0.98) 50%, rgba(13, 16, 24, 1) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
   max-width: 580px;
   width: 100%;
   max-height: 80vh;
   overflow-y: auto;
-  box-shadow: var(--shadow-card), 0 0 40px rgba(0, 255, 213, 0.1);
-  animation: modalIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow:
+    0 24px 48px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.05),
+    0 0 60px rgba(0, 255, 213, 0.08);
+  animation: modalIn 0.4s var(--ease-snap);
 }
 
 @keyframes modalIn {
-  from { 
+  from {
     opacity: 0;
-    transform: scale(0.95) translateY(10px);
+    transform: scale(0.95) translateY(20px);
   }
-  to { 
+  to {
     opacity: 1;
     transform: scale(1) translateY(0);
   }
@@ -1139,29 +1315,36 @@ a:hover {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 18px 20px 14px;
-  border-bottom: 1px solid var(--border);
+  padding: 20px var(--space-6) var(--space-4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, transparent 100%);
 }
 
 .modal-close {
-  background: none;
-  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--text-muted);
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1;
-  padding: 4px 8px;
+  width: 32px;
+  height: 32px;
   border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all var(--transition);
 }
 
 .modal-close:hover {
-  background: var(--bg-primary);
+  background: rgba(255, 71, 87, 0.15);
+  border-color: rgba(255, 71, 87, 0.3);
   color: var(--critical);
+  transform: rotate(90deg);
 }
 
 .modal-body {
-  padding: 16px 20px 20px;
+  padding: var(--space-6);
 }
 
 .modal-title {
@@ -1294,31 +1477,37 @@ a:hover {
 }
 
 .btn-primary {
-  background: var(--accent-cyan);
-  color: var(--bg-primary);
+  background: linear-gradient(135deg, #00ffd5 0%, #00d4aa 100%);
+  color: var(--bg-void);
   border: none;
   border-radius: var(--radius);
   padding: 10px 18px;
   font-size: 0.75rem;
   font-weight: 600;
+  letter-spacing: 0.01em;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  box-shadow: 0 4px 12px rgba(0, 255, 213, 0.3);
   transition: all var(--transition);
 }
 
 .btn-primary:hover {
-  background: var(--accent-green);
   transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 255, 213, 0.4);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
 }
 
 .btn-secondary {
-  background: transparent;
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius);
+  color: var(--text-secondary);
   padding: 10px 18px;
   font-size: 0.75rem;
   font-weight: 500;
@@ -1331,8 +1520,9 @@ a:hover {
 }
 
 .btn-secondary:hover {
-  border-color: var(--accent-cyan);
-  color: var(--accent-cyan);
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
 }
 
 /* KEV styling for cards */
@@ -1536,10 +1726,11 @@ a:hover {
 
 /* ── CVE specific ───────────────────────────────────────── */
 .cve-id {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
   font-size: 0.82rem;
   color: var(--accent-cyan);
   font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .cve-score {
@@ -1548,19 +1739,20 @@ a:hover {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-/* Glitch effect for critical items */
+/* Enhanced critical card effect */
 .threat-card.critical {
   animation: criticalPulse 2s ease-in-out infinite;
+  border: 1px solid rgba(255, 71, 87, 0.3);
 }
 
 @keyframes criticalPulse {
-  0%, 100% { 
-    border-color: var(--border);
-    box-shadow: none;
+  0%, 100% {
+    border-color: rgba(255, 71, 87, 0.3);
+    box-shadow: inset 0 0 20px rgba(255, 71, 87, 0.1);
   }
-  50% { 
-    border-color: rgba(255, 45, 85, 0.5);
-    box-shadow: inset 0 0 20px var(--critical-glow);
+  50% {
+    border-color: rgba(255, 71, 87, 0.6);
+    box-shadow: inset 0 0 30px rgba(255, 71, 87, 0.2), 0 0 20px rgba(255, 71, 87, 0.15);
   }
 }
 
@@ -1599,57 +1791,64 @@ select:focus-visible {
   border: 1px solid var(--border);
   color: var(--accent-cyan);
   border-radius: 3px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
   cursor: pointer;
   max-width: 140px;
 }
 
 #cve-source-filter:focus {
   border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 2px rgba(0, 255, 213, 0.2);
   outline: none;
 }
 
 #malware-source-filter {
   font-size: 0.62rem;
   padding: 2px 4px;
-  background: var(--surface, var(--bg-card));
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
   color: var(--ransomware);
   border-radius: 3px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
   cursor: pointer;
   max-width: 160px;
 }
 
 #malware-source-filter:focus {
   border-color: var(--ransomware);
+  box-shadow: 0 0 0 2px rgba(255, 107, 157, 0.2);
   outline: none;
 }
 
 #apt-source-filter {
   font-size: 0.62rem;
   padding: 2px 4px;
-  background: var(--surface, var(--bg-card));
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
   color: var(--apt);
   border-radius: 3px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
   cursor: pointer;
   max-width: 170px;
 }
 
 #apt-source-filter:focus {
   border-color: var(--apt);
+  box-shadow: 0 0 0 2px rgba(155, 89, 182, 0.2);
   outline: none;
 }
 
 #news-source-filter {
   font-size: 0.62rem;
   padding: 2px 4px;
-  background: var(--surface, var(--bg-card));
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
   color: var(--info);
   border-radius: 3px;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', monospace;
+  cursor: pointer;
+  max-width: 160px;
+}
   font-family: 'IBM Plex Mono', monospace;
   cursor: pointer;
   max-width: 160px;
