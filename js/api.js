@@ -278,7 +278,7 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     }
 
   try {
-    const response = await fetch(`${CORS_PROXY}${encodeURIComponent(CISA_KEV_URL)}`);
+    const response = await fetchWithAbort(`${CORS_PROXY}${encodeURIComponent(CISA_KEV_URL)}`, {}, 10000);
     if (!response.ok) {
       console.warn('[API] KEV fetch failed, using empty catalog');
       kevCache = [];

@@ -123,6 +123,7 @@
     MapManager.clearMarkers();
 
     // Render all panels (data is already time-range filtered from loadAndRender)
+    loadKEVData(); // fire-and-forget — enriches KEV badges after initial render
     renderCVEs(filterForSearch(data.cves, 'cve'));
     renderRansomware(filterForSearch(data.ransomware, 'ransomware'));
     renderAPT(filterForSearch(data.apt, 'apt'));
@@ -360,8 +361,8 @@
           </div>
           <div class="threat-card-title">${escapeHtml((cve.description || '').substring(0, 100))}...</div>
           <div class="threat-card-meta">
-            <span class="cve-id">${cve.id}</span>
-            <span class="badge ${severityClass}">${cve.cvss?.severity || 'N/A'} ${cve.cvss?.score ? cve.cvss.score.toFixed(1) : ''}</span>
+            <span class="cve-id">${escapeHtml(cve.id)}</span>
+            <span class="badge ${severityClass}">${escapeHtml(cve.cvss?.severity || 'N/A')} ${cve.cvss?.score ? cve.cvss.score.toFixed(1) : ''}</span>
             ${epssBadge}
             ${kevBadge}
           </div>
@@ -498,7 +499,7 @@
           </div>
           <div class="threat-card-title">${escapeHtml(apt.name)}</div>
           <div class="threat-card-meta">
-            <span>${countryName}</span>
+            <span>${escapeHtml(countryName)}</span>
             <span>${escapeHtml((apt.targetSectors || []).slice(0, 2).join(', '))}</span>
           </div>
         </div>
@@ -592,7 +593,7 @@
           </div>
           <div class="threat-card-title">${escapeHtml(item.title)}</div>
           <div class="threat-card-meta">
-            ${item.points ? `<span class="news-points">▲ ${item.points}</span>` : ''}
+            ${item.points ? `<span class="news-points">▲ ${escapeHtml(String(item.points))}</span>` : ''}
           </div>
         </div>
       `;
@@ -705,14 +706,14 @@ function showCVEModal(cve) {
       <div class="modal-header">
         <div>
           <div class="modal-type-badge badge-${severityClass}">CVE</div>
-          <div class="modal-title">${cve.id}</div>
+          <div class="modal-title">${escapeHtml(cve.id)}</div>
         </div>
     <button class="modal-close" data-action="close-modal">×</button>
   </div>
   <div class="modal-body">
     <div class="modal-meta-row">
       ${cve.cvss?.score ? `<span class="badge ${severityClass}">CVSS: ${cve.cvss.score.toFixed(1)}</span>` : ''}
-          ${cve.cvss?.severity ? `<span class="badge info">${cve.cvss.severity}</span>` : ''}
+          ${cve.cvss?.severity ? `<span class="badge info">${escapeHtml(cve.cvss.severity)}</span>` : ''}
           ${cve.epss?.score != null ? `<span class="badge epss-badge ${cve.epss.score > 0.5 ? 'epss-critical' : cve.epss.score > 0.1 ? 'epss-high' : cve.epss.score > 0.01 ? 'epss-medium' : 'epss-low'}">EPSS: ${(cve.epss.score * 100).toFixed(1)}%</span>` : ''}
           ${isKEV ? '<span class="badge kev-badge">⚠ KEV</span>' : ''}
           <span>Published: ${timeAgo(cve.published)}</span>
@@ -748,7 +749,7 @@ function showCVEModal(cve) {
         ` : ''}
 
         <div class="modal-actions">
-          <a href="https://nvd.nist.gov/vuln/detail/${cve.id}" target="_blank" class="btn-primary">View on NVD →</a>
+          <a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(cve.id)}" target="_blank" class="btn-primary">View on NVD →</a>
         </div>
       </div>
     `;
