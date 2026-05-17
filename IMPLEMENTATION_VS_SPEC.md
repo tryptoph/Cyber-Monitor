@@ -1,201 +1,133 @@
 # Implementation vs Specification Analysis
 
-## Architecture Mismatch
+> Last updated: 2026-05-17.
+> Source of truth: current `index.html`, `js/*.js`, `SPEC.md`, and `issues.md`.
+> This document describes the current vanilla-JS implementation. It does not imply that the project has migrated to the larger Next.js/React architecture described as a possible target in older planning notes.
 
-| SPEC Requirement | Actual Implementation | Status |
-|-----------------|----------------------|--------|
-| Next.js 14+ with TypeScript | Vanilla JavaScript (no framework) | ❌ **CRITICAL** |
-| React 18+ | No React used | ❌ **CRITICAL** |
-| Zustand state management | Global window.cyberData object | ❌ **Major** |
-| globe.gl + Three.js (3D) + deck.gl + MapLibre (2D) | Leaflet.js only (2D) | ❌ **Major** |
-| CSS Modules | Single global CSS file | ❌ **Minor** |
-| TypeScript types | No types (JS only) | ❌ **Major** |
+## Architecture Alignment
+
+| SPEC / Target Area | Current Implementation | Status |
+|--------------------|------------------------|--------|
+| Browser app stack | Vanilla JavaScript IIFE modules loaded from `index.html` | ✅ Current implementation |
+| Framework target from earlier planning | No Next.js, React, Zustand, or TypeScript | ❌ Not implemented |
+| State management | Internal shallow-frozen snapshots exposed through a read-only `window.cyberData` getter | ⚠️ Partial |
+| Map stack | Leaflet.js 2D map with CartoDB dark tiles | ✅ Implemented |
+| 3D globe / deck.gl / MapLibre target | Not present; map remains Leaflet-only | ❌ Not implemented |
+| Styling | Single global `css/style.css` with CSS variables and terminal theme | ✅ Implemented |
+| Build/deploy model | Static GitHub Pages style app, no build step | ✅ Implemented |
 
 ## Feature Implementation Status
 
 ### 1. CVE Tracking System
 
-| SPEC Feature | Implemented | Notes |
-|-------------|-------------|-------|
-| NVD API 2.0 integration | ⚠️ Partial | Uses fallback data, not live API |
-| CISA KEV Catalog | ❌ Missing | No KEV data fetched |
-| EPSS API | ❌ Missing | No EPSS scores |
-| CVSS severity filters | ✅ Yes | Working dropdown filter |
-| Date range filters | ❌ Missing | Not implemented |
-| Vendor/Product CPE | ❌ Missing | Not implemented |
-| CVE detail view | ✅ Yes | Modal with basic info |
-| Export to CSV/JSON | ✅ Yes | JSON export working |
-| Trend charts | ❌ Missing | No charts implemented |
+| SPEC Feature | Current Implementation | Status |
+|--------------|------------------------|--------|
+| NVD API 2.0 | Live NVD integration via `fetchCVEsFromNVD()` | ✅ Implemented |
+| cvelistV5 | Included in multi-source CVE collection | ✅ Implemented |
+| GitHub Advisory | Included in multi-source CVE collection | ✅ Implemented |
+| CVE.org | Included in multi-source CVE collection | ✅ Implemented |
+| CISA KEV | Live KEV catalog lookup via `fetchKEV()` | ✅ Implemented |
+| EPSS | CVE enrichment via `enrichWithEPSS()` | ✅ Implemented |
+| CVSS severity filter | Severity dropdown filters CVE results | ✅ Implemented |
+| Date range filters | Time range selector controls CVE queries | ✅ Implemented |
+| Vendor/product CPE display | NVD CPE values and GitHub package identifiers are displayed in the affected-products field | ✅ Implemented |
+| CVE detail modal | Detail modal renders selected vulnerability data | ✅ Implemented |
+| Trend charts | No charting or trend visualization view | ❌ Not implemented |
 
-**Data Model Issues:**
-- Missing fields: `cpe`, `inKEV`, `kevDateAdded`, `epss`, `modified`
-- References array exists but not properly populated from API
+### 2. Malware & Ransomware Monitor
 
-### 2. Ransomware Monitor
-
-| SPEC Feature | Implemented | Notes |
-|-------------|-------------|-------|
-| RansomDB API | ❌ Missing | Uses mock data only |
-| Live victim list | ⚠️ Partial | Mock data displayed |
-| Ransomware group profiles | ❌ Missing | No group detail pages |
-| Statistics dashboard | ❌ Missing | No stats view |
-| Target sectors | ⚠️ Partial | In mock data but not displayed well |
-| Country breakdown | ⚠️ Partial | Map markers only |
-
-**Data Model Issues:**
-- Missing fields: `status`, `revenue`, `employees`
+| SPEC Feature | Current Implementation | Status |
+|--------------|------------------------|--------|
+| ransomware.live | Live ransomware victim source | ✅ Implemented |
+| URLhaus | Malware URL feed source | ✅ Implemented |
+| ThreatFox | IOC/malware intelligence source | ✅ Implemented |
+| InQuest Labs | Malware intelligence source | ✅ Implemented |
+| Have I Been Pwned | Breach feed source | ✅ Implemented |
+| All-sources merge | Combined source path via `fetchAllMalwareSources()` | ✅ Implemented |
+| Source selector | Malware source dropdown filters source-specific data | ✅ Implemented |
+| Time range selector | Malware time range filter controls displayed records | ✅ Implemented |
+| Group profile pages | No dedicated ransomware group profile pages | ❌ Not implemented |
+| Revenue/employees/status enrichment | No live enrichment for victim revenue, employee count, or incident status | ❌ Not implemented |
 
 ### 3. APT Intelligence
 
-| SPEC Feature | Implemented | Notes |
-|-------------|-------------|-------|
-| MITRE ATT&CK API | ❌ Missing | Uses mock data only |
-| Group database | ✅ Yes | Basic list displayed |
-| Technique heatmap | ❌ Missing | Not implemented |
-| ATT&CK Navigator | ❌ Missing | Not implemented |
-
-**Data Model Issues:**
-- Missing fields: `malware`, `tools`, `techniques`
+| SPEC Feature | Current Implementation | Status |
+|--------------|------------------------|--------|
+| MISP Galaxy | Live MISP Galaxy actor ingestion via `fetchMISPGalaxy()` | ✅ Implemented |
+| Curated static ATT&CK-style actors | Static actor data supplements live sources | ✅ Implemented |
+| APT RSS activity | RSS-backed activity collection via `fetchAPTNews()` | ✅ Implemented |
+| Source selector | APT source dropdown filters actor/activity source | ✅ Implemented |
+| Time range selector | APT time range filter controls displayed activity | ✅ Implemented |
+| Country flags/aliases/sectors | Actor metadata includes country flags, aliases, and sectors | ✅ Implemented |
+| Attack flow lines | Actor/victim geography can render map flow lines | ✅ Implemented |
+| MITRE ATT&CK STIX live integration | No live ATT&CK STIX ingestion | ❌ Not implemented |
+| Technique heatmap / ATT&CK Navigator | No technique heatmap or Navigator export/view | ❌ Not implemented |
 
 ### 4. Security News Aggregation
 
-| SPEC Feature | Implemented | Notes |
-|-------------|-------------|-------|
-| 20 curated RSS feeds | ✅ Yes | 8 feeds configured |
-| Entity extraction (CVE linking) | ❌ Missing | Not implemented |
-| Keyword filtering | ❌ Missing | Not implemented |
-| Read/unread tracking | ❌ Missing | Not implemented |
-| Category tabs | ✅ Yes | Working filter |
+| SPEC Feature | Current Implementation | Status |
+|--------------|------------------------|--------|
+| RSS aggregation | Multiple RSS feeds are fetched and normalized | ✅ Implemented |
+| HackerNews Algolia | HackerNews search/source integration is present | ✅ Implemented |
+| Proxy fallback chain | RSS fetching uses proxy fallbacks for browser CORS limits | ✅ Implemented |
+| Source selector | News source dropdown filters source-specific data | ✅ Implemented |
+| Time range selector | News time range filter controls displayed records | ✅ Implemented |
+| Deduplication | News items are deduplicated during normalization/merge | ✅ Implemented |
+| Entity extraction / CVE linking | No robust entity extraction or automatic cross-panel CVE/APT linking | ❌ Not implemented |
+| Read/unread tracking | No persistent read/unread state | ❌ Not implemented |
 
 ### 5. Threat Map
 
-| SPEC Feature | Implemented | Notes |
-|-------------|-------------|-------|
-| 3D Globe mode | ❌ Missing | Only 2D Leaflet |
-| 2D Map mode | ✅ Yes | Leaflet working |
-| Interactive markers | ✅ Yes | Custom markers working |
-| Time filtering | ❌ Missing | Not implemented |
-| Layer toggles | ⚠️ Partial | Heatmap toggle exists but non-functional |
-| Country detail on hover | ❌ Missing | Not implemented |
+| SPEC Feature | Current Implementation | Status |
+|--------------|------------------------|--------|
+| 2D map | Leaflet.js map renders the threat geography view | ✅ Implemented |
+| Custom markers | Custom marker styling distinguishes data types | ✅ Implemented |
+| Rich popups | Popups show contextual threat details | ✅ Implemented |
+| APT labels | APT actors can be labeled on the map | ✅ Implemented |
+| Attack flow lines | Flow lines visualize selected attack paths | ✅ Implemented |
+| Heatmap toggle | Circle-cluster style overlay exists, but it is not a true weighted heatmap | ⚠️ Partial |
+| 3D globe | No globe mode | ❌ Not implemented |
+| Country detail hover panel | No dedicated country hover detail panel | ❌ Not implemented |
 
 ### 6. AI-Powered Briefs
 
-| SPEC Feature | Implemented | Notes |
-|-------------|-------------|-------|
-| Ollama integration | ❌ Missing | Not implemented |
-| Groq fallback | ❌ Missing | Not implemented |
-| Transformers.js | ❌ Missing | Not implemented |
-| Daily threat brief | ❌ Missing | Not implemented |
-| AI summaries | ❌ Missing | Not implemented |
+| SPEC Feature | Current Implementation | Status |
+|--------------|------------------------|--------|
+| Ollama | No local Ollama integration | ❌ Not implemented |
+| Groq | No Groq fallback integration | ❌ Not implemented |
+| Transformers.js | No in-browser Transformers.js summarization | ❌ Not implemented |
+| Daily threat brief | No generated daily brief workflow | ❌ Not implemented |
+| AI summaries | No AI-generated summaries | ❌ Not implemented |
 
-## UI/UX Specification Compliance
+## Issue Tracker Status
 
-### Color Palette Differences
+`issues.md` is the current operational issue tracker. It tracks 73 issues: 72 solved, 1 partial, 0 open. The remaining partial item is CORS proxy trust.
 
-| CSS Variable | SPEC Value | Actual Value | Match |
-|-------------|-----------|--------------|-------|
-| `--bg-primary` | `#0a0e17` | `#050508` | ❌ |
-| `--bg-secondary` | `#111827` | `#0a0c10` | ❌ |
-| `--bg-card` | `#1a1f2e` | `#0d1018` | ❌ |
-| `--accent-cyan` | `#06b6d4` | `#00ffd5` | ❌ |
-| `--text-muted` | `#6b7280` | `#52525b` | ❌ |
-| `--border` | `#374151` | `#1f222d` | ❌ |
+## Current Known Risks
 
-**Font Stack:**
-- SPEC: Inter, system-ui (not specified)
-- Actual: IBM Plex Mono, Space Grotesk ✅ (Good choice for cyber theme)
-
-### Layout Structure
-
-| SPEC Component | Status | Notes |
-|---------------|--------|-------|
-| Header with AI Brief button | ❌ Missing | No AI button |
-| Collapsible sidebar | ✅ Yes | Working toggle |
-| Status bar | ✅ Yes | Implemented |
-| Theme toggle | ❌ Missing | Dark only |
-
-## API Integration Status
-
-| API | SPEC Endpoint | Status | Issue |
-|-----|--------------|--------|-------|
-| NVD API 2.0 | `services.nvd.nist.gov/rest/json/cves/2.0` | ❌ Not used | Only fallback data |
-| CISA KEV | `cisa.gov/.../known_exploited_vulnerabilities.json` | ❌ Not implemented | Missing |
-| EPSS | `api.first.org/data/v1/epss` | ❌ Not implemented | Missing |
-| MITRE ATT&CK | `attack-api.mitre.org/` | ❌ Not implemented | Mock data only |
-| RansomDB | `ransomdb.io/api/` | ❌ Not implemented | Mock data only |
-
-## Critical Logic Issues Found
-
-### Issue 1: CVE Severity Filter Logic Error
-**File:** `js/app.js:86-88`
-```javascript
-if (currentSeverityFilter) {
-  filteredCves = cves.filter(c => c.cvss.severity === currentSeverityFilter);
-}
-```
-**Problem:** No null check for `c.cvss` - will crash if CVE has no CVSS data.
-
-### Issue 2: Map Marker Accumulation
-**File:** `js/app.js`
-**Problem:** `MapManager.clearMarkers()` is never called when re-rendering. Markers accumulate on repeated data loads.
-
-### Issue 3: RSS Feed URL Encoding
-**File:** `js/api.js:45`
-```javascript
-const proxyUrl = `${CORS_PROXY}${encodeURIComponent(feed.url)}`;
-```
-**Problem:** Should verify proxy is working - some feeds may fail silently.
-
-### Issue 4: Search Reset Logic Error
-**File:** `js/app.js:433`
-```javascript
-if (!query) {
-  loadAndRender(); // Full re-fetch instead of just resetting filters
-  return;
-}
-```
-**Problem:** Resets by re-fetching all data instead of just clearing filters.
-
-### Issue 5: LocalStorage Cache Error Handling
-**File:** `js/utils.js:90-95`
-```javascript
-function storageSet(key, value) {
-  try {
-    localStorage.setItem(key, JSON.stringify(value));
-  } catch {
-    // Ignore quota errors silently
-  }
-}
-```
-**Problem:** Silently fails on quota errors - should show warning.
-
-## Missing Critical Features
-
-1. **Live API Integration** - Currently uses only mock/fallback data
-2. **Type Safety** - No TypeScript as specified
-3. **AI Features** - Completely missing
-4. **3D Globe** - Not implemented
-5. **EPSS Scoring** - Not implemented
-6. **CISA KEV** - Not implemented
-7. **Entity Extraction** - Not implemented
-8. **Read/Unread Tracking** - Not implemented
+| Risk | Status | Notes |
+|------|--------|-------|
+| CORS proxy trust | ⚠️ Partial | Browser-only RSS/proxy fetching cannot fully verify upstream/proxy integrity without a trusted backend; most displayed text fields are escaped, but this remains a browser-only/proxy trust risk and should not be treated as a complete integrity or XSS guarantee. |
+| Public API rate limits | ✅ Mitigated | Bounded concurrency via `mapWithConcurrency()` reduces burst pressure, but public APIs can still throttle or fail. |
+| Browser-only architecture | Intentional tradeoff | Static hosting is simpler, but CORS, caching, API auth, and data validation control are weaker than with a backend. |
+| Test coverage | ⚠️ Partial | pytest smoke test skips if Playwright is absent; direct script execution requires Playwright; unit tests for mapping/filter helpers are absent. |
 
 ## Recommendations
 
 ### High Priority
-1. Fix CVE severity filter null check
-2. Clear map markers before re-rendering
-3. Implement actual NVD API calls (respect rate limits)
-4. Add proper error handling for API failures
+
+1. Add small trusted backend/proxy if data integrity, API auth, or reliable CORS behavior matters.
+2. Add unit tests for `api.js` mapping functions, source filters, search filtering, cache snapshot trimming.
+3. Keep `issues.md` as operational issue tracker and update this doc only for implementation-vs-spec drift.
 
 ### Medium Priority
-1. Align color palette with SPEC
-2. Add CISA KEV integration
-3. Implement EPSS scoring
-4. Add heatmap toggle functionality
+
+1. Decide whether project remains static vanilla JS or migrates to Next.js/TypeScript architecture.
+2. Add entity extraction for news articles so CVEs/APT names can link across panels.
+3. Add real charting/trend views if analyst reporting is a product goal.
 
 ### Low Priority
-1. Consider migration to React/Next.js per SPEC
-2. Add TypeScript for type safety
-3. Implement AI features
-4. Add 3D globe visualization
+
+1. Add 3D globe only if clear analyst use case.
+2. Add read/unread tracking if dashboard becomes daily workflow tool.
+3. Split large source files if future changes make `api.js` or `app.js` harder to maintain.

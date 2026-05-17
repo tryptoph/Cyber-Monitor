@@ -1,8 +1,15 @@
 import re
 import sys
+import threading
+from contextlib import contextmanager
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
-from playwright.sync_api import Error as PlaywrightError
-from playwright.sync_api import sync_playwright
+try:
+    from playwright.sync_api import Error as PlaywrightError
+    from playwright.sync_api import sync_playwright
+except ImportError:
+    PlaywrightError = RuntimeError
+    sync_playwright = None
 
 
 def assert_true(condition, message):
@@ -18,15 +25,36 @@ def get_status_count_value(text):
     return int(match.group(1))
 
 
+@contextmanager
+def local_server(port=8082):
+    try:
+        server = ThreadingHTTPServer(("127.0.0.1", port), SimpleHTTPRequestHandler)
+    except OSError:
+        yield
+        return
+
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    try:
+        yield
+    finally:
+        server.shutdown()
+        server.server_close()
+
+
 def main():
+    if sync_playwright is None:
+        raise RuntimeError("Playwright is not installed. Install it with `python3 -m pip install playwright && python3 -m playwright install chromium`.")
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
         try:
             print("Loading CyberVulnDB...")
-            page.goto("http://localhost:8082", wait_until="domcontentloaded", timeout=30000)
-            page.wait_for_selector("#cve-list .threat-card", timeout=30000)
+            with local_server():
+                page.goto("http://127.0.0.1:8082", wait_until="domcontentloaded", timeout=30000)
+                page.wait_for_selector("#cve-list .threat-card", timeout=30000)
 
             data_stats = page.evaluate(
                 """() => {
@@ -75,6 +103,13 @@ def main():
             print("\n✅ All checks passed")
         finally:
             browser.close()
+
+
+def test_smoke():
+    if sync_playwright is None:
+        import pytest
+        pytest.skip("Playwright is not installed")
+    main()
 
 
 if __name__ == "__main__":

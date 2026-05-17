@@ -14,16 +14,28 @@ const API = (() => {
 
   // Ordered proxy fallback chain for RSS feeds
 
-  // Timeout helper — used only for non-fetch Promise.race guards
-  function timeout(ms) {
-    return new Promise((_, reject) => 
-      setTimeout(() => reject(new Error('Timeout')), ms)
-    );
-  }
-
   // Fetch with AbortSignal timeout — replaces Promise.race([fetch, timeout]) pattern
   function fetchWithAbort(url, options = {}, ms = 8000) {
     return fetch(url, { ...options, signal: AbortSignal.timeout(ms) });
+  }
+
+  async function mapWithConcurrency(items, limit, mapper) {
+    const results = new Array(items.length);
+    let nextIndex = 0;
+    const workerCount = Math.min(Math.max(limit, 1), items.length);
+
+    await Promise.all(Array.from({ length: workerCount }, async () => {
+      while (nextIndex < items.length) {
+        const currentIndex = nextIndex++;
+        try {
+          results[currentIndex] = { status: 'fulfilled', value: await mapper(items[currentIndex], currentIndex) };
+        } catch (reason) {
+          results[currentIndex] = { status: 'rejected', reason };
+        }
+      }
+    }));
+
+    return results;
   }
 
   // ── Time range helpers ──────────────────────────────────
@@ -223,10 +235,12 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
   async function fetchAllNews() {
     console.log('[API] Fetching news from all sources...');
 
-    const [hnItems, ...rssResults] = await Promise.all([
-      fetchHackerNews(),
-      ...RSS_FEEDS.map(feed => fetchRSSWithFallbacks(feed)),
-    ]);
+    const hnPromise = fetchHackerNews();
+    const rssSettled = await mapWithConcurrency(RSS_FEEDS, 3, feed => fetchRSSWithFallbacks(feed));
+    const hnItems = await hnPromise;
+    const rssResults = rssSettled
+      .filter(result => result.status === 'fulfilled')
+      .map(result => result.value);
 
     const allItems = [...hnItems, ...rssResults.flat()];
 
@@ -648,12 +662,12 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
   async function fetchAllCVESources(timeRange = '1w', severity = '') {
     const limit = timeRangeCap(timeRange);
     console.log('[API] Fetching from ALL CVE sources...');
-    const [cvelist, github, nvd, cveorg] = await Promise.allSettled([
-      fetchCVEsFromCveList(timeRange),
-      fetchGitHubAdvisories(timeRange, severity),
-      fetchCVEsFromNVD(timeRange, severity),
-      fetchCVEsFromCVEOrg(timeRange)
-    ]);
+    const [cvelist, github, nvd, cveorg] = await mapWithConcurrency([
+      () => fetchCVEsFromCveList(timeRange),
+      () => fetchGitHubAdvisories(timeRange, severity),
+      () => fetchCVEsFromNVD(timeRange, severity),
+      () => fetchCVEsFromCVEOrg(timeRange)
+    ], 2, run => run());
 
     const all = [];
     const seen = new Set();
@@ -987,13 +1001,13 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
   // ── Unified malware/threat source fetcher ─────────────────
   async function fetchAllMalwareSources(timeRange = '1w') {
     const limit = timeRangeCap(timeRange);
-    const results = await Promise.allSettled([
-      fetchLiveRansomware().then(r => r || getMockRansomware()),
-      fetchURLhaus(limit),
-      fetchThreatFox(limit),
-      fetchInQuestIOCs(limit),
-      fetchHIBPBreaches(limit)
-    ]);
+    const results = await mapWithConcurrency([
+      () => fetchLiveRansomware().then(r => r || getMockRansomware()),
+      () => fetchURLhaus(limit),
+      () => fetchThreatFox(limit),
+      () => fetchInQuestIOCs(limit),
+      () => fetchHIBPBreaches(limit)
+    ], 2, run => run());
 
     let merged = [];
     const labels = ['ransomware.live', 'URLhaus', 'ThreatFox', 'InQuest', 'HIBP'];
@@ -1133,11 +1147,13 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
       ? APT_RSS_FEEDS.filter(f => f.key === sourceKey)
       : APT_RSS_FEEDS;
 
-    const results = await Promise.allSettled(
-      feeds.map(feed => fetchRSSWithFallbacks({
+    const results = await mapWithConcurrency(
+      feeds.map(feed => ({
         ...feed,
         category: 'apt'
-      }))
+      })),
+      2,
+      feed => fetchRSSWithFallbacks(feed)
     );
 
     const items = [];
@@ -1167,10 +1183,10 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
   // ── APT source dispatcher ─────────────────────────────
   async function fetchAllAPTSources(timeRange = '1w') {
     const limit = timeRangeCap(timeRange);
-    const [misp, rss] = await Promise.allSettled([
-      fetchMISPGalaxy(limit),
-      fetchAPTNews()
-    ]);
+    const [misp, rss] = await mapWithConcurrency([
+      () => fetchMISPGalaxy(limit),
+      () => fetchAPTNews()
+    ], 2, run => run());
 
     const mispActors = misp.status === 'fulfilled' ? misp.value : [];
     const rssItems = rss.status === 'fulfilled' ? rss.value : [];
@@ -1260,6 +1276,26 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     return COUNTRY_FLAGS[code] || '🌍';
   }
 
+  function createCacheSnapshot(data) {
+    return {
+      cves: (data.cves || []).map(cve => ({
+        ...cve,
+        references: (cve.references || []).slice(0, 20),
+        cpe: (cve.cpe || []).slice(0, 25)
+      })),
+      ransomware: data.ransomware || [],
+      apt: (data.apt || []).map(actor => ({
+        ...actor,
+        refs: undefined,
+        description: Utils.truncate(actor.description || '', 500)
+      })),
+      news: (data.news || []).map(item => ({
+        ...item,
+        description: Utils.truncate(item.description || '', 500)
+      }))
+    };
+  }
+
   // Main entry: load all data
   async function loadAllData(timeRanges = {}) {
     const cveRange     = timeRanges.cve      || '1w';
@@ -1293,26 +1329,22 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
 
     console.log('[API] Loading fresh data...', { cveRange, malwareRange, newsRange, aptRange });
     
-    const [cves, ransomware, news, apt] = await Promise.all([
-      fetchAllCVESources(cveRange),
-      Promise.race([
-        fetchAllMalwareSources(malwareRange),
-        timeout(30000).catch(() => getMockRansomware())
-      ]),
-      Promise.race([
-        fetchNewsBySource('all', newsRange).catch(() => []),
-        timeout(20000).catch(() => [])
-      ]),
-      Promise.race([
-        fetchAllAPTSources(aptRange),
-        timeout(25000).catch(() => getMockAPT())
-      ])
-    ]);
+    const [cvesResult, ransomwareResult, newsResult, aptResult] = await mapWithConcurrency([
+      () => fetchAllCVESources(cveRange),
+      () => fetchAllMalwareSources(malwareRange),
+      () => fetchNewsBySource('all', newsRange),
+      () => fetchAllAPTSources(aptRange)
+    ], 2, run => run());
+
+    const cves = cvesResult.status === 'fulfilled' ? cvesResult.value : getFallbackCVEs();
+    const ransomware = ransomwareResult.status === 'fulfilled' ? ransomwareResult.value : getMockRansomware();
+    const news = newsResult.status === 'fulfilled' ? newsResult.value : [];
+    const apt = aptResult.status === 'fulfilled' ? aptResult.value : getMockAPT();
 
   const data = { cves, ransomware, apt, news };
 
   await enrichWithEPSS(cves);
-  Utils.storageSet(CACHE_KEY, data);
+  Utils.storageSet(CACHE_KEY, createCacheSnapshot(data));
   Utils.storageSet(CACHE_TS_KEY, Date.now());
     
     console.log('[API] Data loaded:', {

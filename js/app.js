@@ -10,6 +10,30 @@
   // ── Initialize Map ────────────────────────────────────────
   MapManager.init('map');
 
+  let cyberData = Object.freeze({ cves: [], ransomware: [], apt: [], news: [] });
+  Object.defineProperty(window, 'cyberData', {
+    get: () => cyberData,
+    configurable: false
+  });
+
+  function freezeDataSnapshot(data) {
+    return Object.freeze({
+      cves: Object.freeze([...(data?.cves || [])]),
+      ransomware: Object.freeze([...(data?.ransomware || [])]),
+      apt: Object.freeze([...(data?.apt || [])]),
+      news: Object.freeze([...(data?.news || [])])
+    });
+  }
+
+  function setCyberData(data) {
+    cyberData = freezeDataSnapshot(data);
+    return cyberData;
+  }
+
+  function updateCyberDataSection(section, items) {
+    return setCyberData({ ...cyberData, [section]: items });
+  }
+
   // ── Refresh handler ───────────────────────────────────────
   async function refreshData() {
     UI.showLoading();
@@ -17,13 +41,40 @@
     Object.keys(localStorage)
       .filter(k => k.startsWith('cybervulndb_'))
       .forEach(k => localStorage.removeItem(k));
-    await loadAndRender();
-    UI.showToast('Data refreshed!', 'success');
+    const rendered = await loadAndRender();
+    if (rendered) UI.showToast('Data refreshed!', 'success');
   }
 
   const refreshBtn = document.getElementById('refresh-btn');
   if (refreshBtn) refreshBtn.addEventListener('click', refreshData);
   let handlersInitialized = false;
+  let fullLoadToken = 0;
+  let activeFullLoadToken = 0;
+  const panelTokens = { cve: 0, news: 0, malware: 0, apt: 0 };
+  const panelUserLocks = { cve: 0, news: 0, malware: 0, apt: 0 };
+
+  function invalidatePanelRequests() {
+    Object.keys(panelTokens).forEach(key => { panelTokens[key]++; });
+  }
+
+  function beginPanelRequest(type, cancelFullLoad = false) {
+    if (cancelFullLoad) {
+      fullLoadToken++;
+      activeFullLoadToken = 0;
+      panelUserLocks[type] = Date.now() + 30000;
+      UI.hideLoading();
+    }
+    panelTokens[type]++;
+    return panelTokens[type];
+  }
+
+  function isPanelRequestStale(type, token) {
+    return token !== panelTokens[type] || activeFullLoadToken !== 0;
+  }
+
+  function hasRecentUserPanelRequest(type) {
+    return Date.now() < panelUserLocks[type];
+  }
 
   // ── Stats bar updater with animated counting ──────────────
   function animateCounter(el, target) {
@@ -99,6 +150,9 @@
   }
 
   async function loadAndRender() {
+    const token = ++fullLoadToken;
+    activeFullLoadToken = token;
+    invalidatePanelRequests();
     let data = { cves: [], ransomware: [], apt: [], news: [] };
     let sourceOk = false;
 
@@ -115,9 +169,10 @@
       UI.showToast('Could not fetch live data.', 'error');
     }
 
-    // Store data globally for UI to access
-    window.cyberData = null; // release old reference for GC
-    window.cyberData = data;
+    if (token !== fullLoadToken) return false;
+
+    // Store a read-only data snapshot globally for UI/testing access.
+    data = setCyberData(data);
 
     // Clear existing markers before re-rendering
     MapManager.clearMarkers();
@@ -142,6 +197,7 @@
     // Update status
     UI.updateStatus(sourceOk, data.cves.length + data.ransomware.length + data.apt.length + data.news.length);
     UI.hideLoading();
+    activeFullLoadToken = 0;
 
     if (!handlersInitialized) {
       // ── Wire up static event handlers only once ─────────────
@@ -152,27 +208,34 @@
       UI.initExport();
       handlersInitialized = true;
     }
+
+    return true;
   }
 
   // ── Auto-refresh every 5 minutes ─────────────────────────
   setInterval(async () => {
+    if (Object.keys(panelUserLocks).some(type => hasRecentUserPanelRequest(type))) return;
     console.log('[App] Auto-refreshing data...');
     Object.keys(localStorage)
       .filter(k => k.startsWith('cybervulndb_ts_'))
       .forEach(k => localStorage.removeItem(k));
-    await loadAndRender();
-    UI.showToast('Data auto-refreshed', 'info');
+    const rendered = await loadAndRender();
+    if (rendered) UI.showToast('Data auto-refreshed', 'info');
   }, 5 * 60 * 1000);
 
   // ── Live news refresh every 3 minutes (silent, no full reload) ─
   let newsLastFetchTime = null;
 
   async function refreshNewsPanel() {
+    if (activeFullLoadToken) return;
+    if (hasRecentUserPanelRequest('news')) return;
+    const token = beginPanelRequest('news');
     try {
       const timeRange = getTimeRange('news');
       const news = await API.fetchNewsBySource('all', timeRange);
+      if (isPanelRequestStale('news', token)) return;
       if (news.length > 0) {
-        if (window.cyberData) window.cyberData.news = news;
+        updateCyberDataSection('news', news);
         newsLastFetchTime = Date.now();
         renderNews(filterForSearch(news, 'news'));
         updateNewsTimestamp();
@@ -210,13 +273,18 @@
   setInterval(updateCveTimestamp, 30 * 1000);
 
   async function refreshCVEPanel() {
+    if (activeFullLoadToken) return;
+    if (hasRecentUserPanelRequest('cve')) return;
+    const token = beginPanelRequest('cve');
     try {
       const timeRange = getTimeRange('cve');
       const fresh = await API.fetchCVEsBySource(currentCVESource, timeRange, currentSeverityFilter);
+      if (isPanelRequestStale('cve', token)) return;
       if (!fresh || !fresh.length) return;
 
       // Enrich with EPSS
       await API.enrichWithEPSS(fresh);
+      if (isPanelRequestStale('cve', token)) return;
 
       // Find IDs that are truly new since last render
       const newIds = fresh.filter(c => !knownCveIds.has(c.id)).map(c => c.id);
@@ -227,7 +295,7 @@
       );
       const merged = [...fresh, ...existing].slice(0, 50);
 
-      if (window.cyberData) window.cyberData.cves = merged;
+      updateCyberDataSection('cves', merged);
       cveLastFetchTime = Date.now();
 
       // Re-render with "new" IDs flagged (respect active search)
@@ -881,6 +949,7 @@ function showCVEModal(cve) {
     const newsSourceFilter = document.getElementById('news-source-filter');
     if (newsSourceFilter) {
       newsSourceFilter.addEventListener('change', async () => {
+        const token = beginPanelRequest('news', true);
         const source = newsSourceFilter.value;
         const timeRange = getTimeRange('news');
         const container = document.getElementById('news-list');
@@ -889,7 +958,8 @@ function showCVEModal(cve) {
         }
         try {
           const items = await API.fetchNewsBySource(source, timeRange);
-          if (window.cyberData) window.cyberData.news = items;
+          if (isPanelRequestStale('news', token)) return;
+          updateCyberDataSection('news', items);
           renderNews(filterForSearch(items, 'news'));
           const badge = document.getElementById('news-count-badge');
           if (badge) badge.textContent = items.length || '';
@@ -904,6 +974,7 @@ function showCVEModal(cve) {
     const newsTimeFilter = document.getElementById('news-time-filter');
     if (newsTimeFilter) {
       newsTimeFilter.addEventListener('change', async () => {
+        const token = beginPanelRequest('news', true);
         const source = document.getElementById('news-source-filter')?.value || 'all';
         const timeRange = newsTimeFilter.value;
         const container = document.getElementById('news-list');
@@ -912,7 +983,8 @@ function showCVEModal(cve) {
         }
         try {
           const items = await API.fetchNewsBySource(source, timeRange);
-          if (window.cyberData) window.cyberData.news = items;
+          if (isPanelRequestStale('news', token)) return;
+          updateCyberDataSection('news', items);
           renderNews(filterForSearch(items, 'news'));
           const badge = document.getElementById('news-count-badge');
           if (badge) badge.textContent = items.length || '';
@@ -927,6 +999,7 @@ function showCVEModal(cve) {
     const malwareFilter = document.getElementById('malware-source-filter');
     if (malwareFilter) {
       malwareFilter.addEventListener('change', async () => {
+        const token = beginPanelRequest('malware', true);
         const source = malwareFilter.value;
         const timeRange = getTimeRange('malware');
         const container = document.getElementById('ransomware-list');
@@ -935,7 +1008,8 @@ function showCVEModal(cve) {
         }
         try {
           const items = await API.fetchMalwareBySource(source, timeRange);
-          if (window.cyberData) window.cyberData.ransomware = items;
+          if (isPanelRequestStale('malware', token)) return;
+          updateCyberDataSection('ransomware', items);
           renderRansomware(filterForSearch(items, 'ransomware'));
           UI.showToast(`Loaded ${items.length} threats from ${source === 'all' ? 'all sources' : source}`, 'info');
         } catch (err) {
@@ -948,6 +1022,7 @@ function showCVEModal(cve) {
     const malwareTimeFilter = document.getElementById('malware-time-filter');
     if (malwareTimeFilter) {
       malwareTimeFilter.addEventListener('change', async () => {
+        const token = beginPanelRequest('malware', true);
         const source = document.getElementById('malware-source-filter')?.value || 'all';
         const timeRange = malwareTimeFilter.value;
         const container = document.getElementById('ransomware-list');
@@ -956,7 +1031,8 @@ function showCVEModal(cve) {
         }
         try {
           const items = await API.fetchMalwareBySource(source, timeRange);
-          if (window.cyberData) window.cyberData.ransomware = items;
+          if (isPanelRequestStale('malware', token)) return;
+          updateCyberDataSection('ransomware', items);
           renderRansomware(filterForSearch(items, 'ransomware'));
           UI.showToast(`Loaded ${items.length} threats`, 'info');
         } catch (err) {
@@ -969,6 +1045,7 @@ function showCVEModal(cve) {
     const aptFilter = document.getElementById('apt-source-filter');
     if (aptFilter) {
       aptFilter.addEventListener('change', async () => {
+        const token = beginPanelRequest('apt', true);
         const source = aptFilter.value;
         const timeRange = getTimeRange('apt');
         const container = document.getElementById('apt-list');
@@ -977,7 +1054,8 @@ function showCVEModal(cve) {
         }
         try {
           const items = await API.fetchAPTBySource(source, timeRange);
-          if (window.cyberData) window.cyberData.apt = items;
+          if (isPanelRequestStale('apt', token)) return;
+          updateCyberDataSection('apt', items);
           renderAPT(filterForSearch(items, 'apt'));
           UI.showToast(`Loaded ${items.length} APT groups from ${source === 'all' ? 'all sources' : source}`, 'info');
         } catch (err) {
@@ -990,6 +1068,7 @@ function showCVEModal(cve) {
     const aptTimeFilter = document.getElementById('apt-time-filter');
     if (aptTimeFilter) {
       aptTimeFilter.addEventListener('change', async () => {
+        const token = beginPanelRequest('apt', true);
         const source = document.getElementById('apt-source-filter')?.value || 'all';
         const timeRange = aptTimeFilter.value;
         const container = document.getElementById('apt-list');
@@ -998,7 +1077,8 @@ function showCVEModal(cve) {
         }
         try {
           const items = await API.fetchAPTBySource(source, timeRange);
-          if (window.cyberData) window.cyberData.apt = items;
+          if (isPanelRequestStale('apt', token)) return;
+          updateCyberDataSection('apt', items);
           renderAPT(filterForSearch(items, 'apt'));
           UI.showToast(`Loaded ${items.length} APT groups`, 'info');
         } catch (err) {
@@ -1010,6 +1090,7 @@ function showCVEModal(cve) {
 
   // Fetch CVEs from the selected source and re-render
   async function refetchCVESource() {
+    const token = beginPanelRequest('cve', true);
     const container = document.getElementById('cve-list');
     if (container) {
       container.innerHTML = '<div class="empty-state"><div class="empty-state-icon loading-spin">⟳</div><div class="empty-state-text">Loading from source...</div></div>';
@@ -1018,7 +1099,8 @@ function showCVEModal(cve) {
     try {
       const timeRange = getTimeRange('cve');
       const cves = await API.fetchCVEsBySource(currentCVESource, timeRange, currentSeverityFilter);
-      if (window.cyberData) window.cyberData.cves = cves;
+      if (isPanelRequestStale('cve', token)) return;
+      updateCyberDataSection('cves', cves);
       renderCVEs(filterForSearch(cves, 'cve'));
       cveLastFetchTime = Date.now();
       updateCveTimestamp();
