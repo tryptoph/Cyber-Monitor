@@ -1849,10 +1849,6 @@ select:focus-visible {
   cursor: pointer;
   max-width: 160px;
 }
-  font-family: 'IBM Plex Mono', monospace;
-  cursor: pointer;
-  max-width: 160px;
-}
 
 #news-source-filter:focus {
   border-color: var(--info);
@@ -2142,4 +2138,501 @@ select:focus-visible {
 .threat-card.news:hover::after {
   opacity: 1;
   box-shadow: inset 0 0 20px rgba(100, 210, 255, 0.05);
+}
+
+/* ============================================================
+   UI/UX Pro Max refresh — Tactical Mission Control
+   ============================================================ */
+
+:root {
+  --bg-void: #03060b;
+  --bg-primary: #07111d;
+  --bg-secondary: rgba(9, 19, 32, 0.88);
+  --bg-card: rgba(12, 24, 39, 0.82);
+  --bg-elevated: rgba(18, 36, 58, 0.9);
+  --bg-floating: rgba(26, 49, 76, 0.94);
+  --surface-glass: rgba(9, 20, 34, 0.72);
+  --surface-strong: rgba(13, 29, 48, 0.95);
+  --text-primary: #f4f8fb;
+  --text-secondary: #b6c6d4;
+  --text-muted: #7d8f9e;
+  --text-placeholder: #8798a8;
+  --border: rgba(151, 186, 214, 0.16);
+  --border-light: rgba(190, 218, 239, 0.24);
+  --border-hover: rgba(74, 222, 224, 0.55);
+  --accent-cyan: #4adee0;
+  --accent-cyan-dim: rgba(74, 222, 224, 0.16);
+  --accent-green: #8bf0b0;
+  --critical: #ff5f72;
+  --high: #ff9f5f;
+  --medium: #ffd166;
+  --low: #62e6a3;
+  --info: #77b7ff;
+  --ransomware: #ff77a8;
+  --apt: #b895ff;
+  --cve: #f8d86a;
+  --news: #77b7ff;
+  --glow-cyan: 0 0 24px rgba(74, 222, 224, 0.28), 0 0 60px rgba(74, 222, 224, 0.12);
+  --shadow-card: 0 20px 60px rgba(0, 0, 0, 0.42);
+  --shadow-elevated: 0 30px 80px rgba(0, 0, 0, 0.5);
+  --radius: 14px;
+  --radius-sm: 10px;
+  --radius-lg: 22px;
+  --transition: 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+html,
+body {
+  font-size: 14px;
+  background:
+    radial-gradient(circle at 14% 12%, rgba(74, 222, 224, 0.14), transparent 28%),
+    radial-gradient(circle at 78% 18%, rgba(184, 149, 255, 0.13), transparent 30%),
+    radial-gradient(circle at 50% 92%, rgba(255, 119, 168, 0.08), transparent 36%),
+    linear-gradient(145deg, #03060b 0%, #07111d 48%, #030811 100%);
+}
+
+body::before {
+  background:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: 0.36;
+}
+
+body::after {
+  background:
+    radial-gradient(ellipse at 50% 35%, transparent 0%, rgba(3, 6, 11, 0.18) 45%, rgba(3, 6, 11, 0.68) 100%),
+    linear-gradient(90deg, rgba(74, 222, 224, 0.05), transparent 24%, transparent 76%, rgba(184, 149, 255, 0.05));
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 10000;
+  transform: translateY(-140%);
+  background: var(--accent-cyan);
+  color: #031018;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font-weight: 700;
+  box-shadow: var(--glow-cyan);
+  transition: transform var(--transition);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+#header {
+  height: 68px;
+  padding: 0 22px;
+  background:
+    linear-gradient(180deg, rgba(12, 27, 45, 0.94), rgba(7, 17, 29, 0.82)),
+    linear-gradient(90deg, rgba(74, 222, 224, 0.08), transparent 30%, rgba(184, 149, 255, 0.08));
+  backdrop-filter: blur(18px) saturate(150%);
+  box-shadow: 0 16px 46px rgba(0, 0, 0, 0.3);
+}
+
+#header::after {
+  height: 2px;
+  opacity: 0.75;
+}
+
+.logo {
+  font-size: 1.18rem;
+  letter-spacing: 0.01em;
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.24), transparent 30%),
+    linear-gradient(145deg, rgba(74, 222, 224, 0.22), rgba(184, 149, 255, 0.18));
+}
+
+.live-badge {
+  min-height: 32px;
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+
+.search-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(74, 222, 224, 0.45), rgba(184, 149, 255, 0.24), rgba(255, 119, 168, 0.35));
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+
+.search-wrapper:focus-within::before {
+  opacity: 1;
+}
+
+#search-input {
+  min-height: 44px;
+  border-radius: 999px;
+  background: rgba(3, 10, 18, 0.82);
+  border-color: rgba(190, 218, 239, 0.18);
+  position: relative;
+}
+
+#search-input:focus {
+  box-shadow: 0 0 0 4px rgba(74, 222, 224, 0.13), var(--glow-cyan);
+}
+
+.icon-btn,
+.map-btn,
+.sidebar-toggle,
+.modal-close {
+  min-width: 44px;
+  min-height: 44px;
+  touch-action: manipulation;
+}
+
+.icon-btn,
+.map-btn {
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(18, 36, 58, 0.88), rgba(7, 17, 29, 0.88));
+}
+
+.icon-btn:hover,
+.map-btn:hover {
+  box-shadow: 0 12px 34px rgba(74, 222, 224, 0.16);
+}
+
+.stats-bar {
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 12px 18px;
+  background: linear-gradient(90deg, rgba(4, 12, 22, 0.82), rgba(12, 27, 45, 0.62));
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.stats-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.stat-item {
+  min-width: 118px;
+  align-items: flex-start;
+  padding: 10px 14px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.015)),
+    rgba(6, 16, 28, 0.64);
+  border: 1px solid rgba(190, 218, 239, 0.13);
+  border-radius: 16px;
+}
+
+.stat-value {
+  font-size: 1.42rem;
+  line-height: 1;
+}
+
+.stat-label {
+  letter-spacing: 0.12em;
+}
+
+#sidebar {
+  width: 440px;
+  min-width: 360px;
+  background:
+    linear-gradient(180deg, rgba(9, 20, 34, 0.9), rgba(6, 14, 25, 0.96)),
+    rgba(7, 17, 29, 0.94);
+  backdrop-filter: blur(18px) saturate(145%);
+  box-shadow: 16px 0 54px rgba(0, 0, 0, 0.32);
+}
+
+#sidebar.collapsed {
+  width: 0;
+  min-width: 0;
+}
+
+.sidebar-tabs {
+  gap: 8px;
+  padding: 10px;
+  background: rgba(3, 10, 18, 0.46);
+}
+
+.tab-btn {
+  min-height: 44px;
+  border-radius: 14px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.tab-btn:hover {
+  background: rgba(255, 255, 255, 0.055);
+  color: var(--text-primary);
+}
+
+.tab-btn.active {
+  border-color: rgba(74, 222, 224, 0.24);
+  background: linear-gradient(145deg, rgba(74, 222, 224, 0.15), rgba(184, 149, 255, 0.08));
+  box-shadow: inset 0 -1px 0 rgba(74, 222, 224, 0.35), 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+.tab-count {
+  min-width: 20px;
+  line-height: 18px;
+  color: #041019;
+}
+
+.panel-header {
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.05), rgba(255,255,255,0.015)),
+    rgba(8, 20, 34, 0.88);
+}
+
+.panel-header h3 {
+  font-size: 0.9rem;
+  padding-top: 7px;
+}
+
+.news-header-right,
+.cve-header-right {
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.panel-header select,
+#cve-source-filter,
+#malware-source-filter,
+#apt-source-filter,
+#news-source-filter {
+  min-height: 36px;
+  border-radius: 999px;
+  padding: 7px 28px 7px 12px;
+  background-color: rgba(3, 10, 18, 0.68);
+  border-color: rgba(190, 218, 239, 0.17);
+  font-size: 0.66rem;
+}
+
+.threat-list {
+  padding: 14px;
+  gap: 12px;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(74, 222, 224, 0.05), transparent 28%),
+    rgba(3, 10, 18, 0.46);
+}
+
+.threat-card {
+  border-radius: 18px;
+  padding: 18px 18px 18px 22px;
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.07), rgba(255,255,255,0.018)),
+    linear-gradient(180deg, rgba(12, 27, 45, 0.92), rgba(7, 17, 29, 0.94));
+  border-color: rgba(190, 218, 239, 0.14);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.26);
+}
+
+.threat-card:hover {
+  transform: translateY(-3px) scale(1.006);
+  border-color: var(--border-hover);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.38), 0 0 0 1px rgba(74, 222, 224, 0.1);
+}
+
+.threat-card::before {
+  top: 14px;
+  bottom: 14px;
+  width: 4px;
+  border-radius: 999px;
+}
+
+.threat-card-title {
+  font-size: 0.88rem;
+  color: #f6fbff;
+}
+
+.threat-card-header {
+  gap: 12px;
+}
+
+.source-badge,
+.badge {
+  border-radius: 999px;
+  min-height: 22px;
+}
+
+#map-container {
+  background:
+    radial-gradient(circle at 55% 45%, rgba(74, 222, 224, 0.07), transparent 24%),
+    #02070d;
+}
+
+#map-container::before {
+  content: '';
+  position: absolute;
+  inset: 18px;
+  z-index: 401;
+  border: 1px solid rgba(74, 222, 224, 0.12);
+  border-radius: 24px;
+  pointer-events: none;
+  box-shadow: inset 0 0 80px rgba(74, 222, 224, 0.035);
+}
+
+#map-container::after {
+  opacity: 0.28;
+}
+
+.map-controls {
+  top: 22px;
+  right: 22px;
+  gap: 10px;
+}
+
+.map-legend {
+  bottom: 48px;
+  left: 22px;
+  border-radius: 18px;
+  background: rgba(8, 20, 34, 0.82);
+  border-color: rgba(190, 218, 239, 0.18);
+  backdrop-filter: blur(16px) saturate(150%);
+}
+
+.cyber-popup .leaflet-popup-content-wrapper,
+.modal,
+.toast {
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02)),
+    rgba(8, 20, 34, 0.95) !important;
+}
+
+.modal-overlay {
+  background: rgba(2, 7, 13, 0.74);
+}
+
+.modal {
+  border-radius: 24px;
+  border-color: rgba(190, 218, 239, 0.18);
+}
+
+.btn-primary,
+.btn-secondary {
+  min-height: 44px;
+  border-radius: 999px;
+}
+
+#status-bar,
+.threat-ticker {
+  backdrop-filter: blur(14px);
+}
+
+#status-bar {
+  min-height: 32px;
+  background: rgba(4, 12, 22, 0.88);
+}
+
+.threat-ticker {
+  height: 30px;
+  background: rgba(3, 10, 18, 0.86);
+}
+
+.ticker-label {
+  min-width: 86px;
+  justify-content: center;
+}
+
+.empty-state {
+  min-height: 240px;
+  border: 1px dashed rgba(190, 218, 239, 0.17);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+@media (max-width: 920px) {
+  #header {
+    height: auto;
+    min-height: 72px;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .header-center {
+    display: flex;
+    order: 3;
+    flex-basis: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
+  #sidebar {
+    width: min(92vw, 430px);
+    min-width: 0;
+  }
+
+  .sidebar-toggle {
+    left: min(92vw, 430px);
+  }
+
+  .panel-header {
+    flex-direction: column;
+  }
+
+  .news-header-right,
+  .cve-header-right {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  html,
+  body {
+    font-size: 13px;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .stats-bar {
+    padding: 10px;
+  }
+
+  .stat-item {
+    min-width: 104px;
+  }
+
+  .sidebar-tabs {
+    overflow-x: auto;
+  }
+
+  .tab-btn {
+    min-width: 96px;
+  }
+
+  .panel-header select,
+  #cve-source-filter,
+  #malware-source-filter,
+  #apt-source-filter,
+  #news-source-filter {
+    max-width: 100%;
+    flex: 1 1 145px;
+  }
+
+  .map-controls {
+    top: 14px;
+    right: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
 }
