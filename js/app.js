@@ -174,28 +174,12 @@
     // Store a read-only data snapshot globally for UI/testing access.
     data = setCyberData(data);
 
-    // Clear existing markers before re-rendering
-    MapManager.clearMarkers();
-
     // Render all panels (data is already time-range filtered from loadAndRender)
     loadKEVData(); // fire-and-forget — enriches KEV badges after initial render
-    renderCVEs(filterForSearch(data.cves, 'cve'));
-    renderRansomware(filterForSearch(data.ransomware, 'ransomware'));
-    renderAPT(filterForSearch(data.apt, 'apt'));
-    renderNews(filterForSearch(data.news, 'news'));
-
-    // Update stats bar
-    updateStatsBar(data);
-
-    // Update threat ticker
-    updateThreatTicker(data);
-
-    // Update map marker count
-    const markerCountEl = document.getElementById('status-markers');
-    if (markerCountEl) markerCountEl.textContent = `Map: ${MapManager.getMarkerCount()} markers`;
+    const visibleData = renderActiveData(data);
 
     // Update status
-    UI.updateStatus(sourceOk, data.cves.length + data.ransomware.length + data.apt.length + data.news.length);
+    UI.updateStatus(sourceOk, visibleData.cves.length + visibleData.ransomware.length + visibleData.apt.length + visibleData.news.length);
     UI.hideLoading();
     activeFullLoadToken = 0;
 
@@ -232,12 +216,12 @@
     const token = beginPanelRequest('news');
     try {
       const timeRange = getTimeRange('news');
-      const news = await API.fetchNewsBySource('all', timeRange);
+      const news = await API.fetchNewsBySource('all', timeRange, currentCountryFocus);
       if (isPanelRequestStale('news', token)) return;
       if (news.length > 0) {
         updateCyberDataSection('news', news);
         newsLastFetchTime = Date.now();
-        renderNews(filterForSearch(news, 'news'));
+        renderActiveData();
         updateNewsTimestamp();
         console.log(`[App] News live-refreshed: ${news.length} items`);
       }
@@ -299,7 +283,7 @@
       cveLastFetchTime = Date.now();
 
       // Re-render with "new" IDs flagged (respect active search)
-      renderCVEs(filterForSearch(merged, 'cve'), new Set(newIds));
+      renderActiveData();
       updateCveTimestamp();
 
       // Update count badge
@@ -320,6 +304,7 @@
 
   // ── Search state & filter helper ─────────────────────────
   let currentSearchQuery = '';
+  let currentCountryFocus = 'global';
 
   function filterForSearch(items, type) {
     if (!currentSearchQuery) return items;
@@ -352,6 +337,46 @@
     }
   }
 
+  function filterForCountryFocus(items, type) {
+    return (items || []).filter(item => API.matchesCountryFocus(item, type, currentCountryFocus));
+  }
+
+  function applyActiveFilters(data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] }) {
+    const focused = {
+      cves: filterForCountryFocus(data.cves || [], 'cve'),
+      ransomware: filterForCountryFocus(data.ransomware || [], 'ransomware'),
+      apt: filterForCountryFocus(data.apt || [], 'apt'),
+      news: filterForCountryFocus(data.news || [], 'news')
+    };
+    return {
+      cves: filterForSearch(focused.cves, 'cve'),
+      ransomware: filterForSearch(focused.ransomware, 'ransomware'),
+      apt: filterForSearch(focused.apt, 'apt'),
+      news: filterForSearch(focused.news, 'news')
+    };
+  }
+
+  function renderActiveData(data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] }) {
+    const visible = applyActiveFilters(data);
+    MapManager.clearMarkers();
+    renderCVEs(visible.cves);
+    renderRansomware(visible.ransomware);
+    renderAPT(visible.apt);
+    renderNews(visible.news);
+    updateStatsBar(visible);
+    updateThreatTicker(visible);
+
+    const markerCountEl = document.getElementById('status-markers');
+    if (markerCountEl) markerCountEl.textContent = `Map: ${MapManager.getMarkerCount()} markers`;
+
+    const statusCount = document.getElementById('status-count');
+    if (statusCount) {
+      const total = visible.cves.length + visible.ransomware.length + visible.apt.length + visible.news.length;
+      statusCount.innerHTML = `<span class="status-icon">›</span> ${total} threats`;
+    }
+    return visible;
+  }
+
   // ── Render functions ──────────────────────────────────────
   // Store current filter
   let currentSeverityFilter = '';
@@ -364,7 +389,7 @@
       cachedKEVList = kev || [];
       const data = window.cyberData;
       if (data && data.cves && data.cves.length) {
-        renderCVEs(filterForSearch(data.cves, 'cve'));
+        renderActiveData(data);
       }
     }).catch(() => {
       cachedKEVList = [];
@@ -537,6 +562,8 @@
     const container = document.getElementById('apt-list');
     if (!container) return;
 
+    MapManager.clearAttackLines();
+
     const badge = document.getElementById('apt-count-badge');
     if (badge) badge.textContent = groups.length > 0 ? groups.length : '';
     
@@ -573,9 +600,6 @@
         </div>
       `;
     }).join('');
-
-    // Clear old attack lines before adding new ones
-    MapManager.clearAttackLines();
 
     // Track which countries have APT labels already
     const labeledCountries = new Set();
@@ -650,12 +674,14 @@
     container.innerHTML = news.map(item => {
       const isFresh = (now - new Date(item.published).getTime()) < FRESH_MS;
       const categoryLabel = (item.category || 'news').toUpperCase();
+      const officialBadge = item.official ? '<span class="source-badge official-source">Official</span>' : '';
       return `
         <div class="threat-card news ${isFresh ? 'news-fresh' : ''}" data-link="${escapeHtml(item.link)}">
           <div class="threat-card-header">
             <span class="threat-card-type${isFresh ? ' news-live-badge' : ''}">
               ${isFresh ? '<span class="news-dot"></span>' : ''}${categoryLabel}
             </span>
+            ${officialBadge}
             <span class="source-badge">${escapeHtml(item.source || item.sourceKey || 'Unknown')}</span>
             <span class="threat-card-date" data-ts="${item.published}">${timeAgo(item.published)}</span>
           </div>
@@ -900,10 +926,7 @@ function showCVEModal(cve) {
         // Re-apply active search filter when switching tabs
         if (currentSearchQuery) {
           const data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] };
-          if (tabId === 'cve') renderCVEs(filterForSearch(data.cves, 'cve'));
-          else if (tabId === 'ransomware') renderRansomware(filterForSearch(data.ransomware, 'ransomware'));
-          else if (tabId === 'apt') renderAPT(filterForSearch(data.apt, 'apt'));
-          else if (tabId === 'news') renderNews(filterForSearch(data.news, 'news'));
+          renderActiveData(data);
         }
       });
     });
@@ -923,7 +946,7 @@ function showCVEModal(cve) {
           await refetchCVESource();
         } else {
           const data = window.cyberData || { cves: [] };
-          renderCVEs(filterForSearch(data.cves, 'cve'));
+          renderActiveData(data);
         }
       });
     }
@@ -945,6 +968,30 @@ function showCVEModal(cve) {
       });
     }
 
+    const countryFocusFilter = document.getElementById('country-focus-filter');
+    if (countryFocusFilter) {
+      countryFocusFilter.addEventListener('change', async () => {
+        currentCountryFocus = countryFocusFilter.value || 'global';
+        const token = beginPanelRequest('news', true);
+        const source = document.getElementById('news-source-filter')?.value || 'all';
+        const timeRange = getTimeRange('news');
+        const container = document.getElementById('news-list');
+        if (container) {
+          container.innerHTML = '<div class="empty-state"><div class="empty-state-icon loading-spin">⟳</div><div class="empty-state-text">Loading focused news...</div></div>';
+        }
+        try {
+          const items = await API.fetchNewsBySource(source, timeRange, currentCountryFocus);
+          if (isPanelRequestStale('news', token)) return;
+          updateCyberDataSection('news', items);
+          renderActiveData();
+          UI.showToast(`Focus set to ${API.getCountryFocusLabel(currentCountryFocus)}`, 'info');
+        } catch (err) {
+          renderActiveData();
+          UI.showToast('Failed to fetch focused news', 'error');
+        }
+      });
+    }
+
     // News source selector
     const newsSourceFilter = document.getElementById('news-source-filter');
     if (newsSourceFilter) {
@@ -957,10 +1004,10 @@ function showCVEModal(cve) {
           container.innerHTML = '<div class="empty-state"><div class="empty-state-icon loading-spin">⟳</div><div class="empty-state-text">Loading news...</div></div>';
         }
         try {
-          const items = await API.fetchNewsBySource(source, timeRange);
+          const items = await API.fetchNewsBySource(source, timeRange, currentCountryFocus);
           if (isPanelRequestStale('news', token)) return;
           updateCyberDataSection('news', items);
-          renderNews(filterForSearch(items, 'news'));
+          renderActiveData();
           const badge = document.getElementById('news-count-badge');
           if (badge) badge.textContent = items.length || '';
           UI.showToast(`Loaded ${items.length} articles from ${source === 'all' ? 'all sources' : source}`, 'info');
@@ -982,10 +1029,10 @@ function showCVEModal(cve) {
           container.innerHTML = '<div class="empty-state"><div class="empty-state-icon loading-spin">⟳</div><div class="empty-state-text">Loading news...</div></div>';
         }
         try {
-          const items = await API.fetchNewsBySource(source, timeRange);
+          const items = await API.fetchNewsBySource(source, timeRange, currentCountryFocus);
           if (isPanelRequestStale('news', token)) return;
           updateCyberDataSection('news', items);
-          renderNews(filterForSearch(items, 'news'));
+          renderActiveData();
           const badge = document.getElementById('news-count-badge');
           if (badge) badge.textContent = items.length || '';
           UI.showToast(`Loaded ${items.length} articles`, 'info');
@@ -1010,7 +1057,7 @@ function showCVEModal(cve) {
           const items = await API.fetchMalwareBySource(source, timeRange);
           if (isPanelRequestStale('malware', token)) return;
           updateCyberDataSection('ransomware', items);
-          renderRansomware(filterForSearch(items, 'ransomware'));
+          renderActiveData();
           UI.showToast(`Loaded ${items.length} threats from ${source === 'all' ? 'all sources' : source}`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch malware data', 'error');
@@ -1033,7 +1080,7 @@ function showCVEModal(cve) {
           const items = await API.fetchMalwareBySource(source, timeRange);
           if (isPanelRequestStale('malware', token)) return;
           updateCyberDataSection('ransomware', items);
-          renderRansomware(filterForSearch(items, 'ransomware'));
+          renderActiveData();
           UI.showToast(`Loaded ${items.length} threats`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch malware data', 'error');
@@ -1056,7 +1103,7 @@ function showCVEModal(cve) {
           const items = await API.fetchAPTBySource(source, timeRange);
           if (isPanelRequestStale('apt', token)) return;
           updateCyberDataSection('apt', items);
-          renderAPT(filterForSearch(items, 'apt'));
+          renderActiveData();
           UI.showToast(`Loaded ${items.length} APT groups from ${source === 'all' ? 'all sources' : source}`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch APT data', 'error');
@@ -1079,7 +1126,7 @@ function showCVEModal(cve) {
           const items = await API.fetchAPTBySource(source, timeRange);
           if (isPanelRequestStale('apt', token)) return;
           updateCyberDataSection('apt', items);
-          renderAPT(filterForSearch(items, 'apt'));
+          renderActiveData();
           UI.showToast(`Loaded ${items.length} APT groups`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch APT data', 'error');
@@ -1101,7 +1148,7 @@ function showCVEModal(cve) {
       const cves = await API.fetchCVEsBySource(currentCVESource, timeRange, currentSeverityFilter);
       if (isPanelRequestStale('cve', token)) return;
       updateCyberDataSection('cves', cves);
-      renderCVEs(filterForSearch(cves, 'cve'));
+      renderActiveData();
       cveLastFetchTime = Date.now();
       updateCveTimestamp();
 
@@ -1109,11 +1156,6 @@ function showCVEModal(cve) {
       if (badge) badge.textContent = cves.length || '';
 
       // Update threat counter
-      const data = window.cyberData || {};
-      const total = (data.cves || []).length + (data.ransomware || []).length + (data.apt || []).length + (data.news || []).length;
-      const statusCount = document.getElementById('status-count');
-      if (statusCount) statusCount.innerHTML = `<span class="status-icon">›</span> ${total} threats`;
-
       UI.showToast(`Loaded ${cves.length} CVEs from ${currentCVESource === 'auto' ? 'best source' : currentCVESource}`, 'info');
     } catch (err) {
       UI.showToast('Failed to fetch CVEs from source', 'error');
@@ -1132,25 +1174,11 @@ function showCVEModal(cve) {
 
       if (!currentSearchQuery) {
         // Clear search — restore all panels (data already time-filtered in window.cyberData)
-        MapManager.clearMarkers();
-        renderCVEs(data.cves);
-        renderRansomware(data.ransomware);
-        renderAPT(data.apt);
-        renderNews(data.news);
-        updateStatsBar(data);
+        renderActiveData(data);
         return;
       }
 
-      MapManager.clearMarkers();
-      const filteredCVEs = filterForSearch(data.cves, 'cve');
-      const filteredRansomware = filterForSearch(data.ransomware, 'ransomware');
-      const filteredApt = filterForSearch(data.apt, 'apt');
-      const filteredNews = filterForSearch(data.news, 'news');
-      renderCVEs(filteredCVEs);
-      renderRansomware(filteredRansomware);
-      renderAPT(filteredApt);
-      renderNews(filteredNews);
-      updateStatsBar({ cves: filteredCVEs, ransomware: filteredRansomware, apt: filteredApt, news: filteredNews });
+      renderActiveData(data);
     }, 250));
   }
 

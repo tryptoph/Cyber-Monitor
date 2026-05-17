@@ -1,6 +1,8 @@
 import re
 import sys
 import threading
+import json
+from pathlib import Path
 from contextlib import contextmanager
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
@@ -110,6 +112,42 @@ def test_smoke():
         import pytest
         pytest.skip("Playwright is not installed")
     main()
+
+
+def test_morocco_feed_seed_contains_official_dgssi_items():
+    feed_path = Path("data/morocco-cyber-feed.json")
+    assert feed_path.exists(), "Morocco cyber feed seed should exist"
+
+    payload = json.loads(feed_path.read_text(encoding="utf-8"))
+    items = payload.get("items", [])
+    assert payload.get("countryFocus") == "MA"
+    assert any(item.get("sourceKey") == "dgssi" for item in items), "DGSSI should be present as an official Morocco source"
+    assert all(item.get("countryCode") == "MA" for item in items), "Morocco feed items should be tagged MA"
+    assert any(item.get("official") is True for item in items), "Official-source badge metadata should be available"
+
+
+def test_morocco_focus_hooks_are_wired():
+    index_html = Path("index.html").read_text(encoding="utf-8")
+    api_js = Path("js/api.js").read_text(encoding="utf-8")
+    app_js = Path("js/app.js").read_text(encoding="utf-8")
+
+    assert 'id="country-focus-filter"' in index_html
+    assert 'value="MA"' in index_html
+    assert "matchesCountryFocus" in api_js
+    assert "fetchMoroccoNews" in api_js
+    assert "currentCountryFocus" in app_js
+    assert "applyActiveFilters" in app_js
+
+
+def test_morocco_feed_collector_exists():
+    collector = Path("scripts/build_morocco_feed.py")
+
+    assert collector.exists(), "Morocco feed collector script should exist"
+
+    script = collector.read_text(encoding="utf-8")
+    assert "https://www.dgssi.gov.ma/en/bulletins/" in script
+    assert "https://en.hespress.com/feed" in script
+    assert "data/morocco-cyber-feed.json" in script
 
 
 if __name__ == "__main__":

@@ -2615,7 +2615,8 @@ body::after {
   #cve-source-filter,
   #malware-source-filter,
   #apt-source-filter,
-  #news-source-filter {
+  #news-source-filter,
+  #country-focus-filter {
     max-width: 100%;
     flex: 1 1 145px;
   }
@@ -2624,6 +2625,28 @@ body::after {
     top: 14px;
     right: 14px;
   }
+}
+
+#country-focus-filter {
+  min-height: 44px;
+  border: 1px solid rgba(125, 211, 252, 0.35);
+  border-radius: 999px;
+  background: rgba(7, 17, 29, 0.78);
+  color: var(--text-primary);
+  padding: 0 14px;
+  font: inherit;
+  letter-spacing: 0.02em;
+}
+
+#country-focus-filter:focus {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 2px;
+}
+
+.official-source {
+  border-color: rgba(34, 197, 94, 0.38);
+  background: rgba(34, 197, 94, 0.12);
+  color: #86efac;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -89,6 +89,30 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     { name: 'Wired Security',   key: 'wired', url: 'https://www.wired.com/category/security/feed/rss/',      category: 'enterprise' },
   ];
 
+  const MOROCCO_LOCAL_FEEDS = [
+    { name: 'Hespress English', key: 'hespress-en', url: 'https://en.hespress.com/feed', category: 'morocco' },
+    { name: 'Hespress Français', key: 'hespress-fr', url: 'https://fr.hespress.com/feed', category: 'morocco' },
+    { name: 'Hespress Arabic', key: 'hespress-ar', url: 'https://www.hespress.com/feed', category: 'morocco' },
+    { name: "Aujourd'hui le Maroc", key: 'aujourdhui', url: 'https://aujourdhui.ma/feed', category: 'morocco' },
+    { name: 'La Vie Eco', key: 'lavieeco', url: 'https://www.lavieeco.com/feed/', category: 'morocco' },
+  ];
+
+  const MOROCCO_TERMS = [
+    'morocco', 'moroccan', 'maroc', 'marocain', 'marocaine', 'marruecos',
+    'المغرب', 'مغربي', 'مغربية', 'rabat', 'casablanca', 'marrakech',
+    'marrakesh', 'agadir', 'fes', 'fez', 'tangier', 'tanger'
+  ];
+
+  const CYBER_TERMS = [
+    'cyber', 'cybersecurity', 'cybersécurité', 'cybersecurite', 'cyberattaque',
+    'cyberattack', 'security', 'sécurité', 'securite', 'vulnerability',
+    'vulnérabilité', 'vulnerabilite', 'ransomware', 'malware', 'phishing',
+    'spyware', 'breach', 'leak', 'fuite', 'piratage', 'hacker', 'hackers',
+    'dgssi', 'macert', 'cert', 'cve', 'zero-day', 'botnet', 'ddos',
+    'سيبر', 'الأمن السيبراني', 'اختراق', 'قرصنة', 'تسريب', 'برمجية',
+    'خبيثة', 'هجوم', 'هجمات'
+  ];
+
   // Country code mapping for CVEs
   const COUNTRY_KEYWORDS = {
     US: ['united states', 'usa', 'america', 'american'],
@@ -102,16 +126,23 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     GB: ['uk', 'united kingdom', 'british', 'london'],
     BR: ['brazil', 'brazilian'],
     JP: ['japan', 'japanese', 'tokyo'],
+    MA: MOROCCO_TERMS,
   };
 
   // ── HackerNews Algolia API ────────────────────────────────
   // Primary news source — no CORS issues, always live, proper JSON
-  async function fetchHackerNews() {
-    const QUERIES = [
+  async function fetchHackerNews(countryFocus = 'global') {
+    const globalQueries = [
       { q: 'cybersecurity vulnerability CVE exploit zero-day', category: 'vulnerabilities' },
       { q: 'ransomware breach data leak hacked attack',        category: 'breaches' },
       { q: 'malware threat actor apt trojan backdoor',         category: 'malware' },
     ];
+    const moroccoQueries = [
+      { q: 'morocco cybersecurity cyberattack ransomware', category: 'morocco' },
+      { q: 'maroc cybersecurite cyberattaque DGSSI', category: 'morocco' },
+      { q: 'Morocco DGSSI vulnerability malware phishing', category: 'morocco' },
+    ];
+    const QUERIES = countryFocus === 'MA' ? moroccoQueries : globalQueries;
 
     try {
       const promises = QUERIES.map(({ q, category }) => {
@@ -131,6 +162,7 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
               published: h.created_at,
               type: 'news',
               points: h.points || 0,
+              countryCode: countryFocus === 'MA' ? 'MA' : undefined,
             }))
           )
           .catch(() => []);
@@ -165,6 +197,8 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
             source: feed.name,
             sourceKey: feed.key,
             category: feed.category,
+            countryCode: feed.countryCode,
+            official: feed.official === true,
             published: item.pubDate || new Date().toISOString(),
             type: 'news',
           })).filter(i => i.title && i.link);
@@ -223,6 +257,8 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
         source: feed.name,
         sourceKey: feed.key,
         category: feed.category,
+        countryCode: feed.countryCode,
+        official: feed.official === true,
         published: getContent('pubDate') || new Date().toISOString(),
         type: 'news'
       });
@@ -231,8 +267,125 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     return items.slice(0, 10); // Limit per feed
   }
 
+  function itemText(item) {
+    return [
+      item?.title,
+      item?.description,
+      item?.source,
+      item?.sourceKey,
+      item?.country,
+      item?.countryCode,
+      item?.organization,
+      item?.group,
+      item?.name,
+      item?.aliases?.join?.(' '),
+      item?.targetSectors?.join?.(' '),
+      item?.suspectedVictims?.join?.(' '),
+    ].filter(Boolean).join(' ').toLowerCase();
+  }
+
+  function hasAnyTerm(text, terms) {
+    const lower = String(text || '').toLowerCase();
+    return terms.some(term => lower.includes(term.toLowerCase()));
+  }
+
+  function isMoroccoText(text) {
+    return hasAnyTerm(text, MOROCCO_TERMS);
+  }
+
+  function isCyberText(text) {
+    return hasAnyTerm(text, CYBER_TERMS);
+  }
+
+  function isMoroccoCyberNews(item) {
+    const text = itemText(item);
+    return item?.official === true || (isCyberText(text) && (item?.countryCode === 'MA' || isMoroccoText(text)));
+  }
+
+  function dedupeNewsItems(items) {
+    const seen = new Set();
+    const deduped = items.filter(item => {
+      if (!item?.link || !item?.title) return false;
+      const key = item.link.toLowerCase().replace(/\/$/, '').replace(/^https?:\/\//, '');
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+    deduped.sort((a, b) => new Date(b.published) - new Date(a.published));
+    return deduped;
+  }
+
+  async function fetchGeneratedMoroccoNews() {
+    try {
+      const res = await fetchWithAbort('data/morocco-cyber-feed.json', { cache: 'no-store' }, 5000);
+      if (!res.ok) return [];
+      const payload = await res.json();
+      return (payload.items || []).map(item => ({
+        ...item,
+        id: item.id || item.link || Utils.uid(),
+        source: item.source || 'Morocco Cyber Feed',
+        sourceKey: item.sourceKey || 'morocco-feed',
+        category: item.category || 'morocco',
+        countryCode: 'MA',
+        type: 'news',
+      })).filter(item => item.title && item.link);
+    } catch (err) {
+      console.warn('[API] Morocco generated feed unavailable:', err.message);
+      return [];
+    }
+  }
+
+  async function fetchMoroccoLocalFeeds() {
+    const settled = await mapWithConcurrency(
+      MOROCCO_LOCAL_FEEDS,
+      2,
+      feed => fetchRSSWithFallbacks({ ...feed, countryCode: 'MA' })
+    );
+    return settled
+      .filter(result => result.status === 'fulfilled')
+      .flatMap(result => result.value)
+      .map(item => ({ ...item, countryCode: 'MA' }))
+      .filter(isMoroccoCyberNews);
+  }
+
+  async function fetchMoroccoNews() {
+    console.log('[API] Fetching Morocco cyber news...');
+    const [generated, hn, local] = await Promise.all([
+      fetchGeneratedMoroccoNews(),
+      fetchHackerNews('MA'),
+      fetchMoroccoLocalFeeds(),
+    ]);
+    return dedupeNewsItems([...generated, ...hn, ...local]).slice(0, 200);
+  }
+
+  function matchesCountryFocus(item, type, countryFocus = 'global') {
+    if (!countryFocus || countryFocus === 'global') return true;
+    if (countryFocus !== 'MA') return true;
+
+    const text = itemText(item);
+    if (item?.countryCode === 'MA' || item?.country === 'MA') return true;
+
+    switch (type) {
+      case 'cve':
+        return detectCountry(item?.description || '') === 'MA' || isMoroccoText(text);
+      case 'ransomware':
+        return isMoroccoText(text);
+      case 'apt':
+        return item?.country === 'MA' || isMoroccoText(text);
+      case 'news':
+        return item?.official === true || isMoroccoText(text);
+      default:
+        return isMoroccoText(text);
+    }
+  }
+
+  function getCountryFocusLabel(countryFocus = 'global') {
+    return countryFocus === 'MA' ? 'Morocco' : 'Global';
+  }
+
   // ── Aggregate all news sources ────────────────────────────
-  async function fetchAllNews() {
+  async function fetchAllNews(countryFocus = 'global') {
+    if (countryFocus === 'MA') return fetchMoroccoNews();
     console.log('[API] Fetching news from all sources...');
 
     const hnPromise = fetchHackerNews();
@@ -242,42 +395,35 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
       .filter(result => result.status === 'fulfilled')
       .map(result => result.value);
 
-    const allItems = [...hnItems, ...rssResults.flat()];
-
-    // Deduplicate by normalised URL
-    const seen = new Set();
-    const deduped = allItems.filter(item => {
-      if (!item.link || !item.title) return false;
-      const key = item.link.toLowerCase().replace(/\/$/, '').replace(/^https?:\/\//, '');
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-
-    deduped.sort((a, b) => new Date(b.published) - new Date(a.published));
+    const deduped = dedupeNewsItems([...hnItems, ...rssResults.flat()]);
 
     console.log(`[API] News: ${hnItems.length} HN + ${rssResults.flat().length} RSS → ${deduped.length} unique`);
     return deduped.slice(0, 200);
   }
 
   // Fetch news filtered by source key and time range
-  async function fetchNewsBySource(source = 'all', timeRange = '1w') {
+  async function fetchNewsBySource(source = 'all', timeRange = '1w', countryFocus = 'global') {
     const limit = timeRangeCap(timeRange);
     let items;
     if (source === 'all') {
-      items = await fetchAllNews();
+      items = await fetchAllNews(countryFocus);
+    } else if (source === 'morocco') {
+      items = await fetchMoroccoNews();
     } else if (source === 'hn-algolia') {
       console.log('[API] Fetching news from HackerNews only...');
-      items = await fetchHackerNews();
+      items = await fetchHackerNews(countryFocus);
     } else {
-      const feed = RSS_FEEDS.find(f => f.key === source);
+      const feed = [...RSS_FEEDS, ...MOROCCO_LOCAL_FEEDS].find(f => f.key === source);
       if (!feed) {
         console.warn(`[API] Unknown news source: ${source}`);
         return [];
       }
       console.log(`[API] Fetching news from ${feed.name} only...`);
-      items = await fetchRSSWithFallbacks(feed);
+      const isMoroccoFeed = MOROCCO_LOCAL_FEEDS.some(f => f.key === source);
+      items = await fetchRSSWithFallbacks({ ...feed, countryCode: isMoroccoFeed ? 'MA' : undefined });
+      if (isMoroccoFeed) items = items.map(item => ({ ...item, countryCode: 'MA' })).filter(isMoroccoCyberNews);
     }
+    if (countryFocus === 'MA') items = items.filter(item => matchesCountryFocus(item, 'news', 'MA'));
     items = filterByTimeRange(items, 'published', timeRange);
     items.sort((a, b) => new Date(b.published) - new Date(a.published));
     return items.slice(0, limit);
@@ -775,7 +921,8 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     JP: 'Japan', CN: 'China', RU: 'Russia', KR: 'South Korea', MX: 'Mexico',
     ES: 'Spain', NL: 'Netherlands', SE: 'Sweden', CH: 'Switzerland',
     SG: 'Singapore', IL: 'Israel', AE: 'UAE', ZA: 'South Africa',
-    PL: 'Poland', BE: 'Belgium', AT: 'Austria', CZ: 'Czech Republic'
+    PL: 'Poland', BE: 'Belgium', AT: 'Austria', CZ: 'Czech Republic',
+    MA: 'Morocco'
   };
 
   async function fetchLiveRansomware() {
@@ -1236,6 +1383,7 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     MM: [21.9162, 95.956], KH: [12.5657, 104.991], LA: [19.8563, 102.4955],
     GE: [42.3154, 43.3569], AM: [40.0691, 45.0382], AZ: [40.1431, 47.5769],
     KZ: [48.0196, 66.9237], UZ: [41.3775, 64.5853], BY: [53.7098, 27.9534]
+    ,MA: [31.7917, -7.0926]
   };
 
   const COUNTRY_NAMES = {
@@ -1249,7 +1397,8 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     VN:'Vietnam',PK:'Pakistan',IQ:'Iraq',SY:'Syria',TW:'Taiwan',PS:'Palestine',
     LB:'Lebanon',YE:'Yemen',AF:'Afghanistan',LY:'Libya',SD:'Sudan',KE:'Kenya',
     GH:'Ghana',BD:'Bangladesh',MM:'Myanmar',KH:'Cambodia',LA:'Laos',GE:'Georgia',
-    AM:'Armenia',AZ:'Azerbaijan',KZ:'Kazakhstan',UZ:'Uzbekistan',BY:'Belarus'
+    AM:'Armenia',AZ:'Azerbaijan',KZ:'Kazakhstan',UZ:'Uzbekistan',BY:'Belarus',
+    MA:'Morocco'
   };
 
   const COUNTRY_FLAGS = {
@@ -1260,7 +1409,8 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     ID:'🇮🇩',CO:'🇨🇴',AR:'🇦🇷',CL:'🇨🇱',NG:'🇳🇬',EG:'🇪🇬',TR:'🇹🇷',MY:'🇲🇾',
     VN:'🇻🇳',PK:'🇵🇰',IQ:'🇮🇶',SY:'🇸🇾',TW:'🇹🇼',PS:'🇵🇸',LB:'🇱🇧',YE:'🇾🇪',
     AF:'🇦🇫',LY:'🇱🇾',SD:'🇸🇩',KE:'🇰🇪',GH:'🇬🇭',BD:'🇧🇩',MM:'🇲🇲',KH:'🇰🇭',
-    LA:'🇱🇦',GE:'🇬🇪',AM:'🇦🇲',AZ:'🇦🇿',KZ:'🇰🇿',UZ:'🇺🇿',BY:'🇧🇾'
+    LA:'🇱🇦',GE:'🇬🇪',AM:'🇦🇲',AZ:'🇦🇿',KZ:'🇰🇿',UZ:'🇺🇿',BY:'🇧🇾',
+    MA:'🇲🇦'
   };
 
   // Get coordinates for a threat
@@ -1371,6 +1521,7 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     fetchHIBPBreaches,
     fetchAllNews,
     fetchNewsBySource,
+    fetchMoroccoNews,
     fetchKEV,
     isInKEV,
     getKEVDetails,
@@ -1379,7 +1530,9 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     getCoords,
     getCountryName,
     getCountryFlag,
+    getCountryFocusLabel,
     detectCountry,
+    matchesCountryFocus,
     COUNTRY_COORDS,
     COUNTRY_KEYWORDS
   };

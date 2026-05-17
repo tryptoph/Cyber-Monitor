@@ -59,6 +59,10 @@
     </div>
 
     <div class="header-right">
+      <select id="country-focus-filter" class="country-focus-filter" title="Country focus" aria-label="Country focus">
+        <option value="global" selected>Global</option>
+        <option value="MA">Morocco</option>
+      </select>
       <button id="tab-btn" class="icon-btn" title="Dashboard View" aria-label="Toggle dashboard">⊞</button>
       <button id="refresh-btn" class="icon-btn" title="Refresh data" aria-label="Refresh data">↻</button>
       <button id="export-btn" class="icon-btn" title="Export data" aria-label="Export data">↓</button>
@@ -195,6 +199,7 @@
               <option value="threatpost">Threatpost</option>
               <option value="wired">Wired Security</option>
               <option value="hn-algolia">HackerNews (Community)</option>
+              <option value="morocco">Morocco Official &amp; Local</option>
             </select>
             <select id="news-time-filter" title="Time range">
               <option value="24h">24 Hours</option>
