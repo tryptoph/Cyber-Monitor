@@ -97,6 +97,11 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     { name: 'La Vie Eco', key: 'lavieeco', url: 'https://www.lavieeco.com/feed/', category: 'morocco' },
   ];
 
+  const DGSSI_RSS_FEEDS = [
+    { name: 'DGSSI / maCERT', key: 'dgssi-rss', url: 'https://www.dgssi.gov.ma/rss.xml', category: 'official' },
+    { name: 'DGSSI / maCERT', key: 'dgssi-rss-en', url: 'https://www.dgssi.gov.ma/en/rss.xml', category: 'official' },
+  ];
+
   const MOROCCO_TERMS = [
     'morocco', 'moroccan', 'maroc', 'marocain', 'marocaine', 'marruecos',
     'المغرب', 'مغربي', 'مغربية', 'rabat', 'casablanca', 'marrakech',
@@ -111,6 +116,12 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     'dgssi', 'macert', 'cert', 'cve', 'zero-day', 'botnet', 'ddos',
     'سيبر', 'الأمن السيبراني', 'اختراق', 'قرصنة', 'تسريب', 'برمجية',
     'خبيثة', 'هجوم', 'هجمات'
+  ];
+
+  const DGSSI_BULLETIN_TERMS = [
+    'bulletin', 'vulnerabilite', 'vulnérabilité', 'vulnerabilites', 'vulnérabilités',
+    'faille', 'failles', 'malware', 'ransomware', 'attaque', 'attaques',
+    'exploite', 'exploitée', 'critique', 'cve-', 'zero-day', 'zero day'
   ];
 
   // Country code mapping for CVEs
@@ -297,6 +308,12 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     return hasAnyTerm(text, CYBER_TERMS);
   }
 
+  function isDGSSISecurityBulletin(item) {
+    const text = itemText(item);
+    const link = String(item?.link || '').toLowerCase();
+    return link.includes('/bulletins/') || hasAnyTerm(text, DGSSI_BULLETIN_TERMS);
+  }
+
   function isMoroccoCyberNews(item) {
     const text = itemText(item);
     return item?.official === true || (isCyberText(text) && (item?.countryCode === 'MA' || isMoroccoText(text)));
@@ -335,6 +352,61 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
     }
   }
 
+  async function fetchDGSSIWorkerNews() {
+    const endpoint = window.CYBERVULNDB_DGSSI_API || '';
+    if (!endpoint) return [];
+
+    try {
+      const res = await fetchWithAbort(endpoint, { cache: 'no-store' }, 7000);
+      if (!res.ok) return [];
+      const payload = await res.json();
+      return (payload.items || []).map(item => ({
+        ...item,
+        id: item.id || item.link || Utils.uid(),
+        source: item.source || 'DGSSI / maCERT',
+        sourceKey: 'dgssi',
+        category: item.category || 'official',
+        countryCode: 'MA',
+        official: true,
+        type: 'news',
+      })).filter(isDGSSISecurityBulletin);
+    } catch (err) {
+      console.warn('[API] DGSSI worker feed unavailable:', err.message);
+      return [];
+    }
+  }
+
+  async function fetchDGSSIRSSNews() {
+    const results = await mapWithConcurrency(DGSSI_RSS_FEEDS, 1, async feed => {
+      try {
+        const url = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`;
+        const res = await fetchWithAbort(url, {}, 8000);
+        if (!res.ok) return [];
+        const data = await res.json();
+        if (data.status !== 'ok') return [];
+        return (data.items || []).map(item => ({
+          id: item.guid || item.link || Utils.uid(),
+          title: (item.title || '').trim(),
+          link: item.link || '',
+          description: (item.description || '').replace(/<[^>]+>/g, '').substring(0, 240),
+          source: feed.name,
+          sourceKey: 'dgssi',
+          category: 'official',
+          countryCode: 'MA',
+          official: true,
+          published: item.pubDate || new Date().toISOString(),
+          type: 'news',
+        })).filter(item => item.title && item.link && isDGSSISecurityBulletin(item));
+      } catch {
+        return [];
+      }
+    });
+
+    return results
+      .filter(result => result.status === 'fulfilled')
+      .flatMap(result => result.value);
+  }
+
   async function fetchMoroccoLocalFeeds() {
     const settled = await mapWithConcurrency(
       MOROCCO_LOCAL_FEEDS,
@@ -350,12 +422,14 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
 
   async function fetchMoroccoNews() {
     console.log('[API] Fetching Morocco cyber news...');
-    const [generated, hn, local] = await Promise.all([
+    const [dgssiWorker, dgssiRSS, generated, hn, local] = await Promise.all([
+      fetchDGSSIWorkerNews(),
+      fetchDGSSIRSSNews(),
       fetchGeneratedMoroccoNews(),
       fetchHackerNews('MA'),
       fetchMoroccoLocalFeeds(),
     ]);
-    return dedupeNewsItems([...generated, ...hn, ...local]).slice(0, 200);
+    return dedupeNewsItems([...dgssiWorker, ...dgssiRSS, ...generated, ...hn, ...local]).slice(0, 200);
   }
 
   function matchesCountryFocus(item, type, countryFocus = 'global') {

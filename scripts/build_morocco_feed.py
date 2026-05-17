@@ -18,8 +18,12 @@ from xml.etree import ElementTree
 
 
 OUTPUT = Path("data/morocco-cyber-feed.json")
-DGSSI_BULLETINS_URL = "https://www.dgssi.gov.ma/en/bulletins/"
+DGSSI_BULLETINS_URL = "https://www.dgssi.gov.ma/fr/bulletins/"
 DGSSI_HOME_URL = "https://www.dgssi.gov.ma/en/"
+DGSSI_RSS_SOURCES = [
+    ("DGSSI / maCERT", "dgssi", "https://www.dgssi.gov.ma/rss.xml"),
+    ("DGSSI / maCERT", "dgssi", "https://www.dgssi.gov.ma/en/rss.xml"),
+]
 
 RSS_SOURCES = [
     ("Hespress English", "hespress-en", "https://en.hespress.com/feed"),
@@ -41,6 +45,13 @@ CYBER_TERMS = (
     "spyware", "breach", "leak", "fuite", "piratage", "hacker", "dgssi",
     "macert", "cert", "cve", "zero-day", "ddos", "سيبر", "الأمن السيبراني",
     "اختراق", "قرصنة", "تسريب", "برمجية", "خبيثة", "هجوم", "هجمات",
+)
+
+DGSSI_BULLETIN_TERMS = (
+    "bulletin", "vulnerabilite", "vulnérabilité", "vulnerabilites",
+    "vulnérabilités", "faille", "failles", "malware", "ransomware",
+    "attaque", "attaques", "exploite", "exploitée", "critique", "cve-",
+    "zero-day", "zero day",
 )
 
 
@@ -81,6 +92,11 @@ def parse_date(value: str) -> str:
 def is_cyber_related(title: str, description: str) -> bool:
     text = f"{title} {description}".lower()
     return any(term.lower() in text for term in CYBER_TERMS)
+
+
+def is_dgssi_security_bulletin(title: str, description: str, link: str) -> bool:
+    text = f"{title} {description}".lower()
+    return "/bulletins/" in link.lower() or any(term.lower() in text for term in DGSSI_BULLETIN_TERMS)
 
 
 def item(
@@ -135,6 +151,19 @@ def dgssi_seed_items() -> list[dict]:
     ]
 
 
+def read_existing_dgssi_items() -> list[dict]:
+    if not OUTPUT.exists():
+        return []
+    try:
+        payload = json.loads(OUTPUT.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    return [
+        entry for entry in payload.get("items", [])
+        if entry.get("sourceKey") == "dgssi" and entry.get("official") is True
+    ]
+
+
 def parse_dgssi_bulletins() -> list[dict]:
     try:
         page = fetch_text(DGSSI_BULLETINS_URL)
@@ -161,6 +190,36 @@ def parse_dgssi_bulletins() -> list[dict]:
         ))
 
     return items or dgssi_seed_items()
+
+
+def parse_dgssi_rss() -> list[dict]:
+    results: list[dict] = []
+    for source in DGSSI_RSS_SOURCES:
+        name, key, url = source
+        try:
+            xml = fetch_text(url)
+            root = ElementTree.fromstring(xml)
+        except (ElementTree.ParseError, OSError, URLError) as exc:
+            print(f"[warn] DGSSI RSS fetch failed for {url}: {exc}", file=sys.stderr)
+            continue
+
+        for node in root.findall(".//item")[:50]:
+            title = clean_text(node.findtext("title") or "")
+            link = clean_text(node.findtext("link") or "")
+            description = clean_text(node.findtext("description") or "")
+            published = parse_date(node.findtext("pubDate") or "")
+            if title and link and is_dgssi_security_bulletin(title, description, link):
+                results.append(item(
+                    title=title,
+                    link=link,
+                    description=description or "Official DGSSI / maCERT security bulletin.",
+                    source=name,
+                    source_key=key,
+                    category="official",
+                    published=published,
+                    official=True,
+                ))
+    return results
 
 
 def parse_rss(source: tuple[str, str, str]) -> list[dict]:
@@ -204,14 +263,18 @@ def dedupe(items: Iterable[dict]) -> list[dict]:
 
 
 def main() -> int:
-    items = parse_dgssi_bulletins()
+    items = parse_dgssi_rss() or parse_dgssi_bulletins()
+    if len([entry for entry in items if entry.get("sourceKey") == "dgssi"]) < 3:
+        existing_dgssi = read_existing_dgssi_items()
+        if len(existing_dgssi) >= 3:
+            items = existing_dgssi
     for source in RSS_SOURCES:
         items.extend(parse_rss(source))
 
     payload = {
         "countryFocus": "MA",
         "generatedAt": now_iso(),
-        "sources": [DGSSI_BULLETINS_URL, DGSSI_HOME_URL, *(source[2] for source in RSS_SOURCES)],
+        "sources": [DGSSI_BULLETINS_URL, DGSSI_HOME_URL, *(source[2] for source in DGSSI_RSS_SOURCES), *(source[2] for source in RSS_SOURCES)],
         "items": dedupe(items)[:100],
     }
 
