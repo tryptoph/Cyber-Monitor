@@ -675,8 +675,9 @@
       const isFresh = (now - new Date(item.published).getTime()) < FRESH_MS;
       const categoryLabel = (item.category || 'news').toUpperCase();
       const officialBadge = item.official ? '<span class="source-badge official-source">Official</span>' : '';
+      const safeLink = safeHttpUrl(item.link);
       return `
-        <div class="threat-card news ${isFresh ? 'news-fresh' : ''}" data-link="${escapeHtml(item.link)}">
+        <div class="threat-card news ${isFresh ? 'news-fresh' : ''}" data-link="${escapeHtml(safeLink)}">
           <div class="threat-card-header">
             <span class="threat-card-type${isFresh ? ' news-live-badge' : ''}">
               ${isFresh ? '<span class="news-dot"></span>' : ''}${categoryLabel}
@@ -697,7 +698,7 @@
     container.querySelectorAll('.threat-card').forEach(card => {
       card.addEventListener('click', () => {
         const link = card.dataset.link;
-        if (link) window.open(link, '_blank');
+        if (link) window.open(link, '_blank', 'noopener,noreferrer');
       });
     });
   }
@@ -715,6 +716,15 @@
 
   function detectCountryFromText(text) {
     return API.detectCountry(text);
+}
+
+function safeHttpUrl(value) {
+  try {
+    const url = new URL(String(value || ''), window.location.href);
+    return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
+  } catch {
+    return '';
+  }
 }
 
 const { escapeHtml, timeAgo } = Utils;
@@ -788,7 +798,11 @@ function showCVEModal(cve) {
 
     // Build references list
     const refs = cve.references?.length > 0
-      ? cve.references.map(ref => `<a href="${escapeHtml(ref)}" target="_blank" class="modal-link">${escapeHtml(ref.substring(0, 60))}...</a>`).join('<br>')
+      ? cve.references
+          .map(ref => ({ raw: ref, url: safeHttpUrl(ref) }))
+          .filter(ref => ref.url)
+          .map(ref => `<a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener noreferrer" class="modal-link">${escapeHtml(String(ref.raw).substring(0, 60))}...</a>`)
+          .join('<br>')
       : '';
 
     // Build CPE list
@@ -843,7 +857,7 @@ function showCVEModal(cve) {
         ` : ''}
 
         <div class="modal-actions">
-          <a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(cve.id)}" target="_blank" class="btn-primary">View on NVD →</a>
+          <a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(cve.id)}" target="_blank" rel="noopener noreferrer" class="btn-primary">View on NVD →</a>
         </div>
       </div>
     `;
