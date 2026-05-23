@@ -144,18 +144,25 @@ def test_morocco_focus_hooks_are_wired():
 def test_morocco_feed_collector_and_worker_exist():
     collector = Path("scripts/build_morocco_feed.py")
     worker = Path("workers/dgssi-feed-worker.js")
+    workflow = Path(".github/workflows/update-morocco-cyber-feed.yml")
 
     assert collector.exists(), "Morocco feed collector script should exist"
     assert worker.exists(), "DGSSI worker script should exist"
+    assert workflow.exists(), "Scheduled Morocco feed workflow should exist"
 
     script = collector.read_text(encoding="utf-8")
     worker_js = worker.read_text(encoding="utf-8")
+    workflow_yml = workflow.read_text(encoding="utf-8")
     assert "https://www.dgssi.gov.ma/fr/bulletins/" in script
     assert "https://www.dgssi.gov.ma/rss.xml" in script
     assert "https://en.hespress.com/feed" in script
     assert "data/morocco-cyber-feed.json" in script
     assert "Access-Control-Allow-Origin" in worker_js
     assert "https://www.dgssi.gov.ma/rss.xml" in worker_js
+    assert "workflow_dispatch" in workflow_yml
+    assert "schedule:" in workflow_yml
+    assert "python3 scripts/build_morocco_feed.py" in workflow_yml
+    assert "data/morocco-cyber-feed.json" in workflow_yml
 
 
 if __name__ == "__main__":
