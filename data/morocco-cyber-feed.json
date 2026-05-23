@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-23T12:40:27Z",
+  "generatedAt": "2026-05-23T18:41:46Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-france-bans-israeli-security-minister-ben-gvir-from-country",
+      "title": "France bans Israeli security minister Ben Gvir from country",
+      "link": "https://en.hespress.com/138547-france-bans-israeli-security-minister-ben-gvir-from-country.html",
+      "description": "France announced on Saturday it has banned Israeli National Security Minister Itamar Ben Gvir from entry for mocking bound activists seized by Israeli soldiers on a Gaza-bound aid flotilla. “From today, Itamar Ben Gvir is banned from entering French territory” after “his reprehensible actions towards French and European citizens” who were part of the humanitarian […] The post France bans Israeli security minister Ben Gvir from country appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-23T18:33:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
@@ -258,19 +271,6 @@
       "published": "2026-05-23T12:40:26Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-ministre-isra-lien-ben-gvir-interdit-d-acc-s-au-territoire-fran-ais",
-      "title": "Le ministre israélien Ben Gvir interdit d'accès au territoire français",
-      "link": "https://fr.hespress.com/474778-le-ministre-israelien-ben-gvir-interdit-dacces-au-territoire-francais.html",
-      "description": "La France a interdit l’accès à son territoire au ministre israélien de la Sécurité nationale, Itamar Ben Gvir, qui a diffusé une vidéo de militants de la « flottille pour Gaza » agenouillés et mains liées et provoqué un tollé international, a annoncé le chef de la diplomatie samedi. « À compter de ce jour, Itamar Ben-Gvir est […] The post Le ministre israélien Ben Gvir interdit d'accès au territoire français appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-23T12:24:46Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     }
   ]
