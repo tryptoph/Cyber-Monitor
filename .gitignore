@@ -13,7 +13,13 @@ package.json
 # Session/plan files
 plan.md
 __pycache__/
+.pytest_cache/
 *.pyc
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
 
 # OS files
 .DS_Store
@@ -30,6 +36,7 @@ desktop.ini
 # Test files
 test_app.py
 *.log
+.ruff_cache/
 
 # graphify knowledge graph outputs
 graphify-out/

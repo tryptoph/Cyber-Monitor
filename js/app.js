@@ -52,6 +52,8 @@
   let activeFullLoadToken = 0;
   const panelTokens = { cve: 0, news: 0, malware: 0, apt: 0 };
   const panelUserLocks = { cve: 0, news: 0, malware: 0, apt: 0 };
+  const refreshWarningShownAt = { cve: 0, news: 0 };
+  const REFRESH_WARNING_INTERVAL = 5 * 60 * 1000;
 
   function invalidatePanelRequests() {
     Object.keys(panelTokens).forEach(key => { panelTokens[key]++; });
@@ -74,6 +76,13 @@
 
   function hasRecentUserPanelRequest(type) {
     return Date.now() < panelUserLocks[type];
+  }
+
+  function showRefreshWarning(type, message) {
+    const now = Date.now();
+    if (now - refreshWarningShownAt[type] < REFRESH_WARNING_INTERVAL) return;
+    refreshWarningShownAt[type] = now;
+    UI.showToast(message, 'error');
   }
 
   // ── Stats bar updater with animated counting ──────────────
@@ -155,15 +164,18 @@
     invalidatePanelRequests();
     let data = { cves: [], ransomware: [], apt: [], news: [] };
     let sourceOk = false;
+    let statusLabel;
 
     try {
       data = await API.loadAllData({
         cve:     getTimeRange('cve'),
         malware: getTimeRange('malware'),
         news:    getTimeRange('news'),
-        apt:     getTimeRange('apt')
+        apt:     getTimeRange('apt'),
+        countryFocus: currentCountryFocus
       });
-      sourceOk = true;
+      sourceOk = !data._meta?.usingFallback;
+      statusLabel = data._meta?.usingFallback ? '[WARN] Using fallback data' : undefined;
     } catch (err) {
       console.error('[App] Failed to load data:', err);
       UI.showToast('Could not fetch live data.', 'error');
@@ -179,7 +191,7 @@
     const visibleData = renderActiveData(data);
 
     // Update status
-    UI.updateStatus(sourceOk, visibleData.cves.length + visibleData.ransomware.length + visibleData.apt.length + visibleData.news.length);
+    UI.updateStatus(sourceOk, visibleData.cves.length + visibleData.ransomware.length + visibleData.apt.length + visibleData.news.length, statusLabel);
     UI.hideLoading();
     activeFullLoadToken = 0;
 
@@ -227,6 +239,9 @@
       }
     } catch (err) {
       console.warn('[App] News refresh failed:', err.message);
+      const el = document.getElementById('news-last-updated');
+      if (el) el.textContent = 'refresh failed';
+      showRefreshWarning('news', 'News refresh failed; showing last loaded data');
     }
   }
 
@@ -264,7 +279,12 @@
       const timeRange = getTimeRange('cve');
       const fresh = await API.fetchCVEsBySource(currentCVESource, timeRange, currentSeverityFilter);
       if (isPanelRequestStale('cve', token)) return;
-      if (!fresh || !fresh.length) return;
+      if (!fresh || !fresh.length) {
+        const el = document.getElementById('cve-last-updated');
+        if (el) el.textContent = 'refresh returned no data';
+        showRefreshWarning('cve', 'CVE refresh returned no data; showing last loaded data');
+        return;
+      }
 
       // Enrich with EPSS
       await API.enrichWithEPSS(fresh);
@@ -283,12 +303,8 @@
       cveLastFetchTime = Date.now();
 
       // Re-render with "new" IDs flagged (respect active search)
-      renderActiveData();
+      renderActiveData(undefined, { newCveIds: new Set(newIds) });
       updateCveTimestamp();
-
-      // Update count badge
-      const badge = document.getElementById('cve-count-badge');
-      if (badge) badge.textContent = merged.length || '';
 
       if (newIds.length > 0) {
         UI.showToast(`${newIds.length} new CVE${newIds.length > 1 ? 's' : ''} detected`, 'info');
@@ -296,6 +312,9 @@
       }
     } catch (err) {
       console.warn('[App] CVE refresh failed:', err.message);
+      const el = document.getElementById('cve-last-updated');
+      if (el) el.textContent = 'refresh failed';
+      showRefreshWarning('cve', 'CVE refresh failed; showing last loaded data');
     }
   }
 
@@ -356,10 +375,10 @@
     };
   }
 
-  function renderActiveData(data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] }) {
+  function renderActiveData(data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] }, options = {}) {
     const visible = applyActiveFilters(data);
     MapManager.clearMarkers();
-    renderCVEs(visible.cves);
+    renderCVEs(visible.cves, options.newCveIds || new Set());
     renderRansomware(visible.ransomware);
     renderAPT(visible.apt);
     renderNews(visible.news);
@@ -420,7 +439,7 @@
 
     // Build knownCveIds set before map to avoid side-effects inside transform
     filteredCves.forEach(cve => {
-      if (knownCveIds.size < 500) knownCveIds.add(cve.id);
+      knownCveIds.add(cve.id);
     });
 
     container.innerHTML = filteredCves.map(cve => {
@@ -719,8 +738,10 @@
 }
 
 function safeHttpUrl(value) {
+  const raw = String(value || '').trim();
+  if (!/^https?:\/\//i.test(raw)) return '';
   try {
-    const url = new URL(String(value || ''), window.location.href);
+    const url = new URL(raw);
     return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
   } catch {
     return '';
@@ -1022,8 +1043,6 @@ function showCVEModal(cve) {
           if (isPanelRequestStale('news', token)) return;
           updateCyberDataSection('news', items);
           renderActiveData();
-          const badge = document.getElementById('news-count-badge');
-          if (badge) badge.textContent = items.length || '';
           UI.showToast(`Loaded ${items.length} articles from ${source === 'all' ? 'all sources' : source}`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch news', 'error');
@@ -1047,8 +1066,6 @@ function showCVEModal(cve) {
           if (isPanelRequestStale('news', token)) return;
           updateCyberDataSection('news', items);
           renderActiveData();
-          const badge = document.getElementById('news-count-badge');
-          if (badge) badge.textContent = items.length || '';
           UI.showToast(`Loaded ${items.length} articles`, 'info');
         } catch (err) {
           UI.showToast('Failed to fetch news', 'error');
@@ -1166,9 +1183,6 @@ function showCVEModal(cve) {
       cveLastFetchTime = Date.now();
       updateCveTimestamp();
 
-      const badge = document.getElementById('cve-count-badge');
-      if (badge) badge.textContent = cves.length || '';
-
       // Update threat counter
       UI.showToast(`Loaded ${cves.length} CVEs from ${currentCVESource === 'auto' ? 'best source' : currentCVESource}`, 'info');
     } catch (err) {
@@ -1185,13 +1199,6 @@ function showCVEModal(cve) {
     searchInput.addEventListener('input', Utils.debounce((e) => {
       currentSearchQuery = e.target.value.toLowerCase().trim();
       const data = window.cyberData || { cves: [], ransomware: [], apt: [], news: [] };
-
-      if (!currentSearchQuery) {
-        // Clear search — restore all panels (data already time-filtered in window.cyberData)
-        renderActiveData(data);
-        return;
-      }
-
       renderActiveData(data);
     }, 250));
   }

@@ -434,7 +434,7 @@ const KEV_CACHE_DURATION = 60 * 60 * 1000; // 1 hour
 
   function matchesCountryFocus(item, type, countryFocus = 'global') {
     if (!countryFocus || countryFocus === 'global') return true;
-    if (countryFocus !== 'MA') return true;
+    if (countryFocus !== 'MA') return false;
 
     const text = itemText(item);
     if (item?.countryCode === 'MA' || item?.country === 'MA') return true;
@@ -943,18 +943,22 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     }
 
     console.log('[API] Live sources unavailable, using fallback CVE data');
-    let fallback = getFallbackCVEs();
+    let fallback = markFallbackCVEs(getFallbackCVEs());
     if (severity) fallback = fallback.filter(c => c.cvss?.severity === severity.toUpperCase());
     // Don't filter fallback by time range — it's last-resort data when all live sources fail
     fallback.sort((a, b) => new Date(b.published) - new Date(a.published));
     return fallback.slice(0, limit);
   }
+
+  function markFallbackCVEs(cves) {
+    return (cves || []).map(cve => ({ ...cve, isFallback: true }));
+  }
   
-  // Fallback CVEs - actually recent from NVD (verified latest - March 7, 2026)
+  // Fallback CVEs - static snapshot used only when live sources are unavailable.
   function getFallbackCVEs() {
     const now = new Date();
     return [
-      // March 7, 2026 (TODAY)
+      // March 7, 2026
       { id: 'CVE-2026-30823', description: 'Flowise before 3.0.13 IDOR vulnerability leading to account takeover and enterprise feature bypass via SSO configuration', published: '2026-03-07T06:16:00.000Z', modified: '2026-03-07T06:16:00.000Z', cvss: { score: 8.8, severity: 'HIGH', vector: 'CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H' }, references: ['https://nvd.nist.gov/vuln/detail/CVE-2026-30823'], cpe: [], type: 'cve' },
       { id: 'CVE-2026-28802', description: 'Authlib Python library from 1.6.5 to before 1.6.7 - malicious JWT with alg: none can bypass signature verification', published: '2026-03-07T00:00:00.000Z', modified: '2026-03-07T00:00:00.000Z', cvss: { score: 7.5, severity: 'HIGH', vector: 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N' }, references: ['https://nvd.nist.gov/vuln/detail/CVE-2026-28802'], cpe: ['cpe:2.3:a:authlib:authlib:*:*:*:*:*:*:*:*'], type: 'cve' },
       // March 6, 2026
@@ -1502,6 +1506,7 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
 
   function createCacheSnapshot(data) {
     return {
+      _meta: data._meta,
       cves: (data.cves || []).map(cve => ({
         ...cve,
         references: (cve.references || []).slice(0, 20),
@@ -1526,9 +1531,10 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
     const malwareRange = timeRanges.malware  || '1w';
     const newsRange    = timeRanges.news     || '1w';
     const aptRange     = timeRanges.apt      || '1w';
+    const countryFocus = timeRanges.countryFocus || 'global';
 
     // Include time range in cache key so changing range busts cache
-    const rangeKey = `${cveRange}-${malwareRange}-${newsRange}-${aptRange}`;
+    const rangeKey = `${cveRange}-${malwareRange}-${newsRange}-${aptRange}-${countryFocus}`;
     const CACHE_KEY = `cybervulndb_data_v9_${rangeKey}`;
     const CACHE_TS_KEY = `cybervulndb_ts_v9_${rangeKey}`;
     const CACHE_MAX_AGE = 15 * 60 * 1000; // 15 minutes
@@ -1551,21 +1557,32 @@ async function fetchCVEsFromCveList(timeRange = '1w') {
       }
     }
 
-    console.log('[API] Loading fresh data...', { cveRange, malwareRange, newsRange, aptRange });
+    console.log('[API] Loading fresh data...', { cveRange, malwareRange, newsRange, aptRange, countryFocus });
     
     const [cvesResult, ransomwareResult, newsResult, aptResult] = await mapWithConcurrency([
       () => fetchAllCVESources(cveRange),
       () => fetchAllMalwareSources(malwareRange),
-      () => fetchNewsBySource('all', newsRange),
+      () => fetchNewsBySource('all', newsRange, countryFocus),
       () => fetchAllAPTSources(aptRange)
     ], 2, run => run());
 
-    const cves = cvesResult.status === 'fulfilled' ? cvesResult.value : getFallbackCVEs();
+    const liveCves = cvesResult.status === 'fulfilled' ? cvesResult.value : null;
+    const usingFallbackCves = !Array.isArray(liveCves) || liveCves.length === 0;
+    const cves = usingFallbackCves ? markFallbackCVEs(getFallbackCVEs()).slice(0, timeRangeCap(cveRange)) : liveCves;
     const ransomware = ransomwareResult.status === 'fulfilled' ? ransomwareResult.value : getMockRansomware();
     const news = newsResult.status === 'fulfilled' ? newsResult.value : [];
     const apt = aptResult.status === 'fulfilled' ? aptResult.value : getMockAPT();
 
-  const data = { cves, ransomware, apt, news };
+  const data = {
+    cves,
+    ransomware,
+    apt,
+    news,
+    _meta: {
+      usingFallback: usingFallbackCves,
+      fallbackSections: usingFallbackCves ? ['cves'] : [],
+    }
+  };
 
   await enrichWithEPSS(cves);
   Utils.storageSet(CACHE_KEY, createCacheSnapshot(data));

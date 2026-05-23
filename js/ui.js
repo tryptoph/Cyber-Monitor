@@ -53,9 +53,9 @@ const UI = (() => {
     }, duration);
   }
 
-  function updateStatus(ok, count) {
+  function updateStatus(ok, count, statusLabel) {
     if (els.statusSource) {
-      els.statusSource.innerHTML = ok ? '[OK] Connected' : '[WARN] Using cached data';
+      els.statusSource.innerHTML = statusLabel || (ok ? '[OK] Connected' : '[WARN] Using cached data');
       els.statusSource.className = 'status-item ' + (ok ? 'status-ok' : 'status-error');
     }
     if (els.statusUpdate) {

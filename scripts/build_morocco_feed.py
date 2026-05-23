@@ -164,7 +164,20 @@ def read_existing_dgssi_items() -> list[dict]:
     ]
 
 
-def parse_dgssi_bulletins() -> list[dict]:
+def item_key(link: str, title: str) -> str:
+    return (link or title or "").rstrip("/").lower()
+
+
+def preserved_published(link: str, title: str, existing_items: Iterable[dict]) -> str:
+    key = item_key(link, title)
+    for entry in existing_items:
+        if item_key(entry.get("link", ""), entry.get("title", "")) == key and entry.get("published"):
+            return entry["published"]
+    return now_iso()
+
+
+def parse_dgssi_bulletins(existing_items: Iterable[dict] | None = None) -> list[dict]:
+    existing_items = list(existing_items or [])
     try:
         page = fetch_text(DGSSI_BULLETINS_URL)
     except (OSError, URLError) as exc:
@@ -185,7 +198,7 @@ def parse_dgssi_bulletins() -> list[dict]:
             source="DGSSI / maCERT",
             source_key="dgssi",
             category="official",
-            published=now_iso(),
+            published=preserved_published(link, title, existing_items),
             official=True,
         ))
 
@@ -262,10 +275,34 @@ def dedupe(items: Iterable[dict]) -> list[dict]:
     return sorted(unique, key=lambda row: row.get("published", ""), reverse=True)
 
 
+def payload_signature(payload: dict) -> dict:
+    """Return the stable parts of a feed payload, excluding build metadata."""
+    return {
+        "countryFocus": payload.get("countryFocus"),
+        "sources": sorted(payload.get("sources") or []),
+        "items": payload.get("items") or [],
+    }
+
+
+def has_feed_changes(existing_payload: dict | None, new_payload: dict) -> bool:
+    if not existing_payload:
+        return True
+    return payload_signature(existing_payload) != payload_signature(new_payload)
+
+
+def read_existing_payload() -> dict | None:
+    if not OUTPUT.exists():
+        return None
+    try:
+        return json.loads(OUTPUT.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
 def main() -> int:
-    items = parse_dgssi_rss() or parse_dgssi_bulletins()
+    existing_dgssi = read_existing_dgssi_items()
+    items = parse_dgssi_rss() or parse_dgssi_bulletins(existing_dgssi)
     if len([entry for entry in items if entry.get("sourceKey") == "dgssi"]) < 3:
-        existing_dgssi = read_existing_dgssi_items()
         if len(existing_dgssi) >= 3:
             items = existing_dgssi
     for source in RSS_SOURCES:
@@ -273,11 +310,17 @@ def main() -> int:
 
     payload = {
         "countryFocus": "MA",
-        "generatedAt": now_iso(),
+        "generatedAt": None,
         "sources": [DGSSI_BULLETINS_URL, DGSSI_HOME_URL, *(source[2] for source in DGSSI_RSS_SOURCES), *(source[2] for source in RSS_SOURCES)],
         "items": dedupe(items)[:100],
     }
 
+    existing_payload = read_existing_payload()
+    if not has_feed_changes(existing_payload, payload):
+        print(f"No feed item changes for {OUTPUT}")
+        return 0
+
+    payload["generatedAt"] = now_iso()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(payload['items'])} Morocco cyber items to {OUTPUT}")

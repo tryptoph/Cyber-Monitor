@@ -7,7 +7,9 @@ const Utils = (() => {
    * Format a Unix timestamp (seconds) or Date into a relative time string.
    */
   function timeAgo(timestamp) {
-    const date = typeof timestamp === 'string' ? new Date(timestamp) : new Date(timestamp);
+    const normalized = typeof timestamp === 'number' && timestamp < 1e12 ? timestamp * 1000 : timestamp;
+    const date = new Date(normalized);
+    if (Number.isNaN(date.getTime())) return 'unknown';
     const diff = Date.now() - date.getTime();
     if (diff < 0) return 'just now';
     const sec = Math.floor(diff / 1000);

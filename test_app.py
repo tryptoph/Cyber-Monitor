@@ -2,6 +2,7 @@ import re
 import sys
 import threading
 import json
+import importlib.util
 from pathlib import Path
 from contextlib import contextmanager
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -25,6 +26,14 @@ def get_status_count_value(text):
     if not match:
         return None
     return int(match.group(1))
+
+
+def load_morocco_feed_builder():
+    script_path = Path("scripts/build_morocco_feed.py")
+    spec = importlib.util.spec_from_file_location("build_morocco_feed", script_path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 @contextmanager
@@ -163,6 +172,130 @@ def test_morocco_feed_collector_and_worker_exist():
     assert "schedule:" in workflow_yml
     assert "python3 scripts/build_morocco_feed.py" in workflow_yml
     assert "data/morocco-cyber-feed.json" in workflow_yml
+
+
+def test_morocco_feed_payload_signature_ignores_generated_at():
+    builder = load_morocco_feed_builder()
+    payload = {
+        "countryFocus": "MA",
+        "generatedAt": "2026-05-23T10:00:00Z",
+        "sources": ["https://www.dgssi.gov.ma/rss.xml"],
+        "items": [{"id": "dgssi-1", "title": "Alert", "published": "2026-05-23T09:00:00Z"}],
+    }
+    same_payload_new_time = {
+        **payload,
+        "generatedAt": "2026-05-23T16:00:00Z",
+    }
+
+    assert builder.payload_signature(payload) == builder.payload_signature(same_payload_new_time)
+    assert builder.has_feed_changes(payload, same_payload_new_time) is False
+
+
+def test_morocco_feed_payload_signature_detects_item_changes():
+    builder = load_morocco_feed_builder()
+    existing_payload = {
+        "countryFocus": "MA",
+        "generatedAt": "2026-05-23T10:00:00Z",
+        "sources": ["https://www.dgssi.gov.ma/rss.xml"],
+        "items": [{"id": "dgssi-1", "title": "Alert", "published": "2026-05-23T09:00:00Z"}],
+    }
+    changed_payload = {
+        **existing_payload,
+        "items": [{"id": "dgssi-2", "title": "New Alert", "published": "2026-05-23T11:00:00Z"}],
+    }
+
+    assert builder.has_feed_changes(existing_payload, changed_payload) is True
+
+
+def test_load_all_data_uses_country_focus_for_news_cache_and_fetch():
+    api_js = Path("js/api.js").read_text(encoding="utf-8")
+
+    assert "const countryFocus = timeRanges.countryFocus || 'global';" in api_js
+    assert "${countryFocus}" in api_js
+    assert "fetchNewsBySource('all', newsRange, countryFocus)" in api_js
+
+
+def test_external_link_sanitizer_rejects_relative_urls():
+    app_js = Path("js/app.js").read_text(encoding="utf-8")
+
+    assert "if (!/^https?:\\/\\//i.test(raw)) return '';" in app_js
+    assert "new URL(raw)" in app_js
+
+
+def test_filtered_renders_own_visible_count_badges():
+    app_js = Path("js/app.js").read_text(encoding="utf-8")
+
+    assert "if (badge) badge.textContent = items.length || '';" not in app_js
+    assert "if (badge) badge.textContent = cves.length || '';" not in app_js
+
+
+def test_cve_live_refresh_passes_new_ids_and_does_not_override_badge():
+    app_js = Path("js/app.js").read_text(encoding="utf-8")
+
+    assert "renderActiveData(undefined, { newCveIds: new Set(newIds) })" in app_js
+    assert "renderCVEs(visible.cves, options.newCveIds || new Set())" in app_js
+    assert "badge.textContent = merged.length" not in app_js
+
+
+def test_known_cve_ids_are_not_silently_capped():
+    app_js = Path("js/app.js").read_text(encoding="utf-8")
+
+    assert "knownCveIds.size < 500" not in app_js
+    assert "knownCveIds.add(cve.id)" in app_js
+
+
+def test_time_ago_handles_unix_second_numbers():
+    utils_js = Path("js/utils.js").read_text(encoding="utf-8")
+
+    assert "timestamp < 1e12 ? timestamp * 1000 : timestamp" in utils_js
+    assert "Number.isNaN(date.getTime())" in utils_js
+
+
+def test_unsupported_country_focus_does_not_pass_everything():
+    api_js = Path("js/api.js").read_text(encoding="utf-8")
+
+    assert "if (countryFocus !== 'MA') return true;" not in api_js
+    assert "if (countryFocus !== 'MA') return false;" in api_js
+
+
+def test_fallback_data_is_marked_and_status_uses_metadata():
+    api_js = Path("js/api.js").read_text(encoding="utf-8")
+    app_js = Path("js/app.js").read_text(encoding="utf-8")
+    ui_js = Path("js/ui.js").read_text(encoding="utf-8")
+
+    assert "isFallback: true" in api_js
+    assert re.search(r"_meta:\s*\{\s*usingFallback", api_js)
+    assert "!data._meta?.usingFallback" in app_js
+    assert "statusLabel" in ui_js
+
+
+def test_search_handler_has_single_render_path():
+    app_js = Path("js/app.js").read_text(encoding="utf-8")
+    handler_match = re.search(
+        r"searchInput\.addEventListener\('input', Utils\.debounce\(\(e\) => \{([\s\S]*?)\}, 250\)\);",
+        app_js,
+    )
+
+    assert handler_match
+    assert "if (!currentSearchQuery)" not in handler_match.group(1)
+    assert handler_match.group(1).count("renderActiveData(data);") == 1
+
+
+def test_dgssi_scrape_preserves_existing_published_dates():
+    builder = load_morocco_feed_builder()
+    existing = [
+        {
+            "title": "DGSSI Alert",
+            "link": "https://www.dgssi.gov.ma/fr/bulletins/alert",
+            "published": "2026-05-17T21:36:41Z",
+        }
+    ]
+
+    assert builder.preserved_published(
+        "https://www.dgssi.gov.ma/fr/bulletins/alert",
+        "DGSSI Alert",
+        existing,
+    ) == "2026-05-17T21:36:41Z"
 
 
 if __name__ == "__main__":
