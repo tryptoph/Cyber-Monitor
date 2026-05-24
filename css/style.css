@@ -2659,3 +2659,504 @@ body::after {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ============================================================
+   V16 — Atlas Signal Command redesign
+   Distinctive threat-intel cockpit with topographic depth,
+   stronger hierarchy, and accessible high-contrast surfaces.
+   ============================================================ */
+
+:root {
+  --bg-void: #030607;
+  --bg-primary: #07100f;
+  --bg-secondary: #0a1715;
+  --bg-card: rgba(13, 29, 25, 0.86);
+  --bg-elevated: rgba(21, 47, 40, 0.92);
+  --bg-floating: rgba(30, 66, 54, 0.96);
+  --text-primary: #f4f0df;
+  --text-secondary: #c4d6c8;
+  --text-muted: #7f9a8d;
+  --text-placeholder: #8aa79a;
+  --border: rgba(244, 240, 223, 0.12);
+  --border-default: rgba(244, 240, 223, 0.12);
+  --border-light: rgba(244, 240, 223, 0.2);
+  --border-hover: rgba(44, 255, 206, 0.42);
+  --accent-cyan: #2cffce;
+  --accent-cyan-dim: rgba(44, 255, 206, 0.16);
+  --accent-green: #57f287;
+  --accent-red: #ff4d5f;
+  --critical: #ff4d5f;
+  --high: #ff9f43;
+  --medium: #ffd166;
+  --low: #57f287;
+  --info: #6bd6ff;
+  --ransomware: #ff5c8a;
+  --apt: #d6a463;
+  --cve: #ffe08a;
+  --news: #6bd6ff;
+  --morocco-red: #c92036;
+  --atlas-sand: #d6a463;
+  --atlas-olive: #7c8b4d;
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.42);
+  --shadow-card: 0 18px 42px rgba(0, 0, 0, 0.34);
+  --shadow-elevated: 0 26px 70px rgba(0, 0, 0, 0.5);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-lg: 24px;
+  --transition: 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-snap: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html,
+body {
+  font-family: 'Space Grotesk', 'IBM Plex Mono', sans-serif;
+  background:
+    radial-gradient(circle at 18% 16%, rgba(201, 32, 54, 0.2), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(44, 255, 206, 0.16), transparent 30%),
+    radial-gradient(circle at 48% 94%, rgba(214, 164, 99, 0.18), transparent 34%),
+    linear-gradient(135deg, #020403 0%, #07100f 42%, #10130b 100%);
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+body::before {
+  background:
+    linear-gradient(115deg, transparent 0 38%, rgba(214, 164, 99, 0.04) 38% 39%, transparent 39% 100%),
+    repeating-linear-gradient(0deg, rgba(244, 240, 223, 0.035) 0 1px, transparent 1px 44px),
+    repeating-linear-gradient(90deg, rgba(244, 240, 223, 0.025) 0 1px, transparent 1px 44px);
+  opacity: 1;
+}
+
+body::after {
+  background:
+    radial-gradient(ellipse at 50% 45%, transparent 0%, rgba(3, 6, 7, 0.08) 45%, rgba(3, 6, 7, 0.76) 100%),
+    repeating-radial-gradient(circle at 74% 52%, rgba(44, 255, 206, 0.055) 0 1px, transparent 1px 22px);
+}
+
+#app {
+  isolation: isolate;
+}
+
+#header {
+  height: 72px;
+  padding: 0 22px;
+  background:
+    linear-gradient(90deg, rgba(7, 16, 15, 0.9), rgba(17, 42, 34, 0.78)),
+    radial-gradient(circle at 18% 0%, rgba(44, 255, 206, 0.18), transparent 34%);
+  border-bottom: 1px solid rgba(214, 164, 99, 0.22);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(18px) saturate(145%);
+}
+
+#header::before {
+  content: 'ATLAS SIGNAL COMMAND';
+  position: absolute;
+  left: 22px;
+  bottom: -9px;
+  padding: 1px 10px;
+  border: 1px solid rgba(214, 164, 99, 0.32);
+  border-radius: 999px;
+  background: rgba(7, 16, 15, 0.9);
+  color: var(--atlas-sand);
+  font: 700 9px/1 'IBM Plex Mono', monospace;
+  letter-spacing: 0.24em;
+}
+
+#header::after {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--morocco-red), var(--atlas-sand), var(--accent-cyan), transparent);
+  opacity: 0.9;
+}
+
+.logo {
+  font-size: 1.22rem;
+  letter-spacing: -0.04em;
+}
+
+.logo span {
+  background: linear-gradient(90deg, var(--text-primary), #c9ffe9 55%, var(--atlas-sand));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  background:
+    conic-gradient(from 145deg, rgba(44, 255, 206, 0.95), rgba(214, 164, 99, 0.9), rgba(201, 32, 54, 0.95), rgba(44, 255, 206, 0.95));
+  border: 0;
+  color: #06100e;
+  font-size: 20px;
+  box-shadow: 0 0 0 1px rgba(244, 240, 223, 0.18), 0 14px 34px rgba(44, 255, 206, 0.2);
+}
+
+.live-badge.cyber {
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: rgba(44, 255, 206, 0.1);
+  border-color: rgba(44, 255, 206, 0.34);
+  box-shadow: inset 0 0 18px rgba(44, 255, 206, 0.08);
+}
+
+.header-center {
+  max-width: 620px;
+}
+
+.search-wrapper {
+  min-height: 46px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(244, 240, 223, 0.08), rgba(44, 255, 206, 0.06));
+  border: 1px solid rgba(244, 240, 223, 0.14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+#search-input {
+  min-height: 46px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  font-size: 0.88rem;
+}
+
+#search-input:focus {
+  box-shadow: 0 0 0 3px rgba(44, 255, 206, 0.18), 0 0 34px rgba(44, 255, 206, 0.16);
+}
+
+.icon-btn,
+.map-btn,
+#country-focus-filter,
+.panel-header select,
+#cve-source-filter,
+#malware-source-filter,
+#apt-source-filter,
+#news-source-filter {
+  min-height: 44px;
+  border-radius: 999px;
+  background: rgba(13, 29, 25, 0.72);
+  border: 1px solid rgba(244, 240, 223, 0.14);
+  color: var(--text-secondary);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.icon-btn {
+  min-width: 44px;
+  padding: 0 13px;
+  font-weight: 700;
+}
+
+.icon-btn:hover,
+.map-btn:hover {
+  background: rgba(44, 255, 206, 0.12);
+  color: var(--accent-cyan);
+  border-color: rgba(44, 255, 206, 0.42);
+}
+
+#country-focus-filter {
+  border-color: rgba(214, 164, 99, 0.36);
+  color: var(--atlas-sand);
+}
+
+.stats-bar {
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 14px 20px 12px;
+  background:
+    linear-gradient(90deg, rgba(8, 18, 16, 0.86), rgba(13, 29, 25, 0.68)),
+    linear-gradient(135deg, rgba(214, 164, 99, 0.08), transparent 44%);
+  border-bottom: 1px solid rgba(244, 240, 223, 0.1);
+  overflow-x: auto;
+}
+
+.stat-item {
+  min-width: 132px;
+  align-items: flex-start;
+  padding: 12px 16px;
+  border: 1px solid rgba(244, 240, 223, 0.1);
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(244, 240, 223, 0.08), rgba(44, 255, 206, 0.035));
+}
+
+.stat-item::before {
+  content: '';
+  width: 28px;
+  height: 3px;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--accent-cyan), transparent);
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  letter-spacing: -0.05em;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  letter-spacing: 0.16em;
+}
+
+#main {
+  padding: 14px;
+  gap: 14px;
+  background: radial-gradient(circle at 48% 42%, rgba(44, 255, 206, 0.06), transparent 34%);
+}
+
+#sidebar {
+  width: 430px;
+  min-width: 360px;
+  border: 1px solid rgba(244, 240, 223, 0.12);
+  border-radius: 26px;
+  background:
+    linear-gradient(180deg, rgba(13, 29, 25, 0.92), rgba(5, 12, 11, 0.96)),
+    radial-gradient(circle at 14% 10%, rgba(214, 164, 99, 0.16), transparent 26%);
+  box-shadow: var(--shadow-card);
+  backdrop-filter: blur(22px) saturate(140%);
+}
+
+#sidebar::before {
+  right: auto;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background:
+    linear-gradient(135deg, rgba(244, 240, 223, 0.1), transparent 24%),
+    repeating-linear-gradient(120deg, transparent 0 18px, rgba(214, 164, 99, 0.035) 18px 19px);
+  pointer-events: none;
+}
+
+.sidebar-tabs {
+  padding: 10px;
+  gap: 8px;
+  background: transparent;
+}
+
+.tab-btn {
+  min-height: 48px;
+  border: 1px solid rgba(244, 240, 223, 0.08);
+  border-radius: 16px;
+  background: rgba(244, 240, 223, 0.045);
+  color: var(--text-muted);
+}
+
+.tab-btn.active {
+  color: #04100d;
+  background: linear-gradient(135deg, var(--accent-cyan), #bfffe8);
+  border-color: rgba(44, 255, 206, 0.7);
+  box-shadow: 0 14px 30px rgba(44, 255, 206, 0.16);
+}
+
+.tab-count {
+  background: rgba(3, 6, 7, 0.84);
+  color: var(--accent-cyan);
+}
+
+.panel-header {
+  align-items: flex-start;
+  padding: 18px;
+  background: linear-gradient(180deg, rgba(244, 240, 223, 0.075), rgba(244, 240, 223, 0.025));
+}
+
+.panel-header h3 {
+  color: var(--text-primary);
+  font-size: 0.94rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.threat-list {
+  padding: 14px;
+  gap: 12px;
+  background: transparent;
+}
+
+.threat-card {
+  border-radius: 20px;
+  padding: 18px 18px 18px 22px;
+  background:
+    linear-gradient(145deg, rgba(244, 240, 223, 0.08), rgba(13, 29, 25, 0.82) 42%, rgba(3, 6, 7, 0.82)),
+    radial-gradient(circle at 92% 8%, rgba(44, 255, 206, 0.08), transparent 28%);
+  border-color: rgba(244, 240, 223, 0.1);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+}
+
+.threat-card::before {
+  top: 14px;
+  bottom: 14px;
+  width: 5px;
+  border-radius: 99px;
+}
+
+.threat-card:hover {
+  transform: translateY(-3px) scale(1.005);
+  border-color: rgba(44, 255, 206, 0.34);
+  box-shadow: 0 20px 42px rgba(0, 0, 0, 0.34), 0 0 0 1px rgba(44, 255, 206, 0.12);
+}
+
+.threat-card-header {
+  gap: 12px;
+}
+
+.threat-card-type,
+.source-badge,
+.badge,
+.news-timestamp {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.threat-card-title {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+}
+
+.badge,
+.source-badge {
+  border-radius: 999px;
+}
+
+#map-container {
+  border: 1px solid rgba(244, 240, 223, 0.12);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: var(--shadow-elevated);
+  background:
+    radial-gradient(circle at center, rgba(44, 255, 206, 0.12), transparent 34%),
+    #040807;
+}
+
+#map-container::before {
+  content: '';
+  position: absolute;
+  inset: 18px;
+  z-index: 401;
+  pointer-events: none;
+  border: 1px solid rgba(214, 164, 99, 0.18);
+  border-radius: 22px;
+  background:
+    linear-gradient(90deg, rgba(214, 164, 99, 0.12) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(214, 164, 99, 0.12) 1px, transparent 1px);
+  background-size: 88px 88px;
+  mask-image: linear-gradient(180deg, transparent, #000 12%, #000 88%, transparent);
+}
+
+#map-container::after {
+  width: 520px;
+  height: 520px;
+  opacity: 0.72;
+  background: conic-gradient(from 0deg, transparent 0deg, rgba(44, 255, 206, 0.08) 32deg, rgba(214, 164, 99, 0.06) 42deg, transparent 70deg);
+}
+
+.map-controls,
+.map-legend {
+  filter: drop-shadow(0 16px 28px rgba(0, 0, 0, 0.38));
+}
+
+.map-legend {
+  border-radius: 20px;
+  background: rgba(7, 16, 15, 0.78);
+  border-color: rgba(244, 240, 223, 0.16);
+  backdrop-filter: blur(18px) saturate(140%);
+}
+
+#status-bar,
+.threat-ticker {
+  background: rgba(3, 6, 7, 0.9);
+  border-color: rgba(244, 240, 223, 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.ticker-label {
+  color: #04100d;
+  background: linear-gradient(135deg, var(--accent-cyan), #c8fff0);
+}
+
+.modal {
+  border-radius: 28px;
+  background:
+    linear-gradient(165deg, rgba(25, 53, 44, 0.98), rgba(7, 16, 15, 0.98)),
+    radial-gradient(circle at 10% 0%, rgba(214, 164, 99, 0.14), transparent 34%);
+  border-color: rgba(244, 240, 223, 0.16);
+}
+
+.toast {
+  border-radius: 16px;
+  background: rgba(13, 29, 25, 0.94);
+  backdrop-filter: blur(14px);
+}
+
+.skip-link:focus {
+  background: var(--accent-cyan);
+  color: #03100d;
+}
+
+@media (max-width: 980px) {
+  #main {
+    padding: 10px;
+  }
+
+  #sidebar {
+    width: min(430px, calc(100vw - 20px));
+    min-width: 0;
+  }
+
+  .sidebar-toggle {
+    left: min(430px, calc(100vw - 20px));
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    height: auto;
+    min-height: 72px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  #header::before {
+    display: none;
+  }
+
+  .header-center {
+    display: flex;
+    order: 3;
+    flex-basis: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
+  #main {
+    padding: 8px;
+  }
+
+  #sidebar {
+    top: 8px;
+    bottom: 8px;
+    left: 8px;
+  }
+}
+
+@media (max-width: 560px) {
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #country-focus-filter {
+    flex: 1 1 auto;
+  }
+
+  .stats-bar {
+    gap: 8px;
+  }
+
+  .stat-item {
+    min-width: 112px;
+  }
+}
