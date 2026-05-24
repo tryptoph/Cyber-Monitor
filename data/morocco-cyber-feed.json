@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-23T18:41:46Z",
+  "generatedAt": "2026-05-24T01:22:35Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-known-critic-of-morocco-s-sahara-policy-john-bolton-rejects-us-lawmakers-push-to-label-polisario",
+      "title": "Known critic of Morocco’s Sahara policy John Bolton rejects US lawmakers’ push to label Polisario Front a terrorist group",
+      "link": "https://en.hespress.com/138561-known-critic-of-moroccos-sahara-policy-john-bolton-rejects-us-lawmakers-push-to-label-polisario-front-a-terrorist-group.html",
+      "description": "Former U.S. national security adviser John Bolton, a frequent critic of Morocco’s sovereignty over the Sahara, rejected calls from some Republican circles to label the Polisario Front a terrorist organization, according to Spanish media. Speaking to Radio Exterior de España’s Hora América program, Bolton claimed he “has dealt with the group for 35 years and […] The post Known critic of Morocco’s Sahara policy John Bolton rejects US lawmakers’ push to label Polisario Front a terrorist group appea",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-23T22:11:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-hausse-des-prix-du-k-ros-ne-la-ram-annonce-la-suspension-provisoire-de-certaines-lignes-a-rienne",
+      "title": "Hausse des prix du kérosène : la RAM annonce la suspension provisoire de certaines lignes aériennes",
+      "link": "https://fr.hespress.com/474835-hausse-des-prix-du-kerosene-la-ram-annonce-la-suspension-provisoire-de-certaines-lignes-aeriennes.html",
+      "description": "Dans un contexte marqué par la forte hausse des prix du kérosène, conséquence directe des tensions géopolitiques au Moyen-Orient, ainsi que par un ralentissement de la demande sur certaines dessertes, Royal Air Maroc est amenée à prendre des mesures d’adaptation de son réseau international. Cette hausse exceptionnelle des charges d’exploitation impacte fortement l’ensemble du secteur […] The post Hausse des prix du kérosène : la RAM annonce la suspension provisoire de certaines lignes aériennes ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-23T20:19:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-france-bans-israeli-security-minister-ben-gvir-from-country",
       "title": "France bans Israeli security minister Ben Gvir from country",
