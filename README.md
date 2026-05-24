@@ -72,11 +72,10 @@ Open `http://localhost:8080`.
 
 ```bash
 node --check js/api.js js/app.js js/ui.js js/utils.js js/map.js workers/dgssi-feed-worker.js
-python3 -m py_compile scripts/build_morocco_feed.py test_app.py
-pytest -q
+python3 -m py_compile scripts/build_morocco_feed.py
 ```
 
-The Playwright smoke test is skipped automatically when Playwright is not installed.
+Additional local smoke tests may exist in ignored files such as `test_app.py`.
 
 ## GitHub Actions
 
