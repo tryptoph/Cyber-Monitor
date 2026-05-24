@@ -12,6 +12,7 @@ package.json
 
 # Session/plan files
 plan.md
+docs/superpowers/plans/
 __pycache__/
 .pytest_cache/
 *.pyc
@@ -46,6 +47,9 @@ issues.md
 
 # Design / planning docs (local only)
 design.md
+SPEC.md
+FIXES_SUMMARY.md
+IMPLEMENTATION_VS_SPEC.md
 
 # Editor AI assistant
 .claude/

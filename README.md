@@ -1,166 +1,90 @@
-# CyberMonitor — Real-Time Threat Intelligence Dashboard
+# CyberMonitor
 
-A terminal-styled cybersecurity intelligence dashboard that aggregates live CVEs, ransomware victims, APT groups, and security news from 15+ free public APIs onto an interactive world map.
+Real-time cybersecurity intelligence dashboard for CVEs, ransomware and malware activity, APT groups, Morocco-focused cyber news, and global security reporting.
 
-🔗 **Live Site**: [https://tryptoph.github.io/Cyber-Monitor/](https://tryptoph.github.io/Cyber-Monitor/)
+Live site: https://tryptoph.github.io/Cyber-Monitor/
 
----
+## Highlights
 
-## Screenshots
-
-### Dashboard Overview
-![Dashboard Overview](images/design-v12-overview.png)
-
-### APT Groups Tab
-![APT Groups](images/design-v12-apt-tab.png)
-
-### Map Popup
-![Map Popup](images/design-v12-popup.png)
-
----
-
-## Features
-
-### 🗺️ Interactive Threat Map
-- World map with **color-coded markers** for CVEs (red), ransomware (orange), APT groups (purple), and news (cyan)
-- **Pulsing ring animations** on APT origin markers
-- **Rich popups** on click — APT shows flag, country, targets, known victims; CVE shows severity, CVSS score, description
-- **Attack flow lines** from APT origin countries to victim nations (animated dashes)
-- **Country labels** for APT-active nations
-- **Radar sweep overlay** and heatmap toggle
-
-### 🛡️ CVE Intelligence
-- Live feed from **NVD**, **cvelistV5 (GitHub)**, **GitHub Advisory**, and **CVE.org**
-- **EPSS score** (exploit probability) and **KEV badge** (CISA Known Exploited) on each card
-- Sorted newest-first, relative timestamps ("2h ago", "just now")
-- Source selector: NVD / GitHub Advisory / CVE.org / All Sources
-- Count selector: 10 / 50 / 100 entries
-- Auto-refresh every **2 minutes**
-
-### 🦠 Malware & Ransomware
-- Live ransomware victims from **ransomware.live**, **URLhaus**, and enriched threat data
-- Source selector with 5 data sources
-- Severity and country attribution per entry
-- Auto-refresh every **5 minutes**
-
-### 🕵️ APT Groups
-- 50+ tracked APT groups from **MISP Galaxy** (MITRE ATT&CK aligned)
-- Country of origin, known aliases, targeted sectors, and known victims
-- National flag emojis and attack lines on the map
-- Source selector: MISP Galaxy / RSS feeds / All Sources
-
-### 📰 Security News
-- 10+ live RSS feeds: Krebs on Security, The Hacker News, BleepingComputer, Schneier on Security, SANS ISC, and more
-- HackerNews Algolia API as fallback
-- Deduplication by title, sorted newest-first
-- Source selector to filter by feed
-- Auto-refresh every **3 minutes**
-
-### 🔍 Global Search
-- Search across **all 4 panels simultaneously** — CVEs, malware, APT, and news
-- **Persists across tab switches** and auto-refreshes
-- Matches CVE IDs, descriptions, org names, group names, aliases, targets, and article titles
-
-### 📊 Stats & Ticker
-- Live stats bar: total CVEs, malware, APT groups, news articles
-- **Animated count-up** effect on data load
-- **Live threat ticker** scrolling across the bottom with highlights from all categories
-
-### ⌨️ Keyboard Shortcuts
-| Key | Action |
-|-----|--------|
-| `1` | CVE tab |
-| `2` | Malware tab |
-| `3` | News tab |
-| `4` | APT tab |
-| `R` | Refresh data |
-| `S` or `/` | Focus search |
-| `Esc` | Clear search / close modal |
-
----
+- Interactive Leaflet world map with CVE, ransomware, APT, and threat-news markers.
+- Live CVE aggregation from CVEProject cvelistV5, GitHub Advisory DB, NVD, CVE.org, FIRST EPSS, and CISA KEV.
+- Malware and ransomware feeds from ransomware.live, URLhaus, ThreatFox, InQuest Labs, and HIBP.
+- APT actor intelligence from MISP Galaxy plus security research RSS feeds.
+- Morocco focus mode with DGSSI / maCERT, generated Morocco cyber feed, local Moroccan sources, and official-source badges.
+- Scheduled GitHub Actions refresh for `data/morocco-cyber-feed.json` every 6 hours.
+- Atlas Signal Command visual design with responsive panels, accessible focus states, reduced-motion support, and cache-busted static assets.
 
 ## Data Sources
 
-### CVE
-| Source | Lag | Notes |
-|--------|-----|-------|
-| [NVD API 2.0](https://nvd.nist.gov/developers/vulnerabilities) | ~2h | Primary fallback, newest-first via 2-step pagination |
-| [cvelistV5 (GitHub)](https://github.com/CVEProject/cvelistV5) | ~0min | Real-time commits, rate-limited (60/hr) |
-| [GitHub Advisory DB](https://github.com/advisories) | ~1h | Via GraphQL, rate-limited |
-| [CVE.org](https://www.cve.org/) | ~1h | Official CVE registry |
-| [FIRST EPSS](https://www.first.org/epss/) | Daily | Exploit probability scores |
-| [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | Daily | Known exploited flag |
+| Area | Sources |
+| --- | --- |
+| CVEs | CVEProject cvelistV5, GitHub Advisory DB, NVD API 2.0, CVE.org |
+| Enrichment | FIRST EPSS, CISA KEV |
+| Malware | ransomware.live, URLhaus, ThreatFox, InQuest Labs, HIBP |
+| APT | MISP Galaxy, Mandiant, CrowdStrike, Securelist |
+| News | The Hacker News, Krebs, BleepingComputer, SANS ISC, SecurityWeek, Dark Reading, Malwarebytes, Schneier, Wired, HackerNews Algolia |
+| Morocco | DGSSI / maCERT, generated static feed, Hespress, Aujourd'hui le Maroc, La Vie Eco |
 
-### Malware / Ransomware
-| Source | Notes |
-|--------|-------|
-| [ransomware.live](https://ransomware.live) | Live ransomware victims API |
-| [URLhaus](https://urlhaus-api.abuse.ch/) | Malware URL database |
-| [MalwareBazaar](https://bazaar.abuse.ch/) | Recent malware samples |
-| [ThreatFox](https://threatfox.abuse.ch/) | IOC database |
-| Curated enriched data | Built-in known campaigns |
+## Features
 
-### APT Groups
-| Source | Notes |
-|--------|-------|
-| [MISP Galaxy](https://github.com/MISP/misp-galaxy) | 100+ MITRE ATT&CK-aligned actors |
-| Security RSS feeds | AlienVault OTX, Recorded Future, SANS ISC |
-
-### News
-| Source | Notes |
-|--------|-------|
-| Krebs on Security | Top security journalism |
-| The Hacker News | Daily infosec news |
-| BleepingComputer | Malware & breach coverage |
-| Schneier on Security | Expert analysis |
-| SANS Internet Storm Center | Daily threat diaries |
-| Dark Reading | Enterprise security |
-| SecurityWeek | Industry news |
-| Threatpost | Vulnerability coverage |
-| CyberScoop | Policy & government |
-| HackerNews Algolia | Community security discussions |
-
----
+- Global and Morocco country focus selector.
+- Per-panel source and time-range filters.
+- Global search across CVEs, malware, news, and APT data.
+- CVE severity filtering, EPSS badges, KEV indicators, and fallback-data warnings.
+- Live panel refresh with stale/failure feedback.
+- Export current dashboard data as JSON.
+- Keyboard shortcuts: `1` CVE, `2` Malware, `3` News, `4` APT, `R` refresh, `S` or `/` search, `Esc` close modal.
 
 ## Project Structure
 
-```
+```text
 Cyber-Monitor/
-├── index.html          # App shell — layout, panels, map container
-├── css/
-│   └── style.css       # Terminal dark theme, animations, responsive
+├── index.html
+├── css/style.css
 ├── js/
-│   ├── api.js          # All data fetching (15+ APIs, CORS proxies, merge logic)
-│   ├── map.js          # Leaflet map, markers, popups, attack lines
-│   ├── app.js          # Render functions, search, tabs, auto-refresh
-│   ├── ui.js           # Sidebar, toasts, loading state, export
-│   └── utils.js        # Time formatting, localStorage helpers
+│   ├── api.js
+│   ├── app.js
+│   ├── map.js
+│   ├── ui.js
+│   └── utils.js
+├── data/
+│   ├── countries.json
+│   └── morocco-cyber-feed.json
+├── scripts/build_morocco_feed.py
+├── workers/dgssi-feed-worker.js
 ├── lib/
-│   └── leaflet/        # Leaflet.js (local copy, no CDN dependency)
-├── data/               # Static reference data
-└── README.md
+└── images/
 ```
-
----
 
 ## Running Locally
 
-No build step required — pure static HTML/CSS/JS.
+No build step is required.
 
 ```bash
 git clone https://github.com/tryptoph/Cyber-Monitor.git
 cd Cyber-Monitor
 python3 -m http.server 8080
-# open http://localhost:8080
 ```
 
----
+Open `http://localhost:8080`.
 
-## Tech Stack
+## Verification
 
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript (ES2020+), zero frameworks
-- **Mapping**: [Leaflet.js 1.9](https://leafletjs.com/) with CartoDB dark tiles
-- **Data**: 15+ free public APIs, no API keys required
-- **Styling**: Terminal dark theme with CSS custom properties, pulsing animations
-- **Build**: Zero build step — static files, cache-busted with `?v=N` query strings
-- **Hosting**: GitHub Pages
+```bash
+node --check js/api.js js/app.js js/ui.js js/utils.js js/map.js workers/dgssi-feed-worker.js
+python3 -m py_compile scripts/build_morocco_feed.py test_app.py
+pytest -q
+```
+
+The Playwright smoke test is skipped automatically when Playwright is not installed.
+
+## GitHub Actions
+
+`.github/workflows/update-morocco-cyber-feed.yml` refreshes the Morocco feed on a schedule and can also be run manually from the Actions tab.
+
+If you configure a repository secret named `FEED_UPDATE_PAT`, the workflow uses it for checkout and push. If not, it falls back to the default `GITHUB_TOKEN`.
+
+Required permissions:
+
+- Workflow file: `permissions: contents: write`
+- Optional PAT scopes for a public repo: `public_repo` and `workflow`
