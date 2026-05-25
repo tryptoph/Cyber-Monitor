@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-25T07:57:27Z",
+  "generatedAt": "2026-05-25T13:31:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-la-cmr-lance-un-chantier-num-rique-de-1-million-de-dirhams-pour-s-curiser-ses-donn-es",
-      "title": "La CMR lance un chantier numérique de 1 million de dirhams pour sécuriser ses données",
-      "link": "https://fr.hespress.com/474353-la-cmr-lance-un-chantier-numerique-de-1-million-de-dirhams-pour-securiser-ses-donnees.html",
-      "description": "Face à la montée des cyberattaques visant les institutions publiques et financières à travers le monde, la Caisse marocaine des retraites (CMR) a décidé de renforcer son arsenal numérique. L’établissement public a ainsi lancé un appel d’offres national ouvert pour l’acquisition et le déploiement d’un système technologique avancé de protection des sauvegardes de données contre […] The post La CMR lance un chantier numérique de 1 million de dirhams pour sécuriser ses données appeared first on Hesp",
+      "id": "hespress-fr-lions-de-l-atlas-des-nouvelles-rassurantes-pour-aguerd-avant-le-mondial-2026",
+      "title": "Lions de l'Atlas : des nouvelles rassurantes pour Aguerd avant le Mondial 2026",
+      "link": "https://fr.hespress.com/474965-lions-de-latlas-des-nouvelles-rassurantes-pour-aguerd-avant-le-mondial-2026.html",
+      "description": "Après plusieurs semaines d’incertitude autour de l’état physique de Nayef Aguerd, les dernières informations se veulent désormais beaucoup plus optimistes. Selon les informations de Foot Mercato, le défenseur de Olympique de Marseille devrait être apte pour disputer la Coupe du monde 2026 avec la sélection marocaine. Touché physiquement en fin de saison avec le club […] The post Lions de l'Atlas : des nouvelles rassurantes pour Aguerd avant le Mondial 2026 appeared first on Hespress Français - A",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-05-24T23:56:48Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-hammouchi-reviews-security-measures-ahead-of-asfar-sundowns-clash",
-      "title": "Hammouchi reviews security measures ahead of ASFAR-Sundowns clash",
-      "link": "https://en.hespress.com/138596-hammouchi-reviews-security-measures-ahead-of-asfar-sundowns-clash.html",
-      "description": "Abdellatif Hammouchi, Morocco’s director general of national security and territorial surveillance, carried out an inspection visit Sunday to the Prince Moulay Abdellah Stadium in Rabat to review security and safety measures ahead of the second leg of the CAF Champions League final between AS FAR and Mamelodi Sundowns. During the visit, Hammouchi reviewed the various […] The post Hammouchi reviews security measures ahead of ASFAR-Sundowns clash appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-05-24T19:26:48Z",
+      "published": "2026-05-25T10:42:26Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
