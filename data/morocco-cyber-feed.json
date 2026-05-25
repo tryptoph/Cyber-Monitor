@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-25T13:31:04Z",
+  "generatedAt": "2026-05-25T18:53:57Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-lions-de-l-atlas-des-nouvelles-rassurantes-pour-aguerd-avant-le-mondial-2026",
-      "title": "Lions de l'Atlas : des nouvelles rassurantes pour Aguerd avant le Mondial 2026",
-      "link": "https://fr.hespress.com/474965-lions-de-latlas-des-nouvelles-rassurantes-pour-aguerd-avant-le-mondial-2026.html",
-      "description": "Après plusieurs semaines d’incertitude autour de l’état physique de Nayef Aguerd, les dernières informations se veulent désormais beaucoup plus optimistes. Selon les informations de Foot Mercato, le défenseur de Olympique de Marseille devrait être apte pour disputer la Coupe du monde 2026 avec la sélection marocaine. Touché physiquement en fin de saison avec le club […] The post Lions de l'Atlas : des nouvelles rassurantes pour Aguerd avant le Mondial 2026 appeared first on Hespress Français - A",
+      "id": "hespress-en-trump-links-normalizing-ties-with-israel-to-iran-peace-deal",
+      "title": "Trump links normalizing ties with Israel to Iran peace deal",
+      "link": "https://en.hespress.com/138653-trump-links-normalizing-ties-with-israel-to-iran-peace-deal.html",
+      "description": "US President Donald Trump on Monday said Saudi Arabia and other Gulf nations must normalize ties with Israel as part of efforts to reach a deal with Iran, adding fresh uncertainty into protracted peace negotiations. Progress over a deal to end the conflict that broke out in late February has slowed as both sides talked […] The post Trump links normalizing ties with Israel to Iran peace deal appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-25T18:31:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-a-d-al-adha-des-experts-mettent-en-garde-contre-la-mauvaise-conservation-des-viandes",
+      "title": "Aïd Al-Adha : des experts mettent en garde contre la mauvaise conservation des viandes",
+      "link": "https://fr.hespress.com/475011-aid-al-adha-des-experts-mettent-en-garde-contre-la-mauvaise-conservation-des-viandes.html",
+      "description": "À quelques jours de l’Aïd al-Adha, et alors qu’une vague de chaleur s’installe dans plusieurs régions du Maroc, les spécialistes de la nutrition et de la sécurité sanitaire tirent la sonnette d’alarme. Dans un contexte marqué par des températures élevées propices à la prolifération des bactéries, ils mettent en garde contre les risques liés à […] The post Aïd Al-Adha : des experts mettent en garde contre la mauvaise conservation des viandes appeared first on Hespress Français - Actualités du Mar",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-05-25T10:42:26Z",
+      "published": "2026-05-25T17:03:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-sahara-le-congressman-us-trent-kelly-r-it-re-son-soutien-au-plan-marocain-d-autonomie",
+      "title": "Sahara : le Congressman US Trent Kelly réitère son soutien au plan marocain d’autonomie",
+      "link": "https://fr.hespress.com/475035-sahara-le-congressman-us-trent-kelly-reitere-son-soutien-au-plan-marocain-dautonomie.html",
+      "description": "Trent Kelly, membre de la Chambre des représentants américaine, a réitéré, lundi à Rabat, son soutien au plan d’autonomie présenté par le Maroc pour le règlement définitif du différend régional autour du Sahara marocain, tout en exprimant son appui à la résolution 2797 du Conseil de sécurité des Nations Unies. « Je soutiens fortement la proposition […] The post Sahara : le Congressman US Trent Kelly réitère son soutien au plan marocain d’autonomie appeared first on Hespress Français - Actualités",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-25T16:46:09Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
