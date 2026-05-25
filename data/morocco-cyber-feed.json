@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-24T18:43:39Z",
+  "generatedAt": "2026-05-25T01:23:55Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-en-morocco-s-dam-reserves-reach-near-record-levels-despite-early-summer-heatwave",
-      "title": "Morocco’s dam reserves reach near-record levels despite early summer heatwave",
-      "link": "https://en.hespress.com/138579-moroccos-dam-reserves-reach-near-record-levels-despite-early-summer-heatwave.html",
-      "description": "Morocco’s national water reserves have reached their highest levels in years, offering reassurance amid an intense heatwave affecting large parts of the country and renewed concerns over water security and evaporation rates. According to the latest daily bulletin on dam levels released Saturday, Morocco’s dams are now filled to 75.94% of total capacity, representing nearly […] The post Morocco’s dam reserves reach near-record levels despite early summer heatwave appeared first on HESPRESS Englis",
+      "id": "hespress-fr-la-cmr-lance-un-chantier-num-rique-de-1-million-de-dirhams-pour-s-curiser-ses-donn-es",
+      "title": "La CMR lance un chantier numérique de 1 million de dirhams pour sécuriser ses données",
+      "link": "https://fr.hespress.com/474353-la-cmr-lance-un-chantier-numerique-de-1-million-de-dirhams-pour-securiser-ses-donnees.html",
+      "description": "Face à la montée des cyberattaques visant les institutions publiques et financières à travers le monde, la Caisse marocaine des retraites (CMR) a décidé de renforcer son arsenal numérique. L’établissement public a ainsi lancé un appel d’offres national ouvert pour l’acquisition et le déploiement d’un système technologique avancé de protection des sauvegardes de données contre […] The post La CMR lance un chantier numérique de 1 million de dirhams pour sécuriser ses données appeared first on Hesp",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-24T23:56:48Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-hammouchi-reviews-security-measures-ahead-of-asfar-sundowns-clash",
+      "title": "Hammouchi reviews security measures ahead of ASFAR-Sundowns clash",
+      "link": "https://en.hespress.com/138596-hammouchi-reviews-security-measures-ahead-of-asfar-sundowns-clash.html",
+      "description": "Abdellatif Hammouchi, Morocco’s director general of national security and territorial surveillance, carried out an inspection visit Sunday to the Prince Moulay Abdellah Stadium in Rabat to review security and safety measures ahead of the second leg of the CAF Champions League final between AS FAR and Mamelodi Sundowns. During the visit, Hammouchi reviewed the various […] The post Hammouchi reviews security measures ahead of ASFAR-Sundowns clash appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-05-24T13:06:43Z",
+      "published": "2026-05-24T19:26:48Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-finale-ldc-de-la-caf-hamouchi-supervise-le-dispositif-s-curitaire",
+      "title": "Finale LdC de la CAF : Hamouchi supervise le dispositif sécuritaire",
+      "link": "https://fr.hespress.com/474931-finale-ldc-de-la-caf-hamouchi-supervise-le-dispositif-securitaire.html",
+      "description": "Le Directeur général du pôle DGST-DGSN, Abdellatif Hammouchi, s’est rendu ce dimanche au complexe sportif Prince Moulay Abdellah à Rabat pour superviser les préparatifs sécuritaires liés à la finale retour de la Ligue des champions africaine entre l’AS FAR et les Mamelodi Sundowns. Cette visite a permis au patron de la sécurité nationale de prendre […] The post Finale LdC de la CAF : Hamouchi supervise le dispositif sécuritaire appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-24T19:07:39Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
