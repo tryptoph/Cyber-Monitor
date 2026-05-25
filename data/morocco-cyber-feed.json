@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-25T01:23:55Z",
+  "generatedAt": "2026-05-25T07:57:27Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -35,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-24T19:26:48Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-finale-ldc-de-la-caf-hamouchi-supervise-le-dispositif-s-curitaire",
-      "title": "Finale LdC de la CAF : Hamouchi supervise le dispositif sécuritaire",
-      "link": "https://fr.hespress.com/474931-finale-ldc-de-la-caf-hamouchi-supervise-le-dispositif-securitaire.html",
-      "description": "Le Directeur général du pôle DGST-DGSN, Abdellatif Hammouchi, s’est rendu ce dimanche au complexe sportif Prince Moulay Abdellah à Rabat pour superviser les préparatifs sécuritaires liés à la finale retour de la Ligue des champions africaine entre l’AS FAR et les Mamelodi Sundowns. Cette visite a permis au patron de la sécurité nationale de prendre […] The post Finale LdC de la CAF : Hamouchi supervise le dispositif sécuritaire appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-24T19:07:39Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
