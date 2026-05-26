@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-26T07:34:09Z",
+  "generatedAt": "2026-05-26T13:25:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-cabinets-clandestins-et-soins-non-contr-l-s-les-dentistes-tirent-la-sonnette-d-alarme",
-      "title": "Cabinets clandestins et soins non contrôlés : Les dentistes tirent la sonnette d’alarme",
-      "link": "https://fr.hespress.com/473889-cabinets-clandestins-et-soins-non-controles-les-dentistes-tirent-la-sonnette-dalarme.html",
-      "description": "Face à la multiplication des pratiques illégales dans le domaine des soins dentaires, l’Ordre national des médecins-dentistes tire la sonnette d’alarme. Réunis le week-end à Rabat dans le cadre d’une conférence nationale placée sous le thème « L’exercice illégal de la médecine dentaire au Maroc : violation de la loi et atteinte à la sécurité […] The post Cabinets clandestins et soins non contrôlés : Les dentistes tirent la sonnette d’alarme appeared first on Hespress Français - Actualités du Mar",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-26T03:11:53Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-a-d-al-adha-la-narsa-appelle-les-usagers-de-la-route-la-vigilance",
-      "title": "Aïd Al Adha : la NARSA appelle les usagers de la route à la vigilance",
-      "link": "https://fr.hespress.com/475031-aid-al-adha-la-narsa-appelle-les-usagers-de-la-route-a-la-vigilance.html",
-      "description": "L’Agence nationale de la sécurité routière (NARSA) a appelé, lundi, les usagers de la route à redoubler de vigilance et de prudence et à prendre les précautions de sécurité nécessaires en prévision d’un trafic intense sur tous les axes du réseau routier national, à l’occasion de la célébration de l’Aïd Al-Adha. Compte tenu de la […] The post Aïd Al Adha : la NARSA appelle les usagers de la route à la vigilance appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-25T22:50:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-trump-links-normalizing-ties-with-israel-to-iran-peace-deal",
-      "title": "Trump links normalizing ties with Israel to Iran peace deal",
-      "link": "https://en.hespress.com/138653-trump-links-normalizing-ties-with-israel-to-iran-peace-deal.html",
-      "description": "US President Donald Trump on Monday said Saudi Arabia and other Gulf nations must normalize ties with Israel as part of efforts to reach a deal with Iran, adding fresh uncertainty into protracted peace negotiations. Progress over a deal to end the conflict that broke out in late February has slowed as both sides talked […] The post Trump links normalizing ties with Israel to Iran peace deal appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-morocco-remains-main-launch-point-for-canary-islands-migrant-route-despite-crackdown",
+      "title": "Morocco remains main launch point for Canary Islands migrant route despite crackdown",
+      "link": "https://en.hespress.com/138691-morocco-remains-main-launch-point-for-canary-islands-migrant-route-despite-crackdown.html",
+      "description": "Nearly 41% of irregular migrant journeys to Spain’s Canary Islands now depart from Morocco, even as tighter security controls along the kingdom’s coastline continue pushing some trafficking routes farther south toward Mauritania and Senegal, according to a new report by the Mixed Migration Centre. The report said departures from Mauritania accounted for 30% of crossings […] The post Morocco remains main launch point for Canary Islands migrant route despite crackdown appeared first on HESPRESS En",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-05-25T18:31:23Z",
+      "published": "2026-05-26T12:08:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
