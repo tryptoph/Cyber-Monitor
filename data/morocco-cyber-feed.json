@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-25T18:53:57Z",
+  "generatedAt": "2026-05-26T01:19:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-ar-item",
+      "title": "\"حزب الله\" يستهدف ثكنات إسرائيلية",
+      "link": "https://www.hespress.com/%d8%ad%d8%b2%d8%a8-%d8%a7%d9%84%d9%84%d9%87-%d9%8a%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%ab%d9%83%d9%86%d8%a7%d8%aa-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84%d9%8a%d8%a9-1752777.html",
+      "description": "أعلن حزب الله، المدعوم من إيران، مسؤوليته عن هجمات متتالية عديدة، أمس الاثنين، استهدفت ثلاث ثكنات وموقعا عسكريا في شمال إسرائيل “ردا على خرق وقف إطلاق النار” من قبل إسرائيل؛ التي أعلنت أنها “ستكثّف الضربات” في لبنان. وأفاد الحزب ذاته، في سلسلة بيانات، بأنه مسؤول عن أربع هجمات على الأقل بـ”درونات” استهدفت ثكنة شوميرا، وعن […] The post \"حزب الله\" يستهدف ثكنات إسرائيلية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-05-25T23:36:14Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-a-d-al-adha-la-narsa-appelle-les-usagers-de-la-route-la-vigilance",
+      "title": "Aïd Al Adha : la NARSA appelle les usagers de la route à la vigilance",
+      "link": "https://fr.hespress.com/475031-aid-al-adha-la-narsa-appelle-les-usagers-de-la-route-a-la-vigilance.html",
+      "description": "L’Agence nationale de la sécurité routière (NARSA) a appelé, lundi, les usagers de la route à redoubler de vigilance et de prudence et à prendre les précautions de sécurité nécessaires en prévision d’un trafic intense sur tous les axes du réseau routier national, à l’occasion de la célébration de l’Aïd Al-Adha. Compte tenu de la […] The post Aïd Al Adha : la NARSA appelle les usagers de la route à la vigilance appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-25T22:50:47Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-trump-links-normalizing-ties-with-israel-to-iran-peace-deal",
       "title": "Trump links normalizing ties with Israel to Iran peace deal",
       "link": "https://en.hespress.com/138653-trump-links-normalizing-ties-with-israel-to-iran-peace-deal.html",
@@ -22,32 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-25T18:31:23Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-a-d-al-adha-des-experts-mettent-en-garde-contre-la-mauvaise-conservation-des-viandes",
-      "title": "Aïd Al-Adha : des experts mettent en garde contre la mauvaise conservation des viandes",
-      "link": "https://fr.hespress.com/475011-aid-al-adha-des-experts-mettent-en-garde-contre-la-mauvaise-conservation-des-viandes.html",
-      "description": "À quelques jours de l’Aïd al-Adha, et alors qu’une vague de chaleur s’installe dans plusieurs régions du Maroc, les spécialistes de la nutrition et de la sécurité sanitaire tirent la sonnette d’alarme. Dans un contexte marqué par des températures élevées propices à la prolifération des bactéries, ils mettent en garde contre les risques liés à […] The post Aïd Al-Adha : des experts mettent en garde contre la mauvaise conservation des viandes appeared first on Hespress Français - Actualités du Mar",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-25T17:03:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sahara-le-congressman-us-trent-kelly-r-it-re-son-soutien-au-plan-marocain-d-autonomie",
-      "title": "Sahara : le Congressman US Trent Kelly réitère son soutien au plan marocain d’autonomie",
-      "link": "https://fr.hespress.com/475035-sahara-le-congressman-us-trent-kelly-reitere-son-soutien-au-plan-marocain-dautonomie.html",
-      "description": "Trent Kelly, membre de la Chambre des représentants américaine, a réitéré, lundi à Rabat, son soutien au plan d’autonomie présenté par le Maroc pour le règlement définitif du différend régional autour du Sahara marocain, tout en exprimant son appui à la résolution 2797 du Conseil de sécurité des Nations Unies. « Je soutiens fortement la proposition […] The post Sahara : le Congressman US Trent Kelly réitère son soutien au plan marocain d’autonomie appeared first on Hespress Français - Actualités",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-25T16:46:09Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
