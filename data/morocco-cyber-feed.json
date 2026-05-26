@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-26T01:19:12Z",
+  "generatedAt": "2026-05-26T07:34:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "\"حزب الله\" يستهدف ثكنات إسرائيلية",
-      "link": "https://www.hespress.com/%d8%ad%d8%b2%d8%a8-%d8%a7%d9%84%d9%84%d9%87-%d9%8a%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%ab%d9%83%d9%86%d8%a7%d8%aa-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84%d9%8a%d8%a9-1752777.html",
-      "description": "أعلن حزب الله، المدعوم من إيران، مسؤوليته عن هجمات متتالية عديدة، أمس الاثنين، استهدفت ثلاث ثكنات وموقعا عسكريا في شمال إسرائيل “ردا على خرق وقف إطلاق النار” من قبل إسرائيل؛ التي أعلنت أنها “ستكثّف الضربات” في لبنان. وأفاد الحزب ذاته، في سلسلة بيانات، بأنه مسؤول عن أربع هجمات على الأقل بـ”درونات” استهدفت ثكنة شوميرا، وعن […] The post \"حزب الله\" يستهدف ثكنات إسرائيلية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-cabinets-clandestins-et-soins-non-contr-l-s-les-dentistes-tirent-la-sonnette-d-alarme",
+      "title": "Cabinets clandestins et soins non contrôlés : Les dentistes tirent la sonnette d’alarme",
+      "link": "https://fr.hespress.com/473889-cabinets-clandestins-et-soins-non-controles-les-dentistes-tirent-la-sonnette-dalarme.html",
+      "description": "Face à la multiplication des pratiques illégales dans le domaine des soins dentaires, l’Ordre national des médecins-dentistes tire la sonnette d’alarme. Réunis le week-end à Rabat dans le cadre d’une conférence nationale placée sous le thème « L’exercice illégal de la médecine dentaire au Maroc : violation de la loi et atteinte à la sécurité […] The post Cabinets clandestins et soins non contrôlés : Les dentistes tirent la sonnette d’alarme appeared first on Hespress Français - Actualités du Mar",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-05-25T23:36:14Z",
+      "published": "2026-05-26T03:11:53Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
