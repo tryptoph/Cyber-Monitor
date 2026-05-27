@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-27T07:47:42Z",
+  "generatedAt": "2026-05-27T13:37:13Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-hussein-al-jassmi-inaugurera-les-concerts-du-th-tre-royal-de-rabat",
-      "title": "Hussein Al Jassmi inaugurera les concerts du Théâtre Royal de Rabat",
-      "link": "https://fr.hespress.com/475131-hussein-al-jassmi-inaugurera-les-concerts-du-theatre-royal-de-rabat.html",
-      "description": "Hussain Al Jassmi retrouvera prochainement son public marocain à l’occasion d’un concert exceptionnel prévu le 18 juin au Théâtre Royal de Rabat. L’artiste émirati deviendra ainsi le premier chanteur arabe à se produire sur la scène de ce nouveau joyau culturel de la capitale marocaine. L’annonce de cet événement suscite déjà un vif engouement auprès […] The post Hussein Al Jassmi inaugurera les concerts du Théâtre Royal de Rabat appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "إيران: هدف العدو الإطاحة بالنظام",
+      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d9%87%d8%af%d9%81-%d8%a7%d9%84%d8%b9%d8%af%d9%88-%d8%a7%d9%84%d8%a5%d8%b7%d8%a7%d8%ad%d8%a9-%d8%a8%d8%a7%d9%84%d9%86%d8%b8%d8%a7%d9%85-1753402.html",
+      "description": "أعلنت وزارة الاستخبارات الإيرانية، الأربعاء، أن هدف الولايات المتحدة وإسرائيل لا يزال الإطاحة بالجمهورية الإسلامية وتفكيك البلد. وقالت الوزارة في بيان نقلته وسائل الإعلام الإيرانية: “يسعى العدو الآن من خلال وسائل أخرى لتحقيق هدف الإطاحة بالبلاد وتقسيمها، وهو ما أعلنه صراحة في بداية الحرب الأخيرة لكنه فشل في تحقيقه من خلال هجوم عسكري”. The post إيران: هدف العدو الإطاحة بالنظام appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-05-27T01:54:12Z",
+      "published": "2026-05-27T13:30:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-en-ireland-reaffirms-support-for-un-process-on-sahara-amid-security-concerns",
-      "title": "Ireland reaffirms support for UN process on Sahara amid security concerns",
-      "link": "https://en.hespress.com/138725-ireland-reaffirms-support-for-un-process-on-sahara-amid-security-concerns.html",
-      "description": "The Irish government has reaffirmed its support for the United Nations-led process aimed at reaching a political solution to the Sahara dispute, while also expressing concern over recent security developments in the city of Smarafollowing an attack near the area earlier this month that was claimed by the Polisario Front. The position was outlined by […] The post Ireland reaffirms support for UN process on Sahara amid security concerns appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-scientists-warn-earth-may-already-have-exceeded-sustainable-population-limits",
+      "title": "Scientists warn Earth may already have exceeded sustainable population limits",
+      "link": "https://en.hespress.com/138753-scientists-warn-earth-may-already-have-exceeded-sustainable-population-limits.html",
+      "description": "A new international study warns that humanity may already be living beyond Earth’s sustainable limits, with researchers arguing that current population levels and patterns of resource consumption are placing mounting pressure on climate systems, food security and ecosystems worldwide. The research, published in the journal Environmental Research Letters, analyzed more than two centuries of population […] The post Scientists warn Earth may already have exceeded sustainable population limits appea",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-05-26T19:11:35Z",
+      "published": "2026-05-27T11:01:46Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
