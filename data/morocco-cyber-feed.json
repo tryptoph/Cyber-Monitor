@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-26T19:09:43Z",
+  "generatedAt": "2026-05-27T01:23:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "إيرلندا تجدد دعم التسوية السياسية لنزاع الصحراء وتدين \"هجمات السمارة\"",
-      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d9%84%d9%86%d8%af%d8%a7-%d8%aa%d8%ac%d8%af%d8%af-%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%aa%d8%b3%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d9%84%d9%86%d8%b2-1752944.html",
-      "description": "جددت الحكومة الإيرلندية دعمها للمسار الأممي الرامي إلى إيجاد تسوية سياسية لنزاع الصحراء المغربية، معبرة، في الآن ذاته، عن قلقها إزاء التطورات الأمنية الأخيرة التي شهدتها مدينة السمارة، عقب الهجوم الذي استهدف محيطها مطلع شهر ماي الجاري، والذي تبنته جبهة البوليساريو، محذرة من مخاطر الانزلاق نحو مزيد من التوتر بالمنطقة. وجاء هذا الموقف الرسمي على […] The post إيرلندا تجدد دعم التسوية السياسية لنزاع الصحراء وتدين \"هجمات السمارة\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-05-26T18:00:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-un-p-trolier-touch-par-une-explosion-au-large-d-oman",
-      "title": "Un pétrolier touché par une explosion au large d'Oman",
-      "link": "https://fr.hespress.com/475176-un-petrolier-touche-par-une-explosion-au-large-doman.html",
-      "description": "Une explosion près de la ligne de flottaison a endommagé un pétrolier au large d’Oman, a indiqué mardi l’agence de sécurité maritime britannique UKMTO, les tensions restant vives autour du stratégique détroit d’Ormuz. « L’équipage et le navire sont en sécurité, bien que le capitaine signale qu’une certaine quantité de fioul de soute s’est déversée dans […] The post Un pétrolier touché par une explosion au large d'Oman appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-fr-mondial-2026-mohamed-ouahbi-assume-ses-choix-et-affiche-les-ambitions-du-maroc",
+      "title": "Mondial 2026 : Mohamed Ouahbi assume ses choix et affiche les ambitions du Maroc",
+      "link": "https://fr.hespress.com/475193-mondial-2026-mohamed-ouahbi-assume-ses-choix-et-affiche-les-ambitions-du-maroc.html",
+      "description": "À quelques semaines du coup d’envoi de la Coupe du monde 2026, Mohamed Ouahbi a dévoilé la liste définitive des 26 joueurs appelés à défendre les couleurs du Maroc aux États-Unis, au Canada et au Mexique. Face à la presse, le technicien marocain s’est longuement exprimé sur ses choix, l’état physique de certains cadres, les nouvelles […] The post Mondial 2026 : Mohamed Ouahbi assume ses choix et affiche les ambitions du Maroc appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-05-26T16:23:43Z",
+      "published": "2026-05-26T19:50:48Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-en-road-accidents-claim-33-lives-in-morocco-s-urban-areas-over-past-week",
-      "title": "Road Accidents Claim 33 Lives in Morocco’s Urban Areas over Past Week",
-      "link": "https://en.hespress.com/138713-road-accidents-claim-33-lives-in-moroccos-urban-areas-over-past-week.html",
-      "description": "Thirty-three people were killed and 3,514 others injured, including 125 seriously, in 2,548 traffic accidents recorded in urban areas between May 18 to 24, according to the Directorate General of National Security (DGSN). These accidents were mainly due to driver inattention, failure to yield the right of way, speeding, failure to maintain a safe distance, […] The post Road Accidents Claim 33 Lives in Morocco’s Urban Areas over Past Week appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-ireland-reaffirms-support-for-un-process-on-sahara-amid-security-concerns",
+      "title": "Ireland reaffirms support for UN process on Sahara amid security concerns",
+      "link": "https://en.hespress.com/138725-ireland-reaffirms-support-for-un-process-on-sahara-amid-security-concerns.html",
+      "description": "The Irish government has reaffirmed its support for the United Nations-led process aimed at reaching a political solution to the Sahara dispute, while also expressing concern over recent security developments in the city of Smarafollowing an attack near the area earlier this month that was claimed by the Polisario Front. The position was outlined by […] The post Ireland reaffirms support for UN process on Sahara amid security concerns appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-05-26T16:11:32Z",
+      "published": "2026-05-26T19:11:35Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
