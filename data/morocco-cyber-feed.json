@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-28T01:15:38Z",
+  "generatedAt": "2026-05-28T07:43:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -15,13 +15,26 @@
   "items": [
     {
       "id": "hespress-ar-item",
-      "title": "وعيد غريب من ترامب لسلطنة عُمان",
-      "link": "https://www.hespress.com/%d9%88%d8%b9%d9%8a%d8%af-%d8%ba%d8%b1%d9%8a%d8%a8-%d9%85%d9%86-%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%84%d8%b3%d9%84%d8%b7%d9%86%d8%a9-%d8%b9%d9%8f%d9%85%d8%a7%d9%86-1753689.html",
-      "description": "هدّد الرئيس الأمريكي دونالد ترامب اليوم الأربعاء، على ما يبدو، بشنّ هجوم ضد سلطنة عُمان، الحليف التقليدي للولايات المتحدة، في حال وقفت إلى جانب إيران في ملف إعادة فتح مضيق هرمز. وقال ترامب إن “على عُمان أن تحسن التصرف”، وإلا فإنه “سينسفهم”، وذلك رداً على سؤال حول “احتمال قبول اتفاق قصير الأمد يتيح لإيران والدولة […] The post وعيد غريب من ترامب لسلطنة عُمان appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "title": "الرواية المغربية \"هوت ماروك\" تواصل اختراق المشهد الأدبي في أوروبا",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b1%d9%88%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d9%87%d9%88%d8%aa-%d9%85%d8%a7%d8%b1%d9%88%d9%83-%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d8%a7%d8%ae%d8%aa-1753080.html",
+      "description": "في فضاء أدبي أوروبي تُهيمن عليه المنافسة الحادة ومعايير الانتقاء الصارمة نادرًا ما تتمكن رواية مغربية من فرض حضورها داخل دوائر الاهتمام النقدي الإيطالي، أو الوصول إلى القوائم البارزة للجوائز الأدبية. غير أنّ رواية “هوت ماروك” لياسين عدنان تواصل شقّ طريقها بثبات، مؤكّدة قدرتها على كسر هذا الحاجز، محطة بعد أخرى. فمنذ صدور ترجمتها الإيطالية، […] The post الرواية المغربية \"هوت ماروك\" تواصل اختراق المشهد الأدبي في أوروبا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-05-27T22:11:37Z",
+      "published": "2026-05-28T03:00:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-donald-trump-exclut-tout-assouplissement-des-sanctions-contre-l-iran",
+      "title": "Donald Trump exclut tout assouplissement des sanctions contre l'Iran",
+      "link": "https://fr.hespress.com/475315-donald-trump-exclut-tout-assouplissement-des-sanctions-contre-liran.html",
+      "description": "Le président américain, Donald Trump, a exclu mercredi tout assouplissement des sanctions imposées à l’Iran, démentant des informations évoquant une possible autorisation accordée à Téhéran pour vendre certains produits alimentaires. Interrogé par des journalistes lors d’un Conseil des ministres à la Maison Blanche sur une éventuelle levée partielle des sanctions américaines contre l’Iran, Donald Trump […] The post Donald Trump exclut tout assouplissement des sanctions contre l'Iran appeared fir",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-28T01:54:14Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
