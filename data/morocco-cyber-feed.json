@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-28T19:15:04Z",
+  "generatedAt": "2026-05-29T01:23:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -15,13 +15,26 @@
   "items": [
     {
       "id": "hespress-ar-item",
-      "title": "إدانة عربية لاعتداء إيران على الكويت",
-      "link": "https://www.hespress.com/%d8%a5%d8%af%d8%a7%d9%86%d8%a9-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9-%d9%84%d8%a7%d8%b9%d8%aa%d8%af%d8%a7%d8%a1-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa-1753959.html",
-      "description": "أعربت السعودية، ومصر والأردن، والإمارات وقطر والبحرين، ومجلس التعاون الخليجي، عن إدانتها واستنكارها بأشد العبارات للهجمات المعادية بصواريخ وطائرات مسي رة على دولة الكويت. وهكذا، أعربت وزارة الخارجية السعودية عن إدانة المملكة واستنكارها بأشد العبارات للهجمات المعادية بصواريخ وطائرات مسي رة على دولة الكويت. وقالت الوزارة، في بيان،: “المملكة تشدد على رفضها القاطع لانتهاك سيادة […] The post إدانة عربية لاعتداء إيران على الكويت appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "title": "نيوكاسل يسابق الزمن لضم الزلزولي",
+      "link": "https://www.hespress.com/%d9%86%d9%8a%d9%88%d9%83%d8%a7%d8%b3%d9%84-%d9%8a%d8%b3%d8%a7%d8%a8%d9%82-%d8%a7%d9%84%d8%b2%d9%85%d9%86-%d9%84%d8%b6%d9%85-%d8%a7%d9%84%d8%b2%d9%84%d8%b2%d9%88%d9%84%d9%8a-1753988.html",
+      "description": "دخل الدولي المغربي عبد الصمد الزلزولي دائرة اهتمامات نادي نيوكاسل الإنجليزي خلال فترة الانتقالات الصيفية الجارية، في خطوة قد يكون لها تأثير مباشر على تحركات برشلونة في سوق الانتقالات. ووفقًا لما أوردته صحيفة “سبورت” الكتالونية فإن نيوكاسل يضع الزلزولي ضمن أولوياته لتعزيز الخط الهجومي، حيث يستعد لتقديم عرض تتجاوز قيمته 50 مليون يورو من أجل […] The post نيوكاسل يسابق الزمن لضم الزلزولي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-05-28T17:29:23Z",
+      "published": "2026-05-28T23:33:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-israel-russia-added-to-blacklist-on-sexual-violence-in-conflicts-un-report",
+      "title": "Israel, Russia added to blacklist on sexual violence in conflicts: UN report",
+      "link": "https://en.hespress.com/138854-israel-russia-added-to-blacklist-on-sexual-violence-in-conflicts-un-report.html",
+      "description": "Israeli and Russian security forces have been added to a United Nations blacklist on sexual violence in conflict, particularly in connection with allegations made by prisoners, according to a report reviewed Thursday by AFP. Last August, UN Secretary-General Antonio Guterres warned Israel and Russia of possible inclusion on the list, but “incidents and patterns of […] The post Israel, Russia added to blacklist on sexual violence in conflicts: UN report appeared first on HESPRESS English - Morocc",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-28T21:28:24Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
