@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-29T13:31:57Z",
+  "generatedAt": "2026-05-29T19:14:01Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-en-moroccan-woman-buried-after-day-long-standoff-over-cemetery-access",
+      "title": "Moroccan woman buried after day-long standoff over cemetery access",
+      "link": "https://en.hespress.com/138894-moroccan-woman-buried-after-day-long-standoff-over-cemetery-access.html",
+      "description": "A Moroccan woman was laid to rest Friday morning in the Agbalo Nkerdous cemetery after a day-long standoff and heightened tensions over her burial, prompting a heavy security intervention and an official declaration that the cemetery is public and open to all residents of the area. The incident unfolded Thursday in southeastern Morocco after residents […] The post Moroccan woman buried after day-long standoff over cemetery access appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-29T17:10:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-ports-marocains-croissance-soutenue-et-investissements-en-forte-hausse",
+      "title": "Ports marocains : croissance soutenue et investissements en forte hausse",
+      "link": "https://fr.hespress.com/475359-ports-marocains-croissance-soutenue-et-investissements-en-forte-hausse.html",
+      "description": "Le trafic portuaire géré par l’Agence nationale des ports (ANP) poursuit sa progression au premier trimestre 2026, porté par la dynamique des échanges commerciaux, la reprise de certaines filières importatrices et l’intensification des investissements portuaires. Derrière cette croissance se dessine surtout la consolidation progressive du positionnement du Maroc comme plateforme logistique régionale entre l’Europe, l’Afrique […] The post Ports marocains : croissance soutenue et investissements e",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-29T16:35:48Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-rabat-royal-theatre-draws-crowds-as-high-priced-concert-tickets-sell-out",
       "title": "Rabat Royal Theatre draws crowds as high-priced concert tickets sell out",
       "link": "https://en.hespress.com/138876-rabat-royal-theatre-draws-crowds-as-high-priced-concert-tickets-sell-out.html",
@@ -22,19 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-29T13:13:51Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-al-ittihad-envisage-un-d-part-de-youssef-en-nesyri-cet-t",
-      "title": "Al-Ittihad envisage un départ de Youssef En-Nesyri cet été",
-      "link": "https://fr.hespress.com/475412-al-ittihad-envisage-un-depart-de-youssef-en-nesyri-cet-ete.html",
-      "description": "L’avenir de Youssef En-Nesyri à Al-Ittihad semble de plus en plus incertain. Selon plusieurs médias saoudiens, la direction du club étudie actuellement la possibilité de se séparer de l’attaquant marocain dans le cadre d’un vaste chantier de réorganisation de l’effectif. Les responsables du club de Djeddah souhaiteraient remodeler leur secteur offensif et procéder à une […] The post Al-Ittihad envisage un départ de Youssef En-Nesyri cet été appeared first on Hespress Français - Actualités du Mar",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-29T09:08:13Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
