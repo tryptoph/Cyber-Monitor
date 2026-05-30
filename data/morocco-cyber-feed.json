@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-29T19:14:01Z",
+  "generatedAt": "2026-05-30T01:19:02Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-la-saison-du-hajj-1447-h-a-t-couronn-e-de-succ-s",
+      "title": "La saison du Hajj 1447 H a été couronnée de \"succès\"",
+      "link": "https://fr.hespress.com/475491-la-saison-du-hajj-1447-h-a-ete-couronnee-de-succes.html",
+      "description": "La saison du Hajj de cette année 1447 de l’Hégire a été couronnée de « succès », a souligné le vice-gouverneur de la région de La Mecque et vice-président du Comité permanent du Hajj et de la Omra, le Prince Saud bin Mishal bin Abdulaziz. « La saison a été marquée par un système intégré de sécurité, d’organisation […] The post La saison du Hajj 1447 H a été couronnée de \"succès\" appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-30T00:23:11Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-france-seize-2-7-tonnes-of-cannabis-in-cross-border-trafficking-probe",
+      "title": "Morocco, France seize 2.7 tonnes of cannabis in cross border trafficking probe",
+      "link": "https://en.hespress.com/138920-morocco-france-seize-2-7-tonnes-of-cannabis-in-cross-border-trafficking-probe.html",
+      "description": "French gendarmes working with Morocco’s national security service seized 2,692 kilograms of narcotics, mainly cannabis resin, at the port of Sète in southern France during an investigation into a trafficking route from Morocco to the Lille area, the French Gendarmerie said. The investigation was opened on April 13 by the Lille prosecutor’s office and assigned […] The post Morocco, France seize 2.7 tonnes of cannabis in cross border trafficking probe appeared first on HESPRESS English - Morocco N",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-29T21:54:45Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-th-tre-royal-de-rabat-les-billets-d-elissa-s-arrachent-malgr-des-tarifs-contest-s",
+      "title": "Théâtre Royal de Rabat : Les billets d’Elissa s’arrachent malgré des tarifs contestés",
+      "link": "https://fr.hespress.com/475441-theatre-royal-de-rabat-les-billets-delissa-sarrachent-malgre-des-tarifs-contestes.html",
+      "description": "À peine mis en vente, les billets de certains spectacles programmés au Théâtre Royal de Rabat se sont arrachés en quelques heures. Un succès qui intervient pourtant dans un contexte de controverse autour des prix pratiqués pour ces événements, jugés élevés par une partie du public. Parmi les concerts les plus attendus figure celui de […] The post Théâtre Royal de Rabat : Les billets d’Elissa s’arrachent malgré des tarifs contestés appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-29T19:49:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-moroccan-woman-buried-after-day-long-standoff-over-cemetery-access",
       "title": "Moroccan woman buried after day-long standoff over cemetery access",
       "link": "https://en.hespress.com/138894-moroccan-woman-buried-after-day-long-standoff-over-cemetery-access.html",
@@ -22,32 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-29T17:10:23Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-ports-marocains-croissance-soutenue-et-investissements-en-forte-hausse",
-      "title": "Ports marocains : croissance soutenue et investissements en forte hausse",
-      "link": "https://fr.hespress.com/475359-ports-marocains-croissance-soutenue-et-investissements-en-forte-hausse.html",
-      "description": "Le trafic portuaire géré par l’Agence nationale des ports (ANP) poursuit sa progression au premier trimestre 2026, porté par la dynamique des échanges commerciaux, la reprise de certaines filières importatrices et l’intensification des investissements portuaires. Derrière cette croissance se dessine surtout la consolidation progressive du positionnement du Maroc comme plateforme logistique régionale entre l’Europe, l’Afrique […] The post Ports marocains : croissance soutenue et investissements e",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-29T16:35:48Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-rabat-royal-theatre-draws-crowds-as-high-priced-concert-tickets-sell-out",
-      "title": "Rabat Royal Theatre draws crowds as high-priced concert tickets sell out",
-      "link": "https://en.hespress.com/138876-rabat-royal-theatre-draws-crowds-as-high-priced-concert-tickets-sell-out.html",
-      "description": "Despite controversy surrounding ticket prices, upcoming concerts at the Royal Theatre in Rabat have attracted strong public demand, with several performances selling out in record time, most notably Lebanese singer Elissa’s concert scheduled for June 20. Tickets for the performance by the singer of “Ila Kol Elli Byhebbouni” sold out in less than 24 hours […] The post Rabat Royal Theatre draws crowds as high-priced concert tickets sell out appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-05-29T13:13:51Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
