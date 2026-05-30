@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-30T12:46:48Z",
+  "generatedAt": "2026-05-30T18:43:32Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-tanger-med-police-seize-1-571-narcotic-pills-from-europe-bound-car",
-      "title": "Tanger Med police seize 1,571 narcotic pills from Europe-bound car",
-      "link": "https://en.hespress.com/138931-tanger-med-police-seize-1571-narcotic-pills-from-europe-bound-car.html",
-      "description": "Moroccan police and customs officers at Tanger Med port seized 1,571 narcotic medical pills early Saturday from a foreign-plated car that had arrived by ferry from a European port, security authorities said. Border checks carried out by police and customs teams uncovered the shipment inside the light vehicle shortly after it entered the port. Authorities […] The post Tanger Med police seize 1,571 narcotic pills from Europe-bound car appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-morocco-tells-un-decolonization-panel-to-drop-sahara-file-after-security-council-shift",
+      "title": "Morocco tells UN decolonization panel to drop Sahara file after Security Council shift",
+      "link": "https://en.hespress.com/138929-morocco-tells-un-decolonization-panel-to-drop-sahara-file-after-security-council-shift.html",
+      "description": "Morocco told a United Nations decolonization committee that the Sahara file no longer belongs on its agenda, arguing that the Security Council has taken the lead after Resolution 2797 recast the UN track around a political settlement based on Morocco’s autonomy plan. Omar Hilale, Morocco’s ambassador to the UN, made the argument during the regional […] The post Morocco tells UN decolonization panel to drop Sahara file after Security Council shift appeared first on HESPRESS English - Morocco News",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-05-30T10:28:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-france-seize-2-7-tonnes-of-cannabis-in-cross-border-trafficking-probe",
-      "title": "Morocco, France seize 2.7 tonnes of cannabis in cross border trafficking probe",
-      "link": "https://en.hespress.com/138920-morocco-france-seize-2-7-tonnes-of-cannabis-in-cross-border-trafficking-probe.html",
-      "description": "French gendarmes working with Morocco’s national security service seized 2,692 kilograms of narcotics, mainly cannabis resin, at the port of Sète in southern France during an investigation into a trafficking route from Morocco to the Lille area, the French Gendarmerie said. The investigation was opened on April 13 by the Lille prosecutor’s office and assigned […] The post Morocco, France seize 2.7 tonnes of cannabis in cross border trafficking probe appeared first on HESPRESS English - Morocco N",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-05-29T21:54:45Z",
+      "published": "2026-05-30T17:04:02Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
