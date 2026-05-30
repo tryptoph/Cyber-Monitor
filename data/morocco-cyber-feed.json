@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-30T07:22:11Z",
+  "generatedAt": "2026-05-30T12:46:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-la-saison-du-hajj-1447-h-a-t-couronn-e-de-succ-s",
-      "title": "La saison du Hajj 1447 H a été couronnée de \"succès\"",
-      "link": "https://fr.hespress.com/475491-la-saison-du-hajj-1447-h-a-ete-couronnee-de-succes.html",
-      "description": "La saison du Hajj de cette année 1447 de l’Hégire a été couronnée de « succès », a souligné le vice-gouverneur de la région de La Mecque et vice-président du Comité permanent du Hajj et de la Omra, le Prince Saud bin Mishal bin Abdulaziz. « La saison a été marquée par un système intégré de sécurité, d’organisation […] The post La saison du Hajj 1447 H a été couronnée de \"succès\" appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-tanger-med-police-seize-1-571-narcotic-pills-from-europe-bound-car",
+      "title": "Tanger Med police seize 1,571 narcotic pills from Europe-bound car",
+      "link": "https://en.hespress.com/138931-tanger-med-police-seize-1571-narcotic-pills-from-europe-bound-car.html",
+      "description": "Moroccan police and customs officers at Tanger Med port seized 1,571 narcotic medical pills early Saturday from a foreign-plated car that had arrived by ferry from a European port, security authorities said. Border checks carried out by police and customs teams uncovered the shipment inside the light vehicle shortly after it entered the port. Authorities […] The post Tanger Med police seize 1,571 narcotic pills from Europe-bound car appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-05-30T00:23:11Z",
+      "published": "2026-05-30T10:28:02Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-29T21:54:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-moroccan-woman-buried-after-day-long-standoff-over-cemetery-access",
-      "title": "Moroccan woman buried after day-long standoff over cemetery access",
-      "link": "https://en.hespress.com/138894-moroccan-woman-buried-after-day-long-standoff-over-cemetery-access.html",
-      "description": "A Moroccan woman was laid to rest Friday morning in the Agbalo Nkerdous cemetery after a day-long standoff and heightened tensions over her burial, prompting a heavy security intervention and an official declaration that the cemetery is public and open to all residents of the area. The incident unfolded Thursday in southeastern Morocco after residents […] The post Moroccan woman buried after day-long standoff over cemetery access appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-05-29T17:10:23Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
