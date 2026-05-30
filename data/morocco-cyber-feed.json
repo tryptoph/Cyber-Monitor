@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-30T01:19:02Z",
+  "generatedAt": "2026-05-30T07:22:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -35,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-29T21:54:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-th-tre-royal-de-rabat-les-billets-d-elissa-s-arrachent-malgr-des-tarifs-contest-s",
-      "title": "Théâtre Royal de Rabat : Les billets d’Elissa s’arrachent malgré des tarifs contestés",
-      "link": "https://fr.hespress.com/475441-theatre-royal-de-rabat-les-billets-delissa-sarrachent-malgre-des-tarifs-contestes.html",
-      "description": "À peine mis en vente, les billets de certains spectacles programmés au Théâtre Royal de Rabat se sont arrachés en quelques heures. Un succès qui intervient pourtant dans un contexte de controverse autour des prix pratiqués pour ces événements, jugés élevés par une partie du public. Parmi les concerts les plus attendus figure celui de […] The post Théâtre Royal de Rabat : Les billets d’Elissa s’arrachent malgré des tarifs contestés appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-29T19:49:51Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
