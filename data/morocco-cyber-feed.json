@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-31T12:51:09Z",
+  "generatedAt": "2026-05-31T18:45:32Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-inflation-post-covid-ce-que-le-fmi-r-v-le-sur-le-cas-du-maroc",
+      "title": "Inflation post-Covid : ce que le FMI révèle sur le cas du Maroc",
+      "link": "https://fr.hespress.com/475346-inflation-post-covid-ce-que-le-fmi-revele-sur-le-cas-du-maroc.html",
+      "description": "Pourquoi certains pays ont-ils mieux résisté à la flambée mondiale des prix après le Covid ? Dans une étude fouillée portant sur 130 économies, le FMI identifie les véritables ressorts de la résilience inflationniste. Et plusieurs de ses conclusions apportent un éclairage particulièrement intéressant sur le cas du Maroc. Alors que l’inflation mondiale a fortement […] The post Inflation post-Covid : ce que le FMI révèle sur le cas du Maroc appeared first on Hespress Français - Actualités du Maroc",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-31T17:36:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-settat-police-arrest-man-suspected-of-physically-abusing-minor-son",
+      "title": "Settat police arrest man suspected of physically abusing minor son",
+      "link": "https://en.hespress.com/138998-settat-police-arrest-man-suspected-of-physically-abusing-minor-son.html",
+      "description": "Moroccan police have arrested a 42-year-old man with a criminal record on suspicion of physically abusing his minor son, the General Directorate of National Security (DGSN) announced on Sunday. According to a statement from the DGSN, officers from the Settat Police Prefecture carried out the arrest following intelligence provided by the General Directorate for Territorial […] The post Settat police arrest man suspected of physically abusing minor son appeared first on HESPRESS English - Morocco ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-31T16:28:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-iran-chief-negotiator-says-no-deal-with-us-until-iranian-rights-secured",
+      "title": "Iran chief negotiator says no deal with US until Iranian rights secured",
+      "link": "https://en.hespress.com/138986-iran-chief-negotiator-says-no-deal-with-us-until-iranian-rights-secured.html",
+      "description": "Iran’s chief negotiator Mohammad Bagher Ghalibaf said on Sunday that Tehran will not agree to any deal with the United States that fails to secure the rights of Iranians. “We will not approve any agreement until we are certain that the rights of the Iranian people have been upheld,” Ghalibaf said, in a video broadcast […] The post Iran chief negotiator says no deal with US until Iranian rights secured appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-05-31T13:46:52Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-france-requests-un-security-council-emergency-meeting-on-lebanon-fm",
       "title": "France requests UN Security Council 'emergency meeting' on Lebanon: FM",
       "link": "https://en.hespress.com/138984-france-requests-un-security-council-emergency-meeting-on-lebanon-fm.html",
@@ -22,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-31T12:42:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-police-refute-social-media-claims-of-crime-wave-in-agadir-and-inzegan-region",
-      "title": "Police refute social media claims of crime wave in Agadir and Inzegan region",
-      "link": "https://en.hespress.com/138977-police-refute-social-media-claims-of-crime-wave-in-agadir-and-inzegan-region.html",
-      "description": "Moroccan security authorities have denied social media reports claiming that multiple homicides occurred in recent days in the neighborhoods of Azrou in Ait Melloul, Trast and Dcheira in the Inzegan security district, and Al Hassani in Agadir. In a statement issued to clarify the situation, police said the incidents under investigation are limited to two […] The post Police refute social media claims of crime wave in Agadir and Inzegan region appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-05-31T10:34:48Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
