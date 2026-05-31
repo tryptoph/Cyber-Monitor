@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-30T18:43:32Z",
+  "generatedAt": "2026-05-31T01:27:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-onssa-a-d-al-adha-1447-s-est-d-roul-dans-des-conditions-sanitaires-satisfaisantes",
+      "title": "ONSSA : Aïd Al-Adha 1447 s'est déroulé dans des conditions sanitaires satisfaisantes",
+      "link": "https://fr.hespress.com/475567-onssa-aid-al-adha-1447-sest-deroule-dans-des-conditions-sanitaires-satisfaisantes.html",
+      "description": "Aïd Al-Adha 1447 s’est déroulé dans des conditions sanitaires satisfaisantes, a affirmé l’Office national de sécurité sanitaire des produits alimentaires (ONSSA). Dans un communiqué, l’ONSSA a souligné que le plan d’action Aïd Al-Adha 1447 (2026) qu’il a mis en place, ainsi que la mobilisation de ses services vétérinaires et de ses laboratoires pendant la période […] The post ONSSA : Aïd Al-Adha 1447 s'est déroulé dans des conditions sanitaires satisfaisantes appeared first on Hespress Français ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-30T21:46:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-tells-un-decolonization-panel-to-drop-sahara-file-after-security-council-shift",
       "title": "Morocco tells UN decolonization panel to drop Sahara file after Security Council shift",
