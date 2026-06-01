@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-05-31T18:45:32Z",
+  "generatedAt": "2026-06-01T01:30:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-carburants-le-gasoil-recule-de-0-53-dirham-ce-1er-juin-l-essence-stagne-sur-fond-d-incertitudes-",
+      "title": "Carburants : Le gasoil recule de 0,53 dirham ce 1er juin, l'essence stagne sur fond d'incertitudes mondiales",
+      "link": "https://fr.hespress.com/475613-carburants-le-gasoil-recule-de-053-dirham-ce-1er-juin-lessence-stagne-sur-fond-dincertitudes-mondiales.html",
+      "description": "À partir de ce lundi 1er juin, les stations-service du Royaume appliqueront de nouveaux tarifs. Si les automobilistes roulant au gasoil bénéficieront d’un léger allègement à la pompe, les prix de l’essence resteront, quant à eux, inchangés. La Fédération nationale des propriétaires, commerçants et gérants des stations-service au Maroc a confirmé cette révision tarifaire dès […] The post Carburants : Le gasoil recule de 0,53 dirham ce 1er juin, l'essence stagne sur fond d'incertitudes mondiales a",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-05-31T21:38:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-inflation-post-covid-ce-que-le-fmi-r-v-le-sur-le-cas-du-maroc",
       "title": "Inflation post-Covid : ce que le FMI révèle sur le cas du Maroc",
@@ -35,32 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-05-31T16:28:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-iran-chief-negotiator-says-no-deal-with-us-until-iranian-rights-secured",
-      "title": "Iran chief negotiator says no deal with US until Iranian rights secured",
-      "link": "https://en.hespress.com/138986-iran-chief-negotiator-says-no-deal-with-us-until-iranian-rights-secured.html",
-      "description": "Iran’s chief negotiator Mohammad Bagher Ghalibaf said on Sunday that Tehran will not agree to any deal with the United States that fails to secure the rights of Iranians. “We will not approve any agreement until we are certain that the rights of the Iranian people have been upheld,” Ghalibaf said, in a video broadcast […] The post Iran chief negotiator says no deal with US until Iranian rights secured appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-05-31T13:46:52Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-france-requests-un-security-council-emergency-meeting-on-lebanon-fm",
-      "title": "France requests UN Security Council 'emergency meeting' on Lebanon: FM",
-      "link": "https://en.hespress.com/138984-france-requests-un-security-council-emergency-meeting-on-lebanon-fm.html",
-      "description": "France has requested an emergency meeting of the United Nations Security Council after Israeli forces seized the medieval Beaufort castle in Lebanon, the French foreign minister said Sunday. “I have requested an emergency meeting of the United Nations Security Council because, while we recognise Israel’s right, like that of all countries, to self-defence… nothing can […] The post France requests UN Security Council 'emergency meeting' on Lebanon: FM appeared first on HESPRESS English - Morocco N",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-05-31T12:42:32Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
