@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-01T14:26:52Z",
+  "generatedAt": "2026-06-01T19:58:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "تواركة والكوكب يقتسمان نقاط التعادل",
+      "link": "https://www.hespress.com/%d8%aa%d9%88%d8%a7%d8%b1%d9%83%d8%a9-%d9%88%d8%a7%d9%84%d9%83%d9%88%d9%83%d8%a8-%d9%8a%d9%82%d8%aa%d8%b3%d9%85%d8%a7%d9%86-%d9%86%d9%82%d8%a7%d8%b7-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d8%af%d9%84-1755677.html",
+      "description": "انتهت مباراة اتحاد تواركة والكوكب المراكشي بالتعادل السلبي (0-0)، في اللقاء الذي احتضنه ملعب المدينة بالرباط، ضمن منافسات الجولة الثانية والعشرين من البطولة الاحترافية لكرة القدم. وجاءت المباراة دون مستوى التطلعات، إذ غابت الفرص الحقيقية والإيقاع المرتفع عن معظم أطوارها، في ظل حذر كبير من الجانبين وصعوبة في بناء الهجمات وخلق الخطورة أمام المرميين. ولم […] The post تواركة والكوكب يقتسمان نقاط التعادل appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-01T18:08:58Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "ترامب يعلن تفاهمًا بين إسرائيل وحزب الله",
+      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%b9%d9%84%d9%86-%d8%aa%d9%81%d8%a7%d9%87%d9%85%d9%8b%d8%a7-%d8%a8%d9%8a%d9%86-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84-%d9%88%d8%ad%d8%b2%d8%a8-%d8%a7%d9%84-1755675.html",
+      "description": "قال الرئيس الأميركي دونالد ترامب، الاثنين، إنه أقنع إسرائيل وحزب الله بخفض التصعيد، حيث وافق رئيس الوزراء بنيامين نتانياهو على عدم إرسال قوات إلى بيروت، بينما تعهد الحزب اللبناني بوقف هجماته. وكتب ترامب على شبكته الاجتماعية “تروث سوشال” بعد مكالمة “مثمرة للغاية” مع نتانياهو، “لن تتوجه أي قوات إلى بيروت، وأي قوات في طريقها قد […] The post ترامب يعلن تفاهمًا بين إسرائيل وحزب الله appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-01T17:50:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-dg-dgssi-le-maroc-demeure-pleinement-engag-consolider-la-r-silience-cyber-du-continent",
+      "title": "DG DGSSI : le Maroc demeure pleinement engagé à consolider la résilience cyber du continent",
+      "link": "https://fr.hespress.com/475697-dg-dgssi-le-maroc-demeure-pleinement-engage-a-consolider-la-resilience-cyber-du-continent.html",
+      "description": "Le Directeur général de la Direction Générale de la Sécurité des Systèmes d’Information (DGSSI), le Général Abdellah Boutrig, a affirmé que fidèle à sa vocation africaine, le Royaume du Maroc continuera à soutenir toutes les initiatives visant à renforcer la protection des systèmes d’information, à développer les compétences et à consolider la résilience cyber du […] The post DG DGSSI : le Maroc demeure pleinement engagé à consolider la résilience cyber du continent appeared first on Hespress Fr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-01T15:20:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-police-launch-investigation-after-human-remains-found-near-mosque",
+      "title": "Police launch investigation after human remains found near mosque",
+      "link": "https://en.hespress.com/139051-police-launch-investigation-after-human-remains-found-near-mosque.html",
+      "description": "Moroccan security authorities launched an investigation Monday after an unidentified body was discovered inside a storage container near the Grand Mosque in the city of Ben Ahmed. Police and local authorities were deployed to the scene shortly after the discovery, according to local sources. The body, which was reportedly in an advanced state of decomposition, […] The post Police launch investigation after human remains found near mosque appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-01T15:14:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-zakaria-el-ouahdi-je-n-ai-pas-h-sit-un-seul-instant-choisir-le-maroc",
       "title": "Zakaria El Ouahdi : je n'ai pas hésité un seul instant à choisir le Maroc",
@@ -48,19 +100,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-01T13:32:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-immobilier-le-registre-national-des-procurations-entre-en-vigueur",
-      "title": "Immobilier : le registre national des procurations entre en vigueur",
-      "link": "https://fr.hespress.com/475687-immobilier-le-registre-national-des-procurations-entre-en-vigueur.html",
-      "description": "À partir de ce 1er juin 2026, les procurations utilisées dans les transactions immobilières entrent dans une nouvelle ère. Désormais, les mandats portant sur des droits réels devront être enregistrés dans un registre national dédié. Une réforme attendue qui vise à renforcer la sécurité juridique des transactions et à mieux lutter contre les risques de […] The post Immobilier : le registre national des procurations entre en vigueur appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-01T12:05:38Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
