@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-01T01:30:53Z",
+  "generatedAt": "2026-06-01T08:14:55Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-ar-item",
+      "title": "جيش أمريكا يقصف رادارات إيرانية",
+      "link": "https://www.hespress.com/%d8%ac%d9%8a%d8%b4-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d9%8a%d9%82%d8%b5%d9%81-%d8%b1%d8%a7%d8%af%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-1755389.html",
+      "description": "أعلن الجيش الأمريكي، اليوم الاثنين، أنه شن غارات جوية استهدفت مواقع للرادارات ومراكز تحكم في “الدرونات” داخل إيران، وذلك بعد إسقاط طهران طائرة أمريكية مسيرة من طراز “إم كيو-1 بريداتور” خلال عطلة نهاية الأسبوع. وفي غضون ذلك، أعلنت الكويت أن دفاعاتها الجوية فتحت النار، في وقت مبكر من صباح اليوم الاثنين، لاعتراض هجوم بـ”طائرات مسيرة” […] The post جيش أمريكا يقصف رادارات إيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-01T07:06:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-netanyahu-veut-intensifier-son-offensive-au-liban-conseil-de-s-curit-de-l-onu-lundi",
+      "title": "Netanyahu veut intensifier son offensive au Liban, Conseil de sécurité de l'ONU lundi",
+      "link": "https://fr.hespress.com/475634-netanyahu-veut-intensifier-son-offensive-au-liban-conseil-de-securite-de-lonu-lundi.html",
+      "description": "Le Premier ministre israélien Benjamin Netanyahu a annoncé dimanche vouloir intensifier son offensive contre le Hezbollah au Liban où il a qualifié la prise de la forteresse de Beaufort de « tournant décisif », poussant la France à demander une réunion d’urgence du Conseil de sécurité. « Rien ne justifie l’escalade majeure en cours au Sud Liban », a […] The post Netanyahu veut intensifier son offensive au Liban, Conseil de sécurité de l'ONU lundi appeared first on Hespress Français - Actualités ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-01T03:22:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-carburants-le-gasoil-recule-de-0-53-dirham-ce-1er-juin-l-essence-stagne-sur-fond-d-incertitudes-",
       "title": "Carburants : Le gasoil recule de 0,53 dirham ce 1er juin, l'essence stagne sur fond d'incertitudes mondiales",
       "link": "https://fr.hespress.com/475613-carburants-le-gasoil-recule-de-053-dirham-ce-1er-juin-lessence-stagne-sur-fond-dincertitudes-mondiales.html",
@@ -22,19 +48,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-05-31T21:38:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-inflation-post-covid-ce-que-le-fmi-r-v-le-sur-le-cas-du-maroc",
-      "title": "Inflation post-Covid : ce que le FMI révèle sur le cas du Maroc",
-      "link": "https://fr.hespress.com/475346-inflation-post-covid-ce-que-le-fmi-revele-sur-le-cas-du-maroc.html",
-      "description": "Pourquoi certains pays ont-ils mieux résisté à la flambée mondiale des prix après le Covid ? Dans une étude fouillée portant sur 130 économies, le FMI identifie les véritables ressorts de la résilience inflationniste. Et plusieurs de ses conclusions apportent un éclairage particulièrement intéressant sur le cas du Maroc. Alors que l’inflation mondiale a fortement […] The post Inflation post-Covid : ce que le FMI révèle sur le cas du Maroc appeared first on Hespress Français - Actualités du Maroc",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-05-31T17:36:34Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
