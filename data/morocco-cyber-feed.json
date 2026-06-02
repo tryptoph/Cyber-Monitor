@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-02T13:43:27Z",
+  "generatedAt": "2026-06-02T19:33:58Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-ride-hailing-driver-murdered-near-casablanca-renewing-calls-for-sector-regulation",
-      "title": "Ride-hailing driver murdered near Casablanca, renewing calls for sector regulation",
-      "link": "https://en.hespress.com/139113-ride-hailing-driver-murdered-near-casablanca-renewing-calls-for-sector-regulation.html",
-      "description": "Moroccan security authorities are continuing their investigation into the killing of a young ride-hailing driver whose body was discovered in the Dar Bouazza area near Casablanca, a case that has renewed debate over safety and legal protections for drivers working through mobile transport applications. The victim, who worked through the ride-hailing platform InDrive and was […] The post Ride-hailing driver murdered near Casablanca, renewing calls for sector regulation appeared first on HESPRESS ",
+      "id": "hespress-en-three-arrested-in-connection-with-killing-of-app-based-driver",
+      "title": "Three arrested in connection with killing of app-based driver",
+      "link": "https://en.hespress.com/139133-three-arrested-in-connection-with-killing-of-app-based-driver.html",
+      "description": "Moroccan authorities have arrested three suspects, including a woman, in connection with the killing of a young driver who worked through a ride-hailing application, according to Hespress AR sources familiar with the investigation. The suspects were detained Tuesday following a joint operation involving the Royal Gendarmerie in Casablanca, Sale and Kenitra, coordinated with security services […] The post Three arrested in connection with killing of app-based driver appeared first on HESPRESS Eng",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-02T12:20:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-dollar-sous-pression-malgr-les-incertitudes-au-moyen-orient",
-      "title": "Le dollar sous pression malgré les incertitudes au Moyen-Orient",
-      "link": "https://fr.hespress.com/475791-le-dollar-sous-pression-malgre-les-incertitudes-au-moyen-orient.html",
-      "description": "Le dollar faiblit un peu mardi, les investisseurs semblant encore croire à la poursuite des négociations pour résoudre la guerre au Moyen-Orient, mises en péril par la poursuite du conflit au Liban. Donald Trump a affirmé que les négociations continuaient bel et bien avec Téhéran, contredisant l’affirmation de l’agence de presse iranienne Tasnim, selon laquelle […] The post Le dollar sous pression malgré les incertitudes au Moyen-Orient appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-02T11:18:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-tangier-authorities-probe-viral-video-showing-man-held-by-shop-workers",
-      "title": "Tangier authorities probe viral video showing man held by shop workers",
-      "link": "https://en.hespress.com/139109-tangier-authorities-probe-viral-video-showing-man-held-by-shop-workers.html",
-      "description": "Police in Tangier have opened an investigation after a video circulated on social media showing several individuals detaining a man and forcing him to accompany them to an undisclosed location. According to a statement from the General Directorate of National Security (DGSN), preliminary inquiries found that the incident involved employees of a commercial establishment who […] The post Tangier authorities probe viral video showing man held by shop workers appeared first on HESPRESS English - Mor",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-02T11:12:45Z",
+      "published": "2026-06-02T15:27:25Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
