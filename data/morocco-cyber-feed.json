@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-03T01:33:06Z",
+  "generatedAt": "2026-06-03T08:05:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -35,32 +35,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-06-02T22:50:38Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "جيش الكويت يتصدى لهجمات معادية",
-      "link": "https://www.hespress.com/%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa-%d9%8a%d8%aa%d8%b5%d8%af%d9%89-%d9%84%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d9%85%d8%b9%d8%a7%d8%af%d9%8a%d8%a9-1756228.html",
-      "description": "أعلن الجيش الكويتي أن دفاعاته الجوية تتصدى لهجمات معادية بصواريخ وطائرات مسيرة، وحث المواطنين على اتباع تعليمات الأمن والسلامة الصادرة عن الجهات المختصة. وأضاف الجيش أن أي أصوات انفجارات سمعت كانت نتيجة عمليات اعتراض. The post جيش الكويت يتصدى لهجمات معادية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-02T22:39:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "السنغال تحرز كأس إفريقيا للفتيان",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b3%d9%86%d8%ba%d8%a7%d9%84-%d8%aa%d8%ad%d8%b1%d8%b2-%d9%83%d8%a3%d8%b3-%d8%a5%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-%d9%84%d9%84%d9%81%d8%aa%d9%8a%d8%a7%d9%86-1756205.html",
-      "description": "أحرز منتخب السنغال لقب كأس أمم إفريقيا لأقل من 17 سنة بعد تجاوزه منتخب تنزانيا بركلات الترجيح (4-2)، عقب نهاية الوقت الأصلي بالتعادل الإيجابي بهدف لمثله، اليوم، على أرضية ملعب الأمير مولاي الحسن بالرباط، ضمن المباراة النهائية. وانطلق الشوط الأول سجالاً بين الطرفين، حيث تبادل المنتخبان الهجمات بحثاً عن تسجيل هدف مبكر، مع سيطرة طفيفة […] The post السنغال تحرز كأس إفريقيا للفتيان appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-02T21:27:02Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
