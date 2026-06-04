@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-04T07:58:50Z",
+  "generatedAt": "2026-06-04T13:30:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-tourisme-le-maroc-signe-un-d-but-d-ann-e-exceptionnel-avec-24-de-recettes",
-      "title": "Tourisme : le Maroc signe un début d’année exceptionnel avec +24 % de recettes",
-      "link": "https://fr.hespress.com/475972-tourisme-le-maroc-signe-un-debut-dannee-exceptionnel-avec-24-de-recettes.html",
-      "description": "Le rapport World Tourisme Barometer de l’ONU Tourisme, souligne que le tourisme a augmenté de 2% sur les trois premiers mois de 2026 comparé à la même période l’année précédente, malgré un climat d’incertitudes mondial. Dans cette configuration, la destination Maroc tire son épingle du jeu avec une augmentation substentielles des arrivées touristiques. Face à […] The post Tourisme : le Maroc signe un début d’année exceptionnel avec +24 % de recettes appeared first on Hespress Français - Actualit",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-03T22:15:17Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-road-accidents-claim-38-lives-in-morocco-s-urban-areas-over-past-week",
-      "title": "Road Accidents Claim 38 Lives in Morocco’s Urban Areas over Past Week",
-      "link": "https://en.hespress.com/139235-road-accidents-claim-38-lives-in-moroccos-urban-areas-over-past-week-2.html",
-      "description": "Thirty-eight people were killed and 2,867 others injured, including 157 seriously, in 2,002 traffic accidents recorded in urban areas between May 25 and 31, according to the Directorate General of National Security (DGSN). These accidents were mainly due to driver inattention, failure to yield the right of way, speeding, failure to maintain a safe distance, […] The post Road Accidents Claim 38 Lives in Morocco’s Urban Areas over Past Week appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-03T19:32:16Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
