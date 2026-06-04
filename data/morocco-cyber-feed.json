@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-04T01:34:22Z",
+  "generatedAt": "2026-06-04T07:58:50Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -27,19 +27,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "نهضة بركان يهزم الرجاء بهدف في \"دونور\".. ويشعل صراع صدارة البطولة",
-      "link": "https://www.hespress.com/%d9%86%d9%87%d8%b6%d8%a9-%d8%a8%d8%b1%d9%83%d8%a7%d9%86-%d9%8a%d9%87%d8%b2%d9%85-%d8%a7%d9%84%d8%b1%d8%ac%d8%a7%d8%a1-%d8%a8%d9%87%d8%af%d9%81-%d9%81%d9%8a-%d8%af%d9%88%d9%86%d9%88%d8%b1-%d9%88-1756653.html",
-      "description": "حقق نهضة بركان فوزاً ثميناً على مضيفه الرجاء الرياضي بهدف دون رد، في قمة الجولة الثانية والعشرين من البطولة الاحترافية، التي جمعتهما مساء الأربعاء على أرضية المركب الرياضي محمد الخامس بمدينة الدار البيضاء. ودخل الفريق “الأخضر” المباراة بنزعة هجومية واضحة، بحثاً عن افتتاح التسجيل مبكراً، غير أن زملاء آدم النفاتي افتقدوا للنجاعة والتركيز في اللمسة […] The post نهضة بركان يهزم الرجاء بهدف في \"دونور\".. ويشعل صراع صدارة البطولة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-03T22:03:40Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-road-accidents-claim-38-lives-in-morocco-s-urban-areas-over-past-week",
       "title": "Road Accidents Claim 38 Lives in Morocco’s Urban Areas over Past Week",
       "link": "https://en.hespress.com/139235-road-accidents-claim-38-lives-in-moroccos-urban-areas-over-past-week-2.html",
@@ -48,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-03T19:32:16Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cs-de-l-onu-5-pays-lus-membres-non-permanents-pour-2027-28",
-      "title": "CS de l'ONU : 5 pays élus membres non permanents pour 2027/28",
-      "link": "https://fr.hespress.com/476030-cs-de-lonu-5-pays-elus-membres-non-permanents-pour-2027-28.html",
-      "description": "Cinq États ont été élus membres non permanents du Conseil de sécurité (CS) de l’ONU pour la période 2027-2028, lors d’une séance plénière de l’Assemblée générale des Nations Unies tenue mercredi. Il s’agit du Zimbabwe, élu au titre du Groupe africain, de Trinité-et-Tobago, qui occupera le siège réservé au Groupe des États d’Amérique latine et […] The post CS de l'ONU : 5 pays élus membres non permanents pour 2027/28 appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-03T19:14:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
