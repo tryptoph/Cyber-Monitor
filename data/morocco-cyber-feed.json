@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-03T19:38:11Z",
+  "generatedAt": "2026-06-04T01:34:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-tourisme-le-maroc-signe-un-d-but-d-ann-e-exceptionnel-avec-24-de-recettes",
+      "title": "Tourisme : le Maroc signe un début d’année exceptionnel avec +24 % de recettes",
+      "link": "https://fr.hespress.com/475972-tourisme-le-maroc-signe-un-debut-dannee-exceptionnel-avec-24-de-recettes.html",
+      "description": "Le rapport World Tourisme Barometer de l’ONU Tourisme, souligne que le tourisme a augmenté de 2% sur les trois premiers mois de 2026 comparé à la même période l’année précédente, malgré un climat d’incertitudes mondial. Dans cette configuration, la destination Maroc tire son épingle du jeu avec une augmentation substentielles des arrivées touristiques. Face à […] The post Tourisme : le Maroc signe un début d’année exceptionnel avec +24 % de recettes appeared first on Hespress Français - Actualit",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-03T22:15:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "نهضة بركان يهزم الرجاء بهدف في \"دونور\".. ويشعل صراع صدارة البطولة",
+      "link": "https://www.hespress.com/%d9%86%d9%87%d8%b6%d8%a9-%d8%a8%d8%b1%d9%83%d8%a7%d9%86-%d9%8a%d9%87%d8%b2%d9%85-%d8%a7%d9%84%d8%b1%d8%ac%d8%a7%d8%a1-%d8%a8%d9%87%d8%af%d9%81-%d9%81%d9%8a-%d8%af%d9%88%d9%86%d9%88%d8%b1-%d9%88-1756653.html",
+      "description": "حقق نهضة بركان فوزاً ثميناً على مضيفه الرجاء الرياضي بهدف دون رد، في قمة الجولة الثانية والعشرين من البطولة الاحترافية، التي جمعتهما مساء الأربعاء على أرضية المركب الرياضي محمد الخامس بمدينة الدار البيضاء. ودخل الفريق “الأخضر” المباراة بنزعة هجومية واضحة، بحثاً عن افتتاح التسجيل مبكراً، غير أن زملاء آدم النفاتي افتقدوا للنجاعة والتركيز في اللمسة […] The post نهضة بركان يهزم الرجاء بهدف في \"دونور\".. ويشعل صراع صدارة البطولة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-03T22:03:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-road-accidents-claim-38-lives-in-morocco-s-urban-areas-over-past-week",
       "title": "Road Accidents Claim 38 Lives in Morocco’s Urban Areas over Past Week",
@@ -35,19 +61,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-06-03T19:14:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "لحظة تاريخية .. تصفيق حار بعد إعلان اختراق ضد سرطان البنكرياس",
-      "link": "https://www.hespress.com/%d9%84%d8%ad%d8%b8%d8%a9-%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae%d9%8a%d8%a9-%d8%aa%d8%b5%d9%81%d9%8a%d9%82-%d8%ad%d8%a7%d8%b1-%d8%a8%d8%b9%d8%af-%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%a7%d8%ae%d8%aa%d8%b1-1756496.html",
-      "description": "The post لحظة تاريخية .. تصفيق حار بعد إعلان اختراق ضد سرطان البنكرياس appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-03T17:17:32Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
