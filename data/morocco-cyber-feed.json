@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-04T13:30:26Z",
+  "generatedAt": "2026-06-04T19:08:08Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-soutien-social-lekjaa-d-voile-une-r-forme-pour-encourager-le-retour-l-emploi",
+      "title": "Soutien social : Lekjaa dévoile une réforme pour encourager le retour à l'emploi",
+      "link": "https://fr.hespress.com/476122-soutien-social-lekjaa-devoile-une-reforme-pour-encourager-le-retour-a-lemploi.html",
+      "description": "Le ministre délégué chargé du Budget, Fouzi Lekjaa, a exposé jeudi les contours du projet de loi n° 041.26, modifiant et complétant la loi n° 58.23 relative au dispositif d’aide directe. Cette réforme, a-t-il expliqué devant la Chambre des conseillers, vise à résoudre une problématique constatée sur le terrain : la réticence de certains bénéficiaires à intégrer […] The post Soutien social : Lekjaa dévoile une réforme pour encourager le retour à l'emploi appeared first on Hespress Français - Actu",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-04T17:07:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
