@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-05T01:24:55Z",
+  "generatedAt": "2026-06-05T07:50:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "الغموض يلف صحة مجتبى خامنئي وإدارة السلطة في الجمهورية الإيرانية",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ba%d9%85%d9%88%d8%b6-%d9%8a%d9%84%d9%81-%d8%b5%d8%ad%d8%a9-%d9%85%d8%ac%d8%aa%d8%a8%d9%89-%d8%ae%d8%a7%d9%85%d9%86%d8%a6%d9%8a-%d9%88%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b3-1757164.html",
-      "description": "لم يظهر المرشد الأعلى للجمهورية الإسلامية، مجتبى خامنئي، علناً منذ انتخابه، ويسود الغموض حول وضعه الصحي، مع تزايد التساؤلات عما إذا كان يمسك بزمام السلطة في الجمهورية الإسلامية. لكن المؤشرات تتزايد بشأن انخراطه في شؤون الحكم واتخاذ القرار. انتُخب مجتبى خلفاً لوالده علي، الذي اغتيل في اليوم الأول من الهجوم الأميركي الإسرائيلي على إيران في […] The post الغموض يلف صحة مجتبى خامنئي وإدارة السلطة في الجمهورية الإيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-le-maroc-deux-vitesses-58-5-du-pib-concentr-s-dans-trois-r-gions-et-72-des-pauvres-en-milieu-rur",
+      "title": "Le Maroc à deux vitesses : 58,5 % du PIB concentrés dans trois régions et 72 % des pauvres en milieu rural",
+      "link": "https://fr.hespress.com/475938-le-maroc-a-deux-vitesses-585-du-pib-concentres-dans-trois-regions-et-72-des-pauvres-en-milieu-rural.html",
+      "description": "Au Maroc, la croissance économique continue de dessiner une géographie à deux vitesses. Si les indicateurs macroéconomiques témoignent d’une dynamique de création de richesse, celle-ci demeure fortement concentrée dans quelques pôles urbains, tandis que de vastes territoires ruraux et montagneux restent confrontés à la pauvreté, à la vulnérabilité sociale et à un accès limité aux […] The post Le Maroc à deux vitesses : 58,5 % du PIB concentrés dans trois régions et 72 % des pauvres en milieu rur",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-04T23:00:33Z",
+      "published": "2026-06-05T07:09:23Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
