@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-05T13:25:23Z",
+  "generatedAt": "2026-06-05T19:00:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-en-women-warned-after-fake-jazzablanca-recruitment-campaign-asks-for-full-body-photos-on-whatsapp",
-      "title": "Women warned after fake Jazzablanca recruitment campaign asks for full-body photos on WhatsApp",
-      "link": "https://en.hespress.com/139360-women-warned-after-fake-jazzablanca-recruitment-campaign-asks-for-full-body-photos-on-whatsapp.html",
-      "description": "A fraudulent recruitment campaign targeting women seeking work in Jazzablanca music festival has drawn multiple complaints after victims say they were pressured to submit full-body photographs through private messaging apps, organizers and those affected said. The scam, listed on LinkedIn and other hiring platforms, advertised positions including security agents, hosts, waiters, and organizational staff, and […] The post Women warned after fake Jazzablanca recruitment campaign asks for full-body",
+      "id": "hespress-en-morocco-unveils-tougher-anti-hooliganism-strategy-ahead-of-major-sporting-events",
+      "title": "Morocco unveils tougher anti-hooliganism strategy ahead of major sporting events",
+      "link": "https://en.hespress.com/139398-morocco-unveils-tougher-anti-hooliganism-strategy-ahead-of-major-sporting-events.html",
+      "description": "Morocco’s top security official chaired a high-level meeting Friday aimed at strengthening measures to combat sports-related violence and enhance security at stadiums and sporting venues ahead of major international events the country is set to host. The meeting was led by Abdellatif Hammouchi, director general of National Security and Territorial Surveillance, at the new headquarters […] The post Morocco unveils tougher anti-hooliganism strategy ahead of major sporting events appeared first on ",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-05T12:49:09Z",
+      "published": "2026-06-05T18:00:33Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-en-five-new-security-council-members-set-to-join-un-body-overseeing-sahara-file",
-      "title": "Five new Security Council members set to join UN body overseeing Sahara file",
-      "link": "https://en.hespress.com/139357-five-new-security-council-members-set-to-join-un-body-overseeing-sahara-file.html",
-      "description": "The United Nations General Assembly has elected Austria, Portugal, Kyrgyzstan, Zimbabwe, and Trinidad and Tobago to serve as non permanent members of the Security Council for the 2027–2028 term, a change that will bring a new mix of voices to the UN body responsible for overseeing the Sahara file. The five countries will take their […] The post Five new Security Council members set to join UN body overseeing Sahara file appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-05T11:22:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-onu-le-nouveau-visage-du-conseil-de-s-curit-consolide-le-soutien-pour-le-sahara-marocain",
-      "title": "ONU : Le nouveau visage du Conseil de sécurité consolide le soutien pour le Sahara marocain",
-      "link": "https://fr.hespress.com/476228-onu-le-nouveau-visage-du-conseil-de-securite-consolide-le-soutien-pour-le-sahara-marocain.html",
-      "description": "L’Assemblée de l’ONU choisit, au cours de cette semaine, cinq nouveaux pays pour les sièges non fixes au sein du Conseil de sécurité. Ce mandat couvre une durée de deux ans, du premier de l’année 2027 jusqu’au terme du mois de décembre 2028. L’Autriche, le Portugal, le Zimbabwe, Trinité-et-Tobago, et le Kirghizistan prennent la relève […] The post ONU : Le nouveau visage du Conseil de sécurité consolide le soutien pour le Sahara marocain appeared first on Hespress Français - Actualités du Maroc ",
+      "id": "hespress-fr-s-curit-des-stades-nouvelle-strat-gie-pour-contrer-le-hooliganisme",
+      "title": "Sécurité des stades : nouvelle stratégie pour contrer le hooliganisme",
+      "link": "https://fr.hespress.com/476309-securite-des-stades-nouvelle-strategie-pour-contrer-le-hooliganisme.html",
+      "description": "Le directeur général de la Sûreté nationale et de la Surveillance du territoire (Pôle DGSN-DGST), Abdellatif Hammouchi, a présidé ce vendredi 5 juin au nouveau siège de la DGSN à Rabat, une deuxième réunion stratégique élargie. Ce conclave a été consacré à l’actualisation et au renforcement du plan d’action sécuritaire dédié à la lutte contre […] The post Sécurité des stades : nouvelle stratégie pour contrer le hooliganisme appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-05T10:33:30Z",
+      "published": "2026-06-05T17:35:55Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
