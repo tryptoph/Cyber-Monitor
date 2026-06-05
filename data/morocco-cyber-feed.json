@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-05T07:50:06Z",
+  "generatedAt": "2026-06-05T13:25:23Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-le-maroc-deux-vitesses-58-5-du-pib-concentr-s-dans-trois-r-gions-et-72-des-pauvres-en-milieu-rur",
-      "title": "Le Maroc à deux vitesses : 58,5 % du PIB concentrés dans trois régions et 72 % des pauvres en milieu rural",
-      "link": "https://fr.hespress.com/475938-le-maroc-a-deux-vitesses-585-du-pib-concentres-dans-trois-regions-et-72-des-pauvres-en-milieu-rural.html",
-      "description": "Au Maroc, la croissance économique continue de dessiner une géographie à deux vitesses. Si les indicateurs macroéconomiques témoignent d’une dynamique de création de richesse, celle-ci demeure fortement concentrée dans quelques pôles urbains, tandis que de vastes territoires ruraux et montagneux restent confrontés à la pauvreté, à la vulnérabilité sociale et à un accès limité aux […] The post Le Maroc à deux vitesses : 58,5 % du PIB concentrés dans trois régions et 72 % des pauvres en milieu rur",
+      "id": "hespress-en-women-warned-after-fake-jazzablanca-recruitment-campaign-asks-for-full-body-photos-on-whatsapp",
+      "title": "Women warned after fake Jazzablanca recruitment campaign asks for full-body photos on WhatsApp",
+      "link": "https://en.hespress.com/139360-women-warned-after-fake-jazzablanca-recruitment-campaign-asks-for-full-body-photos-on-whatsapp.html",
+      "description": "A fraudulent recruitment campaign targeting women seeking work in Jazzablanca music festival has drawn multiple complaints after victims say they were pressured to submit full-body photographs through private messaging apps, organizers and those affected said. The scam, listed on LinkedIn and other hiring platforms, advertised positions including security agents, hosts, waiters, and organizational staff, and […] The post Women warned after fake Jazzablanca recruitment campaign asks for full-body",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-05T12:49:09Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-five-new-security-council-members-set-to-join-un-body-overseeing-sahara-file",
+      "title": "Five new Security Council members set to join UN body overseeing Sahara file",
+      "link": "https://en.hespress.com/139357-five-new-security-council-members-set-to-join-un-body-overseeing-sahara-file.html",
+      "description": "The United Nations General Assembly has elected Austria, Portugal, Kyrgyzstan, Zimbabwe, and Trinidad and Tobago to serve as non permanent members of the Security Council for the 2027–2028 term, a change that will bring a new mix of voices to the UN body responsible for overseeing the Sahara file. The five countries will take their […] The post Five new Security Council members set to join UN body overseeing Sahara file appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-05T11:22:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-onu-le-nouveau-visage-du-conseil-de-s-curit-consolide-le-soutien-pour-le-sahara-marocain",
+      "title": "ONU : Le nouveau visage du Conseil de sécurité consolide le soutien pour le Sahara marocain",
+      "link": "https://fr.hespress.com/476228-onu-le-nouveau-visage-du-conseil-de-securite-consolide-le-soutien-pour-le-sahara-marocain.html",
+      "description": "L’Assemblée de l’ONU choisit, au cours de cette semaine, cinq nouveaux pays pour les sièges non fixes au sein du Conseil de sécurité. Ce mandat couvre une durée de deux ans, du premier de l’année 2027 jusqu’au terme du mois de décembre 2028. L’Autriche, le Portugal, le Zimbabwe, Trinité-et-Tobago, et le Kirghizistan prennent la relève […] The post ONU : Le nouveau visage du Conseil de sécurité consolide le soutien pour le Sahara marocain appeared first on Hespress Français - Actualités du Maroc ",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-05T07:09:23Z",
+      "published": "2026-06-05T10:33:30Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
