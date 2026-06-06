@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-06T01:19:44Z",
+  "generatedAt": "2026-06-06T07:25:05Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-asma-lamnawar-signe-son-retour-avec-ila-kenti-habibi",
-      "title": "Asma Lamnawar signe son retour avec « Ila Kenti Habibi »",
-      "link": "https://fr.hespress.com/476278-asma-lamnawar-signe-son-retour-avec-ila-kenti-habibi.html",
-      "description": "À quelques semaines de son très attendu concert sur la scène Nahda dans le cadre du Festival Mawazine, prévu le 22 juin prochain, la chanteuse marocaine Asma Lamnawar revient sur le devant de la scène avec un nouveau titre intitulé « Ila Kenti Habibi » (« Si tu es mon amour »). Disponible depuis peu […] The post Asma Lamnawar signe son retour avec « Ila Kenti Habibi » appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-05T19:49:49Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-morocco-unveils-tougher-anti-hooliganism-strategy-ahead-of-major-sporting-events",
       "title": "Morocco unveils tougher anti-hooliganism strategy ahead of major sporting events",
