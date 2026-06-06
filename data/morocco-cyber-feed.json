@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-06T07:25:05Z",
+  "generatedAt": "2026-06-06T12:49:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-en-morocco-unveils-tougher-anti-hooliganism-strategy-ahead-of-major-sporting-events",
-      "title": "Morocco unveils tougher anti-hooliganism strategy ahead of major sporting events",
-      "link": "https://en.hespress.com/139398-morocco-unveils-tougher-anti-hooliganism-strategy-ahead-of-major-sporting-events.html",
-      "description": "Morocco’s top security official chaired a high-level meeting Friday aimed at strengthening measures to combat sports-related violence and enhance security at stadiums and sporting venues ahead of major international events the country is set to host. The meeting was led by Abdellatif Hammouchi, director general of National Security and Territorial Surveillance, at the new headquarters […] The post Morocco unveils tougher anti-hooliganism strategy ahead of major sporting events appeared first on ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-05T18:00:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
