@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-05T19:00:09Z",
+  "generatedAt": "2026-06-06T01:19:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-asma-lamnawar-signe-son-retour-avec-ila-kenti-habibi",
+      "title": "Asma Lamnawar signe son retour avec « Ila Kenti Habibi »",
+      "link": "https://fr.hespress.com/476278-asma-lamnawar-signe-son-retour-avec-ila-kenti-habibi.html",
+      "description": "À quelques semaines de son très attendu concert sur la scène Nahda dans le cadre du Festival Mawazine, prévu le 22 juin prochain, la chanteuse marocaine Asma Lamnawar revient sur le devant de la scène avec un nouveau titre intitulé « Ila Kenti Habibi » (« Si tu es mon amour »). Disponible depuis peu […] The post Asma Lamnawar signe son retour avec « Ila Kenti Habibi » appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-05T19:49:49Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-morocco-unveils-tougher-anti-hooliganism-strategy-ahead-of-major-sporting-events",
       "title": "Morocco unveils tougher anti-hooliganism strategy ahead of major sporting events",
       "link": "https://en.hespress.com/139398-morocco-unveils-tougher-anti-hooliganism-strategy-ahead-of-major-sporting-events.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-05T18:00:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-s-curit-des-stades-nouvelle-strat-gie-pour-contrer-le-hooliganisme",
-      "title": "Sécurité des stades : nouvelle stratégie pour contrer le hooliganisme",
-      "link": "https://fr.hespress.com/476309-securite-des-stades-nouvelle-strategie-pour-contrer-le-hooliganisme.html",
-      "description": "Le directeur général de la Sûreté nationale et de la Surveillance du territoire (Pôle DGSN-DGST), Abdellatif Hammouchi, a présidé ce vendredi 5 juin au nouveau siège de la DGSN à Rabat, une deuxième réunion stratégique élargie. Ce conclave a été consacré à l’actualisation et au renforcement du plan d’action sécuritaire dédié à la lutte contre […] The post Sécurité des stades : nouvelle stratégie pour contrer le hooliganisme appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-05T17:35:55Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
