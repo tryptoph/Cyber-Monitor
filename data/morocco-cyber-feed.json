@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-06T18:47:05Z",
+  "generatedAt": "2026-06-07T01:28:32Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-s-curit-des-pi-tons-aux-abords-de-la-gare-rabat-ryad-laftit-r-pond-aux-inqui-tudes",
+      "title": "Sécurité des piétons aux abords de la gare Rabat-Ryad : Laftit répond aux inquiétudes",
+      "link": "https://fr.hespress.com/476249-securite-des-pietons-aux-abords-de-la-gare-rabat-ryad-laftit-repond-aux-inquietudes.html",
+      "description": "À Rabat, la question de l’accès sécurisé à la gare de Rabat-Ryad et à la nouvelle gare routière continue d’alimenter les préoccupations des habitants des quartiers du sud de la capitale. Interpellé au Parlement sur les difficultés rencontrées par les piétons pour rejoindre ces infrastructures, le ministre de l’Intérieur, Abdelouafi Laftit, a assuré que les […] The post Sécurité des piétons aux abords de la gare Rabat-Ryad : Laftit répond aux inquiétudes appeared first on Hespress Français - Actu",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-06T21:35:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-five-moroccan-women-return-from-syria-as-repatriation-efforts-gain-momentum",
+      "title": "Five Moroccan women return from Syria as repatriation efforts gain momentum",
+      "link": "https://en.hespress.com/139439-five-moroccan-women-return-from-syria-as-repatriation-efforts-gain-momentum.html",
+      "description": "Five Moroccan women have returned home from northeastern Syria in recent weeks after completing legal and administrative procedures coordinated with Morocco’s embassy in Damascus, bringing renewed attention to one of the kingdom’s most complex humanitarian and security files. The returns mark a new phase in Morocco’s efforts to repatriate citizens stranded in Syrian conflict zones, […] The post Five Moroccan women return from Syria as repatriation efforts gain momentum appeared first on HESPRESS",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-06T19:02:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-des-fonctionnaires-communaux-soup-onn-s-d-avoir-fait-pression-sur-des-propri-taires-fonciers",
       "title": "Des fonctionnaires communaux soupçonnés d’avoir fait pression sur des propriétaires fonciers",
