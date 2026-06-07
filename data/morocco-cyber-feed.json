@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-07T07:43:39Z",
+  "generatedAt": "2026-06-07T12:52:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "التعاون السعودي يهتم بـ\"حمد الله\"",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d8%a7%d9%84%d8%b3%d8%b9%d9%88%d8%af%d9%8a-%d9%8a%d9%87%d8%aa%d9%85-%d8%a8%d9%80%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d9%84%d9%87-1758033.html",
-      "description": "دخل الدولي المغربي عبد الرزاق حمد الله دائرة اهتمامات نادي التعاون السعودي، الذي يدرس إمكانية التعاقد معه خلال فترة الانتقالات المقبلة، في إطار مساعيه لتعزيز خطه الهجومي استعدادًا لانطلاق الموسم الجديد. وذكرت تقارير إعلامية سعودية أن إدارة التعاون وضعت اسم حمد الله ضمن قائمة المرشحين لتدعيم الفريق، خاصة في ظل الغموض الذي يحيط بمستقبل المهاجم […] The post التعاون السعودي يهتم بـ\"حمد الله\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-07T07:17:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-s-curit-des-pi-tons-aux-abords-de-la-gare-rabat-ryad-laftit-r-pond-aux-inqui-tudes",
-      "title": "Sécurité des piétons aux abords de la gare Rabat-Ryad : Laftit répond aux inquiétudes",
-      "link": "https://fr.hespress.com/476249-securite-des-pietons-aux-abords-de-la-gare-rabat-ryad-laftit-repond-aux-inquietudes.html",
-      "description": "À Rabat, la question de l’accès sécurisé à la gare de Rabat-Ryad et à la nouvelle gare routière continue d’alimenter les préoccupations des habitants des quartiers du sud de la capitale. Interpellé au Parlement sur les difficultés rencontrées par les piétons pour rejoindre ces infrastructures, le ministre de l’Intérieur, Abdelouafi Laftit, a assuré que les […] The post Sécurité des piétons aux abords de la gare Rabat-Ryad : Laftit répond aux inquiétudes appeared first on Hespress Français - Actu",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-06T21:35:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-five-moroccan-women-return-from-syria-as-repatriation-efforts-gain-momentum",
-      "title": "Five Moroccan women return from Syria as repatriation efforts gain momentum",
-      "link": "https://en.hespress.com/139439-five-moroccan-women-return-from-syria-as-repatriation-efforts-gain-momentum.html",
-      "description": "Five Moroccan women have returned home from northeastern Syria in recent weeks after completing legal and administrative procedures coordinated with Morocco’s embassy in Damascus, bringing renewed attention to one of the kingdom’s most complex humanitarian and security files. The returns mark a new phase in Morocco’s efforts to repatriate citizens stranded in Syrian conflict zones, […] The post Five Moroccan women return from Syria as repatriation efforts gain momentum appeared first on HESPRESS",
+      "id": "hespress-en-police-arrest-man-accused-of-giving-alcohol-to-minor-after-viral-video",
+      "title": "Police arrest man accused of giving alcohol to minor after viral video",
+      "link": "https://en.hespress.com/139469-police-arrest-man-accused-of-giving-alcohol-to-minor-after-viral-video.html",
+      "description": "Moroccan security services, in coordination with the Royal Gendarmerie, have arrested a man suspected of providing alcoholic beverages to a minor after a video documenting the incident circulated widely on social media, authorities said. According to preliminary findings, investigators launched a technical inquiry that led to the identification and arrest of the suspect in the […] The post Police arrest man accused of giving alcohol to minor after viral video appeared first on HESPRESS English -",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-06T19:02:04Z",
+      "published": "2026-06-07T12:29:49Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-les-ventes-de-ciment-confirment-le-ralentissement-de-certains-segments-de-la-construction",
+      "title": "Les ventes de ciment confirment le ralentissement de certains segments de la construction",
+      "link": "https://fr.hespress.com/476110-les-ventes-de-ciment-confirment-le-ralentissement-de-certains-segments-de-la-construction.html",
+      "description": "Après une forte hausse des ventes de ciment en avril 2026 (+31,84 %), le marché a connu un net ralentissement en mai avec une chute de 20,64 % par rapport à mai 2025. Selon les données officielles du ministère de l’Aménagement du territoire national, de l’Urbanisme, de l’Habitat et de la Politique de la ville, […] The post Les ventes de ciment confirment le ralentissement de certains segments de la construction appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-07T10:22:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
