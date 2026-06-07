@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-07T01:28:32Z",
+  "generatedAt": "2026-06-07T07:43:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "التعاون السعودي يهتم بـ\"حمد الله\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d8%a7%d9%84%d8%b3%d8%b9%d9%88%d8%af%d9%8a-%d9%8a%d9%87%d8%aa%d9%85-%d8%a8%d9%80%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d9%84%d9%87-1758033.html",
+      "description": "دخل الدولي المغربي عبد الرزاق حمد الله دائرة اهتمامات نادي التعاون السعودي، الذي يدرس إمكانية التعاقد معه خلال فترة الانتقالات المقبلة، في إطار مساعيه لتعزيز خطه الهجومي استعدادًا لانطلاق الموسم الجديد. وذكرت تقارير إعلامية سعودية أن إدارة التعاون وضعت اسم حمد الله ضمن قائمة المرشحين لتدعيم الفريق، خاصة في ظل الغموض الذي يحيط بمستقبل المهاجم […] The post التعاون السعودي يهتم بـ\"حمد الله\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-07T07:17:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-s-curit-des-pi-tons-aux-abords-de-la-gare-rabat-ryad-laftit-r-pond-aux-inqui-tudes",
       "title": "Sécurité des piétons aux abords de la gare Rabat-Ryad : Laftit répond aux inquiétudes",
@@ -35,19 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-06T19:02:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-des-fonctionnaires-communaux-soup-onn-s-d-avoir-fait-pression-sur-des-propri-taires-fonciers",
-      "title": "Des fonctionnaires communaux soupçonnés d’avoir fait pression sur des propriétaires fonciers",
-      "link": "https://fr.hespress.com/476370-des-fonctionnaires-communaux-soupconnes-davoir-fait-pression-sur-des-proprietaires-fonciers.html",
-      "description": "Des administrations territoriales relevant de plusieurs préfectures et provinces des régions de Casablanca-Settat, Rabat-Salé-Kénitra et Marrakech-Safi ont lancé de vastes investigations de terrain après avoir reçu des signalements faisant état de soupçons d’extorsion systématique visant des propriétaires de terrains urbains non bâtis. Ces allégations placent les services fiscaux de certaines communes sous surveillance. Selon des […] The post Des fonctionnaires communaux soupçonnés d’avoir fait ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-06T17:12:40Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
