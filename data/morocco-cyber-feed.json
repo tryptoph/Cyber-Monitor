@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-07T12:52:19Z",
+  "generatedAt": "2026-06-07T18:47:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-rcmp-we-attach-great-importance-to-our-partnership-with-morocco-in-addressing-security-challenge",
+      "title": "RCMP: We attach great importance to our partnership with Morocco in addressing security challenges",
+      "link": "https://en.hespress.com/139493-rcmp-we-attach-great-importance-to-our-partnership-with-morocco-in-addressing-security-challenges.html",
+      "description": "Following Canada’s new position on the Moroccan Sahara issue, and its recognition of Morocco’s autonomy plan as “a basis for a mutually acceptable solution” and as a “serious and credible initiative” toward a just and lasting settlement of the dispute, Canada’s official statement of April 28 also emphasized the renewal of bilateral relations with Morocco on the basis […] The post RCMP: We attach great importance to our partnership with Morocco in addressing security challenges appeared first on ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-07T18:30:11Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-immobilier-des-soup-ons-de-blocages-abusifs-placent-les-agences-urbaines-sous-surveillance",
+      "title": "Immobilier : des soupçons de blocages abusifs placent les agences urbaines sous surveillance",
+      "link": "https://fr.hespress.com/476411-immobilier-des-soupcons-de-blocages-abusifs-placent-les-agences-urbaines-sous-surveillance.html",
+      "description": "Les services centraux du ministère de l’Intérieur ont adressé des instructions strictes aux responsables territoriaux des préfectures, provinces et régions du Royaume, en commençant par les régions de Casablanca-Settat et Rabat-Salé-Kénitra, leur demandant d’ouvrir en urgence des enquêtes administratives afin d’identifier les dysfonctionnements ayant transformé certaines zones d’investissement immobilier situées en périphérie des grandes villes […] The post Immobilier : des soupçons de blocages ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-07T15:37:58Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-police-arrest-man-accused-of-giving-alcohol-to-minor-after-viral-video",
       "title": "Police arrest man accused of giving alcohol to minor after viral video",
