@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-08T01:29:00Z",
+  "generatedAt": "2026-06-08T08:08:30Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -15,26 +15,13 @@
   "items": [
     {
       "id": "hespress-ar-item",
-      "title": "أمين بوتراح ينتقل إلى \"بورصا سبور\"",
-      "link": "https://www.hespress.com/%d8%a3%d9%85%d9%8a%d9%86-%d8%a8%d9%88%d8%aa%d8%b1%d8%a7%d8%ad-%d9%8a%d9%86%d8%aa%d9%82%d9%84-%d8%a5%d9%84%d9%89-%d8%a8%d9%88%d8%b1%d8%b5%d8%a7-%d8%b3%d8%a8%d9%88%d8%b1-1758349.html",
-      "description": "حسم نادي بورصا سبور التركي لكرة القدم صفقة تعاقده مع الجناح الأيسر المغربي أمين بوتراح، في صفقة انتقال نهائي، قادما من نادي باستيا الفرنسي، لتأمين أولى صفقاته الهجومية خلال فترة الانتقالات الصيفية الحالية. وجاء الإعلان عن الصفقة عبر الحساب الرسمي للنادي التركي على منصة “إنستغرام”، مع التكتم على التفاصيل المالية ومدة العقد الذي يربط الطرفين. […] The post أمين بوتراح ينتقل إلى \"بورصا سبور\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "title": "الحوثي يعلن حظر الملاحة الإسرائيلية",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d9%88%d8%ab%d9%8a-%d9%8a%d8%b9%d9%84%d9%86-%d8%ad%d8%b8%d8%b1-%d8%a7%d9%84%d9%85%d9%84%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84%d9%8a%d8%a9-1758593.html",
+      "description": "قال الحوثيون في اليمن، المدعومون من إيران، الاثنين إنهم نفّذوا هجوما صاروخيا استهدف إسرائيل، فيما أعلنوا فرض حظر على الملاحة الإسرائيلية في البحر الأحمر، ما يثير مخاوف من عودة الاضطرابات إلى هذا الممرّ الحيوي. وجاء في بيان صادر عن القوات المسلحة التابعة للحوثيين “نعلن حظرَ الملاحة البحرية بشكل كامل وتام على العدو الإسرائيلي في البحر […] The post الحوثي يعلن حظر الملاحة الإسرائيلية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-06-08T01:20:38Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-frappe-dans-une-zone-tampon-au-sahara-les-orpailleurs-mauritaniens-contestent-les-informations",
-      "title": "Frappe dans une zone tampon au Sahara : les orpailleurs mauritaniens contestent les informations",
-      "link": "https://fr.hespress.com/476476-frappe-dans-une-zone-tampon-au-sahara-les-orpailleurs-mauritaniens-contestent-les-informations.html",
-      "description": "À la suite d’une frappe menée vendredi matin par un drone des Forces armées royales marocaines contre deux véhicules ayant pénétré dans la zone tampon interdite aux civils, dans la région d’« Aglibat Al Foula » à l’est du mur de sécurité au Sahara marocain, plusieurs sites et pages sur les réseaux sociaux ont affirmé […] The post Frappe dans une zone tampon au Sahara : les orpailleurs mauritaniens contestent les informations appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-07T22:30:51Z",
+      "published": "2026-06-08T08:01:28Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
