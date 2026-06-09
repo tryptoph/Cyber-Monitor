@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-09T07:35:02Z",
+  "generatedAt": "2026-06-09T13:20:02Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-mondial-2026-neymar-affiche-une-bonne-volution-sa-pr-sence-face-au-maroc-reste-incertaine",
-      "title": "Mondial 2026: Neymar affiche une \"bonne évolution\", sa présence face au Maroc reste incertaine",
-      "link": "https://fr.hespress.com/476659-mondial-2026-neymar-affiche-une-bonne-evolution-sa-presence-face-au-maroc-reste-incertaine.html",
-      "description": "La star brésilienne Neymar poursuit une « bonne évolution » de sa blessure au mollet droit, a indiqué lundi la Confédération brésilienne de football (CBF), sans préciser s’il pourrait participer au premier match de la Seleçao au Mondial 2026, samedi contre le Maroc. Le meilleur buteur de l’histoire des quintuples champions du monde (79 buts) a passé […] The post Mondial 2026: Neymar affiche une \"bonne évolution\", sa présence face au Maroc reste incertaine appeared first on Hespress Français - Ac",
+      "id": "hespress-fr-stabilit-le-maroc-sacr-premi-re-nation-africaine-en-paix-et-s-curit",
+      "title": "Stabilité : le Maroc sacré première nation africaine en paix et sécurité",
+      "link": "https://fr.hespress.com/476670-stabilite-le-maroc-sacre-premiere-nation-africaine-en-paix-et-securite.html",
+      "description": "Il y a des classements qui passent inaperçus. Celui-là ne devrait pas. Selon l’édition 2026 du palmarès mondial publié par US News & World Report (USNWR-US NEWS), le Maroc se hisse au 33e rang mondial en matière de paix et de stabilité politique, et surtout, il devance l’ensemble du continent africain, loin devant les Seychelles […] The post Stabilité : le Maroc sacré première nation africaine en paix et sécurité appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-09T03:22:41Z",
+      "published": "2026-06-09T12:15:32Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,32 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-08T23:42:57Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-arrests-11-internationally-wanted-suspects-in-marrakech-and-tangier-raids",
-      "title": "Morocco arrests 11 internationally wanted suspects in Marrakech and Tangier raids",
-      "link": "https://en.hespress.com/139585-morocco-arrests-11-internationally-wanted-suspects-in-marrakech-and-tangier-raids.html",
-      "description": "Moroccan security services, working in coordination with the country’s domestic intelligence agency, have arrested 11 individuals wanted under national and international warrants during simultaneous operations in Marrakech and Tangier, authorities said Monday. The operation, conducted by the General Directorate of National Security in coordination with the General Directorate for Territorial Surveillance, targeted 10 suspects holding […] The post Morocco arrests 11 internationally wanted suspect",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-08T23:00:12Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-bourita-meets-with-un-assistant-secretary-general-for-peace-operations",
-      "title": "Bourita meets with UN Assistant Secretary-General for Peace Operations",
-      "link": "https://en.hespress.com/139563-bourita-meets-with-un-assistant-secretary-general-for-peace-operations.html",
-      "description": "Moroccan Foreign Minister Nasser Bourita met Monday in Rabat with U.N. Assistant Secretary-General for Peace Operations Jean-Pierre Lacroix, who is on his second official visit to the North African kingdom. According to Moroccan authorities, discussions focused on Morocco’s contribution to United Nations peacekeeping operations and its role in promoting international peace and security. Morocco’s involvement […] The post Bourita meets with UN Assistant Secretary-General for Peace Operations appe",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-08T20:34:57Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
