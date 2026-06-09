@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-09T13:20:02Z",
+  "generatedAt": "2026-06-09T19:05:01Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-stabilit-le-maroc-sacr-premi-re-nation-africaine-en-paix-et-s-curit",
-      "title": "Stabilité : le Maroc sacré première nation africaine en paix et sécurité",
-      "link": "https://fr.hespress.com/476670-stabilite-le-maroc-sacre-premiere-nation-africaine-en-paix-et-securite.html",
-      "description": "Il y a des classements qui passent inaperçus. Celui-là ne devrait pas. Selon l’édition 2026 du palmarès mondial publié par US News & World Report (USNWR-US NEWS), le Maroc se hisse au 33e rang mondial en matière de paix et de stabilité politique, et surtout, il devance l’ensemble du continent africain, loin devant les Seychelles […] The post Stabilité : le Maroc sacré première nation africaine en paix et sécurité appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "التعادل ينصف \"المنصور\" و\"الكوديم\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d8%af%d9%84-%d9%8a%d9%86%d8%b5%d9%81-%d9%8a%d8%b9%d9%82%d9%88%d8%a8-%d8%a7%d9%84%d9%85%d9%86%d8%b5%d9%88%d8%b1-%d9%88%d8%a7%d9%84%d9%83%d9%88%d8%af%d9%8a%d9%85-1759357.html",
+      "description": "حسم التعادل الإيجابي بهدف لمثله، المواجهة التي جمعت اتحاد يعقوب المنصور بضيفه النادي المكناسي مساء يومه الثلاثاء، على أرضية الملعب الأولمبي بالرباط، برسم الجولة 23 من منافسات البطولة الاحترافية. وعرف الشوط الأول من اللقاء تبادلا للمحاولات الهجومية بين الطرفين، اللذين حاولا فرض أسلوب لعبهما وبناء عمليات هجومية منسقة للوصول إلى المرمى، غير أن غياب اللمسة […] The post التعادل ينصف \"المنصور\" و\"الكوديم\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-06-09T12:15:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-envoy-ends-talks-with-polisario-in-tindouf-ahead-of-security-council-briefing",
-      "title": "UN Envoy ends talks with Polisario in Tindouf ahead of Security Council briefing",
-      "link": "https://en.hespress.com/139578-un-envoy-ends-talks-with-polisario-in-tindouf-ahead-of-security-council-briefing.html",
-      "description": "Staffan de Mistura, the United Nations secretary-general’s personal envoy for the Sahara, held a series of meetings Monday in the Tindouf camps as part of a new regional tour aimed at advancing consultations on the long-running dispute. The visit marks the opening stage of a broader diplomatic mission involving discussions with parties and stakeholders connected […] The post UN Envoy ends talks with Polisario in Tindouf ahead of Security Council briefing appeared first on HESPRESS English - Moro",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-08T23:42:57Z",
+      "published": "2026-06-09T18:31:36Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
