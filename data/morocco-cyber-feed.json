@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-10T19:14:52Z",
+  "generatedAt": "2026-06-11T01:27:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "ترامب يتوعد إيران بهجمات جديدة",
-      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%aa%d9%88%d8%b9%d8%af-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-1759879.html",
-      "description": "توعد الرئيس دونالد ترامب، الأربعاء، إيران بهجمات جديدة يشنها الجيش الأمريكي، متهما طهران بـ”الاستخفاف بعقولنا” في المباحثات الهادفة لإنهاء الحرب في الشرق الأوسط. وقال ترامب للصحافيين في البيت الأبيض “سنهاجمهم، سنهاجمهم بقوة شديدة”، مضيفا “كنا قريبين فعلا من اتفاق، لكنهم يواصلون المماطلة، يواصلون الاستخفاف بعقولنا”. The post ترامب يتوعد إيران بهجمات جديدة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-en-woman-arrested-in-safi-over-social-media-threats-against-police",
+      "title": "Woman arrested in Safi over social media threats against police",
+      "link": "https://en.hespress.com/139710-woman-arrested-in-safi-over-social-media-threats-against-police.html",
+      "description": "Police in Safi arrested a 20-year-old woman on Monday after videos circulated on social media showing her threatening law enforcement officers and encouraging drug use, authorities said. According to General Directorate of National Security, the suspect posted multiple videos in which she called on viewers to consume psychotropic substances and issued threats of physical violence […] The post Woman arrested in Safi over social media threats against police appeared first on HESPRESS English - Mor",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-10T17:02:48Z",
+      "published": "2026-06-10T20:32:49Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
