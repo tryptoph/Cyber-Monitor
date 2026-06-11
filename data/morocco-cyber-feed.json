@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-11T13:44:02Z",
+  "generatedAt": "2026-06-11T19:18:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "هجوم إيراني يستهدف مطار الكويت",
+      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%88%d9%85-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a-%d9%8a%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d9%85%d8%b7%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa-1760612.html",
+      "description": "قالت هيئة الطيران المدني الكويتية، اليوم الخميس، إن هجوما إيرانيا استهدف رادار مطار الكويت الدولي في وقت سابق من اليوم، مما تسبب في وقوع إصابات وأضرار مادية جسيمة في منشآت الرادار ومعدات مرتبطة بإدارة الحركة الجوية. The post هجوم إيراني يستهدف مطار الكويت appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-11T19:02:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "ترامب يعلن إلغاء الضربات ضد إيران",
+      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%b9%d9%84%d9%86-%d8%a5%d9%84%d8%ba%d8%a7%d8%a1-%d8%a7%d9%84%d8%b6%d8%b1%d8%a8%d8%a7%d8%aa-%d8%b6%d8%af-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1760616.html",
+      "description": "أعلن الرئيس الأمريكي دونالد ترامب إلغاء الضربات والهجمات المقررة ضد إيران. وقال ترامب: “ألغيتُ الضربات والهجمات المقررة ضد إيران مساء اليوم، والحصار البحري سيبقى سارياً بالكامل حتى إتمام الصفقة”. وكتب ترامب في منشور على منصة “تروث سوشال”: “بناء على أن المناقشات مع الجمهورية الإسلامية الإيرانية أُحيلت إلى أعلى مستوى في القيادة الإيرانية وجرى الموافقة عليها، […] The post ترامب يعلن إلغاء الضربات ضد إيران appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-11T18:21:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
