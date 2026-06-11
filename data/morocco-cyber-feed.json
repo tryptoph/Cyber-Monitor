@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-11T01:27:45Z",
+  "generatedAt": "2026-06-11T08:03:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-mondial-2026-l-onu-s-inqui-te-des-restrictions-d-entr-e-aux-tats-unis",
+      "title": "Mondial 2026 : l’ONU s’inquiète des restrictions d’entrée aux États-Unis",
+      "link": "https://fr.hespress.com/476890-mondial-2026-lonu-sinquiete-des-restrictions-dentree-aux-etats-unis.html",
+      "description": "À la veille du coup d’envoi de la Coupe du monde 2026, les mesures d’immigration appliquées par les États-Unis suscitent de vives inquiétudes au sein de la communauté internationale. Le Haut-Commissariat des Nations unies aux droits de l’homme a appelé les Etats-Unis à revoir son approche, estimant que certaines pratiques observées ces derniers jours soulèvent […] The post Mondial 2026 : l’ONU s’inquiète des restrictions d’entrée aux États-Unis appeared first on Hespress Français - Actualités du",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-11T01:54:55Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-woman-arrested-in-safi-over-social-media-threats-against-police",
       "title": "Woman arrested in Safi over social media threats against police",
