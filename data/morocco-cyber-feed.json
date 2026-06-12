@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-12T01:30:23Z",
+  "generatedAt": "2026-06-12T13:30:33Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-compl-ments-alimentaires-pourquoi-la-r-forme-inqui-te",
+      "title": "Compléments alimentaires : pourquoi la réforme inquiète",
+      "link": "https://fr.hespress.com/477181-complements-alimentaires-pourquoi-la-reforme-inquiete.html",
+      "description": "Alors que le Parlement examine une réforme réservant aux pharmacies la commercialisation de certains compléments alimentaires à « effet thérapeutique », les professionnels du secteur montent au créneau. Fabricants, distributeurs, parapharmacies et acteurs du commerce électronique estiment que la priorité devrait être le renforcement de la compétitivité d’une filière qui représente plusieurs milliers d’entreprises et […] The post Compléments alimentaires : pourquoi la réforme inquiète appeared fi",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-12T13:09:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-experts-warn-moroccan-fans-against-pirated-streaming-apps-during-world-cup",
       "title": "Experts warn Moroccan fans against pirated streaming apps during World Cup",
       "link": "https://en.hespress.com/139789-experts-warn-moroccan-fans-against-pirated-streaming-apps-during-world-cup.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-11T23:10:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-budgets-de-propret-l-int-rieur-cible-des-d-penses-jug-es-suspectes-dans-certaines-communes",
-      "title": "Budgets de propreté : L’Intérieur cible des dépenses jugées suspectes dans certaines communes",
-      "link": "https://fr.hespress.com/477115-budgets-de-proprete-linterieur-cible-des-depenses-jugees-suspectes-dans-certaines-communes.html",
-      "description": "Le ministère de l’Intérieur a lancé une nouvelle opération de contrôle ciblant la gestion des budgets de propreté au sein de plusieurs communes urbaines du Royaume. Les services centraux du département, en particulier la Direction des finances des collectivités territoriales relevant de la Direction générale des collectivités territoriales, ont adressé des instructions urgentes aux administrations […] The post Budgets de propreté : L’Intérieur cible des dépenses jugées suspectes dans certaines c",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-11T22:17:30Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
