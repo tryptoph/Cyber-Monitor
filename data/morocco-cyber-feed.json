@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-13T01:27:45Z",
+  "generatedAt": "2026-06-13T07:37:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-espagne-record-du-nombre-d-trangers-affili-s-la-s-cu-les-marocains-toujours-en-t-te",
-      "title": "Espagne : record du nombre d'étrangers affiliés à la Sécu, les Marocains toujours en tête",
-      "link": "https://fr.hespress.com/477216-espagne-record-du-nombre-detrangers-affilies-a-la-secu-les-marocains-toujours-en-tete.html",
-      "description": "Le nombre de travailleurs étrangers affiliés à la Sécurité sociale en Espagne a atteint un nouveau record historique, avec 3,36 millions d’actifs en mai. Selon des données officielles publiées vendredi par le ministère espagnol de l’Inclusion, de la Sécurité sociale et des Migrations, l’emploi des ressortissants étrangers a progressé de 288.717 affiliés en glissement annuel, […] The post Espagne : record du nombre d'étrangers affiliés à la Sécu, les Marocains toujours en tête appeared first on H",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "تقرير يوصي الدول بوحدات تحقيق متخصصة في جرائم العملات المشفرة",
+      "link": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d9%8a%d9%88%d8%b5%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d9%84-%d8%a8%d9%88%d8%ad%d8%af%d8%a7%d8%aa-%d8%aa%d8%ad%d9%82%d9%8a%d9%82-%d9%85%d8%aa%d8%ae%d8%b5%d8%b5%d8%a9-%d9%81-1761062.html",
+      "description": "أكد تقرير حديث عن المبادرة العالمية لمكافحة الجريمة المنظمة العابرة للحدود الوطنية (معهد بحثي مستقل مقره سويسرا)، أن “العملات المشفرة تحولت من مجرد وسيلة دفع تكميلية إلى تمكين جوهري للجريمة المنظمة والأنشطة غير المشروعة المدارة عبر الفضاء السيبراني”، مبرزًا أن “ميزاتها الرئيسية توفر للشبكات الإجرامية بنية تحتية مالية مرنة يصعب تعطيلها باستخدام أدوات إنفاذ القانون […] The post تقرير يوصي الدول بوحدات تحقيق متخصصة في جرائم العملات المشفرة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية ",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-06-12T19:49:11Z",
+      "published": "2026-06-13T05:00:02Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
