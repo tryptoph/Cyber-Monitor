@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-13T07:37:09Z",
+  "generatedAt": "2026-06-13T12:56:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "تقرير يوصي الدول بوحدات تحقيق متخصصة في جرائم العملات المشفرة",
-      "link": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d9%8a%d9%88%d8%b5%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d9%84-%d8%a8%d9%88%d8%ad%d8%af%d8%a7%d8%aa-%d8%aa%d8%ad%d9%82%d9%8a%d9%82-%d9%85%d8%aa%d8%ae%d8%b5%d8%b5%d8%a9-%d9%81-1761062.html",
-      "description": "أكد تقرير حديث عن المبادرة العالمية لمكافحة الجريمة المنظمة العابرة للحدود الوطنية (معهد بحثي مستقل مقره سويسرا)، أن “العملات المشفرة تحولت من مجرد وسيلة دفع تكميلية إلى تمكين جوهري للجريمة المنظمة والأنشطة غير المشروعة المدارة عبر الفضاء السيبراني”، مبرزًا أن “ميزاتها الرئيسية توفر للشبكات الإجرامية بنية تحتية مالية مرنة يصعب تعطيلها باستخدام أدوات إنفاذ القانون […] The post تقرير يوصي الدول بوحدات تحقيق متخصصة في جرائم العملات المشفرة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية ",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-en-morocco-food-supplement-industry-pushes-back-against-proposed-pharmacy-only-sales-rule",
+      "title": "Morocco food supplement industry pushes back against proposed pharmacy-only sales rule",
+      "link": "https://en.hespress.com/139824-morocco-food-supplement-industry-pushes-back-against-proposed-pharmacy-only-sales-rule.html",
+      "description": "A coalition representing Morocco’s food supplement industry is urging lawmakers to reject a proposed legal amendment that would restrict the sale of certain food supplements to pharmacies, arguing the measure would reduce competition, increase prices and threaten thousands of jobs. The proposal, which amends Article 30 of Law 17-04, was introduced in Parliament in March […] The post Morocco food supplement industry pushes back against proposed pharmacy-only sales rule appeared first on HESPRESS ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-13T05:00:02Z",
+      "published": "2026-06-13T08:00:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
