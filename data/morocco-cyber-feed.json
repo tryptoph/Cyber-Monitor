@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-13T12:56:53Z",
+  "generatedAt": "2026-06-13T18:49:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-en-morocco-food-supplement-industry-pushes-back-against-proposed-pharmacy-only-sales-rule",
-      "title": "Morocco food supplement industry pushes back against proposed pharmacy-only sales rule",
-      "link": "https://en.hespress.com/139824-morocco-food-supplement-industry-pushes-back-against-proposed-pharmacy-only-sales-rule.html",
-      "description": "A coalition representing Morocco’s food supplement industry is urging lawmakers to reject a proposed legal amendment that would restrict the sale of certain food supplements to pharmacies, arguing the measure would reduce competition, increase prices and threaten thousands of jobs. The proposal, which amends Article 30 of Law 17-04, was introduced in Parliament in March […] The post Morocco food supplement industry pushes back against proposed pharmacy-only sales rule appeared first on HESPRESS ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-13T08:00:05Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
