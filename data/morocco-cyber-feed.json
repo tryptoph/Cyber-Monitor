@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-13T18:49:42Z",
+  "generatedAt": "2026-06-14T01:31:33Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-spain-seize-4-8-tonnes-of-hashish-after-gibraltar-strait-chase",
+      "title": "Morocco, Spain seize 4.8 tonnes of hashish after Gibraltar Strait chase",
+      "link": "https://en.hespress.com/139901-morocco-spain-seize-4-8-tonnes-of-hashish-after-gibraltar-strait-chase.html",
+      "description": "Moroccan and Spanish security forces seized nearly 4.8 tonnes of hashish after a high-speed chase involving a semi-rigid “go-fast” boat in the Strait of Gibraltar. Spain’s Guardia Civil said the operation began after officers detected a suspicious vessel moving at high speed and carrying bales believed to contain drugs. Spanish maritime, air and land units […] The post Morocco, Spain seize 4.8 tonnes of hashish after Gibraltar Strait chase appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-13T20:31:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
