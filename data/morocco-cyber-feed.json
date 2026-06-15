@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-14T18:49:11Z",
+  "generatedAt": "2026-06-15T01:33:15Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "التعادل يحسم مواجهة الرجاء الرياضي واتحاد تواركة في الدوري الاحترافي",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d8%af%d9%84-%d9%8a%d8%ad%d8%b3%d9%85-%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%a7%d9%84%d8%b1%d8%ac%d8%a7%d8%a1-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a-%d9%88%d8%a7-1761957.html",
-      "description": "أنهى التعادل الإيجابي بهدف لمثله مباراة الرجاء الرياضي وضيفه اتحاد تواركة، التي جمعتهما بعد زوال اليوم الأحد، برسم الجولة الـ24 من الدوري الاحترافي. وانتهت مجريات الشوط الأول على إيقاع التعادل السلبي، في شوط اتسم بالحذر من الجانبين وقلة الفرص السانحة للتسجيل، مع غياب النجاعة الهجومية رغم بعض المحاولات التي لم ترتق إلى مستوى تهديد حقيقي […] The post التعادل يحسم مواجهة الرجاء الرياضي واتحاد تواركة في الدوري الاحترافي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-14T17:12:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-maroc-d-finitivement-dans-la-cour-des-grands",
-      "title": "Le Maroc définitivement dans la Cour des grands !",
-      "link": "https://fr.hespress.com/477517-le-maroc-definitivement-dans-la-cour-des-grands.html",
-      "description": "Autrefois, affronter le Brésil était presque un « privilège ». Un moment prestigieux, certes, mais teinté d’une sorte de résignation anticipée. Face à la Seleção, l’objectif se résumait souvent à limiter les dégâts, à sortir la tête haute, à pouvoir dire plus tard qu’on avait tenu tête à l’une des plus grandes équipes de la planète football. […] The post Le Maroc définitivement dans la Cour des grands ! appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-fr-tomates-poivrons-pourquoi-les-prix-baissent-actuellement-au-maroc",
+      "title": "Tomates, poivrons : pourquoi les prix baissent actuellement au Maroc",
+      "link": "https://fr.hespress.com/476706-tomates-poivrons-pourquoi-les-prix-baissent-actuellement-au-maroc.html",
+      "description": "La baisse des prix de certains légumes observée sur le marché ces dernières semaines ne serait pas durable, selon un professionnel du secteur. Alors que les consommateurs attendent de pied ferme un retour des légumes à des prix « raisonnables », la baisse actuelle serait de courte durée. Selon Amine Amanatoullah, un producteur de légumes cité par […] The post Tomates, poivrons : pourquoi les prix baissent actuellement au Maroc appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-14T14:17:10Z",
+      "published": "2026-06-14T21:10:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
