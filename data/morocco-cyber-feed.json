@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-15T08:32:12Z",
+  "generatedAt": "2026-06-15T14:30:24Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-7",
+      "title": "أبو مرزوق: \"7 أكتوبر\" من الماضي",
+      "link": "https://www.hespress.com/%d8%a3%d8%a8%d9%88-%d9%85%d8%b1%d8%b2%d9%88%d9%82-7-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%a7%d8%b6%d9%8a-1762186.html",
+      "description": "تجنب موسى أبو مرزوق، نائب رئيس المكتب السياسي لحركة المقاومة الإسلامية (حماس) في الخارج، الإجابة بشكل مباشر عن سؤال بشأن ما إذا كانت الحركة تندم على هجوم 7 أكتوبر 2023 على إسرائيل، والذي أدى إلى تداعيات واسعة على الإسرائيليين وسكان قطاع غزة. وقال أبو مرزوق، في مقابلة مع ريا نوفوستي، “في العلوم السياسية لا أهمية […] The post أبو مرزوق: \"7 أكتوبر\" من الماضي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-15T13:24:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mondial-2026-la-fifa-enqu-te-sur-un-geste-controvers-d-un-arbitre-var-lors-d-allemagne-cura-ao",
+      "title": "Mondial 2026 : la FIFA enquête sur un geste controversé d’un arbitre VAR lors d’Allemagne-Curaçao",
+      "link": "https://fr.hespress.com/477606-mondial-2026-la-fifa-enquete-sur-un-geste-controverse-dun-arbitre-var-lors-dallemagne-curacao.html",
+      "description": "Une polémique a éclaté en marge du match entre l’Allemagne et Curaçao (7-1) à la Coupe du monde 2026. L’arbitre australien Shaun Evans, chargé de l’assistance vidéo, est au cœur d’une controverse après avoir effectué un geste de la main interprété par certains comme un symbole associé aux mouvements suprémacistes blancs. La FIFA a annoncé […] The post Mondial 2026 : la FIFA enquête sur un geste controversé d’un arbitre VAR lors d’Allemagne-Curaçao appeared first on Hespress Français - Actualités",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-15T12:40:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الأمم المتحدة تطالب بحماية الحقوق الأساسية وسط تصاعد الأزمات الدولية",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a3%d9%85%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d8%ad%d8%af%d8%a9-%d8%aa%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d8%ad%d9%85%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d8%ad%d9%82%d9%88%d9%82-%d8%a7%d9%84%d8%a3-1762248.html",
+      "description": "حذر المفوض السامي لحقوق الإنسان فولكر تورك، اليوم الاثنين، من أن العالم يواجه ما وصفه بـ”هجوم صارخ وغير مسبوق” على مستوى منظومة حقوق الإنسان؛ وذلك خلال افتتاح الدورة الثانية والستين لمجلس حقوق الإنسان التابع للأمم المتحدة في جنيف. وقال تورك إن مسار حقوق الإنسان شهد عبر تاريخه تقدما تخللته انتكاسات، مؤكدا أن الاتجاه العام يبقى […] The post الأمم المتحدة تطالب بحماية الحقوق الأساسية وسط تصاعد الأزمات الدولية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-15T12:30:28Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-israel-says-won-t-withdraw-troops-from-lebanon-syria-gaza",
+      "title": "Israel says won't withdraw troops from Lebanon, Syria, Gaza",
+      "link": "https://en.hespress.com/139965-israel-says-wont-withdraw-troops-from-lebanon-syria-gaza.html",
+      "description": "Israel’s defence minister said Monday that Israeli forces would remain in Lebanon, Syria and Gaza indefinitely, hours after the United States and Iran agreed to end the Middle East war, including in Lebanon. “Prime Minister Benjamin Netanyahu and I are pursuing a clear policy under which the IDF will remain in the security zones in […] The post Israel says won't withdraw troops from Lebanon, Syria, Gaza appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-15T08:32:39Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
