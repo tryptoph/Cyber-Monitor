@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-15T01:33:15Z",
+  "generatedAt": "2026-06-15T08:32:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-tomates-poivrons-pourquoi-les-prix-baissent-actuellement-au-maroc",
-      "title": "Tomates, poivrons : pourquoi les prix baissent actuellement au Maroc",
-      "link": "https://fr.hespress.com/476706-tomates-poivrons-pourquoi-les-prix-baissent-actuellement-au-maroc.html",
-      "description": "La baisse des prix de certains légumes observée sur le marché ces dernières semaines ne serait pas durable, selon un professionnel du secteur. Alors que les consommateurs attendent de pied ferme un retour des légumes à des prix « raisonnables », la baisse actuelle serait de courte durée. Selon Amine Amanatoullah, un producteur de légumes cité par […] The post Tomates, poivrons : pourquoi les prix baissent actuellement au Maroc appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-14T21:10:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
