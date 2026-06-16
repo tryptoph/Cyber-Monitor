@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-16T01:34:03Z",
+  "generatedAt": "2026-06-16T08:23:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-ar-item",
+      "title": "المغاربة يشيدون بأداء \"أسود الأطلس\" .. ويطالبون بفعالية هجومية أكبر",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d8%b1%d8%a8%d8%a9-%d9%8a%d8%b4%d9%8a%d8%af%d9%88%d9%86-%d8%a8%d8%a3%d8%af%d8%a7%d8%a1-%d8%a3%d8%b3%d9%88%d8%af-%d8%a7%d9%84%d8%a3%d8%b7%d9%84%d8%b3-%d9%88%d9%8a-1762296.html",
+      "description": "استهل المنتخب الوطني المغربي الأول لكرة القدم مشواره في كأس العالم 2026، التي تحتضنها الولايات المتحدة الأمريكية بمعية المكسيك وكندا، بتعادله إيجابا مع نظيره البرازيلي بهدف في كل شبكة. وكان رفاق القائد أشرف حكيمي سباقين للتقدم في النتيجة منذ الدقيقة العشرين عبر اللاعب إسماعيل الصيباري، قبل أن يعدل فينيسيوس جونيور النتيجة لمنتخب “السيليساو” في الدقيقة […] The post المغاربة يشيدون بأداء \"أسود الأطلس\" .. ويطالبون بفعالية هجومية أكبر appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-16T07:00:35Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-espagne-record-de-pr-s-de-900-000-demandes-de-r-gularisation-de-migrants-enregistr-es",
       "title": "Espagne : record de près de 900.000 demandes de régularisation de migrants enregistrées",
       "link": "https://fr.hespress.com/477652-espagne-record-de-pres-de-900-000-demandes-de-regularisation-de-migrants-enregistrees.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-06-15T22:50:42Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-loi-sur-les-adouls-la-cour-constitutionnelle-approuve-le-texte-avec-plusieurs-r-serves",
-      "title": "Loi sur les adouls : la Cour constitutionnelle approuve le texte avec plusieurs réserves",
-      "link": "https://fr.hespress.com/477695-loi-sur-les-adouls-la-cour-constitutionnelle-approuve-le-texte-avec-plusieurs-reserves.html",
-      "description": "Consultée dans le cadre de l’analyse de la constitutionnalité de la loi organisant la profession des Adouls, la Cour constitutionnelle a rendu son verdict en jugeant qu’elle est globalement conforme à la Constitution, tout en déclarant contraires à celle-ci certaines dispositions spécifiques, outre plusieurs omissions législatives relevées d’office. Voici les détails. Dans un avis consulté […] The post Loi sur les adouls : la Cour constitutionnelle approuve le texte avec plusieurs réserves appea",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-15T20:00:27Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
