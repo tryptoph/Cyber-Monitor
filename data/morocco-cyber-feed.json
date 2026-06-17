@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-17T01:32:37Z",
+  "generatedAt": "2026-06-17T13:34:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-matchs-des-lions-de-l-atlas-la-hausse-des-prix-dans-certains-caf-s-relance-le-d-bat-sur-la-quali",
-      "title": "Matchs des Lions de l'Atlas : La hausse des prix dans certains cafés relance le débat sur la qualité des services",
-      "link": "https://fr.hespress.com/477757-matchs-des-lions-de-latlas-la-hausse-des-prix-dans-certains-cafes-relance-le-debat-sur-la-qualite-des-services.html",
-      "description": "Les augmentations tarifaires appliquées par certains cafés marocains à l’occasion du dernier match de l’équipe nationale en marge de la Coupe du monde ont relancé un débat récurrent entre les professionnels du secteur et les défenseurs des consommateurs. Au cœur de la polémique : la légitimité de ces hausses de prix, alors même qu’aucune amélioration […] The post Matchs des Lions de l'Atlas : La hausse des prix dans certains cafés relance le débat sur la qualité des services appeared first on He",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-hilale-resolution-2797-is-unprecedented-political-verdict-roadmap-to-definitively-resolve-disput",
+      "title": "Hilale: Resolution 2797 is unprecedented political verdict, roadmap to definitively resolve dispute over Moroccan Sahara",
+      "link": "https://en.hespress.com/140124-hilale-resolution-2797-is-unprecedented-political-verdict-roadmap-to-definitively-resolve-dispute-over-moroccan-sahara.html",
+      "description": "he UN Security Council Resolution 2797 “is not just another resolution. It is an unprecedented political verdict and a roadmap to definitively resolve” the regional dispute over the Moroccan Sahara, stated Omar Hilale, Morocco’s Ambassador and Permanent Representative to the United Nations, in New York on Tuesday. The Security Council “upheld the law” by addressing […] The post Hilale: Resolution 2797 is unprecedented political verdict, roadmap to definitively resolve dispute over Moroccan Sahar",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-16T23:15:02Z",
+      "published": "2026-06-17T12:34:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "أمريكا ترحب بأم حارس مرمى الرأس الأخضر",
+      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d8%b1%d8%ad%d8%a8-%d8%a8%d8%a3%d9%85-%d8%ad%d8%a7%d8%b1%d8%b3-%d9%85%d8%b1%d9%85%d9%89-%d8%a7%d9%84%d8%b1%d8%a3%d8%b3-%d8%a7%d9%84%d8%a3%d8%ae%d8%b6%d8%b1-1763208.html",
+      "description": "تسعى وزارة الخارجية الأمريكية إلى منح والدة فوزينيا، نجم منتخب الرأس الأخضر لكرة القدم، تأشيرة دخول حتى تتمكن من السفر ومشاهدة ابنها وهو يلعب. وكان الحارس، البالغ 40 عاما، أفضل لاعب في المباراة بعد أن تصدى لهجمات بطل أوروبا إسبانيا في تعادل سلبي مفاجئ خلال الظهور الأول لمنتخب بلاده في كأس العالم بأتلانتا يوم الاثنين […] The post أمريكا ترحب بأم حارس مرمى الرأس الأخضر appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-17T11:30:36Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,19 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-16T22:00:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-royal-air-maroc-restores-dubai-and-doha-flights-after-middle-east-tensions-ease",
-      "title": "Royal Air Maroc restores Dubai and Doha flights after Middle East tensions ease",
-      "link": "https://en.hespress.com/140093-royal-air-maroc-restores-dubai-and-doha-flights-after-middle-east-tensions-ease.html",
-      "description": "Royal Air Maroc (RAM) is set to resume its direct flights connecting Casablanca to Dubai (United Arab Emirates) and Doha (Qatar) starting in early July. A well-informed source within the company told Hespress that the decision was made after the security situation in the Middle East significantly improved. Once operations restart, the airline will offer […] The post Royal Air Maroc restores Dubai and Doha flights after Middle East tensions ease appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-16T19:19:52Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
