@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-17T13:34:21Z",
+  "generatedAt": "2026-06-17T19:11:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,32 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-17T12:34:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "أمريكا ترحب بأم حارس مرمى الرأس الأخضر",
-      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d8%b1%d8%ad%d8%a8-%d8%a8%d8%a3%d9%85-%d8%ad%d8%a7%d8%b1%d8%b3-%d9%85%d8%b1%d9%85%d9%89-%d8%a7%d9%84%d8%b1%d8%a3%d8%b3-%d8%a7%d9%84%d8%a3%d8%ae%d8%b6%d8%b1-1763208.html",
-      "description": "تسعى وزارة الخارجية الأمريكية إلى منح والدة فوزينيا، نجم منتخب الرأس الأخضر لكرة القدم، تأشيرة دخول حتى تتمكن من السفر ومشاهدة ابنها وهو يلعب. وكان الحارس، البالغ 40 عاما، أفضل لاعب في المباراة بعد أن تصدى لهجمات بطل أوروبا إسبانيا في تعادل سلبي مفاجئ خلال الظهور الأول لمنتخب بلاده في كأس العالم بأتلانتا يوم الاثنين […] The post أمريكا ترحب بأم حارس مرمى الرأس الأخضر appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-17T11:30:36Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-libya-route-to-italy-becomes-a-nightmare-for-moroccan-migrants",
-      "title": "Libya Route to Italy Becomes a Nightmare for Moroccan Migrants",
-      "link": "https://en.hespress.com/140100-libya-route-to-italy-becomes-a-nightmare-for-moroccan-migrants.html",
-      "description": "A growing number of young Moroccans are attempting to reach Italy via Libya, using smuggling networks to cross into the country despite its security instability and political turmoil. For many, the journey ends not in Europe but in detention, extortion, and in some cases, death. Sources with knowledge of the migration situation in Libya told […] The post Libya Route to Italy Becomes a Nightmare for Moroccan Migrants appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-16T22:00:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
