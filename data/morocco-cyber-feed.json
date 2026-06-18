@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-17T19:11:44Z",
+  "generatedAt": "2026-06-18T01:29:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-en-hilale-resolution-2797-is-unprecedented-political-verdict-roadmap-to-definitively-resolve-disput",
-      "title": "Hilale: Resolution 2797 is unprecedented political verdict, roadmap to definitively resolve dispute over Moroccan Sahara",
-      "link": "https://en.hespress.com/140124-hilale-resolution-2797-is-unprecedented-political-verdict-roadmap-to-definitively-resolve-dispute-over-moroccan-sahara.html",
-      "description": "he UN Security Council Resolution 2797 “is not just another resolution. It is an unprecedented political verdict and a roadmap to definitively resolve” the regional dispute over the Moroccan Sahara, stated Omar Hilale, Morocco’s Ambassador and Permanent Representative to the United Nations, in New York on Tuesday. The Security Council “upheld the law” by addressing […] The post Hilale: Resolution 2797 is unprecedented political verdict, roadmap to definitively resolve dispute over Moroccan Sahar",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-mondial-2026-les-supporters-alg-riens-au-c-ur-d-une-nouvelle-pol-mique-new-york",
+      "title": "Mondial 2026 : les supporters algériens au cœur d'une nouvelle polémique à New York",
+      "link": "https://fr.hespress.com/477928-mondial-2026-les-supporters-algeriens-au-coeur-dune-nouvelle-polemique-a-new-york.html",
+      "description": "Pour son entrée en lice dans la coupe du monde où elle n’avait plus mis les pieds depuis 2014, l’Algérie s’est fait corriger, mercredi au stade de Kansas City, par le tenant du titre, l’Argentine (3-0). Mais la fête de l’Algérie avait été gâché bien avant en raison du comportement de certains de ses supporters, […] The post Mondial 2026 : les supporters algériens au cœur d'une nouvelle polémique à New York appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-17T12:34:04Z",
+      "published": "2026-06-17T23:28:38Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mondial-2026-washington-salue-la-coop-ration-s-curitaire-marocaine",
+      "title": "Mondial 2026 : Washington salue la coopération sécuritaire marocaine",
+      "link": "https://fr.hespress.com/477962-mondial-2026-washington-salue-la-cooperation-securitaire-marocaine.html",
+      "description": "Le directeur du Bureau fédéral d’investigation américain (FBI), Kash Patel, a salué mercredi l’engagement des services de sécurité marocains mobilisés dans le dispositif international de sécurisation de la Coupe du monde 2026, organisée aux États-Unis, au Canada et au Mexique. Cette reconnaissance a été exprimée lors d’une visite au Centre de coopération policière internationale (CCPI), […] The post Mondial 2026 : Washington salue la coopération sécuritaire marocaine appeared first on Hespress F",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-17T21:23:09Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-chert-des-produits-de-la-mer-l-ex-cutif-annonce-de-nouvelles-mesures",
+      "title": "Cherté des produits de la mer : l'Exécutif annonce de nouvelles mesures",
+      "link": "https://fr.hespress.com/477752-cherte-des-produits-de-la-mer-lexecutif-annonce-de-nouvelles-mesures.html",
+      "description": "La secrétaire d’État chargée de la Pêche maritime, Zakia Driouich, a affirmé que le gouvernement poursuit son action conformément à la vision prospective du Roi Mohammed VI, visant à renforcer la sécurité alimentaire nationale, à garantir la durabilité des ressources marines et à améliorer l’accès des citoyens aux produits de la mer. Répondant aux questions […] The post Cherté des produits de la mer : l'Exécutif annonce de nouvelles mesures appeared first on Hespress Français - Actualités du Mar",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-17T21:10:48Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
