@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-18T08:03:44Z",
+  "generatedAt": "2026-06-18T13:31:28Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-mondial-2026-les-supporters-alg-riens-au-c-ur-d-une-nouvelle-pol-mique-new-york",
-      "title": "Mondial 2026 : les supporters algériens au cœur d'une nouvelle polémique à New York",
-      "link": "https://fr.hespress.com/477928-mondial-2026-les-supporters-algeriens-au-coeur-dune-nouvelle-polemique-a-new-york.html",
-      "description": "Pour son entrée en lice dans la coupe du monde où elle n’avait plus mis les pieds depuis 2014, l’Algérie s’est fait corriger, mercredi au stade de Kansas City, par le tenant du titre, l’Argentine (3-0). Mais la fête de l’Algérie avait été gâché bien avant en raison du comportement de certains de ses supporters, […] The post Mondial 2026 : les supporters algériens au cœur d'une nouvelle polémique à New York appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "إعلام البرتغال: رونالدو أصبح مشكلة",
+      "link": "https://www.hespress.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%85-%d8%a7%d9%84%d8%a8%d8%b1%d8%aa%d8%ba%d8%a7%d9%84-%d8%b1%d9%88%d9%86%d8%a7%d9%84%d8%af%d9%88-%d8%a3%d8%b5%d8%a8%d8%ad-%d9%85%d8%b4%d9%83%d9%84%d8%a9-1763698.html",
+      "description": "شنت الصحافة البرتغالية، اليوم الخميس، هجوما على المنتخب الوطني الذي استهل مشواره الأربعاء في مونديال 2026 بتعادل مخيب مع جمهورية الكونغو الديمقراطية (1-1)، معتبرة أن النجم المخضرم كريستيانو رونالدو أصبح “بحد ذاته مشكلة”. وكتب لويس ماتيوس من صحيفة “آ بولا” الرياضية: “يبدو أن الضغط أثقل كاهل كريستيانو رونالدو… في هذه المرحلة، أصبح بحد ذاته مشكلة… […] The post إعلام البرتغال: رونالدو أصبح مشكلة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-06-17T23:28:38Z",
+      "published": "2026-06-18T12:31:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-what-is-avfs-the-french-aid-available-to-some-retired-moroccans-living-in-france",
+      "title": "What is AVFS, the French aid available to some retired Moroccans living in France?",
+      "link": "https://en.hespress.com/140141-what-is-avfs-the-french-aid-available-to-some-retired-moroccans-living-in-france.html",
+      "description": "A little-known French assistance program allows certain retired Moroccan nationals to spend more time in Morocco without completely losing access to financial support from the French state. However, the scheme is limited to a specific category of retirees and remains inaccessible to most Moroccan pensioners living in France. Known as the Aid for Family and […] The post What is AVFS, the French aid available to some retired Moroccans living in France? appeared first on HESPRESS English - Morocco ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-18T08:27:22Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
