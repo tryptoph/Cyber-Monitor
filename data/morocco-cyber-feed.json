@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-18T01:29:47Z",
+  "generatedAt": "2026-06-18T08:03:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,32 +22,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-06-17T23:28:38Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-mondial-2026-washington-salue-la-coop-ration-s-curitaire-marocaine",
-      "title": "Mondial 2026 : Washington salue la coopération sécuritaire marocaine",
-      "link": "https://fr.hespress.com/477962-mondial-2026-washington-salue-la-cooperation-securitaire-marocaine.html",
-      "description": "Le directeur du Bureau fédéral d’investigation américain (FBI), Kash Patel, a salué mercredi l’engagement des services de sécurité marocains mobilisés dans le dispositif international de sécurisation de la Coupe du monde 2026, organisée aux États-Unis, au Canada et au Mexique. Cette reconnaissance a été exprimée lors d’une visite au Centre de coopération policière internationale (CCPI), […] The post Mondial 2026 : Washington salue la coopération sécuritaire marocaine appeared first on Hespress F",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-17T21:23:09Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-chert-des-produits-de-la-mer-l-ex-cutif-annonce-de-nouvelles-mesures",
-      "title": "Cherté des produits de la mer : l'Exécutif annonce de nouvelles mesures",
-      "link": "https://fr.hespress.com/477752-cherte-des-produits-de-la-mer-lexecutif-annonce-de-nouvelles-mesures.html",
-      "description": "La secrétaire d’État chargée de la Pêche maritime, Zakia Driouich, a affirmé que le gouvernement poursuit son action conformément à la vision prospective du Roi Mohammed VI, visant à renforcer la sécurité alimentaire nationale, à garantir la durabilité des ressources marines et à améliorer l’accès des citoyens aux produits de la mer. Répondant aux questions […] The post Cherté des produits de la mer : l'Exécutif annonce de nouvelles mesures appeared first on Hespress Français - Actualités du Mar",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-17T21:10:48Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
