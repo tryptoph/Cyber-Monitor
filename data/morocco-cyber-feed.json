@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-19T01:35:42Z",
+  "generatedAt": "2026-06-19T08:16:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "وهبي قبل لقاء اسكتلندا: طوينا صفحة البرازيل.. ونرفع فعالية الهجوم",
-      "link": "https://www.hespress.com/%d9%88%d9%87%d8%a8%d9%8a-%d9%82%d8%a8%d9%84-%d9%84%d9%82%d8%a7%d8%a1-%d8%a7%d8%b3%d9%83%d8%aa%d9%84%d9%86%d8%af%d8%a7-%d8%b7%d9%88%d9%8a%d9%86%d8%a7-%d8%b5%d9%81%d8%ad%d8%a9-%d8%a7%d9%84%d8%a8%d8%b1-1764060.html",
-      "description": "شدد محمد وهبي، مدرب المنتخب الوطني المغربي لكرة القدم، على ضرورة الحفاظ على التركيز وعدم الانسياق وراء أجواء التفاؤل بعد المباراة الأولى في نهائيات كأس العالم 2026، مؤكداً أن وضعية المجموعة تفرض على “أسود الأطلس” مواصلة العمل قبل مواجهة اسكتلندا. وقال وهبي، خلال الندوة الصحافية التي تسبق اللقاء، إن المنتخب المغربي مازال مطالباً بتحقيق نتيجة […] The post وهبي قبل لقاء اسكتلندا: طوينا صفحة البرازيل.. ونرفع فعالية الهجوم appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-18T23:30:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-transition-nerg-tique-le-maroc-face-au-d-fi-de-la-pr-paration",
-      "title": "Transition énergétique : le Maroc face au défi de la préparation",
-      "link": "https://fr.hespress.com/478052-transition-energetique-le-maroc-face-au-defi-de-la-preparation.html",
-      "description": "Classé 72e mondial dans l’Indice de transition énergétique 2026, le Maroc évolue dans un contexte international où les enjeux de sécurité énergétique, d’investissement et de résilience des infrastructures prennent une importance croissante. Des facteurs que le Forum économique mondial considère désormais comme déterminants pour la réussite de la transition. La transition énergétique mondiale marque le […] The post Transition énergétique : le Maroc face au défi de la préparation appeared first on",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-18T21:24:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
