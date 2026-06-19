@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-19T08:16:09Z",
+  "generatedAt": "2026-06-19T19:00:07Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-mondial-2026-l-alg-rie-saisit-la-fifa-apr-s-sa-d-faite-face-l-argentine",
+      "title": "Mondial 2026 : l'Algérie saisit la FIFA après sa défaite face à l'Argentine",
+      "link": "https://fr.hespress.com/478239-mondial-2026-lalgerie-saisit-la-fifa-apres-sa-defaite-face-a-largentine.html",
+      "description": "L’Algérie n’a pas digéré sa défaite face à l’Argentine (3-0) lors de la Coupe du monde 2026. Selon plusieurs médias, la Fédération algérienne de football (FAF) a décidé de saisir officiellement la FIFA afin de contester certaines décisions arbitrales prises au cours de cette rencontre. L’instance algérienne estime notamment qu’une action impliquant Lionel Messi aurait […] The post Mondial 2026 : l'Algérie saisit la FIFA après sa défaite face à l'Argentine appeared first on Hespress Français - Ac",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-19T18:40:39Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
