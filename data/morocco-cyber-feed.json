@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-20T01:24:51Z",
+  "generatedAt": "2026-06-20T07:39:08Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "تعطيل قرارات هدم بـ\"رخص تسوية\" مشبوهة يستنفر مصالح \"الداخلية\"",
+      "link": "https://www.hespress.com/%d8%aa%d8%b9%d8%b7%d9%8a%d9%84-%d9%82%d8%b1%d8%a7%d8%b1%d8%a7%d8%aa-%d9%87%d8%af%d9%85-%d8%a8%d9%80%d8%b1%d8%ae%d8%b5-%d8%aa%d8%b3%d9%88%d9%8a%d8%a9-%d9%85%d8%b4%d8%a8%d9%88%d9%87%d8%a9-%d9%8a-1763905.html",
+      "description": "كشفت تسريبات من تقارير رفعتها أقسام “الشؤون الداخلية” بعمالات وأقاليم جهات الدار البيضاء–سطات، والرباط–سلا–القنيطرة، وفاس–مكناس عن نمط جديد في خروقات التعمير، أظهر مستوى غير مسبوق من التنظيم والتعقيد في أساليب التحايل على منظومة التراخيص، بعد رصد وقائع التفاف منعشين عقاريين على قرارات هدم، من خلال توظيف “رخص تسوية” مشبوهة موقعة من قبل رؤساء جماعات، وحاملة […] The post تعطيل قرارات هدم بـ\"رخص تسوية\" مشبوهة يستنفر مصالح \"الداخلية\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-20T06:00:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-bank-al-maghrib-likely-to-keep-key-rate-unchanged-as-oil-prices-ease",
       "title": "Bank Al-Maghrib likely to keep key rate unchanged as oil prices ease",
