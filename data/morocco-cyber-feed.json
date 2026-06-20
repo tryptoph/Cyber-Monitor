@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-19T19:00:07Z",
+  "generatedAt": "2026-06-20T01:24:51Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-mondial-2026-l-alg-rie-saisit-la-fifa-apr-s-sa-d-faite-face-l-argentine",
-      "title": "Mondial 2026 : l'Algérie saisit la FIFA après sa défaite face à l'Argentine",
-      "link": "https://fr.hespress.com/478239-mondial-2026-lalgerie-saisit-la-fifa-apres-sa-defaite-face-a-largentine.html",
-      "description": "L’Algérie n’a pas digéré sa défaite face à l’Argentine (3-0) lors de la Coupe du monde 2026. Selon plusieurs médias, la Fédération algérienne de football (FAF) a décidé de saisir officiellement la FIFA afin de contester certaines décisions arbitrales prises au cours de cette rencontre. L’instance algérienne estime notamment qu’une action impliquant Lionel Messi aurait […] The post Mondial 2026 : l'Algérie saisit la FIFA après sa défaite face à l'Argentine appeared first on Hespress Français - Ac",
+      "id": "hespress-en-bank-al-maghrib-likely-to-keep-key-rate-unchanged-as-oil-prices-ease",
+      "title": "Bank Al-Maghrib likely to keep key rate unchanged as oil prices ease",
+      "link": "https://en.hespress.com/140285-bank-al-maghrib-likely-to-keep-key-rate-unchanged-as-oil-prices-ease.html",
+      "description": "Economists expect Bank Al-Maghrib to keep its benchmark interest rate unchanged at its upcoming policy meeting on June 23, citing continued uncertainty surrounding global economic conditions and recent developments in energy markets. The central bank’s board left the key rate unchanged at 2.25% during its last meeting on March 17. Economic analyst Abdelkhaleq Tehami said […] The post Bank Al-Maghrib likely to keep key rate unchanged as oil prices ease appeared first on HESPRESS English - Morocco",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-19T23:00:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mondial-2026-les-lions-de-l-atlas-pargn-s-par-la-double-imposition-fiscale-us",
+      "title": "Mondial 2026 : les Lions de l'Atlas épargnés par la double imposition fiscale US",
+      "link": "https://fr.hespress.com/476709-mondial-2026-les-lions-de-latlas-epargnes-par-la-double-imposition-fiscale-us.html",
+      "description": "Pendant que certaines sélections comptent déjà leurs pertes, le Maroc joue une carte que peu de nations africaines possèdent. À quelques jours du coup d’envoi de la Coupe du monde 2026, une donnée fiscale discrète mais significative s’impose. La Fédération Royale Marocaine de Football (FRMF), ne paiera pas d’impôts américains sur ses primes FIFA. Une […] The post Mondial 2026 : les Lions de l'Atlas épargnés par la double imposition fiscale US appeared first on Hespress Français - Actualités du M",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-19T18:40:39Z",
+      "published": "2026-06-19T22:55:41Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
