@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-20T12:57:40Z",
+  "generatedAt": "2026-06-20T18:50:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-bank-al-maghrib-seen-holding-rate-at-2-25-as-iran-deal-clouds-oil-outlook",
-      "title": "Bank Al-Maghrib seen holding rate at 2.25% as Iran deal clouds oil outlook",
-      "link": "https://en.hespress.com/140299-bank-al-maghrib-seen-holding-rate-at-2-25-as-iran-deal-clouds-oil-outlook.html",
-      "description": "Bank Al-Maghrib is expected to leave its benchmark interest rate unchanged at 2.25% on June 23 as uncertainty over the durability of the US-Iran agreement and its impact on global energy prices argues against an immediate move, two economists said. The Moroccan central bank kept its key rate unchanged at its previous policy meeting on […] The post Bank Al-Maghrib seen holding rate at 2.25% as Iran deal clouds oil outlook appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-brazil-cites-possible-cyberattack-behind-false-mobile-emergency-alerts",
+      "title": "Brazil cites possible cyberattack behind false mobile emergency alerts",
+      "link": "https://en.hespress.com/140326-brazil-cites-possible-cyberattack-behind-false-mobile-emergency-alerts.html",
+      "description": "Brazil’s Civil Defense said Saturday it had disabled its mobile phone emergency alert system after it suffered a possible cyberattack that resulted in false messages being sent overnight. “The message sent was an Extreme Alert and contained the word ‘misanthropy,’ meaning hatred of humanity. It was probably a hacker attack,” the Civil Defense said in […] The post Brazil cites possible cyberattack behind false mobile emergency alerts appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-20T08:55:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-mawazine-2026-mayada-el-hennawy-enchante-le-public-de-rabat-lors-d-un-concert-d-ouverture-m-mora",
-      "title": "Mawazine 2026 : Mayada El Hennawy enchante le public de Rabat lors d'un concert d'ouverture mémorable",
-      "link": "https://fr.hespress.com/478283-mawazine-2026-mayada-el-hennawy-enchante-le-public-de-rabat-lors-dun-concert-douverture-memorable.html",
-      "description": "L’artiste syrienne Mayada El Hennawy a enchanté, vendredi soir, le public du Théâtre National Mohammed V de Rabat, avec une sélection de ses plus belles chansons, le temps d’un concert d’ouverture mémorable à l’occasion de la 21e édition du Festival Mawazine-Rythmes du Monde. Dès sa montée sur la scène du Théâtre National Mohammed V, le […] The post Mawazine 2026 : Mayada El Hennawy enchante le public de Rabat lors d'un concert d'ouverture mémorable appeared first on Hespress Français - Actualit",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-20T08:20:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cr-dit-les-droits-m-connus-des-entreprises-face-aux-banques",
-      "title": "Crédit : les droits méconnus des entreprises face aux banques",
-      "link": "https://fr.hespress.com/478170-credit-les-droits-meconnus-des-entreprises-face-aux-banques.html",
-      "description": "Délais de traitement, motifs de refus, mécanismes publics de garantie ou encore accès à certaines informations sur l’évaluation du dossier. Bank Al-Maghrib rappelle les obligations auxquelles sont soumis les établissements de crédit lorsqu’ils examinent une demande de financement présentée par une entreprise. L’accès au financement demeure l’une des principales préoccupations des entreprises marocaines, en particulier […] The post Crédit : les droits méconnus des entreprises face aux banques app",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-20T07:37:02Z",
+      "published": "2026-06-20T14:35:08Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
