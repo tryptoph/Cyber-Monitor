@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-21T01:33:22Z",
+  "generatedAt": "2026-06-21T08:00:51Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "الذكاء الاصطناعي تحت \"مجهر الفاتيكان\" .. ومخاوف من انفلات السيطرة",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%aa%d8%ad%d8%aa-%d9%85%d8%ac%d9%87%d8%b1-%d8%a7%d9%84%d9%81%d8%a7%d8%aa%d9%8a%d9%83%d8%a7%d9%86-1765002.html",
-      "description": "إذا كانت الدول العظمى، في الفترات الاستعمارية التي تعاقبت على مصير العالم الحديث، تفرض قوتها باحتلال الأراضي، والاستيلاء على المواد الأولية، واستعباد الشعوب وإذلالها، والهيمنة على طرق التجارة والتبادل، وهي أدوار ما يزال دونالد ترامب يحنّ إلى القيام بها، كما فعل أثناء الهجوم على فنزويلا واعتقال رئيسها والاستيلاء على نفطها؛ ولا يتورع عن التعبير عن […] The post الذكاء الاصطناعي تحت \"مجهر الفاتيكان\" .. ومخاوف من انفلات السيطرة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-21T00:00:52Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-japan-agriculture-minister-visits-ocp-complex-to-deepen-fertilizer-partnership",
       "title": "Japan agriculture minister visits OCP complex to deepen fertilizer partnership",
