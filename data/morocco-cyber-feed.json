@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-21T08:00:51Z",
+  "generatedAt": "2026-06-21T13:02:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-warns-institutions-after-massive-data-leak-exposes-thousands-of-devices-worldwide",
+      "title": "Morocco warns institutions after massive data leak exposes thousands of devices worldwide",
+      "link": "https://en.hespress.com/140363-morocco-warns-institutions-after-massive-data-leak-exposes-thousands-of-devices-worldwide.html",
+      "description": "Morocco’s national cybersecurity authorities have warned that several Moroccan institutions may be affected by a massive global data leak known as “FortiBleed,” which has exposed sensitive credentials linked to internet-connected security devices manufactured by Fortinet. In a security advisory issued under reference number 65471806/26, the Moroccan Computer Emergency Response Team (maCERT), operating under the General […] The post Morocco warns institutions after massive data leak exposes thous",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-21T10:30:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-au-maroc-les-arnaques-via-whatsapp-et-telegram-gagnent-en-rapidit-et-en-efficacit",
+      "title": "Au Maroc, les arnaques via WhatsApp et Telegram gagnent en rapidité et en efficacité",
+      "link": "https://fr.hespress.com/477909-au-maroc-les-arnaques-via-whatsapp-et-telegram-gagnent-en-rapidite-et-en-efficacite.html",
+      "description": "WhatsApp, Facebook, Telegram… Les applications de messagerie sont devenues le terrain privilégié des cyberescrocs. Une étude de Kaspersky révèle que les victimes marocaines sont souvent piégées en quelques minutes seulement, avec des pertes financières qui dépassent largement la moyenne mondiale. Les cybercriminels n’ont jamais eu autant de facilité à atteindre leurs cibles. Selon une étude […] The post Au Maroc, les arnaques via WhatsApp et Telegram gagnent en rapidité et en efficacité appeared",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-21T09:30:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-japan-agriculture-minister-visits-ocp-complex-to-deepen-fertilizer-partnership",
       "title": "Japan agriculture minister visits OCP complex to deepen fertilizer partnership",
