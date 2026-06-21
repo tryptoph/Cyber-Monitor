@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-21T13:02:21Z",
+  "generatedAt": "2026-06-21T18:52:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-morocco-warns-institutions-after-massive-data-leak-exposes-thousands-of-devices-worldwide",
-      "title": "Morocco warns institutions after massive data leak exposes thousands of devices worldwide",
-      "link": "https://en.hespress.com/140363-morocco-warns-institutions-after-massive-data-leak-exposes-thousands-of-devices-worldwide.html",
-      "description": "Morocco’s national cybersecurity authorities have warned that several Moroccan institutions may be affected by a massive global data leak known as “FortiBleed,” which has exposed sensitive credentials linked to internet-connected security devices manufactured by Fortinet. In a security advisory issued under reference number 65471806/26, the Moroccan Computer Emergency Response Team (maCERT), operating under the General […] The post Morocco warns institutions after massive data leak exposes thous",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-21T10:30:36Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-au-maroc-les-arnaques-via-whatsapp-et-telegram-gagnent-en-rapidit-et-en-efficacit",
-      "title": "Au Maroc, les arnaques via WhatsApp et Telegram gagnent en rapidité et en efficacité",
-      "link": "https://fr.hespress.com/477909-au-maroc-les-arnaques-via-whatsapp-et-telegram-gagnent-en-rapidite-et-en-efficacite.html",
-      "description": "WhatsApp, Facebook, Telegram… Les applications de messagerie sont devenues le terrain privilégié des cyberescrocs. Une étude de Kaspersky révèle que les victimes marocaines sont souvent piégées en quelques minutes seulement, avec des pertes financières qui dépassent largement la moyenne mondiale. Les cybercriminels n’ont jamais eu autant de facilité à atteindre leurs cibles. Selon une étude […] The post Au Maroc, les arnaques via WhatsApp et Telegram gagnent en rapidité et en efficacité appeared",
+      "id": "hespress-fr-alerte-cybers-curit-au-maroc-une-vaste-fuite-de-donn-es-menace-plusieurs-institutions",
+      "title": "Alerte cybersécurité au Maroc : une vaste fuite de données menace plusieurs institutions",
+      "link": "https://fr.hespress.com/478360-alerte-cybersecurite-au-maroc-une-vaste-fuite-de-donnees-menace-plusieurs-institutions.html",
+      "description": "Le Centre marocain de veille, de détection et de réaction aux cyberattaques (maCERT), relevant de la Direction générale de la sécurité des systèmes d’information (DGSSI), a émis une alerte concernant une importante campagne de fuite de données connue sous le nom de « FortiBleed ». Cette menace cible principalement les pare-feu et les passerelles de […] The post Alerte cybersécurité au Maroc : une vaste fuite de données menace plusieurs institutions appeared first on Hespress Français - Actualité",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-21T09:30:56Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-japan-agriculture-minister-visits-ocp-complex-to-deepen-fertilizer-partnership",
-      "title": "Japan agriculture minister visits OCP complex to deepen fertilizer partnership",
-      "link": "https://en.hespress.com/140349-japan-agriculture-minister-visits-ocp-complex-to-deepen-fertilizer-partnership.html",
-      "description": "OCP Group hosted Japanese Agriculture, Forestry and Fisheries Minister Norikazu Suzuki and an official delegation at its Jorf Lasfar industrial complex on Saturday, the Moroccan fertilizer producer said. The visit focused on cooperation supporting Japan’s agricultural development, food security and fertilizer supply chains, as well as wider demand across Southeast Asia. OCP said its relationship […] The post Japan agriculture minister visits OCP complex to deepen fertilizer partnership appeared ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-20T20:41:27Z",
+      "published": "2026-06-21T13:30:40Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
