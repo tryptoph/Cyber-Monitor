@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-20T18:50:48Z",
+  "generatedAt": "2026-06-21T01:33:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-en-brazil-cites-possible-cyberattack-behind-false-mobile-emergency-alerts",
-      "title": "Brazil cites possible cyberattack behind false mobile emergency alerts",
-      "link": "https://en.hespress.com/140326-brazil-cites-possible-cyberattack-behind-false-mobile-emergency-alerts.html",
-      "description": "Brazil’s Civil Defense said Saturday it had disabled its mobile phone emergency alert system after it suffered a possible cyberattack that resulted in false messages being sent overnight. “The message sent was an Extreme Alert and contained the word ‘misanthropy,’ meaning hatred of humanity. It was probably a hacker attack,” the Civil Defense said in […] The post Brazil cites possible cyberattack behind false mobile emergency alerts appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-ar-item",
+      "title": "الذكاء الاصطناعي تحت \"مجهر الفاتيكان\" .. ومخاوف من انفلات السيطرة",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%aa%d8%ad%d8%aa-%d9%85%d8%ac%d9%87%d8%b1-%d8%a7%d9%84%d9%81%d8%a7%d8%aa%d9%8a%d9%83%d8%a7%d9%86-1765002.html",
+      "description": "إذا كانت الدول العظمى، في الفترات الاستعمارية التي تعاقبت على مصير العالم الحديث، تفرض قوتها باحتلال الأراضي، والاستيلاء على المواد الأولية، واستعباد الشعوب وإذلالها، والهيمنة على طرق التجارة والتبادل، وهي أدوار ما يزال دونالد ترامب يحنّ إلى القيام بها، كما فعل أثناء الهجوم على فنزويلا واعتقال رئيسها والاستيلاء على نفطها؛ ولا يتورع عن التعبير عن […] The post الذكاء الاصطناعي تحت \"مجهر الفاتيكان\" .. ومخاوف من انفلات السيطرة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-21T00:00:52Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-japan-agriculture-minister-visits-ocp-complex-to-deepen-fertilizer-partnership",
+      "title": "Japan agriculture minister visits OCP complex to deepen fertilizer partnership",
+      "link": "https://en.hespress.com/140349-japan-agriculture-minister-visits-ocp-complex-to-deepen-fertilizer-partnership.html",
+      "description": "OCP Group hosted Japanese Agriculture, Forestry and Fisheries Minister Norikazu Suzuki and an official delegation at its Jorf Lasfar industrial complex on Saturday, the Moroccan fertilizer producer said. The visit focused on cooperation supporting Japan’s agricultural development, food security and fertilizer supply chains, as well as wider demand across Southeast Asia. OCP said its relationship […] The post Japan agriculture minister visits OCP complex to deepen fertilizer partnership appeared ",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-20T14:35:08Z",
+      "published": "2026-06-20T20:41:27Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
