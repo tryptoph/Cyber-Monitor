@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-22T14:14:39Z",
+  "generatedAt": "2026-06-22T19:30:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-france-10-d-c-s-par-noyade-ce-week-end",
-      "title": "France: 10 décès par noyade ce week-end",
-      "link": "https://fr.hespress.com/478435-france-10-deces-par-noyade-ce-week-end.html",
-      "description": "Dix personnes sont mortes par noyade en France depuis samedi soir, en raison de très fortes chaleurs dépassant les 40° C dans plusieurs parties du pays, selon les statistiques de la Sécurité civile. « Au plan national, 10 décès par noyade recensés pendant la seule journée d’hier », a déclaré aux médias le porte-parole de la Sécurité […] The post France: 10 décès par noyade ce week-end appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-en-morocco-moves-to-end-12-hour-shifts-for-private-security-guards",
+      "title": "Morocco moves to end 12-hour shifts for private security guards",
+      "link": "https://en.hespress.com/140451-morocco-moves-to-end-12-hour-shifts-for-private-security-guards.html",
+      "description": "Morocco’s lower-house Social Sectors Committee unanimously approved Monday a bill bringing private security guards under ordinary working-hour rules, moving the measure closer to a final parliamentary vote. The amendment to Article 193 of the Labour Code would end a provision that treats security work as intermittent and allows guards to work shifts of up to […] The post Morocco moves to end 12-hour shifts for private security guards appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-22T18:02:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-march-s-publics-abdennabaoui-met-en-avant-le-r-le-cl-de-la-justice-administrative",
+      "title": "Marchés publics : Abdennabaoui met en avant le rôle clé de la justice administrative",
+      "link": "https://fr.hespress.com/478455-marches-publics-abdennabaoui-met-en-avant-le-role-cle-de-la-justice-administrative.html",
+      "description": "Le contrôle juridictionnel des marchés publics constitue un levier essentiel de bonne gouvernance, de sécurité juridique et de protection des deniers publics. C’est le message porté par Mohamed Abdennabaoui, Premier président de la Cour de cassation et président délégué du Conseil supérieur du pouvoir judiciaire, à l’ouverture d’une session de formation consacrée au contrôle juridictionnel […] The post Marchés publics : Abdennabaoui met en avant le rôle clé de la justice administrative appeared ",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-22T10:12:21Z",
+      "published": "2026-06-22T15:10:34Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
