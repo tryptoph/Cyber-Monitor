@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-21T18:52:43Z",
+  "generatedAt": "2026-06-22T01:32:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-alerte-cybers-curit-au-maroc-une-vaste-fuite-de-donn-es-menace-plusieurs-institutions",
-      "title": "Alerte cybersécurité au Maroc : une vaste fuite de données menace plusieurs institutions",
-      "link": "https://fr.hespress.com/478360-alerte-cybersecurite-au-maroc-une-vaste-fuite-de-donnees-menace-plusieurs-institutions.html",
-      "description": "Le Centre marocain de veille, de détection et de réaction aux cyberattaques (maCERT), relevant de la Direction générale de la sécurité des systèmes d’information (DGSSI), a émis une alerte concernant une importante campagne de fuite de données connue sous le nom de « FortiBleed ». Cette menace cible principalement les pare-feu et les passerelles de […] The post Alerte cybersécurité au Maroc : une vaste fuite de données menace plusieurs institutions appeared first on Hespress Français - Actualité",
+      "id": "hespress-ar-item",
+      "title": "العيناوي يتوهج في الأداء المونديالي",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b9%d9%8a%d9%86%d8%a7%d9%88%d9%8a-%d9%8a%d8%aa%d9%88%d9%87%d8%ac-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84%d9%8a-1765450.html",
+      "description": "شهدت تصنيفات الأداء الرسمية الصادرة عن الاتحاد الدولي لكرة القدم (فيفا) قفزات هائلة لستة لاعبين خلال الجولة الثانية من منافسات دور المجموعات لكأس العالم 2026، حيث تعتمد هذه الإحصائيات المتقدمة على قياس التأثير الفعلي للاعبين داخل الملعب عبر ثلاث فئات رئيسية هي الهجوم وصناعة اللعب والدفاع. وفي الفئة الهجومية، حقق المهاجم الكندي جوناثان ديفيد صعوداً […] The post العيناوي يتوهج في الأداء المونديالي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-22T01:20:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mondial-2026-le-d-bat-enfle-autour-de-l-impact-des-pauses-fra-cheur",
+      "title": "Mondial 2026 : le débat enfle autour de l'impact des pauses fraîcheur",
+      "link": "https://fr.hespress.com/478369-mondial-2026-le-debat-enfle-autour-de-limpact-des-pauses-fraicheur.html",
+      "description": "Introduites pour protéger les joueurs des fortes chaleurs qui accompagnent certaines rencontres de la Coupe du monde 2026, les pauses fraîcheur sont aujourd’hui au cœur d’un débat grandissant. Au-delà de leur objectif sanitaire, plusieurs observateurs s’interrogent désormais sur leur influence sur le déroulement des matchs et sur l’équité sportive. Une étude menée par le quotidien […] The post Mondial 2026 : le débat enfle autour de l'impact des pauses fraîcheur appeared first on Hespress França",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-21T13:30:40Z",
+      "published": "2026-06-21T19:49:29Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-drone-hub-cyber-defense-and-gibraltar-inside-the-new-us-morocco-security-vision",
+      "title": "Drone hub, cyber defense and Gibraltar: Inside the new US-Morocco security vision",
+      "link": "https://en.hespress.com/140399-drone-hub-cyber-defense-and-gibraltar-inside-the-new-us-morocco-security-vision.html",
+      "description": "The United States and Morocco are preparing to deepen defense cooperation over the next decade under a 2026–2036 roadmap that outlines expanded collaboration in drones, cybersecurity, military infrastructure and advanced command systems, while strengthening Morocco’s role in regional security dynamics. A central element of the proposed framework is the creation of a drone center in […] The post Drone hub, cyber defense and Gibraltar: Inside the new US-Morocco security vision appeared first on HE",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-21T19:30:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
