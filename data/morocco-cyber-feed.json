@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-22T08:31:55Z",
+  "generatedAt": "2026-06-22T14:14:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-drone-hub-cyber-defense-and-gibraltar-inside-the-new-us-morocco-security-vision",
-      "title": "Drone hub, cyber defense and Gibraltar: Inside the new US-Morocco security vision",
-      "link": "https://en.hespress.com/140399-drone-hub-cyber-defense-and-gibraltar-inside-the-new-us-morocco-security-vision.html",
-      "description": "The United States and Morocco are preparing to deepen defense cooperation over the next decade under a 2026–2036 roadmap that outlines expanded collaboration in drones, cybersecurity, military infrastructure and advanced command systems, while strengthening Morocco’s role in regional security dynamics. A central element of the proposed framework is the creation of a drone center in […] The post Drone hub, cyber defense and Gibraltar: Inside the new US-Morocco security vision appeared first on HE",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-france-10-d-c-s-par-noyade-ce-week-end",
+      "title": "France: 10 décès par noyade ce week-end",
+      "link": "https://fr.hespress.com/478435-france-10-deces-par-noyade-ce-week-end.html",
+      "description": "Dix personnes sont mortes par noyade en France depuis samedi soir, en raison de très fortes chaleurs dépassant les 40° C dans plusieurs parties du pays, selon les statistiques de la Sécurité civile. « Au plan national, 10 décès par noyade recensés pendant la seule journée d’hier », a déclaré aux médias le porte-parole de la Sécurité […] The post France: 10 décès par noyade ce week-end appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-21T19:30:05Z",
+      "published": "2026-06-22T10:12:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
