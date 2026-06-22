@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-22T01:32:47Z",
+  "generatedAt": "2026-06-22T08:31:55Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "العيناوي يتوهج في الأداء المونديالي",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b9%d9%8a%d9%86%d8%a7%d9%88%d9%8a-%d9%8a%d8%aa%d9%88%d9%87%d8%ac-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84%d9%8a-1765450.html",
-      "description": "شهدت تصنيفات الأداء الرسمية الصادرة عن الاتحاد الدولي لكرة القدم (فيفا) قفزات هائلة لستة لاعبين خلال الجولة الثانية من منافسات دور المجموعات لكأس العالم 2026، حيث تعتمد هذه الإحصائيات المتقدمة على قياس التأثير الفعلي للاعبين داخل الملعب عبر ثلاث فئات رئيسية هي الهجوم وصناعة اللعب والدفاع. وفي الفئة الهجومية، حقق المهاجم الكندي جوناثان ديفيد صعوداً […] The post العيناوي يتوهج في الأداء المونديالي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-22T01:20:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-mondial-2026-le-d-bat-enfle-autour-de-l-impact-des-pauses-fra-cheur",
-      "title": "Mondial 2026 : le débat enfle autour de l'impact des pauses fraîcheur",
-      "link": "https://fr.hespress.com/478369-mondial-2026-le-debat-enfle-autour-de-limpact-des-pauses-fraicheur.html",
-      "description": "Introduites pour protéger les joueurs des fortes chaleurs qui accompagnent certaines rencontres de la Coupe du monde 2026, les pauses fraîcheur sont aujourd’hui au cœur d’un débat grandissant. Au-delà de leur objectif sanitaire, plusieurs observateurs s’interrogent désormais sur leur influence sur le déroulement des matchs et sur l’équité sportive. Une étude menée par le quotidien […] The post Mondial 2026 : le débat enfle autour de l'impact des pauses fraîcheur appeared first on Hespress França",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-21T19:49:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-drone-hub-cyber-defense-and-gibraltar-inside-the-new-us-morocco-security-vision",
       "title": "Drone hub, cyber defense and Gibraltar: Inside the new US-Morocco security vision",
