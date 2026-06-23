@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-23T07:35:07Z",
+  "generatedAt": "2026-06-23T13:19:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-en-one-dead-eight-injured-in-amman-crowd-crush-during-jordan-algeria-match",
+      "title": "One dead, eight injured in Amman crowd crush during Jordan Algeria match",
+      "link": "https://en.hespress.com/140495-one-dead-eight-injured-in-amman-crowd-crush-during-jordan-algeria-match.html",
+      "description": "One person died and eight others were injured in a crowd crush at a public World Cup screening in central Amman early on Tuesday, Jordan’s Public Security Directorate said. The incident occurred at Hashemite Square, where supporters had gathered to watch Jordan’s 2-1 defeat by Algeria in their second Group J match. Emergency teams transported […] The post One dead, eight injured in Amman crowd crush during Jordan Algeria match appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-23T12:35:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mawazine-les-gipsy-kings-signent-un-concert-haut-en-couleurs",
+      "title": "Mawazine : Les Gipsy Kings signent un concert haut en couleurs",
+      "link": "https://fr.hespress.com/478563-mawazine-les-gipsy-kings-signent-un-concert-haut-en-couleurs.html",
+      "description": "Figures emblématiques de la rumba flamenca, les légendaires Gipsy Kings by Diego Baliardo ont gratifié, lundi soir, le public de l’OLM Souissi d’un concert haut en couleurs qui restera sans nul doute gravé dans les mémoires. Le groupe, qui s’est produit dans le cadre de la 21e édition du Festival Mawazine-Rythmes du monde, a réussi […] The post Mawazine : Les Gipsy Kings signent un concert haut en couleurs appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-23T09:15:20Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-israel-s-deliberate-targeting-of-children-part-of-ongoing-gaza-genocide-un-probe",
+      "title": "Israel's 'deliberate targeting' of children part of ongoing Gaza 'genocide': UN probe",
+      "link": "https://en.hespress.com/140480-israels-deliberate-targeting-of-children-part-of-ongoing-gaza-genocide-un-probe.html",
+      "description": "Israel is deliberately targeting Palestinian children in what has become a key factor in an ongoing “genocide” in Gaza, United Nations investigators charged on Tuesday. The UN Independent International Commission of Inquiry said it had found evidence that “Palestinian children have been deliberately targeted and killed by Israeli security forces”, which it called a key factor […] The post Israel's 'deliberate targeting' of children part of ongoing Gaza 'genocide': UN probe appeared first on HESP",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-23T08:09:47Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-morocco-to-launch-fully-digital-driving-licence-system-in-october-2026",
       "title": "Morocco to launch fully digital driving licence system in October 2026",
       "link": "https://en.hespress.com/140474-morocco-to-launch-fully-digital-driving-licence-system-in-october-2026.html",
@@ -22,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-22T22:28:44Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-moves-to-end-12-hour-shifts-for-private-security-guards",
-      "title": "Morocco moves to end 12-hour shifts for private security guards",
-      "link": "https://en.hespress.com/140451-morocco-moves-to-end-12-hour-shifts-for-private-security-guards.html",
-      "description": "Morocco’s lower-house Social Sectors Committee unanimously approved Monday a bill bringing private security guards under ordinary working-hour rules, moving the measure closer to a final parliamentary vote. The amendment to Article 193 of the Labour Code would end a provision that treats security work as intermittent and allows guards to work shifts of up to […] The post Morocco moves to end 12-hour shifts for private security guards appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-22T18:02:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
