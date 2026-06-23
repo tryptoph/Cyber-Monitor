@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-22T19:30:45Z",
+  "generatedAt": "2026-06-23T01:18:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-en-morocco-to-launch-fully-digital-driving-licence-system-in-october-2026",
+      "title": "Morocco to launch fully digital driving licence system in October 2026",
+      "link": "https://en.hespress.com/140474-morocco-to-launch-fully-digital-driving-licence-system-in-october-2026.html",
+      "description": "Morocco is set to launch a fully digital driving licence management system as part of its broader efforts to modernize public administration and expand digital public services. The reform, led by the Agence Nationale de la Sécurité Routière (NARSA), will transfer all driving licence-related procedures to a centralized online platform, covering everything from candidate registration […] The post Morocco to launch fully digital driving licence system in October 2026 appeared first on HESPRESS Engl",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-22T22:28:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mawazine-2026-nicky-jam-annule-son-concert-pour-des-raisons-de-sant",
+      "title": "Mawazine 2026 : Nicky Jam annule son concert pour des raisons de santé",
+      "link": "https://fr.hespress.com/478522-mawazine-2026-nicky-jam-annule-son-concert-pour-des-raisons-de-sante.html",
+      "description": "L’artiste américano-portoricain Nicky Jam a annoncé l’annulation de sa prestation prévue, ce lundi 22 juin à l’OLM Souissi, dans le cadre du Festival Mawazine, invoquant un problème de santé inattendu qui l’empêche de monter sur scène. Il sera remplacé par le légendaire groupe Gipsy Kings, ont annoncé les organisateurs. Dans un message adressé à ses […] The post Mawazine 2026 : Nicky Jam annule son concert pour des raisons de santé appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-06-22T19:49:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-morocco-moves-to-end-12-hour-shifts-for-private-security-guards",
       "title": "Morocco moves to end 12-hour shifts for private security guards",
       "link": "https://en.hespress.com/140451-morocco-moves-to-end-12-hour-shifts-for-private-security-guards.html",
@@ -22,19 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-06-22T18:02:43Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-march-s-publics-abdennabaoui-met-en-avant-le-r-le-cl-de-la-justice-administrative",
-      "title": "Marchés publics : Abdennabaoui met en avant le rôle clé de la justice administrative",
-      "link": "https://fr.hespress.com/478455-marches-publics-abdennabaoui-met-en-avant-le-role-cle-de-la-justice-administrative.html",
-      "description": "Le contrôle juridictionnel des marchés publics constitue un levier essentiel de bonne gouvernance, de sécurité juridique et de protection des deniers publics. C’est le message porté par Mohamed Abdennabaoui, Premier président de la Cour de cassation et président délégué du Conseil supérieur du pouvoir judiciaire, à l’ouverture d’une session de formation consacrée au contrôle juridictionnel […] The post Marchés publics : Abdennabaoui met en avant le rôle clé de la justice administrative appeared ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-06-22T15:10:34Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
