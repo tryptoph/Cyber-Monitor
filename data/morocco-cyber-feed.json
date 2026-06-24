@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-23T19:02:48Z",
+  "generatedAt": "2026-06-24T01:16:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-royal-moroccan-navy-set-to-receive-advanced-avante-1800-offshore-patrol-ship",
-      "title": "Royal Moroccan Navy set to receive advanced Avante 1800 offshore patrol ship",
-      "link": "https://en.hespress.com/140530-royal-moroccan-navy-set-to-receive-advanced-avante-1800-offshore-patrol-ship.html",
-      "description": "Morocco is preparing to strengthen its maritime capabilities with the delivery of a new Avante 1800 offshore patrol vessel, a move that underscores the Kingdom’s growing emphasis on naval modernization, maritime security and the protection of its strategic waters. The vessel is being built by Spanish shipbuilder Navantia at its shipyard in San Fernando and […] The post Royal Moroccan Navy set to receive advanced Avante 1800 offshore patrol ship appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-protection-animale-le-maroc-supprime-les-peines-de-prison-pour-certaines-infractions",
+      "title": "Protection animale : le Maroc supprime les peines de prison pour certaines infractions",
+      "link": "https://fr.hespress.com/478629-protection-animale-le-maroc-supprime-les-peines-de-prison-pour-certaines-infractions.html",
+      "description": "La Commission des secteurs productifs de la Chambre des représentants a adopté plusieurs amendements au projet de loi n°19.25 relatif à la protection des animaux et à la prévention des dangers qu’ils peuvent représenter, notamment la suppression des peines d’emprisonnement prévues pour certaines infractions. L’une des modifications les plus marquantes concerne l’article 38 du texte. […] The post Protection animale : le Maroc supprime les peines de prison pour certaines infractions appeared first",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-23T18:31:40Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-man-arrested-at-tenerife-airport-after-swallowing-79-hash-capsules-on-flight-from-agadir",
-      "title": "Man arrested at Tenerife airport after swallowing 79 hash capsules on flight from Agadir",
-      "link": "https://en.hespress.com/140511-man-arrested-at-tenerife-airport-after-swallowing-79-hash-capsules-on-flight-from-agadir.html",
-      "description": "Spanish police have arrested a man at Tenerife South Airport after he arrived on a flight from Agadir, Morocco carrying 880 grams of cannabis resin inside his body, according to Europa Press citing the statement of the security forces. National Police officers intercepted the man upon his arrival, following coordination between several investigative units. Officers […] The post Man arrested at Tenerife airport after swallowing 79 hash capsules on flight from Agadir appeared first on HESPRESS Eng",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-23T14:31:34Z",
+      "published": "2026-06-23T21:33:07Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
