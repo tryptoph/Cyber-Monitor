@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-24T01:16:42Z",
+  "generatedAt": "2026-06-24T13:07:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-protection-animale-le-maroc-supprime-les-peines-de-prison-pour-certaines-infractions",
-      "title": "Protection animale : le Maroc supprime les peines de prison pour certaines infractions",
-      "link": "https://fr.hespress.com/478629-protection-animale-le-maroc-supprime-les-peines-de-prison-pour-certaines-infractions.html",
-      "description": "La Commission des secteurs productifs de la Chambre des représentants a adopté plusieurs amendements au projet de loi n°19.25 relatif à la protection des animaux et à la prévention des dangers qu’ils peuvent représenter, notamment la suppression des peines d’emprisonnement prévues pour certaines infractions. L’une des modifications les plus marquantes concerne l’article 38 du texte. […] The post Protection animale : le Maroc supprime les peines de prison pour certaines infractions appeared first",
+      "id": "hespress-fr-mondial-2026-le-maroc-face-ha-ti-br-sil-cosse-et-suisse-canada-au-menu-de-mercredi",
+      "title": "Mondial 2026 : le Maroc face à Haïti, Brésil-Écosse et Suisse-Canada au menu de mercredi",
+      "link": "https://fr.hespress.com/478705-mondial-2026-le-maroc-face-a-haiti-bresil-ecosse-et-suisse-canada-au-menu-de-mercredi.html",
+      "description": "Les rencontres de la troisième journée de la phase de groupes de la Coupe du monde 2026 se poursuivent ce mercredi avec plusieurs affiches décisives dans les groupes A, B et C. Alors que certaines sélections tenteront de valider leur qualification pour les seizièmes de finale, d’autres joueront leur avenir dans la compétition. Dans le […] The post Mondial 2026 : le Maroc face à Haïti, Brésil-Écosse et Suisse-Canada au menu de mercredi appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-23T21:33:07Z",
+      "published": "2026-06-24T12:11:57Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
