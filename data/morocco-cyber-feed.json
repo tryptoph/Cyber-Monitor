@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-24T18:58:22Z",
+  "generatedAt": "2026-06-25T01:21:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-mawazine-hatim-ammor-entre-musique-et-passion-du-football",
-      "title": "À Mawazine, Hatim Ammor entre musique et passion du football",
-      "link": "https://fr.hespress.com/478728-a-mawazine-hatim-ammor-entre-musique-et-passion-du-football.html",
-      "description": "À quelques heures de son concert sur la scène Nahda du Festival Mawazine Rythmes du Monde, Hatim Ammor s’est prêté à l’exercice de la conférence de presse avec franchise, évoquant aussi bien ses ambitions artistiques que son attachement au football, sa vision de la chanson marocaine ou encore sa perception de l’intelligence artificielle dans la […] The post À Mawazine, Hatim Ammor entre musique et passion du football appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "تفاهم واشنطن وطهران يفتح نقاشات إيرانية حول مستقبل العلاقة مع أمريكا",
+      "link": "https://www.hespress.com/%d8%aa%d9%81%d8%a7%d9%87%d9%85-%d9%88%d8%a7%d8%b4%d9%86%d8%b7%d9%86-%d9%88%d8%b7%d9%87%d8%b1%d8%a7%d9%86-%d9%8a%d9%81%d8%aa%d8%ad-%d9%86%d9%82%d8%a7%d8%b4%d8%a7%d8%aa-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1766859.html",
+      "description": "عكست مواقف عدد من الشخصيات في إيران انقسامات واعتراضات على إجراء محادثات مع الولايات المتحدة، لكنها لن تكفي وحدها لعرقلة عملية التفاوض. بعد أسابيع من اندلاع الحرب التي بدأت بهجوم أميركي إسرائيلي على إيران في 28 فبراير، توصّلت واشنطن وطهران إلى وقف لإطلاق النار في أبريل. وفي 17 يونيو، وقّع الطرفان مذكرة تفاهم، تلاها إجراء […] The post تفاهم واشنطن وطهران يفتح نقاشات إيرانية حول مستقبل العلاقة مع أمريكا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-06-24T17:07:03Z",
+      "published": "2026-06-25T01:00:04Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
