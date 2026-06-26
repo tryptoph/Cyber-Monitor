@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-26T13:02:37Z",
+  "generatedAt": "2026-06-26T18:58:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-la-loterie-nationale-distingu-e-pour-son-engagement-en-faveur-du-jeu-responsable-et-de-la-respon",
-      "title": "La Loterie Nationale distinguée pour son engagement en faveur du Jeu Responsable et de la Responsabilité Sociétale",
-      "link": "https://fr.hespress.com/478951-la-loterie-nationale-distinguee-pour-son-engagement-en-faveur-du-jeu-responsable-et-de-la-responsabilite-societale.html",
-      "description": "La Loterie Nationale a reçu sa double certification internationale en matière de Jeu Responsable lors de la cérémonie officielle des Industry Days 2026 d’European Lotteries (EL), organisés à Marrakech du 7 au 10 juin 2026 et accueillis par la Loterie Nationale sous le thème « Lotteries Bridging Continents ». À cette occasion, la Loterie Nationale […] The post La Loterie Nationale distinguée pour son engagement en faveur du Jeu Responsable et de la Responsabilité Sociétale appeared first on Hespr",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "ترامب يتهم إيران بتعمد خرق \"أحمق\"",
+      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%aa%d9%87%d9%85-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d8%aa%d8%b9%d9%85%d8%af-%d8%ae%d8%b1%d9%82-%d8%a3%d8%ad%d9%85%d9%82-1768109.html",
+      "description": "اتهم الرئيس الأميركي دونالد ترامب، الجمعة، إيران بمهاجمة سفينة شحن في مضيق هرمز، معتبرا ذلك “انتهاكا أخرق” للتفاهم بين البلدين، في ما يُرجح أنه إشارة الى هجوم وقع الخميس. وكتب ترامب على منصته تروث سوشال: “أطلقت الجمهورية الإسلامية الإيرانية أربع طائرات مسيّرة على الأقل نحو سفن تعبر مضيق هرمز”، مشيرا إلى أن إحداها أصابت سفينة […] The post ترامب يتهم إيران بتعمد خرق \"أحمق\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-06-26T12:11:19Z",
+      "published": "2026-06-26T17:02:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
