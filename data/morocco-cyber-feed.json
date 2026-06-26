@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-25T07:32:44Z",
+  "generatedAt": "2026-06-26T01:24:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-french-officers-detained-over-police-leaks-in-laundering-case-involving-gims",
+      "title": "French officers detained over police leaks in laundering case involving Gims",
+      "link": "https://en.hespress.com/140688-french-officers-detained-over-police-leaks-in-laundering-case-involving-gims.html",
+      "description": "Two serving French police officers have been placed under formal investigation and ordered held in pretrial detention on suspicion of providing confidential police information to an international money-laundering network implicated in a case involving rapper Gims and a Marrakech-based businessman, Le Monde and RCI reported. The arrests widen an investigation that had previously focused on […] The post French officers detained over police leaks in laundering case involving Gims appeared first on ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-25T20:12:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
