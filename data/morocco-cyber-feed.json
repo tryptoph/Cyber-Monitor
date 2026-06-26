@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-26T01:24:09Z",
+  "generatedAt": "2026-06-26T13:02:37Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-french-officers-detained-over-police-leaks-in-laundering-case-involving-gims",
-      "title": "French officers detained over police leaks in laundering case involving Gims",
-      "link": "https://en.hespress.com/140688-french-officers-detained-over-police-leaks-in-laundering-case-involving-gims.html",
-      "description": "Two serving French police officers have been placed under formal investigation and ordered held in pretrial detention on suspicion of providing confidential police information to an international money-laundering network implicated in a case involving rapper Gims and a Marrakech-based businessman, Le Monde and RCI reported. The arrests widen an investigation that had previously focused on […] The post French officers detained over police leaks in laundering case involving Gims appeared first on ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-la-loterie-nationale-distingu-e-pour-son-engagement-en-faveur-du-jeu-responsable-et-de-la-respon",
+      "title": "La Loterie Nationale distinguée pour son engagement en faveur du Jeu Responsable et de la Responsabilité Sociétale",
+      "link": "https://fr.hespress.com/478951-la-loterie-nationale-distinguee-pour-son-engagement-en-faveur-du-jeu-responsable-et-de-la-responsabilite-societale.html",
+      "description": "La Loterie Nationale a reçu sa double certification internationale en matière de Jeu Responsable lors de la cérémonie officielle des Industry Days 2026 d’European Lotteries (EL), organisés à Marrakech du 7 au 10 juin 2026 et accueillis par la Loterie Nationale sous le thème « Lotteries Bridging Continents ». À cette occasion, la Loterie Nationale […] The post La Loterie Nationale distinguée pour son engagement en faveur du Jeu Responsable et de la Responsabilité Sociétale appeared first on Hespr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-06-25T20:12:22Z",
+      "published": "2026-06-26T12:11:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
