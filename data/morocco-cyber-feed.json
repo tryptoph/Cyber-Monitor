@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-26T18:58:42Z",
+  "generatedAt": "2026-06-27T01:19:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "ترامب يتهم إيران بتعمد خرق \"أحمق\"",
-      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%aa%d9%87%d9%85-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d8%aa%d8%b9%d9%85%d8%af-%d8%ae%d8%b1%d9%82-%d8%a3%d8%ad%d9%85%d9%82-1768109.html",
-      "description": "اتهم الرئيس الأميركي دونالد ترامب، الجمعة، إيران بمهاجمة سفينة شحن في مضيق هرمز، معتبرا ذلك “انتهاكا أخرق” للتفاهم بين البلدين، في ما يُرجح أنه إشارة الى هجوم وقع الخميس. وكتب ترامب على منصته تروث سوشال: “أطلقت الجمهورية الإسلامية الإيرانية أربع طائرات مسيّرة على الأقل نحو سفن تعبر مضيق هرمز”، مشيرا إلى أن إحداها أصابت سفينة […] The post ترامب يتهم إيران بتعمد خرق \"أحمق\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-26T17:02:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
