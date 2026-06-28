@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-28T01:25:44Z",
+  "generatedAt": "2026-06-28T07:40:34Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "الصيباري ضمن الأفضل في المونديال",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%8a%d8%a8%d8%a7%d8%b1%d9%8a-%d8%b6%d9%85%d9%86-%d8%a7%d9%84%d8%a3%d9%81%d8%b6%d9%84-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84-1768521.html",
+      "description": "فرض الدولي المغربي إسماعيل الصيباري نفسه بين أبرز نجوم نهائيات كأس العالم 2026، بعدما دخل قائمة أفضل عشرة لاعبين في البطولة، وفقا لـ”تصنيف فيفا لقوة الأداء”، الذي يعتمد على تحليل البيانات والإحصائيات الخاصة بأداء اللاعبين خلال المباريات. واحتل الصيباري المركز العاشر في الترتيب العام لأفضل لاعبي البطولة، بعدما حصل على تقييم 7.06 في الأداء الهجومي، […] The post الصيباري ضمن الأفضل في المونديال appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-28T07:36:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "سباق الهدافين يحتدم في المونديال",
+      "link": "https://www.hespress.com/%d8%b3%d8%a8%d8%a7%d9%82-%d8%a7%d9%84%d9%87%d8%af%d8%a7%d9%81%d9%8a%d9%86-%d9%8a%d8%ad%d8%aa%d8%af%d9%85-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84-1768635.html",
+      "description": "يتخذ السباق نحو التتويج بلقب هداف مونديال 2026 طابع مواجهة مفتوحة بين أساطير الساحرة المستديرة. ومع توالي مباريات دور المجموعات، تشهد البطولة تألقا لافتا لأبرز النجوم؛ مما يحول هذه المنافسة إلى مهرجان تهديفي حقيقي يجمع بين المتعة والتشويق. ويتصدر الأرجنتيني ليونيل ميسي الترتيب الحالي برصيد خمسة أهداف، ليؤكد من جديد تأثيره الحاسم على الأداء الهجومي […] The post سباق الهدافين يحتدم في المونديال appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-06-28T04:13:54Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-us-delegation-makes-first-visit-to-morocco-s-el-guerguerat-crossing",
       "title": "US delegation makes first visit to Morocco’s El Guerguerat crossing",
