@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-27T01:19:12Z",
+  "generatedAt": "2026-06-28T01:25:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-us-delegation-makes-first-visit-to-morocco-s-el-guerguerat-crossing",
+      "title": "US delegation makes first visit to Morocco’s El Guerguerat crossing",
+      "link": "https://en.hespress.com/140818-us-delegation-makes-first-visit-to-moroccos-el-guerguerat-crossing.html",
+      "description": "A delegation from the United States Mission to Morocco visited the El Guerguerat border crossing for the first time, holding talks with Moroccan officials on border security, drug smuggling and human trafficking, the U.S. Embassy said. The delegation travelled to the crossing on Thursday, marking the first publicly announced visit by U.S. mission representatives to […] The post US delegation makes first visit to Morocco’s El Guerguerat crossing appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-27T19:20:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
