@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-29T01:26:33Z",
+  "generatedAt": "2026-06-29T13:49:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-nuevo-le-n-declares-full-security-readiness-ahead-of-netherlands-morocco-world-cup-match",
-      "title": "Nuevo León declares full security readiness ahead of Netherlands-Morocco World Cup match",
-      "link": "https://en.hespress.com/140856-nuevo-leon-declares-full-security-readiness-ahead-of-netherlands-morocco-world-cup-match.html",
-      "description": "Authorities in the Mexican state of Nuevo León say they are fully prepared to host Monday’s 2026 FIFA World Cup Round of 32 match between the Netherlands and Morocco at Monterrey Stadium, following three incident-free group-stage fixtures. Governor Samuel Alejandro García Sepúlveda made the announcement Friday after chairing a meeting of the state’s Security Committee […] The post Nuevo León declares full security readiness ahead of Netherlands-Morocco World Cup match appeared first on HESPRESS ",
+      "id": "hespress-en-turkey-must-be-included-in-europe-security-structures-erdogan-ahead-of-nato-summit",
+      "title": "Turkey must be 'included' in Europe security structures: Erdogan ahead of NATO summit",
+      "link": "https://en.hespress.com/140889-turkey-must-be-included-in-europe-security-structures-erdogan-ahead-of-nato-summit.html",
+      "description": "Turkey must be included in all of Europe’s defence and security structures, President Recep Tayyip Erdogan said Monday, a week ahead of a key NATO summit in Ankara. His remarks come as Europe seeks to revamp its defences in light of the threat from Russia and the risk of a US pullback from NATO, as […] The post Turkey must be 'included' in Europe security structures: Erdogan ahead of NATO summit appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-28T18:38:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-maintains-regional-edge-as-coface-keeps-country-risk-rating-unchanged",
-      "title": "Morocco maintains regional edge as Coface keeps country risk rating unchanged",
-      "link": "https://en.hespress.com/140858-morocco-maintains-regional-edge-as-coface-keeps-country-risk-rating-unchanged.html",
-      "description": "Morocco has retained its intermediate country risk rating in the latest country and sector risk barometer published by credit insurer Coface, maintaining a stronger risk profile than several neighboring countries despite mounting global economic uncertainty driven by energy and supply chain disruptions. In its June 2026 Country and Sector Risk Barometer, Coface maintained Morocco’s country […] The post Morocco maintains regional edge as Coface keeps country risk rating unchanged appeared first o",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-28T18:00:24Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-the-hague-prepares-security-measures-ahead-of-netherlands-morocco-world-cup-match",
-      "title": "The Hague prepares security measures ahead of Netherlands-Morocco World Cup match",
-      "link": "https://en.hespress.com/140853-the-hague-prepares-security-measures-ahead-of-netherlands-morocco-world-cup-match.html",
-      "description": "The municipality of The Hague is preparing additional security measures ahead of the 2026 FIFA World Cup match between the Netherlands and Morocco, which will be played in Mexico and broadcast locally overnight from Monday, June 29, to Tuesday, June 30, starting at 3 a.m. City authorities said they aim to ensure the evening unfolds […] The post The Hague prepares security measures ahead of Netherlands-Morocco World Cup match appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-28T16:34:34Z",
+      "published": "2026-06-29T12:26:30Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
