@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-29T19:01:35Z",
+  "generatedAt": "2026-06-30T01:21:01Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "غلاء المحروقات يشعل البرلمان.. سجال حاد بين الوزيرة بنعلي والمعارضة",
-      "link": "https://www.hespress.com/%d8%ba%d9%84%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%ad%d8%b1%d9%88%d9%82%d8%a7%d8%aa-%d9%8a%d8%b4%d8%b9%d9%84-%d8%a7%d9%84%d8%a8%d8%b1%d9%84%d9%85%d8%a7%d9%86-%d8%b3%d8%ac%d8%a7%d9%84-%d8%ad%d8%a7%d8%af-1769541.html",
-      "description": "تحولت جلسة الأسئلة الشفوية بمجلس النواب، اليوم الاثنين، إلى ساحة مواجهة سياسية حامية الوطيس بين ليلى بنعلي، وزيرة الانتقال الطاقي والتنمية المستدامة، وفرق المعارضة، على خلفية الارتفاعات المتتالية لأسعار المحروقات، وتدبير المخزون الاستراتيجي، ومآل مصفاة “لاسامير”. وقد اتسمت الجلسة بتوجيه انتقادات لاذعة من طرف نواب المعارضة للسياسات الحكومية في قطاع الطاقة، لترد الوزيرة بهجوم مضاد […] The post غلاء المحروقات يشعل البرلمان.. سجال حاد بين الوزيرة بنعلي والمعارضة appeared first on Hespress - هسبريس ج",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-06-29T18:00:05Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-turkey-must-be-included-in-europe-security-structures-erdogan-ahead-of-nato-summit",
-      "title": "Turkey must be 'included' in Europe security structures: Erdogan ahead of NATO summit",
-      "link": "https://en.hespress.com/140889-turkey-must-be-included-in-europe-security-structures-erdogan-ahead-of-nato-summit.html",
-      "description": "Turkey must be included in all of Europe’s defence and security structures, President Recep Tayyip Erdogan said Monday, a week ahead of a key NATO summit in Ankara. His remarks come as Europe seeks to revamp its defences in light of the threat from Russia and the risk of a US pullback from NATO, as […] The post Turkey must be 'included' in Europe security structures: Erdogan ahead of NATO summit appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-06-29T12:26:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
