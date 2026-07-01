@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-06-30T18:59:49Z",
+  "generatedAt": "2026-07-01T01:26:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-en-trump-suspends-u-s-duties-on-moroccan-phosphate-fertilizer-citing-food-security",
-      "title": "Trump suspends U.S. duties on Moroccan phosphate fertilizer citing food security",
-      "link": "https://en.hespress.com/140973-trump-suspends-u-s-duties-on-moroccan-phosphate-fertilizer-citing-food-security.html",
-      "description": "U.S. President Donald Trump has temporarily suspended certain import duties on phosphate fertilizer from Morocco for up to eight months after declaring a national emergency over fertilizer supplies, saying the measure is needed to protect the country’s food supply and ensure American farmers have access to critical agricultural inputs. The proclamation, signed Monday, authorizes the […] The post Trump suspends U.S. duties on Moroccan phosphate fertilizer citing food security appeared first on HE",
+      "id": "hespress-en-morocco-road-crashes-kill-42-people-in-one-week",
+      "title": "Morocco road crashes kill 42 people in one week",
+      "link": "https://en.hespress.com/141000-morocco-road-crashes-kill-42-people-in-one-week.html",
+      "description": "Road crashes in Morocco’s urban areas killed 42 people and injured 2,990 others between June 22 and 28, the General Directorate of National Security said. The injuries included 131 serious cases across 2,184 recorded accidents. Police identified driver inattention as the leading cause, followed by failure to yield, speeding, pedestrian inattention, unsafe following distances and […] The post Morocco road crashes kill 42 people in one week appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-06-30T15:00:54Z",
+      "published": "2026-06-30T19:50:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-fuel-industry-union-urges-moroccan-lawmakers-to-revive-rejected-fuel-bills",
+      "title": "Fuel: Industry union urges Moroccan lawmakers to revive rejected fuel bills",
+      "link": "https://en.hespress.com/140990-fuel-industry-union-urges-moroccan-lawmakers-to-revive-rejected-fuel-bills.html",
+      "description": "A Moroccan fuel industry union has urged the House of Representatives to approve two fuel-related bills rejected by the House of Councillors, arguing that the measures are essential to strengthening the country’s energy security and reducing fuel costs for consumers. The National Union of Petroleum and Gas Industries, affiliated with the Democratic Confederation of Labour […] The post Fuel: Industry union urges Moroccan lawmakers to revive rejected fuel bills appeared first on HESPRESS English -",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-06-30T19:00:28Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
