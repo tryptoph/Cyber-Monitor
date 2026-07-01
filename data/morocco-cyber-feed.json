@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-01T13:16:30Z",
+  "generatedAt": "2026-07-01T19:00:16Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-en-new-moroccan-2-tax-aims-to-curb-under-the-table-property-payments",
-      "title": "New Moroccan 2% tax aims to curb under-the-table property payments",
-      "link": "https://en.hespress.com/141045-new-moroccan-2-tax-aims-to-curb-under-the-table-property-payments.html",
-      "description": "Morocco has introduced a new 2% tax surcharge on cash payments in certain real estate transactions, a measure aimed at reducing under-the-table payments and increasing transparency in the property market. The measure, which took effect Tuesday under the 2026 Finance Law, applies to property sales and transfers of real estate rights valued at more than […] The post New Moroccan 2% tax aims to curb under-the-table property payments appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-fr-infrastructures-routi-re-et-ferroviaires-le-maroc-s-curise-un-financement-bei-de-365-m",
+      "title": "Infrastructures routière et ferroviaires : le Maroc sécurise un financement BEI de 365 M€",
+      "link": "https://fr.hespress.com/479575-infrastructures-routiere-et-ferroviaires-le-maroc-securise-un-financement-bei-de-365-me.html",
+      "description": "Le Maroc et la Banque européenne d’investissement (BEI) ont franchi une nouvelle étape dans leur coopération en signant, mardi à Rabat, deux accords de financement d’un montant global de 365 millions d’euros destinés à renforcer la résilience et la sécurité des réseaux routier et ferroviaire du Royaume. Les accords ont été paraphés par le directeur […] The post Infrastructures routière et ferroviaires : le Maroc sécurise un financement BEI de 365 M€ appeared first on Hespress Français - Actualit",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-01T16:13:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-police-seize-more-than-14-000-psychotropic-pills-at-tangier-med-port",
+      "title": "Police seize more than 14,000 psychotropic pills at Tangier Med Port",
+      "link": "https://en.hespress.com/141040-police-seize-more-than-14000-psychotropic-pills-at-tangier-med-port.html",
+      "description": "Moroccan police seized more than 14,000 psychotropic prescription pills at Tangier Med Port and arrested a truck driver in connection with an alleged international drug smuggling operation, authorities said Wednesday. The General Directorate of National Security (DGSN) said officers stationed at the port intercepted 14,245 psychotropic tablets concealed inside a Moroccan-registered international freight truck that […] The post Police seize more than 14,000 psychotropic pills at Tangier Med Port ",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-01T13:00:46Z",
+      "published": "2026-07-01T15:29:13Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
