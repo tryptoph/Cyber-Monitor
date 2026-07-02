@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-02T01:20:31Z",
+  "generatedAt": "2026-07-02T14:32:15Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-eib-president-reiterates-support-for-morocco-s-growth",
-      "title": "EIB President Reiterates Support for Morocco's Growth",
-      "link": "https://en.hespress.com/141083-eib-president-reiterates-support-for-moroccos-growth.html",
-      "description": "The European Investment Bank (EIB) will continue supporting Morocco’s growth, prosperity, and social development, EIB President Nadia Calviño said on Wednesday in Rabat. “Morocco is a strategic partner for Europe,” she told MAP at the end of her visit to the Kingdom, describing the country as a cornerstone of stability, security, and prosperity for the […] The post EIB President Reiterates Support for Morocco's Growth appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-morocco-begins-enforcing-5-withholding-tax-on-commercial-rents",
+      "title": "Morocco begins enforcing 5% withholding tax on commercial rents",
+      "link": "https://en.hespress.com/141106-morocco-begins-enforcing-5-withholding-tax-on-commercial-rents.html",
+      "description": "Morocco’s General Directorate of Taxes (DGI) has reminded large companies that they must apply a 5% withholding tax on certain commercial rent payments, starting July 1, 2026, in line with the provisions of the 2026 Finance Law. The new obligation specifically targets major corporate entities whose turnover, excluding value-added tax (VAT), reached or exceeded MAD […] The post Morocco begins enforcing 5% withholding tax on commercial rents appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-01T21:14:14Z",
+      "published": "2026-07-02T12:15:14Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
