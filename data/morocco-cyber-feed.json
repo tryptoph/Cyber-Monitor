@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-01T19:00:16Z",
+  "generatedAt": "2026-07-02T01:20:31Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-infrastructures-routi-re-et-ferroviaires-le-maroc-s-curise-un-financement-bei-de-365-m",
-      "title": "Infrastructures routière et ferroviaires : le Maroc sécurise un financement BEI de 365 M€",
-      "link": "https://fr.hespress.com/479575-infrastructures-routiere-et-ferroviaires-le-maroc-securise-un-financement-bei-de-365-me.html",
-      "description": "Le Maroc et la Banque européenne d’investissement (BEI) ont franchi une nouvelle étape dans leur coopération en signant, mardi à Rabat, deux accords de financement d’un montant global de 365 millions d’euros destinés à renforcer la résilience et la sécurité des réseaux routier et ferroviaire du Royaume. Les accords ont été paraphés par le directeur […] The post Infrastructures routière et ferroviaires : le Maroc sécurise un financement BEI de 365 M€ appeared first on Hespress Français - Actualit",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-01T16:13:57Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-police-seize-more-than-14-000-psychotropic-pills-at-tangier-med-port",
-      "title": "Police seize more than 14,000 psychotropic pills at Tangier Med Port",
-      "link": "https://en.hespress.com/141040-police-seize-more-than-14000-psychotropic-pills-at-tangier-med-port.html",
-      "description": "Moroccan police seized more than 14,000 psychotropic prescription pills at Tangier Med Port and arrested a truck driver in connection with an alleged international drug smuggling operation, authorities said Wednesday. The General Directorate of National Security (DGSN) said officers stationed at the port intercepted 14,245 psychotropic tablets concealed inside a Moroccan-registered international freight truck that […] The post Police seize more than 14,000 psychotropic pills at Tangier Med Port ",
+      "id": "hespress-en-eib-president-reiterates-support-for-morocco-s-growth",
+      "title": "EIB President Reiterates Support for Morocco's Growth",
+      "link": "https://en.hespress.com/141083-eib-president-reiterates-support-for-moroccos-growth.html",
+      "description": "The European Investment Bank (EIB) will continue supporting Morocco’s growth, prosperity, and social development, EIB President Nadia Calviño said on Wednesday in Rabat. “Morocco is a strategic partner for Europe,” she told MAP at the end of her visit to the Kingdom, describing the country as a cornerstone of stability, security, and prosperity for the […] The post EIB President Reiterates Support for Morocco's Growth appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-01T15:29:13Z",
+      "published": "2026-07-01T21:14:14Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
