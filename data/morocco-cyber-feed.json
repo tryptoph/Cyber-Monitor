@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-03T09:38:14Z",
+  "generatedAt": "2026-07-03T14:34:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-profession-d-avocat-ouahbi-d-fend-une-r-forme-remani-e-apr-s-200-amendements",
-      "title": "Profession d’avocat : Ouahbi défend une réforme remaniée après 200 amendements",
-      "link": "https://fr.hespress.com/479800-profession-davocat-ouahbi-defend-une-reforme-remaniee-apres-200-amendements.html",
-      "description": "Le projet de loi encadrant la profession d’avocat franchit une nouvelle étape au Parlement. Présenté en deuxième lecture devant la Commission de la justice, de la législation et des droits de l’Homme de la Chambre des représentants, le texte a été profondément remanié à l’issue d’un long processus de concertation. Près de 200 amendements y […] The post Profession d’avocat : Ouahbi défend une réforme remaniée après 200 amendements appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-moroccans-file-second-largest-share-of-spain-regularization-applications",
+      "title": "Moroccans file second-largest share of Spain regularization applications",
+      "link": "https://en.hespress.com/141183-moroccans-file-second-largest-share-of-spain-regularization-applications.html",
+      "description": "Moroccans were the second-largest group to apply for Spain’s extraordinary regularization program, making up 13.3% of the 1,174,978 applications submitted before the process closed on 30 June, according to Spain’s Ministry of Inclusion, Social Security and Migration. Colombians accounted for the largest share of applications, at 22.9%, followed by Moroccans and Venezuelans, who represented 11.8%. […] The post Moroccans file second-largest share of Spain regularization applications appeared first",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-03T08:45:02Z",
+      "published": "2026-07-03T13:54:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "جدار دفاع باراغواي يختبر هجوم فرنسا",
+      "link": "https://www.hespress.com/%d8%ac%d8%af%d8%a7%d8%b1-%d8%af%d9%81%d8%a7%d8%b9-%d8%a8%d8%a7%d8%b1%d8%a7%d8%ba%d9%88%d8%a7%d9%8a-%d9%8a%d8%ae%d8%aa%d8%a8%d8%b1-%d9%87%d8%ac%d9%88%d9%85-%d9%81%d8%b1%d9%86%d8%b3%d8%a7-1771592.html",
+      "description": "ستضطر فرنسا، المرشحة بقوة للفوز بمباراتها في ثمن نهائي مونديال 2026 أمام باراغواي، إلى الاعتماد على سرعتها والتسجيل مبكرا، وفقا لخبيرين استطلعت وكالة فرانس برس آراءهما، من أجل اختراق الجدار الدفاعي للمنتخب الأمريكي الجنوبي الذي أثبت صلابته في الدور السابق. ففي دور الـ32 اصطدمت ألمانيا بقيادة يوليان ناغلسمان بهذا الجدار، وبعد أن تلقت هدفا في […] The post جدار دفاع باراغواي يختبر هجوم فرنسا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-03T13:01:49Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-french-fugitive-arrested-in-marrakech-over-suspected-drug-network-links",
+      "title": "French fugitive arrested in Marrakech over suspected drug network links",
+      "link": "https://en.hespress.com/141178-french-fugitive-arrested-in-marrakech-over-suspected-drug-network-links.html",
+      "description": "Moroccan police arrested a French national in Marrakech on Thursday under an international arrest warrant issued by French judicial authorities, the General Directorate of National Security said. The suspect was wanted over alleged links to an international drug trafficking network and is also accused of unlawfully possessing a firearm. The DGSN said the arrest was […] The post French fugitive arrested in Marrakech over suspected drug network links appeared first on HESPRESS English - Morocco Ne",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-03T12:36:51Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
