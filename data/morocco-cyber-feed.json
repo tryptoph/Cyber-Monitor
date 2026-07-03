@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-02T19:56:06Z",
+  "generatedAt": "2026-07-03T04:12:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-en-fbi-praises-morocco-s-world-cup-security-partnership",
-      "title": "FBI praises Morocco's World Cup security partnership",
-      "link": "https://en.hespress.com/141118-fbi-praises-moroccos-world-cup-security-partnership.html",
-      "description": "FBI Deputy Director Christopher Raia praised the security partnership between the United States of America and Morocco during a visit on Wednesday at the International Police Cooperation Center (IPCC). During an exchange with the General Directorate of National Security (DGSN) and the General Directorate for Territorial Surveillance (DGST) responsibles, FBI Deputy Director praised Morocco as […] The post FBI praises Morocco's World Cup security partnership appeared first on HESPRESS English - Mo",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-02T15:16:43Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
