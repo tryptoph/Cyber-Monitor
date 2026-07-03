@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-03T04:12:53Z",
+  "generatedAt": "2026-07-03T09:38:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-profession-d-avocat-ouahbi-d-fend-une-r-forme-remani-e-apr-s-200-amendements",
+      "title": "Profession d’avocat : Ouahbi défend une réforme remaniée après 200 amendements",
+      "link": "https://fr.hespress.com/479800-profession-davocat-ouahbi-defend-une-reforme-remaniee-apres-200-amendements.html",
+      "description": "Le projet de loi encadrant la profession d’avocat franchit une nouvelle étape au Parlement. Présenté en deuxième lecture devant la Commission de la justice, de la législation et des droits de l’Homme de la Chambre des représentants, le texte a été profondément remanié à l’issue d’un long processus de concertation. Près de 200 amendements y […] The post Profession d’avocat : Ouahbi défend une réforme remaniée après 200 amendements appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-03T08:45:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-bulletins-de-s-curit",
       "title": "Bulletins de sécurité",
