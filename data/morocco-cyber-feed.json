@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-04T14:02:35Z",
+  "generatedAt": "2026-07-04T19:41:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -245,19 +245,6 @@
       "published": "2026-07-04T14:02:35Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-mali-hit-by-new-wave-of-coordinated-attacks",
-      "title": "Mali hit by new wave of coordinated attacks",
-      "link": "https://en.hespress.com/141245-mali-hit-by-new-wave-of-coordinated-attacks.html",
-      "description": "Jihadists and their separatist Tuareg allies hit Mali with fresh coordinated attacks Saturday, striking multiple towns and a prison, according to the army, residents and security sources. The fighting, which started around 5:00 am (0500 GMT), came more than two months after the same groups staged attacks against the ruling junta in which the country’s […] The post Mali hit by new wave of coordinated attacks appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-04T09:29:59Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
