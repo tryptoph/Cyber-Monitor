@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-03T19:53:51Z",
+  "generatedAt": "2026-07-04T04:06:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-mawazine-draws-3-6-million-visitors-as-festival-expands-to-new-venues",
-      "title": "Mawazine draws 3.6 million visitors as festival expands to new venues",
-      "link": "https://en.hespress.com/141193-mawazine-draws-3-6-million-visitors-as-festival-expands-to-new-venues.html",
-      "description": "The 21st edition of the Mawazine Rhythms of the World Festival drew 3.6 million visitors to Rabat and Salé between June 19 and 27, organizers said. Held under the patronage of King Mohammed VI, the 2026 edition featured artists from Morocco, the Arab world, Africa and the international music scene, with most concerts remaining free […] The post Mawazine draws 3.6 million visitors as festival expands to new venues appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-moroccan-trucks-prevented-from-entering-mali-amid-rising-security-risks",
+      "title": "Moroccan trucks prevented from entering Mali amid rising security risks",
+      "link": "https://en.hespress.com/141212-moroccan-trucks-prevented-from-entering-mali-amid-rising-security-risks.html",
+      "description": "Malian authorities have temporarily barred Moroccan trucks from entering the country as a precautionary measure amid ongoing security concerns, according to a Hespress AR source from Morocco’s General Union of International and National Transport Professionals. The source told Hespress that several Moroccan truck drivers have continued attempting to enter Mali despite the deteriorating security situation. […] The post Moroccan trucks prevented from entering Mali amid rising security risks appear",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-03T15:19:26Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-moroccans-file-second-largest-share-of-spain-regularization-applications",
-      "title": "Moroccans file second-largest share of Spain regularization applications",
-      "link": "https://en.hespress.com/141183-moroccans-file-second-largest-share-of-spain-regularization-applications.html",
-      "description": "Moroccans were the second-largest group to apply for Spain’s extraordinary regularization program, making up 13.3% of the 1,174,978 applications submitted before the process closed on 30 June, according to Spain’s Ministry of Inclusion, Social Security and Migration. Colombians accounted for the largest share of applications, at 22.9%, followed by Moroccans and Venezuelans, who represented 11.8%. […] The post Moroccans file second-largest share of Spain regularization applications appeared first",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-03T13:54:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-french-fugitive-arrested-in-marrakech-over-suspected-drug-network-links",
-      "title": "French fugitive arrested in Marrakech over suspected drug network links",
-      "link": "https://en.hespress.com/141178-french-fugitive-arrested-in-marrakech-over-suspected-drug-network-links.html",
-      "description": "Moroccan police arrested a French national in Marrakech on Thursday under an international arrest warrant issued by French judicial authorities, the General Directorate of National Security said. The suspect was wanted over alleged links to an international drug trafficking network and is also accused of unlawfully possessing a firearm. The DGSN said the arrest was […] The post French fugitive arrested in Marrakech over suspected drug network links appeared first on HESPRESS English - Morocco Ne",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-03T12:36:51Z",
+      "published": "2026-07-03T20:00:40Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
