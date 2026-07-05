@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-05T14:12:32Z",
+  "generatedAt": "2026-07-05T19:46:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-jazzablanca-scorpions-lectrisent-casablanca-lors-d-une-soir-e-entre-rock-jazz-et-musiques-du-mon",
-      "title": "Jazzablanca : Scorpions électrisent Casablanca lors d'une soirée entre rock, jazz et musiques du monde",
-      "link": "https://fr.hespress.com/480204-jazzablanca-scorpions-electrisent-casablanca-lors-dune-soiree-entre-rock-jazz-et-musiques-du-monde.html",
-      "description": "La 19e édition de Jazzablanca a poursuivi son rythme samedi soir avec une programmation riche et variée, où le rock, le jazz contemporain et les sonorités du monde se sont entremêlés devant un public nombreux. Point d’orgue de cette troisième soirée, le concert des légendes allemandes des Scorpions, qui célèbrent actuellement leurs 60 ans de […] The post Jazzablanca : Scorpions électrisent Casablanca lors d'une soirée entre rock, jazz et musiques du monde appeared first on Hespress Français - Ac",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-payment-restrictions-leave-moroccan-students-in-russia-facing-academic-uncertainty",
+      "title": "Payment restrictions leave Moroccan students in Russia facing academic uncertainty",
+      "link": "https://en.hespress.com/141325-payment-restrictions-leave-moroccan-students-in-russia-facing-academic-uncertainty.html",
+      "description": "Delays in international bank transfers are jeopardizing the education of Moroccan students in Russia, preventing many from paying tuition, rent and living expenses despite having financial support from their families. The payment difficulties have raised concerns that some students could face late-payment penalties, administrative sanctions or even lose their enrollment if the issue is not […] The post Payment restrictions leave Moroccan students in Russia facing academic uncertainty appeared fi",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-05T12:30:42Z",
+      "published": "2026-07-05T19:00:18Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
