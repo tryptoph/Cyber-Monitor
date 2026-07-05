@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-04T19:41:00Z",
+  "generatedAt": "2026-07-05T14:12:32Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-jazzablanca-scorpions-lectrisent-casablanca-lors-d-une-soir-e-entre-rock-jazz-et-musiques-du-mon",
+      "title": "Jazzablanca : Scorpions électrisent Casablanca lors d'une soirée entre rock, jazz et musiques du monde",
+      "link": "https://fr.hespress.com/480204-jazzablanca-scorpions-electrisent-casablanca-lors-dune-soiree-entre-rock-jazz-et-musiques-du-monde.html",
+      "description": "La 19e édition de Jazzablanca a poursuivi son rythme samedi soir avec une programmation riche et variée, où le rock, le jazz contemporain et les sonorités du monde se sont entremêlés devant un public nombreux. Point d’orgue de cette troisième soirée, le concert des légendes allemandes des Scorpions, qui célèbrent actuellement leurs 60 ans de […] The post Jazzablanca : Scorpions électrisent Casablanca lors d'une soirée entre rock, jazz et musiques du monde appeared first on Hespress Français - Ac",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-05T12:30:42Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-65000307-26-vuln-rabilit-s-affectant-des-produits-microsoft",
       "title": "65000307/26 - Vulnérabilités affectant des produits Microsoft",
