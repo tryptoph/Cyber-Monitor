@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-05T19:46:21Z",
+  "generatedAt": "2026-07-06T11:07:28Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-65010607-26-vuln-rabilit-s-affectant-php",
+      "title": "65010607/26 - Vulnérabilités affectant PHP",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-php-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-06T11:07:28Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "hespress-en-payment-restrictions-leave-moroccan-students-in-russia-facing-academic-uncertainty",
       "title": "Payment restrictions leave Moroccan students in Russia facing academic uncertainty",
@@ -238,19 +251,6 @@
       "id": "dgssi-65840107-26-vuln-rabilit-s-critiques-dans-adobe-coldfusion",
       "title": "65840107/26 - Vulnérabilités critiques dans Adobe ColdFusion",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-adobe-coldfusion",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-04T14:02:35Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-65830107-26-vuln-rabilit-s-affectant-citrix-netscaler",
-      "title": "65830107/26 - Vulnérabilités affectant Citrix NetScaler",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-citrix-netscaler-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
