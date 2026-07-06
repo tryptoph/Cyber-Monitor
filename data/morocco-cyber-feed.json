@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-06T15:56:54Z",
+  "generatedAt": "2026-07-06T20:16:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-adoption-en-commission-du-projet-de-loi-n-051-26-relatif-la-profession-d-adoul",
+      "title": "Adoption en Commission du projet de loi n° 051.26 relatif à la profession d’adoul",
+      "link": "https://fr.hespress.com/480349-adoption-en-commission-du-projet-de-loi-n-051-26-relatif-a-la-profession-dadoul.html",
+      "description": "La Commission de la justice, de la législation, des droits de l’Homme et des libertés de la Chambre des représentants a adopté, lundi à la majorité, le projet de loi n° 051.26 relatif à l’organisation de la profession d’adoul, après que la Cour constitutionnelle a déclaré inconstitutionnelles certaines de ses dispositions. Après examen et introduction […] The post Adoption en Commission du projet de loi n° 051.26 relatif à la profession d’adoul appeared first on Hespress Français - Actualités du",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-06T18:32:52Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-65050607-26-vuln-rabilit-s-affectant-roundcube-webmail",
       "title": "65050607/26 - Vulnérabilités affectant Roundcube Webmail",
