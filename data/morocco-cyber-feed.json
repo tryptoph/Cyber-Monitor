@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-07T10:02:59Z",
+  "generatedAt": "2026-07-07T15:19:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,21 +14,112 @@
   ],
   "items": [
     {
-      "id": "hespress-en-transport-union-over-80-moroccan-trucks-stranded-at-mauritania-senegal-border",
-      "title": "Transport union: Over 80 Moroccan trucks stranded at Mauritania-Senegal border",
-      "link": "https://en.hespress.com/141416-transport-union-over-80-moroccan-trucks-stranded-at-mauritania-senegal-border.html",
-      "description": "More than 80 Moroccan freight trucks remain stranded at the Rosso border crossing between Mauritania and Senegalafter being diverted from the Mali route because of ongoing security concerns, Morocco’s General Union of International and National Transport Professionals said. Union President Chergui El Hachmi said dozens of Moroccan trucks turned to the Senegal corridor as a […] The post Transport union: Over 80 Moroccan trucks stranded at Mauritania-Senegal border appeared first on HESPRESS Engli",
+      "id": "dgssi-66110707-26-vuln-rabilit-critique-affectant-le-noyau-linux",
+      "title": "66110707/26 - Vulnérabilité critique affectant le noyau Linux",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-le-noyau-linux",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-07T15:19:20Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-65100707-26-vuln-rabilit-dans-postfix",
+      "title": "65100707/26 - Vulnérabilité dans Postfix",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-postfix-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-07T15:19:20Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66090707-26-zero-day-dans-les-firmwares-tenda",
+      "title": "66090707/26 - Zero-day dans les firmwares Tenda",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/zero-day-dans-les-firmwares-tenda",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-07T15:19:20Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66080707-26-vuln-rabilit-s-critiques-dans-les-produits-qualcomm",
+      "title": "66080707/26 - Vulnérabilités critiques dans les produits Qualcomm",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-qualcomm-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-07T15:19:20Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66070707-26-vuln-rabilit-s-critique-dans-les-produits-beyondtrust",
+      "title": "66070707/26 - Vulnérabilités critique dans les produits Beyondtrust",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critique-dans-les-produits-beyondtrust",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-07T15:19:20Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-parliament-says-climate-change-has-become-a-structural-test-for-morocco",
+      "title": "Parliament says climate change has become a structural test for Morocco",
+      "link": "https://en.hespress.com/141441-parliament-says-climate-change-has-become-a-structural-test-for-morocco.html",
+      "description": "Morocco’s upper house says climate change has become a structural test of public governance, warning that rising temperatures, prolonged drought and extreme weather now threaten water security, food sovereignty, territorial equity and the state’s ability to protect vulnerable communities. The report, prepared for the House of Councillors’ annual public policy evaluation session, reviews Morocco’s climate-related […] The post Parliament says climate change has become a structural test for Morocco",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-06T21:30:39Z",
+      "published": "2026-07-07T14:05:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "dgssi-65050607-26-vuln-rabilit-s-affectant-roundcube-webmail",
-      "title": "65050607/26 - Vulnérabilités affectant Roundcube Webmail",
+      "id": "hespress-en-french-cities-tighten-security-controls-before-france-morocco-quarter-final",
+      "title": "French cities tighten security controls before France Morocco quarter-final",
+      "link": "https://en.hespress.com/141435-french-cities-tighten-security-controls-before-france-morocco-quarter-final.html",
+      "description": "French cities are tightening fan-zone and crowd-control measures before Thursday’s World Cup quarter-final between France and Morocco, according to municipal notices, while Paris police have yet to announce whether they will renew transport closures used during the previous knockout round. Toulouse City Hall said it will open a fan zone outside the Stadium from 7 […] The post French cities tighten security controls before France Morocco quarter-final appeared first on HESPRESS English - Morocco ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-07T13:02:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-uae-saudi-arabia-and-qatar-condemn-foiled-isis-linked-plots-in-morocco",
+      "title": "UAE, Saudi Arabia and Qatar condemn foiled ISIS linked plots in Morocco",
+      "link": "https://en.hespress.com/141427-uae-saudi-arabia-and-qatar-condemn-foiled-isis-linked-plots-in-morocco.html",
+      "description": "The UAE, Saudi Arabia and Qatar condemned the terrorist plots Moroccan authorities said they foiled this week after dismantling a cell linked to the Islamic State group’s branch in the Sahel. The three Gulf states issued separate statements backing Morocco and praising its security response after the Central Bureau of Judicial Investigations said Monday it […] The post UAE, Saudi Arabia and Qatar condemn foiled ISIS linked plots in Morocco appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-07T11:53:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66050607-26-vuln-rabilit-s-affectant-roundcube-webmail",
+      "title": "66050607/26 - Vulnérabilités affectant Roundcube Webmail",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-roundcube-webmail-2",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -40,8 +131,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-65040607-26-vuln-rabilit-dans-postgresql-jdbc",
-      "title": "65040607/26 - Vulnérabilité dans PostgreSQL JDBC",
+      "id": "dgssi-66040607-26-vuln-rabilit-dans-postgresql-jdbc",
+      "title": "66040607/26 - Vulnérabilité dans PostgreSQL JDBC",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-postgresql-jdbc-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -53,8 +144,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-65030607-26-vuln-rabilit-s-dans-microsoft-edge",
-      "title": "65030607/26 - Vulnérabilités dans Microsoft Edge",
+      "id": "dgssi-66030607-26-vuln-rabilit-s-dans-microsoft-edge",
+      "title": "66030607/26 - Vulnérabilités dans Microsoft Edge",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-microsoft-edge-6",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -66,8 +157,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-65020607-26-vuln-rabilit-dans-linux-redhat",
-      "title": "65020607/26 - Vulnérabilité dans Linux RedHat",
+      "id": "dgssi-66020607-26-vuln-rabilit-dans-linux-redhat",
+      "title": "66020607/26 - Vulnérabilité dans Linux RedHat",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-linux-redhat",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -79,8 +170,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-65010607-26-vuln-rabilit-s-affectant-php",
-      "title": "65010607/26 - Vulnérabilités affectant PHP",
+      "id": "dgssi-66010607-26-vuln-rabilit-s-affectant-php",
+      "title": "66010607/26 - Vulnérabilités affectant PHP",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-php-1",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -92,8 +183,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-65000307-26-vuln-rabilit-s-affectant-des-produits-microsoft",
-      "title": "65000307/26 - Vulnérabilités affectant des produits Microsoft",
+      "id": "dgssi-66000307-26-vuln-rabilit-s-affectant-des-produits-microsoft",
+      "title": "66000307/26 - Vulnérabilités affectant des produits Microsoft",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-microsoft",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -105,8 +196,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-64980307-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
-      "title": "64980307/26 - Vulnérabilités critiques dans les plugins WordPress",
+      "id": "dgssi-65980307-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
+      "title": "65980307/26 - Vulnérabilités critiques dans les plugins WordPress",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-6",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -118,8 +209,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-64990307-26-vuln-rabilit-affectant-kibana",
-      "title": "64990307/26 - Vulnérabilité affectant Kibana",
+      "id": "dgssi-65990307-26-vuln-rabilit-affectant-kibana",
+      "title": "65990307/26 - Vulnérabilité affectant Kibana",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-kibana",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -131,8 +222,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-64970307-26-remus-stealer-malware",
-      "title": "64970307/26 - « Remus Stealer » Malware",
+      "id": "dgssi-65970307-26-remus-stealer-malware",
+      "title": "65970307/26 - « Remus Stealer » Malware",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/remus-stealer-malware",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -144,8 +235,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-64960307-26-vuln-rabilit-s-dans-les-produits-nvidia",
-      "title": "64960307/26 - Vulnérabilités dans les produits NVIDIA",
+      "id": "dgssi-65960307-26-vuln-rabilit-s-dans-les-produits-nvidia",
+      "title": "65960307/26 - Vulnérabilités dans les produits NVIDIA",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-nvidia-8",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -157,8 +248,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-64950307-26-vuln-rabilit-s-dans-les-produits-watchguard",
-      "title": "64950307/26 - Vulnérabilités dans les produits WatchGuard",
+      "id": "dgssi-65950307-26-vuln-rabilit-s-dans-les-produits-watchguard",
+      "title": "65950307/26 - Vulnérabilités dans les produits WatchGuard",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-watchguard-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -170,8 +261,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-64940307-26-vuln-rabilit-s-critiques-dans-les-produits-ibm",
-      "title": "64940307/26 - Vulnérabilités critiques dans les produits IBM",
+      "id": "dgssi-65940307-26-vuln-rabilit-s-critiques-dans-les-produits-ibm",
+      "title": "65940307/26 - Vulnérabilités critiques dans les produits IBM",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-ibm-1",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -186,71 +277,6 @@
       "id": "dgssi-64920307-26-vuln-rabilit-affectant-des-produits-f5",
       "title": "64920307/26 - Vulnérabilité affectant des produits F5",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-des-produits-f5-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-04T14:02:35Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-64930307-26-vuln-rabilit-s-critiques-affectant-cursor-ide",
-      "title": "64930307/26 - Vulnérabilités critiques affectant Cursor IDE",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-cursor-ide",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-04T14:02:35Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-64910307-26-vuln-rabilit-critique-activement-exploit-e-affectant-microsoft-sharepoint",
-      "title": "64910307/26 - Vulnérabilité critique activement exploitée affectant Microsoft SharePoint…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-microsoft-sharepoint-server-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-04T14:02:35Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-65900207-26-vuln-rabilit-s-affectant-des-produits-de-cisco",
-      "title": "65900207/26 - Vulnérabilités affectant des produits de Cisco",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-de-cisco-19",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-04T14:02:35Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-65890207-26-vuln-rabilit-s-critiques-affectant-le-navigateur-google-chrome",
-      "title": "65890207/26 - Vulnérabilités critiques affectant le navigateur Google Chrome",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-le-navigateur-google-chrome-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-04T14:02:35Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-65880207-26-vuln-rabilit-critique-activement-exploit-e-affectant-oracle-e-business",
-      "title": "65880207/26 - Vulnérabilité critique activement exploitée affectant Oracle E-Business…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-oracle-e-business-suite",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
