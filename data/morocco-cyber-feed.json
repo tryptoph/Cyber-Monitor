@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-07T15:19:21Z",
+  "generatedAt": "2026-07-07T20:18:15Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66120707-26-vuln-rabilit-dans-zimbra-collaboration",
+      "title": "66120707/26 - Vulnérabilité dans Zimbra Collaboration",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-zimbra-collaboration-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-07T20:18:13Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "dgssi-66110707-26-vuln-rabilit-critique-affectant-le-noyau-linux",
       "title": "66110707/26 - Vulnérabilité critique affectant le noyau Linux",
@@ -27,8 +40,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-65100707-26-vuln-rabilit-dans-postfix",
-      "title": "65100707/26 - Vulnérabilité dans Postfix",
+      "id": "dgssi-66100707-26-vuln-rabilit-dans-postfix",
+      "title": "66100707/26 - Vulnérabilité dans Postfix",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-postfix-1",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -87,32 +100,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-07T14:05:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-french-cities-tighten-security-controls-before-france-morocco-quarter-final",
-      "title": "French cities tighten security controls before France Morocco quarter-final",
-      "link": "https://en.hespress.com/141435-french-cities-tighten-security-controls-before-france-morocco-quarter-final.html",
-      "description": "French cities are tightening fan-zone and crowd-control measures before Thursday’s World Cup quarter-final between France and Morocco, according to municipal notices, while Paris police have yet to announce whether they will renew transport closures used during the previous knockout round. Toulouse City Hall said it will open a fan zone outside the Stadium from 7 […] The post French cities tighten security controls before France Morocco quarter-final appeared first on HESPRESS English - Morocco ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-07T13:02:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-uae-saudi-arabia-and-qatar-condemn-foiled-isis-linked-plots-in-morocco",
-      "title": "UAE, Saudi Arabia and Qatar condemn foiled ISIS linked plots in Morocco",
-      "link": "https://en.hespress.com/141427-uae-saudi-arabia-and-qatar-condemn-foiled-isis-linked-plots-in-morocco.html",
-      "description": "The UAE, Saudi Arabia and Qatar condemned the terrorist plots Moroccan authorities said they foiled this week after dismantling a cell linked to the Islamic State group’s branch in the Sahel. The three Gulf states issued separate statements backing Morocco and praising its security response after the Central Bureau of Judicial Investigations said Monday it […] The post UAE, Saudi Arabia and Qatar condemn foiled ISIS linked plots in Morocco appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-07T11:53:32Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -264,19 +251,6 @@
       "id": "dgssi-65940307-26-vuln-rabilit-s-critiques-dans-les-produits-ibm",
       "title": "65940307/26 - Vulnérabilités critiques dans les produits IBM",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-ibm-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-04T14:02:35Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-64920307-26-vuln-rabilit-affectant-des-produits-f5",
-      "title": "64920307/26 - Vulnérabilité affectant des produits F5",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-des-produits-f5-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
