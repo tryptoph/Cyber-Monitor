@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-07T04:27:33Z",
+  "generatedAt": "2026-07-07T10:02:59Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-06T21:30:39Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-la-lnfp-annonce-la-suspension-de-la-coupe-du-tr-ne-2024-25-jusqu-la-prochaine-saison",
-      "title": "La LNFP annonce la suspension de la Coupe du Trône 2024/25 jusqu’à la prochaine saison",
-      "link": "https://fr.hespress.com/480392-la-lnfp-annonce-la-suspension-de-la-coupe-du-trone-2024-25-jusqua-la-prochaine-saison.html",
-      "description": "La Ligue nationale professionnelle de football (LNFP) a annoncé, lundi, la suspension des compétitions de la Coupe du Trône 2024/25 jusqu’à la prochaine saison. Cette décision a été prise après concertation et coordination avec la Commission des compétitions de la Fédération Royale Marocaine de Football (FRMF), a indiqué la LNFP dans un communiqué publié sur […] The post La LNFP annonce la suspension de la Coupe du Trône 2024/25 jusqu’à la prochaine saison appeared first on Hespress Français - A",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-06T20:45:22Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
