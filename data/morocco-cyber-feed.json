@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-06T20:16:48Z",
+  "generatedAt": "2026-07-07T04:27:33Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-adoption-en-commission-du-projet-de-loi-n-051-26-relatif-la-profession-d-adoul",
-      "title": "Adoption en Commission du projet de loi n° 051.26 relatif à la profession d’adoul",
-      "link": "https://fr.hespress.com/480349-adoption-en-commission-du-projet-de-loi-n-051-26-relatif-a-la-profession-dadoul.html",
-      "description": "La Commission de la justice, de la législation, des droits de l’Homme et des libertés de la Chambre des représentants a adopté, lundi à la majorité, le projet de loi n° 051.26 relatif à l’organisation de la profession d’adoul, après que la Cour constitutionnelle a déclaré inconstitutionnelles certaines de ses dispositions. Après examen et introduction […] The post Adoption en Commission du projet de loi n° 051.26 relatif à la profession d’adoul appeared first on Hespress Français - Actualités du",
+      "id": "hespress-en-transport-union-over-80-moroccan-trucks-stranded-at-mauritania-senegal-border",
+      "title": "Transport union: Over 80 Moroccan trucks stranded at Mauritania-Senegal border",
+      "link": "https://en.hespress.com/141416-transport-union-over-80-moroccan-trucks-stranded-at-mauritania-senegal-border.html",
+      "description": "More than 80 Moroccan freight trucks remain stranded at the Rosso border crossing between Mauritania and Senegalafter being diverted from the Mali route because of ongoing security concerns, Morocco’s General Union of International and National Transport Professionals said. Union President Chergui El Hachmi said dozens of Moroccan trucks turned to the Senegal corridor as a […] The post Transport union: Over 80 Moroccan trucks stranded at Mauritania-Senegal border appeared first on HESPRESS Engli",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-06T21:30:39Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-la-lnfp-annonce-la-suspension-de-la-coupe-du-tr-ne-2024-25-jusqu-la-prochaine-saison",
+      "title": "La LNFP annonce la suspension de la Coupe du Trône 2024/25 jusqu’à la prochaine saison",
+      "link": "https://fr.hespress.com/480392-la-lnfp-annonce-la-suspension-de-la-coupe-du-trone-2024-25-jusqua-la-prochaine-saison.html",
+      "description": "La Ligue nationale professionnelle de football (LNFP) a annoncé, lundi, la suspension des compétitions de la Coupe du Trône 2024/25 jusqu’à la prochaine saison. Cette décision a été prise après concertation et coordination avec la Commission des compétitions de la Fédération Royale Marocaine de Football (FRMF), a indiqué la LNFP dans un communiqué publié sur […] The post La LNFP annonce la suspension de la Coupe du Trône 2024/25 jusqu’à la prochaine saison appeared first on Hespress Français - A",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-07-06T18:32:52Z",
+      "published": "2026-07-06T20:45:22Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
