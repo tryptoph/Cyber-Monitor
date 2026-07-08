@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-08T14:43:28Z",
+  "generatedAt": "2026-07-08T19:58:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-paris-tightens-security-ahead-of-france-morocco-world-cup-quarterfinal",
+      "title": "Paris tightens security ahead of France-Morocco World Cup quarterfinal",
+      "link": "https://en.hespress.com/141544-paris-tightens-security-ahead-of-france-morocco-world-cup-quarterfinal.html",
+      "description": "French authorities will tighten security across Paris on Thursday ahead of the highly anticipated World Cup quarterfinal between France and Morocco, temporarily closing several metro stations, deploying drones and increasing the police presence in areas expected to attract large crowds. Several metro stations near the Champs-Élysées and other popular gathering points will close beginning at […] The post Paris tightens security ahead of France-Morocco World Cup quarterfinal appeared first on HESP",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-08T19:30:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إيران تتوعد بإغلاق \"مضيق هرمز\"",
+      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%aa%d9%88%d8%b9%d8%af-%d8%a8%d8%a5%d8%ba%d9%84%d8%a7%d9%82-%d9%85%d8%b6%d9%8a%d9%82-%d9%87%d8%b1%d9%85%d8%b2-1774226.html",
+      "description": "هددت إيران، اليوم الأربعاء، بإغلاق مضيق هرمز بالكامل إذا شنت الولايات المتحدة الأمريكية المزيد من الهجمات، وسط تصاعد التوترات إلى أعلى مستوياتها منذ أسابيع. وجاء التحذير عقب تصعيد كبير في الأعمال العدائية خلال الليل، تضمن شن هجمات أمريكية على أكثر من 80 هدفا داخل إيران، إلى جانب هجمات إيرانية استهدفت منشآت عسكرية مرتبطة بالولايات المتحدة […] The post إيران تتوعد بإغلاق \"مضيق هرمز\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-08T17:17:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-imf-cuts-2026-world-growth-forecast-flags-risks-from-new-mideast-fighting",
+      "title": "IMF cuts 2026 world growth forecast, flags risks from new Mideast fighting",
+      "link": "https://en.hespress.com/141536-imf-cuts-2026-world-growth-forecast-flags-risks-from-new-mideast-fighting.html",
+      "description": "The IMF cut its 2026 global growth projection again Wednesday, flagging “uncertainty and risks” to the economic outlook as fighting reignited in the Middle East. Global economic growth is estimated at 3.0 percent this year, said the International Monetary Fund, down from 3.1 percent in its April forecast. The projection, in its World Economic Outlook […] The post IMF cuts 2026 world growth forecast, flags risks from new Mideast fighting appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-08T16:35:09Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66170807-26-vuln-rabilit-s-critiques-dans-les-produits-unifi",
       "title": "66170807/26 - Vulnérabilités critiques dans les produits UniFi",
@@ -76,19 +115,6 @@
       "published": "2026-07-08T14:43:27Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "التصعيد يُبقي آلاف البحّارة عالقين بالخليج",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d9%88%d8%aa%d8%b1%d8%a7%d8%aa-%d8%aa%d9%8f%d8%a8%d9%82%d9%8a-6-%d8%a2%d9%84%d8%a7%d9%81-%d8%a8%d8%ad%d9%91%d8%a7%d8%b1-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a%d8%ac-1774030.html",
-      "description": "قدّرت المنظمة البحرية الدولية التابعة للأمم المتحدة، الأربعاء، عدد البحارة الذين لا يزالون عالقين في الخليج بنحو ستة آلاف، في بيان دانت فيه تَجَدُّد المواجهات في المنطقة ومضيق هرمز. وقال الأمين العام للمنظمة أرسينيو دومينغير في بيان إن “هذه الهجمات لا تؤدي سوى إلى تأجيج وضعية الخوف (…) والقلق النفسي التي يعانيها اصلا نحو ستة […] The post التصعيد يُبقي آلاف البحّارة عالقين بالخليج appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-08T12:01:59Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
