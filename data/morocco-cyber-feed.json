@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-07T20:18:15Z",
+  "generatedAt": "2026-07-08T03:49:18Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "تصعيد جديد بين واشنطن وطهران بعد هجمات بحرية في \"مضيق هرمز\"",
+      "link": "https://www.hespress.com/%d8%aa%d8%b5%d8%b9%d9%8a%d8%af-%d8%ac%d8%af%d9%8a%d8%af-%d8%a8%d9%8a%d9%86-%d9%88%d8%a7%d8%b4%d9%86%d8%b7%d9%86-%d9%88%d8%b7%d9%87%d8%b1%d8%a7%d9%86-%d8%a8%d8%b9%d8%af-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-1773949.html",
+      "description": "شنّ الجيش الأمريكي، في وقت مبكر من صباح اليوم الأربعاء بالتوقيت المحلي، سلسلة من الضربات استهدفت مواقع إيرانية، عقب تعرض ثلاث سفن تجارية لهجمات في المياه الواقعة قبالة سلطنة عُمان. وقالت القيادة المركزية الأمريكية، في بيان نشرته عبر منصات التواصل الاجتماعي، إن الضربات نُفذت “لفرض تكلفة باهظة على استهداف ومهاجمة سفن تجارية يعمل على متنها […] The post تصعيد جديد بين واشنطن وطهران بعد هجمات بحرية في \"مضيق هرمز\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-07T23:06:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66120707-26-vuln-rabilit-dans-zimbra-collaboration",
       "title": "66120707/26 - Vulnérabilité dans Zimbra Collaboration",
@@ -89,19 +102,6 @@
       "published": "2026-07-07T15:19:20Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-parliament-says-climate-change-has-become-a-structural-test-for-morocco",
-      "title": "Parliament says climate change has become a structural test for Morocco",
-      "link": "https://en.hespress.com/141441-parliament-says-climate-change-has-become-a-structural-test-for-morocco.html",
-      "description": "Morocco’s upper house says climate change has become a structural test of public governance, warning that rising temperatures, prolonged drought and extreme weather now threaten water security, food sovereignty, territorial equity and the state’s ability to protect vulnerable communities. The report, prepared for the House of Councillors’ annual public policy evaluation session, reviews Morocco’s climate-related […] The post Parliament says climate change has become a structural test for Morocco",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-07T14:05:21Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
