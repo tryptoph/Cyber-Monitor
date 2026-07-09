@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-08T19:58:21Z",
+  "generatedAt": "2026-07-09T04:16:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-duke-buchan-les-scanners-am-ricains-renforcent-la-s-curit-de-tanger-med",
+      "title": "Duke Buchan: les scanners américains renforcent la sécurité de Tanger Med",
+      "link": "https://fr.hespress.com/480624-duke-buchan-les-scanners-americains-renforcent-la-securite-de-tanger-med.html",
+      "description": "L’ambassadeur des États-Unis au Maroc, Duke Buchan, a indiqué que les scanners à rayons X pour l’inspection des cargaisons, offerts par la mission américaine au port Tanger Med, « contribuent à renforcer la sécurité de l’un des carrefours commerciaux les plus stratégiques au monde ». En marge d’un déplacement à Tanger, l’ambassadeur américain a déclaré que ces […] The post Duke Buchan: les scanners américains renforcent la sécurité de Tanger Med appeared first on Hespress Français - Actualités d",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-08T23:15:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-paris-tightens-security-ahead-of-france-morocco-world-cup-quarterfinal",
       "title": "Paris tightens security ahead of France-Morocco World Cup quarterfinal",
       "link": "https://en.hespress.com/141544-paris-tightens-security-ahead-of-france-morocco-world-cup-quarterfinal.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-08T19:30:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "إيران تتوعد بإغلاق \"مضيق هرمز\"",
-      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%aa%d9%88%d8%b9%d8%af-%d8%a8%d8%a5%d8%ba%d9%84%d8%a7%d9%82-%d9%85%d8%b6%d9%8a%d9%82-%d9%87%d8%b1%d9%85%d8%b2-1774226.html",
-      "description": "هددت إيران، اليوم الأربعاء، بإغلاق مضيق هرمز بالكامل إذا شنت الولايات المتحدة الأمريكية المزيد من الهجمات، وسط تصاعد التوترات إلى أعلى مستوياتها منذ أسابيع. وجاء التحذير عقب تصعيد كبير في الأعمال العدائية خلال الليل، تضمن شن هجمات أمريكية على أكثر من 80 هدفا داخل إيران، إلى جانب هجمات إيرانية استهدفت منشآت عسكرية مرتبطة بالولايات المتحدة […] The post إيران تتوعد بإغلاق \"مضيق هرمز\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-08T17:17:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
