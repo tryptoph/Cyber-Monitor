@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-09T15:37:22Z",
+  "generatedAt": "2026-07-09T20:09:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-approves-new-generation-biometric-passport-current-documents-remain-valid",
+      "title": "Morocco approves new generation biometric passport, current documents remain valid",
+      "link": "https://en.hespress.com/141599-morocco-approves-new-generation-biometric-passport-current-documents-remain-valid.html",
+      "description": "Morocco’s government approved a decree on Thursday paving the way for a new generation of biometric passports with stronger security features and design elements reflecting the country’s identity, while allowing existing passports to remain in use during the transition. Government spokesperson Mustapha Baitas said the measure forms part of efforts to strengthen protection of the […] The post Morocco approves new generation biometric passport, current documents remain valid appeared first on HESP",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-09T18:59:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-nouveau-passeport-biom-trique-baitas-pr-sente-les-nouveaut-s",
+      "title": "Nouveau passeport biométrique : Baitas présente les nouveautés",
+      "link": "https://fr.hespress.com/480752-nouveau-passeport-biometrique-baitas-presente-les-nouveautes.html",
+      "description": "Le Conseil de gouvernement a adopté, ce jeudi 9 juillet, un projet de décret modifiant le cadre réglementaire du passeport biométrique marocain. Selon le porte-parole du gouvernement, Mustapha Baitas, cette réforme vise à renforcer la protection du document de voyage grâce à une nouvelle génération de passeports intégrant davantage d’éléments de sécurité, tout en reflétant […] The post Nouveau passeport biométrique : Baitas présente les nouveautés appeared first on Hespress Français - Actualités",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-09T18:04:54Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إيران تحذر من \"المغامرات العسكرية\"",
+      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a9-1774640.html",
+      "description": "حذر وزير الخارجية الإيراني عباس عراقجي، اليوم الخميس، من أي “مغامرة عسكرية أمريكية أخرى”، وذلك بعد تنديده بالهجمات الأمريكية على إيران باعتبارها “انتهاكا لمذكرة التفاهم بين البلدين”. وقالت وزارة الخارجية الإيرانية إن التعبير عن هذا الموقف من طرف الجمهورية الفارسية جاء خلال اتصال هاتفي بين عراقجي وقائد الجيش الباكستاني. The post إيران تحذر من \"المغامرات العسكرية\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-09T17:11:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66230907-26-vuln-rabilit-s-dans-les-produits-juniper",
       "title": "66230907/26 - Vulnérabilités dans les produits Juniper",
@@ -89,19 +128,6 @@
       "published": "2026-07-09T15:37:22Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-maroc-france-le-gouvernement-fran-ais-en-alerte-maximale-avant-le-choc-du-mondial",
-      "title": "Maroc-France : Le gouvernement français en alerte maximale avant le choc du Mondial",
-      "link": "https://fr.hespress.com/480701-maroc-france-le-gouvernement-francais-en-alerte-maximale-avant-le-choc-du-mondial.html",
-      "description": "À quelques heures du quart de finale de la Coupe du monde 2026 opposant la France au Maroc, les autorités françaises affichent une vigilance maximale. Redoutant d’éventuels débordements liés à cette rencontre, programmée ce jeudi soir à Foxborough, dans le Massachusetts (États-Unis), elles ont réaffirmé leur détermination à renforcer le dispositif de sécurité sur l’ensemble […] The post Maroc-France : Le gouvernement français en alerte maximale avant le choc du Mondial appeared first on Hespress",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-09T11:31:29Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
