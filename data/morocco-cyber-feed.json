@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-09T04:16:45Z",
+  "generatedAt": "2026-07-09T10:05:01Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-duke-buchan-les-scanners-am-ricains-renforcent-la-s-curit-de-tanger-med",
-      "title": "Duke Buchan: les scanners américains renforcent la sécurité de Tanger Med",
-      "link": "https://fr.hespress.com/480624-duke-buchan-les-scanners-americains-renforcent-la-securite-de-tanger-med.html",
-      "description": "L’ambassadeur des États-Unis au Maroc, Duke Buchan, a indiqué que les scanners à rayons X pour l’inspection des cargaisons, offerts par la mission américaine au port Tanger Med, « contribuent à renforcer la sécurité de l’un des carrefours commerciaux les plus stratégiques au monde ». En marge d’un déplacement à Tanger, l’ambassadeur américain a déclaré que ces […] The post Duke Buchan: les scanners américains renforcent la sécurité de Tanger Med appeared first on Hespress Français - Actualités d",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-2026",
+      "title": "المغرب يراهن على النجاعة الهجومية في ربع نهائي \"كأس العالم 2026\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%b1%d8%a7%d9%87%d9%86-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%86%d8%ac%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d9%87%d8%ac%d9%88%d9%85%d9%8a%d8%a9-%d9%81%d9%8a-%d8%b1-1774372.html",
+      "description": "تترقب الجماهير المغربية التشكيلة التي سيدخل بها الناخب الوطني محمد وهبي مباراة ربع نهائي كأس العالم المرتقبة أمام فرنسا، اليوم الخميس، فيما يتوقع أن تعرف غياب المهاجم إسماعيل الصيباري، الذي لم يستطع إكمال المباراة السابقة أمام كندا بسبب إصابة عضلية. وشارك المهاجم سفيان رحيمي بديلا للصيباري في لقاء كندا، حيث أظهر أداء قويا تُوج بمساهمته […] The post المغرب يراهن على النجاعة الهجومية في ربع نهائي \"كأس العالم 2026\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-07-08T23:15:04Z",
+      "published": "2026-07-09T08:00:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "طهران تعلن توسيع الهجمات في الخليج",
+      "link": "https://www.hespress.com/%d8%b7%d9%87%d8%b1%d8%a7%d9%86-%d8%aa%d8%b9%d9%84%d9%86-%d8%aa%d9%88%d8%b3%d8%b9-%d8%a7%d9%84%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d9%81%d9%8a-%d8%a7%d9%84%d8%ae%d9%84%d9%8a%d8%ac-1774437.html",
+      "description": "أعلنت القوات المسلحة الإيرانية الخميس أنها استهدفت مواقع في الكويت وقطر والبحرين باستخدام مسيّرات، وذلك ردا على ضربات أميركية نُفذت في وقت سابق من اليوم نفسه، وفق ما أفادت وسائل إعلام رسمية. وذكر الجيش الإيراني بحسب وسائل الإعلام الرسمية، أنه “استكمالا لهجمات القوات المسلحة للجمهورية الإسلامية الإيرانية ضد القواعد الأميركية في المنطقة”، استهدفت منظومة “باتريوت” […] The post طهران تعلن توسيع الهجمات في الخليج appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-09T07:59:29Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,19 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-08T19:30:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-imf-cuts-2026-world-growth-forecast-flags-risks-from-new-mideast-fighting",
-      "title": "IMF cuts 2026 world growth forecast, flags risks from new Mideast fighting",
-      "link": "https://en.hespress.com/141536-imf-cuts-2026-world-growth-forecast-flags-risks-from-new-mideast-fighting.html",
-      "description": "The IMF cut its 2026 global growth projection again Wednesday, flagging “uncertainty and risks” to the economic outlook as fighting reignited in the Middle East. Global economic growth is estimated at 3.0 percent this year, said the International Monetary Fund, down from 3.1 percent in its April forecast. The projection, in its World Economic Outlook […] The post IMF cuts 2026 world growth forecast, flags risks from new Mideast fighting appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-08T16:35:09Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
