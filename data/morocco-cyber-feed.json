@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-09T20:09:11Z",
+  "generatedAt": "2026-07-10T04:19:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,32 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-09T18:59:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-nouveau-passeport-biom-trique-baitas-pr-sente-les-nouveaut-s",
-      "title": "Nouveau passeport biométrique : Baitas présente les nouveautés",
-      "link": "https://fr.hespress.com/480752-nouveau-passeport-biometrique-baitas-presente-les-nouveautes.html",
-      "description": "Le Conseil de gouvernement a adopté, ce jeudi 9 juillet, un projet de décret modifiant le cadre réglementaire du passeport biométrique marocain. Selon le porte-parole du gouvernement, Mustapha Baitas, cette réforme vise à renforcer la protection du document de voyage grâce à une nouvelle génération de passeports intégrant davantage d’éléments de sécurité, tout en reflétant […] The post Nouveau passeport biométrique : Baitas présente les nouveautés appeared first on Hespress Français - Actualités",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-09T18:04:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "إيران تحذر من \"المغامرات العسكرية\"",
-      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a9-1774640.html",
-      "description": "حذر وزير الخارجية الإيراني عباس عراقجي، اليوم الخميس، من أي “مغامرة عسكرية أمريكية أخرى”، وذلك بعد تنديده بالهجمات الأمريكية على إيران باعتبارها “انتهاكا لمذكرة التفاهم بين البلدين”. وقالت وزارة الخارجية الإيرانية إن التعبير عن هذا الموقف من طرف الجمهورية الفارسية جاء خلال اتصال هاتفي بين عراقجي وقائد الجيش الباكستاني. The post إيران تحذر من \"المغامرات العسكرية\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-09T17:11:16Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
