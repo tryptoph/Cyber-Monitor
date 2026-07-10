@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-10T04:19:21Z",
+  "generatedAt": "2026-07-10T09:55:25Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66241007-26-vuln-rabilit-dans-microsoft-edge",
+      "title": "66241007/26 - Vulnérabilité dans Microsoft Edge",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-microsoft-edge-0",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-10T09:55:24Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mondial-2026-l-infranchissable-espagne-face-l-impr-visible-belgique",
+      "title": "Mondial 2026: l'infranchissable Espagne face à l'imprévisible Belgique",
+      "link": "https://fr.hespress.com/480833-mondial-2026-linfranchissable-espagne-face-a-limprevisible-belgique.html",
+      "description": "D’un côté les certitudes d’une équipe qui n’a toujours pas encaissé de but, de l’autre le caractère imprévisible d’une formation miraculée aux compositions énigmatiques: l’Espagne s’avance en grande favorite face à la Belgique en quart de finale du Mondial-2026 vendredi à midi (19h00 GMT) à Los Angeles. Si la France épate avec son jeu offensif, […] The post Mondial 2026: l'infranchissable Espagne face à l'imprévisible Belgique appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-10T08:46:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-approves-new-generation-biometric-passport-current-documents-remain-valid",
       "title": "Morocco approves new generation biometric passport, current documents remain valid",
@@ -243,19 +269,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-07-07T15:19:20Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66050607-26-vuln-rabilit-s-affectant-roundcube-webmail",
-      "title": "66050607/26 - Vulnérabilités affectant Roundcube Webmail",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-roundcube-webmail-2",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-06T15:56:54Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
