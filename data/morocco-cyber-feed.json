@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-10T15:05:30Z",
+  "generatedAt": "2026-07-10T19:54:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-france-plus-de-25-000-hectares-ravag-s-par-les-feux-depuis-d-but-2026",
+      "title": "France: plus de 25.000 hectares ravagés par les feux depuis début 2026",
+      "link": "https://fr.hespress.com/480885-france-plus-de-25-000-hectares-ravages-par-les-feux-depuis-debut-2026.html",
+      "description": "Une surface de plus de 25.000 hectares a été ravagée par les feux de forêt en France depuis le début de l’année, a indiqué vendredi le directeur de la Sécurité civile et de la gestion des crises, Julien Marion. « Nous avons enregistré un peu plus de 8.000 départs de feu dans notre pays, pour une […] The post France: plus de 25.000 hectares ravagés par les feux depuis début 2026 appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-10T19:49:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "تألق بونو في المونديال ينال إشادة دولية",
+      "link": "https://www.hespress.com/%d8%aa%d8%a3%d9%84%d9%82-%d8%a8%d9%88%d9%86%d9%88-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84-%d9%8a%d9%86%d8%a7%d9%84-%d8%a5%d8%b4%d8%a7%d8%af%d8%a9-%d8%af%d9%88%d9%84%d9%8a-1775106.html",
+      "description": "أشادت صحف دولية بمستويات حامي عرين “أسود الأطلس”، ياسين بونو، في المقابلة التي جمعت المنتخب المغربي بنظيره الفرنسي برسم ربع نهائي كأس العالم، وحسمها “الديكة” لصالحهم بهدفين نظيفين، لكنها عرفت تألق بونو الذي وقف حاجزاً في وجه الهجوم الفرنسي، الذي كاد أن ينهي اللقاء بحصة عريضة في شباك “الأسود”. وسلطت صحيفة “ليكيب” الفرنسية الضوء على […] The post تألق بونو في المونديال ينال إشادة دولية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-10T17:54:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-trump-says-us-agrees-to-more-iran-talks-but-ceasefire-over",
+      "title": "Trump says US agrees to more Iran talks but ceasefire 'over'",
+      "link": "https://en.hespress.com/141648-trump-says-us-agrees-to-more-iran-talks-but-ceasefire-over.html",
+      "description": "President Donald Trump said Friday the United States has agreed to continue negotiations with Iran but reiterated that the ceasefire between the two countries is finished. “Iran has asked us to continue ‘talks.’ We have agreed to do so, but the United States has stated to them, in no uncertain terms, that the Cease Fire […] The post Trump says US agrees to more Iran talks but ceasefire 'over' appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-10T15:18:05Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66251007-26-vuln-rabilit-s-dans-moveit-transfer",
       "title": "66251007/26 - Vulnérabilités dans MOVEit Transfer",
@@ -27,32 +66,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "بين الفوارق الفنية والخيارات التكتيكية .. لماذا خسر المغرب أمام فرنسا؟",
-      "link": "https://www.hespress.com/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%81%d9%88%d8%a7%d8%b1%d9%82-%d8%a7%d9%84%d9%81%d9%86%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d8%aa%d9%8a%d9%83-1775011.html",
-      "description": "انتهى حلم المغرب في مونديال 2026 من دور ربع النهائي بعد خسارة جديدة أمام المنتخب الفرنسي، الذي تفوق تكتيكيا بشكل واضح طيلة أطوار المباراة، ليفتح التساؤلات حول مستقبل الناخب الوطني محمد وهبي. وفسر مدربون مغاربة هذا الأداء بفارق الجودة في اللاعبين بين المغرب وفرنسا؛ الأخيرة تمتلك ترسانة هجومية متكاملة، فيما بدا المنتخب الوطني دون حلول […] The post بين الفوارق الفنية والخيارات التكتيكية .. لماذا خسر المغرب أمام فرنسا؟ appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-10T15:00:42Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "أرقام الأداء تكشف أسباب إقصاء المغرب",
-      "link": "https://www.hespress.com/%d8%a3%d8%b1%d9%82%d8%a7%d9%85-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%aa%d9%83%d8%b4%d9%81-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8-%d8%a5%d9%82%d8%b5%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1775067.html",
-      "description": "ودع المنتخب المغربي منافسات كأس العالم 2026 من دور ربع النهائي بعد خسارته أمام فرنسا بهدفين دون رد، في مباراة أظهرت تفاصيلها الإحصائية أن “الأسود” لم يكونوا بعيدين عن منافسهم في الاستحواذ وبناء اللعب، غير أن الفارق تجسد في الفعالية الهجومية وجودة الفرص التي صنعتها كتيبة ديدييه ديشان. وبحسب موقع “ووسكورد” المتخصص في الأرقام والإحصائيات، […] The post أرقام الأداء تكشف أسباب إقصاء المغرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-10T14:30:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-66241007-26-vuln-rabilit-dans-microsoft-edge",
       "title": "66241007/26 - Vulnérabilité dans Microsoft Edge",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-microsoft-edge-0",
@@ -63,19 +76,6 @@
       "published": "2026-07-10T09:55:24Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-girl-dies-in-france-celebrating-world-cup-win",
-      "title": "Girl dies in France celebrating World Cup win",
-      "link": "https://en.hespress.com/141626-girl-dies-in-france-celebrating-world-cup-win.html",
-      "description": "A 17-year-old girl fell off a truck and died while celebrating France’s World Cup quarter final win over Morocco, emergency services said Friday. Celebrations erupted across France after the 2-0 win in the United States with hundreds dancing in the streets of Paris, watched by thousands of police on security duties. The teenager was on […] The post Girl dies in France celebrating World Cup win appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-10T09:26:56Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
