@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-10T09:55:25Z",
+  "generatedAt": "2026-07-10T15:05:30Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66251007-26-vuln-rabilit-s-dans-moveit-transfer",
+      "title": "66251007/26 - Vulnérabilités dans MOVEit Transfer",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-moveit-transfer",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-10T15:05:30Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "بين الفوارق الفنية والخيارات التكتيكية .. لماذا خسر المغرب أمام فرنسا؟",
+      "link": "https://www.hespress.com/%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%81%d9%88%d8%a7%d8%b1%d9%82-%d8%a7%d9%84%d9%81%d9%86%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%83%d8%aa%d9%8a%d9%83-1775011.html",
+      "description": "انتهى حلم المغرب في مونديال 2026 من دور ربع النهائي بعد خسارة جديدة أمام المنتخب الفرنسي، الذي تفوق تكتيكيا بشكل واضح طيلة أطوار المباراة، ليفتح التساؤلات حول مستقبل الناخب الوطني محمد وهبي. وفسر مدربون مغاربة هذا الأداء بفارق الجودة في اللاعبين بين المغرب وفرنسا؛ الأخيرة تمتلك ترسانة هجومية متكاملة، فيما بدا المنتخب الوطني دون حلول […] The post بين الفوارق الفنية والخيارات التكتيكية .. لماذا خسر المغرب أمام فرنسا؟ appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-10T15:00:42Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "أرقام الأداء تكشف أسباب إقصاء المغرب",
+      "link": "https://www.hespress.com/%d8%a3%d8%b1%d9%82%d8%a7%d9%85-%d8%a7%d9%84%d8%a3%d8%af%d8%a7%d8%a1-%d8%aa%d9%83%d8%b4%d9%81-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8-%d8%a5%d9%82%d8%b5%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1775067.html",
+      "description": "ودع المنتخب المغربي منافسات كأس العالم 2026 من دور ربع النهائي بعد خسارته أمام فرنسا بهدفين دون رد، في مباراة أظهرت تفاصيلها الإحصائية أن “الأسود” لم يكونوا بعيدين عن منافسهم في الاستحواذ وبناء اللعب، غير أن الفارق تجسد في الفعالية الهجومية وجودة الفرص التي صنعتها كتيبة ديدييه ديشان. وبحسب موقع “ووسكورد” المتخصص في الأرقام والإحصائيات، […] The post أرقام الأداء تكشف أسباب إقصاء المغرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-10T14:30:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66241007-26-vuln-rabilit-dans-microsoft-edge",
       "title": "66241007/26 - Vulnérabilité dans Microsoft Edge",
@@ -27,27 +66,14 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-mondial-2026-l-infranchissable-espagne-face-l-impr-visible-belgique",
-      "title": "Mondial 2026: l'infranchissable Espagne face à l'imprévisible Belgique",
-      "link": "https://fr.hespress.com/480833-mondial-2026-linfranchissable-espagne-face-a-limprevisible-belgique.html",
-      "description": "D’un côté les certitudes d’une équipe qui n’a toujours pas encaissé de but, de l’autre le caractère imprévisible d’une formation miraculée aux compositions énigmatiques: l’Espagne s’avance en grande favorite face à la Belgique en quart de finale du Mondial-2026 vendredi à midi (19h00 GMT) à Los Angeles. Si la France épate avec son jeu offensif, […] The post Mondial 2026: l'infranchissable Espagne face à l'imprévisible Belgique appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-10T08:46:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-approves-new-generation-biometric-passport-current-documents-remain-valid",
-      "title": "Morocco approves new generation biometric passport, current documents remain valid",
-      "link": "https://en.hespress.com/141599-morocco-approves-new-generation-biometric-passport-current-documents-remain-valid.html",
-      "description": "Morocco’s government approved a decree on Thursday paving the way for a new generation of biometric passports with stronger security features and design elements reflecting the country’s identity, while allowing existing passports to remain in use during the transition. Government spokesperson Mustapha Baitas said the measure forms part of efforts to strengthen protection of the […] The post Morocco approves new generation biometric passport, current documents remain valid appeared first on HESP",
+      "id": "hespress-en-girl-dies-in-france-celebrating-world-cup-win",
+      "title": "Girl dies in France celebrating World Cup win",
+      "link": "https://en.hespress.com/141626-girl-dies-in-france-celebrating-world-cup-win.html",
+      "description": "A 17-year-old girl fell off a truck and died while celebrating France’s World Cup quarter final win over Morocco, emergency services said Friday. Celebrations erupted across France after the 2-0 win in the United States with hundreds dancing in the streets of Paris, watched by thousands of police on security duties. The teenager was on […] The post Girl dies in France celebrating World Cup win appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-09T18:59:34Z",
+      "published": "2026-07-10T09:26:56Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -251,19 +277,6 @@
       "id": "dgssi-66080707-26-vuln-rabilit-s-critiques-dans-les-produits-qualcomm",
       "title": "66080707/26 - Vulnérabilités critiques dans les produits Qualcomm",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-qualcomm-2",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-07T15:19:20Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66070707-26-vuln-rabilit-s-critique-dans-les-produits-beyondtrust",
-      "title": "66070707/26 - Vulnérabilités critique dans les produits Beyondtrust",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critique-dans-les-produits-beyondtrust",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
