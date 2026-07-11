@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-11T13:57:47Z",
+  "generatedAt": "2026-07-11T19:35:27Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-morocco-faces-fresh-uncertainty-as-oil-prices-climb",
-      "title": "Morocco faces fresh uncertainty as oil prices climb",
-      "link": "https://en.hespress.com/141685-morocco-faces-fresh-uncertainty-as-oil-prices-climb.html",
-      "description": "Global oil prices are once again experiencing volatility as renewed security tensions in the Middle East push crude prices higher, raising questions about whether the recent decline in fuel prices in Morocco will come to an end. Although oil prices edged slightly lower in early trading on Friday, both major benchmarks remained on track for […] The post Morocco faces fresh uncertainty as oil prices climb appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-jazzablanca-2026-lauryn-hill-et-juanes-offrent-une-soir-e-d-anthologie-casablanca",
+      "title": "Jazzablanca 2026 : Lauryn Hill et Juanes offrent une soirée d'anthologie à Casablanca",
+      "link": "https://fr.hespress.com/480987-jazzablanca-2026-lauryn-hill-et-juanes-offrent-une-soiree-danthologie-a-casablanca.html",
+      "description": "Entre le retour très attendu de Lauryn Hill, rejointe sur scène par Wyclef Jean, et l’énergie communicative de Juanes, la scène Casa Anfa a vécu l’un des moments les plus marquants de la 19e édition de Jazzablanca. Deux concerts d’exception qui ont fait vibrer les festivaliers jusqu’au bout de la nuit. La 19ᵉ édition de […] The post Jazzablanca 2026 : Lauryn Hill et Juanes offrent une soirée d'anthologie à Casablanca appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-07-11T09:30:50Z",
+      "published": "2026-07-11T14:23:57Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
