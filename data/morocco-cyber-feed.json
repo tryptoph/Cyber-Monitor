@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-11T03:46:41Z",
+  "generatedAt": "2026-07-11T13:57:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-prix-des-m-dicaments-les-pharmaciens-d-noncent-un-projet-labor-sans-v-ritable-concertation",
-      "title": "Prix des médicaments : les pharmaciens dénoncent un projet élaboré sans véritable concertation",
-      "link": "https://fr.hespress.com/480723-prix-des-medicaments-les-pharmaciens-denoncent-un-projet-elabore-sans-veritable-concertation.html",
-      "description": "La réforme du système de fixation des prix des médicaments suscite une nouvelle levée de boucliers au sein de la profession pharmaceutique. Alors que le projet de décret n° 2.25.631, modifiant et complétant le décret n° 2.13.852 relatif aux conditions et modalités de fixation des prix de vente au public des médicaments fabriqués localement ou […] The post Prix des médicaments : les pharmaciens dénoncent un projet élaboré sans véritable concertation appeared first on Hespress Français - Actualité",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-morocco-faces-fresh-uncertainty-as-oil-prices-climb",
+      "title": "Morocco faces fresh uncertainty as oil prices climb",
+      "link": "https://en.hespress.com/141685-morocco-faces-fresh-uncertainty-as-oil-prices-climb.html",
+      "description": "Global oil prices are once again experiencing volatility as renewed security tensions in the Middle East push crude prices higher, raising questions about whether the recent decline in fuel prices in Morocco will come to an end. Although oil prices edged slightly lower in early trading on Friday, both major benchmarks remained on track for […] The post Morocco faces fresh uncertainty as oil prices climb appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-07-11T03:11:22Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cps-de-l-ua-met-en-avant-l-accord-de-skhirat-comme-cadre-cr-dible-pour-une-solution-politique-en",
-      "title": "CPS de l’UA met en avant l’Accord de Skhirat comme cadre crédible pour une solution politique en Libye",
-      "link": "https://fr.hespress.com/480751-cps-de-lua-met-en-avant-laccord-de-skhirat-comme-cadre-credible-pour-une-solution-politique-en-libye.html",
-      "description": "Le Conseil de Paix et de Sécurité de l’Union Africaine (CPS de l’UA) a souligné que l’Accord de Skhirat fonde une base et un cadre crédible pour une solution politique durable à la crise libyenne. Dans un communiqué publié jeudi suite à sa réunion tenue le 9 juin 2026, sur la situation en Libye, le […] The post CPS de l’UA met en avant l’Accord de Skhirat comme cadre crédible pour une solution politique en Libye appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-11T00:08:10Z",
+      "published": "2026-07-11T09:30:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
