@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-12T04:02:41Z",
+  "generatedAt": "2026-07-12T08:33:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-interrogations-en-cascade-sur-la-s-curit-du-nouvel-avion-pr-sidentiel-de-trump",
+      "title": "Interrogations en cascade sur la sécurité du nouvel avion présidentiel de Trump",
+      "link": "https://fr.hespress.com/481023-interrogations-en-cascade-sur-la-securite-du-nouvel-avion-presidentiel-de-trump.html",
+      "description": "En changeant à la dernière minute d’avion pour quitter le sommet de l’Otan en Turquie, Donald Trump a déclenché cette semaine de nombreuses inquiétudes sur la sécurité de son nouveau Air Force One, un cadeau du Qatar. En s’envolant pour Ankara avec ce Boeing 747 réaménagé, le président américain n’avait pas caché son enthousiasme, décrivant […] The post Interrogations en cascade sur la sécurité du nouvel avion présidentiel de Trump appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-12T08:20:41Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-ar-item",
-      "title": "الحياة رقصة",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-%d8%b1%d9%82%d8%b5%d8%a9-1775822.html",
-      "description": "الزمن العامر بكِ زمنك أنتِ، والمكان الممتلئ بكِ مكانك أنتِ. وحقكِ أن تجعليهما يفيضان بما تشائين، وأن تعيثي فيهما جمالاً كما تشائين. كيف يمكن، لأيّ كان، أن يكبح جماح وجنون امرأة منطلقة، منتفضة، زُوربوية الهوى؟! لم يكن اللقاء بكِ، وأنتِ سليلة روح زُوربا وجسده، مجرد تلاقٍ عابر وبارد ومعتاد، وإنما كان شعلة لهب، بل هجومًا، […] The post الحياة رقصة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "title": "تصعيد متسارع يفاقم التوتر في الخليج",
+      "link": "https://www.hespress.com/%d8%aa%d8%b5%d8%b9%d9%8a%d8%af-%d9%85%d8%aa%d8%b3%d8%a7%d8%b1%d8%b9-%d9%8a%d9%86%d8%aa%d9%87%d9%8a-%d8%a8%d8%a5%d8%ba%d9%84%d8%a7%d9%82-%d9%85%d8%b6%d9%8a%d9%82-%d9%87%d8%b1%d9%85%d8%b2-1776035.html",
+      "description": "أعلنت طهران الأحد إغلاق مضيق هرمز بعدما استهدفت بصواريخ وطائرات مسيّرة قواعد عسكرية أميركية في دول الخليج المجاورة، وذلك غداة جولة جديدة من الضربات التي نفّذتها الولايات المتحدة على مناطق الساحل الإيراني قالت إنها ردّا على هجوم شنّته قوات الحرس الثوري على سفينة تجارية كانت تعبر مضيق هرمز. وأفاد صحافيو وكالة فرانس برس بسماع صفارات […] The post تصعيد متسارع يفاقم التوتر في الخليج appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-07-11T23:32:52Z",
+      "published": "2026-07-12T08:14:53Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
