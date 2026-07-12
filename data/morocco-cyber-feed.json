@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-11T19:35:27Z",
+  "generatedAt": "2026-07-12T04:02:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-jazzablanca-2026-lauryn-hill-et-juanes-offrent-une-soir-e-d-anthologie-casablanca",
-      "title": "Jazzablanca 2026 : Lauryn Hill et Juanes offrent une soirée d'anthologie à Casablanca",
-      "link": "https://fr.hespress.com/480987-jazzablanca-2026-lauryn-hill-et-juanes-offrent-une-soiree-danthologie-a-casablanca.html",
-      "description": "Entre le retour très attendu de Lauryn Hill, rejointe sur scène par Wyclef Jean, et l’énergie communicative de Juanes, la scène Casa Anfa a vécu l’un des moments les plus marquants de la 19e édition de Jazzablanca. Deux concerts d’exception qui ont fait vibrer les festivaliers jusqu’au bout de la nuit. La 19ᵉ édition de […] The post Jazzablanca 2026 : Lauryn Hill et Juanes offrent une soirée d'anthologie à Casablanca appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "الحياة رقصة",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-%d8%b1%d9%82%d8%b5%d8%a9-1775822.html",
+      "description": "الزمن العامر بكِ زمنك أنتِ، والمكان الممتلئ بكِ مكانك أنتِ. وحقكِ أن تجعليهما يفيضان بما تشائين، وأن تعيثي فيهما جمالاً كما تشائين. كيف يمكن، لأيّ كان، أن يكبح جماح وجنون امرأة منطلقة، منتفضة، زُوربوية الهوى؟! لم يكن اللقاء بكِ، وأنتِ سليلة روح زُوربا وجسده، مجرد تلاقٍ عابر وبارد ومعتاد، وإنما كان شعلة لهب، بل هجومًا، […] The post الحياة رقصة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-07-11T14:23:57Z",
+      "published": "2026-07-11T23:32:52Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
