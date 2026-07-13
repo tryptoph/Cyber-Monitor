@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-13T04:04:40Z",
+  "generatedAt": "2026-07-13T09:50:02Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-al-ittihad-envisage-un-d-part-de-youssef-en-nesyri-d-s-cet-t",
-      "title": "Al-Ittihad envisage un départ de Youssef En-Nesyri dès cet été",
-      "link": "https://fr.hespress.com/481062-al-ittihad-envisage-un-depart-de-youssef-en-nesyri-des-cet-ete.html",
-      "description": "Quelques mois seulement après son arrivée en provenance de Fenerbahçe, Youssef En-Nesyri pourrait déjà quitter Al-Ittihad. Selon la presse saoudienne, les dirigeants du club étudient la possibilité de recruter un nouvel avant-centre et de se séparer de l’international marocain durant le mercato estival. L’avenir de Youssef En-Nesyri à Al-Ittihad semble de plus en plus incertain. […] The post Al-Ittihad envisage un départ de Youssef En-Nesyri dès cet été appeared first on Hespress Français - Actu",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-13T00:23:25Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-66251007-26-vuln-rabilit-s-dans-moveit-transfer",
       "title": "66251007/26 - Vulnérabilités dans MOVEit Transfer",
