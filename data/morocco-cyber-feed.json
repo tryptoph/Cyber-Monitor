@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-12T19:34:37Z",
+  "generatedAt": "2026-07-13T04:04:40Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "المغرب في كأس العالم .. العيناوي كبير الممررين وحكيمي أول المهاجمين",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%81%d9%8a-%d9%83%d8%a3%d8%b3-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85-%d8%a7%d9%84%d8%b9%d9%8a%d9%86%d8%a7%d9%88%d9%8a-%d9%83%d8%a8%d9%8a%d8%b1-%d8%a7%d9%84-1776301.html",
-      "description": "أسدل المنتخب المغربي الستار على مشاركته في نهائيات كأس العالم 2026 لكرة القدم عند محطة ربع النهائي، عقب خسارته أمام المنتخب الفرنسي، بعدما بصم “أسود الأطلس” على مشوار مميز امتد لست مباريات، شهد تألق عدد من اللاعبين الذين تصدروا الإحصائيات الفردية، وفقا لبيانات منصة “Opta” المتخصصة في الأرقام والإحصائيات. وتصدر العميد أشرف حكيمي المشهد الهجومي […] The post المغرب في كأس العالم .. العيناوي كبير الممررين وحكيمي أول المهاجمين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-al-ittihad-envisage-un-d-part-de-youssef-en-nesyri-d-s-cet-t",
+      "title": "Al-Ittihad envisage un départ de Youssef En-Nesyri dès cet été",
+      "link": "https://fr.hespress.com/481062-al-ittihad-envisage-un-depart-de-youssef-en-nesyri-des-cet-ete.html",
+      "description": "Quelques mois seulement après son arrivée en provenance de Fenerbahçe, Youssef En-Nesyri pourrait déjà quitter Al-Ittihad. Selon la presse saoudienne, les dirigeants du club étudient la possibilité de recruter un nouvel avant-centre et de se séparer de l’international marocain durant le mercato estival. L’avenir de Youssef En-Nesyri à Al-Ittihad semble de plus en plus incertain. […] The post Al-Ittihad envisage un départ de Youssef En-Nesyri dès cet été appeared first on Hespress Français - Actu",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-07-12T19:00:25Z",
+      "published": "2026-07-13T00:23:25Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
