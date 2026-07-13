@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-13T15:14:58Z",
+  "generatedAt": "2026-07-13T19:52:54Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-nearly-1-000-hectares-burnt-in-fire-near-paris-official",
+      "title": "Nearly 1,000 hectares burnt in fire near Paris: official",
+      "link": "https://en.hespress.com/141837-nearly-1000-hectares-burnt-in-fire-near-paris-official.html",
+      "description": "A wildfire in in the Fontainebleau forest south of Paris has burnt nearly 1,000 hectares (over 2,470 acres) since Sunday, an official said. “It is obviously very significant,” said director general of civil security Julien Marion, of the blaze in the sprawling forest, about 60 kilometres (40 miles) southeast of Paris, a former royal hunting […] The post Nearly 1,000 hectares burnt in fire near Paris: official appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-13T19:14:47Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66281307-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
       "title": "66281307/26 - Vulnérabilités critiques dans les plugins WordPress",
@@ -50,19 +63,6 @@
       "published": "2026-07-13T15:14:57Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-more-than-20-countries-tighten-social-media-rules-for-children",
-      "title": "More than 20 countries tighten social media rules for children",
-      "link": "https://en.hespress.com/141811-more-than-20-countries-tighten-social-media-rules-for-children.html",
-      "description": "Governments around the world are stepping up efforts to restrict children’s access to social media as concerns over mental health, cyberbullying, and harmful online content continue to grow. More than 20 countries have already introduced or are considering legislation aimed at limiting minors’ use of digital platforms. The European Union could soon take a significant […] The post More than 20 countries tighten social media rules for children appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-13T13:24:22Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
