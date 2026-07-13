@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-13T09:50:02Z",
+  "generatedAt": "2026-07-13T15:14:58Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66281307-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
+      "title": "66281307/26 - Vulnérabilités critiques dans les plugins WordPress",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-8",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-13T15:14:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66271307-26-vuln-rabilit-s-dans-les-produits-jetbrains",
+      "title": "66271307/26 - Vulnérabilités dans les produits JetBrains",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-jetbrains",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-13T15:14:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66261307-26-vuln-rabilit-s-dans-apache-otdb",
+      "title": "66261307/26 - Vulnérabilités dans Apache oTDB",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-apache-otdb",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-13T15:14:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-more-than-20-countries-tighten-social-media-rules-for-children",
+      "title": "More than 20 countries tighten social media rules for children",
+      "link": "https://en.hespress.com/141811-more-than-20-countries-tighten-social-media-rules-for-children.html",
+      "description": "Governments around the world are stepping up efforts to restrict children’s access to social media as concerns over mental health, cyberbullying, and harmful online content continue to grow. More than 20 countries have already introduced or are considering legislation aimed at limiting minors’ use of digital platforms. The European Union could soon take a significant […] The post More than 20 countries tighten social media rules for children appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-13T13:24:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66251007-26-vuln-rabilit-s-dans-moveit-transfer",
       "title": "66251007/26 - Vulnérabilités dans MOVEit Transfer",
@@ -199,45 +251,6 @@
       "id": "dgssi-66110707-26-vuln-rabilit-critique-affectant-le-noyau-linux",
       "title": "66110707/26 - Vulnérabilité critique affectant le noyau Linux",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-le-noyau-linux",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-07T15:19:20Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66100707-26-vuln-rabilit-dans-postfix",
-      "title": "66100707/26 - Vulnérabilité dans Postfix",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-postfix-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-07T15:19:20Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66090707-26-zero-day-dans-les-firmwares-tenda",
-      "title": "66090707/26 - Zero-day dans les firmwares Tenda",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/zero-day-dans-les-firmwares-tenda",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-07T15:19:20Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66080707-26-vuln-rabilit-s-critiques-dans-les-produits-qualcomm",
-      "title": "66080707/26 - Vulnérabilités critiques dans les produits Qualcomm",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-qualcomm-2",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
