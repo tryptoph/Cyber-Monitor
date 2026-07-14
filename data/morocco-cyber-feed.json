@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-14T08:30:29Z",
+  "generatedAt": "2026-07-14T14:16:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "المجالس الجهوية للحسابات تقف على تجاوزات في إبرام \"اتفاقيات مباشرة\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ac%d8%a7%d9%84%d8%b3-%d8%a7%d9%84%d8%ac%d9%87%d9%88%d9%8a%d8%a9-%d9%84%d9%84%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa-%d8%aa%d9%82%d9%81-%d8%b9%d9%84%d9%89-%d8%aa%d8%ac%d8%a7%d9%88-1776719.html",
+      "description": "كشفت تسريبات من تقارير أنجزتها لجان تفتيش تابعة للمجالس الجهوية للحسابات لجهات الدار البيضاء-سطات والرباط-سلا-القنيطرة وفاس-مكناس عن اختلالات في تدبير طلبيات عمومية بجماعات ترابية، نتيجة لجوء بعض الرؤساء إلى إبرام اتفاقيات مباشرة خارج البوابة الرسمية للصفقات؛ ما فتح المجال أمام “ريع” اتفاقيات مباشرة بالمليارات. وأفادت مصادر جيدة الاطلاع لهسبريس بأن اللجان رصدت ثغرة كبيرة تسربت […] The post المجالس الجهوية للحسابات تقف على تجاوزات في إبرام \"اتفاقيات مباشرة\" appeared first on Hespress - هسبريس جري",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-14T12:30:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-terrasses-tals-marchandises-l-agdal-les-trottoirs-se-lib-rent",
+      "title": "Terrasses, étals, marchandises : à l'Agdal, les trottoirs se libèrent",
+      "link": "https://fr.hespress.com/481179-terrasses-etals-marchandises-a-lagdal-les-trottoirs-se-liberent.html",
+      "description": "Depuis près de deux semaines, les autorités locales ont engagé une vaste opération de libération de l’espace public dans plusieurs quartiers de Rabat, notamment l’Agdal. Une reprise en main saluée par les piétons, mais qui suscite l’amertume d’une partie des commerçants. Dans ce quartier situé au coeur de la capitale, le paysage de certaines rues […] The post Terrasses, étals, marchandises : à l'Agdal, les trottoirs se libèrent appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-14T10:33:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66301407-26-vuln-rabilit-s-critiques-dans-des-extensions-joomla",
       "title": "66301407/26 - Vulnérabilités critiques dans des extensions Joomla",
@@ -50,45 +76,6 @@
       "published": "2026-07-14T08:30:28Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-showcases-cultural-diversity-at-new-york-s-summerstage-festival",
-      "title": "Morocco showcases cultural diversity at New York’s SummerStage festival",
-      "link": "https://en.hespress.com/141849-morocco-showcases-cultural-diversity-at-new-yorks-summerstage-festival.html",
-      "description": "Central Park’s Rumsey Playfield will host a major celebration of Moroccan music on July 15 as New York’s SummerStage Festival presents “Morocco: From Dakhla to Casablanca,” an event dedicated entirely to the Kingdom’s rich and diverse musical heritage. The free concert marks the first time in the festival’s 40-year history that an African country has […] The post Morocco showcases cultural diversity at New York’s SummerStage festival appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-13T21:39:26Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-violent-clashes-between-migrant-groups-prompt-security-response-near-mohammedia",
-      "title": "Violent clashes between migrant groups prompt security response near Mohammedia",
-      "link": "https://en.hespress.com/141845-violent-clashes-between-migrant-groups-prompt-security-response-near-mohammedia.html",
-      "description": "Violent clashes broke out Sunday between groups of sub-Saharan migrants in the Jenane Zenata neighborhood near Mohammedia, injuring several people and prompting a large-scale security response, according to local reports and videos circulating online. The unrest erupted in the Ain Harrouda area on July 12, sending residents scrambling for safety as members of the Royal […] The post Violent clashes between migrant groups prompt security response near Mohammedia appeared first on HESPRESS English ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-13T21:00:24Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-nearly-1-000-hectares-burnt-in-fire-near-paris-official",
-      "title": "Nearly 1,000 hectares burnt in fire near Paris: official",
-      "link": "https://en.hespress.com/141837-nearly-1000-hectares-burnt-in-fire-near-paris-official.html",
-      "description": "A wildfire in in the Fontainebleau forest south of Paris has burnt nearly 1,000 hectares (over 2,470 acres) since Sunday, an official said. “It is obviously very significant,” said director general of civil security Julien Marion, of the blaze in the sprawling forest, about 60 kilometres (40 miles) southeast of Paris, a former royal hunting […] The post Nearly 1,000 hectares burnt in fire near Paris: official appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-13T19:14:47Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
