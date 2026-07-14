@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-14T14:16:53Z",
+  "generatedAt": "2026-07-14T19:47:36Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,29 +14,16 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "المجالس الجهوية للحسابات تقف على تجاوزات في إبرام \"اتفاقيات مباشرة\"",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ac%d8%a7%d9%84%d8%b3-%d8%a7%d9%84%d8%ac%d9%87%d9%88%d9%8a%d8%a9-%d9%84%d9%84%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa-%d8%aa%d9%82%d9%81-%d8%b9%d9%84%d9%89-%d8%aa%d8%ac%d8%a7%d9%88-1776719.html",
-      "description": "كشفت تسريبات من تقارير أنجزتها لجان تفتيش تابعة للمجالس الجهوية للحسابات لجهات الدار البيضاء-سطات والرباط-سلا-القنيطرة وفاس-مكناس عن اختلالات في تدبير طلبيات عمومية بجماعات ترابية، نتيجة لجوء بعض الرؤساء إلى إبرام اتفاقيات مباشرة خارج البوابة الرسمية للصفقات؛ ما فتح المجال أمام “ريع” اتفاقيات مباشرة بالمليارات. وأفادت مصادر جيدة الاطلاع لهسبريس بأن اللجان رصدت ثغرة كبيرة تسربت […] The post المجالس الجهوية للحسابات تقف على تجاوزات في إبرام \"اتفاقيات مباشرة\" appeared first on Hespress - هسبريس جري",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-14T12:30:10Z",
+      "id": "dgssi-66311407-26-vuln-rabilit-s-critiques-dans-les-produits-sap",
+      "title": "66311407/26 - Vulnérabilités critiques dans les produits SAP",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-sap-14",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-14T19:47:35Z",
       "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-terrasses-tals-marchandises-l-agdal-les-trottoirs-se-lib-rent",
-      "title": "Terrasses, étals, marchandises : à l'Agdal, les trottoirs se libèrent",
-      "link": "https://fr.hespress.com/481179-terrasses-etals-marchandises-a-lagdal-les-trottoirs-se-liberent.html",
-      "description": "Depuis près de deux semaines, les autorités locales ont engagé une vaste opération de libération de l’espace public dans plusieurs quartiers de Rabat, notamment l’Agdal. Une reprise en main saluée par les piétons, mais qui suscite l’amertume d’une partie des commerçants. Dans ce quartier situé au coeur de la capitale, le paysage de certaines rues […] The post Terrasses, étals, marchandises : à l'Agdal, les trottoirs se libèrent appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-14T10:33:25Z",
-      "countryCode": "MA",
-      "official": false,
+      "official": true,
       "type": "news"
     },
     {
@@ -251,19 +238,6 @@
       "id": "dgssi-66150807-26-vuln-rabilit-critique-activement-exploit-e-affectant-adobe-coldfusion",
       "title": "66150807/26 - Vulnérabilité critique activement exploitée affectant Adobe ColdFusion",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-adobe-coldfusion",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-08T14:43:27Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66130807-26-vuln-rabilit-s-affectant-django",
-      "title": "66130807/26 - Vulnérabilités affectant Django",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-django-1",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
