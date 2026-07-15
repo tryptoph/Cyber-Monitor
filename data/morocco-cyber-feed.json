@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-15T14:14:19Z",
+  "generatedAt": "2026-07-15T19:39:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66451507-26-vuln-rabilit-affectant-veeam-software-appliance-updater-component",
+      "title": "66451507/26 - Vulnérabilité affectant Veeam Software Appliance Updater Component",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-veeam-software-appliance-updater-component",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-15T19:39:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-le-rni-et-la-cgem-renforcent-leur-dialogue-sur-les-priorit-s-conomiques",
+      "title": "Le RNI et la CGEM renforcent leur dialogue sur les priorités économiques",
+      "link": "https://aujourdhui.ma/actualite/le-rni-et-la-cgem-renforcent-leur-dialogue-sur-les-priorites-economiques",
+      "description": "Le Rassemblement National des Indépendants (RNI) poursuit sa dynamique d’ouverture et de concertation avec les forces vives du Royaume. Dans ce cadre, une délégation conduite par le président du parti, Mohamed Chouki, a été reçue, ce mercredi à Casablanca, par la Confédération Générale des Entreprises du Maroc (CGEM), présidée par Mehdi Tazi, en présence des […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-07-15T17:55:29Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cybers-curit-le-minist-re-de-la-sant-veut-auditer-sa-plateforme-de-donn-es-sanitaires",
+      "title": "Cybersécurité : le ministère de la Santé veut auditer sa plateforme de données sanitaires",
+      "link": "https://fr.hespress.com/480730-cybersecurite-le-ministere-de-la-sante-veut-auditer-sa-plateforme-de-donnees-sanitaires.html",
+      "description": "Le ministère de la Santé et de la Protection sociale prépare un audit technique approfondi de la plateforme DHIS2, qui constitue le système national de collecte, de gestion, d’analyse et de diffusion des données sanitaires. La mission vise à évaluer l’infrastructure, les performances et la sécurité de la plateforme, afin d’identifier les risques, de renforcer […] The post Cybersécurité : le ministère de la Santé veut auditer sa plateforme de données sanitaires appeared first on Hespress Français",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-15T17:25:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66441507-26-vuln-rabilit-s-dans-ivanti-xtraction",
       "title": "66441507/26 - Vulnérabilités dans Ivanti Xtraction",
@@ -230,19 +269,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-07-14T08:30:28Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66281307-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
-      "title": "66281307/26 - Vulnérabilités critiques dans les plugins WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-8",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-13T15:14:57Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
