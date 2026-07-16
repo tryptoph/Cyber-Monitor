@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-16T14:26:44Z",
+  "generatedAt": "2026-07-16T19:36:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66511607-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
+      "title": "66511607/26 - Vulnérabilités critiques dans les plugins WordPress",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-9",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-16T19:36:18Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "dgssi-66501607-26-vuln-rabilit-s-dans-les-produits-dell",
       "title": "66501607/26 - Vulnérabilités dans les produits Dell",
@@ -76,19 +89,6 @@
       "published": "2026-07-16T14:26:42Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-espagne-nouveau-record-du-nombre-de-travailleurs-trangers-affili-s-la-s-curit-sociale",
-      "title": "Espagne : nouveau record du nombre de travailleurs étrangers affiliés à la Sécurité sociale",
-      "link": "https://fr.hespress.com/481343-espagne-nouveau-record-du-nombre-de-travailleurs-etrangers-affilies-a-la-securite-sociale.html",
-      "description": "L’emploi des ressortissants étrangers en Espagne a atteint un nouveau niveau record, avec 3,45 millions de travailleurs affiliés à la Sécurité sociale à fin juin, après une progression de 86.630 affiliés au cours du mois, a indiqué le ministère espagnol de l’Inclusion, de la Sécurité sociale et des Migrations. Sur un an, le nombre de […] The post Espagne : nouveau record du nombre de travailleurs étrangers affiliés à la Sécurité sociale appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-16T14:20:02Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -251,19 +251,6 @@
       "id": "dgssi-66351507-26-vuln-rabilit-s-critiques-dans-microsoft-office-patch-tuesday-juillet-2026",
       "title": "66351507/26 - Vulnérabilités critiques dans Microsoft Office (Patch Tuesday Juillet 2026)",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-microsoft-office-patch-tuesday-juillet-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-15T14:14:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66331507-26-vuln-rabilit-s-activement-exploit-es-affectant-sonicwall-sma1000",
-      "title": "66331507/26 - Vulnérabilités activement exploitées affectant SonicWall SMA1000",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-activement-exploitees-affectant-sonicwall-sma1000",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
