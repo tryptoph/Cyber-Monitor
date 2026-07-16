@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-15T19:39:41Z",
+  "generatedAt": "2026-07-16T03:42:33Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-formalizes-gaza-mission-with-police-military-and-humanitarian-role",
+      "title": "Morocco formalizes Gaza mission with police, military and humanitarian role",
+      "link": "https://en.hespress.com/141976-morocco-formalizes-gaza-mission-with-police-military-and-humanitarian-role.html",
+      "description": "Morocco has moved from diplomatic support for the Palestinian cause to an operational role in post-war Gaza after signing the legal framework governing its participation in the International Stabilization Force, marking one of the kingdom’s most concrete contributions to reconstruction and security efforts in the territory. The agreement, signed during a visit to Rabat by […] The post Morocco formalizes Gaza mission with police, military and humanitarian role appeared first on HESPRESS English -",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-15T21:01:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66451507-26-vuln-rabilit-affectant-veeam-software-appliance-updater-component",
       "title": "66451507/26 - Vulnérabilité affectant Veeam Software Appliance Updater Component",
@@ -35,19 +48,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-07-15T17:55:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cybers-curit-le-minist-re-de-la-sant-veut-auditer-sa-plateforme-de-donn-es-sanitaires",
-      "title": "Cybersécurité : le ministère de la Santé veut auditer sa plateforme de données sanitaires",
-      "link": "https://fr.hespress.com/480730-cybersecurite-le-ministere-de-la-sante-veut-auditer-sa-plateforme-de-donnees-sanitaires.html",
-      "description": "Le ministère de la Santé et de la Protection sociale prépare un audit technique approfondi de la plateforme DHIS2, qui constitue le système national de collecte, de gestion, d’analyse et de diffusion des données sanitaires. La mission vise à évaluer l’infrastructure, les performances et la sécurité de la plateforme, afin d’identifier les risques, de renforcer […] The post Cybersécurité : le ministère de la Santé veut auditer sa plateforme de données sanitaires appeared first on Hespress Français",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-15T17:25:15Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
