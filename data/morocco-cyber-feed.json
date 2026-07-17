@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-17T03:42:11Z",
+  "generatedAt": "2026-07-17T08:30:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "اختلالات في تدبير أملاك الدولة تورّط رؤساء جماعات ورجال سلطة بالمغرب",
+      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d9%84%d8%a7%d9%84%d8%a7%d8%aa-%d9%81%d9%8a-%d8%aa%d8%af%d8%a8%d9%8a%d8%b1-%d8%a3%d9%85%d9%84%d8%a7%d9%83-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a9-%d8%aa%d9%88%d8%b1%d9%91%d8%b7-%d8%b1-1778182.html",
+      "description": "كشفت تسريبات من تقارير تفتيش أنجزتها لجان مركزية أوفدتها المفتشية العامة للإدارة الترابية إلى جماعات ترابية بنفوذ عمالات وأقاليم جهات الدار البيضاء- سطات والرباط- سلا- القنيطرة ومراكش- آسفي عن اختلالات خطيرة في تدبير أراضي الدولة ورطت رؤساء مجالس جماعية ورجال سلطة، خصوصا قوادا، في منح شهادات إدارية مشبوهة استُغلت في تفويت عقارات عمومية وأراضٍ مخزنية […] The post اختلالات في تدبير أملاك الدولة تورّط رؤساء جماعات ورجال سلطة بالمغرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-17T08:00:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-27-killed-more-than-3-000-injured-in-morocco-urban-road-accidents-in-one-week",
       "title": "27 killed, more than 3,000 injured in Morocco urban road accidents in one week",
