@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-17T08:30:48Z",
+  "generatedAt": "2026-07-17T14:07:10Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "اختلالات في تدبير أملاك الدولة تورّط رؤساء جماعات ورجال سلطة بالمغرب",
-      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d9%84%d8%a7%d9%84%d8%a7%d8%aa-%d9%81%d9%8a-%d8%aa%d8%af%d8%a8%d9%8a%d8%b1-%d8%a3%d9%85%d9%84%d8%a7%d9%83-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a9-%d8%aa%d9%88%d8%b1%d9%91%d8%b7-%d8%b1-1778182.html",
-      "description": "كشفت تسريبات من تقارير تفتيش أنجزتها لجان مركزية أوفدتها المفتشية العامة للإدارة الترابية إلى جماعات ترابية بنفوذ عمالات وأقاليم جهات الدار البيضاء- سطات والرباط- سلا- القنيطرة ومراكش- آسفي عن اختلالات خطيرة في تدبير أراضي الدولة ورطت رؤساء مجالس جماعية ورجال سلطة، خصوصا قوادا، في منح شهادات إدارية مشبوهة استُغلت في تفويت عقارات عمومية وأراضٍ مخزنية […] The post اختلالات في تدبير أملاك الدولة تورّط رؤساء جماعات ورجال سلطة بالمغرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "aujourdhui-lutte-contre-l-analphab-tisme-4-048-candidats-aux-examens-certificatifs-azilal",
+      "title": "Lutte contre l’analphabétisme : 4.048 candidats aux examens certificatifs à Azilal",
+      "link": "https://aujourdhui.ma/societe/lutte-contre-lanalphabetisme-4-048-candidats-aux-examens-certificatifs-a-azilal",
+      "description": "Campagne de lecture 2025-2026. L’Agence nationale de lutte contre l’analphabétisme (ANLCA) a organisé, samedi 12 juillet 2026 à Azilal, les examens certificatifs de la campagne de lecture 2025-2026 au profit de 4.048 bénéficiaires. Une opération d’envergure qui reflète les efforts déployés pour renforcer l’accès à l’éducation et promouvoir l’apprentissage tout au long de la vie. […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
       "category": "morocco",
-      "published": "2026-07-17T08:00:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-27-killed-more-than-3-000-injured-in-morocco-urban-road-accidents-in-one-week",
-      "title": "27 killed, more than 3,000 injured in Morocco urban road accidents in one week",
-      "link": "https://en.hespress.com/142047-27-killed-more-than-3000-injured-in-morocco-urban-road-accidents-in-one-week.html",
-      "description": "A total of 27 people were killed and 3,043 others injured, including 105 seriously, in 2,230 road accidents recorded in Morocco’s urban areas between July 6 and July 12, the General Directorate of National Security (DGSN) said. According to the DGSN, the main causes of the crashes included driver inattention, failure to yield, speeding, failure […] The post 27 killed, more than 3,000 injured in Morocco urban road accidents in one week appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-16T21:30:19Z",
+      "published": "2026-07-17T11:03:52Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
