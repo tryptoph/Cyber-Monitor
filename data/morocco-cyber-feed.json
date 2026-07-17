@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-16T19:36:19Z",
+  "generatedAt": "2026-07-17T03:42:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-27-killed-more-than-3-000-injured-in-morocco-urban-road-accidents-in-one-week",
+      "title": "27 killed, more than 3,000 injured in Morocco urban road accidents in one week",
+      "link": "https://en.hespress.com/142047-27-killed-more-than-3000-injured-in-morocco-urban-road-accidents-in-one-week.html",
+      "description": "A total of 27 people were killed and 3,043 others injured, including 105 seriously, in 2,230 road accidents recorded in Morocco’s urban areas between July 6 and July 12, the General Directorate of National Security (DGSN) said. According to the DGSN, the main causes of the crashes included driver inattention, failure to yield, speeding, failure […] The post 27 killed, more than 3,000 injured in Morocco urban road accidents in one week appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-16T21:30:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66511607-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
       "title": "66511607/26 - Vulnérabilités critiques dans les plugins WordPress",
@@ -89,19 +102,6 @@
       "published": "2026-07-16T14:26:42Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-elle-accueillera-wael-jassar-asma-lamnawar-et-une-pl-iade-d-artistes-mekn-s-c-l-bre-le-patrimoin",
-      "title": "Elle accueillera Wael Jassar, Asma Lamnawar et une pléiade d’artistes : Meknès célèbre le patrimoine Aïssaoui et les musiques du monde",
-      "link": "https://aujourdhui.ma/culture/elle-accueillera-wael-jassar-asma-lamnawar-et-une-pleiade-dartistes-meknes-celebre-le-patrimoine-aissaoui-et-les-musiques-du-monde",
-      "description": "Festival Le Festival « Aïssaoua : Maqâms et Rythmes du Monde » aura lieu du 22 au 25 juillet. Il s’articule autour de dix axes et investira dix sites emblématiques de la ville, où seront proposés concerts, rencontres intellectuelles, spectacles patrimoniaux et animations culturelles. La capitale ismaélienne, Meknès, s’apprête à accueillir une nouvelle édition du […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-16T12:30:17Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
