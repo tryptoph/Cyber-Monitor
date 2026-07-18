@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-18T08:11:47Z",
+  "generatedAt": "2026-07-18T13:53:32Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-zagora-l-onssa-alerte-sur-la-prolif-ration-d-une-punaise-phytophage-dans-les-exploitations-agric",
-      "title": "À Zagora, l'ONSSA alerte sur la prolifération d'une punaise phytophage dans les exploitations agricoles",
-      "link": "https://fr.hespress.com/481831-a-zagora-lonssa-alerte-sur-la-proliferation-dune-punaise-phytophage-dans-les-exploitations-agricoles.html",
-      "description": "La prolifération d’une punaise phytophage dans plusieurs exploitations agricoles de la province de Zagora a conduit les services de l’Office national de sécurité sanitaire des produits alimentaires (ONSSA) à renforcer leur dispositif de veille. Dans un bulletin phytosanitaire publié le 14 juillet 2026, l’établissement public détaille l’étendue des observations réalisées sur le terrain et recommande […] The post À Zagora, l'ONSSA alerte sur la prolifération d'une punaise phytophage dans les explo",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-17T22:08:18Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-66561707-26-vuln-rabilit-s-dans-grafana",
       "title": "66561707/26 - Vulnérabilités dans Grafana",
