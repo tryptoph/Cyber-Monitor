@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-17T19:36:16Z",
+  "generatedAt": "2026-07-18T03:37:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-zagora-l-onssa-alerte-sur-la-prolif-ration-d-une-punaise-phytophage-dans-les-exploitations-agric",
+      "title": "À Zagora, l'ONSSA alerte sur la prolifération d'une punaise phytophage dans les exploitations agricoles",
+      "link": "https://fr.hespress.com/481831-a-zagora-lonssa-alerte-sur-la-proliferation-dune-punaise-phytophage-dans-les-exploitations-agricoles.html",
+      "description": "La prolifération d’une punaise phytophage dans plusieurs exploitations agricoles de la province de Zagora a conduit les services de l’Office national de sécurité sanitaire des produits alimentaires (ONSSA) à renforcer leur dispositif de veille. Dans un bulletin phytosanitaire publié le 14 juillet 2026, l’établissement public détaille l’étendue des observations réalisées sur le terrain et recommande […] The post À Zagora, l'ONSSA alerte sur la prolifération d'une punaise phytophage dans les explo",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-17T22:08:18Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-maroc-telecom-lance-la-22-dition-de-son-festival-des-plages-le-plus-grand-rendez-vous-musical-gr",
+      "title": "Maroc Telecom lance la 22ᵉ édition de son Festival des Plages, le plus grand rendez-vous musical gratuit de l’été",
+      "link": "https://fr.hespress.com/481858-maroc-telecom-lance-la-22%e1%b5%89-edition-de-son-festival-des-plages-le-plus-grand-rendez-vous-musical-gratuit-de-lete.html",
+      "description": "Du 20 juillet au 21 août 2026, Maroc Telecom donne le coup d’envoi de la 22ᵉ édition du Festival des Plages, qui animera les villes de M’diq, Tanger, Al Hoceima et Saïdia à travers pas moins de 60 concerts gratuits organisés sur des scènes répondant aux standards internationaux. Fidèle à sa vocation de rendre la […] The post Maroc Telecom lance la 22ᵉ édition de son Festival des Plages, le plus grand rendez-vous musical gratuit de l’été appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-17T21:10:29Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-fraude-financi-re-bank-al-maghrib-renforce-son-dispositif-face-l-essor-des-cyberattaques",
+      "title": "Fraude financière : Bank Al-Maghrib renforce son dispositif face à l'essor des cyberattaques",
+      "link": "https://fr.hespress.com/481807-fraude-financiere-bank-al-maghrib-renforce-son-dispositif-face-a-lessor-des-cyberattaques.html",
+      "description": "À mesure que la numérisation transforme les usages bancaires, les risques liés à la cybercriminalité prennent une ampleur croissante. C’est le constat dressé vendredi à Rabat par le directeur de la supervision bancaire de Bank Al-Maghrib, Nabil Badr, qui a alerté sur la progression des fraudes électroniques et appelé à un renforcement de la coopération […] The post Fraude financière : Bank Al-Maghrib renforce son dispositif face à l'essor des cyberattaques appeared first on Hespress Français - A",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-17T20:31:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66561707-26-vuln-rabilit-s-dans-grafana",
       "title": "66561707/26 - Vulnérabilités dans Grafana",
