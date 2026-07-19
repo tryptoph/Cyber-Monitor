@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-18T19:35:38Z",
+  "generatedAt": "2026-07-19T03:59:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,45 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "مقتل جنديين أمريكيين في الأردن",
-      "link": "https://www.hespress.com/%d9%85%d9%82%d8%aa%d9%84-%d8%ac%d9%86%d8%af%d9%8a%d9%8a%d9%86-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d9%8a%d9%86-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%b1%d8%af%d9%86-1779128.html",
-      "description": "أعلنت القيادة المركزية الأميركية السبت مقتل عنصرين من القوات الأميركية وفقدان آخر جراء ضربات إيرانية على الأردن الجمعة، في خضم تبادل الهجمات بين واشنطن وطهران. وقالت سنتكوم في منشور على منصة إكس، “قُتل اثنان من أفراد الخدمة الأميركيين في الأردن أثناء أداء مهامهما، وذلك خلال تصدي القيادة المركزية الأميركية (سنتكوم) والقوات الشريكة لهجمات شنتها إيران […] The post مقتل جنديين أمريكيين في الأردن appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-18T18:02:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "المرشد الإيراني يتوعد الولايات المتحدة",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%b1%d8%b4%d8%af-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a-%d9%8a%d8%aa%d9%88%d8%b9%d8%af-%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d8%ad-1779123.html",
-      "description": "توعد المرشد الأعلى للجمهورية الإسلامية آية الله مجتبى خامنئي السبت الولايات المتحدة بتلقينها “دروسا لا تُنسى”، معتبرا أن الهجمات التي شنّتها واشنطن تُظهر أن توقيع الرئيس الأميركي دونالد ترامب مذكرة التفاهم لإنهاء الحرب في الشرق الأوسط كان بلا قيمة. وقال خامنئي في رسالة مكتوبة نشرت عبر حساباته على منصات التواصل وتُليت عبر التلفزيون الرسمي، “الآن […] The post المرشد الإيراني يتوعد الولايات المتحدة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-18T17:34:44Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "ياسمين زهير تقوي صف ريال مدريد",
-      "link": "https://www.hespress.com/%d9%8a%d8%a7%d8%b3%d9%85%d9%8a%d9%86-%d8%b2%d9%87%d9%8a%d8%b1-%d8%aa%d9%82%d9%88%d9%8a-%d8%b5%d9%81-%d8%b1%d9%8a%d8%a7%d9%84-%d9%85%d8%af%d8%b1%d9%8a%d8%af-1779064.html",
-      "description": "عزز نادي ريال مدريد الإسباني للسيدات خطه الهجومي بالتعاقد رسميا مع الدولية المغربية ياسمين زهير، بموجب عقد يمتد لموسمين رياضيين حتى صيف 2028، قادمة من تجربة دامت سنتين رفقة نادي ريال بيتيس. وتملك المهاجمة المغربية، البالغة من العمر 21 ربيعا، مسارا كرويا حافلا رغم صغر سنها؛ إذ تقلدت شارة عمادة المنتخب الوطني النسوي لأقل من […] The post ياسمين زهير تقوي صف ريال مدريد appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-18T17:07:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-66561707-26-vuln-rabilit-s-dans-grafana",
       "title": "66561707/26 - Vulnérabilités dans Grafana",
