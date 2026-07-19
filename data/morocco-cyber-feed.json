@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-19T03:59:44Z",
+  "generatedAt": "2026-07-19T08:36:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-apr-s-4-si-cles-de-discorde-la-france-et-les-pays-bas-s-accordent-sur-le-trac-de-leur-fronti-re-",
+      "title": "Après 4 siècles de discorde, la France et les Pays-Bas s’accordent sur le tracé de leur frontière à Saint-Martin",
+      "link": "https://fr.hespress.com/482010-apres-4-siecles-de-discorde-la-france-et-les-pays-bas-saccordent-sur-le-trace-de-leur-frontiere-a-saint-martin.html",
+      "description": "La France et les Pays-Bas ont définitivement réglé un différend frontalier vieux de 378 ans en approuvant un accord fixant avec précision le tracé de leur frontière commune sur l’île caribéenne de Saint-Martin, mettant fin à une incertitude héritée du traité de Concordia signé en 1648. L’accord, signé le 26 mai 2023 à Belle Plaine […] The post Après 4 siècles de discorde, la France et les Pays-Bas s’accordent sur le tracé de leur frontière à Saint-Martin appeared first on Hespress Français - Act",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-19T04:09:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66561707-26-vuln-rabilit-s-dans-grafana",
       "title": "66561707/26 - Vulnérabilités dans Grafana",
