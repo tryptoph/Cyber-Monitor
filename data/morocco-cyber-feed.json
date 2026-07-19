@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-19T08:36:53Z",
+  "generatedAt": "2026-07-19T13:57:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-apr-s-4-si-cles-de-discorde-la-france-et-les-pays-bas-s-accordent-sur-le-trac-de-leur-fronti-re-",
-      "title": "Après 4 siècles de discorde, la France et les Pays-Bas s’accordent sur le tracé de leur frontière à Saint-Martin",
-      "link": "https://fr.hespress.com/482010-apres-4-siecles-de-discorde-la-france-et-les-pays-bas-saccordent-sur-le-trace-de-leur-frontiere-a-saint-martin.html",
-      "description": "La France et les Pays-Bas ont définitivement réglé un différend frontalier vieux de 378 ans en approuvant un accord fixant avec précision le tracé de leur frontière commune sur l’île caribéenne de Saint-Martin, mettant fin à une incertitude héritée du traité de Concordia signé en 1648. L’accord, signé le 26 mai 2023 à Belle Plaine […] The post Après 4 siècles de discorde, la France et les Pays-Bas s’accordent sur le tracé de leur frontière à Saint-Martin appeared first on Hespress Français - Act",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "هجوم لمستوطنين يخلف أضرارًا بمسجد",
+      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%88%d9%85-%d9%84%d9%85%d8%b3%d8%aa%d9%88%d8%b7%d9%86%d9%8a%d9%86-%d9%8a%d8%ae%d9%84%d9%81-%d8%a3%d8%b6%d8%b1%d8%a7%d8%b1%d9%8b%d8%a7-%d8%a8%d9%85%d8%b3%d8%ac%d8%af-1779461.html",
+      "description": "أضرم مستوطنون إسرائيليون، الأحد، النار في مسجد ومنزلين في مسافر يطا بجنوب الضفة الغربية المحتلة، وفق ما أفادت مصادر محلية؛ في حين قالت الشرطة الإسرائيلية إنها تحقق في الحادثة. وقال محمد ربعي، رئيس مجلس قرية التواني، إن أكثر من ثلاثين مستوطنا ملثما هاجموا القرية بعد منتصف الليل وأضرموا النار في مسجد ومنزلين ومصنع ألبان باستخدام […] The post هجوم لمستوطنين يخلف أضرارًا بمسجد appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-07-19T04:09:36Z",
+      "published": "2026-07-19T12:26:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "مقتل خمسين عسكريا في هجوم بمالي",
+      "link": "https://www.hespress.com/%d9%85%d9%82%d8%aa%d9%84-%d8%ae%d9%85%d8%b3%d9%8a%d9%86-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a7-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d9%85%d8%a7%d9%84%d9%8a-1779406.html",
+      "description": "أسفر هجوم شنّه انفصاليون من الطوارق وجهاديون على قافلة للجيش المالي كانت تغادر مدينة النفيس الاستراتيجية في الشمال عن مقتل خمسين عسكريا، حسب ما أفادت مصادر عسكرية ومحلية وكالة فرانس برس الأحد. وهذا الهجوم من بين أكثر الهجمات إيقاعا للقتلى في صفوف الجيش المالي منذ اندلاع النزاع في البلد الواقع في الغرب الإفريقي، قبل 15 […] The post مقتل خمسين عسكريا في هجوم بمالي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-19T11:24:37Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
