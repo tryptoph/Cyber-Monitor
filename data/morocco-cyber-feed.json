@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-20T04:08:41Z",
+  "generatedAt": "2026-07-20T09:38:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "aujourdhui-cybercriminalit-hame-onnage-bank-al-maghrib-et-l-unit-de-renseignement-financier-se-mobilisent",
+      "title": "Cybercriminalité – «Hameçonnage» : Bank Al-Maghrib et l’Unité de renseignement financier se mobilisent",
+      "link": "https://aujourdhui.ma/economie/cybercriminalite-hameconnage-bank-al-maghrib-et-lunite-de-renseignement-financier-se-mobilisent",
+      "description": "Cet atelier s’inscrit dans le cadre des travaux préparatoires à la prochaine évaluation annuelle du Maroc par le Groupe de travail financier pour le Moyen-Orient et l’Afrique du Nord (GAFIMOAN). Finances et banques : Bank Al-Maghrib et l’Autorité nationale du renseignement financier ont conjointement organisé, à Rabat, un atelier national sur la lutte contre l’escroquerie […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-07-20T09:00:35Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-loses-nearly-600-hectares-of-forest-as-wildfires-sweep-three-provinces",
       "title": "Morocco loses nearly 600 hectares of forest as wildfires sweep three provinces",
@@ -102,19 +115,6 @@
       "published": "2026-07-17T19:36:14Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-lutte-contre-l-analphab-tisme-4-048-candidats-aux-examens-certificatifs-azilal",
-      "title": "Lutte contre l’analphabétisme : 4.048 candidats aux examens certificatifs à Azilal",
-      "link": "https://aujourdhui.ma/societe/lutte-contre-lanalphabetisme-4-048-candidats-aux-examens-certificatifs-a-azilal",
-      "description": "Campagne de lecture 2025-2026. L’Agence nationale de lutte contre l’analphabétisme (ANLCA) a organisé, samedi 12 juillet 2026 à Azilal, les examens certificatifs de la campagne de lecture 2025-2026 au profit de 4.048 bénéficiaires. Une opération d’envergure qui reflète les efforts déployés pour renforcer l’accès à l’éducation et promouvoir l’apprentissage tout au long de la vie. […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-17T11:03:52Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
