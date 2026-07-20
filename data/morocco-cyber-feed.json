@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-20T14:35:46Z",
+  "generatedAt": "2026-07-20T19:59:15Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66602007-26-vuln-rabilit-s-critiques-dans-vmware-avi-load-balancer",
+      "title": "66602007/26 - Vulnérabilités critiques dans VMware Avi Load Balancer",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-vmware-avi-load-balancer",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-20T19:59:15Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66592007-26-vuln-rabilit-critique-dans-7-zip",
+      "title": "66592007/26 - Vulnérabilité critique dans 7-Zip",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-7-zip",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-20T19:59:15Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-le-sgg-pr-pare-un-guide-pour-harmoniser-l-laboration-des-lois-et-r-glements",
+      "title": "Le SGG prépare un guide pour harmoniser l'élaboration des lois et règlements",
+      "link": "https://fr.hespress.com/482053-le-sgg-prepare-un-guide-pour-harmoniser-lelaboration-des-lois-et-reglements.html",
+      "description": "Le Secrétariat général du gouvernement (SGG) s’apprête à doter l’administration d’un cadre de référence inédit pour la préparation des projets de loi et des textes réglementaires. Présenté aux représentants des différents départements ministériels, le futur Guide des procédures législatives et réglementaires entend harmoniser les méthodes de travail, améliorer la qualité normative et renforcer la sécurité […] The post Le SGG prépare un guide pour harmoniser l'élaboration des lois et règlements a",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-20T17:16:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-kayouh-le-maroc-place-la-s-curit-routi-re-au-c-ur-de-ses-efforts-de-d-veloppement-durable",
+      "title": "Kayouh : Le Maroc place la sécurité routière au cœur de ses efforts de développement durable",
+      "link": "https://fr.hespress.com/482205-kayouh-le-maroc-place-la-securite-routiere-au-coeur-de-ses-efforts-de-developpement-durable.html",
+      "description": "Le Maroc a placé la sécurité routière au cœur de ses efforts de développement durable, a souligné lundi au siège des Nations unies le ministre du Transport et de la Logistique, Abdessamad Kayouh. “Le Maroc a fait de la sécurité routière un élément important de ses efforts de développement durable”, a déclaré le ministe lors […] The post Kayouh : Le Maroc place la sécurité routière au cœur de ses efforts de développement durable appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-20T15:49:47Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66582007-26-vuln-rabilit-s-dans-notepad",
       "title": "66582007/26 - Vulnérabilités dans Notepad++",
@@ -40,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "الكويت تعلن التصدي لهجمات إيرانية",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa-%d8%aa%d8%b9%d9%84%d9%86-%d8%a7%d9%84%d8%aa%d8%b5%d8%af%d9%8a-%d9%84%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-1779994.html",
-      "description": "أعلن الجيش الكويتي الاثنين بأن دفاعاته الجوية تتصدى لهجمات إيرانية بالصواريخ والمسيّرات، فيما أكد مراسل فرانس برس سماع دوي انفجارات في مدينة الكويت. وأفاد بيان لرئاسة الأركان العامة للجيش “تتصدى حاليا الدفاعات الجوية الكويتية لهجمات صاروخية وطائرات مسيرة معادية، إثر العدوان الإيراني الاثم”، مضيفا أن “أصوات الانفجارات إن سمعت فهي نتيجة اعتراض منظومات الدفاع الجوي […] The post الكويت تعلن التصدي لهجمات إيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-20T14:05:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "aujourdhui-festival-des-plages-de-maroc-telecom-coup-d-envoi-de-la-22-me-dition",
       "title": "Festival des Plages de Maroc telecom : Coup d’envoi de la 22ème édition",
       "link": "https://aujourdhui.ma/culture/festival-des-plages-de-maroc-telecom-coup-denvoi-de-la-22eme-edition",
@@ -61,19 +100,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-07-20T13:00:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-west-african-leaders-rally-behind-morocco-nigeria-gas-pipeline-as-construction-funding-remains-o",
-      "title": "West African leaders rally behind Morocco-Nigeria gas pipeline as construction funding remains open",
-      "link": "https://en.hespress.com/142234-west-african-leaders-rally-behind-morocco-nigeria-gas-pipeline-as-construction-funding-remains-open.html",
-      "description": "West African leaders rallied behind the planned Nigeria-Morocco gas pipeline on Sunday, casting it as a regional industrialization and energy-security corridor after ECOWAS states signed an intergovernmental agreement in Freetown, according to statements carried by Morocco’s MAP news agency on July 19 and 20. Liberian President Joseph Boakai called the project a “major advance” for […] The post West African leaders rally behind Morocco-Nigeria gas pipeline as construction funding remains open ap",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-20T12:03:56Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -251,32 +277,6 @@
       "id": "dgssi-66431507-26-vuln-rabilit-s-dans-apache-tomcat",
       "title": "66431507/26 - Vulnérabilités dans Apache Tomcat",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-apache-tomcat-4",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-15T14:14:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66421507-26-vuln-rabilit-s-critiques-affectant-les-produits-fotrinet",
-      "title": "66421507/26 - Vulnérabilités critiques affectant les produits Fotrinet",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-les-produits-fotrinet-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-15T14:14:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66411507-26-vuln-rabilit-s-critiques-dans-plusieurs-produits-microsoft-patch-juillet",
-      "title": "66411507/26 - Vulnérabilités critiques dans plusieurs produits Microsoft (Patch Juillet…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-plusieurs-produits-microsoft-patch-juillet-2026",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
