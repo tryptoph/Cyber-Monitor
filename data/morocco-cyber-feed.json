@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-19T19:36:14Z",
+  "generatedAt": "2026-07-20T04:08:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-loses-nearly-600-hectares-of-forest-as-wildfires-sweep-three-provinces",
+      "title": "Morocco loses nearly 600 hectares of forest as wildfires sweep three provinces",
+      "link": "https://en.hespress.com/142218-morocco-loses-nearly-600-hectares-of-forest-as-wildfires-sweep-three-provinces.html",
+      "description": "Morocco has lost nearly 600 hectares of forest after wildfires swept through parts of Taroudant, Beni Mellal and Azilal over the past three days, according to official figures. The blazes destroyed a combined 598 hectares, triggering a large-scale response involving more than 1,180 firefighters, forest officials, security personnel, soldiers and local volunteers. Eight Canadair firefighting […] The post Morocco loses nearly 600 hectares of forest as wildfires sweep three provinces appeared first",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-19T23:00:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-israelis-march-to-gaza-border-demanding-re-establishment-of-settlements",
+      "title": "Israelis march to Gaza border demanding re-establishment of settlements",
+      "link": "https://en.hespress.com/142216-israelis-march-to-gaza-border-demanding-re-establishment-of-settlements.html",
+      "description": "Thousands of Israelis, including settlers and right-wing activists, marched towards the border with Gaza on Sunday, calling on the government to re-establish Israeli settlements in the war-shattered Palestinian territory, an AFP journalist reported. The demonstrators gathered near the border before walking in large numbers towards the fence overlooking northern Gaza, where Israeli security forces deployed […] The post Israelis march to Gaza border demanding re-establishment of settlements appear",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-19T20:49:26Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66561707-26-vuln-rabilit-s-dans-grafana",
       "title": "66561707/26 - Vulnérabilités dans Grafana",
