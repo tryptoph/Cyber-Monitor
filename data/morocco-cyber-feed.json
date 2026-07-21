@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-21T09:04:28Z",
+  "generatedAt": "2026-07-21T14:27:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66632107-26-vuln-rabilit-s-dans-github-enterprise-server",
+      "title": "66632107/26 - Vulnérabilités dans GitHub Enterprise Server",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-github-enterprise-server",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-21T14:27:08Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-s-curit-maritime-rabat-accueille-le-sommet-des-forces-maritimes-africaines",
+      "title": "Sécurité maritime : Rabat accueille le Sommet des Forces maritimes africaines",
+      "link": "https://www.lavieeco.com/pouvoirs/securite/securite-maritime-rabat-accueille-le-sommet-des-forces-maritimes-africaines/",
+      "description": "Cet évènement constitue un cadre privilégié d'échanges consacré aux enjeux de la sécurité maritime et au renforcement de la coopération régionale entre les responsables africains et leurs homologues américains. L’article Sécurité maritime : Rabat accueille le Sommet des Forces maritimes africaines est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-07-21T12:37:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-pitches-us-backed-tan-tan-training-hub-to-african-navies",
+      "title": "Morocco pitches US-backed Tan-Tan training hub to African navies",
+      "link": "https://en.hespress.com/142328-morocco-pitches-us-backed-tan-tan-training-hub-to-african-navies.html",
+      "description": "Morocco used the opening of an international naval summit in Rabat on Tuesday to promote plans for a permanent African military training and technology centre, extending its security partnership with the United States beyond recurring exercises, according to remarks reported by Hespress on July 21. The fourth African Maritime Forces Summit gathered naval officials from […] The post Morocco pitches US-backed Tan-Tan training hub to African navies appeared first on HESPRESS English - Morocco News ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-21T12:20:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-africa-surpasses-asia-with-highest-population-facing-hunger-un",
+      "title": "Africa surpasses Asia with highest population facing hunger: UN",
+      "link": "https://en.hespress.com/142321-africa-surpasses-asia-with-highest-population-facing-hunger-un.html",
+      "description": "Africa has for the first time become the continent with the largest number of people facing hunger, a UN report said Tuesday, as a growing number of Africans have faced undernourishment. The UN’s annual report on food security and nutrition found that there has been gradual improvement towards reducing hunger overall in recent years, but […] The post Africa surpasses Asia with highest population facing hunger: UN appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-21T10:13:59Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66622107-26-vuln-rabilit-critique-dans-zimbra-collaboration-suite",
       "title": "66622107/26 - Vulnérabilité critique dans Zimbra Collaboration Suite",
@@ -92,14 +144,14 @@
       "type": "news"
     },
     {
-      "id": "aujourdhui-festival-des-plages-de-maroc-telecom-coup-d-envoi-de-la-22-me-dition",
-      "title": "Festival des Plages de Maroc telecom : Coup d’envoi de la 22ème édition",
-      "link": "https://aujourdhui.ma/culture/festival-des-plages-de-maroc-telecom-coup-denvoi-de-la-22eme-edition",
-      "description": "Concerts Maroc Telecom lance la 22ème édition de son Festival des Plages, le plus grand rendez-vous musical gratuit de l’été. Il propose une programmation variée alliant Hip-hop, rap, Aïta, Chaâbi, chanson marocaine contemporaine, Raï, Reggada, pop arabe et variété levantine. Du 20 juillet au 21 août 2026, l’opérateur de télécommunication Maroc Telecom donne le coup […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
+      "id": "lavieeco-alerte-m-t-o-vague-de-chaleur-et-temps-chaud-de-lundi-jeudi-dans-plusieurs-provinces",
+      "title": "Alerte météo: Vague de chaleur et temps chaud de lundi à jeudi dans plusieurs provinces",
+      "link": "https://www.lavieeco.com/influences/climat/alerte-meteo-vague-de-chaleur-et-temps-chaud-de-lundi-a-jeudi-dans-plusieurs-provinces/",
+      "description": "Dans un bulletin d'alerte météorologique de niveau de vigilance orange, la DGM annonce un temps caniculaire. Des températures pouvant atteindre 47° sont prévues dans certaines provinces. L’article Alerte météo: Vague de chaleur et temps chaud de lundi à jeudi dans plusieurs provinces est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
       "category": "morocco",
-      "published": "2026-07-20T13:00:28Z",
+      "published": "2026-07-20T11:57:01Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -243,19 +295,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-07-16T14:26:42Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66451507-26-vuln-rabilit-affectant-veeam-software-appliance-updater-component",
-      "title": "66451507/26 - Vulnérabilité affectant Veeam Software Appliance Updater Component",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-veeam-software-appliance-updater-component",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-15T19:39:38Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
