@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-21T14:27:11Z",
+  "generatedAt": "2026-07-21T19:55:40Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66652107-26-vuln-rabilit-s-affectant-le-noyau-d-ubuntu",
+      "title": "66652107/26 - Vulnérabilités affectant le noyau d’Ubuntu",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-noyau-dubuntu-4",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-21T19:55:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66642107-26-vuln-rabilit-critique-dans-servicenow-ai-platform",
+      "title": "66642107/26 - Vulnérabilité critique dans ServiceNow AI Platform",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-servicenow-ai-platform",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-21T19:55:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-french-justice-minister-credits-morocco-for-arrests-of-16-alleged-criminals",
+      "title": "French Justice Minister credits Morocco for arrests of 16 alleged criminals",
+      "link": "https://en.hespress.com/142363-french-justice-minister-credits-morocco-for-arrests-of-16-alleged-criminals.html",
+      "description": "French Justice Minister Gérald Darmanin praised Moroccan authorities after the arrest of 16 suspects wanted by French law enforcement in connection with organized crime investigations. In a statement published on X, Darmanin described the operation as a major success made possible by strengthened judicial and security cooperation between France and Morocco. The arrests targeted individuals […] The post French Justice Minister credits Morocco for arrests of 16 alleged criminals appeared first on ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-21T19:33:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-portugal-seek-eu-funding-for-electricity-link-between-europe-and-africa",
+      "title": "Morocco, Portugal seek EU funding for electricity link between Europe and Africa",
+      "link": "https://en.hespress.com/142344-morocco-portugal-seek-eu-funding-for-electricity-link-between-europe-and-africa.html",
+      "description": "Morocco and Portugal agreed to seek European Union support for a strategic electricity interconnection project that aims to secure EU funding while exploring private investments to ensure energy security and to strengthen energy ties between Europe and Africa. The announcement comes after a meeting in Lisbon between Morocco’s Minister of Energy Transition and Sustainable Development, […] The post Morocco, Portugal seek EU funding for electricity link between Europe and Africa appeared first on H",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-21T17:30:58Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-un-2-5-million-moroccans-undernourished-4-8-million-unable-to-afford-a-healthy-diet",
+      "title": "UN: 2.5 million Moroccans undernourished; 4.8 million unable to afford a healthy diet",
+      "link": "https://en.hespress.com/142343-un-2-5-million-moroccans-undernourished-4-8-million-unable-to-afford-a-healthy-diet.html",
+      "description": "Around 4.8 million Moroccans couldn’t afford a healthy diet in 2025, even as Morocco remained the least expensive country in North Africa for healthy eating, according to the latest State of Food Security and Nutrition in the World report. Published jointly by the Food and Agriculture Organization (FAO), the International Fund for Agricultural Development (IFAD), […] The post UN: 2.5 million Moroccans undernourished; 4.8 million unable to afford a healthy diet appeared first on HESPRESS English ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-21T16:02:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66632107-26-vuln-rabilit-s-dans-github-enterprise-server",
       "title": "66632107/26 - Vulnérabilités dans GitHub Enterprise Server",
@@ -35,32 +100,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-21T12:37:08Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-pitches-us-backed-tan-tan-training-hub-to-african-navies",
-      "title": "Morocco pitches US-backed Tan-Tan training hub to African navies",
-      "link": "https://en.hespress.com/142328-morocco-pitches-us-backed-tan-tan-training-hub-to-african-navies.html",
-      "description": "Morocco used the opening of an international naval summit in Rabat on Tuesday to promote plans for a permanent African military training and technology centre, extending its security partnership with the United States beyond recurring exercises, according to remarks reported by Hespress on July 21. The fourth African Maritime Forces Summit gathered naval officials from […] The post Morocco pitches US-backed Tan-Tan training hub to African navies appeared first on HESPRESS English - Morocco News ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-21T12:20:17Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-africa-surpasses-asia-with-highest-population-facing-hunger-un",
-      "title": "Africa surpasses Asia with highest population facing hunger: UN",
-      "link": "https://en.hespress.com/142321-africa-surpasses-asia-with-highest-population-facing-hunger-un.html",
-      "description": "Africa has for the first time become the continent with the largest number of people facing hunger, a UN report said Tuesday, as a growing number of Africans have faced undernourishment. The UN’s annual report on food security and nutrition found that there has been gradual improvement towards reducing hunger overall in recent years, but […] The post Africa surpasses Asia with highest population facing hunger: UN appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-21T10:13:59Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -141,19 +180,6 @@
       "published": "2026-07-20T14:35:45Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-alerte-m-t-o-vague-de-chaleur-et-temps-chaud-de-lundi-jeudi-dans-plusieurs-provinces",
-      "title": "Alerte météo: Vague de chaleur et temps chaud de lundi à jeudi dans plusieurs provinces",
-      "link": "https://www.lavieeco.com/influences/climat/alerte-meteo-vague-de-chaleur-et-temps-chaud-de-lundi-a-jeudi-dans-plusieurs-provinces/",
-      "description": "Dans un bulletin d'alerte météorologique de niveau de vigilance orange, la DGM annonce un temps caniculaire. Des températures pouvant atteindre 47° sont prévues dans certaines provinces. L’article Alerte météo: Vague de chaleur et temps chaud de lundi à jeudi dans plusieurs provinces est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-07-20T11:57:01Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -264,32 +290,6 @@
       "id": "dgssi-66481607-26-vuln-rabilit-s-critiques-dans-les-produits-f5",
       "title": "66481607/26 - Vulnérabilités critiques dans les produits F5",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-f5-3",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-16T14:26:42Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66471607-26-vuln-rabilit-s-critiques-dans-google-chrome",
-      "title": "66471607/26 - Vulnérabilités critiques dans Google Chrome",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-google-chrome-14",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-16T14:26:42Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66461607-26-vuln-rabilit-s-critiques-dans-les-produits-zoom",
-      "title": "66461607/26 - Vulnérabilités critiques dans les produits Zoom",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-zoom",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
