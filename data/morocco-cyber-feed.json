@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-20T19:59:15Z",
+  "generatedAt": "2026-07-21T03:50:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "\"هجوم على الحدود\" .. لحجمري يسائل اللغة والهوية في تجربة سليماني",
+      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%88%d9%85-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ad%d8%af%d9%88%d8%af-%d9%84%d8%ad%d8%ac%d9%85%d8%b1%d9%8a-%d9%8a%d8%b3%d8%a7%d8%a6%d9%84-%d8%a7%d9%84%d9%84%d8%ba%d8%a9-%d9%88%d8%a7-1779236.html",
+      "description": "يتناول الأكاديمي عبد الفتاح لحجمري، العلاقة المعقدة بين اللغة والهوية والانتماء من خلال قراءة في كتاب “هجوم على الحدود” للكاتبة الفرنسية المغربية ليلى سليماني. ويتوقف لحجمري في مقال بعنوان “محكمة اللغات” عند الكيفية التي تتحول بها اللغة من أداة للتواصل إلى معيار للاعتراف الاجتماعي، ورمز للذاكرة، وساحة تتقاطع فيها أسئلة الاستعمار، والهجرة، والاندماج، والسلطة، مستعرضًا […] The post \"هجوم على الحدود\" .. لحجمري يسائل اللغة والهوية في تجربة سليماني appeared first on Hespress - هسبريس جريدة إلكترونية ",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-21T03:00:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66602007-26-vuln-rabilit-s-critiques-dans-vmware-avi-load-balancer",
       "title": "66602007/26 - Vulnérabilités critiques dans VMware Avi Load Balancer",
@@ -37,32 +50,6 @@
       "published": "2026-07-20T19:59:15Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-sgg-pr-pare-un-guide-pour-harmoniser-l-laboration-des-lois-et-r-glements",
-      "title": "Le SGG prépare un guide pour harmoniser l'élaboration des lois et règlements",
-      "link": "https://fr.hespress.com/482053-le-sgg-prepare-un-guide-pour-harmoniser-lelaboration-des-lois-et-reglements.html",
-      "description": "Le Secrétariat général du gouvernement (SGG) s’apprête à doter l’administration d’un cadre de référence inédit pour la préparation des projets de loi et des textes réglementaires. Présenté aux représentants des différents départements ministériels, le futur Guide des procédures législatives et réglementaires entend harmoniser les méthodes de travail, améliorer la qualité normative et renforcer la sécurité […] The post Le SGG prépare un guide pour harmoniser l'élaboration des lois et règlements a",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-20T17:16:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-kayouh-le-maroc-place-la-s-curit-routi-re-au-c-ur-de-ses-efforts-de-d-veloppement-durable",
-      "title": "Kayouh : Le Maroc place la sécurité routière au cœur de ses efforts de développement durable",
-      "link": "https://fr.hespress.com/482205-kayouh-le-maroc-place-la-securite-routiere-au-coeur-de-ses-efforts-de-developpement-durable.html",
-      "description": "Le Maroc a placé la sécurité routière au cœur de ses efforts de développement durable, a souligné lundi au siège des Nations unies le ministre du Transport et de la Logistique, Abdessamad Kayouh. “Le Maroc a fait de la sécurité routière un élément important de ses efforts de développement durable”, a déclaré le ministe lors […] The post Kayouh : Le Maroc place la sécurité routière au cœur de ses efforts de développement durable appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-20T15:49:47Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
