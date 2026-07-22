@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-21T19:55:40Z",
+  "generatedAt": "2026-07-22T03:51:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-marrakech-police-arrest-unlicensed-guide-for-extorting-and-assaulting-tourist",
+      "title": "Marrakech police arrest unlicensed guide for extorting and assaulting tourist",
+      "link": "https://en.hespress.com/142375-marrakech-police-arrest-unlicensed-guide-for-extorting-and-assaulting-tourist.html",
+      "description": "Police in Marrakech’s old medina arrested a man on Monday evening for allegedly extorting and physically assaulting a foreign tourist. The swift security intervention was triggered by a video posted online by the victim, which documented the suspect—who has a prior criminal record for operating as an unlicensed tour guide—demanding a sum of money for […] The post Marrakech police arrest unlicensed guide for extorting and assaulting tourist appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-21T23:19:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cps-de-l-ua-le-maroc-souligne-l-importance-d-une-approche-multidimensionnelle-dans-la-lutte-cont",
+      "title": "CPS de l’UA : le Maroc souligne l’importance d’une approche multidimensionnelle dans la lutte contre le terrorisme en Afrique",
+      "link": "https://fr.hespress.com/482309-cps-de-lua-le-maroc-souligne-limportance-dune-approche-multidimensionnelle-dans-la-lutte-contre-le-terrorisme-en-afrique.html",
+      "description": "Le Maroc a souligné, mardi devant le Conseil de Paix et de Sécurité de l’Union Africaine (CPS de l’UA), l’importance d’une approche multidimensionnelle dans la lutte contre le terrorisme en Afrique. Intervenant au nom du Ministre des Affaires étrangères, de la Coopération africaine et des Marocains résidant à l’étranger, Nasser Bourita, lors de la réunion […] The post CPS de l’UA : le Maroc souligne l’importance d’une approche multidimensionnelle dans la lutte contre le terrorisme en Afrique app",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-21T21:10:58Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66652107-26-vuln-rabilit-s-affectant-le-noyau-d-ubuntu",
       "title": "66652107/26 - Vulnérabilités affectant le noyau d’Ubuntu",
@@ -48,32 +74,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-21T19:33:44Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-portugal-seek-eu-funding-for-electricity-link-between-europe-and-africa",
-      "title": "Morocco, Portugal seek EU funding for electricity link between Europe and Africa",
-      "link": "https://en.hespress.com/142344-morocco-portugal-seek-eu-funding-for-electricity-link-between-europe-and-africa.html",
-      "description": "Morocco and Portugal agreed to seek European Union support for a strategic electricity interconnection project that aims to secure EU funding while exploring private investments to ensure energy security and to strengthen energy ties between Europe and Africa. The announcement comes after a meeting in Lisbon between Morocco’s Minister of Energy Transition and Sustainable Development, […] The post Morocco, Portugal seek EU funding for electricity link between Europe and Africa appeared first on H",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-21T17:30:58Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-2-5-million-moroccans-undernourished-4-8-million-unable-to-afford-a-healthy-diet",
-      "title": "UN: 2.5 million Moroccans undernourished; 4.8 million unable to afford a healthy diet",
-      "link": "https://en.hespress.com/142343-un-2-5-million-moroccans-undernourished-4-8-million-unable-to-afford-a-healthy-diet.html",
-      "description": "Around 4.8 million Moroccans couldn’t afford a healthy diet in 2025, even as Morocco remained the least expensive country in North Africa for healthy eating, according to the latest State of Food Security and Nutrition in the World report. Published jointly by the Food and Agriculture Organization (FAO), the International Fund for Agricultural Development (IFAD), […] The post UN: 2.5 million Moroccans undernourished; 4.8 million unable to afford a healthy diet appeared first on HESPRESS English ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-21T16:02:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
