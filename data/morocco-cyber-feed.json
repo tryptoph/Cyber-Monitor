@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-22T03:51:41Z",
+  "generatedAt": "2026-07-22T08:47:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-21T23:19:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cps-de-l-ua-le-maroc-souligne-l-importance-d-une-approche-multidimensionnelle-dans-la-lutte-cont",
-      "title": "CPS de l’UA : le Maroc souligne l’importance d’une approche multidimensionnelle dans la lutte contre le terrorisme en Afrique",
-      "link": "https://fr.hespress.com/482309-cps-de-lua-le-maroc-souligne-limportance-dune-approche-multidimensionnelle-dans-la-lutte-contre-le-terrorisme-en-afrique.html",
-      "description": "Le Maroc a souligné, mardi devant le Conseil de Paix et de Sécurité de l’Union Africaine (CPS de l’UA), l’importance d’une approche multidimensionnelle dans la lutte contre le terrorisme en Afrique. Intervenant au nom du Ministre des Affaires étrangères, de la Coopération africaine et des Marocains résidant à l’étranger, Nasser Bourita, lors de la réunion […] The post CPS de l’UA : le Maroc souligne l’importance d’une approche multidimensionnelle dans la lutte contre le terrorisme en Afrique app",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-21T21:10:58Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
