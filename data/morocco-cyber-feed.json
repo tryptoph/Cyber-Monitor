@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-22T14:28:13Z",
+  "generatedAt": "2026-07-22T19:48:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66742207-26-vuln-rabilit-s-critiques-dans-tenable-security-center",
+      "title": "66742207/26 - Vulnérabilités critiques dans Tenable Security Center",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-tenable-security-center",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-22T19:48:12Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66732207-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
+      "title": "66732207/26 - Vulnérabilités critiques dans les plugins WordPress",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-10",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-22T19:48:12Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66722207-26-vuln-rabilit-s-critiques-affectant-le-navigateur-mozilla-firefox",
+      "title": "66722207/26 - Vulnérabilités critiques affectant le navigateur Mozilla Firefox",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-le-navigateur-mozilla-firefox",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-22T19:48:12Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-66712207-26-vuln-rabilit-s-critiques-dans-les-produits-atlassian",
+      "title": "66712207/26 - Vulnérabilités critiques dans les produits Atlassian",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-atlassian-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-22T19:48:12Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "توصية بتجنّب التحليق فوق الأردن",
+      "link": "https://www.hespress.com/%d8%aa%d9%88%d8%b5%d9%8a%d8%a9-%d8%a8%d8%aa%d8%ac%d9%86%d9%91%d8%a8-%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%82-%d9%81%d9%88%d9%82-%d8%a7%d9%84%d8%a3%d8%b1%d8%af%d9%86-1781090.html",
+      "description": "نصحت هيئة سلامة الطيران التابعة للاتحاد الأوروبي شركات النقل الجوي الأربعاء بعدم التحليق فوق الأردن الذي يتعرض لهجمات من إيران في خضم حربها مع الولايات المتحدة. وذكرت الهيئة في مذكرة وجهتها إلى شركات الطيران أن “الهجمات الصاروخية الإيرانية المتكررة، وهجمات الطائرات المسيّرة بدرجة أقل، على مواقع في الأردن، فضلا عن تفعيل أنظمة الدفاع الجوي، تحدث […] The post توصية بتجنّب التحليق فوق الأردن appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-22T16:19:18Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66702207-26-vuln-rabilit-s-dans-les-produits-apache",
       "title": "66702207/26 - Vulnérabilités dans les produits Apache",
@@ -100,19 +165,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-22T12:45:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-openai-fait-tat-d-un-piratage-sans-pr-c-dent-d-une-plateforme-par-ses-agents-d-ia",
-      "title": "OpenAI fait état d'un piratage \"sans précédent\" d'une plateforme par ses agents d'IA",
-      "link": "https://fr.hespress.com/482440-openai-fait-etat-dun-piratage-sans-precedent-dune-plateforme-par-ses-agents-dia.html",
-      "description": "Des modèles avancés d’intelligence artificielle d’OpenAI auraient réussi à contourner les restrictions d’un environnement de test avant de mener, de manière autonome, une intrusion contre la plateforme Hugging Face. L’entreprise américaine évoque un incident inédit, survenu dans le cadre d’évaluations destinées à mesurer les capacités de ses systèmes en matière de cybersécurité. Selon les éléments […] The post OpenAI fait état d'un piratage \"sans précédent\" d'une plateforme par ses agents d'IA a",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-22T12:11:33Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -269,58 +321,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-07-20T14:35:45Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66561707-26-vuln-rabilit-s-dans-grafana",
-      "title": "66561707/26 - Vulnérabilités dans Grafana",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-grafana",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-17T19:36:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66551707-26-vuln-rabilit-s-dans-jupyter-enterprise-gateway",
-      "title": "66551707/26 - Vulnérabilités dans Jupyter Enterprise Gateway",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-jupyter-enterprise-gateway",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-17T19:36:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66541707-26-groupe-cybercriminel-qilin",
-      "title": "66541707/26 - Groupe cybercriminel “ Qilin ”",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/groupe-cybercriminel-qilin",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-17T19:36:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66531707-26-vuln-rabilit-s-dans-le-cms-drupal",
-      "title": "66531707/26 - Vulnérabilités dans le CMS Drupal",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-le-cms-drupal-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-17T19:36:14Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
