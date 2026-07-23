@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-23T03:49:04Z",
+  "generatedAt": "2026-07-23T08:47:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-ar-item",
+      "title": "اتفاق نووي أميركي سعودي يثير انتقادات",
+      "link": "https://www.hespress.com/%d8%a7%d8%aa%d9%81%d8%a7%d9%82-%d9%86%d9%88%d9%88%d9%8a-%d8%a3%d9%85%d9%8a%d8%b1%d9%83%d9%8a-%d8%b3%d8%b9%d9%88%d8%af%d9%8a-%d9%8a%d8%ab%d9%8a%d8%b1-%d8%a7%d9%86%d8%aa%d9%82%d8%a7%d8%af%d8%a7%d8%aa-1781294.html",
+      "description": "أعلنت الولايات المتحدة، الأربعاء، توصّلها إلى اتفاق “تاريخي” للتعاون النووي المدني مع السعودية، مؤكدة أنه مرفق باتفاق ضمانات لمنع الانتشار النووي. وجاءت هذه الخطوة في وقت استأنفت الولايات المتحدة وإيران الأعمال العدائية التي اندلعت بهجوم أميركي إسرائيلي على إيران في 28 فبراير، بينما كانت واشنطن تخوض مفاوضات مع طهران تطالب فيها بأن تسلّم الجمهورية الإسلامية […] The post اتفاق نووي أميركي سعودي يثير انتقادات appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-23T08:10:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-moroccan-authorities-open-investigation-into-alleged-leaks-in-medical-school-entrance-exam",
       "title": "Moroccan authorities open investigation into alleged leaks in medical school entrance exam",
       "link": "https://en.hespress.com/142435-moroccan-authorities-open-investigation-into-alleged-leaks-in-medical-school-entrance-exam.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-22T22:43:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cybers-curit-cryptoactifs-climat-comment-bam-redessine-la-supervision-bancaire",
-      "title": "Cybersécurité, cryptoactifs, climat… comment BAM redessine la supervision bancaire",
-      "link": "https://fr.hespress.com/482443-cybersecurite-cryptoactifs-climat-comment-bam-redessine-la-supervision-bancaire.html",
-      "description": "Le rapport annuel 2025 sur la supervision bancaire montre que la mission de Bank Al-Maghrib dépasse désormais largement le contrôle des ratios financiers. Face à l’essor des technologies, aux risques climatiques et aux nouvelles formes de criminalité financière, la Banque centrale élargit son champ d’action et prépare le secteur bancaire à une nouvelle génération de […] The post Cybersécurité, cryptoactifs, climat… comment BAM redessine la supervision bancaire appeared first on Hespress Français",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-22T20:15:16Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
