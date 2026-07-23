@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-23T14:36:37Z",
+  "generatedAt": "2026-07-23T19:49:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-d-cisions-de-justice-le-m-diateur-d-nonce-des-pratiques-qui-fragilisent-l-tat-de-droit",
+      "title": "Décisions de justice : le Médiateur dénonce des pratiques qui fragilisent l'État de droit",
+      "link": "https://fr.hespress.com/482622-decisions-de-justice-le-mediateur-denonce-des-pratiques-qui-fragilisent-letat-de-droit.html",
+      "description": "Dans son rapport annuel 2025, remis au Roi Mohammed VI, l’Institution du Médiateur du Royaume alerte sur les retards et les refus persistants de certaines administrations à exécuter des décisions de justice définitives. Elle estime que ces pratiques fragilisent l’État de droit, portent atteinte à la sécurité juridique et privent des citoyens de droits pourtant […] The post Décisions de justice : le Médiateur dénonce des pratiques qui fragilisent l'État de droit appeared first on Hespress Françai",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-23T19:35:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mondial-2026-malgr-les-assurances-de-la-fifa-un-rapport-rel-ve-sept-cas-suspects-de-possible-man",
+      "title": "Mondial 2026 : malgré les assurances de la FIFA, un rapport relève sept cas suspects de possible manipulation",
+      "link": "https://fr.hespress.com/482635-mondial-2026-malgre-les-assurances-de-la-fifa-un-rapport-releve-sept-cas-suspects-de-possible-manipulation.html",
+      "description": "Alors que la FIFA assurait n’avoir détecté aucune activité de paris suspecte ni aucun indice de manipulation durant la Coupe du monde 2026, les conclusions d’un dispositif international de surveillance viennent nuancer cette affirmation. Le Groupe de Copenhague aurait en effet identifié sept alertes liées à de potentielles irrégularités au cours du tournoi, dont certaines […] The post Mondial 2026 : malgré les assurances de la FIFA, un rapport relève sept cas suspects de possible manipulation ap",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-23T18:40:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66802307-26-vuln-rabilit-critiques-dans-exim",
       "title": "66802307/26 - Vulnérabilité critiques dans Exim",
@@ -256,19 +282,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-22T12:45:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-agriculture-el-bouari-appelle-l-inra-d-velopper-des-solutions-scientifiques-adapt-es",
-      "title": "Agriculture : El Bouari appelle l’INRA à développer des solutions scientifiques adaptées",
-      "link": "https://www.lavieeco.com/au-royaume/agriculture-el-bouari-appelle-linra-a-developper-des-solutions-scientifiques-adaptees/",
-      "description": "Le ministre de l'Agriculture, de la Pêche maritime, du Développement rural et des Eaux et Forêts, a souligné le rôle central de la recherche agronomique et de l’innovation dans le renforcement de la sécurité alimentaire, l’amélioration de la résilience du secteur agricole et l’adaptation aux changements climatiques. L’article Agriculture : El Bouari appelle l’INRA à développer des solutions scientifiques adaptées est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-07-22T11:53:11Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
