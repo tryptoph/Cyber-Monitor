@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-22T19:48:17Z",
+  "generatedAt": "2026-07-23T03:49:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-moroccan-authorities-open-investigation-into-alleged-leaks-in-medical-school-entrance-exam",
+      "title": "Moroccan authorities open investigation into alleged leaks in medical school entrance exam",
+      "link": "https://en.hespress.com/142435-moroccan-authorities-open-investigation-into-alleged-leaks-in-medical-school-entrance-exam.html",
+      "description": "Morocco’s Ministry of Higher Education, Scientific Research and Innovation announced that the competent judicial authorities have opened an investigation into allegations that some candidates were provided with answers during this year’s medical school entrance examination. In a statement received by Hespress, the ministry said the move comes in response to the circulation of an audio-visual […] The post Moroccan authorities open investigation into alleged leaks in medical school entrance exam a",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-22T22:43:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cybers-curit-cryptoactifs-climat-comment-bam-redessine-la-supervision-bancaire",
+      "title": "Cybersécurité, cryptoactifs, climat… comment BAM redessine la supervision bancaire",
+      "link": "https://fr.hespress.com/482443-cybersecurite-cryptoactifs-climat-comment-bam-redessine-la-supervision-bancaire.html",
+      "description": "Le rapport annuel 2025 sur la supervision bancaire montre que la mission de Bank Al-Maghrib dépasse désormais largement le contrôle des ratios financiers. Face à l’essor des technologies, aux risques climatiques et aux nouvelles formes de criminalité financière, la Banque centrale élargit son champ d’action et prépare le secteur bancaire à une nouvelle génération de […] The post Cybersécurité, cryptoactifs, climat… comment BAM redessine la supervision bancaire appeared first on Hespress Français",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-22T20:15:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66742207-26-vuln-rabilit-s-critiques-dans-tenable-security-center",
       "title": "66742207/26 - Vulnérabilités critiques dans Tenable Security Center",
@@ -63,19 +89,6 @@
       "published": "2026-07-22T19:48:12Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "توصية بتجنّب التحليق فوق الأردن",
-      "link": "https://www.hespress.com/%d8%aa%d9%88%d8%b5%d9%8a%d8%a9-%d8%a8%d8%aa%d8%ac%d9%86%d9%91%d8%a8-%d8%a7%d9%84%d8%aa%d8%ad%d9%84%d9%8a%d9%82-%d9%81%d9%88%d9%82-%d8%a7%d9%84%d8%a3%d8%b1%d8%af%d9%86-1781090.html",
-      "description": "نصحت هيئة سلامة الطيران التابعة للاتحاد الأوروبي شركات النقل الجوي الأربعاء بعدم التحليق فوق الأردن الذي يتعرض لهجمات من إيران في خضم حربها مع الولايات المتحدة. وذكرت الهيئة في مذكرة وجهتها إلى شركات الطيران أن “الهجمات الصاروخية الإيرانية المتكررة، وهجمات الطائرات المسيّرة بدرجة أقل، على مواقع في الأردن، فضلا عن تفعيل أنظمة الدفاع الجوي، تحدث […] The post توصية بتجنّب التحليق فوق الأردن appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-07-22T16:19:18Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -141,19 +154,6 @@
       "published": "2026-07-22T14:28:10Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-counterfeit-banknotes-in-morocco-fall-10-in-2025-central-bank-says",
-      "title": "Counterfeit banknotes in Morocco fall 10% in 2025, central bank says",
-      "link": "https://en.hespress.com/142399-counterfeit-banknotes-in-morocco-fall-10-in-2025-central-bank-says.html",
-      "description": "The number of counterfeit banknotes detected in Morocco fell 10% in both volume and value in 2025 to 4,064 notes, according to Bank Al-Maghrib’s annual report. The central bank attributed the decline to enhanced security features on Moroccan banknotes, upgraded counterfeit detection equipment and expanded inspections of banks and private cash-sorting centres. Bank Al-Maghrib said […] The post Counterfeit banknotes in Morocco fall 10% in 2025, central bank says appeared first on HESPRESS English ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-22T13:52:50Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
