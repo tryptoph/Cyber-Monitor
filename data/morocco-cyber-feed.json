@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-24T03:48:34Z",
+  "generatedAt": "2026-07-24T08:45:35Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-george-orwell-et-la-face-cach-e-du-sport",
+      "title": "George Orwell et la face cachée du sport",
+      "link": "https://fr.hespress.com/481518-george-orwell-et-la-face-cachee-du-sport.html",
+      "description": "Le temps altère certains écrits, tandis que d’autres semblent lui échapper. Plus de quatre-vingts ans après sa publication, « L’Esprit du sport » de George Orwell, paru le 14 décembre 1945 dans l’hebdomadaire Tribune, où l’écrivain tenait la célèbre chronique « As I Please », demeure d’une étonnante actualité. Par la justesse de son analyse […] The post George Orwell et la face cachée du sport appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-24T07:21:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-cybers-curit-plaidoyer-pour-une-nouvelle-approche-de-la-souverainet-num-rique",
       "title": "Cybersécurité : plaidoyer pour une nouvelle approche de la souveraineté numérique",
       "link": "https://fr.hespress.com/482681-cybersecurite-plaidoyer-pour-une-nouvelle-approche-de-la-souverainete-numerique.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-07-24T00:08:36Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-nayef-aguerd-proche-d-un-d-part-de-l-om-des-clubs-du-golfe-l-aff-t",
-      "title": "Nayef Aguerd proche d’un départ de l’OM, des clubs du Golfe à l’affût",
-      "link": "https://fr.hespress.com/482667-nayef-aguerd-proche-dun-depart-de-lom-des-clubs-du-golfe-a-laffut.html",
-      "description": "L’avenir de Nayef Aguerd à l’Olympique de Marseille s’inscrit de plus en plus dans l’incertitude. Un an seulement après son arrivée sur la Canebière, le défenseur international marocain pourrait quitter le club phocéen dès cet été, alors que plusieurs formations du Golfe suivraient attentivement sa situation. Selon plusieurs médias français, dont La Provence, la direction […] The post Nayef Aguerd proche d’un départ de l’OM, des clubs du Golfe à l’affût appeared first on Hespress Français - Actu",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-23T21:40:10Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -152,19 +152,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-23T09:55:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-l-artiste-abdelali-ammour-ouvre-le-bal",
-      "title": "L’artiste Abdelali Ammour ouvre le bal",
-      "link": "https://aujourdhui.ma/culture/lartiste-abdelali-ammour-ouvre-le-bal",
-      "description": "Concert Le coup d’envoi de la 22ème édition du Festival des Plages de Maroc Telecom a été donné, lundi soir à M’diq, par l’artiste Abdelali Ammor. Celui-ci a proposé un répertoire riche mêlant chanson marocaine moderne, chaâbi, musique jeune et rythmes raï. L’artiste marocain Abdelali Ammour a donné, lundi soir à M’diq, le coup d’envoi […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-23T09:47:41Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
