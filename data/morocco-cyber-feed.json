@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-25T19:37:54Z",
+  "generatedAt": "2026-07-26T04:00:37Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-concours-de-m-decine-une-enqu-te-ouverte-apr-s-des-soup-ons-de-fuite-des-sujets",
+      "title": "Concours de médecine : une enquête ouverte après des soupçons de fuite des sujets",
+      "link": "https://fr.hespress.com/482875-concours-de-medecine-une-enquete-ouverte-apres-des-soupcons-de-fuite-des-sujets.html",
+      "description": "Le ministère de l’Enseignement supérieur a saisi les autorités judiciaires après la diffusion, sur les réseaux sociaux, de contenus présentés comme les sujets du concours commun d’accès aux facultés de médecine, de pharmacie et de médecine dentaire. L’enquête devra déterminer l’authenticité de ces documents et établir d’éventuelles responsabilités. Le ministère de l’Enseignement supérieur, de la […] The post Concours de médecine : une enquête ouverte après des soupçons de fuite des sujets appear",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-26T01:54:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "lavieeco-guelmim-inauguration-de-nouvelles-infrastructures",
       "title": "Guelmim : Inauguration de nouvelles infrastructures",
       "link": "https://www.lavieeco.com/au-royaume/guelmim-inauguration-de-nouvelles-infrastructures/",
@@ -22,32 +35,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-25T16:33:39Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-licenciements-dans-les-h-pitaux-publics-les-agents-de-s-curit-priv-e-annoncent-une-mobilisation",
-      "title": "Licenciements dans les hôpitaux publics : Les agents de sécurité privée annoncent une mobilisation",
-      "link": "https://fr.hespress.com/482782-licenciements-dans-les-hopitaux-publics-les-agents-de-securite-privee-annoncent-une-mobilisation.html",
-      "description": "Le conflit autour des licenciements d’agents de sécurité privée dans les hôpitaux publics connaît un nouvel épisode. Le Syndicat national des agents de sécurité privée, de nettoyage et de restauration a annoncé l’organisation, la semaine prochaine, d’un sit-in national devant le siège du ministère de la Santé et de la Protection sociale à Rabat, afin […] The post Licenciements dans les hôpitaux publics : Les agents de sécurité privée annoncent une mobilisation appeared first on Hespress Français",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-25T13:00:18Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-incendies-en-france-pr-s-de-98-000-hectares-br-l-s-un-record-historique",
-      "title": "Incendies en France : près de 98.000 hectares brûlés, un \"record historique\"",
-      "link": "https://fr.hespress.com/482826-incendies-en-france-pres-de-98-000-hectares-brules-un-record-historique.html",
-      "description": "Les différents incendies qui sévissent en France ont brûlé près de 98.000 hectares depuis le début de l’année, « notamment avec la progression du feu en Gironde », a annoncé samedi le ministre de l’Intérieur Laurent Nuñez, évoquant un « record historique ». « Il y a encore un certain nombre de feux qui ne sont pas fixés sur le […] The post Incendies en France : près de 98.000 hectares brûlés, un \"record historique\" appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-25T12:58:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
