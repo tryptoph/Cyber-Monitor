@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-26T04:00:37Z",
+  "generatedAt": "2026-07-26T08:41:23Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "مكتب الصرف يُصعد الرقابة الميدانية لمواجهة المخالفات والتهديدات السيبرانية",
+      "link": "https://www.hespress.com/%d9%85%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d8%b5%d8%b1%d9%81-%d9%8a%d9%8f%d8%b5%d8%b9%d8%af-%d8%a7%d9%84%d8%b1%d9%82%d8%a7%d8%a8%d8%a9-%d8%a7%d9%84%d9%85%d9%8a%d8%af%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%85-1782653.html",
+      "description": "كشف تقرير التسيير والحكامة لمكتب الصرف قفزةً لافتة في أنشطة المراقبة الميدانية لعمليات الصرف والتحقيقات متم 2025، مواصلاً بذلك تنزيل “الإستراتيجية الخماسية” للمكتب (2025-2029) التي تراهن على “مراقبة ذكية” أكثر استهدافاً للمخاطر، تدمج آليات الذكاء الاصطناعي وتستحضر تنامي التهديد السيبراني. وفي إطار مهام الإشراف على عمليات الصرف ارتفع عدد الملفات التي خضعت لـ”المراقبة على الوثائق” […] The post مكتب الصرف يُصعد الرقابة الميدانية لمواجهة المخالفات والتهديدات السيبرانية appeared first on Hespress - ه",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-26T07:00:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-concours-de-m-decine-une-enqu-te-ouverte-apr-s-des-soup-ons-de-fuite-des-sujets",
       "title": "Concours de médecine : une enquête ouverte après des soupçons de fuite des sujets",
