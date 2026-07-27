@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-27T15:17:38Z",
+  "generatedAt": "2026-07-27T19:58:33Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-info-en-images-guelmim-inauguration-de-nouvelles-infrastructures",
+      "title": "Info en images. Guelmim : Inauguration de nouvelles infrastructures",
+      "link": "https://www.lavieeco.com/videos/info-en-images-guelmim-inauguration-de-nouvelles-infrastructures/",
+      "description": "Une série de projets de développement visant le renforcement des infrastructures de sécurité, de jeunesse et de sport ont été inaugurés, samedi à Guelmim, à l’occasion de la célébration du 27e anniversaire de la Fête du Trône. L’article Info en images. Guelmim : Inauguration de nouvelles infrastructures est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-07-27T15:28:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66902707-26-vuln-rabilit-s-dans-glpi",
       "title": "66902707/26 - Vulnérabilités dans GLPI",
