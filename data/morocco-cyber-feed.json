@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-26T19:38:52Z",
+  "generatedAt": "2026-07-27T04:06:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "الأمن يقتل \"مهاجم المثليين\" في برلين",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d9%8a%d9%82%d8%aa%d9%84-%d9%85%d9%87%d8%a7%d8%ac%d9%85-%d8%a7%d9%84%d9%85%d8%ab%d9%84%d9%8a%d9%8a%d9%86-%d9%81%d9%8a-%d8%a8%d8%b1%d9%84%d9%8a%d9%86-1783108.html",
-      "description": "أكّدت الشرطة في برلين، اليوم الأحد، مقتل المشتبه فيه “الألماني-لبناني الأصل” الذي اقتحم بمركبته “مسيرة للمثليين” في العاصمة، في هجوم أسفر عن مقتل امرأة وإصابة قرابة 30 شخصا؛ أمس السبت. وأوضحت الشرطة، في بيان على منصة “إكس”، أن أفرادها حددوا مكان المشتبه فيه البالغ 21 عاما، مشيرة إلى أن المعني بالأمر “هرع نحوهم حاملا أداة […] The post الأمن يقتل \"مهاجم المثليين\" في برلين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-minerais-critiques-hydrog-ne-solaire-l-afrique-au-c-ur-de-la-strat-gie-nerg-tique-europ-enne",
+      "title": "Minerais critiques, hydrogène, solaire : L'Afrique au cœur de la stratégie énergétique européenne",
+      "link": "https://fr.hespress.com/479585-minerais-critiques-hydrogene-solaire-lafrique-au-coeur-de-la-strategie-energetique-europeenne.html",
+      "description": "Les liens énergétiques entre l’Europe et l’Afrique se resserrent à mesure que l’Union européenne accélère sa transition vers les énergies propres et cherche à sécuriser ses approvisionnements en ressources stratégiques dans un contexte de fortes incertitudes géopolitiques. Cette convergence d’intérêts, portée par la montée en puissance des minerais critiques et des énergies renouvelables, était au […] The post Minerais critiques, hydrogène, solaire : L'Afrique au cœur de la stratégie énergétique",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-07-26T18:30:01Z",
+      "published": "2026-07-27T00:23:11Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
