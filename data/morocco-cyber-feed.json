@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-28T14:42:55Z",
+  "generatedAt": "2026-07-28T19:55:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-66962807-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
+      "title": "66962807/26 - Vulnérabilités critiques dans les plugins WordPress",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-12",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-07-28T19:55:40Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-eau-potable-la-berd-accorde-250-millions-d-euros-l-onee",
+      "title": "Eau potable: La BERD accorde 250 millions d’euros à l’ONEE",
+      "link": "https://www.lavieeco.com/au-royaume/eau-potable-la-berd-accorde-250-millions-deuros-a-lonee/",
+      "description": "Le financement mobilisé contribuera à accompagner les investissements de l'ONEE visant à renforcer l'efficacité, la résilience et la durabilité des infrastructures de production d'eau potable, en appui aux efforts du Royaume en matière de sécurité hydrique et d'adaptation aux changements climatiques. L’article Eau potable: La BERD accorde 250 millions d’euros à l’ONEE est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-07-28T19:29:07Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-retraites-les-d-s-quilibres-persistent-malgr-l-effet-des-hausses-salariales",
+      "title": "Retraites : les déséquilibres persistent malgré l'effet des hausses salariales",
+      "link": "https://fr.hespress.com/483211-retraites-les-desequilibres-persistent-malgre-leffet-des-hausses-salariales.html",
+      "description": "Les augmentations salariales issues du dialogue social d’avril 2024 ont offert un répit aux principaux régimes de retraite marocains en améliorant temporairement certains indicateurs financiers. Mais cette embellie reste insuffisante pour corriger les déséquilibres structurels qui fragilisent le système. C’est le principal constat du Rapport sur la stabilité financière 2025, selon lequel une réforme systémique […] The post Retraites : les déséquilibres persistent malgré l'effet des hausses salar",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-28T19:00:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-new-trump-admin-rule-to-speed-up-deportations-of-asylum-seekers",
+      "title": "New Trump admin rule to speed up deportations of asylum seekers",
+      "link": "https://en.hespress.com/142773-new-trump-admin-rule-to-speed-up-deportations-of-asylum-seekers.html",
+      "description": "The Trump administration instituted a rule change on Tuesday that could fast-track the deportation of hundreds of thousands of asylum seekers. The Department of Homeland Security (DHS) said the move is intended to help reduce the backlog of pending asylum cases in the system. Under the new rule some asylum applications will be referred directly […] The post New Trump admin rule to speed up deportations of asylum seekers appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-28T18:19:12Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66952807-26-santastealer-malware",
       "title": "66952807/26 - “ SantaStealer ” malware",
@@ -66,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "aujourdhui-l-ayta-world-tour-de-nassim-haddad-plus-de-4-500-spectateurs-durant-trois-jours-rabat",
-      "title": "«L’Ayta World Tour» de Nassim Haddad : Plus de 4.500 spectateurs durant trois jours à Rabat",
-      "link": "https://aujourdhui.ma/culture/layta-world-tour-de-nassim-haddad-plus-de-4-500-spectateurs-durant-trois-jours-a-rabat",
-      "description": "Concerts Dans le cadre de sa tournée «Ayta World Tour», l’artiste Nassim Haddad a conquis un public nombreux lors des soirées organisées à guichets fermés au Théâtre National Mohammed V de Rabat. Durant trois nuits d’exception jouées à guichets fermés, le Théâtre National Mohammed V de Rabat est devenu le théâtre d’un rassemblement culturel d’une […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-28T12:41:40Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-sahara-la-bulgarie-soutient-le-maroc",
       "title": "Sahara : La Bulgarie soutient le Maroc",
       "link": "https://www.lavieeco.com/pouvoirs/diplomatie/sahara-la-bulgarie-soutient-le-maroc/",
@@ -87,19 +126,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-28T12:08:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-s-social-security-fund-tops-343-000-registered-companies-in-2024-as-payroll-exceeds-mad-",
-      "title": "Morocco's social security fund tops 343,000 registered companies in 2024 as payroll exceeds MAD 221 billion",
-      "link": "https://en.hespress.com/142727-moroccos-social-security-fund-tops-343000-registered-companies-in-2024-as-payroll-exceeds-mad-221-billion.html",
-      "description": "The number of companies registered with Morocco’s National Social Security Fund (CNSS) surpassed 343,000 in 2024, with declared payroll exceeding MAD 221 billion, according to data presented as part of the government’s assessment of the country’s pension funds. Figures presented by CNSS officials during a January meeting of the Technical Committee for Pension Reform show […] The post Morocco's social security fund tops 343,000 registered companies in 2024 as payroll exceeds MAD 221 billion appea",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-28T09:00:36Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -165,19 +191,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-27T13:22:56Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-guelmim-inauguration-de-nouvelles-infrastructures",
-      "title": "Guelmim : Inauguration de nouvelles infrastructures",
-      "link": "https://www.lavieeco.com/au-royaume/guelmim-inauguration-de-nouvelles-infrastructures/",
-      "description": "Une série de projets de développement visant le renforcement des infrastructures de sécurité, de jeunesse et de sport a été inaugurée, samedi à Guelmim, à l'occasion de la célébration du 27ème anniversaire de la Fête du Trône. L’article Guelmim : Inauguration de nouvelles infrastructures est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-07-25T16:33:39Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -303,19 +316,6 @@
       "id": "dgssi-66782307-26-vuln-rabilit-s-dans-le-dns-bind9",
       "title": "66782307/26 - Vulnérabilités dans le DNS BIND9",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-le-dns-bind9-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-23T14:36:34Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66772307-26-vuln-rabilit-s-critiques-activement-exploit-es-dans-les-produits-check",
-      "title": "66772307/26 - Vulnérabilités critiques activement exploitées dans les produits Check…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-activement-exploitees-dans-les-produits-check-point",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
