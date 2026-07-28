@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-27T19:58:33Z",
+  "generatedAt": "2026-07-28T03:41:38Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-la-f-d-ration-de-volley-s-exprime-apr-s-la-fuite-de-deux-jeunes-internationaux-marocains",
+      "title": "La Fédération de volley s'exprime après la fuite de deux jeunes internationaux marocains",
+      "link": "https://fr.hespress.com/483099-la-federation-de-volley-sexprime-apres-la-fuite-de-deux-jeunes-internationaux-marocains.html",
+      "description": "La Fédération royale marocaine de volley-ball est sortie de son silence au sujet de la fuite de deux joueurs du stage de l’équipe nationale des moins de 18 ans à La Haye, aux Pays-Bas, lors de leur participation au dernier Championnat du monde. Alors qu’ils étaient aux Pays-Bas pour participer au Championnat du monde, deux […] The post La Fédération de volley s'exprime après la fuite de deux jeunes internationaux marocains appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-27T23:33:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-info-en-images-guelmim-inauguration-de-nouvelles-infrastructures",
       "title": "Info en images. Guelmim : Inauguration de nouvelles infrastructures",
@@ -100,19 +113,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-24T17:46:14Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-pavillon-bleu-tanja-marina-bay-et-trois-plages-de-tanger-distingu-es",
-      "title": "Pavillon Bleu : Tanja Marina Bay et trois plages de Tanger distinguées",
-      "link": "https://www.lavieeco.com/au-royaume/pavillon-bleu-tanja-marina-bay-et-trois-plages-de-tanger-distinguees/",
-      "description": "Le Pavillon Bleu a été hissé à Tanja Marina Bay ainsi que sur les plages Achakar, Sol et Ba Kacem, récompensant les efforts déployés en matière de qualité environnementale, de sécurité et de gestion durable du littoral. L’article Pavillon Bleu : Tanja Marina Bay et trois plages de Tanger distinguées est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-07-24T16:06:46Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
