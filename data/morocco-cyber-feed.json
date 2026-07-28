@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-28T03:41:38Z",
+  "generatedAt": "2026-07-28T09:08:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-la-f-d-ration-de-volley-s-exprime-apr-s-la-fuite-de-deux-jeunes-internationaux-marocains",
-      "title": "La Fédération de volley s'exprime après la fuite de deux jeunes internationaux marocains",
-      "link": "https://fr.hespress.com/483099-la-federation-de-volley-sexprime-apres-la-fuite-de-deux-jeunes-internationaux-marocains.html",
-      "description": "La Fédération royale marocaine de volley-ball est sortie de son silence au sujet de la fuite de deux joueurs du stage de l’équipe nationale des moins de 18 ans à La Haye, aux Pays-Bas, lors de leur participation au dernier Championnat du monde. Alors qu’ils étaient aux Pays-Bas pour participer au Championnat du monde, deux […] The post La Fédération de volley s'exprime après la fuite de deux jeunes internationaux marocains appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "aujourdhui-recherche-agronomique-inra-une-moisson-d-innovations-en-2025",
+      "title": "Recherche Agronomique INRA : une moisson d’innovations en 2025",
+      "link": "https://aujourdhui.ma/economie/recherche-agronomique-inra-une-moisson-dinnovations-en-2025",
+      "description": "Nouvelles variétés, IA, brevets… L’agriculture marocaine connaît une profonde mutation, portée par les défis du changement climatique, de la sécurité alimentaire et de la gestion durable des ressources naturelles. Dans cette transition, la recherche agronomique s’impose comme un levier stratégique. C’est dans cette dynamique que s’inscrivent les nombreux projets menés par l’Institut national de la […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
       "category": "morocco",
-      "published": "2026-07-27T23:33:08Z",
+      "published": "2026-07-28T08:00:38Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
