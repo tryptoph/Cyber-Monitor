@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-28T19:55:42Z",
+  "generatedAt": "2026-07-29T09:13:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-revue-de-presse-de-ce-mercredi-29-juillet-2026",
+      "title": "Revue de presse de ce mercredi 29 juillet 2026",
+      "link": "https://fr.hespress.com/483276-revue-de-presse-de-ce-mercredi-29-juillet-2026.html",
+      "description": "Voici les principaux titres développés par la presse nationale de ce mercredi 29 juillet 2026 Al Bayane La Bulgarie considère qu’une « autonomie véritable sous souveraineté marocaine peut constituer une solution viable » à la question du Sahara marocain A la lumière de la résolution 2797 du Conseil de sécurité des Nations Unies, « la […] The post Revue de presse de ce mercredi 29 juillet 2026 appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-29T08:20:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-f-te-du-tr-ne-l-an-de-l-unit",
+      "title": "Fête du trône : l’an de l’Unité",
+      "link": "https://aujourdhui.ma/actualite/fete-du-trone-lan-de-lunite",
+      "description": "Une nouvelle dynamique politique, institutionnelle et de développement en cours au Maroc de Tanger à Lagouira Tournant: L’intervention Royale a été déterminante dans le résultat final concernant l’adoption de la résolution historique 2797 du Conseil de sécurité des Nations Unies concernant le Sahara marocain. Eclairages. Il y a désormais un avant et un après 31 octobre […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-07-29T08:00:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-comptes-des-partis-un-guide-officiel-fixe-les-r-gles-de-certification",
+      "title": "Comptes des partis : un guide officiel fixe les règles de certification",
+      "link": "https://fr.hespress.com/483266-comptes-des-partis-un-guide-officiel-fixe-les-regles-de-certification.html",
+      "description": "Un guide officiel qui définit les règles que devront respecter les experts-comptables chargés de certifier les comptes annuels des partis vient de paraitre au Bulletin officiel. Ce nouveau cadre réglementaire encadrant l’audit des comptes des partis politiques au Maroc. Un arrêté conjoint du ministre de l’Intérieur et de la ministre de l’Économie et des Finances […] The post Comptes des partis : un guide officiel fixe les règles de certification appeared first on Hespress Français - Actualités d",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-29T07:03:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-66962807-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
       "title": "66962807/26 - Vulnérabilités critiques dans les plugins WordPress",
@@ -35,32 +74,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-28T19:29:07Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-retraites-les-d-s-quilibres-persistent-malgr-l-effet-des-hausses-salariales",
-      "title": "Retraites : les déséquilibres persistent malgré l'effet des hausses salariales",
-      "link": "https://fr.hespress.com/483211-retraites-les-desequilibres-persistent-malgre-leffet-des-hausses-salariales.html",
-      "description": "Les augmentations salariales issues du dialogue social d’avril 2024 ont offert un répit aux principaux régimes de retraite marocains en améliorant temporairement certains indicateurs financiers. Mais cette embellie reste insuffisante pour corriger les déséquilibres structurels qui fragilisent le système. C’est le principal constat du Rapport sur la stabilité financière 2025, selon lequel une réforme systémique […] The post Retraites : les déséquilibres persistent malgré l'effet des hausses salar",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-28T19:00:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-new-trump-admin-rule-to-speed-up-deportations-of-asylum-seekers",
-      "title": "New Trump admin rule to speed up deportations of asylum seekers",
-      "link": "https://en.hespress.com/142773-new-trump-admin-rule-to-speed-up-deportations-of-asylum-seekers.html",
-      "description": "The Trump administration instituted a rule change on Tuesday that could fast-track the deportation of hundreds of thousands of asylum seekers. The Department of Homeland Security (DHS) said the move is intended to help reduce the backlog of pending asylum cases in the system. Under the new rule some asylum applications will be referred directly […] The post New Trump admin rule to speed up deportations of asylum seekers appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-28T18:19:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -180,19 +193,6 @@
       "published": "2026-07-27T15:17:36Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-barrage-oued-el-makhazine-une-tude-pour-renforcer-la-s-curit-et-les-performances-de-l-ouvrage",
-      "title": "Barrage Oued El Makhazine: Une étude pour renforcer la sécurité et les performances de l’ouvrage",
-      "link": "https://www.lavieeco.com/au-royaume/barrage-oued-el-makhazine-une-etude-pour-renforcer-la-securite-et-les-performances-de-louvrage/",
-      "description": "La première mission consistera à réaliser un diagnostic complet du barrage et de ses ouvrages annexes afin d'évaluer leur niveau de sécurité, d'identifier les écarts par rapport aux exigences réglementaires et d'analyser les vulnérabilités de l'infrastructure. L’article Barrage Oued El Makhazine: Une étude pour renforcer la sécurité et les performances de l’ouvrage est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-07-27T13:22:56Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
