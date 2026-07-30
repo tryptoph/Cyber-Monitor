@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-29T19:48:08Z",
+  "generatedAt": "2026-07-30T03:34:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -92,32 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-f-te-du-tr-ne-gr-ce-royale-au-profit-de-1-788-personnes",
-      "title": "Fête du Trône: grâce royale au profit de 1.788 personnes",
-      "link": "https://fr.hespress.com/483349-fete-du-trone-grace-royale-au-profit-de-1-788-personnes.html",
-      "description": "A l’occasion de la Glorieuse Fête du Trône, le Roi Mohammed VI a accordé sa grâce à 1.788 personnes, dont certaines sont en détention et d’autres en liberté, condamnées par différents tribunaux du Royaume, indique un communiqué du ministère de la Justice. Voici le texte du communiqué: « A l’occasion de la Fête du Trône de […] The post Fête du Trône: grâce royale au profit de 1.788 personnes appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-29T18:07:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-saad-lamjarred-fait-vibrer-le-mazagan-lors-d-un-concert-el-jadida",
-      "title": "Saad Lamjarred fait vibrer le Mazagan lors d'un concert à El Jadida",
-      "link": "https://fr.hespress.com/482812-saad-lamjarred-fait-vibrer-le-mazagan-lors-dun-concert-a-el-jadida.html",
-      "description": "The post Saad Lamjarred fait vibrer le Mazagan lors d'un concert à El Jadida appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-29T16:06:55Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-le-maroc-condamne-les-attaques-de-drones-visant-des-installations-p-troli-res-en-arabie-saoudite",
       "title": "Le Maroc condamne les attaques de drones visant des installations pétrolières en Arabie saoudite",
       "link": "https://www.lavieeco.com/pouvoirs/diplomatie/le-maroc-condamne-les-attaques-de-drones-visant-des-installations-petrolieres-en-arabie-saoudite/",
@@ -126,19 +100,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-07-29T15:55:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-strengthens-political-party-finance-controls-targets-conflicts-of-interest",
-      "title": "Morocco strengthens political party finance controls, targets conflicts of interest",
-      "link": "https://en.hespress.com/142820-morocco-strengthens-political-party-finance-controls-targets-conflicts-of-interest.html",
-      "description": "Morocco has introduced stricter financial oversight rules for political parties, requiring greater auditor independence and tighter scrutiny of how parties manage public funding. The new regulations, published in the Official Gazette, establish a standardized audit framework that certified chartered accountants must follow when reviewing the annual financial statements of political parties. Under the new rules, […] The post Morocco strengthens political party finance controls, targets conflicts ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-29T15:00:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -206,19 +167,6 @@
       "published": "2026-07-29T14:34:03Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-la-berd-et-l-onee-renforcent-la-s-curit-hydrique-du-maroc-un-pr-t-de-250-millions-d-euros-pour-m",
-      "title": "La BERD et l’ONEE renforcent la sécurité hydrique du Maroc : Un prêt de 250 millions d’euros pour moderniser les infrastructures de production d’eau potable",
-      "link": "https://aujourdhui.ma/economie/la-berd-et-lonee-renforcent-la-securite-hydrique-du-maroc-un-pret-de-250-millions-deuros-pour-moderniser-les-infrastructures-de-production-deau-potable",
-      "description": "La Banque Européenne pour la Reconstruction et le Développement (BERD) soutient la sécurité hydrique du Maroc grâce à un prêt de 250 millions d’euros accordé à l’Office National de l’Électricité et de l’Eau Potable (ONEE). Le prêt de la BERD comprend une tranche engagée de 120 millions d’euros et une tranche non engagée de 130 […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-29T09:33:28Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
