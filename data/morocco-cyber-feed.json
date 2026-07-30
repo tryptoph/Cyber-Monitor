@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-30T09:06:50Z",
+  "generatedAt": "2026-07-30T14:36:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-anass-salah-eddine-repousse-l-option-olympiakos-et-prend-son-temps",
-      "title": "Anass Salah-Eddine repousse l'option Olympiakos et prend son temps",
-      "link": "https://fr.hespress.com/483425-anass-salah-eddine-repousse-loption-olympiakos-et-prend-son-temps.html",
-      "description": "L’avenir d’Anass Salah-Eddine reste incertain. Le latéral gauche international marocain aurait décidé de ne pas donner suite, pour le moment, à l’intérêt de l’Olympiakos, malgré des discussions avancées entre le club grec et l’AS Rome. Selon plusieurs médias néerlandais, les dirigeants de l’Olympiakos et de la Roma négocient actuellement un éventuel transfert du joueur de […] The post Anass Salah-Eddine repousse l'option Olympiakos et prend son temps appeared first on Hespress Français - Actuali",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "حرائق جديدة تندلع في غابات إسبانيا",
+      "link": "https://www.hespress.com/%d8%ad%d8%b1%d8%a7%d8%a6%d9%82-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%aa%d9%86%d8%af%d9%84%d8%b9-%d9%81%d9%8a-%d8%ba%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-1784843.html",
+      "description": "اندلعت ثلاثة حرائق غابات جديدة في إسبانيا، حسب شبكة ” تي في إي” اليوم الخميس، بعد أيام من اندلاع حرائق دمرت مناطق في البلاد. وأجبرت الحرائق في إقليم ليون شمال غربي البلاد 300 شخص على الفرار من منازلهم في المنطقة حول قرية سان سيبريانو، وقد تم إيواؤهم بصورة مؤقتة في مدارس وصالات رياضية. وكان حريق […] The post حرائق جديدة تندلع في غابات إسبانيا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-07-30T08:43:02Z",
+      "published": "2026-07-30T12:43:20Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -76,19 +76,6 @@
       "published": "2026-07-29T19:48:06Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-f-te-du-tr-ne-gr-ce-royale-au-profit-de-1-788-personnes",
-      "title": "Fête du Trône: Grâce Royale au profit de 1.788 personnes",
-      "link": "https://aujourdhui.ma/societe/fete-du-trone-grace-royale-au-profit-de-1-788-personnes",
-      "description": "A l’occasion de la Glorieuse Fête du Trône, Sa Majesté le Roi Mohammed VI, que Dieu L’assiste, a accordé Sa grâce à 1.788 personnes, dont certaines sont en détention et d’autres en liberté, condamnées par différents tribunaux du Royaume, indique un communiqué du ministère de la Justice. Voici le texte du communiqué: « A l’occasion de […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-29T18:39:22Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
