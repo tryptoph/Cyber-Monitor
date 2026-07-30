@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-30T14:36:39Z",
+  "generatedAt": "2026-07-30T19:55:49Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -15,13 +15,52 @@
   "items": [
     {
       "id": "hespress-ar-item",
-      "title": "حرائق جديدة تندلع في غابات إسبانيا",
-      "link": "https://www.hespress.com/%d8%ad%d8%b1%d8%a7%d8%a6%d9%82-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%aa%d9%86%d8%af%d9%84%d8%b9-%d9%81%d9%8a-%d8%ba%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-1784843.html",
-      "description": "اندلعت ثلاثة حرائق غابات جديدة في إسبانيا، حسب شبكة ” تي في إي” اليوم الخميس، بعد أيام من اندلاع حرائق دمرت مناطق في البلاد. وأجبرت الحرائق في إقليم ليون شمال غربي البلاد 300 شخص على الفرار من منازلهم في المنطقة حول قرية سان سيبريانو، وقد تم إيواؤهم بصورة مؤقتة في مدارس وصالات رياضية. وكان حريق […] The post حرائق جديدة تندلع في غابات إسبانيا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "title": "السيسي يدعو إلى \"وقف التصعيد\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b3%d9%8a%d8%b3%d9%8a-%d9%8a%d8%af%d8%b9%d9%88-%d8%a5%d9%84%d9%89-%d9%88%d9%82%d9%81-%d8%a7%d9%84%d8%aa%d8%b5%d8%b9%d9%8a%d8%af-1785049.html",
+      "description": "دعا الرئيس المصري عبد الفتاح السيسي، الخميس، إلى “وقف التصعيد” في المنطقة، غداة هجوم بطائرة مسيّرة على ميناء دمياط، هو الأول منذ اندلاع الحرب في الشرق الأوسط. ونقل المتحدث باسم الرئاسة عن السيسي تحذيره خلال اتصال هاتفي مع رئيس الوزراء الإسباني بيدرو سانشيز من “خطورة التصعيد الذي تشهده المنطقة”، داعيا إلى “ضرورة تكاتف مصر وإسبانيا […] The post السيسي يدعو إلى \"وقف التصعيد\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-07-30T12:43:20Z",
+      "published": "2026-07-30T18:06:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-une-solidarit-royale-avec-les-etats-fr-res-du-golfe",
+      "title": "Une solidarité royale avec les Etats frères du Golfe",
+      "link": "https://aujourdhui.ma/actualite/une-solidarite-royale-avec-les-etats-freres-du-golfe",
+      "description": "Le Souverain condamne fermement des agressions abjectes ayant visé la souveraineté et la sécurité de leurs territoires Relations arabes : Sa Majesté le Roi Mohammed VI a eu en février plusieurs appels téléphoniques avec Ses frères Leurs Majestés et Leurs Altesses. Il s’agit de Son Altesse Cheikh Mohammed Ben Zayed Al Nahyane, président de l’Etat […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-07-30T17:55:18Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "تنفيذ الإرجاع الجماعي لـ\"الحراكة\" بسبتة",
+      "link": "https://www.hespress.com/%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d8%a5%d8%b1%d8%ac%d8%a7%d8%b9-%d8%a7%d9%84%d8%ac%d9%85%d8%a7%d8%b9%d9%8a-%d9%84%d9%80%d8%a7%d9%84%d8%ad%d8%b1%d8%a7%d9%83%d8%a9-%d8%a8%d8%b3%d8%a8%d8%aa-1785019.html",
+      "description": "أفادت مصادر متطابقة بأن السلطات الإسبانية قررت الشروع، بشكل فوري، في تنفيذ مسطرة الإرجاع الجماعي للمهاجرين غير الشرعيين الذين نفذوا عمليات اختراق للمياه المحيطة بمدينة سبتة. ووفق المصادر، ستجري هذه العملية بتنسيق مع السلطات المغربية المختصة، وستشمل جميع المهاجرين بمن فيهم القاصرين. The post تنفيذ الإرجاع الجماعي لـ\"الحراكة\" بسبتة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-07-30T17:04:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-le-maroc-acteur-cr-dible-de-la-paix-et-de-la-s-curit-dans-le-monde",
+      "title": "Le Maroc, acteur crédible de la paix et de la sécurité dans le monde",
+      "link": "https://aujourdhui.ma/actualite/le-maroc-acteur-credible-de-la-paix-et-de-la-securite-dans-le-monde",
+      "description": "Le Souverain répond favorablement à l’invitation du Président Donald J Trump pour devenir Membre Fondateur du Conseil de Paix Relations internationales : Le Maroc prend part au Conseil de paix, réservé à un groupe restreint de leaders de stature internationale, engagés en faveur d’un avenir sûr et prospère pour les générations futures. Les détails. Sa […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-07-30T16:50:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
