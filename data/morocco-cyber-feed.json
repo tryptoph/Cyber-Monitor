@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-30T03:34:19Z",
+  "generatedAt": "2026-07-30T09:06:50Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-anass-salah-eddine-repousse-l-option-olympiakos-et-prend-son-temps",
+      "title": "Anass Salah-Eddine repousse l'option Olympiakos et prend son temps",
+      "link": "https://fr.hespress.com/483425-anass-salah-eddine-repousse-loption-olympiakos-et-prend-son-temps.html",
+      "description": "L’avenir d’Anass Salah-Eddine reste incertain. Le latéral gauche international marocain aurait décidé de ne pas donner suite, pour le moment, à l’intérêt de l’Olympiakos, malgré des discussions avancées entre le club grec et l’AS Rome. Selon plusieurs médias néerlandais, les dirigeants de l’Olympiakos et de la Roma négocient actuellement un éventuel transfert du joueur de […] The post Anass Salah-Eddine repousse l'option Olympiakos et prend son temps appeared first on Hespress Français - Actuali",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-30T08:43:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67052907-26-vuln-rabilit-s-critiques-dans-les-produits-apache",
       "title": "67052907/26 - Vulnérabilités critiques dans les produits Apache",
@@ -245,19 +258,6 @@
       "published": "2026-07-28T14:42:52Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-sahara-la-bulgarie-soutient-le-maroc",
-      "title": "Sahara : La Bulgarie soutient le Maroc",
-      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/sahara-la-bulgarie-soutient-le-maroc/",
-      "description": "A la lumière de la résolution 2797 du Conseil de sécurité des Nations Unies, la Bulgarie reconnait qu’une autonomie véritable sous souveraineté marocaine peut constituer une solution viable au différend. L’article Sahara : La Bulgarie soutient le Maroc est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-07-28T12:08:03Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
