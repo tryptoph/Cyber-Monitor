@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-31T14:40:28Z",
+  "generatedAt": "2026-07-31T19:57:31Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-italy-suspends-schengen-agreement-with-spain-minister",
+      "title": "Italy suspends Schengen agreement with Spain: minister",
+      "link": "https://en.hespress.com/142970-italy-suspends-schengen-agreement-with-spain-minister.html",
+      "description": "Italy has suspended its Schengen agreement with Spain, following the influx of migrants into the latter’s Ceuta enclave in northern Morocco, Italy’s Foreign Minister Antonio Tajani said Friday. “The temporary suspension of Schengen with Spain is a necessary decision to protect the security of our citizens and defend Europe’s borders,” Tajani wrote on X. Italy’s […] The post Italy suspends Schengen agreement with Spain: minister appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-07-31T17:43:12Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-l-italie-ferme-l-espace-schengen-face-l-espagne",
+      "title": "L'Italie ferme l'espace Schengen face à l'Espagne",
+      "link": "https://fr.hespress.com/483669-litalie-ferme-lespace-schengen-face-a-lespagne.html",
+      "description": "L’Italie a temporairement fermé l’espace Schengen à l’Espagne, a annoncé vendredi le ministre des Affaires étrangères Antonio Tajani, qualifiant cette mesure d' »inévitable ». « La suspension temporaire de Schengen avec l’Espagne est une décision nécessaire pour protéger la sécurité de nos citoyens et défendre les frontières de l’Europe. C’est une mesure prévue par les traités et qui […] The post L'Italie ferme l'espace Schengen face à l'Espagne appeared first on Hespress Français - Actualités d",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-07-31T17:43:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67123107-26-vuln-rabilit-s-critiques-dans-les-produits-apache",
       "title": "67123107/26 - Vulnérabilités critiques dans les produits Apache",
@@ -102,19 +128,6 @@
       "published": "2026-07-31T14:40:19Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-police-arrest-around-30-during-clashes-near-ceuta",
-      "title": "Morocco police arrest around 30 during clashes near Ceuta",
-      "link": "https://en.hespress.com/142948-morocco-police-arrest-around-30-during-clashes-near-ceuta.html",
-      "description": "Moroccan police arrested about 30 young people on Friday during disturbances on the border with Spain’s territory of Ceuta, an AFP journalist saw. Security forces deployed tear gas and water cannon to disperse a thousands-strong crowd of mainly young men gathered to attempt a border crossing. Despite the clashes, hundreds of would-be migrants continued to […] The post Morocco police arrest around 30 during clashes near Ceuta appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-07-31T12:04:00Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
