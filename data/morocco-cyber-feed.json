@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-01T13:59:52Z",
+  "generatedAt": "2026-08-01T19:38:01Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-en-ceuta-border-returns-to-normal-after-days-of-unrest",
+      "title": "Ceuta border returns to normal after days of unrest",
+      "link": "https://en.hespress.com/143031-ceuta-border-returns-to-normal-after-days-of-unrest.html",
+      "description": "Moroccan authorities began clearing burned vehicles and debris from the Ceuta border area on Saturday as traffic gradually returned to normal following days of mass crossing attempts and violent clashes. Cleanup crews and specialized equipment were deployed around the crossing to remove vehicles torched during confrontations between security forces and people seeking to enter the […] The post Ceuta border returns to normal after days of unrest appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-01T18:31:58Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الحرب تضيق هامش المناورة أمام ترامب",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d8%aa%d8%b6%d9%8a%d9%82-%d9%87%d8%a7%d9%85%d8%b4-%d8%a7%d9%84%d9%85%d9%86%d8%a7%d9%88%d8%b1%d8%a9-%d8%a3%d9%85%d8%a7%d9%85-%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-1785993.html",
+      "description": "بعد خمسة أشهر من اندلاع الحرب مع إيران، يجد الرئيس الأميركي دونالد ترامب نفسه أمام خيارات أكثر تعقيدا، في ظل استمرار المواجهات العسكرية واتساع رقعة الصراع في الشرق الأوسط، من دون أن تلوح في الأفق تسوية قريبة أو مخرج سياسي واضح، رغم تحقيق إدارته اختراقا دبلوماسيا بإعلان التوصل إلى اتفاق بشأن نزع سلاح حركة حماس […] The post الحرب تضيق هامش المناورة أمام ترامب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-01T18:30:45Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-sebta-s-nchez-d-nonce-les-positions-go-stes-de-certains-pays-europ-ens",
       "title": "Sebta : Sánchez dénonce les positions « égoïstes » de certains pays européens",
       "link": "https://fr.hespress.com/483733-sebta-sanchez-denonce-les-positions-egoistes-de-certains-pays-europeens.html",
@@ -22,19 +48,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-08-01T13:00:36Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-nearly-70-000-migrants-leave-ceuta-as-death-toll-reaches-60",
-      "title": "Nearly 70,000 migrants leave Ceuta as death toll reaches 60",
-      "link": "https://en.hespress.com/142996-nearly-70000-migrants-leave-ceuta-as-death-toll-reaches-60.html",
-      "description": "The death toll from the mass crossing into Ceuta rose to 60 on Saturday as Spanish authorities began installing a new maritime barrier near the Tarajal border and said almost 69,500 migrants had left the enclave for Morocco over the previous 30 hours. Spanish security sources cited by EFE said Civil Guard officers and rescue […] The post Nearly 70,000 migrants leave Ceuta as death toll reaches 60 appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-01T10:02:29Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
