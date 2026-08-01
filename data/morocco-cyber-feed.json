@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-01T03:54:53Z",
+  "generatedAt": "2026-08-01T08:35:58Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "تقارير وزارة الداخلية تكشف اختلالات في صفقات تجهيز احتفالات رسمية",
+      "link": "https://www.hespress.com/%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84%d9%8a%d8%a9-%d8%aa%d9%83%d8%b4%d9%81-%d8%a7%d8%ae%d8%aa%d9%84%d8%a7%d9%84%d8%a7%d8%aa-%d9%81-1784454.html",
+      "description": "كشفت تسريبات من تقارير أنجزتها لجان تفتيش تابعة للمفتشية العامة للإدارة الترابية اختلالات في تدبير صفقات توريد تجهيزات خاصة بالاحتفالات الرسمية داخل جماعات ترابية، إذ سجّلت عمليات تفتيش مؤشرات على اختلالات وصفت بالخطيرة في تدبير هذه النفقات همت جماعات تابعة لعمالات وأقاليم عديدة بجهات الدار البيضاء-سطات والرباط-سلا-القنيطرة ومراكش-آسفي وبني ملال-خنيفرة. وأفادت مصادر جيدة الاطلاع لهسبريس […] The post تقارير وزارة الداخلية تكشف اختلالات في صفقات تجهيز احتفالات رسمية appeared first on Hespress - هس",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-01T06:00:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-italy-suspends-schengen-agreement-with-spain-minister",
       "title": "Italy suspends Schengen agreement with Spain: minister",
