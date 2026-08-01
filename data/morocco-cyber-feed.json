@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-07-31T19:57:31Z",
+  "generatedAt": "2026-08-01T03:54:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-07-31T17:43:12Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-l-italie-ferme-l-espace-schengen-face-l-espagne",
-      "title": "L'Italie ferme l'espace Schengen face à l'Espagne",
-      "link": "https://fr.hespress.com/483669-litalie-ferme-lespace-schengen-face-a-lespagne.html",
-      "description": "L’Italie a temporairement fermé l’espace Schengen à l’Espagne, a annoncé vendredi le ministre des Affaires étrangères Antonio Tajani, qualifiant cette mesure d' »inévitable ». « La suspension temporaire de Schengen avec l’Espagne est une décision nécessaire pour protéger la sécurité de nos citoyens et défendre les frontières de l’Europe. C’est une mesure prévue par les traités et qui […] The post L'Italie ferme l'espace Schengen face à l'Espagne appeared first on Hespress Français - Actualités d",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-07-31T17:43:03Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
