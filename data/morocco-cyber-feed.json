@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-01T19:38:01Z",
+  "generatedAt": "2026-08-02T03:58:02Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,32 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-01T18:31:58Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "الحرب تضيق هامش المناورة أمام ترامب",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d8%aa%d8%b6%d9%8a%d9%82-%d9%87%d8%a7%d9%85%d8%b4-%d8%a7%d9%84%d9%85%d9%86%d8%a7%d9%88%d8%b1%d8%a9-%d8%a3%d9%85%d8%a7%d9%85-%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-1785993.html",
-      "description": "بعد خمسة أشهر من اندلاع الحرب مع إيران، يجد الرئيس الأميركي دونالد ترامب نفسه أمام خيارات أكثر تعقيدا، في ظل استمرار المواجهات العسكرية واتساع رقعة الصراع في الشرق الأوسط، من دون أن تلوح في الأفق تسوية قريبة أو مخرج سياسي واضح، رغم تحقيق إدارته اختراقا دبلوماسيا بإعلان التوصل إلى اتفاق بشأن نزع سلاح حركة حماس […] The post الحرب تضيق هامش المناورة أمام ترامب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-01T18:30:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sebta-s-nchez-d-nonce-les-positions-go-stes-de-certains-pays-europ-ens",
-      "title": "Sebta : Sánchez dénonce les positions « égoïstes » de certains pays européens",
-      "link": "https://fr.hespress.com/483733-sebta-sanchez-denonce-les-positions-egoistes-de-certains-pays-europeens.html",
-      "description": "Le chef du gouvernement espagnol, Pedro Sánchez, a durci le ton à l’égard de plusieurs partenaires de l’Espagne au sein de l’Union européenne, accusant certains gouvernements d’adopter des positions « égoïstes, polarisées et contraires au droit » dans leur gestion de la crise migratoire à Sebta. Il a appelé à la tenue d’une réunion d’urgence […] The post Sebta : Sánchez dénonce les positions « égoïstes » de certains pays européens appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-01T13:00:36Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
