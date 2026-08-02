@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-02T14:01:23Z",
+  "generatedAt": "2026-08-02T19:38:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "كربوعي يتنافس في الدوري الليبيري",
-      "link": "https://www.hespress.com/%d9%83%d8%b1%d8%a8%d9%88%d8%b9%d9%8a-%d9%8a%d8%aa%d9%86%d8%a7%d9%81%d8%b3-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d9%84%d9%8a%d8%a8%d9%8a%d8%b1%d9%8a-1786393.html",
-      "description": "نجح نادي “إف سي فاسل” الليبيري لكرة القدم في حسم صفقة انضمام المهاجم المغربي الشاب يحيى كربوعي، بعقد يمتد لموسمين كرويين خلال فترة الانتقالات الصيفية الحالية، رغبة من إدارة الفريق في تقوية خط الهجوم قبل تدشين المنافسات المحلية والقارية. ويملك كربوعي مسارا رياضيا بالدوري المغربي، بعدما تدرج في مدرسة الرجاء الرياضي، ثم لعب لصفوف الراسينغ […] The post كربوعي يتنافس في الدوري الليبيري appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-02T13:34:49Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "قتلى ومخطوفون في هجوم بنيجيريا",
-      "link": "https://www.hespress.com/%d9%82%d8%aa%d9%84%d9%89-%d9%88%d9%85%d8%ae%d8%b7%d9%88%d9%81%d9%88%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-1786368.html",
-      "description": "أفادت وسائل إعلام نيجيرية، اليوم الأحد، بمقتل 4 جنود واختطاف 70 مدنيا في هجوم مسلح استهدف موقعا عسكريا في ولاية زامفارا شمال غربي البلاد. وذكرت صحيفة “دايلي بوست” أن “قُطّاع طرق هاجموا منطقة كاورا نامودا في ولاية زامفارا، واقتحموا موقعا عسكريا، وقتلوا 4 جنود واختطفوا حوالي 70 من السكان”. وأضاف المصدر نفسه أن “المهاجمين أضرموا […] The post قتلى ومخطوفون في هجوم بنيجيريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-02T11:45:05Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-67123107-26-vuln-rabilit-s-critiques-dans-les-produits-apache",
       "title": "67123107/26 - Vulnérabilités critiques dans les produits Apache",
@@ -144,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "aujourdhui-c-l-bration-du-70-me-anniversaire-de-la-cr-ation-des-forces-arm-es-royales-ia-digitalisation-cyb",
-      "title": "Célébration du 70ème anniversaire de la création des Forces Armées Royales : IA, digitalisation, cybersécurité : Une vision Royale pour les FAR",
-      "link": "https://aujourdhui.ma/actualite/celebration-du-70eme-anniversaire-de-la-creation-des-forces-armees-royales-ia-digitalisation-cybersecurite-une-vision-royale-pour-les-far",
-      "description": "«Le développement des capacités défensives des Forces Armées Royales constitue une grande priorité et l’un des piliers essentiels de la stratégie que Nous avons adoptée à l’effet de la modernisation et de la structuration de Notre système militaire». Défense : Sa Majesté le Roi Mohammed VI, Chef Suprême et Chef d’Etat-Major Général des Forces Armées […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-30T19:54:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67052907-26-vuln-rabilit-s-critiques-dans-les-produits-apache",
       "title": "67052907/26 - Vulnérabilités critiques dans les produits Apache",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-apache-0",
@@ -206,19 +167,6 @@
       "published": "2026-07-29T19:48:06Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-f-te-du-tr-ne-gr-ce-royale-au-profit-de-1-788-personnes",
-      "title": "Fête du Trône : Grâce Royale au profit de 1.788 personnes",
-      "link": "https://www.lavieeco.com/au-royaume/fete-du-trone-grace-royale-au-profit-de-1-788-personnes/",
-      "description": "A l'occasion de la Glorieuse Fête du Trône, Sa Majesté le Roi Mohammed VI, que Dieu L'assiste, a accordé Sa grâce à 1.788 personnes, dont certaines sont en détention et d’autres en liberté, condamnées par différents tribunaux du Royaume, indique un communiqué du ministère de la Justice. L’article Fête du Trône : Grâce Royale au profit de 1.788 personnes est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-07-29T18:27:20Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
