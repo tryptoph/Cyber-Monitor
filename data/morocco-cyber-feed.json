@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-03T10:08:56Z",
+  "generatedAt": "2026-08-03T15:20:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "aujourdhui-m-dina-de-f-s-inauguration-du-nouveau-si-ge-de-la-brigade-touristique",
-      "title": "Médina de Fès: Inauguration du nouveau siège de la Brigade touristique",
-      "link": "https://aujourdhui.ma/actualite/medina-de-fes-inauguration-du-nouveau-siege-de-la-brigade-touristique",
-      "description": "Réhabilitation Le nouveau siège de la Brigade touristique de Bab Boujloud, dans la médina de Fès, a été inauguré, mercredi, dans le cadre des efforts visant à renforcer la sécurité des visiteurs et à améliorer les services d’accueil et d’orientation au profit des touristes. La nouvelle structure, aménagée dans un bâtiment historique attenant à l’emblématique […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
+      "id": "hespress-en-canada-pledges-deeper-partnership-with-morocco-after-sahara-policy-shift",
+      "title": "Canada pledges deeper partnership with Morocco after Sahara policy shift",
+      "link": "https://en.hespress.com/143106-canada-pledges-deeper-partnership-with-morocco-after-sahara-policy-shift.html",
+      "description": "Canada says it is committed to deepening its partnership with Morocco through sustained political dialogue and expanded cooperation in trade, investment, security, sustainable development, and regional and global issues of shared interest. The position was outlined in written responses sent exclusively to Hespress AR by Canada’s Department of Foreign Affairs following questions about the future […] The post Canada pledges deeper partnership with Morocco after Sahara policy shift appeared first o",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-03T09:55:48Z",
+      "published": "2026-08-03T10:30:59Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
