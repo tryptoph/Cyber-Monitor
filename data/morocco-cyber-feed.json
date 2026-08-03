@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-03T15:20:47Z",
+  "generatedAt": "2026-08-03T20:01:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-en-canada-pledges-deeper-partnership-with-morocco-after-sahara-policy-shift",
-      "title": "Canada pledges deeper partnership with Morocco after Sahara policy shift",
-      "link": "https://en.hespress.com/143106-canada-pledges-deeper-partnership-with-morocco-after-sahara-policy-shift.html",
-      "description": "Canada says it is committed to deepening its partnership with Morocco through sustained political dialogue and expanded cooperation in trade, investment, security, sustainable development, and regional and global issues of shared interest. The position was outlined in written responses sent exclusively to Hespress AR by Canada’s Department of Foreign Affairs following questions about the future […] The post Canada pledges deeper partnership with Morocco after Sahara policy shift appeared first o",
+      "id": "hespress-en-eu-chief-urges-united-action-on-borders-after-ceuta-migrant-rush",
+      "title": "EU chief urges 'united action' on borders after Ceuta migrant rush",
+      "link": "https://en.hespress.com/143145-eu-chief-urges-united-action-on-borders-after-ceuta-migrant-rush.html",
+      "description": "EU chief Ursula von der Leyen called Monday for “united action” on border security after a migrant rush on Spain’s North African enclave of Ceuta triggered a public spat between Madrid and several European partners. “From this incident, it is clear that we must do more to further strengthen our borders at critical points,” von […] The post EU chief urges 'united action' on borders after Ceuta migrant rush appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-03T10:30:59Z",
+      "published": "2026-08-03T17:32:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الكاتب فقيهاً وساحراً وشوّافاً",
+      "link": "https://www.hespress.com/%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81-%d8%a7%d9%84%d9%82%d8%af%d9%8a%d9%85%d8%a9-%d9%84%d9%84%d9%83%d9%84%d9%85%d8%a9-%d9%88%d8%aa%d8%ad%d9%88%d9%84%d8%a7%d8%aa%d9%87%d8%a7-%d8%af-1786949.html",
+      "description": "في الوظائف القديمة للكلمة وتحولاتها داخل المجتمع المغربي الكاتب بوصفه فقيهاً وساحراً وشوّافاً قد يبدو الجمع بين الفقيه والساحر والشوّاف والكاتب ضرباً من العبث، فالأول يسند كلامه إلى النص الديني، والثاني إلى قوى خفية، والثالث إلى حدس يدّعي اختراق المستقبل، بينما يُفترض في الكاتب أن يستند إلى الخيال أو العقل أو ملاحظة الواقع. غير أن […] The post الكاتب فقيهاً وساحراً وشوّافاً appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-03T17:30:25Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
