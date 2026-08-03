@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-03T04:00:02Z",
+  "generatedAt": "2026-08-03T10:08:56Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-le-canada-attache-une-grande-importance-son-partenariat-avec-le-maroc-et-entend-approfondir-la-c",
-      "title": "Le Canada attache une grande importance à son partenariat avec le Maroc et entend approfondir la coopération",
-      "link": "https://fr.hespress.com/483846-le-canada-attache-une-grande-importance-a-son-partenariat-avec-le-maroc-et-entend-approfondir-la-cooperation.html",
-      "description": "Le Canada a affirmé sa volonté d’approfondir son partenariat avec le Royaume du Maroc en poursuivant un dialogue ouvert, régulier et constructif avec les autorités marocaines et en renforçant la coopération dans des domaines tels que le commerce, l’investissement, la sécurité et le développement durable, ainsi que sur les questions régionales et mondiales d’intérêt commun. […] The post Le Canada attache une grande importance à son partenariat avec le Maroc et entend approfondir la coopération ap",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "aujourdhui-m-dina-de-f-s-inauguration-du-nouveau-si-ge-de-la-brigade-touristique",
+      "title": "Médina de Fès: Inauguration du nouveau siège de la Brigade touristique",
+      "link": "https://aujourdhui.ma/actualite/medina-de-fes-inauguration-du-nouveau-siege-de-la-brigade-touristique",
+      "description": "Réhabilitation Le nouveau siège de la Brigade touristique de Bab Boujloud, dans la médina de Fès, a été inauguré, mercredi, dans le cadre des efforts visant à renforcer la sécurité des visiteurs et à améliorer les services d’accueil et d’orientation au profit des touristes. La nouvelle structure, aménagée dans un bâtiment historique attenant à l’emblématique […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
       "category": "morocco",
-      "published": "2026-08-02T21:32:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cyber-attaque-les-donn-es-d-environ-31-000-entit-s-juridiques-d-voil-es-au-liechtenstein",
-      "title": "Cyber-attaque: les données d'environ 31.000 entités juridiques dévoilées au Liechtenstein",
-      "link": "https://fr.hespress.com/483866-cyber-attaque-les-donnees-denviron-31-000-entites-juridiques-devoilees-au-liechtenstein.html",
-      "description": "Le Liechtenstein a été la cible d’une cyberattaque au cours de laquelle les données d’environ 31.000 entités juridiques ont été dérobées, a annoncé le gouvernement dimanche, précisant que ses auteurs n’avaient pas été identifiés. « Selon les premières constatations, des auteurs inconnus ont obtenu un accès illicite au Registre des ayant droits économiques effectifs dans la […] The post Cyber-attaque: les données d'environ 31.000 entités juridiques dévoilées au Liechtenstein appeared first on Hes",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-02T21:10:04Z",
+      "published": "2026-08-03T09:55:48Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -128,19 +115,6 @@
       "published": "2026-07-31T14:40:19Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-op-ration-nationale-ramadan-1447-une-action-solidaire-devenue-une-tradition",
-      "title": "Opération nationale «Ramadan 1447», une action solidaire devenue une tradition",
-      "link": "https://aujourdhui.ma/actualite/operation-nationale-ramadan-1447-une-action-solidaire-devenue-une-tradition",
-      "description": "Traduisant la Haute Sollicitude Royale constante envers les populations en situation de vulnérabilité sociale Solidarité : Sa Majesté le Roi Mohammed VI, accompagné de SAR le Prince Héritier Moulay El Hassan, a procédé au quartier Al Inbiâate à Salé au lancement de l’opération nationale «Ramadan 1447», initiée par la Fondation Mohammed V pour la Solidarité […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-07-30T20:36:38Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
