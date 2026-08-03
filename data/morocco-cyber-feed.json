@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-02T19:38:45Z",
+  "generatedAt": "2026-08-03T04:00:02Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-le-canada-attache-une-grande-importance-son-partenariat-avec-le-maroc-et-entend-approfondir-la-c",
+      "title": "Le Canada attache une grande importance à son partenariat avec le Maroc et entend approfondir la coopération",
+      "link": "https://fr.hespress.com/483846-le-canada-attache-une-grande-importance-a-son-partenariat-avec-le-maroc-et-entend-approfondir-la-cooperation.html",
+      "description": "Le Canada a affirmé sa volonté d’approfondir son partenariat avec le Royaume du Maroc en poursuivant un dialogue ouvert, régulier et constructif avec les autorités marocaines et en renforçant la coopération dans des domaines tels que le commerce, l’investissement, la sécurité et le développement durable, ainsi que sur les questions régionales et mondiales d’intérêt commun. […] The post Le Canada attache une grande importance à son partenariat avec le Maroc et entend approfondir la coopération ap",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-02T21:32:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cyber-attaque-les-donn-es-d-environ-31-000-entit-s-juridiques-d-voil-es-au-liechtenstein",
+      "title": "Cyber-attaque: les données d'environ 31.000 entités juridiques dévoilées au Liechtenstein",
+      "link": "https://fr.hespress.com/483866-cyber-attaque-les-donnees-denviron-31-000-entites-juridiques-devoilees-au-liechtenstein.html",
+      "description": "Le Liechtenstein a été la cible d’une cyberattaque au cours de laquelle les données d’environ 31.000 entités juridiques ont été dérobées, a annoncé le gouvernement dimanche, précisant que ses auteurs n’avaient pas été identifiés. « Selon les premières constatations, des auteurs inconnus ont obtenu un accès illicite au Registre des ayant droits économiques effectifs dans la […] The post Cyber-attaque: les données d'environ 31.000 entités juridiques dévoilées au Liechtenstein appeared first on Hes",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-02T21:10:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67123107-26-vuln-rabilit-s-critiques-dans-les-produits-apache",
       "title": "67123107/26 - Vulnérabilités critiques dans les produits Apache",
