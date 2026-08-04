@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-04T03:43:00Z",
+  "generatedAt": "2026-08-04T09:13:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-apr-s-sebta-rabat-refuse-le-r-le-de-sous-traitant-de-la-politique-migratoire-europ-enne",
-      "title": "Après Sebta, Rabat refuse le rôle de « sous-traitant » de la politique migratoire européenne",
-      "link": "https://fr.hespress.com/484008-apres-sebta-rabat-refuse-le-role-de-sous-traitant-de-la-politique-migratoire-europeenne.html",
-      "description": "« Nous ne sommes ni le gendarme ni le concierge de l’Europe, nous sommes un partenaire souverain, pas un sous-traitant », a déclaré une source gouvernementale marocaine après les événements migratoires de Sebta occupée. Revenant sur les événements du 30 et 31 juillet, la source officielle, a critiqué le traitement médiatique et les commentaires de certains acteurs […] The post Après Sebta, Rabat refuse le rôle de « sous-traitant » de la politique migratoire européenne appeared first on Hespress ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-world-bank-morocco-s-agricultural-success-increasingly-threatened-by-recurring-drought",
+      "title": "World Bank: Morocco's agricultural success increasingly threatened by recurring drought",
+      "link": "https://en.hespress.com/143147-world-bank-moroccos-agricultural-success-increasingly-threatened-by-recurring-drought.html",
+      "description": "Morocco has strengthened its agricultural sector and reduced its reliance on food imports over the past two decades, but increasingly frequent droughts are placing those gains under growing strain, according to a new World Bankreport. The report, Building Food Security, Creating Jobs: Policy Pathways for the Middle East and North Africa, Afghanistan and Pakistan, describes […] The post World Bank: Morocco's agricultural success increasingly threatened by recurring drought appeared first on HESPR",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-03T21:13:22Z",
+      "published": "2026-08-04T08:00:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-jobs-d-t-un-march-encore-informel-mais-porteur-pour-les-tudiants",
+      "title": "Jobs d’été : Un marché encore informel mais porteur pour les étudiants",
+      "link": "https://www.lavieeco.com/influences/jobs-dete-un-marche-encore-informel-mais-porteur-pour-les-etudiants/",
+      "description": "À l’approche des vacances, de nombreux étudiants marocains cherchent à concilier revenus complémentaires, expérience professionnelle et préparation de leur future carrière. Même si ce marché demeure peu structuré, certaines entreprises, notamment dans la restauration, les centres d’appels, le commerce ou l’événementiel, proposent des opportunités à ces jeunes. L’article Jobs d’été : Un marché encore informel mais porteur pour les étudiants est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-08-04T07:13:14Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
