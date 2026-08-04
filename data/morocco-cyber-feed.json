@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-03T20:01:47Z",
+  "generatedAt": "2026-08-04T03:43:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-en-eu-chief-urges-united-action-on-borders-after-ceuta-migrant-rush",
-      "title": "EU chief urges 'united action' on borders after Ceuta migrant rush",
-      "link": "https://en.hespress.com/143145-eu-chief-urges-united-action-on-borders-after-ceuta-migrant-rush.html",
-      "description": "EU chief Ursula von der Leyen called Monday for “united action” on border security after a migrant rush on Spain’s North African enclave of Ceuta triggered a public spat between Madrid and several European partners. “From this incident, it is clear that we must do more to further strengthen our borders at critical points,” von […] The post EU chief urges 'united action' on borders after Ceuta migrant rush appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-apr-s-sebta-rabat-refuse-le-r-le-de-sous-traitant-de-la-politique-migratoire-europ-enne",
+      "title": "Après Sebta, Rabat refuse le rôle de « sous-traitant » de la politique migratoire européenne",
+      "link": "https://fr.hespress.com/484008-apres-sebta-rabat-refuse-le-role-de-sous-traitant-de-la-politique-migratoire-europeenne.html",
+      "description": "« Nous ne sommes ni le gendarme ni le concierge de l’Europe, nous sommes un partenaire souverain, pas un sous-traitant », a déclaré une source gouvernementale marocaine après les événements migratoires de Sebta occupée. Revenant sur les événements du 30 et 31 juillet, la source officielle, a critiqué le traitement médiatique et les commentaires de certains acteurs […] The post Après Sebta, Rabat refuse le rôle de « sous-traitant » de la politique migratoire européenne appeared first on Hespress ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-03T17:32:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "الكاتب فقيهاً وساحراً وشوّافاً",
-      "link": "https://www.hespress.com/%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81-%d8%a7%d9%84%d9%82%d8%af%d9%8a%d9%85%d8%a9-%d9%84%d9%84%d9%83%d9%84%d9%85%d8%a9-%d9%88%d8%aa%d8%ad%d9%88%d9%84%d8%a7%d8%aa%d9%87%d8%a7-%d8%af-1786949.html",
-      "description": "في الوظائف القديمة للكلمة وتحولاتها داخل المجتمع المغربي الكاتب بوصفه فقيهاً وساحراً وشوّافاً قد يبدو الجمع بين الفقيه والساحر والشوّاف والكاتب ضرباً من العبث، فالأول يسند كلامه إلى النص الديني، والثاني إلى قوى خفية، والثالث إلى حدس يدّعي اختراق المستقبل، بينما يُفترض في الكاتب أن يستند إلى الخيال أو العقل أو ملاحظة الواقع. غير أن […] The post الكاتب فقيهاً وساحراً وشوّافاً appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-03T17:30:25Z",
+      "published": "2026-08-03T21:13:22Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
