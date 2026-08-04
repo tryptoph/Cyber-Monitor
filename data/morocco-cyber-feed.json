@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-04T09:13:21Z",
+  "generatedAt": "2026-08-04T14:43:24Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-en-world-bank-morocco-s-agricultural-success-increasingly-threatened-by-recurring-drought",
-      "title": "World Bank: Morocco's agricultural success increasingly threatened by recurring drought",
-      "link": "https://en.hespress.com/143147-world-bank-moroccos-agricultural-success-increasingly-threatened-by-recurring-drought.html",
-      "description": "Morocco has strengthened its agricultural sector and reduced its reliance on food imports over the past two decades, but increasingly frequent droughts are placing those gains under growing strain, according to a new World Bankreport. The report, Building Food Security, Creating Jobs: Policy Pathways for the Middle East and North Africa, Afghanistan and Pakistan, describes […] The post World Bank: Morocco's agricultural success increasingly threatened by recurring drought appeared first on HESPR",
+      "id": "dgssi-67140408-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
+      "title": "67140408/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-microsoft-edge-18",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-04T14:43:22Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67130408-26-vuln-rabilit-s-affectant-le-noyau-de-redhat",
+      "title": "67130408/26 - Vulnérabilités affectant le noyau de RedHat",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-noyau-de-redhat-5",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-04T14:43:22Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-spain-allocates-25-million-more-to-ceuta-for-unaccompanied-migrant-minors",
+      "title": "Spain allocates €25 million more to Ceuta for unaccompanied migrant minors",
+      "link": "https://en.hespress.com/143222-spain-allocates-e25-million-more-to-ceuta-for-unaccompanied-migrant-minors.html",
+      "description": "Spain will allocate an additional €25 million to the autonomous city of Ceuta to support the care of unaccompanied migrant minors who arrived during last week’s migration surge, Minister of Inclusion, Social Security and Migration Elma Saiz announced on Tuesday. Speaking to Spanish media, Saiz said the extraordinary funding will be added to the €5.5 […] The post Spain allocates €25 million more to Ceuta for unaccompanied migrant minors appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-04T08:00:00Z",
+      "published": "2026-08-04T13:12:16Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -243,32 +269,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-07-29T14:34:03Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66962807-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
-      "title": "66962807/26 - Vulnérabilités critiques dans les plugins WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-12",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-28T19:55:40Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-66952807-26-santastealer-malware",
-      "title": "66952807/26 - “ SantaStealer ” malware",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/santastealer-malware",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-28T14:42:52Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
