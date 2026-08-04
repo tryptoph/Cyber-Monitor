@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-04T14:43:24Z",
+  "generatedAt": "2026-08-04T20:03:18Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-crise-migratoire-sebta-une-fonctionnaire-de-la-dsn-limog-e",
+      "title": "Crise migratoire à Sebta : une fonctionnaire de la DSN limogée",
+      "link": "https://fr.hespress.com/484134-crise-migratoire-a-sebta-une-fonctionnaire-de-la-dsn-limogee.html",
+      "description": "Le gouvernement espagnol a démis de ses fonctions la responsable chargée de diffuser les alertes du Département de la sécurité nationale (DSN), après la publication d’une note officielle faisant état de 49.000 migrants entrés à Sebta lors de la récente crise migratoire, rapportent plusieurs médias espagnols. Selon les informations publiées par ABC, la décision a […] The post Crise migratoire à Sebta : une fonctionnaire de la DSN limogée appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-04T18:38:45Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67140408-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
       "title": "67140408/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
