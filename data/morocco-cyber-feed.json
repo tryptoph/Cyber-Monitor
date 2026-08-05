@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-05T03:38:54Z",
+  "generatedAt": "2026-08-05T09:10:08Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-04T23:16:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-frais-exorbitants-pour-les-tudiants-salari-s-la-riposte-s-organise-face-une-mesure-jug-e-inconst",
-      "title": "Frais exorbitants pour les étudiants-salariés : la riposte s'organise face à une mesure jugée inconstitutionnelle",
-      "link": "https://fr.hespress.com/484116-frais-exorbitants-pour-les-etudiants-salaries-la-riposte-sorganise-face-a-une-mesure-jugee-inconstitutionnelle.html",
-      "description": "La décision de plusieurs universités marocaines d’imposer des droits d’inscription colossaux aux étudiants fonctionnaires et salariés suscite une vague d’indignation à travers le Royaume. Atteignant dans certains cas 20.000 dirhams par an, soit l’équivalent de près de six mois du salaire minimum, ces montants ont poussé les personnes lésées à se structurer en coordination pour […] The post Frais exorbitants pour les étudiants-salariés : la riposte s'organise face à une mesure jugée inconstitutio",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-04T21:47:40Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
