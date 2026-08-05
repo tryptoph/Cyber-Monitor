@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-04T20:03:18Z",
+  "generatedAt": "2026-08-05T03:38:54Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-crise-migratoire-sebta-une-fonctionnaire-de-la-dsn-limog-e",
-      "title": "Crise migratoire à Sebta : une fonctionnaire de la DSN limogée",
-      "link": "https://fr.hespress.com/484134-crise-migratoire-a-sebta-une-fonctionnaire-de-la-dsn-limogee.html",
-      "description": "Le gouvernement espagnol a démis de ses fonctions la responsable chargée de diffuser les alertes du Département de la sécurité nationale (DSN), après la publication d’une note officielle faisant état de 49.000 migrants entrés à Sebta lors de la récente crise migratoire, rapportent plusieurs médias espagnols. Selon les informations publiées par ABC, la décision a […] The post Crise migratoire à Sebta : une fonctionnaire de la DSN limogée appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-en-spain-fires-national-security-communications-official-after-ceuta-migration-figures-leak",
+      "title": "Spain fires National Security Communications Official after Ceuta migration figures leak",
+      "link": "https://en.hespress.com/143233-spain-fires-national-security-communications-official-after-ceuta-migration-figures-leak.html",
+      "description": "The Spanish government has dismissed the official responsible for publishing media alerts issued by the National Security Department under the Prime Minister’s Office after she circulated an official statement revealing that nearly 49,000 migrants had entered the Spanish enclave of Ceuta during the recent migration crisis, according to Spanish media reports. Spanish newspaper ABC reported […] The post Spain fires National Security Communications Official after Ceuta migration figures leak appear",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-04T23:16:59Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-frais-exorbitants-pour-les-tudiants-salari-s-la-riposte-s-organise-face-une-mesure-jug-e-inconst",
+      "title": "Frais exorbitants pour les étudiants-salariés : la riposte s'organise face à une mesure jugée inconstitutionnelle",
+      "link": "https://fr.hespress.com/484116-frais-exorbitants-pour-les-etudiants-salaries-la-riposte-sorganise-face-a-une-mesure-jugee-inconstitutionnelle.html",
+      "description": "La décision de plusieurs universités marocaines d’imposer des droits d’inscription colossaux aux étudiants fonctionnaires et salariés suscite une vague d’indignation à travers le Royaume. Atteignant dans certains cas 20.000 dirhams par an, soit l’équivalent de près de six mois du salaire minimum, ces montants ont poussé les personnes lésées à se structurer en coordination pour […] The post Frais exorbitants pour les étudiants-salariés : la riposte s'organise face à une mesure jugée inconstitutio",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-04T18:38:45Z",
+      "published": "2026-08-04T21:47:40Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -50,19 +63,6 @@
       "published": "2026-08-04T14:43:22Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-spain-allocates-25-million-more-to-ceuta-for-unaccompanied-migrant-minors",
-      "title": "Spain allocates €25 million more to Ceuta for unaccompanied migrant minors",
-      "link": "https://en.hespress.com/143222-spain-allocates-e25-million-more-to-ceuta-for-unaccompanied-migrant-minors.html",
-      "description": "Spain will allocate an additional €25 million to the autonomous city of Ceuta to support the care of unaccompanied migrant minors who arrived during last week’s migration surge, Minister of Inclusion, Social Security and Migration Elma Saiz announced on Tuesday. Speaking to Spanish media, Saiz said the extraordinary funding will be added to the €5.5 […] The post Spain allocates €25 million more to Ceuta for unaccompanied migrant minors appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-04T13:12:16Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
