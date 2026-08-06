@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-06T03:44:01Z",
+  "generatedAt": "2026-08-06T09:10:29Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-avocats-incertitude-prolong-e-en-attendant-la-d-cision-de-la-cour-constitutionnelle",
-      "title": "Avocats : incertitude prolongée en attendant la décision de la Cour constitutionnelle",
-      "link": "https://fr.hespress.com/484241-avocats-incertitude-prolongee-en-attendant-la-decision-de-la-cour-constitutionnelle.html",
-      "description": "Le projet de loi n°66.23 relatif à la profession d’avocat reste entre les mains de la Cour constitutionnelle. En attendant sa décision, les avocats maintiennent leur mouvement de protestation et les conséquences se font sentir dans plusieurs juridictions. Reports d’audiences, dossiers en suspens et incertitudes procédurales alimentent les inquiétudes des justiciables, comme celles des professionnels […] The post Avocats : incertitude prolongée en attendant la décision de la Cour constitutionnell",
+      "id": "hespress-fr-migration-vers-sebta-tpame-d-nonce-la-mise-en-danger-de-jeunes-enfants",
+      "title": "Migration vers Sebta : TPAME dénonce la mise en danger de jeunes enfants",
+      "link": "https://fr.hespress.com/484123-migration-vers-sebta-tpame-denonce-la-mise-en-danger-de-jeunes-enfants.html",
+      "description": "Des vidéos largement relayées sur les réseaux sociaux montrant des familles entreprenant une migration irrégulière vers Sebta avec des nourrissons et de très jeunes enfants, ont suscité de vives réactions chez les internautes, qui ont critiqué le manque de responsabilité de certains parents. Ces images ont été jugées inquiétantes pour l’association Touche pas à mon […] The post Migration vers Sebta : TPAME dénonce la mise en danger de jeunes enfants appeared first on Hespress Français - Actualit",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-05T23:29:37Z",
+      "published": "2026-08-06T08:45:30Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-fr-la-fifa-r-affirme-son-plein-soutien-infantino-mais-reconnait-des-erreurs",
-      "title": "La Fifa réaffirme son \"plein soutien\" à Infantino\", mais reconnait \"des erreurs\"",
-      "link": "https://fr.hespress.com/484263-la-fifa-reaffirme-son-plein-soutien-a-infantino-mais-reconnait-des-erreurs.html",
-      "description": "La direction de la Fifa a présenté mercredi soir « des excuses » après la polémique sur l’ouverture aux investisseurs privés, tout en réaffirmant son « plein soutien » à son président Gianni Infantino. La direction de la Fifa a reconnu « que des erreurs ont été commises après la fuite de la proposition dans les médias », écrit l’instance dans […] The post La Fifa réaffirme son \"plein soutien\" à Infantino\", mais reconnait \"des erreurs\" appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-fr-polisario-les-divisions-tal-es-au-grand-jour",
+      "title": "Polisario : les divisions étalées au grand jour",
+      "link": "https://fr.hespress.com/484233-polisario-les-divisions-etalees-au-grand-jour.html",
+      "description": "C’est une confrontation d’une rareté soulignée par tous les observateurs. Le front separatiste du polisario traverse une zone de fortes turbulences politiques, marquée par un clash verbal public entre deux figures historiques de premier plan. Ce déchirement au sommet intervient dans la foulée de la résolution 2797 du Conseil de sécurité de l’ONU, intervenue comme […] The post Polisario : les divisions étalées au grand jour appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-05T22:59:25Z",
+      "published": "2026-08-06T07:07:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "صحف إسبانية تدعو إلى حزم أوروبي بعد التدفقات الجماعية على سبتة المحتلة",
+      "link": "https://www.hespress.com/%d8%b5%d8%ad%d9%81-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%af%d8%b9%d9%88-%d8%a5%d9%84%d9%89-%d8%ad%d8%b2%d9%85-%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a-%d8%a8%d8%b9%d8%af-%d8%a7%d9%84%d8%aa-1788006.html",
+      "description": "مازالت التدفقات الجماعية لمهاجرين غير نظاميين صوب سبتة المحتلة وتداعياتها الموضوع الرئيسي الذي يستأثر باهتمام الإعلام الإسباني، حيث برزت الدعوة، اليوم الأربعاء، إلى “حزم أوروبي” أمام ما وصفت بـ”الهجمات الهجينة”، منتقداً، في الآن نفسه، “حيلة وزارة الداخلية الإسبانية لتجنب تمرد داخل المركز الوطني للاستخبارات، من خلال تصوير ما جرى بأنه ‘أمر غير عادي واستثنائي'”. وهكذا […] The post صحف إسبانية تدعو إلى حزم أوروبي بعد التدفقات الجماعية على سبتة المحتلة appeared first on Hespress - هسبريس جريدة إلكترو",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-06T06:00:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
