@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-05T19:58:27Z",
+  "generatedAt": "2026-08-06T03:44:01Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-avocats-incertitude-prolong-e-en-attendant-la-d-cision-de-la-cour-constitutionnelle",
+      "title": "Avocats : incertitude prolongée en attendant la décision de la Cour constitutionnelle",
+      "link": "https://fr.hespress.com/484241-avocats-incertitude-prolongee-en-attendant-la-decision-de-la-cour-constitutionnelle.html",
+      "description": "Le projet de loi n°66.23 relatif à la profession d’avocat reste entre les mains de la Cour constitutionnelle. En attendant sa décision, les avocats maintiennent leur mouvement de protestation et les conséquences se font sentir dans plusieurs juridictions. Reports d’audiences, dossiers en suspens et incertitudes procédurales alimentent les inquiétudes des justiciables, comme celles des professionnels […] The post Avocats : incertitude prolongée en attendant la décision de la Cour constitutionnell",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-05T23:29:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-la-fifa-r-affirme-son-plein-soutien-infantino-mais-reconnait-des-erreurs",
+      "title": "La Fifa réaffirme son \"plein soutien\" à Infantino\", mais reconnait \"des erreurs\"",
+      "link": "https://fr.hespress.com/484263-la-fifa-reaffirme-son-plein-soutien-a-infantino-mais-reconnait-des-erreurs.html",
+      "description": "La direction de la Fifa a présenté mercredi soir « des excuses » après la polémique sur l’ouverture aux investisseurs privés, tout en réaffirmant son « plein soutien » à son président Gianni Infantino. La direction de la Fifa a reconnu « que des erreurs ont été commises après la fuite de la proposition dans les médias », écrit l’instance dans […] The post La Fifa réaffirme son \"plein soutien\" à Infantino\", mais reconnait \"des erreurs\" appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-05T22:59:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-spanish-intelligence-warned-of-ceuta-migrant-surge-weeks-before-mass-crossing-report-says",
       "title": "Spanish intelligence warned of Ceuta migrant surge weeks before mass crossing, report says",
       "link": "https://en.hespress.com/143279-spanish-intelligence-warned-of-ceuta-migrant-surge-weeks-before-mass-crossing-report-says.html",
@@ -22,32 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-05T19:30:22Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "النجاعة الهجومية تضع \"اللبؤات\" أمام اختبار حقيقي بالأدوار الإقصائية",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%86%d8%ac%d8%a7%d8%b9%d8%a9-%d8%a7%d9%84%d9%87%d8%ac%d9%88%d9%85%d9%8a%d8%a9-%d8%aa%d8%b6%d8%b9-%d8%a7%d9%84%d9%84%d8%a8%d8%a4%d8%a7%d8%aa-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d8%ae-1788087.html",
-      "description": "حجز المنتخب الوطني المغربي النسوي بطاقة العبور إلى ربع نهائي كأس إفريقيا للأمم 2026، بعدما تصدر المجموعة الأولى برصيد سبع نقاط، إثر فوزين على كينيا والجزائر وتعادل سلبي في آخر مباريات دور المجموعات أمام السنغال. ورغم نجاح “لبؤات الأطلس” في بلوغ ربع النهائي ومواصلة المنافسة على اللقب ترى خبيرتان في الشأن الكروي النسوي أن أداء […] The post النجاعة الهجومية تضع \"اللبؤات\" أمام اختبار حقيقي بالأدوار الإقصائية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-05T19:00:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "صُنّاع البروباغندا",
-      "link": "https://www.hespress.com/%d8%b5%d9%8f%d9%86%d9%91%d8%a7%d8%b9-%d8%a7%d9%84%d8%a8%d8%b1%d9%88%d8%a8%d8%a7%d8%ba%d9%86%d8%af%d8%a7-1788091.html",
-      "description": "ترزح منصات التواصل الاجتماعي، خلال الفترة الأخيرة، تحت وابل من الأخبار الزائفة والهجمات الممنهجة التي تستهدف المغرب ومؤسساته الأمنية وشخصياته الوطنية، فيما انخرطت بعض الحسابات الافتراضية في ما يشبه حربا هجينة تستعمل البروباغندا والأخبار المضللة أداة للتأثير في الرأي العام، مستفيدة من سرعة انتشار المحتوى، ومن قابلية الصور والمقاطع المبتورة لإعادة التداول خارج سياقها، ومن […] The post صُنّاع البروباغندا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-05T18:15:39Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
