@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-06T14:38:40Z",
+  "generatedAt": "2026-08-07T00:18:35Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-enseignement-sup-rieur-les-nouveaux-frais-relancent-le-d-bat",
+      "title": "Enseignement supérieur : les nouveaux frais relancent le débat",
+      "link": "https://fr.hespress.com/484328-enseignement-superieur-les-nouveaux-frais-relancent-le-debat.html",
+      "description": "La généralisation de frais d’inscription pour les fonctionnaires et les salariés suivant des études dans le cadre du système de « l’emploi du temps aménagé » a relancé le débat sur la gratuité de l’enseignement supérieur. Jugés symboliques par certains, pour d’autres, ces frais d’inscription seraient élevés. La décision d’uniformiser les frais d’inscription pour les formations en […] The post Enseignement supérieur : les nouveaux frais relancent le débat appeared first on Hespress Français - Act",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-06T22:50:07Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-meta-reconna-t-qu-un-de-ses-mod-les-d-ia-a-pirat-une-entreprise-lors-d-un-test",
+      "title": "Meta reconnaît qu'un de ses modèles d'IA a piraté une entreprise lors d'un test",
+      "link": "https://fr.hespress.com/484297-meta-reconnait-quun-de-ses-modeles-dia-a-pirate-une-entreprise-lors-dun-test.html",
+      "description": "Après OpenAI et Anthropic, c’est au tour de Meta de reconnaître qu’un de ses modèles d’intelligence artificielle a réussi à compromettre une entreprise dans le cadre d’un test de cybersécurité. Le groupe américain affirme toutefois que l’incident est lié à une erreur de configuration de l’environnement de test et non à une perte de contrôle […] The post Meta reconnaît qu'un de ses modèles d'IA a piraté une entreprise lors d'un test appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-06T19:49:09Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-italy-dismantles-illegal-immigration-network-eight-algerian-nationals-arrested",
+      "title": "Italy dismantles illegal immigration network, eight Algerian nationals arrested",
+      "link": "https://en.hespress.com/143326-italy-dismantles-illegal-immigration-network-eight-algerian-nationals-arrested.html",
+      "description": "Italian police have dismantled an illegal immigration network that organized crossings to transport hundreds of migrants to Sardinia, security sources indicated, specifying that eight Algerian nationals were arrested. The network, led by an Algerian asylum seeker settled in the Cagliari region (southern Sardinia), operated between Algeria, France, and Italy, stated the Italian police, as quoted […] The post Italy dismantles illegal immigration network, eight Algerian nationals arrested appeared ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-06T17:40:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67220608-26-vuln-rabilit-critique-affectant-des-produits-check-point",
       "title": "67220608/26 - Vulnérabilité critique affectant des produits Check Point",
@@ -89,45 +128,6 @@
       "published": "2026-08-06T14:38:32Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "الحكومة الكويتية تقرر إغلاق \"المدرسة الإيرانية\"",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa%d9%8a%d8%a9-%d8%aa%d9%82%d8%b1%d8%b1-%d8%a5%d8%ba%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d8%a9-%d8%a7-1788361.html",
-      "description": "قررت وزارة التربية الكويتية إغلاق المدرسة الإيرانية الوحيدة في البلاد، وفق ما أفاد به مصدر في الوزارة وكالة فرانس برس اليوم الخميس، في خطوة تأتي عقب تعرّض البلاد لهجمات متكررة من طهران خلال الحرب في الشرق الأوسط. ولم يحدد المصدر في وزارة التربية الكويتية سبب إغلاق المدرسة الإيرانية. وجاء في نصّ القرار الذي اطلعت عليه […] The post الحكومة الكويتية تقرر إغلاق \"المدرسة الإيرانية\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-06T14:33:23Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-l-gislatives-le-minist-re-de-l-int-rieur-examine-des-plaintes-pour-campagne-lectorale-anticip-e",
-      "title": "Législatives : le ministère de l'Intérieur examine des plaintes pour campagne électorale anticipée",
-      "link": "https://fr.hespress.com/484290-legislatives-le-ministere-de-linterieur-examine-des-plaintes-pour-campagne-electorale-anticipee.html",
-      "description": "Le ministère de l’Intérieur a reçu plusieurs plaintes et des recours depuis différentes provinces et préfectures du pays, faisant état de candidats aux élections législatives ayant entamé une campagne électorale anticipée, bien avant l’ouverture officielle de la période légale prévue à cet effet. Alors que les élections législatives sont prévues pour septembre, certains candidats investis […] The post Législatives : le ministère de l'Intérieur examine des plaintes pour campagne électorale antici",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-06T12:07:42Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "\"ميتا\" تتعرض إلى اختراق بالذكاء الاصطناعي",
-      "link": "https://www.hespress.com/%d9%85%d9%8a%d8%aa%d8%a7-%d8%aa%d8%aa%d8%b9%d8%b1%d8%b6-%d8%a5%d9%84%d9%89-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a8%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86-1788241.html",
-      "description": "قالت شركة ميتا إن أحد نماذج الذكاء الاصطناعي استغل ثغرة أمنية للولوج إلى أنظمة حاسوبية تابعة لشركة خارجية بعدما أدى خطأ في الإعدادات إلى منحه إمكانية الوصول إلى شبكة الإنترنت بدون قصد. وتشابه الواقعة وقائع مماثلة حدثت في يوليوز الماضي وشملت نماذج ذكاء اصطناعي من شركتي أوبن ايه اي وأنثروبيك. وفي هذه الحالات، تم منح […] The post \"ميتا\" تتعرض إلى اختراق بالذكاء الاصطناعي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-06T11:45:33Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
