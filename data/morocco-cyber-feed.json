@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-07T00:18:35Z",
+  "generatedAt": "2026-08-07T07:46:10Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-08-06T22:50:07Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-meta-reconna-t-qu-un-de-ses-mod-les-d-ia-a-pirat-une-entreprise-lors-d-un-test",
-      "title": "Meta reconnaît qu'un de ses modèles d'IA a piraté une entreprise lors d'un test",
-      "link": "https://fr.hespress.com/484297-meta-reconnait-quun-de-ses-modeles-dia-a-pirate-une-entreprise-lors-dun-test.html",
-      "description": "Après OpenAI et Anthropic, c’est au tour de Meta de reconnaître qu’un de ses modèles d’intelligence artificielle a réussi à compromettre une entreprise dans le cadre d’un test de cybersécurité. Le groupe américain affirme toutefois que l’incident est lié à une erreur de configuration de l’environnement de test et non à une perte de contrôle […] The post Meta reconnaît qu'un de ses modèles d'IA a piraté une entreprise lors d'un test appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-06T19:49:09Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
