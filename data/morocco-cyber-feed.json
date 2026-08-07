@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-07T13:42:45Z",
+  "generatedAt": "2026-08-07T19:20:33Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67250708-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
+      "title": "67250708/26 - Vulnérabilités affectant le navigateur Google Chrome",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-google-chrome-54",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-07T19:20:25Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67240708-26-vuln-rabilit-affectant-apple-macos",
+      "title": "67240708/26 - Vulnérabilité affectant Apple macOS",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-apple-macos",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-07T19:20:25Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-cndh-ceuta-events-exposed-structural-gaps-beyond-border-security",
+      "title": "CNDH: Ceuta events exposed structural gaps beyond border security",
+      "link": "https://en.hespress.com/143390-cndh-ceuta-events-exposed-structural-gaps-beyond-border-security.html",
+      "description": "Morocco’s National Human Rights Council (CNDH) has released its preliminary findings on the mass migration attempts toward the Spanish enclaves of Ceuta and Melilla, concluding that the events exposed serious vulnerabilities affecting children, young people, and migrants while highlighting shortcomings in prevention, protection, and institutional coordination. The report calls for a rights-based response centered on […] The post CNDH: Ceuta events exposed structural gaps beyond border security a",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-07T18:06:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-mondial-2030-le-maroc-partenaire-incontournable-malgr-les-pressions-politiques-et-m-diatiques-en",
+      "title": "Mondial 2030: le Maroc, partenaire incontournable malgré les pressions politiques et médiatiques en Espagne",
+      "link": "https://fr.hespress.com/484429-mondial-2030-le-maroc-partenaire-incontournable-malgre-les-pressions-politiques-et-mediatiques-en-espagne.html",
+      "description": "Alors qu’une partie de la classe politique espagnole, principalement issue des extrêmes, tente de relancer la polémique autour des événements migratoires de Sebta, le gouvernement espagnol a réaffirmé son attachement à l’organisation conjointe de la Coupe du monde 2030 avec le Maroc et le Portugal, prenant ainsi ses distances avec les appels de certains partis […] The post Mondial 2030: le Maroc, partenaire incontournable malgré les pressions politiques et médiatiques en Espagne appeared first o",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-07T15:33:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-spanish-court-investigates-whether-authorities-ignored-warning-signs-before-ceuta-migrant-surge",
+      "title": "Spanish court investigates whether authorities ignored warning signs before Ceuta migrant surge",
+      "link": "https://en.hespress.com/143370-spanish-court-investigates-whether-authorities-ignored-warning-signs-before-ceuta-migrant-surge.html",
+      "description": "Spain’s National Court is investigating whether authorities received intelligence or other warning signs before the mass migrant crossing into Ceuta and whether security forces had sufficient information to prepare for the unprecedented influx. Judge María Tardón has asked the Civil Guard to clarify whether it received any information or indications in the days leading up […] The post Spanish court investigates whether authorities ignored warning signs before Ceuta migrant surge appeared first o",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-07T14:00:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67230708-26-vuln-rabilit-s-affectant-jenkins",
       "title": "67230708/26 - Vulnérabilités affectant Jenkins",
@@ -35,19 +100,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-07T13:21:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "عبور ضعيف يسجل في مضيق هرمز",
-      "link": "https://www.hespress.com/%d8%b9%d8%a8%d9%88%d8%b1-%d8%b6%d8%b9%d9%8a%d9%81-%d9%8a%d8%b3%d8%ac%d9%84-%d9%81%d9%8a-%d9%85%d8%b6%d9%8a%d9%82-%d9%87%d8%b1%d9%85%d8%b2-1788650.html",
-      "description": "لا تزال حركة الشحن عبر مضيق هرمز، وهو شريان حيوي للتجارة العالمية، تعاني من اضطرابات شديدة؛ على الرغم من توقف الهجمات المتبادلة بين الولايات المتحدة الأمريكية وإيران. ومرت، أمس الخميس، ثماني سفن فقط عبر المضيق، طبقا لبيانات من شركة كيبلر، المتخصصة في معلومات التجارة، حصلت عليها وكالة الأنباء الألمانية (د.ب.أ) اليوم الجمعة. وفي المتوسط، عبرت […] The post عبور ضعيف يسجل في مضيق هرمز appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-07T11:21:37Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -251,32 +303,6 @@
       "id": "dgssi-67083107-26-vuln-rabilit-critique-dans-ruby-on-rails-active-storage",
       "title": "67083107/26 - Vulnérabilité critique dans Ruby on Rails Active Storage",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-ruby-rails-active-storage",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-31T14:40:19Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67073107-26-vuln-rabilit-s-critiques-dans-les-produits-vmware",
-      "title": "67073107/26 - Vulnérabilités critiques dans les produits VMware",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-vmware-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-07-31T14:40:19Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67063107-26-vuln-rabilit-critique-activement-exploit-e-affectant-cisco-firewall",
-      "title": "67063107/26 - Vulnérabilité critique activement exploitée affectant Cisco Firewall…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-cisco-firewall-management-center",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
