@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-08T13:15:43Z",
+  "generatedAt": "2026-08-08T19:03:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,53 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "الإمارات تدين أعمال القرصنة الإيرانية",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d9%86%d9%83%d8%b1-%d8%a7%d9%84%d9%82%d8%b1%d8%b5%d9%86%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-1789220.html",
-      "description": "أعلنت شركة “أدنوك” الإماراتية تعرّض إحدى سفنها للاستهداف بصاروخ أثناء عبورها مضيق هرمز، اليوم السبت؛ في حادثة أعادت إلى الواجهة المخاوف المرتبطة بأمن الملاحة في واحد من أهم الممرات البحرية الحيوية في العالم. وأوضحت الشركة أن السفينة تعرّضت لهجوم صاروخي أثناء مرورها بالمضيق، مشيرة إلى أن الحادث لم يسفر عن تسجيل أي إصابات، وأنه تمت […] The post الإمارات تدين أعمال القرصنة الإيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-washington-annonce-une-aide-d-un-milliard-de-dollars-pour-la-colombie",
+      "title": "Washington annonce une aide d'un milliard de dollars pour la Colombie",
+      "link": "https://fr.hespress.com/484546-washington-annonce-une-aide-dun-milliard-de-dollars-pour-la-colombie.html",
+      "description": "Les Etats-Unis ont annoncé leur intention d’accorder une aide d’un milliard de dollars pour les politiques économiques et de sécurité du nouveau président colombien, Abelardo de la Espriella, allié de Donald Trump. « Les Etats-Unis, en coopération avec le Congrès, ont l’intention d’annoncer une aide d’un milliard de dollars dans le cadre d’un ensemble de mesures […] The post Washington annonce une aide d'un milliard de dollars pour la Colombie appeared first on Hespress Français - Actualités du ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-08T11:14:10Z",
+      "published": "2026-08-08T18:53:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-what-to-expect-from-the-new-saudi-turkey-pakistan-deal",
+      "title": "What to expect from the new Saudi-Turkey-Pakistan deal",
+      "link": "https://en.hespress.com/143460-what-to-expect-from-the-new-saudi-turkey-pakistan-deal.html",
+      "description": "A defence pact between Saudi Arabia, Turkey and Pakistan establishes a new security alliance seeking to deter a bellicose Iran, offset an unreliable US and send a message to Israel, analysts say. As the Middle East war drags on, this alliance binds three Sunni powers — all allies of the United States — with a […] The post What to expect from the new Saudi-Turkey-Pakistan deal appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-08T17:34:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cotonou-la-soci-t-civile-mobilis-e-autour-de-l-initiative-atlantique-royale",
+      "title": "Cotonou : la société civile mobilisée autour de l'Initiative atlantique royale",
+      "link": "https://fr.hespress.com/484598-cotonou-la-societe-civile-mobilisee-autour-de-linitiative-atlantique-royale.html",
+      "description": "À l’initiative du Centre méditerranéen pour le développement (MEDEV), think tank marocain, la capitale béninoise, Cotonou, a abrité vendredi une conférence de haut niveau dédiée aux atouts stratégiques de l’Initiative Atlantique Royale. Axée sur le thème « Développement des pays côtiers et désenclavement du continent : une lecture par le nexus développement-climat-sécurité », cette rencontre a réuni […] The post Cotonou : la société civile mobilisée autour de l'Initiative atlantique royale appea",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-08T15:52:12Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-moroccan-beninese-civil-society-groups-sign-cotonou-pact-on-atlantic-africa-cooperation",
+      "title": "Moroccan, Beninese civil society groups sign Cotonou Pact on Atlantic Africa Cooperation",
+      "link": "https://en.hespress.com/143444-moroccan-beninese-civil-society-groups-sign-cotonou-pact-on-atlantic-africa-cooperation.html",
+      "description": "Moroccan and Beninese civil society organizations have agreed to strengthen cooperation on development, climate resilience, security and regional integration, with a particular focus on Atlantic Africa and improving connectivity between coastal and landlocked countries. The Mediterranean Center for Development (MEDEV), Beninese organization Afrique Espérance & Développement, and the Coalition for the African Elephant signed a […] The post Moroccan, Beninese civil society groups sign Cotonou Pact",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-08T14:10:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
