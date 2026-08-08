@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-08T07:18:28Z",
+  "generatedAt": "2026-08-08T13:15:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-usa-meta-devra-verser-pr-s-d-un-milliard-de-dollars-pour-pr-judice-sur-les-jeunes",
-      "title": "USA : Meta devra verser près d’un milliard de dollars pour \"préjudice sur les jeunes\"",
-      "link": "https://fr.hespress.com/484478-usa-meta-devra-verser-pres-dun-milliard-de-dollars-pour-prejudice-sur-les-jeunes.html",
-      "description": "Le géant américain Meta a été condamné à verser près d’un milliard de dollars pour les préjudices imputés à ses plateformes sur les jeunes et devra restreindre l’accès des mineurs à certaines fonctionnalités de Facebook et Instagram, une première aux Etats-Unis. Cette condamnation, prononcée pour « trouble à l’ordre public » par un juge du Nouveau-Mexique, s’accompagne […] The post USA : Meta devra verser près d’un milliard de dollars pour \"préjudice sur les jeunes\" appeared first on Hespress Fr",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "الإمارات تدين أعمال القرصنة الإيرانية",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d9%86%d9%83%d8%b1-%d8%a7%d9%84%d9%82%d8%b1%d8%b5%d9%86%d8%a9-%d8%a7%d9%84%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-1789220.html",
+      "description": "أعلنت شركة “أدنوك” الإماراتية تعرّض إحدى سفنها للاستهداف بصاروخ أثناء عبورها مضيق هرمز، اليوم السبت؛ في حادثة أعادت إلى الواجهة المخاوف المرتبطة بأمن الملاحة في واحد من أهم الممرات البحرية الحيوية في العالم. وأوضحت الشركة أن السفينة تعرّضت لهجوم صاروخي أثناء مرورها بالمضيق، مشيرة إلى أن الحادث لم يسفر عن تسجيل أي إصابات، وأنه تمت […] The post الإمارات تدين أعمال القرصنة الإيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-08-08T01:54:14Z",
+      "published": "2026-08-08T11:14:10Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -63,19 +63,6 @@
       "published": "2026-08-07T19:20:25Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-cndh-ceuta-events-exposed-structural-gaps-beyond-border-security",
-      "title": "CNDH: Ceuta events exposed structural gaps beyond border security",
-      "link": "https://en.hespress.com/143390-cndh-ceuta-events-exposed-structural-gaps-beyond-border-security.html",
-      "description": "Morocco’s National Human Rights Council (CNDH) has released its preliminary findings on the mass migration attempts toward the Spanish enclaves of Ceuta and Melilla, concluding that the events exposed serious vulnerabilities affecting children, young people, and migrants while highlighting shortcomings in prevention, protection, and institutional coordination. The report calls for a rights-based response centered on […] The post CNDH: Ceuta events exposed structural gaps beyond border security a",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-07T18:06:44Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
