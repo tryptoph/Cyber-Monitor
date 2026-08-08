@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-07T19:20:33Z",
+  "generatedAt": "2026-08-08T02:24:37Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-usa-meta-devra-verser-pr-s-d-un-milliard-de-dollars-pour-pr-judice-sur-les-jeunes",
+      "title": "USA : Meta devra verser près d’un milliard de dollars pour \"préjudice sur les jeunes\"",
+      "link": "https://fr.hespress.com/484478-usa-meta-devra-verser-pres-dun-milliard-de-dollars-pour-prejudice-sur-les-jeunes.html",
+      "description": "Le géant américain Meta a été condamné à verser près d’un milliard de dollars pour les préjudices imputés à ses plateformes sur les jeunes et devra restreindre l’accès des mineurs à certaines fonctionnalités de Facebook et Instagram, une première aux Etats-Unis. Cette condamnation, prononcée pour « trouble à l’ordre public » par un juge du Nouveau-Mexique, s’accompagne […] The post USA : Meta devra verser près d’un milliard de dollars pour \"préjudice sur les jeunes\" appeared first on Hespress Fr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-08T01:54:14Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-amine-harit-repousse-une-offre-qatarie-et-privil-gie-l-om",
+      "title": "Amine Harit repousse une offre qatarie et privilégie l'OM",
+      "link": "https://fr.hespress.com/484488-amine-harit-repousse-une-offre-qatarie-et-privilegie-lom.html",
+      "description": "L’avenir d’Amine Harit reste incertain à l’Olympique de Marseille (OM), mais le milieu offensif marocain n’envisage pas, à ce stade, un départ. Alors qu’un club qatari s’est récemment manifesté pour s’attacher ses services, le Lion de l’Atlas privilégierait la poursuite de son aventure sur la Canebière. Selon plusieurs médias, Harit espère profiter du remaniement de […] The post Amine Harit repousse une offre qatarie et privilégie l'OM appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-07T19:49:42Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-le-maroc-et-le-chili-renforcent-leur-coop-ration-sanitaire",
+      "title": "Le Maroc et le Chili renforcent leur coopération sanitaire",
+      "link": "https://www.lavieeco.com/affaires/secteurs/le-maroc-et-le-chili-renforcent-leur-cooperation-sanitaire/",
+      "description": "L'Office national de sécurité sanitaire des produits alimentaires et le Service agricole et d'élevage du Chili (SAG) ont signé, vendredi à Santiago, un protocole de coopération en matière de quarantaine, de protection phytosanitaire et de santé animale. L’article Le Maroc et le Chili renforcent leur coopération sanitaire est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-08-07T19:40:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67250708-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
       "title": "67250708/26 - Vulnérabilités affectant le navigateur Google Chrome",
@@ -53,32 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-mondial-2030-le-maroc-partenaire-incontournable-malgr-les-pressions-politiques-et-m-diatiques-en",
-      "title": "Mondial 2030: le Maroc, partenaire incontournable malgré les pressions politiques et médiatiques en Espagne",
-      "link": "https://fr.hespress.com/484429-mondial-2030-le-maroc-partenaire-incontournable-malgre-les-pressions-politiques-et-mediatiques-en-espagne.html",
-      "description": "Alors qu’une partie de la classe politique espagnole, principalement issue des extrêmes, tente de relancer la polémique autour des événements migratoires de Sebta, le gouvernement espagnol a réaffirmé son attachement à l’organisation conjointe de la Coupe du monde 2030 avec le Maroc et le Portugal, prenant ainsi ses distances avec les appels de certains partis […] The post Mondial 2030: le Maroc, partenaire incontournable malgré les pressions politiques et médiatiques en Espagne appeared first o",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-07T15:33:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-spanish-court-investigates-whether-authorities-ignored-warning-signs-before-ceuta-migrant-surge",
-      "title": "Spanish court investigates whether authorities ignored warning signs before Ceuta migrant surge",
-      "link": "https://en.hespress.com/143370-spanish-court-investigates-whether-authorities-ignored-warning-signs-before-ceuta-migrant-surge.html",
-      "description": "Spain’s National Court is investigating whether authorities received intelligence or other warning signs before the mass migrant crossing into Ceuta and whether security forces had sufficient information to prepare for the unprecedented influx. Judge María Tardón has asked the Civil Guard to clarify whether it received any information or indications in the days leading up […] The post Spanish court investigates whether authorities ignored warning signs before Ceuta migrant surge appeared first o",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-07T14:00:08Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67230708-26-vuln-rabilit-s-affectant-jenkins",
       "title": "67230708/26 - Vulnérabilités affectant Jenkins",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-jenkins-1",
@@ -89,19 +102,6 @@
       "published": "2026-08-07T13:42:41Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-saudi-arabia-turkey-and-pakistan-to-sign-defence-pact-amid-regional-violence",
-      "title": "Saudi Arabia, Turkey and Pakistan to sign defence pact amid regional violence",
-      "link": "https://en.hespress.com/143364-saudi-arabia-turkey-and-pakistan-to-sign-defence-pact-amid-regional-violence.html",
-      "description": "Saudi Arabia, Turkey and Pakistan were set to sign a joint defence agreement on Friday, sources told AFP, amid violence in the region from Houthi attacks and the US-Iran war. Riyadh is looking to strengthen its security ties against the backdrop of war between the United States and Iran, which has drawn in surrounding nations […] The post Saudi Arabia, Turkey and Pakistan to sign defence pact amid regional violence appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-07T13:21:37Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
