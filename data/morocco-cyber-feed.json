@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-08T02:24:37Z",
+  "generatedAt": "2026-08-08T07:18:28Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-08-08T01:54:14Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-amine-harit-repousse-une-offre-qatarie-et-privil-gie-l-om",
-      "title": "Amine Harit repousse une offre qatarie et privilégie l'OM",
-      "link": "https://fr.hespress.com/484488-amine-harit-repousse-une-offre-qatarie-et-privilegie-lom.html",
-      "description": "L’avenir d’Amine Harit reste incertain à l’Olympique de Marseille (OM), mais le milieu offensif marocain n’envisage pas, à ce stade, un départ. Alors qu’un club qatari s’est récemment manifesté pour s’attacher ses services, le Lion de l’Atlas privilégierait la poursuite de son aventure sur la Canebière. Selon plusieurs médias, Harit espère profiter du remaniement de […] The post Amine Harit repousse une offre qatarie et privilégie l'OM appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-07T19:49:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
