@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-09T07:26:12Z",
+  "generatedAt": "2026-08-09T13:19:05Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -15,26 +15,39 @@
   "items": [
     {
       "id": "hespress-ar-item",
-      "title": "العراق يفكك شبكة مسلحة بـ\"درونات\"",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b9%d8%b1%d8%a7%d9%82-%d9%8a%d9%81%d9%83%d9%83-%d8%b4%d8%a8%d9%83%d8%a9-%d9%85%d8%b3%d9%84%d8%ad%d8%a9-%d8%a8%d9%80%d8%af%d8%b1%d9%88%d9%86%d8%a7%d8%aa-1789528.html",
-      "description": "كشف المتحدث الرسمي باسم الحكومة العراقية، حيدر العبودي، مساء السبت، عن نجاح قوات مكافحة الإرهاب وجهاز المخابرات العراقية في اختراق وتفكيك شبكة مسلحة كانت تخطط لتنفيذ هجمات بالطيران المسيّر على أهداف معينة. وقال العبودي، في مقابلة مع تلفزيون الرشيد: “تمكن جهاز مكافحة الإرهاب وجهاز المخابرات من اختراق شبكة مسلحة كانت تخطط لتنفيذ عمليات ضد أهداف […] The post العراق يفكك شبكة مسلحة بـ\"درونات\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "title": "الغرافة القطري يطرق باب النصيري",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ba%d8%b1%d8%a7%d9%81%d8%a9-%d8%a7%d9%84%d9%82%d8%b7%d8%b1%d9%8a-%d9%8a%d8%b7%d8%b1%d9%82-%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d9%86%d8%b5%d9%8a%d8%b1%d9%8a-1789638.html",
+      "description": "استفسر نادي الغرافة القطري عن إمكانية التعاقد مع الدولي المغربي يوسف النصيري، مهاجم اتحاد جدة السعودي، خلال فترة الانتقالات الصيفية الحالية، في ظل رغبة الفريق القطري في تعزيز خطه الهجومي بلاعب يملك خبرة كبيرة على المستويين الأوروبي والدولي. وعلمت “هسبورت” من مصدر مطلع أن مسؤولي الغرافة تواصلوا للاستفسار عن وضع النصيري وإمكانية التعاقد معه، غير […] The post الغرافة القطري يطرق باب النصيري appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-08-09T03:20:50Z",
+      "published": "2026-08-09T10:43:20Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-en-what-to-expect-from-the-new-saudi-turkey-pakistan-deal",
-      "title": "What to expect from the new Saudi-Turkey-Pakistan deal",
-      "link": "https://en.hespress.com/143460-what-to-expect-from-the-new-saudi-turkey-pakistan-deal.html",
-      "description": "A defence pact between Saudi Arabia, Turkey and Pakistan establishes a new security alliance seeking to deter a bellicose Iran, offset an unreliable US and send a message to Israel, analysts say. As the Middle East war drags on, this alliance binds three Sunni powers — all allies of the United States — with a […] The post What to expect from the new Saudi-Turkey-Pakistan deal appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "lavieeco-data-centers-et-ia-les-atouts-du-maroc-pour-devenir-un-leader-continental",
+      "title": "Data centers et IA : Les atouts du Maroc pour devenir un leader continental",
+      "link": "https://www.lavieeco.com/tech/data-centers-et-ia-les-atouts-du-maroc-pour-devenir-un-leader-continental/",
+      "description": "Le développement de cette filière représente également un enjeu de souveraineté numérique. La capacité à héberger et à traiter les données sur le continent africain répond en effet à des préoccupations croissantes liées à la maîtrise des données, à la sécurité numérique et à la dépendance vis-à-vis des infrastructures situées hors du continent. L’article Data centers et IA : Les atouts du Maroc pour devenir un leader continental est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
       "category": "morocco",
-      "published": "2026-08-08T17:34:03Z",
+      "published": "2026-08-09T09:37:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-la-fifa-d-nonce-un-effort-concert-et-continu-pour-affaiblir-infantino",
+      "title": "La FIFA dénonce \"un effort concerté et continu\" pour affaiblir Infantino",
+      "link": "https://fr.hespress.com/484636-la-fifa-denonce-un-effort-concerte-et-continu-pour-affaiblir-infantino.html",
+      "description": "La Fédération internationale de football (FIFA) a dénoncé « un effort concerté et continu de certains pour affaiblir l’Instance et son président » Gianni Infantino. « Des informations publiées récemment comportaient des affirmations non étayées et des allégations manifestement fausses concernant la FIFA et son président », a-t-elle indiqué dans un communiqué, sans pour autant préciser lesquelles. Selon un […] The post La FIFA dénonce \"un effort concerté et continu\" pour affaiblir Infantino appea",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-09T07:40:08Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
