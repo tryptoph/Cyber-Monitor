@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-09T02:32:05Z",
+  "generatedAt": "2026-08-09T07:26:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-nador-bank-of-africa-f-te-ses-clients-marocains-du-monde",
-      "title": "Nador: Bank Of Africa fête ses clients Marocains du monde",
-      "link": "https://fr.hespress.com/484555-nador-bank-of-africa-fete-ses-clients-marocains-du-monde.html",
-      "description": "Bank Of Africa (BOA) a organisé, vendredi soir à Nador, une soirée musicale grandiose en l’honneur de ses clients parmi les Marocains résidant à l’étranger (MRE). Cet événement festif et convivial, devenu un rendez-vous incontournable, a été marqué par un concert de haute facture animé par les artistes Tarik Tito et Rachid Kasmi qui ont […] The post Nador: Bank Of Africa fête ses clients Marocains du monde appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "العراق يفكك شبكة مسلحة بـ\"درونات\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b9%d8%b1%d8%a7%d9%82-%d9%8a%d9%81%d9%83%d9%83-%d8%b4%d8%a8%d9%83%d8%a9-%d9%85%d8%b3%d9%84%d8%ad%d8%a9-%d8%a8%d9%80%d8%af%d8%b1%d9%88%d9%86%d8%a7%d8%aa-1789528.html",
+      "description": "كشف المتحدث الرسمي باسم الحكومة العراقية، حيدر العبودي، مساء السبت، عن نجاح قوات مكافحة الإرهاب وجهاز المخابرات العراقية في اختراق وتفكيك شبكة مسلحة كانت تخطط لتنفيذ هجمات بالطيران المسيّر على أهداف معينة. وقال العبودي، في مقابلة مع تلفزيون الرشيد: “تمكن جهاز مكافحة الإرهاب وجهاز المخابرات من اختراق شبكة مسلحة كانت تخطط لتنفيذ عمليات ضد أهداف […] The post العراق يفكك شبكة مسلحة بـ\"درونات\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-08-08T20:11:04Z",
+      "published": "2026-08-09T03:20:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
