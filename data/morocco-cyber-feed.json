@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-08T19:03:00Z",
+  "generatedAt": "2026-08-09T02:32:05Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-washington-annonce-une-aide-d-un-milliard-de-dollars-pour-la-colombie",
-      "title": "Washington annonce une aide d'un milliard de dollars pour la Colombie",
-      "link": "https://fr.hespress.com/484546-washington-annonce-une-aide-dun-milliard-de-dollars-pour-la-colombie.html",
-      "description": "Les Etats-Unis ont annoncé leur intention d’accorder une aide d’un milliard de dollars pour les politiques économiques et de sécurité du nouveau président colombien, Abelardo de la Espriella, allié de Donald Trump. « Les Etats-Unis, en coopération avec le Congrès, ont l’intention d’annoncer une aide d’un milliard de dollars dans le cadre d’un ensemble de mesures […] The post Washington annonce une aide d'un milliard de dollars pour la Colombie appeared first on Hespress Français - Actualités du ",
+      "id": "hespress-fr-nador-bank-of-africa-f-te-ses-clients-marocains-du-monde",
+      "title": "Nador: Bank Of Africa fête ses clients Marocains du monde",
+      "link": "https://fr.hespress.com/484555-nador-bank-of-africa-fete-ses-clients-marocains-du-monde.html",
+      "description": "Bank Of Africa (BOA) a organisé, vendredi soir à Nador, une soirée musicale grandiose en l’honneur de ses clients parmi les Marocains résidant à l’étranger (MRE). Cet événement festif et convivial, devenu un rendez-vous incontournable, a été marqué par un concert de haute facture animé par les artistes Tarik Tito et Rachid Kasmi qui ont […] The post Nador: Bank Of Africa fête ses clients Marocains du monde appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-08T18:53:32Z",
+      "published": "2026-08-08T20:11:04Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,32 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-08T17:34:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cotonou-la-soci-t-civile-mobilis-e-autour-de-l-initiative-atlantique-royale",
-      "title": "Cotonou : la société civile mobilisée autour de l'Initiative atlantique royale",
-      "link": "https://fr.hespress.com/484598-cotonou-la-societe-civile-mobilisee-autour-de-linitiative-atlantique-royale.html",
-      "description": "À l’initiative du Centre méditerranéen pour le développement (MEDEV), think tank marocain, la capitale béninoise, Cotonou, a abrité vendredi une conférence de haut niveau dédiée aux atouts stratégiques de l’Initiative Atlantique Royale. Axée sur le thème « Développement des pays côtiers et désenclavement du continent : une lecture par le nexus développement-climat-sécurité », cette rencontre a réuni […] The post Cotonou : la société civile mobilisée autour de l'Initiative atlantique royale appea",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-08T15:52:12Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-moroccan-beninese-civil-society-groups-sign-cotonou-pact-on-atlantic-africa-cooperation",
-      "title": "Moroccan, Beninese civil society groups sign Cotonou Pact on Atlantic Africa Cooperation",
-      "link": "https://en.hespress.com/143444-moroccan-beninese-civil-society-groups-sign-cotonou-pact-on-atlantic-africa-cooperation.html",
-      "description": "Moroccan and Beninese civil society organizations have agreed to strengthen cooperation on development, climate resilience, security and regional integration, with a particular focus on Atlantic Africa and improving connectivity between coastal and landlocked countries. The Mediterranean Center for Development (MEDEV), Beninese organization Afrique Espérance & Développement, and the Coalition for the African Elephant signed a […] The post Moroccan, Beninese civil society groups sign Cotonou Pact",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-08T14:10:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
