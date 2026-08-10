@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-10T13:48:43Z",
+  "generatedAt": "2026-08-10T19:24:25Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "ترامب يطالب إيران بتعويضات الحرب",
+      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%b7%d8%a7%d9%84%d8%a8-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d8%aa%d8%b9%d9%88%d9%8a%d8%b6%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-1790309.html",
+      "description": "أعلن الرئيس الأمريكي دونالد ترامب الاثنين، إنه سيسعى للحصول على تعويضات من إيران عن الحرب في إطار أي مفاوضات سلام مستقبلا، مذكرا بهجمات وأعمال عنف تعود الى عقود ويشتبه بأن إيران دعمتها أو نفذتها. وكتب ترامب على مواقع التواصل “تطالب إيران بتعويضات عن الأضرار التي لحقت بها خلال النزاع العسكري الذي استمر خمسة أشهر.. وبدوري […] The post ترامب يطالب إيران بتعويضات الحرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-10T19:08:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-dgi-1er-septembre-dernier-d-lai-pour-plusieurs-obligations-fiscales",
+      "title": "DGI : 1er septembre, dernier délai pour plusieurs obligations fiscales",
+      "link": "https://www.lavieeco.com/argent/dgi-1er-septembre-dernier-delai-pour-plusieurs-obligations-fiscales/",
+      "description": "L’administration fiscale fixe au 1er septembre 2026 la date limite pour s’acquitter d’une série d’obligations portant notamment sur les retenues à la source, la TSAV et certaines contributions dues par les assureurs. L’article DGI : 1er septembre, dernier délai pour plusieurs obligations fiscales est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-08-10T18:55:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-spain-cancels-military-leave-in-ceuta-ahead-of-possible-aug-15-mass-entry-attempt",
+      "title": "Spain cancels military leave in Ceuta ahead of possible Aug. 15 mass entry attempt",
+      "link": "https://en.hespress.com/143568-spain-cancels-military-leave-in-ceuta-ahead-of-possible-aug-15-mass-entry-attempt.html",
+      "description": "Spain’s Defense Ministry has canceled leave for military personnel deployed in Ceuta until further notice, citing security concerns ahead of Aug. 15, when calls for a new mass entry attempt into the Spanish enclave have circulated on social media. The decision, reported Monday by Spanish media, comes about two weeks after a large-scale attempt by […] The post Spain cancels military leave in Ceuta ahead of possible Aug. 15 mass entry attempt appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-10T16:10:41Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67281008-26-vuln-rabilit-affectant-openssl",
       "title": "67281008/26 - Vulnérabilité affectant OpenSSL",
@@ -74,32 +113,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-08-10T10:55:53Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-abdelghni-azzi-nomm-dg-par-int-rim-de-l-onssa",
-      "title": "Abdelghni Azzi nommé DG par intérim de l’ONSSA",
-      "link": "https://fr.hespress.com/484736-abdelghni-azzi-nomme-dg-par-interim-de-lonssa.html",
-      "description": "L’Office national de sécurité sanitaire des produits alimentaires (ONSSA) a annoncé la nomination de Dr. Abdelghani Azzi au poste de directeur général par intérim de l’Office. Il prendra officiellement ses fonctions à compter du 10 août 2026. Cette nomination intervient à la suite du départ à la retraite de l’ancien directeur général de l’Office, Abdellah […] The post Abdelghni Azzi nommé DG par intérim de l’ONSSA appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-10T10:13:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-the-economist-morocco-and-the-problem-of-a-predetermined-story",
-      "title": "The Economist, Morocco and the problem of a predetermined story",
-      "link": "https://en.hespress.com/143533-the-economist-morocco-and-the-problem-of-a-predetermined-story.html",
-      "description": "Something like The Economist’s Aug. 8 article on Morocco moves from a security crisis in Ceuta to a broader assessment of King Mohammed VI, his health, private life, succession and the future of the monarchy. What it does not always establish however is the evidence connecting those subjects. A media institution’s pedigree does not grant […] The post The Economist, Morocco and the problem of a predetermined story appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-09T22:50:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
