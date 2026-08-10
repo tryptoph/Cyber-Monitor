@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-09T19:05:53Z",
+  "generatedAt": "2026-08-10T02:37:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "مقتل عشرة عسكريين في هجوم بمالي",
-      "link": "https://www.hespress.com/%d9%85%d9%82%d8%aa%d9%84-%d8%b9%d8%b4%d8%b1%d8%a9-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d9%8a%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d9%85%d8%a7%d9%84%d9%8a-1789878.html",
-      "description": "قُتل عشرة عسكريين على الأقل الأحد في هجوم على معسكر للجيش في مدينة سان في وسط مالي، تبنّته جماعة نصرة الإسلام والمسلمين، وفق ما أفادت مصادر أمنية ومحلية وكالة فرانس برس. وقال مصدر أمني لفرانس برس إن المهاجمين “سيطروا مؤقتا” على المعسكر، مشيرا إلى أن الحصيلة الأولية للهجوم تفيد بـ”مقتل نحو عشرة عسكريين”. The post مقتل عشرة عسكريين في هجوم بمالي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-industrie-un-mois-de-juin-sous-le-signe-de-la-reprise",
+      "title": "Industrie : un mois de juin sous le signe de la reprise",
+      "link": "https://fr.hespress.com/484170-industrie-un-mois-de-juin-sous-le-signe-de-la-reprise.html",
+      "description": "L’industrie manufacturière a affiché une amélioration de son activité en juin 2026, selon la dernière enquête mensuelle de conjoncture de Bank Al-Maghrib. Production et ventes sont orientées à la hausse, tandis que les industriels restent globalement optimistes pour les prochains mois, malgré des incertitudes persistantes. L’activité industrielle a poursuivi son redressement au mois de juin […] The post Industrie : un mois de juin sous le signe de la reprise appeared first on Hespress Français -",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-09T16:33:33Z",
+      "published": "2026-08-09T23:18:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-the-economist-morocco-and-the-problem-of-a-predetermined-story",
+      "title": "The Economist, Morocco and the problem of a predetermined story",
+      "link": "https://en.hespress.com/143533-the-economist-morocco-and-the-problem-of-a-predetermined-story.html",
+      "description": "Something like The Economist’s Aug. 8 article on Morocco moves from a security crisis in Ceuta to a broader assessment of King Mohammed VI, his health, private life, succession and the future of the monarchy. What it does not always establish however is the evidence connecting those subjects. A media institution’s pedigree does not grant […] The post The Economist, Morocco and the problem of a predetermined story appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-09T22:50:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
