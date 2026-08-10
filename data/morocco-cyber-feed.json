@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-10T02:37:47Z",
+  "generatedAt": "2026-08-10T08:08:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -102,19 +102,6 @@
       "published": "2026-08-07T13:42:41Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-plage-les-bons-r-flexes-pour-profiter-du-soleil-en-toute-s-curit",
-      "title": "Plage : Les bons réflexes pour profiter du soleil en toute sécurité",
-      "link": "https://aujourdhui.ma/culture/plage-les-bons-reflexes-pour-profiter-du-soleil-en-toute-securite",
-      "description": "Santé et bien-être L’été rime avec baignades, farniente et journées en bord de mer. Pourtant, une exposition excessive au soleil peut rapidement transformer un moment de détente en véritable risque pour la santé. Coups de soleil, déshydratation, insolation ou vieillissement prématuré de la peau : quelques gestes simples permettent de profiter pleinement de la plage […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-08-07T11:08:20Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
