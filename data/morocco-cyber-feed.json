@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-10T19:24:25Z",
+  "generatedAt": "2026-08-11T02:31:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "ترامب يطالب إيران بتعويضات الحرب",
-      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%b7%d8%a7%d9%84%d8%a8-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d8%aa%d8%b9%d9%88%d9%8a%d8%b6%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-1790309.html",
-      "description": "أعلن الرئيس الأمريكي دونالد ترامب الاثنين، إنه سيسعى للحصول على تعويضات من إيران عن الحرب في إطار أي مفاوضات سلام مستقبلا، مذكرا بهجمات وأعمال عنف تعود الى عقود ويشتبه بأن إيران دعمتها أو نفذتها. وكتب ترامب على مواقع التواصل “تطالب إيران بتعويضات عن الأضرار التي لحقت بها خلال النزاع العسكري الذي استمر خمسة أشهر.. وبدوري […] The post ترامب يطالب إيران بتعويضات الحرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-fiscalit-les-ch-ances-ne-pas-manquer-avant-le-1er-septembre",
+      "title": "Fiscalité : les échéances à ne pas manquer avant le 1er septembre",
+      "link": "https://fr.hespress.com/484797-fiscalite-les-echeances-a-ne-pas-manquer-avant-le-1er-septembre.html",
+      "description": "Entre retenues sur les revenus locatifs, imposition de certaines prestations d’assurance et paiement de la taxe sur les véhicules lourds, plusieurs catégories de contribuables sont concernées par les échéances fiscales de fin août. Les opérations portent principalement sur les sommes versées, mises à disposition ou inscrites en compte au cours de juillet 2026 et doivent, […] The post Fiscalité : les échéances à ne pas manquer avant le 1er septembre appeared first on Hespress Français - Actualité",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-10T19:08:43Z",
+      "published": "2026-08-10T22:13:03Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
