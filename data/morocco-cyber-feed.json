@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-11T02:31:11Z",
+  "generatedAt": "2026-08-11T07:41:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-mineurs-marocains-sebta-ouahbi-pointe-les-blocages-qui-emp-chent-les-retours",
+      "title": "Mineurs marocains à Sebta : Ouahbi pointe les blocages qui empêchent les retours",
+      "link": "https://fr.hespress.com/484807-mineurs-marocains-a-sebta-ouahbi-pointe-les-blocages-qui-empechent-les-retours.html",
+      "description": "Malgré plusieurs réunions entre Rabat et Madrid, le dossier des mineurs marocains présents à Sebta reste bloqué. Le ministre de la Justice Abdellatif Ouahbi affirme que les discussions n’ont pas permis de lever les obstacles à leur retour et dénonce notamment le refus espagnol de procéder à certaines remises. Le dossier des mineurs marocains présents […] The post Mineurs marocains à Sebta : Ouahbi pointe les blocages qui empêchent les retours appeared first on Hespress Français - Actualités du M",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-11T07:03:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-fiscalit-les-ch-ances-ne-pas-manquer-avant-le-1er-septembre",
       "title": "Fiscalité : les échéances à ne pas manquer avant le 1er septembre",
