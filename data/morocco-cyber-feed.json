@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-11T13:46:43Z",
+  "generatedAt": "2026-08-11T19:28:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67341108-26-vuln-rabilit-s-affectant-des-produits-sonicwall",
+      "title": "67341108/26 - Vulnérabilités affectant des produits SonicWall",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-sonicwall",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-11T19:28:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67331108-26-vuln-rabilit-s-critiques-affectant-plusieurs-produits-sap",
+      "title": "67331108/26 - Vulnérabilités critiques affectant plusieurs produits SAP",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-plusieurs-produits-sap-6",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-11T19:28:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67321108-26-vuln-rabilit-s-affectant-django",
+      "title": "67321108/26 - Vulnérabilités affectant Django",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-django-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-11T19:28:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-algeria-gifts-niger-4-military-helicopters",
+      "title": "Algeria gifts Niger 4 military helicopters",
+      "link": "https://en.hespress.com/143631-algeria-gifts-niger-4-military-helicopters.html",
+      "description": "Niger’s military has received four military helicopters and other equipment gifted by Algeria, airport and security sources told AFP on Tuesday. Arriving in the Nigerien capital Niamey on Sunday, the shipment included four attack and transport helicopters, spare parts, maintenance equipment and ammunition, an airport source said. Niger’s air force chief of staff, General Salifou […] The post Algeria gifts Niger 4 military helicopters appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-11T18:39:09Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67311108-26-vuln-rabilit-s-affectant-cisco-clamav",
       "title": "67311108/26 - Vulnérabilités affectant Cisco ClamAV",
@@ -50,19 +102,6 @@
       "published": "2026-08-11T13:46:36Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-r-serves-de-bl-le-dispositif-r-glementaire-reste-inachev",
-      "title": "Réserves de blé : le dispositif réglementaire reste inachevé",
-      "link": "https://fr.hespress.com/484805-reserves-de-ble-le-dispositif-reglementaire-reste-inacheve.html",
-      "description": "Le Maroc dispose de plusieurs mois de réserves de blé tendre, mais le cadre qui encadre ces stocks reste incomplet. Dans son rapport annuel pour 2025, le CESE pointe notamment l’absence, depuis près de trois décennies, du texte réglementaire devant préciser leur composition, leur constitution et leur financement. Le Maroc dispose de stocks de sécurité […] The post Réserves de blé : le dispositif réglementaire reste inachevé appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-11T12:09:46Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -269,45 +308,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-08-06T14:38:32Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67160508-26-vuln-rabilit-s-affectant-le-navigateur-mozilla-firefox",
-      "title": "67160508/26 - Vulnérabilités affectant le navigateur Mozilla Firefox",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-mozilla-firefox-30",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-05T14:37:23Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67150408-26-vuln-rabilit-s-affectant-apache-tomcat",
-      "title": "67150408/26 - Vulnérabilités affectant Apache Tomcat",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-apache-tomcat-4",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-05T14:37:23Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67140408-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
-      "title": "67140408/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-microsoft-edge-18",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-04T14:43:22Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
