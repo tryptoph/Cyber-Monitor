@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-12T13:52:05Z",
+  "generatedAt": "2026-08-12T19:30:27Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-deploys-riot-and-anti-gang-units-near-ceuta-melilla-ahead-of-aug-15-calls",
+      "title": "Morocco deploys riot and anti-gang units near Ceuta, Melilla ahead of Aug. 15 calls",
+      "link": "https://en.hespress.com/143689-morocco-deploys-riot-and-anti-gang-units-near-ceuta-melilla-ahead-of-aug-15-calls.html",
+      "description": "Moroccan authorities have raised security readiness around Ceuta and Melilla ahead of social media calls for mass irregular crossings on Aug. 15, deploying additional personnel, riot-control units and anti-gang teams while expanding surveillance of roads and coastal routes leading to the two enclaves. Hespress observed significant deployments of security personnel and equipment used in public-order […] The post Morocco deploys riot and anti-gang units near Ceuta, Melilla ahead of Aug. 15 calls a",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-12T17:21:11Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-l-agence-maritime-de-l-onu-appelle-la-prudence-face-aux-attaques-en-mer",
+      "title": "L'agence maritime de l'ONU appelle à la prudence face aux attaques en mer",
+      "link": "https://fr.hespress.com/484959-lagence-maritime-de-lonu-appelle-a-la-prudence-face-aux-attaques-en-mer.html",
+      "description": "L’agence maritime de l’ONU a appelé les armateurs et exploitants de navires à une « évaluation soigneuse des risques » pour assurer la sécurité des marins après l’attaque mardi attribuée aux Houthis pro-iranien au large du Yémen qui a fait au moins six morts. « Je réitère mon appel aux armateurs et aux exploitants de navires afin qu’ils […] The post L'agence maritime de l'ONU appelle à la prudence face aux attaques en mer appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-12T14:29:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67471208-26-vuln-rabilit-s-critiques-affectant-des-produits-sonicwall",
       "title": "67471208/26 - Vulnérabilités critiques affectant des produits SonicWall",
@@ -183,32 +209,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-migration-le-maroc-met-en-garde-contre-les-appels-du-15-ao-t-et-appelle-l-espagne-rapatrier-les-",
-      "title": "Migration : le Maroc met en garde contre les appels du 15 août et appelle l’Espagne à rapatrier les mineurs",
-      "link": "https://fr.hespress.com/484968-migration-le-maroc-met-en-garde-contre-les-appels-du-15-aout-et-appelle-lespagne-a-rapatrier-les-mineurs.html",
-      "description": "Le ministère de l’Intérieur a affirmé, mercredi, avoir renforcé le dispositif de sécurité vers les villes de Sebta et Melilla et a prévenu que les participants et les personnes qui organisent ou promeuvent les appels des tentatives de franchissement collectif et illégal pourront faire l’objet de poursuites. Il a également appelé l’Espagne à « assumer ses […] The post Migration : le Maroc met en garde contre les appels du 15 août et appelle l’Espagne à rapatrier les mineurs appeared first on Hesp",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-12T12:50:46Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-and-spain-reinforce-ceuta-border-after-new-migration-calls",
-      "title": "Morocco and Spain reinforce Ceuta border after new migration calls",
-      "link": "https://en.hespress.com/143652-morocco-and-spain-reinforce-ceuta-border-after-new-migration-calls.html",
-      "description": "Spain’s Guardia Civil warned Tuesday people in Morocco against attempting to enter Ceuta irregularly on Aug. 15, as Moroccan authorities reinforced security around Fnideq and routes leading to the Spanish enclave ahead of new social media calls for a mass crossing. “The border is not open,” the force said in Instagram and TikTok posts alongside […] The post Morocco and Spain reinforce Ceuta border after new migration calls appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-12T10:46:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67341108-26-vuln-rabilit-s-affectant-des-produits-sonicwall",
       "title": "67341108/26 - Vulnérabilités affectant des produits SonicWall",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-sonicwall",
@@ -295,19 +295,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-08-10T13:21:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-data-centers-et-ia-les-atouts-du-maroc-pour-devenir-un-leader-continental",
-      "title": "Data centers et IA : Les atouts du Maroc pour devenir un leader continental",
-      "link": "https://www.lavieeco.com/tech/data-centers-et-ia-les-atouts-du-maroc-pour-devenir-un-leader-continental/",
-      "description": "Le développement de cette filière représente également un enjeu de souveraineté numérique. La capacité à héberger et à traiter les données sur le continent africain répond en effet à des préoccupations croissantes liées à la maîtrise des données, à la sécurité numérique et à la dépendance vis-à-vis des infrastructures situées hors du continent. L’article Data centers et IA : Les atouts du Maroc pour devenir un leader continental est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-08-09T09:37:17Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
