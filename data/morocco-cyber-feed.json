@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-12T19:30:27Z",
+  "generatedAt": "2026-08-13T03:02:36Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-espagne-un-r-seau-accus-d-exploiter-des-migrantes-mineures-d-mantel-entre-les-canaries-et-la-fra",
+      "title": "Espagne : Un réseau accusé d’exploiter des migrantes mineures démantelé entre les Canaries et la France",
+      "link": "https://fr.hespress.com/484943-espagne-un-reseau-accuse-dexploiter-des-migrantes-mineures-demantele-entre-les-canaries-et-la-france.html",
+      "description": "Les autorités espagnoles ont annoncé, mardi 11 août, le démantèlement d’un réseau criminel soupçonné d’avoir recruté des migrantes mineures hébergées dans des centres d’accueil de Grande Canarie avant de les transférer vers l’Espagne continentale et la France, où certaines auraient été victimes d’exploitation sexuelle. Cette opération intervient dans un contexte de regain des tensions autour […] The post Espagne : Un réseau accusé d’exploiter des migrantes mineures démantelé entre les Canaries e",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-12T22:58:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-morocco-deploys-riot-and-anti-gang-units-near-ceuta-melilla-ahead-of-aug-15-calls",
       "title": "Morocco deploys riot and anti-gang units near Ceuta, Melilla ahead of Aug. 15 calls",
       "link": "https://en.hespress.com/143689-morocco-deploys-riot-and-anti-gang-units-near-ceuta-melilla-ahead-of-aug-15-calls.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-12T17:21:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-l-agence-maritime-de-l-onu-appelle-la-prudence-face-aux-attaques-en-mer",
-      "title": "L'agence maritime de l'ONU appelle à la prudence face aux attaques en mer",
-      "link": "https://fr.hespress.com/484959-lagence-maritime-de-lonu-appelle-a-la-prudence-face-aux-attaques-en-mer.html",
-      "description": "L’agence maritime de l’ONU a appelé les armateurs et exploitants de navires à une « évaluation soigneuse des risques » pour assurer la sécurité des marins après l’attaque mardi attribuée aux Houthis pro-iranien au large du Yémen qui a fait au moins six morts. « Je réitère mon appel aux armateurs et aux exploitants de navires afin qu’ils […] The post L'agence maritime de l'ONU appelle à la prudence face aux attaques en mer appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-12T14:29:10Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
