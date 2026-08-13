@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-13T13:52:14Z",
+  "generatedAt": "2026-08-13T19:29:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67491308-26-vuln-rabilit-s-affectant-mongodb",
+      "title": "67491308/26 - Vulnérabilités affectant MongoDB",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-mongodb-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-13T19:29:18Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "dgssi-67481308-26-vuln-rabilit-s-affectant-des-produits-de-fortinet",
       "title": "67481308/26 - Vulnérabilités affectant des produits de Fortinet",
@@ -27,58 +40,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-data-centers-le-maroc-concentre-un-tiers-des-infrastructures-certifi-es-d-afrique",
-      "title": "Data centers : le Maroc concentre un tiers des infrastructures certifiées d’Afrique",
-      "link": "https://fr.hespress.com/484994-data-centers-le-maroc-concentre-un-tiers-des-infrastructures-certifiees-dafrique.html",
-      "description": "Sur les 50 data centers africains ayant fait l’objet d’une inspection physique et obtenu une certification Tier III ou Tier IV de l’Uptime Institute, 17 sont implantés au Maroc. Un ratio qui place le Royaume loin devant les autres marchés du continent et met en évidence l’essor d’une infrastructure stratégique pour le cloud, l’intelligence artificielle […] The post Data centers : le Maroc concentre un tiers des infrastructures certifiées d’Afrique appeared first on Hespress Français - Actualités",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-13T12:34:12Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-allemagne-berlin-renforce-les-pouvoirs-de-ses-services-de-renseignement-face-la-menace-russe",
-      "title": "Allemagne : Berlin renforce les pouvoirs de ses services de renseignement face à la menace russe",
-      "link": "https://fr.hespress.com/484977-allemagne-berlin-renforce-les-pouvoirs-de-ses-services-de-renseignement-face-a-la-menace-russe.html",
-      "description": "Le gouvernement allemand a adopté mercredi une vaste réforme des services de renseignement, destinée à renforcer leurs capacités opérationnelles face à la multiplication des menaces, notamment russes. Le BND et le BfV pourront désormais mener certaines opérations secrètes, notamment dans le domaine cyber, mais cette évolution suscite déjà des inquiétudes concernant les libertés publiques. L’Allemagne […] The post Allemagne : Berlin renforce les pouvoirs de ses services de renseignement face à la",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-13T11:14:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-45-killed-and-over-3-000-injured-in-weekly-moroccan-urban-traffic-accidents",
-      "title": "45 Killed and Over 3,000 Injured in Weekly Moroccan Urban Traffic Accidents",
-      "link": "https://en.hespress.com/143723-45-killed-and-over-3000-injured-in-weekly-moroccan-urban-traffic-accidents.html",
-      "description": "A total of 45 people were killed and 3,219 others injured, including 115 seriously, in 2,341 traffic accidents recorded in urban areas across Morocco between August 3 and August 9. According to a statement from the General Directorate of National Security (DGSN), the primary causes of these accidents were driver inattention, failure to yield the […] The post 45 Killed and Over 3,000 Injured in Weekly Moroccan Urban Traffic Accidents appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-13T10:35:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-alimentation-saine-4-8-millions-de-marocains-n-en-ont-toujours-pas-les-moyens",
-      "title": "Alimentation saine : 4,8 millions de Marocains n’en ont toujours pas les moyens",
-      "link": "https://fr.hespress.com/485049-alimentation-saine-48-millions-de-marocains-nen-ont-toujours-pas-les-moyens.html",
-      "description": "Le coût d’une alimentation saine au Maroc a poursuivi sa progression en 2025, atteignant 3,64 dollars par personne et par jour en parité de pouvoir d’achat (PPA), selon le rapport L’État de la sécurité alimentaire et de la nutrition dans le monde 2026, publié par l’Organisation des Nations unies pour l’alimentation et l’agriculture (FAO) et […] The post Alimentation saine : 4,8 millions de Marocains n’en ont toujours pas les moyens appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-13T10:25:36Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "aujourdhui-d-p-ts-bancaires-une-collecte-de-1-422-5-milliards-de-dirhams-fin-juin",
       "title": "Dépôts bancaires : Une collecte de 1.422,5 milliards de dirhams à fin juin",
       "link": "https://aujourdhui.ma/economie/depots-bancaires-une-collecte-de-1-4225-milliards-de-dirhams-a-fin-juin",
@@ -87,19 +48,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-08-13T10:07:00Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-le-festival-voix-de-femmes-revient-t-touan",
-      "title": "Le Festival voix de Femmes revient à Tétouan",
-      "link": "https://aujourdhui.ma/culture/le-festival-voix-de-femmes-revient-a-tetouan",
-      "description": "Deux soirées gratuites La 14ème édition du Festival Voix de Femmes se tiendra du 12 au 15 août 2026 à Tétouan, sous le thème « Femmes méditerranéennes, femmes de culture et de tradition ». Organisé par l’Association Voix de Femmes, l’événement mêlera création artistique, concerts gratuits et actions sociales et médicales. Deux grandes soirées gratuites […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-08-13T09:45:25Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -313,19 +261,6 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67311108-26-vuln-rabilit-s-affectant-cisco-clamav",
-      "title": "67311108/26 - Vulnérabilités affectant Cisco ClamAV",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-cisco-clamav",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-11T13:46:36Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-dgi-1er-septembre-dernier-d-lai-pour-plusieurs-obligations-fiscales",
       "title": "DGI : 1er septembre, dernier délai pour plusieurs obligations fiscales",
       "link": "https://www.lavieeco.com/argent/dgi-1er-septembre-dernier-delai-pour-plusieurs-obligations-fiscales/",
@@ -334,19 +269,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-08-10T18:55:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-maroc-asean-une-volont-partag-e-d-approfondir-le-partenariat-bilat-ral",
-      "title": "Maroc-ASEAN : Une volonté partagée d’approfondir le partenariat bilatéral",
-      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/maroc-asean-une-volonte-partagee-dapprofondir-le-partenariat-bilateral/",
-      "description": "Les priorités identifiées portent notamment sur le commerce et l'investissement, la sécurité alimentaire, l'agriculture durable, les engrais, les énergies renouvelables, la connectivité, l'économie numérique, le tourisme et les échanges humains. L’article Maroc-ASEAN : Une volonté partagée d’approfondir le partenariat bilatéral est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-08-10T13:21:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
