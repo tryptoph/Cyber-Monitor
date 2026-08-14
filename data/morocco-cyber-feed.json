@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-14T13:48:00Z",
+  "generatedAt": "2026-08-14T19:17:40Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "تقارير الحسابات تشتبه في تبادل صفقات جماعية لإخفاء تضارب المصالح",
+      "link": "https://www.hespress.com/%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa-%d8%aa%d8%b4%d8%aa%d8%a8%d9%87-%d9%81%d9%8a-%d8%aa%d8%a8%d8%a7%d8%af%d9%84-%d8%b5%d9%81%d9%82%d8%a7%d8%aa-%d8%ac-1791951.html",
+      "description": "كشفت تسريبات من تقارير أنجزتها لجان تابعة للمجالس الجهوية للحسابات بجهات الدار البيضاء–سطات ومراكش–أسفي وبني ملال–خنيفرة عن مؤشرات على اعتماد ترتيبات متبادلة بين رؤساء جماعات لإخفاء حالات محتملة لتضارب مصالح، عبر تبادل الاستفادة من صفقات بين شركات مرتبطة برؤساء جماعات ومنتخبين وبأشخاص مقربين منهم. وأفادت مصادر جيدة الاطلاع لهسبريس بأن قضاة الحسابات ركزوا، خلال مهام […] The post تقارير الحسابات تشتبه في تبادل صفقات جماعية لإخفاء تضارب المصالح appeared first on Hespress - هسبريس جريدة إلكترونية مغ",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-14T19:00:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "خلاف حول سعر البيع يعطل تفريغ شحنة بنزين مغربي في ميناء روسي",
+      "link": "https://www.hespress.com/%d8%ae%d9%84%d8%a7%d9%81-%d8%ad%d9%88%d9%84-%d8%b3%d8%b9%d8%b1-%d8%a7%d9%84%d8%a8%d9%8a%d8%b9-%d9%8a%d8%b9%d8%b7%d9%84-%d8%aa%d9%81%d8%b1%d9%8a%d8%ba-%d8%b4%d8%ad%d9%86%d8%a9-%d8%a7%d9%84%d8%a8%d9%86-1792078.html",
+      "description": "علقت شحنة البنزين المغربي الذي استوردته روسيا مؤخرا من المملكة، على خلفية أزمة الوقود التي يعيشها هذا البلد عقب الهجمات الأوكرانية الأخيرة على مصافي النفط في العمق الروسي، في ميناء “مورمانسك” على الساحل الشرقي لخليج “كولا”؛ وذلك بسبب خلافات بين الشركات النفطية والجهات التنظيمية الروسية على سعر البيع في السوق الداخلي. في هذا الصدد أكدت […] The post خلاف حول سعر البيع يعطل تفريغ شحنة بنزين مغربي في ميناء روسي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-14T18:00:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-sebta-barrages-contr-les-et-surveillance-renforc-e-avant-le-15-ao-t",
+      "title": "Sebta : barrages, contrôles et surveillance renforcée avant le 15 août",
+      "link": "https://fr.hespress.com/485180-sebta-barrages-controles-et-surveillance-renforcee-avant-le-15-aout.html",
+      "description": "Les services de sécurité ont renforcé les mesures de contrôle sur les routes et les axes menant aux villes de la région de Tanger, alors que persistent les appels à des tentatives d’entrée collective dans le préside occupé de Sebta, prévues demain, samedi 15 août. Selon des sources associatives et des acteurs des droits humains, […] The post Sebta : barrages, contrôles et surveillance renforcée avant le 15 août appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-14T13:57:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67491308-26-vuln-rabilit-s-affectant-mongodb",
       "title": "67491308/26 - Vulnérabilités affectant MongoDB",
