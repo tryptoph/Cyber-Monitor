@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-13T19:29:26Z",
+  "generatedAt": "2026-08-14T07:54:02Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-prix-et-stocks-le-mef-renforce-sa-veille",
+      "title": "Prix et stocks : le MEF renforce sa veille",
+      "link": "https://fr.hespress.com/485113-prix-et-stocks-le-mef-renforce-sa-veille.html",
+      "description": "Le ministère de l’Économie et des Finances renforce son dispositif de surveillance des marchés. Un nouvel arrêté institue un observatoire des prix et de la concurrence et met une lace une division consacrée au suivi de l’approvisionnement du marché national et des réserves de sécurité. La Direction de la concurrence, des prix et de la […] The post Prix et stocks : le MEF renforce sa veille appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-14T07:03:48Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67491308-26-vuln-rabilit-s-affectant-mongodb",
       "title": "67491308/26 - Vulnérabilités affectant MongoDB",
@@ -258,19 +271,6 @@
       "published": "2026-08-11T19:28:38Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-dgi-1er-septembre-dernier-d-lai-pour-plusieurs-obligations-fiscales",
-      "title": "DGI : 1er septembre, dernier délai pour plusieurs obligations fiscales",
-      "link": "https://www.lavieeco.com/argent/dgi-1er-septembre-dernier-delai-pour-plusieurs-obligations-fiscales/",
-      "description": "L’administration fiscale fixe au 1er septembre 2026 la date limite pour s’acquitter d’une série d’obligations portant notamment sur les retenues à la source, la TSAV et certaines contributions dues par les assureurs. L’article DGI : 1er septembre, dernier délai pour plusieurs obligations fiscales est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-08-10T18:55:31Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
