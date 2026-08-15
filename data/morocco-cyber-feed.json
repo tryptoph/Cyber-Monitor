@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-15T07:01:04Z",
+  "generatedAt": "2026-08-15T13:02:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-apple-alerte-des-utilisateurs-dans-110-pays-contre-des-logiciels-espions",
-      "title": "Apple alerte des utilisateurs dans 110 pays contre des logiciels espions",
-      "link": "https://fr.hespress.com/485186-apple-alerte-des-utilisateurs-dans-110-pays-contre-des-logiciels-espions.html",
-      "description": "Apple a envoyé une nouvelle vague d’alertes de sécurité à des utilisateurs d’iPhone dans 110 pays, les prévenant d’attaques potentielles menées à l’aide de logiciels espions sophistiqués. Ces outils, particulièrement dangereux, peuvent être utilisés par des acteurs soutenus par des gouvernements pour infiltrer des téléphones et des appareils personnels. Apple tire une nouvelle fois la […] The post Apple alerte des utilisateurs dans 110 pays contre des logiciels espions appeared first on Hespress",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-at-least-111-intercepted-near-ceuta-as-morocco-maintains-aug-15-security-deployment",
+      "title": "At least 111 intercepted near Ceuta as Morocco maintains Aug. 15 security deployment",
+      "link": "https://en.hespress.com/143830-at-least-111-intercepted-near-ceuta-as-morocco-maintains-aug-15-security-deployment.html",
+      "description": "Moroccan security forces intercepted 111 people seeking to migrate irregularly around Fnideq early Saturday, as a large security deployment prevented the mass crossings into Ceuta and Melilla promoted through anonymous social media calls, a security source told Hespress. The group included 109 migrants from sub-Saharan Africa and two Moroccans. Authorities said there had been no […] The post At least 111 intercepted near Ceuta as Morocco maintains Aug. 15 security deployment appeared first on HE",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-15T01:54:54Z",
+      "published": "2026-08-15T12:59:28Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الإمارات تدين اعتداء بمضيق هرمز",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%af%d9%8a%d9%86-%d8%a7%d8%b9%d8%aa%d8%af%d8%a7%d8%a1-%d8%a8%d9%85%d8%b6%d9%8a%d9%82-%d9%87%d8%b1%d9%85%d8%b2-1792418.html",
+      "description": "أعربت دولة الإمارات، اليوم السبت، عن إدانتها واستنكارها الشديدين للهجوم الإيراني العدواني الذي استهدف سفينة تابعة لشركة “أدنوك” أثناء عبورها مضيق هرمز، دون تسجيل أي إصابات. وأكدت وزارة الخارجية الإماراتية، في بيان لها، أن “هذا الاعتداء يشكل انتهاكا صارخا لقرار مجلس الأمن رقم 2817، الذي شدد على حرية الملاحة ورفض استهداف السفن التجارية أو تعطيل […] The post الإمارات تدين اعتداء بمضيق هرمز appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-15T12:35:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-around-300-irregular-migrants-most-from-sub-saharan-africa-prevented-from-approaching-ceuta-on-s",
+      "title": "Around 300 irregular migrants, most from Sub-Saharan Africa, prevented from approaching Ceuta on Saturday",
+      "link": "https://en.hespress.com/143823-around-300-irregular-migrants-most-from-sub-saharan-africa-prevented-from-approaching-ceuta-on-saturday.html",
+      "description": "Moroccan security forces prevented around 300 irregular migrants, most from sub-Saharan Africa, from approaching Ceuta on Saturday, a security source told Hespress English. The source said the migrants gathered in the mountainous areas surrounding the city before being prevented from approaching or attempting to enter, stressing that no violent clashes or material damage were reported. […] The post Around 300 irregular migrants, most from Sub-Saharan Africa, prevented from approaching Ceuta on S",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-15T11:07:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
