@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-15T13:02:14Z",
+  "generatedAt": "2026-08-15T18:50:55Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-stops-294-would-be-migrants-as-ceuta-border-holds-on-aug-15",
+      "title": "Morocco stops 294 would-be migrants as Ceuta border holds on Aug. 15",
+      "link": "https://en.hespress.com/143839-morocco-stops-294-would-be-migrants-as-ceuta-border-holds-on-aug-15.html",
+      "description": "Moroccan security forces intercepted 294 people seeking to migrate irregularly near Ceuta by 2:45 p.m. on Saturday, Aug. 15, with no mass crossing into the Spanish enclave recorded despite online calls for a coordinated attempt, a security source told Hespress. The group included 248 people from sub-Saharan African countries and 46 Moroccans, according to the […] The post Morocco stops 294 would-be migrants as Ceuta border holds on Aug. 15 appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-15T16:32:45Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cyberattaque-contre-le-fisc-fran-ais-pr-s-de-700-000-usagers-touch-s",
+      "title": "Cyberattaque contre le fisc français : près de 700.000 usagers touchés",
+      "link": "https://fr.hespress.com/485278-cyberattaque-contre-le-fisc-francais-pres-de-700-000-usagers-touches.html",
+      "description": "« Extraction frauduleuse de données » et « association de malfaiteurs » : la section cyber du parquet de Paris a ouvert une enquête après la cyberattaque qui a touché près de 700.000 usagers de l’administration fiscale. Au total, 678.000 usagers, particuliers et entreprises sont concernés. Pour les particuliers, les données dérobées concernent notamment les noms et prénoms, le […] The post Cyberattaque contre le fisc français : près de 700.000 usagers touchés appeared first on Hespress Français ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-15T16:11:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-at-least-111-intercepted-near-ceuta-as-morocco-maintains-aug-15-security-deployment",
       "title": "At least 111 intercepted near Ceuta as Morocco maintains Aug. 15 security deployment",
@@ -27,19 +53,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "الإمارات تدين اعتداء بمضيق هرمز",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%af%d9%8a%d9%86-%d8%a7%d8%b9%d8%aa%d8%af%d8%a7%d8%a1-%d8%a8%d9%85%d8%b6%d9%8a%d9%82-%d9%87%d8%b1%d9%85%d8%b2-1792418.html",
-      "description": "أعربت دولة الإمارات، اليوم السبت، عن إدانتها واستنكارها الشديدين للهجوم الإيراني العدواني الذي استهدف سفينة تابعة لشركة “أدنوك” أثناء عبورها مضيق هرمز، دون تسجيل أي إصابات. وأكدت وزارة الخارجية الإماراتية، في بيان لها، أن “هذا الاعتداء يشكل انتهاكا صارخا لقرار مجلس الأمن رقم 2817، الذي شدد على حرية الملاحة ورفض استهداف السفن التجارية أو تعطيل […] The post الإمارات تدين اعتداء بمضيق هرمز appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-15T12:35:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-around-300-irregular-migrants-most-from-sub-saharan-africa-prevented-from-approaching-ceuta-on-s",
       "title": "Around 300 irregular migrants, most from Sub-Saharan Africa, prevented from approaching Ceuta on Saturday",
       "link": "https://en.hespress.com/143823-around-300-irregular-migrants-most-from-sub-saharan-africa-prevented-from-approaching-ceuta-on-saturday.html",
@@ -48,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-15T11:07:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-taliban-govt-to-mark-five-years-ruling-afghanistan",
-      "title": "Taliban govt to mark five years ruling Afghanistan",
-      "link": "https://en.hespress.com/143805-taliban-govt-to-mark-five-years-ruling-afghanistan.html",
-      "description": "The Taliban government celebrates five years of ruling Afghanistan on Saturday, with the authorities hailing their country’s “freedom” and security, while critics decry tightening restrictions in all areas of daily life. Bright white flags of the Islamic Emirate of Afghanistan have been installed this week across the capital Kabul, where new murals declare: “Independence is […] The post Taliban govt to mark five years ruling Afghanistan appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-14T22:02:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
