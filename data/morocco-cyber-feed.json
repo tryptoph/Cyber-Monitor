@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-15T01:52:58Z",
+  "generatedAt": "2026-08-15T07:01:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "روسيا تقر بنقص إضافي في الوقود",
-      "link": "https://www.hespress.com/%d8%b1%d9%88%d8%b3%d9%8a%d8%a7-%d8%aa%d9%82%d8%b1-%d8%a8%d9%86%d9%82%d8%b5-%d8%a5%d8%b6%d8%a7%d9%81%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d9%82%d9%88%d8%af-1792202.html",
-      "description": "أقرت السلطات الروسية، الجمعة، بأن عددا من مناطق البلاد يواجه نقصا جديدا في إمدادات الوقود، في وقت تكثف فيه أوكرانيا هجماتها بالطائرات المسيرة والصواريخ بعيدة المدى على مصافي النفط ومنشآت الطاقة الروسية. وتركز كييف ضرباتها على البنية التحتية النفطية الروسية في محاولة لإضعاف قدرة موسكو على مواصلة الحرب وتقليص الموارد التي يعتمد عليها الاقتصاد والجيش […] The post روسيا تقر بنقص إضافي في الوقود appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-apple-alerte-des-utilisateurs-dans-110-pays-contre-des-logiciels-espions",
+      "title": "Apple alerte des utilisateurs dans 110 pays contre des logiciels espions",
+      "link": "https://fr.hespress.com/485186-apple-alerte-des-utilisateurs-dans-110-pays-contre-des-logiciels-espions.html",
+      "description": "Apple a envoyé une nouvelle vague d’alertes de sécurité à des utilisateurs d’iPhone dans 110 pays, les prévenant d’attaques potentielles menées à l’aide de logiciels espions sophistiqués. Ces outils, particulièrement dangereux, peuvent être utilisés par des acteurs soutenus par des gouvernements pour infiltrer des téléphones et des appareils personnels. Apple tire une nouvelle fois la […] The post Apple alerte des utilisateurs dans 110 pays contre des logiciels espions appeared first on Hespress",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-14T22:13:58Z",
+      "published": "2026-08-15T01:54:54Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
