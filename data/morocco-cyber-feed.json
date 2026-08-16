@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-16T13:04:04Z",
+  "generatedAt": "2026-08-16T18:49:55Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-en-spanish-police-report-15-suspected-sexual-assaults-in-ceuta",
+      "title": "Spanish police report 15 suspected sexual assaults in Ceuta",
+      "link": "https://en.hespress.com/143890-spanish-police-report-15-suspected-sexual-assaults-in-ceuta.html",
+      "description": "Spanish security sources reported 15 suspected sexual assaults in Ceuta since the mass border crossings of July 30 and 31, El Mundo reported on Saturday. The reported cases occurred across several areas of Ceuta. The latest police intervention came Friday night after three people were allegedly found attempting to assault a 10-year-old girl on Lisboa […] The post Spanish police report 15 suspected sexual assaults in Ceuta appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-16T17:32:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "\"تدفقات سرية\" عبر هرمز تكبح أسعار النفط العالمية رغم استمرار \"حرب إيران\"",
+      "link": "https://www.hespress.com/%d8%aa%d8%af%d9%81%d9%82%d8%a7%d8%aa-%d8%b3%d8%b1%d9%8a%d8%a9-%d8%b9%d8%a8%d8%b1-%d9%87%d8%b1%d9%85%d8%b2-%d8%aa%d9%83%d8%a8%d8%ad-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%86%d9%81%d8%b7-1792999.html",
+      "description": "تواصل دول منتجة للنفط في الشرق الأوسط نقل كميات كبيرة من الخام عبر مضيق هرمز بطرق يصعب تتبعها، في مسعى للحفاظ على تدفق الإمدادات إلى الأسواق العالمية والحد من قفزات الأسعار، رغم استمرار الحرب مع إيران وتعرض عدد من السفن لهجمات متكررة في أحد أهم الممرات الاستراتيجية للطاقة في العالم. وبحسب تقرير لوكالة “بلومبرغ”، أصبحت […] The post \"تدفقات سرية\" عبر هرمز تكبح أسعار النفط العالمية رغم استمرار \"حرب إيران\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-16T16:00:28Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "مسيّرات بريطانية تضرب العمق الروسي",
+      "link": "https://www.hespress.com/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%82-%d8%a7%d9%84%d8%b1%d9%88%d8%b3%d9%8a-1792975.html",
+      "description": "أفادت صحيفة “ذا تايمز” البريطانية بأن أوكرانيا استخدمت خلال الأشهر الستة الماضية طائرات مسيرة بريطانية الصنع لتنفيذ ضربات بعيدة المدى داخل الأراضي الروسية، بينها هجمات استهدفت مصافي نفط، في تطور من شأنه أن يزيد حدة التوتر بين موسكو ولندن بشأن طبيعة الدعم العسكري المقدم لكييف. ونقلت الصحيفة عن مصادر عسكرية أوكرانية أن الشحنات التي وصلت […] The post مسيّرات بريطانية تضرب العمق الروسي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-16T15:33:49Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-foncier-et-construction-tour-de-vis-sur-la-d-livrance-des-attestations",
       "title": "Foncier et construction : Tour de vis sur la délivrance des attestations",
       "link": "https://fr.hespress.com/485317-foncier-et-construction-tour-de-vis-sur-la-delivrance-des-attestations.html",
@@ -22,19 +61,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-08-16T11:36:42Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-spanish-jet-downs-drone-in-romania-after-airspace-breach",
-      "title": "Spanish jet downs drone in Romania after airspace breach",
-      "link": "https://en.hespress.com/143863-spanish-jet-downs-drone-in-romania-after-airspace-breach.html",
-      "description": "A Spanish fighter jet on Sunday shot down a drone that had breached Romanian airspace near the border with Ukraine and Moldova, national authorities and NATO said. A growing number of drones have crossed into NATO states in eastern Europe as Russia pursues its invasion of Ukraine. The interception of the drone — which entered […] The post Spanish jet downs drone in Romania after airspace breach appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-16T10:38:20Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -63,19 +89,6 @@
       "published": "2026-08-13T13:52:10Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-d-p-ts-bancaires-une-collecte-de-1-422-5-milliards-de-dirhams-fin-juin",
-      "title": "Dépôts bancaires : Une collecte de 1.422,5 milliards de dirhams à fin juin",
-      "link": "https://aujourdhui.ma/economie/depots-bancaires-une-collecte-de-1-4225-milliards-de-dirhams-a-fin-juin",
-      "description": "Portée par les ménages et les entreprises Financement : À fin juin 2026, la progression de l’épargne s’accompagne d’une poursuite du financement de l’économie, dans un contexte de conditions de crédit globalement stables pour les entreprises et plus favorables pour certains segments des ménages. Les dépôts auprès des banques marocaines ont poursuivi leur progression au […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-08-13T10:07:00Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
