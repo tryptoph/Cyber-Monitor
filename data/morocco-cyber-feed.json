@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-16T02:00:00Z",
+  "generatedAt": "2026-08-16T13:04:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-le-gouvernement-fran-ais-acc-l-re-sa-strat-gie-contre-les-cyberattaques",
-      "title": "Le gouvernement français accélère sa stratégie contre les cyberattaques",
-      "link": "https://fr.hespress.com/485295-le-gouvernement-francais-accelere-sa-strategie-contre-les-cyberattaques.html",
-      "description": "Le gouvernement français a annoncé samedi une accélération de sa stratégie de sécurisation des systèmes d’information de l’État face à la multiplication et à la sophistication des cyberattaques visant les administrations. Cette stratégie repose sur une doctrine en cinq axes : détecter et interrompre les intrusions, poursuivre leurs auteurs, informer les personnes concernées, renforcer les […] The post Le gouvernement français accélère sa stratégie contre les cyberattaques appeared first on Hespr",
+      "id": "hespress-fr-foncier-et-construction-tour-de-vis-sur-la-d-livrance-des-attestations",
+      "title": "Foncier et construction : Tour de vis sur la délivrance des attestations",
+      "link": "https://fr.hespress.com/485317-foncier-et-construction-tour-de-vis-sur-la-delivrance-des-attestations.html",
+      "description": "Les autorités provinciales ont renforcé leur vigilance sur les procédures de délivrance des certificats administratifs dans plusieurs préfectures et provinces relevant des régions de Casablanca-Settat, Rabat-Salé-Kénitra, Marrakech-Safi et Guelmim-Oued Noun. Cette initiative vise à corriger les dysfonctionnements constatés dans l’octroi de certains documents, en particulier ceux liés à l’urbanisme ainsi qu’au raccordement des constructions aux […] The post Foncier et construction : Tour de vis s",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-16T01:54:33Z",
+      "published": "2026-08-16T11:36:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-en-morocco-stops-294-would-be-migrants-as-ceuta-border-holds-on-aug-15",
-      "title": "Morocco stops 294 would-be migrants as Ceuta border holds on Aug. 15",
-      "link": "https://en.hespress.com/143839-morocco-stops-294-would-be-migrants-as-ceuta-border-holds-on-aug-15.html",
-      "description": "Moroccan security forces intercepted 294 people seeking to migrate irregularly near Ceuta by 2:45 p.m. on Saturday, Aug. 15, with no mass crossing into the Spanish enclave recorded despite online calls for a coordinated attempt, a security source told Hespress. The group included 248 people from sub-Saharan African countries and 46 Moroccans, according to the […] The post Morocco stops 294 would-be migrants as Ceuta border holds on Aug. 15 appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-spanish-jet-downs-drone-in-romania-after-airspace-breach",
+      "title": "Spanish jet downs drone in Romania after airspace breach",
+      "link": "https://en.hespress.com/143863-spanish-jet-downs-drone-in-romania-after-airspace-breach.html",
+      "description": "A Spanish fighter jet on Sunday shot down a drone that had breached Romanian airspace near the border with Ukraine and Moldova, national authorities and NATO said. A growing number of drones have crossed into NATO states in eastern Europe as Russia pursues its invasion of Ukraine. The interception of the drone — which entered […] The post Spanish jet downs drone in Romania after airspace breach appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-15T16:32:45Z",
+      "published": "2026-08-16T10:38:20Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
