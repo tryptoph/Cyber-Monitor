@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-15T18:50:55Z",
+  "generatedAt": "2026-08-16T02:00:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-le-gouvernement-fran-ais-acc-l-re-sa-strat-gie-contre-les-cyberattaques",
+      "title": "Le gouvernement français accélère sa stratégie contre les cyberattaques",
+      "link": "https://fr.hespress.com/485295-le-gouvernement-francais-accelere-sa-strategie-contre-les-cyberattaques.html",
+      "description": "Le gouvernement français a annoncé samedi une accélération de sa stratégie de sécurisation des systèmes d’information de l’État face à la multiplication et à la sophistication des cyberattaques visant les administrations. Cette stratégie repose sur une doctrine en cinq axes : détecter et interrompre les intrusions, poursuivre leurs auteurs, informer les personnes concernées, renforcer les […] The post Le gouvernement français accélère sa stratégie contre les cyberattaques appeared first on Hespr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-16T01:54:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-morocco-stops-294-would-be-migrants-as-ceuta-border-holds-on-aug-15",
       "title": "Morocco stops 294 would-be migrants as Ceuta border holds on Aug. 15",
       "link": "https://en.hespress.com/143839-morocco-stops-294-would-be-migrants-as-ceuta-border-holds-on-aug-15.html",
@@ -22,45 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-15T16:32:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cyberattaque-contre-le-fisc-fran-ais-pr-s-de-700-000-usagers-touch-s",
-      "title": "Cyberattaque contre le fisc français : près de 700.000 usagers touchés",
-      "link": "https://fr.hespress.com/485278-cyberattaque-contre-le-fisc-francais-pres-de-700-000-usagers-touches.html",
-      "description": "« Extraction frauduleuse de données » et « association de malfaiteurs » : la section cyber du parquet de Paris a ouvert une enquête après la cyberattaque qui a touché près de 700.000 usagers de l’administration fiscale. Au total, 678.000 usagers, particuliers et entreprises sont concernés. Pour les particuliers, les données dérobées concernent notamment les noms et prénoms, le […] The post Cyberattaque contre le fisc français : près de 700.000 usagers touchés appeared first on Hespress Français ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-15T16:11:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-at-least-111-intercepted-near-ceuta-as-morocco-maintains-aug-15-security-deployment",
-      "title": "At least 111 intercepted near Ceuta as Morocco maintains Aug. 15 security deployment",
-      "link": "https://en.hespress.com/143830-at-least-111-intercepted-near-ceuta-as-morocco-maintains-aug-15-security-deployment.html",
-      "description": "Moroccan security forces intercepted 111 people seeking to migrate irregularly around Fnideq early Saturday, as a large security deployment prevented the mass crossings into Ceuta and Melilla promoted through anonymous social media calls, a security source told Hespress. The group included 109 migrants from sub-Saharan Africa and two Moroccans. Authorities said there had been no […] The post At least 111 intercepted near Ceuta as Morocco maintains Aug. 15 security deployment appeared first on HE",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-15T12:59:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-around-300-irregular-migrants-most-from-sub-saharan-africa-prevented-from-approaching-ceuta-on-s",
-      "title": "Around 300 irregular migrants, most from Sub-Saharan Africa, prevented from approaching Ceuta on Saturday",
-      "link": "https://en.hespress.com/143823-around-300-irregular-migrants-most-from-sub-saharan-africa-prevented-from-approaching-ceuta-on-saturday.html",
-      "description": "Moroccan security forces prevented around 300 irregular migrants, most from sub-Saharan Africa, from approaching Ceuta on Saturday, a security source told Hespress English. The source said the migrants gathered in the mountainous areas surrounding the city before being prevented from approaching or attempting to enter, stressing that no violent clashes or material damage were reported. […] The post Around 300 irregular migrants, most from Sub-Saharan Africa, prevented from approaching Ceuta on S",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-15T11:07:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
