@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-17T01:57:53Z",
+  "generatedAt": "2026-08-17T07:26:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "\"الثعلب\" يكشف أسرار عملية \"أوبك\": القذافي وراء الهجوم الذي هز العالم",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ab%d8%b9%d9%84%d8%a8-%d9%8a%d9%83%d8%b4%d9%81-%d8%a3%d8%b3%d8%b1%d8%a7%d8%b1-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a3%d9%88%d8%a8%d9%83-%d8%a7%d9%84%d9%82%d8%b0%d8%a7%d9%81%d9%8a-1793023.html",
-      "description": "بعد أكثر من نصف قرن على واحدة من أكثر العمليات المسلحة إثارة في تاريخ الإرهاب الدولي يعود اسم إليتش راميريز سانشيز، المعروف عالميا بـ”كارلوس الثعلب”، إلى الواجهة من داخل سجنه الفرنسي، حاملا معه رواية جديدة عن الهجوم الذي استهدف مقر منظمة البلدان المصدرة للنفط “أوبك” في فيينا سنة 1975، وهي العملية التي حولته من مسلح […] The post \"الثعلب\" يكشف أسرار عملية \"أوبك\": القذافي وراء الهجوم الذي هز العالم appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-17T00:00:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "البابا ينادي بوقف تعنيف الفلسطينيين",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d8%a7%d8%a8%d8%a7-%d9%8a%d9%86%d8%a7%d8%af%d9%8a-%d8%a8%d9%88%d9%82%d9%81-%d8%aa%d8%b9%d9%86%d9%8a%d9%81-%d8%a7%d9%84%d9%81%d9%84%d8%b3%d8%b7%d9%8a%d9%86%d9%8a%d9%8a%d9%86-1792965.html",
-      "description": "دعا البابا ليو، بابا الفاتيكان، اليوم الأحد، إلى وقف أعمال العنف المتكررة بحق الفلسطينيين في الضفة الغربية المحتلة، في ظل تصاعد هجمات المستوطنين وتشديد الضغوط على عدد من البلدات الفلسطينية، من بينها قصرة. وقال البابا ليو، من مقر إقامته في كاستل جاندولفو قرب روما، إنه يجدد نداءه من أجل وقف أعمال العنف بحق المدنيين الفلسطينيين […] The post البابا ينادي بوقف تعنيف الفلسطينيين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-16T21:09:26Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-spanish-police-report-15-suspected-sexual-assaults-in-ceuta",
       "title": "Spanish police report 15 suspected sexual assaults in Ceuta",
