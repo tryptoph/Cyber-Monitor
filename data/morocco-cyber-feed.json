@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-17T13:10:08Z",
+  "generatedAt": "2026-08-17T19:01:24Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67551708-26-vuln-rabilit-s-affectant-gitlab",
+      "title": "67551708/26 - Vulnérabilités affectant GitLab",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-gitlab-19",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-17T19:01:21Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67541708-26-malware-agent-tesla",
+      "title": "67541708/26 - Malware “Agent Tesla”",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/malware-agent-tesla",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-17T19:01:21Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "dgssi-67531708-26-mise-jour-de-s-curit-pour-le-cms-wordpress",
       "title": "67531708/26 - Mise à jour de sécurité pour le CMS WordPress",
@@ -66,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-sanchez-convenes-ministers-to-coordinate-spain-s-ceuta-response",
-      "title": "Sanchez convenes ministers to coordinate Spain’s Ceuta response",
-      "link": "https://en.hespress.com/143914-sanchez-convenes-ministers-to-coordinate-spains-ceuta-response.html",
-      "description": "Spanish Prime Minister Pedro Sánchez will chair a video meeting on Monday to coordinate his government’s response to the continuing security and humanitarian pressures in Ceuta. Spain’s official agenda lists ministers responsible for the economy, foreign affairs, defense, interior, territorial policy, migration and youth among the participants. The meeting is the second high-level session chaired […] The post Sanchez convenes ministers to coordinate Spain’s Ceuta response appeared first on HESPR",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-17T11:43:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "aujourdhui-migration-clandestine-les-enseignements-de-la-crise-de-sebta",
       "title": "Migration clandestine : Les enseignements de la crise de Sebta",
       "link": "https://aujourdhui.ma/societe/migration-clandestine-les-enseignements-de-la-crise-de-sebta",
@@ -100,19 +113,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-08-17T10:17:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-italian-foreign-minister-targets-morocco-in-widening-italy-spain-border-dispute",
-      "title": "Italian Foreign Minister targets Morocco in widening Italy-Spain border dispute",
-      "link": "https://en.hespress.com/143907-italian-foreign-minister-targets-morocco-in-widening-italy-spain-border-dispute.html",
-      "description": "Italian Foreign Minister Antonio Tajani has drawn Morocco into Rome’s widening dispute with Spain over migration, telling Madrid that security concerns following the mass crossings into Ceuta originate south of the enclave rather than at Italian border checkpoints. “Instead of worrying about us, Spain should worry about Morocco. That is where the problems come from,” […] The post Italian Foreign Minister targets Morocco in widening Italy-Spain border dispute appeared first on HESPRESS English - ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-17T08:45:54Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -264,32 +264,6 @@
       "id": "dgssi-67381208-26-vuln-rabilit-affectant-le-navigateur-microsoft-edge",
       "title": "67381208/26 - Vulnérabilité affectant le navigateur Microsoft Edge",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-le-navigateur-microsoft-edge-6",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67371208-26-vuln-rabilit-s-affectant-des-produits-microsoft-esu-patch-tuesday-aout",
-      "title": "67371208/26 - Vulnérabilités affectant des produits Microsoft ESU (Patch Tuesday Aout…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-microsoft-esu-patch-tuesday-aout-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67361208-26-vuln-rabilit-s-affectant-microsoft-windows-patch-tuesday-aout-2026",
-      "title": "67361208/26 - Vulnérabilités affectant Microsoft Windows (Patch Tuesday Aout 2026)",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-microsoft-windows-patch-tuesday-aout-2026",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
