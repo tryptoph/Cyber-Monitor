@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-16T18:49:55Z",
+  "generatedAt": "2026-08-17T01:57:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-ar-item",
+      "title": "\"الثعلب\" يكشف أسرار عملية \"أوبك\": القذافي وراء الهجوم الذي هز العالم",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ab%d8%b9%d9%84%d8%a8-%d9%8a%d9%83%d8%b4%d9%81-%d8%a3%d8%b3%d8%b1%d8%a7%d8%b1-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a3%d9%88%d8%a8%d9%83-%d8%a7%d9%84%d9%82%d8%b0%d8%a7%d9%81%d9%8a-1793023.html",
+      "description": "بعد أكثر من نصف قرن على واحدة من أكثر العمليات المسلحة إثارة في تاريخ الإرهاب الدولي يعود اسم إليتش راميريز سانشيز، المعروف عالميا بـ”كارلوس الثعلب”، إلى الواجهة من داخل سجنه الفرنسي، حاملا معه رواية جديدة عن الهجوم الذي استهدف مقر منظمة البلدان المصدرة للنفط “أوبك” في فيينا سنة 1975، وهي العملية التي حولته من مسلح […] The post \"الثعلب\" يكشف أسرار عملية \"أوبك\": القذافي وراء الهجوم الذي هز العالم appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-17T00:00:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "البابا ينادي بوقف تعنيف الفلسطينيين",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d8%a7%d8%a8%d8%a7-%d9%8a%d9%86%d8%a7%d8%af%d9%8a-%d8%a8%d9%88%d9%82%d9%81-%d8%aa%d8%b9%d9%86%d9%8a%d9%81-%d8%a7%d9%84%d9%81%d9%84%d8%b3%d8%b7%d9%8a%d9%86%d9%8a%d9%8a%d9%86-1792965.html",
+      "description": "دعا البابا ليو، بابا الفاتيكان، اليوم الأحد، إلى وقف أعمال العنف المتكررة بحق الفلسطينيين في الضفة الغربية المحتلة، في ظل تصاعد هجمات المستوطنين وتشديد الضغوط على عدد من البلدات الفلسطينية، من بينها قصرة. وقال البابا ليو، من مقر إقامته في كاستل جاندولفو قرب روما، إنه يجدد نداءه من أجل وقف أعمال العنف بحق المدنيين الفلسطينيين […] The post البابا ينادي بوقف تعنيف الفلسطينيين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-16T21:09:26Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-spanish-police-report-15-suspected-sexual-assaults-in-ceuta",
       "title": "Spanish police report 15 suspected sexual assaults in Ceuta",
       "link": "https://en.hespress.com/143890-spanish-police-report-15-suspected-sexual-assaults-in-ceuta.html",
@@ -22,45 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-16T17:32:44Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "\"تدفقات سرية\" عبر هرمز تكبح أسعار النفط العالمية رغم استمرار \"حرب إيران\"",
-      "link": "https://www.hespress.com/%d8%aa%d8%af%d9%81%d9%82%d8%a7%d8%aa-%d8%b3%d8%b1%d9%8a%d8%a9-%d8%b9%d8%a8%d8%b1-%d9%87%d8%b1%d9%85%d8%b2-%d8%aa%d9%83%d8%a8%d8%ad-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%86%d9%81%d8%b7-1792999.html",
-      "description": "تواصل دول منتجة للنفط في الشرق الأوسط نقل كميات كبيرة من الخام عبر مضيق هرمز بطرق يصعب تتبعها، في مسعى للحفاظ على تدفق الإمدادات إلى الأسواق العالمية والحد من قفزات الأسعار، رغم استمرار الحرب مع إيران وتعرض عدد من السفن لهجمات متكررة في أحد أهم الممرات الاستراتيجية للطاقة في العالم. وبحسب تقرير لوكالة “بلومبرغ”، أصبحت […] The post \"تدفقات سرية\" عبر هرمز تكبح أسعار النفط العالمية رغم استمرار \"حرب إيران\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-16T16:00:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "مسيّرات بريطانية تضرب العمق الروسي",
-      "link": "https://www.hespress.com/%d9%85%d8%b3%d9%8a%d9%91%d8%b1%d8%a7%d8%aa-%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%82-%d8%a7%d9%84%d8%b1%d9%88%d8%b3%d9%8a-1792975.html",
-      "description": "أفادت صحيفة “ذا تايمز” البريطانية بأن أوكرانيا استخدمت خلال الأشهر الستة الماضية طائرات مسيرة بريطانية الصنع لتنفيذ ضربات بعيدة المدى داخل الأراضي الروسية، بينها هجمات استهدفت مصافي نفط، في تطور من شأنه أن يزيد حدة التوتر بين موسكو ولندن بشأن طبيعة الدعم العسكري المقدم لكييف. ونقلت الصحيفة عن مصادر عسكرية أوكرانية أن الشحنات التي وصلت […] The post مسيّرات بريطانية تضرب العمق الروسي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-16T15:33:49Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-foncier-et-construction-tour-de-vis-sur-la-d-livrance-des-attestations",
-      "title": "Foncier et construction : Tour de vis sur la délivrance des attestations",
-      "link": "https://fr.hespress.com/485317-foncier-et-construction-tour-de-vis-sur-la-delivrance-des-attestations.html",
-      "description": "Les autorités provinciales ont renforcé leur vigilance sur les procédures de délivrance des certificats administratifs dans plusieurs préfectures et provinces relevant des régions de Casablanca-Settat, Rabat-Salé-Kénitra, Marrakech-Safi et Guelmim-Oued Noun. Cette initiative vise à corriger les dysfonctionnements constatés dans l’octroi de certains documents, en particulier ceux liés à l’urbanisme ainsi qu’au raccordement des constructions aux […] The post Foncier et construction : Tour de vis s",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-16T11:36:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
