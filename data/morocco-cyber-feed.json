@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-18T13:12:06Z",
+  "generatedAt": "2026-08-18T19:00:25Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67591808-26-vuln-rabilit-s-critiques-affectant-plusieurs-produits-d-apple",
+      "title": "67591808/26 - Vulnérabilités critiques affectant plusieurs produits d’Apple",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-plusieurs-produits-dapple-6",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-18T19:00:16Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67581808-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
+      "title": "67581808/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-microsoft-edge-19",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-18T19:00:16Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-spain-thanks-morocco-for-ceuta-migration-cooperation",
+      "title": "Spain thanks Morocco for Ceuta migration cooperation",
+      "link": "https://en.hespress.com/143987-spain-thanks-morocco-for-ceuta-migration-cooperation.html",
+      "description": "Spanish Minister of Inclusion, Social Security and Migration and government spokesperson Elma Saiz said Morocco was a “reliable partner” and that a solution to the crisis “would not have been possible without Morocco’s cooperation.” Speaking to Cadena SER after visiting Ceuta, Saiz defended the government’s response and said the autonomous city “has not been, nor […] The post Spain thanks Morocco for Ceuta migration cooperation appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-18T16:02:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-jeter-les-bases-de-l-identification-des-victimes-avant-l-inhumation-sebta-quelles-garanties-pour",
+      "title": "Jeter les bases de l'identification des victimes avant l'inhumation à Sebta : quelles garanties pour les familles ?",
+      "link": "https://fr.hespress.com/485530-jeter-les-bases-de-lidentification-des-victimes-avant-linhumation-a-sebta-quelles-garanties-pour-les-familles.html",
+      "description": "Les autorités de Sebta s’apprêtent à enterrer, à partir de ce mardi, plusieurs corps de migrants décédés lors de la tentative de passage massif du 30 juillet dernier. Alors que certains corps restent non identifiés, des questions se posent sur les procédures mises en œuvre pour retrouver les familles, préserver les preuves et permettre une […] The post Jeter les bases de l'identification des victimes avant l'inhumation à Sebta : quelles garanties pour les familles ? appeared first on Hespress Fr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-18T13:45:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67571708-26-vuln-rabilit-critique-affectant-le-plugin-forminator-forms-pour",
       "title": "67571708/26 - Vulnérabilité critique affectant le plugin «Forminator Forms» pour…",
@@ -37,19 +89,6 @@
       "published": "2026-08-18T13:11:58Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "\"هوليتي\" يعزز صفوف أمل تيزنيت",
-      "link": "https://www.hespress.com/%d9%87%d9%88%d9%84%d9%8a%d8%aa%d9%8a-%d9%8a%d8%b9%d8%b2%d8%b2-%d8%b5%d9%81%d9%88%d9%81-%d8%a3%d9%85%d9%84-%d8%aa%d9%8a%d8%b2%d9%86%d9%8a%d8%aa-1793592.html",
-      "description": "أعلن نادي أمل تيزنيت عن تعاقده الرسمي مع اللاعب التوغولي كوفي بنجامين هوليتي، لتعزيز صفوف الفريق خلال الموسم الرياضي الجديد، قادما من نادي أسكو دي كارا التوغولي، بموجب عقد يمتد لموسمين رياضيين. يتميز اللاعب التوغولي بتعدديته التكتيكية؛ إذ يجيد اللعب في مراكز عدة دفاعية وهجومية، تشمل قلب الدفاع، الظهير الأيمن، إضافة إلى مركز وسط الميدان […] The post \"هوليتي\" يعزز صفوف أمل تيزنيت appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-18T10:44:11Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -225,32 +264,6 @@
       "id": "dgssi-67421208-26-vuln-rabilit-critique-activement-exploit-e-affectant-cisco-secure",
       "title": "67421208/26 - Vulnérabilité critique activement exploitée affectant Cisco Secure…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-cisco-secure-firewall-adaptive",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67411208-26-vuln-rabilit-s-critiques-affectant-plusieurs-produits-d-adobe",
-      "title": "67411208/26 - Vulnérabilités critiques affectant plusieurs produits d’Adobe",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-plusieurs-produits-dadobe-3",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67401208-26-vuln-rabilit-s-affectant-plusieurs-produits-microsoft-patch-tuesday",
-      "title": "67401208/26 - Vulnérabilités affectant plusieurs produits Microsoft (Patch Tuesday…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-plusieurs-produits-microsoft-patch-tuesday-aout-2026",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
