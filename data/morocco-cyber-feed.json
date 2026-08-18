@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-18T01:54:00Z",
+  "generatedAt": "2026-08-18T07:08:10Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -126,19 +126,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-08-17T11:07:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-festival-voix-de-femmes-de-t-touan-une-dition-plac-e-sous-le-signe-de-la-culture-et-de-la-solida",
-      "title": "Festival Voix de Femmes de Tétouan Une édition placée sous le signe de la culture et de la solidarité",
-      "link": "https://aujourdhui.ma/culture/festival-voix-de-femmes-de-tetouan-une-edition-placee-sous-le-signe-de-la-culture-et-de-la-solidarite",
-      "description": "La 14ème édition du Festival Voix de Femmes de Tétouan a une nouvelle fois illustré sa vocation de rendez-vous culturel et citoyen. Pendant quatre jours, la ville a vécu au rythme des concerts, des expositions et des initiatives solidaires, confirmant la dimension artistique et sociale de cet événement. Cette édition a été marquée par l’organisation […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-08-17T10:17:15Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
