@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-17T19:01:24Z",
+  "generatedAt": "2026-08-18T01:54:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-rights-groups-accuse-spanish-forces-of-abusing-migrants-in-ceuta",
+      "title": "Rights groups accuse Spanish forces of abusing migrants in Ceuta",
+      "link": "https://en.hespress.com/143959-rights-groups-accuse-spanish-forces-of-abusing-migrants-in-ceuta.html",
+      "description": "Spain’s migrant-rights group and volunteers working in Ceuta have accused Spanish security forces of using excessive force against migrants who crossed into the occupied city later last month, saying they were repeatedly intimidated, dehumanized, and treated like cattle. According to Spanish news outlet Publico, Spain-based migrant-rights collective Border Resistance said that it had collected testimonies, […] The post Rights groups accuse Spanish forces of abusing migrants in Ceuta appeared fir",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-17T20:32:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-festival-voix-de-femmes-une-14e-dition-entre-musique-solidarit-et-engagement-t-touan",
+      "title": "Festival Voix de Femmes : une 14e édition entre musique, solidarité et engagement à Tétouan",
+      "link": "https://fr.hespress.com/485427-festival-voix-de-femmes-une-14e-edition-entre-musique-solidarite-et-engagement-a-tetouan.html",
+      "description": "Le Festival Voix de Femmes a achevé sa 14e édition, organisée du 12 au 15 août 2026 à Tétouan, avec une programmation musicale éclectique et un important volet social. Plus de 1 400 bénéficiaires ont profité des actions médicales et solidaires menées dans plusieurs structures de la ville, tandis que les concerts ont réuni un […] The post Festival Voix de Femmes : une 14e édition entre musique, solidarité et engagement à Tétouan appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-17T19:49:26Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67551708-26-vuln-rabilit-s-affectant-gitlab",
       "title": "67551708/26 - Vulnérabilités affectant GitLab",
