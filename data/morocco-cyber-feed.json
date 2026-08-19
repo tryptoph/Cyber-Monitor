@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-19T07:09:13Z",
+  "generatedAt": "2026-08-19T13:13:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67621908-26-vuln-rabilit-s-affectant-le-navigateur-mozilla-firefox",
+      "title": "67621908/26 - Vulnérabilités affectant le navigateur Mozilla Firefox",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-mozilla-firefox-31",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-19T13:13:09Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67611908-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
+      "title": "67611908/26 - Vulnérabilités affectant le navigateur Google Chrome",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-google-chrome-56",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-19T13:13:09Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67601908-26-vuln-rabilit-s-affectant-le-navigateur-apple-safari",
+      "title": "67601908/26 - Vulnérabilités affectant le navigateur Apple Safari",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-apple-safari",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-19T13:13:09Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "hespress-en-uae-cuts-all-trade-and-financial-transactions-with-iran",
       "title": "UAE cuts all trade and financial transactions with Iran",
@@ -212,45 +251,6 @@
       "id": "dgssi-67451208-26-vuln-rabilit-affectant-docker-desktop",
       "title": "67451208/26 - Vulnérabilité affectant Docker Desktop",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-docker-desktop-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67441208-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
-      "title": "67441208/26 - Vulnérabilités affectant le navigateur Google Chrome",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-google-chrome-55",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67431208-26-vuln-rabilit-s-affectant-des-produits-zoom",
-      "title": "67431208/26 - Vulnérabilités affectant des produits Zoom",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-zoom",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67421208-26-vuln-rabilit-critique-activement-exploit-e-affectant-cisco-secure",
-      "title": "67421208/26 - Vulnérabilité critique activement exploitée affectant Cisco Secure…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-cisco-secure-firewall-adaptive",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
