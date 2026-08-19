@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-18T19:00:25Z",
+  "generatedAt": "2026-08-19T01:56:07Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-uae-cuts-all-trade-and-financial-transactions-with-iran",
+      "title": "UAE cuts all trade and financial transactions with Iran",
+      "link": "https://en.hespress.com/144015-uae-cuts-all-trade-and-financial-transactions-with-iran.html",
+      "description": "The United Arab Emirates suspended all trade, commercial exchanges and financial transactions with Iran until further notice, the UAE Foreign Ministry said Tuesday. Afra Al Hameli, the ministry’s strategic communications director, said regional developments threatened international peace and security. She gave no implementation details or exemptions. Al Hameli said the UAE remained committed to dialogue […] The post UAE cuts all trade and financial transactions with Iran appeared first on HESPRE",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-18T21:25:07Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67591808-26-vuln-rabilit-s-critiques-affectant-plusieurs-produits-d-apple",
       "title": "67591808/26 - Vulnérabilités critiques affectant plusieurs produits d’Apple",
@@ -40,27 +53,14 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-spain-thanks-morocco-for-ceuta-migration-cooperation",
-      "title": "Spain thanks Morocco for Ceuta migration cooperation",
-      "link": "https://en.hespress.com/143987-spain-thanks-morocco-for-ceuta-migration-cooperation.html",
-      "description": "Spanish Minister of Inclusion, Social Security and Migration and government spokesperson Elma Saiz said Morocco was a “reliable partner” and that a solution to the crisis “would not have been possible without Morocco’s cooperation.” Speaking to Cadena SER after visiting Ceuta, Saiz defended the government’s response and said the autonomous city “has not been, nor […] The post Spain thanks Morocco for Ceuta migration cooperation appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-18T16:02:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-jeter-les-bases-de-l-identification-des-victimes-avant-l-inhumation-sebta-quelles-garanties-pour",
-      "title": "Jeter les bases de l'identification des victimes avant l'inhumation à Sebta : quelles garanties pour les familles ?",
-      "link": "https://fr.hespress.com/485530-jeter-les-bases-de-lidentification-des-victimes-avant-linhumation-a-sebta-quelles-garanties-pour-les-familles.html",
-      "description": "Les autorités de Sebta s’apprêtent à enterrer, à partir de ce mardi, plusieurs corps de migrants décédés lors de la tentative de passage massif du 30 juillet dernier. Alors que certains corps restent non identifiés, des questions se posent sur les procédures mises en œuvre pour retrouver les familles, préserver les preuves et permettre une […] The post Jeter les bases de l'identification des victimes avant l'inhumation à Sebta : quelles garanties pour les familles ? appeared first on Hespress Fr",
+      "id": "hespress-fr-cybers-curit-le-maroc-class-43e-mondial-sur-155-pays-en-2026",
+      "title": "Cybersécurité : Le Maroc classé 43e mondial sur 155 pays en 2026",
+      "link": "https://fr.hespress.com/485544-cybersecurite-le-maroc-classe-43e-mondial-sur-155-pays-en-2026.html",
+      "description": "Le Maroc figure parmi les pays les mieux classés en matière de cybersécurité à l’échelle internationale, selon l’édition 2026 du Classement mondial de la cybersécurité publié par l’Académie estonienne de la gouvernance électronique (eGA). Le Royaume occupe la 43e position sur les 155 États évalués, avec un score de 79,17 points sur 100. Cette performance […] The post Cybersécurité : Le Maroc classé 43e mondial sur 155 pays en 2026 appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-18T13:45:19Z",
+      "published": "2026-08-18T17:50:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
