@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-19T01:56:07Z",
+  "generatedAt": "2026-08-19T07:09:13Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -50,19 +50,6 @@
       "published": "2026-08-18T19:00:16Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cybers-curit-le-maroc-class-43e-mondial-sur-155-pays-en-2026",
-      "title": "Cybersécurité : Le Maroc classé 43e mondial sur 155 pays en 2026",
-      "link": "https://fr.hespress.com/485544-cybersecurite-le-maroc-classe-43e-mondial-sur-155-pays-en-2026.html",
-      "description": "Le Maroc figure parmi les pays les mieux classés en matière de cybersécurité à l’échelle internationale, selon l’édition 2026 du Classement mondial de la cybersécurité publié par l’Académie estonienne de la gouvernance électronique (eGA). Le Royaume occupe la 43e position sur les 155 États évalués, avec un score de 79,17 points sur 100. Cette performance […] The post Cybersécurité : Le Maroc classé 43e mondial sur 155 pays en 2026 appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-18T17:50:50Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
