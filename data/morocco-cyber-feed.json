@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-19T13:13:22Z",
+  "generatedAt": "2026-08-19T18:56:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67651908-26-vuln-rabilit-s-affectant-gitlab",
+      "title": "67651908/26 - Vulnérabilités affectant GitLab",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-gitlab-20",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-19T18:56:37Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67641908-26-mises-jour-de-s-curit-pour-plusieurs-produits-d-oracle",
+      "title": "67641908/26 - Mises à jour de sécurité pour plusieurs produits d'oracle",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/mises-jour-de-securite-pour-plusieurs-produits-doracle-6",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-19T18:56:37Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67631908-26-vuln-rabilit-s-affectant-le-client-de-messagerie-mozilla-thunderbird",
+      "title": "67631908/26 - Vulnérabilités affectant le client de messagerie Mozilla Thunderbird",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-client-de-messagerie-mozilla-thunderbird-18",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-19T18:56:37Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "أمريكا تحذر من اختراق أجهزة سيمنس",
+      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d8%b3%d9%8a%d9%85%d9%86%d8%b3-1794232.html",
+      "description": "أفاد تنبيه أمني إلكتروني نشر اليوم الأربعاء بأن عدة أجهزة حكومية أمريكية حذرت من أن متسللين إلكترونيين مجهولي الهوية يحاولون اختراق أجهزة من صنع شركة سيمنس تستخدم لمتابعة وتشغيل مرافق المياه وأنظمة البنية التحتية الحيوية الأخرى. يأتي هذا التحذير وسط انتشار وقائع التسلل الإلكتروني التي استهدفت شبكات مياه محلية في عدة ولايات خلال الأسابيع القليلة […] The post أمريكا تحذر من اختراق أجهزة سيمنس appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-19T17:33:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-om-nayef-aguerd-op-rationnel-genesio-confirme-son-retour-progressif",
+      "title": "OM : Nayef Aguerd opérationnel, Genesio confirme son retour progressif",
+      "link": "https://fr.hespress.com/485627-om-nayef-aguerd-operationnel-genesio-confirme-son-retour-progressif.html",
+      "description": "Nayef Aguerd est désormais opérationnel avec l’OM, mais le défenseur marocain devra retrouver progressivement le rythme après cinq mois sans jouer. Malgré l’échec de son départ à la Real Sociedad, il reste pleinement concentré sur le terrain. Alors que son avenir demeure incertain en cette fin de mercato, Nayef Aguerd a retrouvé le groupe marseillais […] The post OM : Nayef Aguerd opérationnel, Genesio confirme son retour progressif appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-19T16:10:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67621908-26-vuln-rabilit-s-affectant-le-navigateur-mozilla-firefox",
       "title": "67621908/26 - Vulnérabilités affectant le navigateur Mozilla Firefox",
@@ -53,14 +118,14 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-uae-cuts-all-trade-and-financial-transactions-with-iran",
-      "title": "UAE cuts all trade and financial transactions with Iran",
-      "link": "https://en.hespress.com/144015-uae-cuts-all-trade-and-financial-transactions-with-iran.html",
-      "description": "The United Arab Emirates suspended all trade, commercial exchanges and financial transactions with Iran until further notice, the UAE Foreign Ministry said Tuesday. Afra Al Hameli, the ministry’s strategic communications director, said regional developments threatened international peace and security. She gave no implementation details or exemptions. Al Hameli said the UAE remained committed to dialogue […] The post UAE cuts all trade and financial transactions with Iran appeared first on HESPRE",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-le-th-tre-mohammed-v-se-pr-pare-faire-peau-neuve",
+      "title": "Le Théâtre Mohammed V se prépare à faire peau neuve",
+      "link": "https://fr.hespress.com/485621-le-theatre-mohammed-v-se-prepare-a-faire-peau-neuve.html",
+      "description": "Le Théâtre Mohammed V de Rabat s’apprête à renouveler son apparence et son dispositif de sécurité à travers deux nouveaux marchés publics, portant sur les travaux de peinture et la surveillance de ses installations. Le célèbre théâtre de la capitale marocaine va bénéficier de travaux de rénovation de ses espaces intérieurs et extérieurs. Le marché […] The post Le Théâtre Mohammed V se prépare à faire peau neuve appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-18T21:25:07Z",
+      "published": "2026-08-19T13:07:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -217,45 +282,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-08-13T13:52:10Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67471208-26-vuln-rabilit-s-critiques-affectant-des-produits-sonicwall",
-      "title": "67471208/26 - Vulnérabilités critiques affectant des produits SonicWall",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-des-produits-sonicwall",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67461208-26-vuln-rabilit-s-affectant-ivanti-endpoint-manager",
-      "title": "67461208/26 - Vulnérabilités affectant Ivanti Endpoint Manager",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-ivanti-endpoint-manager-3",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67451208-26-vuln-rabilit-affectant-docker-desktop",
-      "title": "67451208/26 - Vulnérabilité affectant Docker Desktop",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-docker-desktop-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-12T13:51:57Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
