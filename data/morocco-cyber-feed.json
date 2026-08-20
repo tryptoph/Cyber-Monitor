@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-20T01:54:42Z",
+  "generatedAt": "2026-08-20T07:10:29Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-droits-d-auteur-le-maroc-renforce-son-arsenal-juridique-contre-le-piratage-num-rique",
-      "title": "Droits d’auteur : Le Maroc renforce son arsenal juridique contre le piratage numérique",
-      "link": "https://fr.hespress.com/485637-droits-dauteur-le-maroc-renforce-son-arsenal-juridique-contre-le-piratage-numerique.html",
-      "description": "Le Maroc franchit une nouvelle étape dans l’adaptation de son cadre juridique à l’ère numérique. La loi n° 013.26 modifiant et complétant la loi n° 2.00 relative aux droits d’auteur et aux droits voisins est officiellement entrée en vigueur après sa publication au Bulletin officiel n° 7533 du 10 août 2026. Promulgué par le dahir […] The post Droits d’auteur : Le Maroc renforce son arsenal juridique contre le piratage numérique appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-ar-item",
+      "title": "\"فبركة\" فواتير بالمليارات تضع جماعات ترابية تحت مجهر مجلس الحسابات",
+      "link": "https://www.hespress.com/%d9%81%d8%a8%d8%b1%d9%83%d8%a9-%d9%81%d9%88%d8%a7%d8%aa%d9%8a%d8%b1-%d8%a8%d8%a7%d9%84%d9%85%d9%84%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b6%d8%b9-%d8%ac%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d8%aa-1794190.html",
+      "description": "كشفت تسريبات من تقارير أنجزتها مجالس جهوية للحسابات بجهات الدار البيضاء–سطات، والرباط–سلا–القنيطرة، وفاس–مكناس، وبني ملال–خنيفرة، عن اختلالات خطيرة في تدبير طلبيات جماعية بالمليارات، ورطت رؤساء جماعات حاليين وسابقين في شبهات تبديد أموال عمومية، من خلال “فبركة” فواتير سندات طلب وصفقات. وأفادت مصادر جيدة الاطلاع، لهسبريس، بأن المعطيات التي رصدها قضاة الحسابات أظهرت تكرار تعامل عدد […] The post \"فبركة\" فواتير بالمليارات تضع جماعات ترابية تحت مجهر مجلس الحسابات appeared first on Hespress - هسبريس جر",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-20T07:00:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-openai-suspend-astra-et-renforce-ses-contr-les-de-s-curit-apr-s-plusieurs-incidents",
+      "title": "OpenAI suspend « Astra » et renforce ses contrôles de sécurité après plusieurs incidents",
+      "link": "https://fr.hespress.com/485675-openai-suspend-astra-et-renforce-ses-controles-de-securite-apres-plusieurs-incidents.html",
+      "description": "OpenAI, développeur de ChatGPT, va geler le développement de son modèle d’intelligence artificielle le plus avancé connu sous le nom d’ »Astra » et durcir ses contrôles internes, un mois après avoir révélé une cyberattaque menée de façon autonome par un de ses outils contre la plateforme Hugging Face. Le plus gros entraînement d’IA jamais programmé par […] The post OpenAI suspend « Astra » et renforce ses contrôles de sécurité après plusieurs incidents appeared first on Hespress Français - Actua",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-19T19:36:38Z",
+      "published": "2026-08-20T01:54:15Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -89,19 +102,6 @@
       "published": "2026-08-19T18:56:37Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-om-nayef-aguerd-op-rationnel-genesio-confirme-son-retour-progressif",
-      "title": "OM : Nayef Aguerd opérationnel, Genesio confirme son retour progressif",
-      "link": "https://fr.hespress.com/485627-om-nayef-aguerd-operationnel-genesio-confirme-son-retour-progressif.html",
-      "description": "Nayef Aguerd est désormais opérationnel avec l’OM, mais le défenseur marocain devra retrouver progressivement le rythme après cinq mois sans jouer. Malgré l’échec de son départ à la Real Sociedad, il reste pleinement concentré sur le terrain. Alors que son avenir demeure incertain en cette fin de mercato, Nayef Aguerd a retrouvé le groupe marseillais […] The post OM : Nayef Aguerd opérationnel, Genesio confirme son retour progressif appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-19T16:10:04Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
