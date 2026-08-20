@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-19T18:56:44Z",
+  "generatedAt": "2026-08-20T01:54:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-droits-d-auteur-le-maroc-renforce-son-arsenal-juridique-contre-le-piratage-num-rique",
+      "title": "Droits d’auteur : Le Maroc renforce son arsenal juridique contre le piratage numérique",
+      "link": "https://fr.hespress.com/485637-droits-dauteur-le-maroc-renforce-son-arsenal-juridique-contre-le-piratage-numerique.html",
+      "description": "Le Maroc franchit une nouvelle étape dans l’adaptation de son cadre juridique à l’ère numérique. La loi n° 013.26 modifiant et complétant la loi n° 2.00 relative aux droits d’auteur et aux droits voisins est officiellement entrée en vigueur après sa publication au Bulletin officiel n° 7533 du 10 août 2026. Promulgué par le dahir […] The post Droits d’auteur : Le Maroc renforce son arsenal juridique contre le piratage numérique appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-19T19:36:38Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-road-accidents-claim-31-lives-in-morocco-over-past-week",
+      "title": "Road Accidents Claim 31 Lives in Morocco Over Past Week",
+      "link": "https://en.hespress.com/144058-road-accidents-claim-31-lives-in-morocco-over-past-week.html",
+      "description": "Thirty one people were dead and 2,876 injured, including 131 seriously, in 2,073 road accidents that occurred in urban areas during the week of August 10-16, according to the General Directorate of National Security (DGSN). The accidents were mainly due to driver inattention, failure to let pass the right of way, pedestrian inattention, speeding, loss […] The post Road Accidents Claim 31 Lives in Morocco Over Past Week appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-19T19:09:14Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-six-year-medical-degree-leaves-moroccan-students-uncertain-over-hospital-training",
+      "title": "Six-year medical degree leaves Moroccan students uncertain over hospital training",
+      "link": "https://en.hespress.com/144062-six-year-medical-degree-leaves-moroccan-students-uncertain-over-hospital-training.html",
+      "description": "Morocco’s medical students have raised concerns over what they described as continued uncertainty surrounding the implementation of the new medical training reform, warning that students still lack clear answers on how the changes will affect their training. In a statement on Tuesday, Morocco’s National Commission of Medical, Dental, and Pharmacy Students said that the uncertainty […] The post Six-year medical degree leaves Moroccan students uncertain over hospital training appeared first on HES",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-19T19:03:28Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67651908-26-vuln-rabilit-s-affectant-gitlab",
       "title": "67651908/26 - Vulnérabilités affectant GitLab",
@@ -50,19 +89,6 @@
       "published": "2026-08-19T18:56:37Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "أمريكا تحذر من اختراق أجهزة سيمنس",
-      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a3%d8%ac%d9%87%d8%b2%d8%a9-%d8%b3%d9%8a%d9%85%d9%86%d8%b3-1794232.html",
-      "description": "أفاد تنبيه أمني إلكتروني نشر اليوم الأربعاء بأن عدة أجهزة حكومية أمريكية حذرت من أن متسللين إلكترونيين مجهولي الهوية يحاولون اختراق أجهزة من صنع شركة سيمنس تستخدم لمتابعة وتشغيل مرافق المياه وأنظمة البنية التحتية الحيوية الأخرى. يأتي هذا التحذير وسط انتشار وقائع التسلل الإلكتروني التي استهدفت شبكات مياه محلية في عدة ولايات خلال الأسابيع القليلة […] The post أمريكا تحذر من اختراق أجهزة سيمنس appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-19T17:33:31Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -115,19 +141,6 @@
       "published": "2026-08-19T13:13:09Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-th-tre-mohammed-v-se-pr-pare-faire-peau-neuve",
-      "title": "Le Théâtre Mohammed V se prépare à faire peau neuve",
-      "link": "https://fr.hespress.com/485621-le-theatre-mohammed-v-se-prepare-a-faire-peau-neuve.html",
-      "description": "Le Théâtre Mohammed V de Rabat s’apprête à renouveler son apparence et son dispositif de sécurité à travers deux nouveaux marchés publics, portant sur les travaux de peinture et la surveillance de ses installations. Le célèbre théâtre de la capitale marocaine va bénéficier de travaux de rénovation de ses espaces intérieurs et extérieurs. Le marché […] The post Le Théâtre Mohammed V se prépare à faire peau neuve appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-19T13:07:19Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
