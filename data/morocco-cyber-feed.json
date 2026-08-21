@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-21T13:15:04Z",
+  "generatedAt": "2026-08-21T19:00:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "بلدان عربية تدين الغارات الإسرائيلية",
+      "link": "https://www.hespress.com/%d8%a8%d9%84%d8%af%d8%a7%d9%86-%d8%b9%d8%b1%d8%a8%d9%8a%d8%a9-%d8%aa%d8%af%d9%8a%d9%86-%d8%a7%d9%84%d8%ba%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84%d9%8a%d8%a9-1795052.html",
+      "description": "أدان وزراء خارجية 12 دولة عربية وإسلامية، اليوم الجمعة، الغارات الجوية الإسرائيلية التي استهدفت مطار أبو الظهور العسكري في شمال غرب سوريا، مؤكدين أن هذه الهجمات تشكل تصعيدا خطيرا وانتهاكا صارخا لسيادة الجمهورية العربية السورية وأمنها واستقرارها ووحدة أراضيها. وجاء في بيان مشترك: “يدين وزراء خارجية دولة قطر والمملكة الأردنية الهاشمية والجمهورية الجزائرية الديمقراطية الشعبية […] The post بلدان عربية تدين الغارات الإسرائيلية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-21T17:34:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "مهاجرون يهاجمون الشرطة الفرنسية",
+      "link": "https://www.hespress.com/%d9%85%d9%87%d8%a7%d8%ac%d8%b1%d9%88%d9%86-%d9%8a%d9%87%d8%a7%d8%ac%d9%85%d9%88%d9%86-%d8%a7%d9%84%d8%b4%d8%b1%d8%b7%d8%a9-%d8%a7%d9%84%d9%81%d8%b1%d9%86%d8%b3%d9%8a%d8%a9-1794956.html",
+      "description": "أظهرت مقاطع مصورة لحظة تعرض ضباط الشرطة الفرنسية لهجوم من قبل مهاجرين أثناء إحباط محاولة إنزال قارب إلى المياه. ويظهر في الفيديو مهاجرون يرتدون سترات نجاة وهم يرمون أشياءً على الشرطة في محاولة لإبعادهم عن قاربهم، حسب وكالة الأنباء البريطانية (بي إيه ميديا). واستخدم الضباط رذاذ الفلفل الصناعي (بافا)، قبل أن يمزقوا القارب المطاطي بسكين. […] The post مهاجرون يهاجمون الشرطة الفرنسية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-21T16:19:49Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-ceuta-crisis-exposes-limits-of-eu-reliance-on-morocco-for-border-control",
+      "title": "Ceuta crisis exposes limits of EU reliance on Morocco for border control",
+      "link": "https://en.hespress.com/144148-ceuta-crisis-exposes-limits-of-eu-reliance-on-morocco-for-border-control.html",
+      "description": "The mass migration surge into Ceuta has exposed the fragility of Europe’s reliance on Morocco to control its southern borders, according to an analysis published by Eurasia Review. Mohamed Chtatou, the analysis’s author, described EU-Morocco migration cooperation as a complex bargain shaped by security, trade, diplomacy and unresolved sovereignty disputes. European governments depend on Morocco […] The post Ceuta crisis exposes limits of EU reliance on Morocco for border control appeared first o",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-21T16:16:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67651908-26-vuln-rabilit-s-affectant-gitlab",
       "title": "67651908/26 - Vulnérabilités affectant GitLab",
