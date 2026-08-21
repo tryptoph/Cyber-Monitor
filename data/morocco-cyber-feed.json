@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-21T07:11:12Z",
+  "generatedAt": "2026-08-21T13:15:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-berlin-victime-d-une-cyberattaque-s-rieuse-des-services-publics-perturb-s",
-      "title": "Berlin victime d’une cyberattaque « sérieuse », des services publics perturbés",
-      "link": "https://fr.hespress.com/485740-berlin-victime-dune-cyberattaque-serieuse-des-services-publics-perturbes.html",
-      "description": "Le maire-gouverneur de Berlin, Kai Wegner, a qualifié de « sérieuse » la cyberattaque qui perturbe depuis plusieurs jours une partie de l’administration de la capitale allemande, tout en assurant qu’aucune donnée sensible n’avait été exfiltrée selon les informations disponibles à ce stade. « Berlin a été victime d’une cyberattaque », a déclaré Kai Wegner lors d’une conférence de […] The post Berlin victime d’une cyberattaque « sérieuse », des services publics perturbés appeared first on Hespress",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-21T01:40:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-67651908-26-vuln-rabilit-s-affectant-gitlab",
       "title": "67651908/26 - Vulnérabilités affectant GitLab",
