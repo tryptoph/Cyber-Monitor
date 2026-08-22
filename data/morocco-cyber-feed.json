@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-22T13:04:04Z",
+  "generatedAt": "2026-08-22T18:51:54Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -15,26 +15,39 @@
   "items": [
     {
       "id": "hespress-ar-item",
-      "title": "قتلى ومخطوفون في هجوم بنيجيريا",
-      "link": "https://www.hespress.com/%d9%82%d8%aa%d9%84%d9%89-%d9%88%d9%85%d8%ae%d8%b7%d9%88%d9%81%d9%88%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-2-1795270.html",
-      "description": "قام جهاديون بقتل وخطف عشرات الأشخاص في هجوم وقع خلال صلاة الجمعة في ولاية نيجر بوسط نيجيريا، وفق ما أفاد به أحد السكان المحليين ونائب وكالة فرانس برس السبت. وقال جبريل أحمد، وهو من سكان قرية ديكيرا، إن مسلحي جماعة “لاكوراوا” “قتلوا عددا من أهلنا، وخطفوا العديدين”. وأفاد بأن بعض المخطوفين تمكنوا من الفرار، عقب […] The post قتلى ومخطوفون في هجوم بنيجيريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "title": "اختطاف مصلين من مسجد في نيجيريا",
+      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d8%b7%d8%a7%d9%81-%d9%85%d8%b5%d9%84%d9%8a%d9%86-%d9%85%d9%86-%d9%85%d8%b3%d8%ac%d8%af-%d9%81%d9%8a-%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-1795396.html",
+      "description": "اختطف مسلحون عددا من المصلين أثناء صلاة الجمعة في مسجد بولاية النيجر، شمال وسط نيجيريا، في هجوم أعقب اعتداءات على قريتين بالمنطقة، وفق ما أعلنته الشرطة النيجيرية السبت. وقال المتحدث باسم الشرطة واسيو أبيودون إن المهاجمين اقتحموا مسجد كبينيا في منطقة ديكارا التابعة لمنطقة بورجو الحكومية المحلية، نحو الساعة الثانية بعد ظهر الجمعة بالتوقيت المحلي، […] The post اختطاف مصلين من مسجد في نيجيريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-08-22T11:26:38Z",
+      "published": "2026-08-22T15:10:47Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-fr-wydad-de-casablanca-l-avenir-de-hakim-ziyech-toujours-suspendu-aux-n-gociations",
-      "title": "Wydad de Casablanca : l’avenir de Hakim Ziyech toujours suspendu aux négociations",
-      "link": "https://fr.hespress.com/485843-wydad-de-casablanca-lavenir-de-hakim-ziyech-toujours-suspendu-aux-negociations.html",
-      "description": "L’avenir de Hakim Ziyech au Wydad Casablanca reste incertain. Alors que les supporters espèrent voir l’international marocain poursuivre son aventure avec le club rouge, aucun accord définitif n’a encore été trouvé entre les deux parties. Une large partie du public wydadi souhaite en effet conserver Ziyech, compte tenu de son expérience et de son statut […] The post Wydad de Casablanca : l’avenir de Hakim Ziyech toujours suspendu aux négociations appeared first on Hespress Français - Actualités ",
+      "id": "hespress-fr-washington-impose-des-surtaxes-de-50-sur-certains-produits-canadiens-apr-s-l-chec-des-pourparler",
+      "title": "Washington impose des surtaxes de 50 % sur certains produits canadiens après l’échec des pourparlers",
+      "link": "https://fr.hespress.com/485858-washington-impose-des-surtaxes-de-50-sur-certains-produits-canadiens-apres-lechec-des-pourparlers.html",
+      "description": "Les États-Unis ont imposé, dès samedi, des droits de douane de 50 % sur plusieurs produits canadiens, après l’échec, vendredi soir, des négociations de dernière minute entre les deux pays. Ces surtaxes concernent des produits d’une valeur de 20 milliards de dollars, poussant le Canada à menacer de mesures de rétorsion, rapportent les médias américains. […] The post Washington impose des surtaxes de 50 % sur certains produits canadiens après l’échec des pourparlers appeared first on Hespress Fran",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-22T08:34:19Z",
+      "published": "2026-08-22T14:23:28Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-m-diq-un-concert-in-dit-de-l-orchestre-symphonique-royal-l-occasion-de-la-f-te-de-la-jeunesse",
+      "title": "M’diq : Un concert inédit de l’Orchestre Symphonique Royal à l’occasion de la Fête de la Jeunesse",
+      "link": "https://aujourdhui.ma/culture/mdiq-un-concert-inedit-de-lorchestre-symphonique-royal-a-loccasion-de-la-fete-de-la-jeunesse",
+      "description": "L’Orchestre Symphonique Royal a transporté, vendredi soir, le public de M’diq et ses visiteurs dans l’univers de la musique internationale, lors d’une soirée artistique exceptionnelle organisée sur la place de la préfecture de M’diq-Fnideq, à l’occasion de la célébration de la Fête de la Jeunesse. Dirigé par le maestro Oleg Reshetkin, l’Orchestre Symphonique Royal a […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-08-22T14:16:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
