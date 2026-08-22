@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-22T01:53:55Z",
+  "generatedAt": "2026-08-22T13:04:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-en-ceuta-crisis-exposes-limits-of-eu-reliance-on-morocco-for-border-control",
-      "title": "Ceuta crisis exposes limits of EU reliance on Morocco for border control",
-      "link": "https://en.hespress.com/144148-ceuta-crisis-exposes-limits-of-eu-reliance-on-morocco-for-border-control.html",
-      "description": "The mass migration surge into Ceuta has exposed the fragility of Europe’s reliance on Morocco to control its southern borders, according to an analysis published by Eurasia Review. Mohamed Chtatou, the analysis’s author, described EU-Morocco migration cooperation as a complex bargain shaped by security, trade, diplomacy and unresolved sovereignty disputes. European governments depend on Morocco […] The post Ceuta crisis exposes limits of EU reliance on Morocco for border control appeared first o",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-ar-item",
+      "title": "قتلى ومخطوفون في هجوم بنيجيريا",
+      "link": "https://www.hespress.com/%d9%82%d8%aa%d9%84%d9%89-%d9%88%d9%85%d8%ae%d8%b7%d9%88%d9%81%d9%88%d9%86-%d9%81%d9%8a-%d9%87%d8%ac%d9%88%d9%85-%d8%a8%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-2-1795270.html",
+      "description": "قام جهاديون بقتل وخطف عشرات الأشخاص في هجوم وقع خلال صلاة الجمعة في ولاية نيجر بوسط نيجيريا، وفق ما أفاد به أحد السكان المحليين ونائب وكالة فرانس برس السبت. وقال جبريل أحمد، وهو من سكان قرية ديكيرا، إن مسلحي جماعة “لاكوراوا” “قتلوا عددا من أهلنا، وخطفوا العديدين”. وأفاد بأن بعض المخطوفين تمكنوا من الفرار، عقب […] The post قتلى ومخطوفون في هجوم بنيجيريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-08-21T16:16:31Z",
+      "published": "2026-08-22T11:26:38Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-wydad-de-casablanca-l-avenir-de-hakim-ziyech-toujours-suspendu-aux-n-gociations",
+      "title": "Wydad de Casablanca : l’avenir de Hakim Ziyech toujours suspendu aux négociations",
+      "link": "https://fr.hespress.com/485843-wydad-de-casablanca-lavenir-de-hakim-ziyech-toujours-suspendu-aux-negociations.html",
+      "description": "L’avenir de Hakim Ziyech au Wydad Casablanca reste incertain. Alors que les supporters espèrent voir l’international marocain poursuivre son aventure avec le club rouge, aucun accord définitif n’a encore été trouvé entre les deux parties. Une large partie du public wydadi souhaite en effet conserver Ziyech, compte tenu de son expérience et de son statut […] The post Wydad de Casablanca : l’avenir de Hakim Ziyech toujours suspendu aux négociations appeared first on Hespress Français - Actualités ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-22T08:34:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
