@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-22T18:51:54Z",
+  "generatedAt": "2026-08-23T02:02:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "اختطاف مصلين من مسجد في نيجيريا",
-      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d8%b7%d8%a7%d9%81-%d9%85%d8%b5%d9%84%d9%8a%d9%86-%d9%85%d9%86-%d9%85%d8%b3%d8%ac%d8%af-%d9%81%d9%8a-%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-1795396.html",
-      "description": "اختطف مسلحون عددا من المصلين أثناء صلاة الجمعة في مسجد بولاية النيجر، شمال وسط نيجيريا، في هجوم أعقب اعتداءات على قريتين بالمنطقة، وفق ما أعلنته الشرطة النيجيرية السبت. وقال المتحدث باسم الشرطة واسيو أبيودون إن المهاجمين اقتحموا مسجد كبينيا في منطقة ديكارا التابعة لمنطقة بورجو الحكومية المحلية، نحو الساعة الثانية بعد ظهر الجمعة بالتوقيت المحلي، […] The post اختطاف مصلين من مسجد في نيجيريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-22T15:10:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-washington-impose-des-surtaxes-de-50-sur-certains-produits-canadiens-apr-s-l-chec-des-pourparler",
-      "title": "Washington impose des surtaxes de 50 % sur certains produits canadiens après l’échec des pourparlers",
-      "link": "https://fr.hespress.com/485858-washington-impose-des-surtaxes-de-50-sur-certains-produits-canadiens-apres-lechec-des-pourparlers.html",
-      "description": "Les États-Unis ont imposé, dès samedi, des droits de douane de 50 % sur plusieurs produits canadiens, après l’échec, vendredi soir, des négociations de dernière minute entre les deux pays. Ces surtaxes concernent des produits d’une valeur de 20 milliards de dollars, poussant le Canada à menacer de mesures de rétorsion, rapportent les médias américains. […] The post Washington impose des surtaxes de 50 % sur certains produits canadiens après l’échec des pourparlers appeared first on Hespress Fran",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-22T14:23:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "aujourdhui-m-diq-un-concert-in-dit-de-l-orchestre-symphonique-royal-l-occasion-de-la-f-te-de-la-jeunesse",
       "title": "M’diq : Un concert inédit de l’Orchestre Symphonique Royal à l’occasion de la Fête de la Jeunesse",
