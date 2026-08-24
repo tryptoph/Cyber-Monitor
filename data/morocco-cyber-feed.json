@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-24T02:00:40Z",
+  "generatedAt": "2026-08-24T07:32:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "اختراق غير مسبوق في علاج السرطان .. لقاحات شخصية تلاحق طفرات الأورام",
+      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%ba%d9%8a%d8%b1-%d9%85%d8%b3%d8%a8%d9%88%d9%82-%d9%81%d9%8a-%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d9%84%d8%b3%d8%b1%d8%b7%d8%a7%d9%86-%d9%84%d9%82%d8%a7%d8%ad-1796090.html",
+      "description": "بعد عقود من التجارب المتعثرة والنتائج المحدودة، تقترب لقاحات السرطان من دخول مرحلة جديدة قد تغيّر طريقة التعامل مع بعض الأورام، بعدما أعلنت شركتا “موديرنا” و”ميرك” نجاح لقاح شخصي قائم على تقنية الحمض النووي الريبي المرسال “mRNA” في تجربة متقدمة شملت مرضى مصابين بسرطان الجلد “الميلانوما”، وهي نتيجة وصفتها تقارير علمية واقتصادية بأنها محطة فارقة […] The post اختراق غير مسبوق في علاج السرطان .. لقاحات شخصية تلاحق طفرات الأورام appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-24T03:00:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-animal-groups-seek-clarity-over-morocco-s-restrictions-on-feeding-strays",
       "title": "Animal groups seek clarity over Morocco’s restrictions on feeding strays",
