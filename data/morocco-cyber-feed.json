@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-23T18:51:36Z",
+  "generatedAt": "2026-08-24T02:00:40Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-23T16:57:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-l-alliance-de-la-gauche-met-les-derni-res-touches-un-programme-lectoral-contre-l-conomie-de-rent",
-      "title": "L’Alliance de la gauche met les dernières touches à un programme électoral contre « l’économie de rente »",
-      "link": "https://fr.hespress.com/485920-lalliance-de-la-gauche-met-les-dernieres-touches-a-un-programme-electoral-contre-leconomie-de-rente.html",
-      "description": "La journée d’étude consacrée, samedi, à la discussion du projet de programme électoral de « l’Alliance de la gauche » a permis de recueillir l’ensemble des remarques et d’en prendre certaines en considération afin de les intégrer à la version finale du programme, a appris Hespress. La possibilité a également été accordée à d’autres membres, […] The post L’Alliance de la gauche met les dernières touches à un programme électoral contre « l’économie de rente » appeared first on Hespress Français - ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-23T13:31:13Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
