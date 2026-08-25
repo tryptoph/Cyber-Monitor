@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-25T07:12:26Z",
+  "generatedAt": "2026-08-25T13:15:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-en-one-third-of-vessels-blacklisted-by-iran-already-attacked-around-hormuz",
+      "title": "One-third of vessels blacklisted by Iran already attacked around Hormuz",
+      "link": "https://en.hespress.com/144323-one-third-of-vessels-blacklisted-by-iran-already-attacked-around-hormuz.html",
+      "description": "One-third of the vessels Iran has threatened to confiscate for breaching Strait of Hormuz transit rules have already been attacked during the Middle East war, an AFP data analysis found. Since the conflict erupted in late February, Tehran has sought to impose its own shipping corridor in a bid to control traffic through the strategic chokepoint, […] The post One-third of vessels blacklisted by Iran already attacked around Hormuz appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-25T12:06:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-a-d-al-mawlid-annabawi-gr-ce-royale-au-profit-de-634-personnes",
+      "title": "Aïd Al Mawlid Annabawi : Grâce Royale au profit de 634 personnes",
+      "link": "https://aujourdhui.ma/societe/aid-al-mawlid-annabawi-grace-royale-au-profit-de-634-personnes",
+      "description": "A l’occasion de l’Aïd Al Mawlid Annabawi, Sa Majesté le Roi Mohammed VI, que Dieu L’assiste, a bien voulu accorder Sa grâce à 634 personnes dont certaines sont en détention et d’autres en liberté, condamnées par différents tribunaux du Royaume, annonce le ministère de la Justice dans un communiqué. En voici le texte : […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-08-25T08:52:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-rights-council-refers-ceuta-stone-throwing-case-to-prosecutors",
+      "title": "Morocco rights council refers Ceuta stone-throwing case to prosecutors",
+      "link": "https://en.hespress.com/144311-morocco-rights-council-refers-ceuta-stone-throwing-case-to-prosecutors.html",
+      "description": "Morocco’s National Human Rights Council has referred to prosecutors its interview report concerning a young man allegedly targeted with stones by a member of the security forces during mass attempts to enter Ceuta in late July. A council source told Hespress that the report had been formally submitted to the public prosecutor’s office. Video of […] The post Morocco rights council refers Ceuta stone-throwing case to prosecutors appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-25T08:18:09Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-front-de-sauvetage-de-samir-le-raffinage-pourrait-repr-senter-jusqu-5-dirhams-par-litre-de-gasoi",
       "title": "Front de sauvetage de Samir : le raffinage pourrait représenter jusqu’à 5 dirhams par litre de gasoil",
       "link": "https://fr.hespress.com/486022-front-de-sauvetage-de-samir-le-raffinage-pourrait-representer-jusqua-5-dirhams-par-litre-de-gasoil.html",
@@ -22,32 +61,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-08-25T07:03:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-tesla-va-rappeler-2-9-millions-de-ses-v-hicules-en-chine-cause-de-la-s-curit-des-portes",
-      "title": "Tesla va rappeler 2,9 millions de ses véhicules en Chine à cause de la sécurité des portes",
-      "link": "https://fr.hespress.com/486010-tesla-va-rappeler-29-millions-de-ses-vehicules-en-chine-a-cause-de-la-securite-des-portes.html",
-      "description": "Le constructeur automobile américain Tesla va rappeler 2,9 millions de ses véhicules en Chine en raison d’inquiétudes concernant des portes qui pourraient être difficiles à ouvrir en cas d’urgence, a annoncé le régulateur chinois. Huit fabricants chinois de voitures électriques (BAIC, FAW, Dongfeng, Chery, Geely, Leapmotor, Xiaomi, XPeng) sont aussi touchés par des rappels pour […] The post Tesla va rappeler 2,9 millions de ses véhicules en Chine à cause de la sécurité des portes appeared first ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-25T01:54:22Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-a-d-al-mawlid-annabawi-gr-ce-royale-au-profit-de-634-personnes",
-      "title": "Aïd Al Mawlid Annabawi : Grâce Royale au profit de 634 personnes",
-      "link": "https://fr.hespress.com/486035-aid-al-mawlid-annabawi-grace-royale-au-profit-de-634-personnes.html",
-      "description": "A l’occasion de l’Aïd Al Mawlid Annabawi, le Roi Mohammed VI, que Dieu L’assiste, a bien voulu accorder Sa grâce à 634 personnes dont certaines sont en détention et d’autres en liberté, condamnées par différents tribunaux du Royaume, annonce le ministère de la Justice dans un communiqué. En voici le texte : « A l’occasion de […] The post Aïd Al Mawlid Annabawi : Grâce Royale au profit de 634 personnes appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-24T21:10:08Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
