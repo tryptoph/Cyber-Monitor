@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-25T01:55:43Z",
+  "generatedAt": "2026-08-25T07:12:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-front-de-sauvetage-de-samir-le-raffinage-pourrait-repr-senter-jusqu-5-dirhams-par-litre-de-gasoi",
+      "title": "Front de sauvetage de Samir : le raffinage pourrait représenter jusqu’à 5 dirhams par litre de gasoil",
+      "link": "https://fr.hespress.com/486022-front-de-sauvetage-de-samir-le-raffinage-pourrait-representer-jusqua-5-dirhams-par-litre-de-gasoil.html",
+      "description": "La Front national pour le sauvetage de la raffinerie Samir remet au centre du débat l’intérêt économique et stratégique du raffinage au Maroc. Selon les données avancées par la Front, la différence entre le prix du pétrole brut et celui des produits raffinés pourrait, dans certaines périodes, représenter jusqu’à 5 dirhams par litre de gasoil. […] The post Front de sauvetage de Samir : le raffinage pourrait représenter jusqu’à 5 dirhams par litre de gasoil appeared first on Hespress Français - Ac",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-25T07:03:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-tesla-va-rappeler-2-9-millions-de-ses-v-hicules-en-chine-cause-de-la-s-curit-des-portes",
+      "title": "Tesla va rappeler 2,9 millions de ses véhicules en Chine à cause de la sécurité des portes",
+      "link": "https://fr.hespress.com/486010-tesla-va-rappeler-29-millions-de-ses-vehicules-en-chine-a-cause-de-la-securite-des-portes.html",
+      "description": "Le constructeur automobile américain Tesla va rappeler 2,9 millions de ses véhicules en Chine en raison d’inquiétudes concernant des portes qui pourraient être difficiles à ouvrir en cas d’urgence, a annoncé le régulateur chinois. Huit fabricants chinois de voitures électriques (BAIC, FAW, Dongfeng, Chery, Geely, Leapmotor, Xiaomi, XPeng) sont aussi touchés par des rappels pour […] The post Tesla va rappeler 2,9 millions de ses véhicules en Chine à cause de la sécurité des portes appeared first ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-25T01:54:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-a-d-al-mawlid-annabawi-gr-ce-royale-au-profit-de-634-personnes",
       "title": "Aïd Al Mawlid Annabawi : Grâce Royale au profit de 634 personnes",
