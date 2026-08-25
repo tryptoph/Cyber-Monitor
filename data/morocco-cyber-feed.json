@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-24T19:03:54Z",
+  "generatedAt": "2026-08-25T01:55:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "الاستعلام الرقمي الهجومي",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a-%d8%a7%d9%84%d9%87%d8%ac%d9%88%d9%85%d9%8a-1796142.html",
-      "description": "“المنطقة الرمادية” وفرض معادلة الردع السيادي لم يعد مفهوم الأمن السيبراني في أدبيات الدفاع المعاصرة محصوراً في إقامة الجدران النارية وبناء الحصون الدفاعية السلبية؛ بل انتقل ثقله الاستراتيجي نحو ما يُعرف بـ “العمليات السيبرانية الهجومية” (Offensive Cyber Operations – OCO) وتحديداً شق الاستعلام الرقمي الاستباقي. ففي عالم يتسم بالسيولة الأمنية، أصبحت القدرة على اختراق أنظمة […] The post الاستعلام الرقمي الهجومي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-a-d-al-mawlid-annabawi-gr-ce-royale-au-profit-de-634-personnes",
+      "title": "Aïd Al Mawlid Annabawi : Grâce Royale au profit de 634 personnes",
+      "link": "https://fr.hespress.com/486035-aid-al-mawlid-annabawi-grace-royale-au-profit-de-634-personnes.html",
+      "description": "A l’occasion de l’Aïd Al Mawlid Annabawi, le Roi Mohammed VI, que Dieu L’assiste, a bien voulu accorder Sa grâce à 634 personnes dont certaines sont en détention et d’autres en liberté, condamnées par différents tribunaux du Royaume, annonce le ministère de la Justice dans un communiqué. En voici le texte : « A l’occasion de […] The post Aïd Al Mawlid Annabawi : Grâce Royale au profit de 634 personnes appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-24T18:50:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "المرزوقي والهجوم الجزائري",
-      "link": "https://www.hespress.com/%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d8%a7%d8%b5%d8%a8%d8%ad-%d8%a7%d9%84%d9%85%d8%b1%d8%b2%d9%88%d9%82%d9%8a-%d9%81%d9%8a-%d9%85%d8%b1%d9%85%d9%89-%d9%86%d9%8a%d8%b1%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d8%b2-1796184.html",
-      "description": "تبرز قضية الهجوم الذي تعرض له الرئيس التونسي السابق منصف المرزوقي في بعض الأوساط والخطابات الإعلامية والسياسية الجزائرية، مادة غنية لفهم طبيعة الصراعات السياسية والإعلامية التي ما تزال تحكم الفضاء المغاربي. فالمسألة، في جوهرها، تتجاوز شخص المرزوقي ومواقفه الفردية، لتكشف عن مستويات مترابطة تتصل بالصراع الجزائري المغربي، وأزمة الاتحاد المغاربي، وحدود الاختلاف السياسي في المنطقة، […] The post المرزوقي والهجوم الجزائري appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-24T18:41:37Z",
+      "published": "2026-08-24T21:10:08Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
