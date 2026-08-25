@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-25T13:15:26Z",
+  "generatedAt": "2026-08-25T19:01:35Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-en-one-third-of-vessels-blacklisted-by-iran-already-attacked-around-hormuz",
-      "title": "One-third of vessels blacklisted by Iran already attacked around Hormuz",
-      "link": "https://en.hespress.com/144323-one-third-of-vessels-blacklisted-by-iran-already-attacked-around-hormuz.html",
-      "description": "One-third of the vessels Iran has threatened to confiscate for breaching Strait of Hormuz transit rules have already been attacked during the Middle East war, an AFP data analysis found. Since the conflict erupted in late February, Tehran has sought to impose its own shipping corridor in a bid to control traffic through the strategic chokepoint, […] The post One-third of vessels blacklisted by Iran already attacked around Hormuz appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-rni-accuses-coalition-partner-pam-of-pressuring-candidates-to-defect",
+      "title": "RNI accuses coalition partner PAM of pressuring candidates to defect",
+      "link": "https://en.hespress.com/144353-rni-accuses-coalition-partner-pam-of-pressuring-candidates-to-defect.html",
+      "description": "Morocco’s National Rally of Independents accused governing coalition partner the Authenticity and Modernity Party of pressuring lawmakers and elected officials to defect before the September 23 election, threatening possible legal action. The RNI political bureau said Tuesday that repeated attempts to recruit its members breached political ethics and rules intended to ensure fair electoral competition. […] The post RNI accuses coalition partner PAM of pressuring candidates to defect appeared fir",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-25T12:06:34Z",
+      "published": "2026-08-25T18:48:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-eu-defends-morocco-infrastructure-funding-amid-migration-cooperation-concerns",
+      "title": "EU defends Morocco infrastructure funding amid migration cooperation concerns",
+      "link": "https://en.hespress.com/144337-eu-defends-morocco-infrastructure-funding-amid-migration-cooperation-concerns.html",
+      "description": "The European Commission has defended the European Union’s infrastructure financing in Morocco, saying its broad relationship with Rabat requires a balanced approach that takes into account migration, security, trade and investment. The comments came in response to questions from European Parliament member Marieke Ehlers of the Patriots for Europe group about European Investment Bank financing […] The post EU defends Morocco infrastructure funding amid migration cooperation concerns appeared firs",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-25T16:07:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-face-la-crise-de-sebta-l-espagne-active-pour-la-premi-re-fois-le-dispositif-de-s-curit-nationale",
+      "title": "Face à la crise de Sebta, l’Espagne active pour la première fois le dispositif de sécurité nationale",
+      "link": "https://fr.hespress.com/486064-face-a-la-crise-de-sebta-lespagne-active-pour-la-premiere-fois-le-dispositif-de-securite-nationale.html",
+      "description": "L’Espagne franchit un seuil inédit dans la gestion de la crise migratoire qui secoue l’enclave occupée de Sebta depuis l’entrée massive de migrants à la fin du mois de juillet. Réuni mardi 25 août en session extraordinaire sous la présidence du chef du gouvernement, Pedro Sánchez, le Conseil de sécurité nationale a décidé de déclarer […] The post Face à la crise de Sebta, l’Espagne active pour la première fois le dispositif de sécurité nationale appeared first on Hespress Français - Actualités d",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-25T12:34:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,32 +61,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-08-25T08:52:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-rights-council-refers-ceuta-stone-throwing-case-to-prosecutors",
-      "title": "Morocco rights council refers Ceuta stone-throwing case to prosecutors",
-      "link": "https://en.hespress.com/144311-morocco-rights-council-refers-ceuta-stone-throwing-case-to-prosecutors.html",
-      "description": "Morocco’s National Human Rights Council has referred to prosecutors its interview report concerning a young man allegedly targeted with stones by a member of the security forces during mass attempts to enter Ceuta in late July. A council source told Hespress that the report had been formally submitted to the public prosecutor’s office. Video of […] The post Morocco rights council refers Ceuta stone-throwing case to prosecutors appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-25T08:18:09Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-front-de-sauvetage-de-samir-le-raffinage-pourrait-repr-senter-jusqu-5-dirhams-par-litre-de-gasoi",
-      "title": "Front de sauvetage de Samir : le raffinage pourrait représenter jusqu’à 5 dirhams par litre de gasoil",
-      "link": "https://fr.hespress.com/486022-front-de-sauvetage-de-samir-le-raffinage-pourrait-representer-jusqua-5-dirhams-par-litre-de-gasoil.html",
-      "description": "La Front national pour le sauvetage de la raffinerie Samir remet au centre du débat l’intérêt économique et stratégique du raffinage au Maroc. Selon les données avancées par la Front, la différence entre le prix du pétrole brut et celui des produits raffinés pourrait, dans certaines périodes, représenter jusqu’à 5 dirhams par litre de gasoil. […] The post Front de sauvetage de Samir : le raffinage pourrait représenter jusqu’à 5 dirhams par litre de gasoil appeared first on Hespress Français - Ac",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-25T07:03:32Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
