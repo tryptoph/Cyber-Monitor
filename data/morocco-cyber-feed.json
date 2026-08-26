@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-25T19:01:35Z",
+  "generatedAt": "2026-08-26T02:01:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,32 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-25T18:48:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-eu-defends-morocco-infrastructure-funding-amid-migration-cooperation-concerns",
-      "title": "EU defends Morocco infrastructure funding amid migration cooperation concerns",
-      "link": "https://en.hespress.com/144337-eu-defends-morocco-infrastructure-funding-amid-migration-cooperation-concerns.html",
-      "description": "The European Commission has defended the European Union’s infrastructure financing in Morocco, saying its broad relationship with Rabat requires a balanced approach that takes into account migration, security, trade and investment. The comments came in response to questions from European Parliament member Marieke Ehlers of the Patriots for Europe group about European Investment Bank financing […] The post EU defends Morocco infrastructure funding amid migration cooperation concerns appeared firs",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-25T16:07:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-face-la-crise-de-sebta-l-espagne-active-pour-la-premi-re-fois-le-dispositif-de-s-curit-nationale",
-      "title": "Face à la crise de Sebta, l’Espagne active pour la première fois le dispositif de sécurité nationale",
-      "link": "https://fr.hespress.com/486064-face-a-la-crise-de-sebta-lespagne-active-pour-la-premiere-fois-le-dispositif-de-securite-nationale.html",
-      "description": "L’Espagne franchit un seuil inédit dans la gestion de la crise migratoire qui secoue l’enclave occupée de Sebta depuis l’entrée massive de migrants à la fin du mois de juillet. Réuni mardi 25 août en session extraordinaire sous la présidence du chef du gouvernement, Pedro Sánchez, le Conseil de sécurité nationale a décidé de déclarer […] The post Face à la crise de Sebta, l’Espagne active pour la première fois le dispositif de sécurité nationale appeared first on Hespress Français - Actualités d",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-25T12:34:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
