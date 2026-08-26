@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-26T02:01:47Z",
+  "generatedAt": "2026-08-26T13:26:13Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-en-rni-accuses-coalition-partner-pam-of-pressuring-candidates-to-defect",
-      "title": "RNI accuses coalition partner PAM of pressuring candidates to defect",
-      "link": "https://en.hespress.com/144353-rni-accuses-coalition-partner-pam-of-pressuring-candidates-to-defect.html",
-      "description": "Morocco’s National Rally of Independents accused governing coalition partner the Authenticity and Modernity Party of pressuring lawmakers and elected officials to defect before the September 23 election, threatening possible legal action. The RNI political bureau said Tuesday that repeated attempts to recruit its members breached political ethics and rules intended to ensure fair electoral competition. […] The post RNI accuses coalition partner PAM of pressuring candidates to defect appeared fir",
+      "id": "hespress-en-morocco-has-yet-to-receive-findings-on-alleged-medical-school-exam-leak",
+      "title": "Morocco has yet to receive findings on alleged medical school exam leak",
+      "link": "https://en.hespress.com/144390-morocco-has-yet-to-receive-findings-on-alleged-medical-school-exam-leak.html",
+      "description": "Morocco’s Ministry of Higher Education has yet to receive final findings from an investigation into a widely circulated recording alleging that some candidates were given answers during the 2026-27 entrance exam for medical and pharmacy schools, a senior ministry official told Hespress AR. The official said the case remains under investigation by the relevant authorities […] The post Morocco has yet to receive findings on alleged medical school exam leak appeared first on HESPRESS English - Moro",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-25T18:48:15Z",
+      "published": "2026-08-26T13:00:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "\"تسريب أجوبة مباراة الطب\" .. الأبحاث مستمرة والوزارة تنتظر النتائج",
+      "link": "https://www.hespress.com/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d8%a3%d8%ac%d9%88%d8%a8%d8%a9-%d9%85%d8%a8%d8%a7%d8%b1%d8%a7%d8%a9-%d8%a7%d9%84%d8%b7%d8%a8-%d8%a7%d9%84%d8%a3%d8%a8%d8%ad%d8%a7%d8%ab-%d9%85%d8%b3%d8%aa%d9%85-1797117.html",
+      "description": "كشف مصدر رفيع المستوى بوزارة التعليم العالي والبحث العلمي والابتكار لجريدة هسبريس الإلكترونية أن “الوزارة لم تتوصل، إلى حدود الساعة، بأي نتائج نهائية أو خلاصات” بخصوص التحقيق المفتوح بشأن التسجيل السمعي البصري المتداول على مواقع التواصل الاجتماعي الذي يتضمن ادعاءات حول تمكين عدد من المترشحين من أجوبة مباراة ولوج كليات الطب والصيدلة برسم الموسم الجامعي […] The post \"تسريب أجوبة مباراة الطب\" .. الأبحاث مستمرة والوزارة تنتظر النتائج appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-26T11:30:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-master-of-escapes-caught-in-spain-after-4th-prison-break",
+      "title": "'Master of Escapes' caught in Spain after 4th prison break",
+      "link": "https://en.hespress.com/144382-master-of-escapes-caught-in-spain-after-4th-prison-break.html",
+      "description": "Spanish police have arrested a fugitive dubbed the “Master of Escapes” after he broke out of prison four times, most recently from a maximum-security facility in Italy, authorities said Wednesday. The man, wanted by Italy under a European arrest warrant, escaped from the jail there in December by sawing through window bars and lowering himself […] The post 'Master of Escapes' caught in Spain after 4th prison break appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-26T10:22:05Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
