@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-26T20:09:39Z",
+  "generatedAt": "2026-08-27T09:57:59Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-crise-migratoire-sebta-les-contours-du-dispositif-de-s-curit-activ-par-madrid",
-      "title": "Crise migratoire à Sebta : les contours du dispositif de sécurité activé par Madrid",
-      "link": "https://fr.hespress.com/486139-crise-migratoire-a-sebta-les-contours-du-dispositif-de-securite-active-par-madrid.html",
-      "description": "L’Espagne a officiellement déclaré à l’enclave occupée de Sebta une « situation d’intérêt pour la sécurité nationale », en réponse aux conséquences de l’afflux massif de migrants survenu à la fin du mois de juillet. La mesure a été actée par le décret royal 681/2026, adopté mardi et publié ce mercredi au Bulletin officiel de […] The post Crise migratoire à Sebta : les contours du dispositif de sécurité activé par Madrid appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-11",
+      "title": "محاكمة العقل المدبر لهجمات 11 شتنبر",
+      "link": "https://www.hespress.com/%d9%85%d8%ad%d8%a7%d9%83%d9%85%d8%a9-%d8%a7%d9%84%d8%b9%d9%82%d9%84-%d8%a7%d9%84%d9%85%d8%af%d8%a8%d8%b1-%d9%84%d9%87%d8%ac%d9%85%d8%a7%d8%aa-11-%d8%b4%d8%aa%d9%86%d8%a8%d8%b1-1797628.html",
+      "description": "ستحاكم محكمة عسكرية في يونيو 2028 المتهم بأنه العقل المدبر لهجمات 11 شتنبر 2001، وفق ما أعلنت وسائل إعلام أمريكية، الأربعاء، نقلا عن قرار أصدره قاض. وكان خالد شيخ محمد من أبرز مساعدي زعيم تنظيم القاعدة أسامة بن لادن قبل القبض عليه في باكستان في مارس 2003. وسُجِن في منشآت سرية تابعة لوكالة الاستخبارات المركزية […] The post محاكمة العقل المدبر لهجمات 11 شتنبر appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-08-26T15:13:32Z",
+      "published": "2026-08-27T08:47:10Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -63,19 +63,6 @@
       "published": "2026-08-24T13:17:16Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-m-diq-un-concert-in-dit-de-l-orchestre-symphonique-royal-l-occasion-de-la-f-te-de-la-jeunesse",
-      "title": "M’diq : Un concert inédit de l’Orchestre Symphonique Royal à l’occasion de la Fête de la Jeunesse",
-      "link": "https://aujourdhui.ma/culture/mdiq-un-concert-inedit-de-lorchestre-symphonique-royal-a-loccasion-de-la-fete-de-la-jeunesse",
-      "description": "L’Orchestre Symphonique Royal a transporté, vendredi soir, le public de M’diq et ses visiteurs dans l’univers de la musique internationale, lors d’une soirée artistique exceptionnelle organisée sur la place de la préfecture de M’diq-Fnideq, à l’occasion de la célébration de la Fête de la Jeunesse. Dirigé par le maestro Oleg Reshetkin, l’Orchestre Symphonique Royal a […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-08-22T14:16:42Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
