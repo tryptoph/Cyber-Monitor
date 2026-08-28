@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-27T22:25:08Z",
+  "generatedAt": "2026-08-28T11:30:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67722708-26-vuln-rabilit-s-affectant-openssl",
+      "title": "67722708/26 - Vulnérabilités affectant OpenSSL",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-openssl-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-28T11:30:45Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67712708-26-vuln-rabilit-s-affectant-apache-tomcat",
+      "title": "67712708/26 - Vulnérabilités affectant Apache Tomcat",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-apache-tomcat-5",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-28T11:30:45Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الهندسة التقنية للأنظمة الأمنية المغربية تفند مزاعم \"الاختراق السيبراني\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d9%84%d9%84%d8%a3%d9%86%d8%b8%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ba-1798138.html",
+      "description": "في سياق يتسم بتصاعد حروب المعلومات والتهديدات السيبرانية الموجهة ضد سيادة الدول، يشكل البلاغ الصادر عن قطب المديرية العامة للأمن الوطني والمديرية العامة لمراقبة التراب الوطني بتاريخ الخميس 27 غشت 2026، وثيقة مرجعية بالغة الأهمية لتفكيك واحدة من أبرز حملات التضليل الرقمي. لا يقتصر هذا البلاغ على النفي القاطع لتعرض الأنظمة المعلوماتية الأمنية لأي اختراق، […] The post الهندسة التقنية للأنظمة الأمنية المغربية تفند مزاعم \"الاختراق السيبراني\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية ",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-28T11:00:45Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67702708-26-vuln-rabilit-affectant-veeam-backup-replication",
       "title": "67702708/26 - Vulnérabilité affectant Veeam Backup & Replication",
@@ -53,45 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "المغرب يواجه التضليل السيبراني .. خبير يفكك مزاعم اختراق الأنظمة الأمنية",
-      "link": "https://www.hespress.com/%d9%85%d8%b2%d8%a7%d8%b9%d9%85-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a7%d9%84%d8%a3%d9%86%d8%b8%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a-1798067.html",
-      "description": "أعاد تداول بيانات شخصية ووثائق وصور على شبكة الإنترنت طرح أسئلة بشأن مصدر هذه المعطيات وحقيقة الادعاءات التي ربطتها باختراق الأنظمة المعلوماتية الأمنية بالمغرب، غير أن قطب المديرية العامة للأمن الوطني والمديرية العامة لمراقبة التراب الوطني نفى بشكل قاطع تسجيل أي اختراق لأنظمته المعلوماتية أو قواعد بياناته الأمنية. حسن خرجوج، الباحث والخبير في المجال الرقمي […] The post المغرب يواجه التضليل السيبراني .. خبير يفكك مزاعم اختراق الأنظمة الأمنية appeared first on Hespress - هسبريس جريدة إلكترونية مغر",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-27T22:00:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "مصدر أمني مسؤول يعلق على \"البيانات المسربة\" وينفي اختراق الأنظمة",
-      "link": "https://www.hespress.com/%d9%85%d8%b5%d8%af%d8%b1-%d8%a3%d9%85%d9%86%d9%8a-%d9%85%d8%b3%d8%a4%d9%88%d9%84-%d9%8a%d8%b9%d9%84%d9%82-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3-1797987.html",
-      "description": "في تعليق على قوائم البيانات الشخصية التي تم تسريبها أخيرا، وتقديمها بشكل زائف على أنها “ناتجة عن اختراق للنظم المعلوماتية الأمنية”، كشف مصدر أمني مسؤول أن الأمر يتعلق بـ”معطيات قديمة وغير محيّنة، وتتعلق بفترات زمنية سابقة لسنة 2015”. وشدَّد المصرح ذاته على أن “هذه البيانات لم يتم الوصول إليها انطلاقا من قواعد البيانات الأمنية، المحمية […] The post مصدر أمني مسؤول يعلق على \"البيانات المسربة\" وينفي اختراق الأنظمة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-27T19:46:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-donn-es-personnelles-la-dgsn-et-la-dgst-r-futent-tout-piratage-de-leurs-bases-de-donn-es",
-      "title": "Données personnelles : la DGSN et la DGST réfutent tout piratage de leurs bases de données",
-      "link": "https://fr.hespress.com/486249-donnees-personnelles-la-dgsn-et-la-dgst-refutent-tout-piratage-de-leurs-bases-de-donnees.html",
-      "description": "Le pôle de la Direction générale de la sûreté nationale (DGSN) et de la Direction générale de la surveillance du territoire (DGST) a catégoriquement démenti tout piratage ou toute intrusion dans ses systèmes informatiques ou ses bases de données sécuritaires, affirmant que ces systèmes répondent aux normes les plus strictes en matière de sécurité informatique. […] The post Données personnelles : la DGSN et la DGST réfutent tout piratage de leurs bases de données appeared first on Hespress França",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-27T17:01:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-fuite-de-donn-es-la-dgsn-dgst-d-ment-toute-intrusion-dans-ses-syst-mes-d-information",
       "title": "Fuite de données: La DGSN-DGST dément toute intrusion dans ses systèmes d’information",
       "link": "https://www.lavieeco.com/pouvoirs/securite/fuite-de-donnees-la-dgsn-dgst-dement-toute-intrusion-dans-ses-systemes-dinformation/",
@@ -100,19 +100,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-08-27T16:24:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-dgsn-dgst-deny-cyberattack-on-security-databases",
-      "title": "DGSN–DGST deny cyberattack on security databases",
-      "link": "https://en.hespress.com/144471-dgsn-dgst-deny-cyberattack-on-security-databases.html",
-      "description": "Morocco’s security authorities on Thursday denied reports that their information systems or security databases had been hacked, saying recently circulated personal data did not originate from a breach of their systems. In a statement, the joint pole of the General Directorate of National Security (DGSN) and the General Directorate for Territorial Surveillance (DGST) said its […] The post DGSN–DGST deny cyberattack on security databases appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-27T15:50:09Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -282,32 +269,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-08-17T19:01:21Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67541708-26-malware-agent-tesla",
-      "title": "67541708/26 - Malware “Agent Tesla”",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/malware-agent-tesla",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-17T19:01:21Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67531708-26-mise-jour-de-s-curit-pour-le-cms-wordpress",
-      "title": "67531708/26 - Mise à jour de sécurité pour le CMS WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/mise-jour-de-securite-pour-le-cms-wordpress-3",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-17T13:10:04Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
