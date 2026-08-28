@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-28T11:30:52Z",
+  "generatedAt": "2026-08-28T22:27:18Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,8 +14,60 @@
   ],
   "items": [
     {
-      "id": "dgssi-67722708-26-vuln-rabilit-s-affectant-openssl",
-      "title": "67722708/26 - Vulnérabilités affectant OpenSSL",
+      "id": "dgssi-67732808-26-vuln-rabilit-critique-affectant-next-js",
+      "title": "67732808/26 - Vulnérabilité critique affectant Next.js",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-nextjs-0",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-28T22:27:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-spain-raises-emergency-aid-for-humanitarian-response-in-ceuta-to-44-5-million",
+      "title": "Spain raises emergency aid for humanitarian response in Ceuta to €44.5 million",
+      "link": "https://en.hespress.com/144540-spain-raises-emergency-aid-for-humanitarian-response-in-ceuta-to-e44-5-million.html",
+      "description": "Spain has raised the ceiling for emergency funding aimed at strengthening humanitarian assistance in the occupied city of Ceuta to €44.5 million as authorities respond to an exceptional migration situation. Spanish Inclusion, Social Security and Migration Minister Elma Saiz Delgado said the government had proposed increasing the maximum allocation to €44.51 million to strengthen the […] The post Spain raises emergency aid for humanitarian response in Ceuta to €44.5 million appeared first on HESP",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-28T22:14:20Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "التضليل السيبراني",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b6%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a-1798518.html",
+      "description": "التضليل السيبراني: من صناعة الوهم الرقمي إلى تهديد الحكامة والثقة في المؤسسات تعد المعارك في العصر الرقمي تخاض فقط بالدبابات والطائرات والصواريخ، بل أصبحت تخاض أيضا عبر المعلومة؛ فمن يمتلك القدرة على إنتاجها وتوجيهها وتوزيعها يستطيع، في كثير من الأحيان، التأثير في الرأي العام، وإرباك المؤسسات، وتغيير اتجاهات النقاش العمومي. وفي قلب هذا التحول برزت […] The post التضليل السيبراني appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-28T21:44:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "أزمة \"الحجية الرقمية\"",
+      "link": "https://www.hespress.com/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d8%ad%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a%d8%a9-1798468.html",
+      "description": "الفجوة التشريعية في حروب الجيل الخامس تخوض المملكة المغربية اليوم واحدة من أعقد معاركها الجيوسياسية، وهي معركة لا تُدار ركائزها على الحدود الترابية المرئية، بل في الممرات غير المرئية للفضاء السيبراني وداخل غرف السيرفرات العابرة للقارات. وإذا كان من الثابت والملموس أن الأجهزة الأمنية والسيادية الوطنية قد حققت قفزات تكنولوجية واستباقية هائلة في رصد الاختراقات، […] The post أزمة \"الحجية الرقمية\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-28T21:29:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67722808-26-vuln-rabilit-s-affectant-openssl",
+      "title": "67722808/26 - Vulnérabilités affectant OpenSSL",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-openssl-2",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -37,19 +89,6 @@
       "published": "2026-08-28T11:30:45Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "الهندسة التقنية للأنظمة الأمنية المغربية تفند مزاعم \"الاختراق السيبراني\"",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%87%d9%86%d8%af%d8%b3%d8%a9-%d8%a7%d9%84%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d9%84%d9%84%d8%a3%d9%86%d8%b8%d9%85%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ba-1798138.html",
-      "description": "في سياق يتسم بتصاعد حروب المعلومات والتهديدات السيبرانية الموجهة ضد سيادة الدول، يشكل البلاغ الصادر عن قطب المديرية العامة للأمن الوطني والمديرية العامة لمراقبة التراب الوطني بتاريخ الخميس 27 غشت 2026، وثيقة مرجعية بالغة الأهمية لتفكيك واحدة من أبرز حملات التضليل الرقمي. لا يقتصر هذا البلاغ على النفي القاطع لتعرض الأنظمة المعلوماتية الأمنية لأي اختراق، […] The post الهندسة التقنية للأنظمة الأمنية المغربية تفند مزاعم \"الاختراق السيبراني\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية ",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-28T11:00:45Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -256,19 +295,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-08-18T13:11:58Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67551708-26-vuln-rabilit-s-affectant-gitlab",
-      "title": "67551708/26 - Vulnérabilités affectant GitLab",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-gitlab-19",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-17T19:01:21Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
