@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-29T07:10:11Z",
+  "generatedAt": "2026-08-29T16:47:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,53 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-akhannouch-r-agit-la-fuite-attribu-e-talbi-alami-et-qualifie-le-d-bat-sur-les-postes-de-d-mocrat",
-      "title": "Akhannouch réagit à la fuite attribuée à Talbi Alami et qualifie le débat sur les postes de démocratique",
-      "link": "https://fr.hespress.com/486400-akhannouch-reagit-a-la-fuite-attribuee-a-talbi-alami-et-qualifie-le-debat-sur-les-postes-de-democratique.html",
-      "description": "Aziz Akhannouch, ancien président du Rassemblement national des indépendants (RNI), est intervenu dans le débat suscité par la fuite de l’enregistrement audio attribué à Rachid Talbi Alami, membre du bureau politique du même parti, affirmant que ce dernier « nous a donné une image d’une réalité que vivent et voient tous les Marocains ». Lors […] The post Akhannouch réagit à la fuite attribuée à Talbi Alami et qualifie le débat sur les postes de démocratique appeared first on Hespress Français - ",
+      "id": "hespress-fr-paix-et-s-curit-en-afrique-le-maroc-appelle-investir-davantage-dans-la-pr-vention",
+      "title": "Paix et sécurité en Afrique : le Maroc appelle à investir davantage dans la prévention",
+      "link": "https://fr.hespress.com/486436-paix-et-securite-en-afrique-le-maroc-appelle-a-investir-davantage-dans-la-prevention.html",
+      "description": "Le ministre des Affaires étrangères, de la Coopération africaine et des Marocains résidant à l’étranger, M. Nasser Bourita, a souligné, samedi à Luanda, la nécessité de placer la prévention au cœur de l’action africaine en matière de paix et de sécurité. Intervenant lors de la 26ème session extraordinaire du Conseil exécutif de l’Union africaine (UA), […] The post Paix et sécurité en Afrique : le Maroc appelle à investir davantage dans la prévention appeared first on Hespress Français - Actualit",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-28T23:00:36Z",
+      "published": "2026-08-29T15:59:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "\"هاكرز\" يبتزون الحكومة في برلين",
+      "link": "https://www.hespress.com/%d9%87%d8%a7%d9%83%d8%b1%d8%b2-%d9%8a%d8%a8%d8%aa%d8%b2%d9%88%d9%86-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d8%a9-%d9%81%d9%8a-%d8%a8%d8%b1%d9%84%d9%8a%d9%86-1798803.html",
+      "description": "رفضت حكومة ولاية برلين التعليق على مطالب القراصنة الذين استهدفوا شبكة البيانات الإدارية للمدينة قبل أسبوعين، مع استمرار التحقيقات في الهجوم السيبراني الذي كشف عن خرق واسع للبيانات الحساسة، وفق ما أفادت متحدثة باسم الحكومة الألمانية. وقالت المتحدثة لوكالة الأنباء الألمانية (د.ب.أ)، اليوم السبت، إن الجهات المعنية تمتنع عن الكشف عن تفاصيل البيانات التي تم […] The post \"هاكرز\" يبتزون الحكومة في برلين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-29T15:36:52Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-clashes-in-niamey-after-attempt-to-storm-niger-presidential-palace",
+      "title": "Clashes in Niamey after attempt to storm Niger presidential palace",
+      "link": "https://en.hespress.com/144566-clashes-in-niamey-after-attempt-to-storm-niger-presidential-palace.html",
+      "description": "Niger’s presidential guard on Saturday repelled “insurgents from within the armed forces” who tried to enter the presidential palace in Niamey, where shooting was ongoing, a security source told AFP. Heavy gunfire was heard in several neighbourhoods of the capital throughout the night, notably in the city centre near the presidential palace, but also in […] The post Clashes in Niamey after attempt to storm Niger presidential palace appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-29T14:37:59Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-disty-technologies-quatre-ans-de-transformation",
+      "title": "Disty Technologies : Quatre ans de transformation",
+      "link": "https://www.lavieeco.com/argent/disty-technologies-quatre-ans-de-transformation/",
+      "description": "Entrée sur le marché en juillet 2022 avec la promesse de financer une nouvelle phase de développement, la société affiche aujourd’hui une activité et une rentabilité en nette progression. Le distributeur IT mise désormais sur l’intelligence artificielle, la cybersécurité, le cloud et les infrastructures numériques pour prolonger cette trajectoire. L’article Disty Technologies : Quatre ans de transformation est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-08-29T13:30:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -37,19 +76,6 @@
       "published": "2026-08-28T22:27:14Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-spain-raises-emergency-aid-for-humanitarian-response-in-ceuta-to-44-5-million",
-      "title": "Spain raises emergency aid for humanitarian response in Ceuta to €44.5 million",
-      "link": "https://en.hespress.com/144540-spain-raises-emergency-aid-for-humanitarian-response-in-ceuta-to-e44-5-million.html",
-      "description": "Spain has raised the ceiling for emergency funding aimed at strengthening humanitarian assistance in the occupied city of Ceuta to €44.5 million as authorities respond to an exceptional migration situation. Spanish Inclusion, Social Security and Migration Minister Elma Saiz Delgado said the government had proposed increasing the maximum allocation to €44.51 million to strengthen the […] The post Spain raises emergency aid for humanitarian response in Ceuta to €44.5 million appeared first on HESP",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-28T22:14:20Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
