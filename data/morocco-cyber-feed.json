@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-28T22:27:18Z",
+  "generatedAt": "2026-08-29T07:10:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-akhannouch-r-agit-la-fuite-attribu-e-talbi-alami-et-qualifie-le-d-bat-sur-les-postes-de-d-mocrat",
+      "title": "Akhannouch réagit à la fuite attribuée à Talbi Alami et qualifie le débat sur les postes de démocratique",
+      "link": "https://fr.hespress.com/486400-akhannouch-reagit-a-la-fuite-attribuee-a-talbi-alami-et-qualifie-le-debat-sur-les-postes-de-democratique.html",
+      "description": "Aziz Akhannouch, ancien président du Rassemblement national des indépendants (RNI), est intervenu dans le débat suscité par la fuite de l’enregistrement audio attribué à Rachid Talbi Alami, membre du bureau politique du même parti, affirmant que ce dernier « nous a donné une image d’une réalité que vivent et voient tous les Marocains ». Lors […] The post Akhannouch réagit à la fuite attribuée à Talbi Alami et qualifie le débat sur les postes de démocratique appeared first on Hespress Français - ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-28T23:00:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67732808-26-vuln-rabilit-critique-affectant-next-js",
       "title": "67732808/26 - Vulnérabilité critique affectant Next.js",
@@ -35,32 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-28T22:14:20Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "التضليل السيبراني",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b6%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a-1798518.html",
-      "description": "التضليل السيبراني: من صناعة الوهم الرقمي إلى تهديد الحكامة والثقة في المؤسسات تعد المعارك في العصر الرقمي تخاض فقط بالدبابات والطائرات والصواريخ، بل أصبحت تخاض أيضا عبر المعلومة؛ فمن يمتلك القدرة على إنتاجها وتوجيهها وتوزيعها يستطيع، في كثير من الأحيان، التأثير في الرأي العام، وإرباك المؤسسات، وتغيير اتجاهات النقاش العمومي. وفي قلب هذا التحول برزت […] The post التضليل السيبراني appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-28T21:44:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "أزمة \"الحجية الرقمية\"",
-      "link": "https://www.hespress.com/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d8%ad%d8%ac%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%8a%d8%a9-1798468.html",
-      "description": "الفجوة التشريعية في حروب الجيل الخامس تخوض المملكة المغربية اليوم واحدة من أعقد معاركها الجيوسياسية، وهي معركة لا تُدار ركائزها على الحدود الترابية المرئية، بل في الممرات غير المرئية للفضاء السيبراني وداخل غرف السيرفرات العابرة للقارات. وإذا كان من الثابت والملموس أن الأجهزة الأمنية والسيادية الوطنية قد حققت قفزات تكنولوجية واستباقية هائلة في رصد الاختراقات، […] The post أزمة \"الحجية الرقمية\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-28T21:29:40Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
