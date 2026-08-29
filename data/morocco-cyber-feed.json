@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-29T16:47:12Z",
+  "generatedAt": "2026-08-29T20:59:24Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-en-bourita-underlines-in-the-need-to-place-prevention-at-the-heart-of-african-peace-and-security-ac",
+      "title": "Bourita underlines in the need to place prevention at the heart of African peace and security action",
+      "link": "https://en.hespress.com/144581-bourita-underlines-in-the-need-to-place-prevention-at-the-heart-of-african-peace-and-security-action.html",
+      "description": "The Minister of Foreign Affairs, African Cooperation and Moroccan Expatriates, Nasser Bourita, underlined on Saturday in Luanda, the need to place prevention at the heart of African peace and security action. Speaking during the 26th Extraordinary Session of the Executive Council of the African Union (AU), dedicated to strengthening conflict prevention and resolution mechanisms in […] The post Bourita underlines in the need to place prevention at the heart of African peace and security action ap",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-08-29T17:31:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-paix-et-s-curit-en-afrique-le-maroc-appelle-investir-davantage-dans-la-pr-vention",
       "title": "Paix et sécurité en Afrique : le Maroc appelle à investir davantage dans la prévention",
       "link": "https://fr.hespress.com/486436-paix-et-securite-en-afrique-le-maroc-appelle-a-investir-davantage-dans-la-prevention.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-08-29T15:59:00Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "\"هاكرز\" يبتزون الحكومة في برلين",
-      "link": "https://www.hespress.com/%d9%87%d8%a7%d9%83%d8%b1%d8%b2-%d9%8a%d8%a8%d8%aa%d8%b2%d9%88%d9%86-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d8%a9-%d9%81%d9%8a-%d8%a8%d8%b1%d9%84%d9%8a%d9%86-1798803.html",
-      "description": "رفضت حكومة ولاية برلين التعليق على مطالب القراصنة الذين استهدفوا شبكة البيانات الإدارية للمدينة قبل أسبوعين، مع استمرار التحقيقات في الهجوم السيبراني الذي كشف عن خرق واسع للبيانات الحساسة، وفق ما أفادت متحدثة باسم الحكومة الألمانية. وقالت المتحدثة لوكالة الأنباء الألمانية (د.ب.أ)، اليوم السبت، إن الجهات المعنية تمتنع عن الكشف عن تفاصيل البيانات التي تم […] The post \"هاكرز\" يبتزون الحكومة في برلين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-08-29T15:36:52Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
