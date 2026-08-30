@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-30T05:30:57Z",
+  "generatedAt": "2026-08-30T12:00:27Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "مقتل بريطانية بسكين بولاية بافاريا",
+      "link": "https://www.hespress.com/%d9%85%d9%82%d8%aa%d9%84-%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d8%a8%d8%b3%d9%83%d9%8a%d9%86-%d9%81%d9%8a-%d8%a8%d8%a7%d9%81%d8%a7%d8%b1%d9%8a%d8%a7-1799135.html",
+      "description": "لقيت امرأة حتفها بعدما تعرضت لهجوم بسكين خلال الليل في محطة للسكك الحديدية بولاية بافاريا الألمانية، حسبما أعلنت الشرطة اليوم الأحد. وأفادت الشرطة في بيان بأن رجلا ألمانيا يبلغ من العمر 27 عاما ألقي القبض عليه في موقع الحادث للاشتباه في تنفيذه الهجوم في المحطة بمدينة روزنهايم. ونُقلَت المرأة، وهي مواطنة بريطانية تبلغ من العمر […] The post مقتل بريطانية بسكين بولاية بافاريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-08-30T11:04:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-app-store-apple-int-gre-la-tva-de-20-au-maroc",
+      "title": "App Store : Apple intègre la TVA de 20 % au Maroc",
+      "link": "https://fr.hespress.com/486335-app-store-apple-integre-la-tva-de-20-au-maroc.html",
+      "description": "Le groupe américain Apple a commencé à intégrer la TVA marocaine de 20 % dans le calcul des revenus issus de son App Store. Certains tarifs appliqués aux applications et aux achats intégrés seront également ajustés à partir du 14 septembre, selon une mise à jour publiée par l’entreprise à destination des développeurs. Depuis le […] The post App Store : Apple intègre la TVA de 20 % au Maroc appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-30T08:22:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-cop17-la-france-plaide-pour-une-action-mondiale-contre-la-d-sertification",
       "title": "COP17 : la France plaide pour une action mondiale contre la désertification",
@@ -35,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-29T17:31:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-clashes-in-niamey-after-attempt-to-storm-niger-presidential-palace",
-      "title": "Clashes in Niamey after attempt to storm Niger presidential palace",
-      "link": "https://en.hespress.com/144566-clashes-in-niamey-after-attempt-to-storm-niger-presidential-palace.html",
-      "description": "Niger’s presidential guard on Saturday repelled “insurgents from within the armed forces” who tried to enter the presidential palace in Niamey, where shooting was ongoing, a security source told AFP. Heavy gunfire was heard in several neighbourhoods of the capital throughout the night, notably in the city centre near the presidential palace, but also in […] The post Clashes in Niamey after attempt to storm Niger presidential palace appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-29T14:37:59Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
