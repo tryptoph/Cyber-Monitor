@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-30T16:46:34Z",
+  "generatedAt": "2026-08-30T21:13:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-afrique-le-maroc-mise-sur-la-pr-vention-des-conflits-et-la-coop-ration-sud-sud",
+      "title": "Afrique : Le Maroc mise sur la prévention des conflits et la coopération Sud-Sud",
+      "link": "https://www.lavieeco.com/pouvoirs/afrique-le-maroc-mise-sur-la-prevention-des-conflits-et-la-cooperation-sud-sud/",
+      "description": "Représentant Sa Majesté le Roi Mohammed VI au Sommet extraordinaire de l’Union africaine à Luanda, Aziz Akhannouch a souligné que le Souverain a érigé la paix, la sécurité et la stabilité en projet stratégique du Maroc pour le continent africain. L’article Afrique : Le Maroc mise sur la prévention des conflits et la coopération Sud-Sud est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-08-30T16:51:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-akhannouch-outlines-morocco-s-conflict-prevention-strategy-at-au-summit",
       "title": "Akhannouch outlines Morocco’s conflict-prevention strategy at AU summit",
@@ -27,14 +40,14 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-app-store-apple-int-gre-la-tva-de-20-au-maroc",
-      "title": "App Store : Apple intègre la TVA de 20 % au Maroc",
-      "link": "https://fr.hespress.com/486335-app-store-apple-integre-la-tva-de-20-au-maroc.html",
-      "description": "Le groupe américain Apple a commencé à intégrer la TVA marocaine de 20 % dans le calcul des revenus issus de son App Store. Certains tarifs appliqués aux applications et aux achats intégrés seront également ajustés à partir du 14 septembre, selon une mise à jour publiée par l’entreprise à destination des développeurs. Depuis le […] The post App Store : Apple intègre la TVA de 20 % au Maroc appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-fr-akhannouch-sous-la-conduite-du-roi-mohammed-vi-le-maroc-contribue-activement-la-stabilit-de-l-af",
+      "title": "Akhannouch : Sous la conduite du Roi Mohammed VI, le Maroc contribue activement à la stabilité de l’Afrique",
+      "link": "https://fr.hespress.com/486508-akhannouch-sous-la-conduite-du-roi-mohammed-vi-le-maroc-contribue-activement-a-la-stabilite-de-lafrique.html",
+      "description": "Le Maroc, sous la conduite éclairée du Roi Mohammed VI, a fait de la paix, de la sécurité et de la stabilité en Afrique un choix stratégique et un engagement constant, à travers sa contribution à la prévention des conflits, à la médiation, au maintien et à la consolidation de la paix ainsi qu’à la […] The post Akhannouch : Sous la conduite du Roi Mohammed VI, le Maroc contribue activement à la stabilité de l’Afrique appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-30T08:22:02Z",
+      "published": "2026-08-30T15:45:23Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
