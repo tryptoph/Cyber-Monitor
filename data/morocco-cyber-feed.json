@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-29T20:59:24Z",
+  "generatedAt": "2026-08-30T05:30:57Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-cop17-la-france-plaide-pour-une-action-mondiale-contre-la-d-sertification",
+      "title": "COP17 : la France plaide pour une action mondiale contre la désertification",
+      "link": "https://fr.hespress.com/486461-cop17-la-france-plaide-pour-une-action-mondiale-contre-la-desertification.html",
+      "description": "La France a souligné l’urgence d’une action « concertée et globale » face à la dégradation des sols, qui affecte désormais la moitié de l’humanité, à l’issue de la 17e Conférence des Parties de la Convention des Nations unies sur la lutte contre la désertification (COP17), tenue à Oulan-Bator, en Mongolie. Dans un communiqué conjoint […] The post COP17 : la France plaide pour une action mondiale contre la désertification appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-30T00:55:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-bourita-underlines-in-the-need-to-place-prevention-at-the-heart-of-african-peace-and-security-ac",
       "title": "Bourita underlines in the need to place prevention at the heart of African peace and security action",
       "link": "https://en.hespress.com/144581-bourita-underlines-in-the-need-to-place-prevention-at-the-heart-of-african-peace-and-security-action.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-29T17:31:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-paix-et-s-curit-en-afrique-le-maroc-appelle-investir-davantage-dans-la-pr-vention",
-      "title": "Paix et sécurité en Afrique : le Maroc appelle à investir davantage dans la prévention",
-      "link": "https://fr.hespress.com/486436-paix-et-securite-en-afrique-le-maroc-appelle-a-investir-davantage-dans-la-prevention.html",
-      "description": "Le ministre des Affaires étrangères, de la Coopération africaine et des Marocains résidant à l’étranger, M. Nasser Bourita, a souligné, samedi à Luanda, la nécessité de placer la prévention au cœur de l’action africaine en matière de paix et de sécurité. Intervenant lors de la 26ème session extraordinaire du Conseil exécutif de l’Union africaine (UA), […] The post Paix et sécurité en Afrique : le Maroc appelle à investir davantage dans la prévention appeared first on Hespress Français - Actualit",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-29T15:59:00Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
