@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-30T12:00:27Z",
+  "generatedAt": "2026-08-30T16:46:34Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "مقتل بريطانية بسكين بولاية بافاريا",
-      "link": "https://www.hespress.com/%d9%85%d9%82%d8%aa%d9%84-%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d8%a8%d8%b3%d9%83%d9%8a%d9%86-%d9%81%d9%8a-%d8%a8%d8%a7%d9%81%d8%a7%d8%b1%d9%8a%d8%a7-1799135.html",
-      "description": "لقيت امرأة حتفها بعدما تعرضت لهجوم بسكين خلال الليل في محطة للسكك الحديدية بولاية بافاريا الألمانية، حسبما أعلنت الشرطة اليوم الأحد. وأفادت الشرطة في بيان بأن رجلا ألمانيا يبلغ من العمر 27 عاما ألقي القبض عليه في موقع الحادث للاشتباه في تنفيذه الهجوم في المحطة بمدينة روزنهايم. ونُقلَت المرأة، وهي مواطنة بريطانية تبلغ من العمر […] The post مقتل بريطانية بسكين بولاية بافاريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-en-akhannouch-outlines-morocco-s-conflict-prevention-strategy-at-au-summit",
+      "title": "Akhannouch outlines Morocco’s conflict-prevention strategy at AU summit",
+      "link": "https://en.hespress.com/144613-akhannouch-outlines-moroccos-conflict-prevention-strategy-at-au-summit.html",
+      "description": "King Mohammed VI has made security and stability a strategic project for the African continent, said, on Sunday in Luanda, the Head of Government, Aziz Akhannouch, who is representing the Sovereign at the African Union’s extraordinary session dedicated to strengthening conflict prevention and resolution mechanisms in Africa. “I was honored to represent His Majesty the […] The post Akhannouch outlines Morocco’s conflict-prevention strategy at AU summit appeared first on HESPRESS English - Morocco",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-08-30T11:04:23Z",
+      "published": "2026-08-30T15:52:25Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,32 +35,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-08-30T08:22:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cop17-la-france-plaide-pour-une-action-mondiale-contre-la-d-sertification",
-      "title": "COP17 : la France plaide pour une action mondiale contre la désertification",
-      "link": "https://fr.hespress.com/486461-cop17-la-france-plaide-pour-une-action-mondiale-contre-la-desertification.html",
-      "description": "La France a souligné l’urgence d’une action « concertée et globale » face à la dégradation des sols, qui affecte désormais la moitié de l’humanité, à l’issue de la 17e Conférence des Parties de la Convention des Nations unies sur la lutte contre la désertification (COP17), tenue à Oulan-Bator, en Mongolie. Dans un communiqué conjoint […] The post COP17 : la France plaide pour une action mondiale contre la désertification appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-30T00:55:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-bourita-underlines-in-the-need-to-place-prevention-at-the-heart-of-african-peace-and-security-ac",
-      "title": "Bourita underlines in the need to place prevention at the heart of African peace and security action",
-      "link": "https://en.hespress.com/144581-bourita-underlines-in-the-need-to-place-prevention-at-the-heart-of-african-peace-and-security-action.html",
-      "description": "The Minister of Foreign Affairs, African Cooperation and Moroccan Expatriates, Nasser Bourita, underlined on Saturday in Luanda, the need to place prevention at the heart of African peace and security action. Speaking during the 26th Extraordinary Session of the Executive Council of the African Union (AU), dedicated to strengthening conflict prevention and resolution mechanisms in […] The post Bourita underlines in the need to place prevention at the heart of African peace and security action ap",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-29T17:31:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
