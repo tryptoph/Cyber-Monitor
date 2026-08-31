@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-31T05:45:16Z",
+  "generatedAt": "2026-08-31T14:02:38Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-les-marocains-deuxi-me-nationalit-trang-re-quitter-l-espagne-en-2026",
+      "title": "Les Marocains, deuxième nationalité étrangère à quitter l’Espagne en 2026",
+      "link": "https://fr.hespress.com/486579-les-marocains-deuxieme-nationalite-etrangere-a-quitter-lespagne-en-2026.html",
+      "description": "Alors que l’Espagne continue d’enregistrer une croissance démographique soutenue portée par l’immigration, les mouvements de départ demeurent importants parmi certaines communautés étrangères. Les ressortissants marocains figurent ainsi parmi les nationalités les plus concernées par l’émigration au cours du deuxième trimestre de 2026. Selon les données publiées par l’Institut national de la statistique espagnol (INE), près […] The post Les Marocains, deuxième nationalité étrangère à quitter l’Es",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-08-31T13:45:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "lavieeco-afrique-le-maroc-mise-sur-la-pr-vention-des-conflits-et-la-coop-ration-sud-sud",
       "title": "Afrique : Le Maroc mise sur la prévention des conflits et la coopération Sud-Sud",
       "link": "https://www.lavieeco.com/pouvoirs/afrique-le-maroc-mise-sur-la-prevention-des-conflits-et-la-cooperation-sud-sud/",
@@ -22,19 +35,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-08-30T16:51:57Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-akhannouch-outlines-morocco-s-conflict-prevention-strategy-at-au-summit",
-      "title": "Akhannouch outlines Morocco’s conflict-prevention strategy at AU summit",
-      "link": "https://en.hespress.com/144613-akhannouch-outlines-moroccos-conflict-prevention-strategy-at-au-summit.html",
-      "description": "King Mohammed VI has made security and stability a strategic project for the African continent, said, on Sunday in Luanda, the Head of Government, Aziz Akhannouch, who is representing the Sovereign at the African Union’s extraordinary session dedicated to strengthening conflict prevention and resolution mechanisms in Africa. “I was honored to represent His Majesty the […] The post Akhannouch outlines Morocco’s conflict-prevention strategy at AU summit appeared first on HESPRESS English - Morocco",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-08-30T15:52:25Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -128,19 +128,6 @@
       "published": "2026-08-27T22:25:05Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-fuite-de-donn-es-la-dgsn-dgst-d-ment-toute-intrusion-dans-ses-syst-mes-d-information",
-      "title": "Fuite de données: La DGSN-DGST dément toute intrusion dans ses systèmes d’information",
-      "link": "https://www.lavieeco.com/pouvoirs/securite/fuite-de-donnees-la-dgsn-dgst-dement-toute-intrusion-dans-ses-systemes-dinformation/",
-      "description": "Les données personnelles publiées récemment ne résultent en aucun cas d'une intrusion dans les systèmes de sécurité du pôle DGSN-DGST. Il s'agit de données anciennes téléchargées à partir de bases de données gérés par des compagnies d'assurance et des organismes de couverture sociale et de santé. L’article Fuite de données: La DGSN-DGST dément toute intrusion dans ses systèmes d’information est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-08-27T16:24:15Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
