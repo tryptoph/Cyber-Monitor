@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-31T14:02:38Z",
+  "generatedAt": "2026-08-31T22:55:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-les-marocains-deuxi-me-nationalit-trang-re-quitter-l-espagne-en-2026",
-      "title": "Les Marocains, deuxième nationalité étrangère à quitter l’Espagne en 2026",
-      "link": "https://fr.hespress.com/486579-les-marocains-deuxieme-nationalite-etrangere-a-quitter-lespagne-en-2026.html",
-      "description": "Alors que l’Espagne continue d’enregistrer une croissance démographique soutenue portée par l’immigration, les mouvements de départ demeurent importants parmi certaines communautés étrangères. Les ressortissants marocains figurent ainsi parmi les nationalités les plus concernées par l’émigration au cours du deuxième trimestre de 2026. Selon les données publiées par l’Institut national de la statistique espagnol (INE), près […] The post Les Marocains, deuxième nationalité étrangère à quitter l’Es",
+      "id": "dgssi-67753108-26-vuln-rabilit-critique-dans-cpanel",
+      "title": "67753108/26 - Vulnérabilité critique dans cPanel",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-cpanel",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-31T22:55:17Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67743108-26-vuln-rabilit-s-critiques-affectant-papercut",
+      "title": "67743108/26 - Vulnérabilités critiques affectant PaperCut",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-papercut",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-08-31T22:55:17Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-lancement-d-une-campagne-gratuite-de-vaccination-des-chiens-et-des-chats-contre-la-rage-en-milie",
+      "title": "Lancement d’une campagne gratuite de vaccination des chiens et des chats contre la rage en milieu urbain durant le mois de septembre",
+      "link": "https://fr.hespress.com/486606-lancement-dune-campagne-gratuite-de-vaccination-des-chiens-et-des-chats-contre-la-rage-en-milieu-urbain-durant-le-mois-de-septembre.html",
+      "description": "Dans le cadre des efforts déployés pour la prévention et la lutte contre la rage et à l’occasion de la Journée mondiale contre la rage, l’Office National de Sécurité Sanitaire des Produits Alimentaires (ONSSA), en partenariat avec l’Ordre National des Vétérinaires, organise une opération de vaccination gratuite au profit des chiens et des chats à […] The post Lancement d’une campagne gratuite de vaccination des chiens et des chats contre la rage en milieu urbain durant le mois de septembre appea",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-08-31T13:45:31Z",
+      "published": "2026-08-31T17:16:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -256,32 +282,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-08-18T19:00:16Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67571708-26-vuln-rabilit-critique-affectant-le-plugin-forminator-forms-pour",
-      "title": "67571708/26 - Vulnérabilité critique affectant le plugin «Forminator Forms» pour…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-le-plugin-forminator-forms-pour-wordpress",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-18T13:11:58Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67561708-26-vuln-rabilit-critique-affectant-le-plugin-profile-builder-pour-wordpress",
-      "title": "67561708/26 - Vulnérabilité critique affectant le plugin «Profile Builder» pour WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-le-plugin-profile-builder-pour-wordpress",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-18T13:11:58Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
