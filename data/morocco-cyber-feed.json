@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-30T21:13:17Z",
+  "generatedAt": "2026-08-31T05:45:16Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -35,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-08-30T15:52:25Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-akhannouch-sous-la-conduite-du-roi-mohammed-vi-le-maroc-contribue-activement-la-stabilit-de-l-af",
-      "title": "Akhannouch : Sous la conduite du Roi Mohammed VI, le Maroc contribue activement à la stabilité de l’Afrique",
-      "link": "https://fr.hespress.com/486508-akhannouch-sous-la-conduite-du-roi-mohammed-vi-le-maroc-contribue-activement-a-la-stabilite-de-lafrique.html",
-      "description": "Le Maroc, sous la conduite éclairée du Roi Mohammed VI, a fait de la paix, de la sécurité et de la stabilité en Afrique un choix stratégique et un engagement constant, à travers sa contribution à la prévention des conflits, à la médiation, au maintien et à la consolidation de la paix ainsi qu’à la […] The post Akhannouch : Sous la conduite du Roi Mohammed VI, le Maroc contribue activement à la stabilité de l’Afrique appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-30T15:45:23Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
