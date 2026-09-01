@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-08-31T22:55:22Z",
+  "generatedAt": "2026-09-01T05:18:18Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-mont-e-des-oc-ans-une-menace-croissante-pour-les-populations-les-cultures-et-les-tats",
+      "title": "Montée des océans : Une menace croissante pour les populations, les cultures et les États",
+      "link": "https://fr.hespress.com/486576-montee-des-oceans-une-menace-croissante-pour-les-populations-les-cultures-et-les-etats.html",
+      "description": "La hausse du niveau des mers n’est plus seulement un enjeu environnemental. Selon un récent rapport relayé par ONU Info, elle pourrait bouleverser des sociétés entières, fragiliser la souveraineté de certains États et effacer des pans entiers du patrimoine culturel mondial. Derrière les chiffres du réchauffement climatique se profile ainsi une crise humaine, juridique et […] The post Montée des océans : Une menace croissante pour les populations, les cultures et les États appeared first on Hespr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-01T01:54:48Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67753108-26-vuln-rabilit-critique-dans-cpanel",
       "title": "67753108/26 - Vulnérabilité critique dans cPanel",
@@ -37,19 +50,6 @@
       "published": "2026-08-31T22:55:17Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-lancement-d-une-campagne-gratuite-de-vaccination-des-chiens-et-des-chats-contre-la-rage-en-milie",
-      "title": "Lancement d’une campagne gratuite de vaccination des chiens et des chats contre la rage en milieu urbain durant le mois de septembre",
-      "link": "https://fr.hespress.com/486606-lancement-dune-campagne-gratuite-de-vaccination-des-chiens-et-des-chats-contre-la-rage-en-milieu-urbain-durant-le-mois-de-septembre.html",
-      "description": "Dans le cadre des efforts déployés pour la prévention et la lutte contre la rage et à l’occasion de la Journée mondiale contre la rage, l’Office National de Sécurité Sanitaire des Produits Alimentaires (ONSSA), en partenariat avec l’Ordre National des Vétérinaires, organise une opération de vaccination gratuite au profit des chiens et des chats à […] The post Lancement d’une campagne gratuite de vaccination des chiens et des chats contre la rage en milieu urbain durant le mois de septembre appea",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-08-31T17:16:21Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
