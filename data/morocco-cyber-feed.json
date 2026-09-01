@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-01T11:46:07Z",
+  "generatedAt": "2026-09-01T16:44:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67780109-26-vuln-rabilit-s-critiques-affectant-plusieurs-plugins-wordpress",
+      "title": "67780109/26 - Vulnérabilités critiques affectant plusieurs plugins WordPress",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-plusieurs-plugins-wordpress-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-01T16:44:17Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-tbourida-dromadaires-et-grandes-voix-le-programme-du-moussem-de-tan-tan-d-voil",
+      "title": "Tbourida, dromadaires et grandes voix : Le programme du Moussem de Tan-Tan dévoilé",
+      "link": "https://www.lavieeco.com/influences/culture/tbourida-dromadaires-et-grandes-voix-le-programme-du-moussem-de-tan-tan-devoile/",
+      "description": "Du 3 au 7 octobre, le Moussem de Tan-Tan proposera cinq jours de scènes musicales, de concerts sous tente, d'exhibitions de Tbourida et de parades de dromadaires, avec la présence attendue de grandes figures de la chanson marocaine et internationale. L’article Tbourida, dromadaires et grandes voix : Le programme du Moussem de Tan-Tan dévoilé est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-01T11:46:29Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67770109-26-vuln-rabilit-s-affectant-des-produits-watchguard",
       "title": "67770109/26 - Vulnérabilités affectant des produits WatchGuard",
@@ -48,19 +74,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-09-01T10:08:24Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-reconnaissance-internationale-foundever-maroc-obtient-la-certification-great-place-to-work-2026",
-      "title": "Reconnaissance internationale: Foundever Maroc obtient la certification Great Place To Work 2026",
-      "link": "https://aujourdhui.ma/economie/reconnaissance-internationale-foundever-maroc-obtient-la-certification-great-place-to-work-2026",
-      "description": "Enquête Foundever, leader mondial de l’expérience client (CX), a annoncé, lundi, l’obtention au Maroc de la certification Great Place To Work 2026, une reconnaissance internationale fondée sur l’expérience et la perception des collaborateurs au sein de l’entreprise. Cette certification vient saluer la démarche engagée par Foundever Maroc pour proposer un environnement professionnel inclusif et stimulant, […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-01T10:07:06Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -102,19 +115,6 @@
       "published": "2026-08-31T22:55:17Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-afrique-le-maroc-mise-sur-la-pr-vention-des-conflits-et-la-coop-ration-sud-sud",
-      "title": "Afrique : Le Maroc mise sur la prévention des conflits et la coopération Sud-Sud",
-      "link": "https://www.lavieeco.com/pouvoirs/afrique-le-maroc-mise-sur-la-prevention-des-conflits-et-la-cooperation-sud-sud/",
-      "description": "Représentant Sa Majesté le Roi Mohammed VI au Sommet extraordinaire de l’Union africaine à Luanda, Aziz Akhannouch a souligné que le Souverain a érigé la paix, la sécurité et la stabilité en projet stratégique du Maroc pour le continent africain. L’article Afrique : Le Maroc mise sur la prévention des conflits et la coopération Sud-Sud est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-08-30T16:51:57Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -277,19 +277,6 @@
       "id": "dgssi-67611908-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
       "title": "67611908/26 - Vulnérabilités affectant le navigateur Google Chrome",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-google-chrome-56",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-19T13:13:09Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67601908-26-vuln-rabilit-s-affectant-le-navigateur-apple-safari",
-      "title": "67601908/26 - Vulnérabilités affectant le navigateur Apple Safari",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-apple-safari",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
