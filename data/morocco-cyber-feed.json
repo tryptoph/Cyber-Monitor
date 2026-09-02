@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-02T16:40:26Z",
+  "generatedAt": "2026-09-02T21:07:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "‬بنكيران: الله سيحاسب المواطن على صوته الانتخابي.. و\"حنا مكنديروش الزرود\"",
+      "link": "https://www.hespress.com/%d8%a8%d9%86%d9%83%d9%8a%d8%b1%d8%a7%d9%86-%d8%a7%d9%84%d9%84%d9%87-%d8%b3%d9%8a%d8%ad%d8%a7%d8%b3%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d8%b7%d9%86-%d8%b9%d9%84%d9%89-%d8%b5%d9%88%d8%aa-1801030.html",
+      "description": "اختار الأمين العام لحزب العدالة والتنمية، عبد الإله بنكيران، مدينة الرماني للهجوم على خصومه السياسيين في انتخابات 2026، مؤكداً أن “البيجيدي لا يقدم ‘الزرود’ والشواء لكسب الأصوات، بل فقط ‘المعقول’…”. كما وجه بنكيران سهام النقد للبرنامج الانتخابي الذي أعلنه حزب الأصالة والمعاصرة، خلال مهرجان خطابي لـ”البيجيدي” بـ”حاضرة زعير” اليوم الأربعاء، متهماً “البام” بأنه “حزب يبيع […] The post ‬بنكيران: الله سيحاسب المواطن على صوته الانتخابي.. و\"حنا مكنديروش الزرود\" appeared first on Hespress - هسبريس جريدة ",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-02T20:00:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-thailand-cuts-visa-free-stay-from-60-to-30-days-for-eligible-travelers-including-morocco",
+      "title": "Thailand cuts visa-free stay from 60 to 30 days for eligible travelers, including Morocco",
+      "link": "https://en.hespress.com/144785-thailand-cuts-visa-free-stay-from-60-to-30-days-for-eligible-travelers-including-morocco.html",
+      "description": "Thailand will end its 60-day visa exemption system for certain travelers from Sept. 15, introducing new 30- and 15-day visa-free periods and updating its visa-on-arrival scheme. The Tourism Authority of Thailand said the new rules will take effect Sept. 15, 2026, following the publication of related Interior Ministry announcements in the Royal Thai Government Gazette […] The post Thailand cuts visa-free stay from 60 to 30 days for eligible travelers, including Morocco appeared first on HESPRESS ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-02T19:23:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-minurso-des-changements-en-s-rie-avant-les-prochaines-d-lib-rations-du-conseil-de-s-curit",
+      "title": "MINURSO : des changements en série avant les prochaines délibérations du Conseil de sécurité",
+      "link": "https://fr.hespress.com/486789-minurso-des-changements-en-serie-avant-les-prochaines-deliberations-du-conseil-de-securite.html",
+      "description": "La mission onusienne au Sahara marocain connaît une série de changements à ses niveaux militaire et civil, ainsi que dans son organisation opérationnelle et ses moyens logistiques. Ces évolutions interviennent alors que les Nations unies planchent sur l’avenir de leurs opérations de maintien de la paix et que le dossier du Sahara marocain doit revenir […] The post MINURSO : des changements en série avant les prochaines délibérations du Conseil de sécurité appeared first on Hespress Français - Ac",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-02T18:41:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-records-26-deaths-in-urban-traffic-accidents-in-one-week",
+      "title": "Morocco records 26 deaths in urban traffic accidents in one week",
+      "link": "https://en.hespress.com/144779-morocco-records-26-deaths-in-urban-traffic-accidents-in-one-week.html",
+      "description": "Twenty-six people were killed and 2,803 injured in 1,975 traffic accidents in Morocco’s urban areas between August 24 and 30, the General Directorate of National Security said. The injured included 125 people in serious condition. Police attributed the accidents mainly to driver inattention, failure to yield, speeding, pedestrian inattention, insufficient following distances and loss of […] The post Morocco records 26 deaths in urban traffic accidents in one week appeared first on HESPRESS Engli",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-02T18:01:20Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-la-police-espagnole-d-ment-tout-rapport-attribuant-au-maroc-la-planification-des-v-nements-de-se",
+      "title": "La police espagnole dément tout rapport attribuant au Maroc la planification des événements de Sebta",
+      "link": "https://fr.hespress.com/486811-la-police-espagnole-dement-tout-rapport-attribuant-au-maroc-la-planification-des-evenements-de-sebta.html",
+      "description": "La Police nationale espagnole a démenti, mercredi, l’existence de tout rapport sécuritaire attribuant aux forces de sécurité marocaines la responsabilité de la planification ou de l’exécution des événements survenus dans le préside occupé de Sebta les 30 et 31 juillet derniers. Cette position officielle intervient après plusieurs heures de polémique politique et médiatique à Madrid, […] The post La police espagnole dément tout rapport attribuant au Maroc la planification des événements de Sebta ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-02T17:07:55Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67830209-26-vuln-rabilit-s-critiques-affectant-sonicwall-sma-1000",
       "title": "67830209/26 - Vulnérabilités critiques affectant SonicWall SMA 1000",
@@ -79,32 +144,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "الشرطة الإسبانية تنفي اتهام قوات الأمن المغربية في أحداث سبتة المحتلة",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b4%d8%b1%d8%b7%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d9%86%d9%81%d9%8a-%d8%a7%d8%aa%d9%87%d8%a7%d9%85-%d9%82%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%85-1800911.html",
-      "description": "نفت الشرطة الوطنية الإسبانية، الأربعاء، وجود أي تقرير أمني ينسب إلى قوات الأمن المغربية مسؤولية التخطيط أو التنفيذ للأحداث التي شهدها ثغر سبتة المحتل يومي 30 و31 يوليوز الماضيين، في موقف رسمي جاء بعد ساعات من جدل سياسي وإعلامي واسع في مدريد أثارته تسريبات بشأن وثيقة أحيلت على القضاء في إطار التحقيق في موجة الدخول […] The post الشرطة الإسبانية تنفي اتهام قوات الأمن المغربية في أحداث سبتة المحتلة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-02T14:28:44Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-hammouchi-re-oit-l-ambassadeur-extraordinaire-et-pl-nipotentiaire-du-japon-rabat",
-      "title": "Hammouchi reçoit l'ambassadeur extraordinaire et plénipotentiaire du Japon à Rabat",
-      "link": "https://fr.hespress.com/486795-hammouchi-recoit-lambassadeur-extraordinaire-et-plenipotentiaire-du-japon-a-rabat.html",
-      "description": "Le Directeur général de la Sûreté nationale et de la Surveillance du territoire (DGSN-DGST), Abdellatif Hammouchi, a reçu, mercredi à Rabat, l’ambassadeur extraordinaire et plénipotentiaire du Japon au Maroc, Nakata Masahiro. Cette rencontre s’inscrit dans le cadre de la volonté du Maroc et du Japon de renforcer leur coopération commune en matière de sécurité et […] The post Hammouchi reçoit l'ambassadeur extraordinaire et plénipotentiaire du Japon à Rabat appeared first on Hespress Français - A",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-02T14:13:26Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-coop-ration-s-curitaire-hammouchi-re-oit-l-ambassadeur-pl-nipotentiaire-du-japon",
       "title": "Coopération sécuritaire : Hammouchi reçoit l’ambassadeur plénipotentiaire du Japon",
       "link": "https://www.lavieeco.com/pouvoirs/securite/cooperation-securitaire-hammouchi-recoit-lambassadeur-plenipotentiaire-du-japon/",
@@ -152,19 +191,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-09-02T11:05:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-minurso-changes-leadership-ahead-of-october-security-council-review",
-      "title": "MINURSO changes leadership ahead of October Security Council review",
-      "link": "https://en.hespress.com/144756-minurso-changes-leadership-ahead-of-october-security-council-review.html",
-      "description": "The United Nations mission in the Sahara is reorganizing parts of its leadership and operations weeks before the Security Council considers renewing its mandate in October. The UN appointed Pakistani Major General Jawad Ahmed as MINURSO force commander, replacing Bangladeshi Major General Fakhrul Ahsan, whose assignment ended in August. Malawian UN official Ron Misty Kamwendo […] The post MINURSO changes leadership ahead of October Security Council review appeared first on HESPRESS English - Mor",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-02T11:02:27Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
