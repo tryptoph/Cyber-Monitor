@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-03T11:23:25Z",
+  "generatedAt": "2026-09-03T16:31:25Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67900309-26-vuln-rabilit-s-affectant-des-modules-pour-le-cms-drupal",
+      "title": "67900309/26 - Vulnérabilités affectant des modules pour le CMS Drupal",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-modules-pour-le-cms-drupal-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-03T16:31:22Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67890309-26-vuln-rabilit-s-dans-les-produits-f5",
+      "title": "67890309/26 - Vulnérabilités dans les produits F5",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-f5-4",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-03T16:31:22Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67880309-26-vuln-rabilit-s-dans-les-produits-jenkins",
+      "title": "67880309/26 - Vulnérabilités dans les produits Jenkins",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-jenkins-5",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-03T16:31:22Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "وَهم المؤامرة ومأزق الداخل .. \"تقرير أحداث سبتة\" يدين الأجهزة الإسبانية",
+      "link": "https://www.hespress.com/%d9%88%d9%8e%d9%87%d9%85-%d8%a7%d9%84%d9%85%d8%a4%d8%a7%d9%85%d8%b1%d8%a9-%d9%88%d9%85%d8%a3%d8%b2%d9%82-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84-%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a3%d8%ad%d8%af-1801400.html",
+      "description": "شكَّل التسريب المنهجي لتقرير المركز الوطني الإسباني للهجرة والحدود (CENIF)، المتعلِّق بأحداث سبتة ليومي 30 و31 يوليوز 2026، حَلقة جديدة ضمن سِلسلة مُحاوَلات تصدير الأزمات الداخلية الإسبانية نحو المغرب، حيث أن القراءة المتأنية للوثيقة المكونة من 55 صفحة، والتي أُعدّت بطلب من المحكمة الوطنية الإسبانية (Audiencia Nacional)، تكشِف عن بناء سردي هش، يَفتقِر إلى الأدلة […] The post وَهم المؤامرة ومأزق الداخل .. \"تقرير أحداث سبتة\" يدين الأجهزة الإسبانية appeared first on Hespress - هسبريس جريدة إلكتروني",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-03T14:28:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67870309-26-vuln-rabilit-s-critiques-dans-les-produits-cisco",
       "title": "67870309/26 - Vulnérabilités critiques dans les produits Cisco",
@@ -53,19 +105,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "البركاوي يعود إلى الظفرة الإماراتي",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d8%b1%d9%83%d8%a7%d9%88%d9%8a-%d9%8a%d8%b9%d9%88%d8%af-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%b8%d9%81%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d9%85%d8%a7%d8%b1%d8%a7%d8%aa%d9%8a-1801181.html",
-      "description": "أعلن نادي الظفرة الإماراتي، اليوم الخميس، عودة المهاجم المغربي إلى صفوفه مجددا. أشار النادي الإماراتي، عبر حسابه الرسمي على منصة “إكس”، إلى أن “نادي الظفرة الرياضي يعيد التعاقد مع مهاجمه السابق المغربي كريم البركاوي”. وتمثل عودة كريم البركاوي دفعة قوية للخط الهجومي للظفرة، في ظل الخبرة التي يمتلكها المهاجم المغربي ومعرفته السابقة بأجواء الفريق ودوري […] The post البركاوي يعود إلى الظفرة الإماراتي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-03T10:33:48Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-spanish-pm-says-no-solid-proof-morocco-planned-ceuta-migrant-rush",
       "title": "Spanish PM says no 'solid proof' Morocco planned Ceuta migrant rush",
       "link": "https://en.hespress.com/144802-spanish-pm-says-no-solid-proof-morocco-planned-ceuta-migrant-rush.html",
@@ -87,58 +126,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-09-03T10:03:22Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-study-rapid-urban-growth-leaves-tetouan-more-vulnerable-to-flooding",
-      "title": "Study: Rapid urban growth leaves Tetouan more vulnerable to flooding",
-      "link": "https://en.hespress.com/144800-study-rapid-urban-growth-leaves-tetouan-more-vulnerable-to-flooding.html",
-      "description": "Rapid urban expansion into flood-prone areas and the disruption of natural drainage routes have increased Tetouan’s vulnerability to heavy rainfall, particularly in low-lying areas connected to the Martil River basin, a scientific study has found. The study, titled “Urban Flood Risk Assessment for Urban Planning Using Two-Dimensional Hydraulic Modeling: The Case of Tetouan, Morocco,” examined […] The post Study: Rapid urban growth leaves Tetouan more vulnerable to flooding appeared first on HESP",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-03T09:00:20Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-la-real-sociedad-explique-pourquoi-le-transfert-de-nayef-aguerd-a-chou",
-      "title": "La Real Sociedad explique pourquoi le transfert de Nayef Aguerd a échoué",
-      "link": "https://fr.hespress.com/486886-la-real-sociedad-explique-pourquoi-le-transfert-de-nayef-aguerd-a-echoue.html",
-      "description": "Très intéressée par Nayef Aguerd cet été, la Real Sociedad n’a finalement pas concrétisé le retour du défenseur marocain. Le directeur sportif du club espagnol a expliqué que les incertitudes liées à sa condition physique ont pesé dans la décision. La Real Sociedad a bien tenté de rapatrier Nayef Aguerd lors du mercato estival, mais […] The post La Real Sociedad explique pourquoi le transfert de Nayef Aguerd a échoué appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-03T08:23:07Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-thailand-cuts-visa-free-stay-from-60-to-30-days-for-eligible-travelers-including-morocco",
-      "title": "Thailand cuts visa-free stay from 60 to 30 days for eligible travelers, including Morocco",
-      "link": "https://en.hespress.com/144785-thailand-cuts-visa-free-stay-from-60-to-30-days-for-eligible-travelers-including-morocco.html",
-      "description": "Thailand will end its 60-day visa exemption system for certain travelers from Sept. 15, introducing new 30- and 15-day visa-free periods and updating its visa-on-arrival scheme. The Tourism Authority of Thailand said the new rules will take effect Sept. 15, 2026, following the publication of related Interior Ministry announcements in the Royal Thai Government Gazette […] The post Thailand cuts visa-free stay from 60 to 30 days for eligible travelers, including Morocco appeared first on HESPRESS ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-02T19:23:00Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-records-26-deaths-in-urban-traffic-accidents-in-one-week",
-      "title": "Morocco records 26 deaths in urban traffic accidents in one week",
-      "link": "https://en.hespress.com/144779-morocco-records-26-deaths-in-urban-traffic-accidents-in-one-week.html",
-      "description": "Twenty-six people were killed and 2,803 injured in 1,975 traffic accidents in Morocco’s urban areas between August 24 and 30, the General Directorate of National Security said. The injured included 125 people in serious condition. Police attributed the accidents mainly to driver inattention, failure to yield, speeding, pedestrian inattention, insufficient following distances and loss of […] The post Morocco records 26 deaths in urban traffic accidents in one week appeared first on HESPRESS Engli",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-02T18:01:20Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -248,19 +235,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-tbourida-dromadaires-et-grandes-voix-le-programme-du-moussem-de-tan-tan-d-voil",
-      "title": "Tbourida, dromadaires et grandes voix : Le programme du Moussem de Tan-Tan dévoilé",
-      "link": "https://www.lavieeco.com/influences/culture/tbourida-dromadaires-et-grandes-voix-le-programme-du-moussem-de-tan-tan-devoile/",
-      "description": "Du 3 au 7 octobre, le Moussem de Tan-Tan proposera cinq jours de scènes musicales, de concerts sous tente, d'exhibitions de Tbourida et de parades de dromadaires, avec la présence attendue de grandes figures de la chanson marocaine et internationale. L’article Tbourida, dromadaires et grandes voix : Le programme du Moussem de Tan-Tan dévoilé est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-01T11:46:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67770109-26-vuln-rabilit-s-affectant-des-produits-watchguard",
       "title": "67770109/26 - Vulnérabilités affectant des produits WatchGuard",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-watchguard-1",
@@ -321,45 +295,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-08-28T22:27:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67722808-26-vuln-rabilit-s-affectant-openssl",
-      "title": "67722808/26 - Vulnérabilités affectant OpenSSL",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-openssl-2",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-28T11:30:45Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67712708-26-vuln-rabilit-s-affectant-apache-tomcat",
-      "title": "67712708/26 - Vulnérabilités affectant Apache Tomcat",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-apache-tomcat-5",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-28T11:30:45Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67702708-26-vuln-rabilit-affectant-veeam-backup-replication",
-      "title": "67702708/26 - Vulnérabilité affectant Veeam Backup & Replication",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-veeam-backup-replication",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-27T22:25:05Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
