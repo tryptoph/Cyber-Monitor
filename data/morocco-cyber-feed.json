@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-03T16:31:25Z",
+  "generatedAt": "2026-09-03T21:07:24Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-al-ittihad-n-gocie-avec-sunderland-pour-chemsdine-talbi",
+      "title": "Al-Ittihad négocie avec Sunderland pour Chemsdine Talbi",
+      "link": "https://fr.hespress.com/486948-al-ittihad-negocie-avec-sunderland-pour-chemsdine-talbi.html",
+      "description": "Le club saoudien d’Al-Ittihad a entamé des discussions avec Sunderland pour s’attacher les services de l’international marocain Chemsdine Talbi. Le jeune attaquant de 21 ans ne figure pas dans la liste européenne du club anglais, alors que son avenir reste incertain. Chemsdine Talbi pourrait déjà quitter Sunderland, un an seulement après son arrivée en provenance […] The post Al-Ittihad négocie avec Sunderland pour Chemsdine Talbi appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-03T18:32:12Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-israeli-minister-presents-plan-to-remove-gaza-population",
+      "title": "Israeli minister presents plan to 'remove' Gaza population",
+      "link": "https://en.hespress.com/144823-israeli-minister-presents-plan-to-remove-gaza-population.html",
+      "description": "Israel’s far-right National Security Minister Itamar Ben Gvir set out a plan on Thursday to remove Palestinians from the Gaza Strip and send them abroad. Speaking in the run-up to close-fought Israeli elections, he said the plan aimed to see the departure of 250,000 Palestinians from Gaza in the first year, followed by the rest […] The post Israeli minister presents plan to 'remove' Gaza population appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-03T17:12:54Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-certificats-d-origine-falsifi-s-les-douanes-remontent-la-piste-d-un-vaste-r-seau-d-importation",
+      "title": "Certificats d’origine falsifiés : les douanes remontent la piste d’un vaste réseau d’importation",
+      "link": "https://fr.hespress.com/486927-certificats-dorigine-falsifies-les-douanes-remontent-la-piste-dun-vaste-reseau-dimportation.html",
+      "description": "Les services douaniers marocains ont ouvert une vaste enquête après la découverte d’indices de manipulation dans les déclarations d’importation de marchandises, notamment au niveau des certificats d’origine. Selon des informations recueillies auprès de sources bien informées, ces soupçons ont émergé à l’issue de contrôles a posteriori menés par les services régionaux et territoriaux de contrôle […] The post Certificats d’origine falsifiés : les douanes remontent la piste d’un vaste réseau d’impo",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-03T17:07:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67900309-26-vuln-rabilit-s-affectant-des-modules-pour-le-cms-drupal",
       "title": "67900309/26 - Vulnérabilités affectant des modules pour le CMS Drupal",
@@ -53,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "وَهم المؤامرة ومأزق الداخل .. \"تقرير أحداث سبتة\" يدين الأجهزة الإسبانية",
-      "link": "https://www.hespress.com/%d9%88%d9%8e%d9%87%d9%85-%d8%a7%d9%84%d9%85%d8%a4%d8%a7%d9%85%d8%b1%d8%a9-%d9%88%d9%85%d8%a3%d8%b2%d9%82-%d8%a7%d9%84%d8%af%d8%a7%d8%ae%d9%84-%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a3%d8%ad%d8%af-1801400.html",
-      "description": "شكَّل التسريب المنهجي لتقرير المركز الوطني الإسباني للهجرة والحدود (CENIF)، المتعلِّق بأحداث سبتة ليومي 30 و31 يوليوز 2026، حَلقة جديدة ضمن سِلسلة مُحاوَلات تصدير الأزمات الداخلية الإسبانية نحو المغرب، حيث أن القراءة المتأنية للوثيقة المكونة من 55 صفحة، والتي أُعدّت بطلب من المحكمة الوطنية الإسبانية (Audiencia Nacional)، تكشِف عن بناء سردي هش، يَفتقِر إلى الأدلة […] The post وَهم المؤامرة ومأزق الداخل .. \"تقرير أحداث سبتة\" يدين الأجهزة الإسبانية appeared first on Hespress - هسبريس جريدة إلكتروني",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-03T14:28:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67870309-26-vuln-rabilit-s-critiques-dans-les-produits-cisco",
       "title": "67870309/26 - Vulnérabilités critiques dans les produits Cisco",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-cisco-19",
@@ -102,19 +128,6 @@
       "published": "2026-09-03T11:23:21Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-spanish-pm-says-no-solid-proof-morocco-planned-ceuta-migrant-rush",
-      "title": "Spanish PM says no 'solid proof' Morocco planned Ceuta migrant rush",
-      "link": "https://en.hespress.com/144802-spanish-pm-says-no-solid-proof-morocco-planned-ceuta-migrant-rush.html",
-      "description": "Spanish Prime Minister Pedro Sanchez on Thursday insisted there was no “solid proof” Morocco orchestrated July’s migrant rush into Ceuta, after a police report highlighted multiple failings by Moroccan security forces. But the Socialist leader slammed “unacceptable” Moroccan government comments about Ceuta since the crisis began, in rare public criticism of neighbouring Rabat which claims […] The post Spanish PM says no 'solid proof' Morocco planned Ceuta migrant rush appeared first on HESPRESS ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-03T10:15:47Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
