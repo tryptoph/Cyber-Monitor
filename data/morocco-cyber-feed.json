@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-04T16:27:29Z",
+  "generatedAt": "2026-09-04T20:50:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-plaques-d-immatriculation-le-31-d-cembre-2026-ne-concerne-pas-tous-les-v-hicules",
+      "title": "Plaques d’immatriculation : Le 31 décembre 2026 ne concerne pas tous les véhicules",
+      "link": "https://www.lavieeco.com/au-royaume/plaques-dimmatriculation-le-31-decembre-2026-ne-concerne-pas-tous-les-vehicules/",
+      "description": "L'Agence nationale de la sécurité routière a démenti, vendredi, l'obligation généralisée de remplacer toutes les plaques d'immatriculation avant le 31 décembre 2026, précisant que des dispositions transitoires s'appliquent selon la situation de chaque véhicule. L’article Plaques d’immatriculation : Le 31 décembre 2026 ne concerne pas tous les véhicules est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-04T20:47:28Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-drapeau-marocain-d-chir-madrid-l-extr-me-droite-espagnole-point-e-du-doigt",
+      "title": "Drapeau marocain déchiré à Madrid : l’extrême droite espagnole pointée du doigt",
+      "link": "https://fr.hespress.com/487117-drapeau-marocain-dechire-a-madrid-lextreme-droite-espagnole-pointee-du-doigt.html",
+      "description": "Une grande polémique a été suscitée par le déchirement du drapeau marocain lors de récentes manifestations en Espagne. Celle-ci a fait réagir la communauté marocaine établie dans le pays ibérique où plusieurs voix dénoncent un acte jugé provocateur, qu’elles attribuent à certains courants de l’extrême droite espagnole, tout en appelant à préserver les relations entre […] The post Drapeau marocain déchiré à Madrid : l’extrême droite espagnole pointée du doigt appeared first on Hespress Français -",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-04T20:05:42Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cnss-plus-de-25-millions-de-b-n-ficiaires-de-l-amo-en-2025-en-hausse-de-3",
+      "title": "CNSS : Plus de 25 millions de bénéficiaires de l'AMO en 2025, en hausse de 3%",
+      "link": "https://fr.hespress.com/487088-cnss-plus-de-25-millions-de-beneficiaires-de-lamo-en-2025-en-hausse-de-3.html",
+      "description": "Le nombre de bénéficiaires de l’Assurance Maladie Obligatoire (AMO) a atteint 25,08 millions en 2025, en hausse de 3% par rapport à 2024, a indiqué la Caisse Nationale de Sécurité Sociale (CNSS), qui fait état de 22,65 milliards de dirhams (MMDH, +17%) de prestations servies. Par ailleurs, le régime AMO des travailleurs salariés a compté […] The post CNSS : Plus de 25 millions de bénéficiaires de l'AMO en 2025, en hausse de 3% appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-04T18:32:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67950409-26-vuln-rabilit-s-dans-les-produits-microsoft",
       "title": "67950409/26 - Vulnérabilités dans les produits Microsoft",
