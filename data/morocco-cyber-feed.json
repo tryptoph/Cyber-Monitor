@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-04T11:26:37Z",
+  "generatedAt": "2026-09-04T16:27:29Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-67950409-26-vuln-rabilit-s-dans-les-produits-microsoft",
+      "title": "67950409/26 - Vulnérabilités dans les produits Microsoft",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-microsoft-0",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-04T16:27:26Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67940409-26-vuln-rabilit-critique-dans-asus-control-center-enterprise-acc",
+      "title": "67940409/26 - Vulnérabilité critique dans ASUS Control Center Enterprise (ACC)",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-asus-control-center-enterprise-acc",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-04T16:27:26Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-67930409-26-vuln-rabilit-s-critiques-dans-le-noyau-linux",
+      "title": "67930409/26 - Vulnérabilités critiques dans le noyau Linux",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-le-noyau-linux-0",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-04T16:27:26Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-cnss-plus-de-25-millions-de-b-n-ficiaires-de-l-amo-en-2025-en-hausse-de-3",
+      "title": "CNSS : Plus de 25 millions de bénéficiaires de l’AMO en 2025, en hausse de 3%",
+      "link": "https://aujourdhui.ma/societe/cnss-plus-de-25-millions-de-beneficiaires-de-lamo-en-2025-en-hausse-de-3",
+      "description": "Le nombre de bénéficiaires de l’Assurance Maladie Obligatoire (AMO) a atteint 25,08 millions en 2025, en hausse de 3% par rapport à 2024, a indiqué la Caisse Nationale de Sécurité Sociale (CNSS), qui fait état de 22,65 milliards de dirhams (MMDH, +17%) de prestations servies. Par ailleurs, le régime AMO des travailleurs salariés a compté […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-04T12:19:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67920409-26-ficker-stealer-infostealer",
       "title": "67920409/26 - “ Ficker Stealer ” Infostealer",
@@ -56,7 +108,7 @@
       "id": "lavieeco-cnss-244-8-milliards-de-dirhams-de-masse-salariale-d-clar-e-en-2025",
       "title": "CNSS : 244,8 milliards de dirhams de masse salariale déclarée en 2025",
       "link": "https://www.lavieeco.com/au-royaume/cnss-2448-milliards-de-dirhams-de-masse-salariale-declaree-en-2025/",
-      "description": "Le Conseil d’Administration de la CNSS a approuvé les comptes 2025 et le budget 2026, dans un contexte marqué par une hausse de 10 % de la masse salariale déclarée, à 244,84 milliards de dirhams. Plusieurs décisions stratégiques ont été approuvées, notamment dans les domaines de la cybersécurité, de la transformation digitale et de la gestion des Polycliniques. L’article CNSS : 244,8 milliards de dirhams de masse salariale déclarée en 2025 est apparu en premier sur La Vie éco .",
+      "description": "Le conseil d’administration de la CNSS a approuvé les comptes 2025 et le budget 2026, dans un contexte marqué par une hausse de 10 % de la masse salariale déclarée, à 244,84 milliards de dirhams. Plusieurs décisions stratégiques ont été approuvées, notamment dans les domaines de la cybersécurité, de la transformation digitale et de la gestion des Polycliniques. L’article CNSS : 244,8 milliards de dirhams de masse salariale déclarée en 2025 est apparu en premier sur La Vie éco .",
       "source": "La Vie Eco",
       "sourceKey": "lavieeco",
       "category": "morocco",
@@ -74,19 +126,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-09-04T10:23:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-to-probe-into-statement-by-election-candidate-claiming-use-of-drug-proceeds-to-influence",
-      "title": "Morocco to Probe into Statement by Election Candidate Claiming Use of Drug Proceeds to Influence Electoral Operations",
-      "link": "https://en.hespress.com/144844-morocco-to-probe-into-statement-by-election-candidate-claiming-use-of-drug-proceeds-to-influence-electoral-operations.html",
-      "description": "The King’s Prosecutor General at the Kenitra Court of Appeal has announced that an investigation will be opened in light of the spreading on certain social media platforms of a statement attributed to a candidate in the upcoming legislative elections. The statement, made during a party rally, alleged the use of funds derived from a […] The post Morocco to Probe into Statement by Election Candidate Claiming Use of Drug Proceeds to Influence Electoral Operations appeared first on HESPRESS English ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-03T21:44:45Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -222,19 +261,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-coop-ration-s-curitaire-hammouchi-re-oit-l-ambassadeur-pl-nipotentiaire-du-japon",
-      "title": "Coopération sécuritaire : Hammouchi reçoit l’ambassadeur plénipotentiaire du Japon",
-      "link": "https://www.lavieeco.com/pouvoirs/securite/cooperation-securitaire-hammouchi-recoit-lambassadeur-plenipotentiaire-du-japon/",
-      "description": "Lors de cette rencontre, les deux parties ont examiné plusieurs questions et dossiers d’intérêt commun, tout en passant en revue nombre de sujets d'actualité internationale et régionale en lien avec la sécurité des deux pays. L’article Coopération sécuritaire : Hammouchi reçoit l’ambassadeur plénipotentiaire du Japon est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-02T13:21:08Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67800209-26-vuln-rabilit-s-affectant-le-navigateur-mozilla-firefox",
       "title": "67800209/26 - Vulnérabilités affectant le navigateur Mozilla Firefox",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-mozilla-firefox-32",
@@ -269,45 +295,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-01T16:44:17Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67770109-26-vuln-rabilit-s-affectant-des-produits-watchguard",
-      "title": "67770109/26 - Vulnérabilités affectant des produits WatchGuard",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-watchguard-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-01T11:46:04Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67760109-26-vuln-rabilit-s-dans-les-produits-dell",
-      "title": "67760109/26 - Vulnérabilités dans les produits Dell",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-dell-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-01T11:46:04Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67753108-26-vuln-rabilit-critique-dans-cpanel",
-      "title": "67753108/26 - Vulnérabilité critique dans cPanel",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-cpanel",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-08-31T22:55:17Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
