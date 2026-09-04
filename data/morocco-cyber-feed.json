@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-03T21:07:24Z",
+  "generatedAt": "2026-09-04T04:41:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,53 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-al-ittihad-n-gocie-avec-sunderland-pour-chemsdine-talbi",
-      "title": "Al-Ittihad négocie avec Sunderland pour Chemsdine Talbi",
-      "link": "https://fr.hespress.com/486948-al-ittihad-negocie-avec-sunderland-pour-chemsdine-talbi.html",
-      "description": "Le club saoudien d’Al-Ittihad a entamé des discussions avec Sunderland pour s’attacher les services de l’international marocain Chemsdine Talbi. Le jeune attaquant de 21 ans ne figure pas dans la liste européenne du club anglais, alors que son avenir reste incertain. Chemsdine Talbi pourrait déjà quitter Sunderland, un an seulement après son arrivée en provenance […] The post Al-Ittihad négocie avec Sunderland pour Chemsdine Talbi appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-ar-item",
+      "title": "مدارس الفلبين تتأهب لهجوم مسلح",
+      "link": "https://www.hespress.com/%d9%85%d8%af%d8%a7%d8%b1%d8%b3-%d8%a7%d9%84%d9%81%d9%84%d8%a8%d9%8a%d9%86-%d8%aa%d8%aa%d8%a3%d9%87%d8%a8-%d9%84%d9%87%d8%ac%d9%88%d9%85-%d9%85%d8%b3%d9%84%d8%ad-1801623.html",
+      "description": "شارك نحو 3 آلاف تلميذ في مدرسة شمال العاصمة الفلبينية مانيلا، الخميس، في تدريب أمني يهدف إلى إعداد التلاميذ والعاملين في المؤسسات التعليمية للتعامل مع احتمال وقوع هجوم مسلح داخل المدرسة. وعند انطلاق جرس الإنذار في مدرسة كارلوس إف. غونزاليس الثانوية بمقاطعة بولاكان، أغلق التلاميذ أبواب الفصول وحصنوها بالطاولات والكراسي، وأسدلوا الستائر وأطفؤوا الأنوار، قبل […] The post مدارس الفلبين تتأهب لهجوم مسلح appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-04T02:25:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-crise-de-sebta-comment-un-rapport-espagnol-truff-de-failles-tente-d-incriminer-le-maroc",
+      "title": "Crise de Sebta : comment un rapport espagnol truffé de failles tente d'incriminer le Maroc",
+      "link": "https://fr.hespress.com/486977-crise-de-sebta-comment-un-rapport-espagnol-truffe-de-failles-tente-dincriminer-le-maroc.html",
+      "description": "Le leaking méthodique du rapport du Centre national espagnol d’immigration et des frontières (CENIF), consacré aux événements des 30 et 31 juillet 2026 à Sebta, marque un nouveau chapitre dans la tentative récurrente d’exporter les crises politiques internes espagnoles vers le Maroc. En effet, l’analyse rigoureuse des 55 pages du document, rédigé à la demande […] The post Crise de Sebta : comment un rapport espagnol truffé de failles tente d'incriminer le Maroc appeared first on Hespress Françai",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-03T18:32:12Z",
+      "published": "2026-09-03T23:50:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-to-probe-into-statement-by-election-candidate-claiming-use-of-drug-proceeds-to-influence",
+      "title": "Morocco to Probe into Statement by Election Candidate Claiming Use of Drug Proceeds to Influence Electoral Operations",
+      "link": "https://en.hespress.com/144844-morocco-to-probe-into-statement-by-election-candidate-claiming-use-of-drug-proceeds-to-influence-electoral-operations.html",
+      "description": "The King’s Prosecutor General at the Kenitra Court of Appeal has announced that an investigation will be opened in light of the spreading on certain social media platforms of a statement attributed to a candidate in the upcoming legislative elections. The statement, made during a party rally, alleged the use of funds derived from a […] The post Morocco to Probe into Statement by Election Candidate Claiming Use of Drug Proceeds to Influence Electoral Operations appeared first on HESPRESS English ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-03T21:44:45Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-t-touan-une-tude-alerte-sur-les-risques-d-inondations-li-s-l-expansion-urbaine",
+      "title": "Tétouan : une étude alerte sur les risques d’inondations liés à l’expansion urbaine",
+      "link": "https://fr.hespress.com/486922-tetouan-une-etude-alerte-sur-les-risques-dinondations-lies-a-lexpansion-urbaine.html",
+      "description": "Une étude scientifique consacrée aux risques d’inondations urbaines à Tétouan met en garde contre la vulnérabilité croissante de la ville face aux fortes pluies. L’urbanisation rapide dans les zones exposées, combinée à la perturbation des voies naturelles d’écoulement des eaux, pourrait accentuer les risques dans plusieurs secteurs, notamment autour du bassin de l’oued Martil. L’expansion […] The post Tétouan : une étude alerte sur les risques d’inondations liés à l’expansion urbaine appeared f",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-03T21:10:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,19 +74,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-03T17:12:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-certificats-d-origine-falsifi-s-les-douanes-remontent-la-piste-d-un-vaste-r-seau-d-importation",
-      "title": "Certificats d’origine falsifiés : les douanes remontent la piste d’un vaste réseau d’importation",
-      "link": "https://fr.hespress.com/486927-certificats-dorigine-falsifies-les-douanes-remontent-la-piste-dun-vaste-reseau-dimportation.html",
-      "description": "Les services douaniers marocains ont ouvert une vaste enquête après la découverte d’indices de manipulation dans les déclarations d’importation de marchandises, notamment au niveau des certificats d’origine. Selon des informations recueillies auprès de sources bien informées, ces soupçons ont émergé à l’issue de contrôles a posteriori menés par les services régionaux et territoriaux de contrôle […] The post Certificats d’origine falsifiés : les douanes remontent la piste d’un vaste réseau d’impo",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-03T17:07:13Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
