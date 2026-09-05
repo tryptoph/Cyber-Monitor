@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-05T15:19:45Z",
+  "generatedAt": "2026-09-05T20:28:05Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-pr-sides-occup-s-le-mp-d-nonce-les-provocations-espagnoles-et-r-affirme-les-droits-historiques-d",
+      "title": "Présides occupés : le MP dénonce les provocations espagnoles et réaffirme les droits historiques du Maroc",
+      "link": "https://fr.hespress.com/487260-presides-occupes-le-mp-denonce-les-provocations-espagnoles-et-reaffirme-les-droits-historiques-du-maroc.html",
+      "description": "Le Mouvement Populaire (MP) est monté au créneau pour condamner fermement les déclarations jugées provocatrices émanant de certaines parties espagnoles, notamment lors d’une récente session au Congrès des députés en Espagne. La formation politique, par la voix de son secrétaire général Mohamed Ouzzine, a dénoncé samedi à Salé une « atteinte inacceptable aux symboles et sacralités […] The post Présides occupés : le MP dénonce les provocations espagnoles et réaffirme les droits historiques du Maro",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-05T20:11:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-adopts-new-rules-for-electric-scooters-e-bikes-and-public-force-vehicles",
+      "title": "Morocco adopts new rules for electric scooters, e-bikes and public-force vehicles",
+      "link": "https://en.hespress.com/144930-morocco-adopts-new-rules-for-electric-scooters-e-bikes-and-public-force-vehicles.html",
+      "description": "Morocco has introduced new rules governing electric scooters and assisted-pedal bicycles while exempting vehicles operated by public security forces from requirements to be equipped with devices that monitor speed and driving time. The changes were introduced under Decree No. 2.24.393, dated Oct. 3, 2025, which amends Decree No. 2.10.421 of Sept. 29, 2010, implementing provisions […] The post Morocco adopts new rules for electric scooters, e-bikes and public-force vehicles appeared first on HESP",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-05T19:30:29Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-coles-pionni-res-le-minist-re-tranche-la-question-des-heures-suppl-mentaires",
       "title": "Écoles pionnières : le ministère tranche la question des heures supplémentaires",
       "link": "https://fr.hespress.com/487162-ecoles-pionnieres-le-ministere-tranche-la-question-des-heures-supplementaires.html",
@@ -22,19 +48,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-09-05T14:56:24Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-3",
-      "title": "أمريكا تقصف 3 ناقلات نفط إيرانية",
-      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d9%82%d8%b5%d9%81-3-%d9%86%d8%a7%d9%82%d9%84%d8%a7%d8%aa-%d9%86%d9%81%d8%b7-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-1802386.html",
-      "description": "أعلن الجيش الأمريكي، اليوم السبت، أنه قصف ودمر ثلاث ناقلات نفط تابعة للحرس الثوري الإيراني، وذلك بعدما أطلق الأخير النار على سفن حربية أمريكية. وقال الجيش في بيان: “إثر الهجمات الإيرانية الفاشلة عطّلت القيادة المركزية الأمريكية (سنتكوم) بشكل دائم ناقلتي نفط تابعتين للحرس الثوري الإيراني، هما الناقلة ‘داوني’ قبالة سواحل جزيرة خارك، والناقلة ‘ستارك 1’ […] The post أمريكا تقصف 3 ناقلات نفط إيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-05T14:51:01Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
