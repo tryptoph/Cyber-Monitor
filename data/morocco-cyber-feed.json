@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-05T04:37:43Z",
+  "generatedAt": "2026-09-05T10:43:23Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,19 +14,6 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-les-pr-cisions-de-la-narsa-concernant-le-remplacement-des-plaques-d-immatriculation",
-      "title": "Les précisions de la NARSA concernant le remplacement des plaques d’immatriculation",
-      "link": "https://fr.hespress.com/487177-les-precisions-de-la-narsa-concernant-le-remplacement-des-plaques-dimmatriculation.html",
-      "description": "L’Agence nationale de la sécurité routière (NARSA) a affirmé que la date du 31 décembre 2026 n’est pas une échéance générale pour le remplacement de l’ensemble des plaques d’immatriculation des véhicules au Maroc, soulignant que la décision n°640.26, publiée le 03 août dernier, prévoit des dispositions transitoires fixant la date à laquelle le remplacement des […] The post Les précisions de la NARSA concernant le remplacement des plaques d’immatriculation appeared first on Hespress Français - Ac",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-05T01:54:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-plaques-d-immatriculation-le-31-d-cembre-2026-ne-concerne-pas-tous-les-v-hicules",
       "title": "Plaques d’immatriculation : Le 31 décembre 2026 ne concerne pas tous les véhicules",
       "link": "https://www.lavieeco.com/au-royaume/plaques-dimmatriculation-le-31-decembre-2026-ne-concerne-pas-tous-les-vehicules/",
@@ -35,19 +22,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-04T20:47:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-drapeau-marocain-d-chir-madrid-l-extr-me-droite-espagnole-point-e-du-doigt",
-      "title": "Drapeau marocain déchiré à Madrid : l’extrême droite espagnole pointée du doigt",
-      "link": "https://fr.hespress.com/487117-drapeau-marocain-dechire-a-madrid-lextreme-droite-espagnole-pointee-du-doigt.html",
-      "description": "Une grande polémique a été suscitée par le déchirement du drapeau marocain lors de récentes manifestations en Espagne. Celle-ci a fait réagir la communauté marocaine établie dans le pays ibérique où plusieurs voix dénoncent un acte jugé provocateur, qu’elles attribuent à certains courants de l’extrême droite espagnole, tout en appelant à préserver les relations entre […] The post Drapeau marocain déchiré à Madrid : l’extrême droite espagnole pointée du doigt appeared first on Hespress Français -",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-04T20:05:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
