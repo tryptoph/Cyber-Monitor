@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-04T20:50:06Z",
+  "generatedAt": "2026-09-05T04:37:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-les-pr-cisions-de-la-narsa-concernant-le-remplacement-des-plaques-d-immatriculation",
+      "title": "Les précisions de la NARSA concernant le remplacement des plaques d’immatriculation",
+      "link": "https://fr.hespress.com/487177-les-precisions-de-la-narsa-concernant-le-remplacement-des-plaques-dimmatriculation.html",
+      "description": "L’Agence nationale de la sécurité routière (NARSA) a affirmé que la date du 31 décembre 2026 n’est pas une échéance générale pour le remplacement de l’ensemble des plaques d’immatriculation des véhicules au Maroc, soulignant que la décision n°640.26, publiée le 03 août dernier, prévoit des dispositions transitoires fixant la date à laquelle le remplacement des […] The post Les précisions de la NARSA concernant le remplacement des plaques d’immatriculation appeared first on Hespress Français - Ac",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-05T01:54:45Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-plaques-d-immatriculation-le-31-d-cembre-2026-ne-concerne-pas-tous-les-v-hicules",
       "title": "Plaques d’immatriculation : Le 31 décembre 2026 ne concerne pas tous les véhicules",
@@ -35,19 +48,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-09-04T20:05:42Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cnss-plus-de-25-millions-de-b-n-ficiaires-de-l-amo-en-2025-en-hausse-de-3",
-      "title": "CNSS : Plus de 25 millions de bénéficiaires de l'AMO en 2025, en hausse de 3%",
-      "link": "https://fr.hespress.com/487088-cnss-plus-de-25-millions-de-beneficiaires-de-lamo-en-2025-en-hausse-de-3.html",
-      "description": "Le nombre de bénéficiaires de l’Assurance Maladie Obligatoire (AMO) a atteint 25,08 millions en 2025, en hausse de 3% par rapport à 2024, a indiqué la Caisse Nationale de Sécurité Sociale (CNSS), qui fait état de 22,65 milliards de dirhams (MMDH, +17%) de prestations servies. Par ailleurs, le régime AMO des travailleurs salariés a compté […] The post CNSS : Plus de 25 millions de bénéficiaires de l'AMO en 2025, en hausse de 3% appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-04T18:32:10Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
