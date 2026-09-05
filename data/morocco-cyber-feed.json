@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-05T10:43:23Z",
+  "generatedAt": "2026-09-05T15:19:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-coles-pionni-res-le-minist-re-tranche-la-question-des-heures-suppl-mentaires",
+      "title": "Écoles pionnières : le ministère tranche la question des heures supplémentaires",
+      "link": "https://fr.hespress.com/487162-ecoles-pionnieres-le-ministere-tranche-la-question-des-heures-supplementaires.html",
+      "description": "Le ministère de l’Éducation nationale, de l’Enseignement primaire et du Sport vient de mettre fin aux incertitudes entourant la gestion du soutien scolaire prolongé au sein des « Écoles pionnières » pour l’année scolaire 2026/27. Dans une note officielle adressée ce vendredi 4 septembre aux directeurs des Académies régionales de l’éducation et de la formation (AREF), la […] The post Écoles pionnières : le ministère tranche la question des heures supplémentaires appeared first on Hespress Françai",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-05T14:56:24Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-3",
+      "title": "أمريكا تقصف 3 ناقلات نفط إيرانية",
+      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d9%82%d8%b5%d9%81-3-%d9%86%d8%a7%d9%82%d9%84%d8%a7%d8%aa-%d9%86%d9%81%d8%b7-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-1802386.html",
+      "description": "أعلن الجيش الأمريكي، اليوم السبت، أنه قصف ودمر ثلاث ناقلات نفط تابعة للحرس الثوري الإيراني، وذلك بعدما أطلق الأخير النار على سفن حربية أمريكية. وقال الجيش في بيان: “إثر الهجمات الإيرانية الفاشلة عطّلت القيادة المركزية الأمريكية (سنتكوم) بشكل دائم ناقلتي نفط تابعتين للحرس الثوري الإيراني، هما الناقلة ‘داوني’ قبالة سواحل جزيرة خارك، والناقلة ‘ستارك 1’ […] The post أمريكا تقصف 3 ناقلات نفط إيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-05T14:51:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-en-pr-sence-de-plus-de-10-mille-personnes-jarf-al-malha-akhannouch-une-aide-sera-vers-e-pendant-",
+      "title": "En présence de plus de 10 mille personnes à Jarf al-Malha, Akhannouch : « Une aide sera versée pendant un an à ceux qui trouveront un emploi »",
+      "link": "https://aujourdhui.ma/actualite/en-presence-de-plus-de-10-mille-personnes-a-jarf-al-malha-akhannouch-une-aide-sera-versee-pendant-un-an-a-ceux-qui-trouveront-un-emploi",
+      "description": "RNI promet aux travailleurs saisonniers une carte spéciale de sécurité sociale.",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-05T14:31:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-plaques-d-immatriculation-le-31-d-cembre-2026-ne-concerne-pas-tous-les-v-hicules",
       "title": "Plaques d’immatriculation : Le 31 décembre 2026 ne concerne pas tous les véhicules",
