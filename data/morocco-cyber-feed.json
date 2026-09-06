@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-06T11:04:42Z",
+  "generatedAt": "2026-09-06T15:32:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-ar-4",
+      "title": "غارات على جنوب لبنان توقع 4 قتلى",
+      "link": "https://www.hespress.com/%d8%ba%d8%a7%d8%b1%d8%a7%d8%aa-%d8%b9%d9%84%d9%89-%d8%ac%d9%86%d9%88%d8%a8-%d9%84%d8%a8%d9%86%d8%a7%d9%86-%d8%aa%d9%88%d9%82%d8%b9-4-%d9%82%d8%aa%d9%84%d9%89-1802871.html",
+      "description": "قُتل أربعة أشخاص، بينهم امرأتان، وأصيب ستة آخرون في غارات جوية إسرائيلية على جنوب لبنان، وفق وزارة الصحة اللبنانية، فيما قال الجيش الإسرائيلي إن الضربات استهدفت مستودعات أسلحة ومقر قيادة لحزب الله، في أعقاب هجوم بطائرتين مسيرتين قالت إسرائيل إن الجماعة نفذته داخل مناطق تسيطر عليها قواتها. وأفادت وزارة الصحة، الأحد 6 سبتمبر، بمقتل رجلين […] The post غارات على جنوب لبنان توقع 4 قتلى appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-06T15:01:42Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إسرائيل تحذر من السفر إلى دول عدة",
+      "link": "https://www.hespress.com/%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d8%b3%d9%81%d8%b1-%d8%a5%d9%84%d9%89-%d8%af%d9%88%d9%84-%d8%b9%d8%af%d8%a9-1802796.html",
+      "description": "حذر مجلس الأمن القومي الإسرائيلي، الأحد، من استمرار محاولات استهداف إسرائيليين ويهود في دول مختلفة، بالتزامن مع اقتراب الأعياد اليهودية، مشيرا إلى ارتفاع مستوى المخاطر المرتبطة بالمواجهة مع إيران وحزب الله وحركة حماس وتنظيمات أخرى. وقال المجلس إن المواجهات المستمرة وسعت نطاق المخاطر التي يتعرض لها الإسرائيليون في الخارج، متحدثا عن زيادة محاولات تنفيذ هجمات […] The post إسرائيل تحذر من السفر إلى دول عدة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-06T14:10:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-march-de-l-assurance-une-croissance-plusieurs-vitesses",
+      "title": "Marché de l'assurance : une croissance à plusieurs vitesses",
+      "link": "https://fr.hespress.com/487047-marche-de-lassurance-une-croissance-a-plusieurs-vitesses.html",
+      "description": "Le marché de l’assurance a poursuivi sa progression au deuxième trimestre 2026, porté par une dynamique qui se transforme progressivement. Derrière la hausse globale des primes, les statistiques de l’ACAPS révèlent des évolutions contrastées entre les différentes branches, une poussée remarquable de certains produits d’épargne et une nouvelle configuration des placements du secteur. Le marché […] The post Marché de l'assurance : une croissance à plusieurs vitesses appeared first on Hespress Fran",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-06T13:06:05Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "lavieeco-r-sidences-artistiques-log-s-nourris-cot-s",
       "title": "Résidences artistiques : Logés, nourris, cotés ?",
       "link": "https://www.lavieeco.com/influences/culture/residences-artistiques-loges-nourris-cotes/",
@@ -22,45 +61,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-06T09:16:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "إيران تعلن استهداف سفينة أمريكية",
-      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b9%d9%84%d9%86-%d8%a7%d8%b3%d8%aa%d9%87%d8%af%d8%a7%d9%81-%d8%b3%d9%81%d9%8a%d9%86%d8%a9-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-1802751.html",
-      "description": "ذكرت إيران، اليوم الأحد، أنها استهدفت سفينة أمريكية بدون طاقم كانت تحاول دخول مضيق هرمز، في أحدث جولة من التصعيد في القتال بين الدولتين. ولم تؤكد الولايات المتحدة على الفور الهجوم المزعوم، الذي جاء بعد يوم من إعلان الجيش الأمريكي أن قواته استهدفت ثلاث ناقلات نفط إيرانية، ردا على هجوم صاروخي على سفن حربية تابعة […] The post إيران تعلن استهداف سفينة أمريكية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-06T09:01:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-cancer-patients-in-marrakech-face-months-long-shortage-of-zometa-at-ibn-tofail-hospital",
-      "title": "Cancer patients in Marrakech face months-long shortage of Zometa at Ibn Tofail Hospital",
-      "link": "https://en.hespress.com/144942-cancer-patients-in-marrakech-face-months-long-shortage-of-zometa-at-ibn-tofail-hospital.html",
-      "description": "Cancer patients in Marrakech are facing difficulties accessing Zometa, a drug used to help prevent bone-related complications in certain advanced cancers, amid a reported months-long shortage at Ibn Tofail Hospital. Hespress received an appeal from patients and their families saying the drug has been unavailable for about six months, causing difficulties for cancer patients who […] The post Cancer patients in Marrakech face months-long shortage of Zometa at Ibn Tofail Hospital appeared first on ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-05T21:35:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-adopts-new-rules-for-electric-scooters-e-bikes-and-public-force-vehicles",
-      "title": "Morocco adopts new rules for electric scooters, e-bikes and public-force vehicles",
-      "link": "https://en.hespress.com/144930-morocco-adopts-new-rules-for-electric-scooters-e-bikes-and-public-force-vehicles.html",
-      "description": "Morocco has introduced new rules governing electric scooters and assisted-pedal bicycles while exempting vehicles operated by public security forces from requirements to be equipped with devices that monitor speed and driving time. The changes were introduced under Decree No. 2.24.393, dated Oct. 3, 2025, which amends Decree No. 2.10.421 of Sept. 29, 2010, implementing provisions […] The post Morocco adopts new rules for electric scooters, e-bikes and public-force vehicles appeared first on HESP",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-05T19:30:29Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
