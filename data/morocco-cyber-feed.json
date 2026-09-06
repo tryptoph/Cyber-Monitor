@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-05T20:28:05Z",
+  "generatedAt": "2026-09-06T04:47:57Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "اختبارات كشف الكذب تهز \"البنتاغون\"",
+      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1%d8%a7%d8%aa-%d9%83%d8%b4%d9%81-%d8%a7%d9%84%d9%83%d8%b0%d8%a8-%d8%aa%d9%87%d8%b2-%d8%a7%d9%84%d8%a8%d9%86%d8%aa%d8%a7%d8%ba%d9%88%d9%86-1802543.html",
+      "description": "أخضع “البنتاغون” عشرات المسؤولين العسكريين رفيعي المستوى لاختبارات كشف الكذب لتحديد مصدر تسريبات بشأن نقص في الذخائر في سياق الحرب مع إيران، حسب ما أفادت وسائل إعلام أمريكية عديدة. وأوردت “نيويورك تايمز”، أن 50 عضوا من هيئة الأركان المشتركة وموظفي التخطيط والمشورة في “البنتاغون” اضطروا إلى الخضوع لأجهزة كشف الكذب في إطار هذا التحقيق. وأكدت […] The post اختبارات كشف الكذب تهز \"البنتاغون\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-06T04:33:35Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الحياة تدبّ في كرة القدم الفلسطينية",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d9%8a%d8%a7%d8%a9-%d8%aa%d8%af%d8%a8%d9%91-%d9%81%d9%8a-%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d9%82%d8%af%d9%85-%d8%a7%d9%84%d9%81%d9%84%d8%b3%d8%b7%d9%8a%d9%86%d9%8a%d8%a9-1802472.html",
+      "description": "أمضى المعلق خليل جاد الله الأعوام الثلاثة الأخيرة وهو يرثي لاعبين قتلوا في غزة، إلى أن عاد الجمعة إلى مزاولة عمله المعتاد مع استئناف مباريات كرة القدم في الأراضي الفلسطينية للمرة الأولى منذ اندلاع الحرب في القطاع. وتوقفت الأنشطة الرياضية الفلسطينية، ومن بينها دوري كرة القدم، عقب اندلاع الحرب في غزة بعد هجوم “حماس” على […] The post الحياة تدبّ في كرة القدم الفلسطينية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-06T03:19:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-cancer-patients-in-marrakech-face-months-long-shortage-of-zometa-at-ibn-tofail-hospital",
+      "title": "Cancer patients in Marrakech face months-long shortage of Zometa at Ibn Tofail Hospital",
+      "link": "https://en.hespress.com/144942-cancer-patients-in-marrakech-face-months-long-shortage-of-zometa-at-ibn-tofail-hospital.html",
+      "description": "Cancer patients in Marrakech are facing difficulties accessing Zometa, a drug used to help prevent bone-related complications in certain advanced cancers, amid a reported months-long shortage at Ibn Tofail Hospital. Hespress received an appeal from patients and their families saying the drug has been unavailable for about six months, causing difficulties for cancer patients who […] The post Cancer patients in Marrakech face months-long shortage of Zometa at Ibn Tofail Hospital appeared first on ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-05T21:35:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-pr-sides-occup-s-le-mp-d-nonce-les-provocations-espagnoles-et-r-affirme-les-droits-historiques-d",
       "title": "Présides occupés : le MP dénonce les provocations espagnoles et réaffirme les droits historiques du Maroc",
@@ -35,19 +74,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-05T19:30:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-coles-pionni-res-le-minist-re-tranche-la-question-des-heures-suppl-mentaires",
-      "title": "Écoles pionnières : le ministère tranche la question des heures supplémentaires",
-      "link": "https://fr.hespress.com/487162-ecoles-pionnieres-le-ministere-tranche-la-question-des-heures-supplementaires.html",
-      "description": "Le ministère de l’Éducation nationale, de l’Enseignement primaire et du Sport vient de mettre fin aux incertitudes entourant la gestion du soutien scolaire prolongé au sein des « Écoles pionnières » pour l’année scolaire 2026/27. Dans une note officielle adressée ce vendredi 4 septembre aux directeurs des Académies régionales de l’éducation et de la formation (AREF), la […] The post Écoles pionnières : le ministère tranche la question des heures supplémentaires appeared first on Hespress Françai",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-05T14:56:24Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
