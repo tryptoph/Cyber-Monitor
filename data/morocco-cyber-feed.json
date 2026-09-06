@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-06T15:32:39Z",
+  "generatedAt": "2026-09-06T20:29:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-4",
-      "title": "غارات على جنوب لبنان توقع 4 قتلى",
-      "link": "https://www.hespress.com/%d8%ba%d8%a7%d8%b1%d8%a7%d8%aa-%d8%b9%d9%84%d9%89-%d8%ac%d9%86%d9%88%d8%a8-%d9%84%d8%a8%d9%86%d8%a7%d9%86-%d8%aa%d9%88%d9%82%d8%b9-4-%d9%82%d8%aa%d9%84%d9%89-1802871.html",
-      "description": "قُتل أربعة أشخاص، بينهم امرأتان، وأصيب ستة آخرون في غارات جوية إسرائيلية على جنوب لبنان، وفق وزارة الصحة اللبنانية، فيما قال الجيش الإسرائيلي إن الضربات استهدفت مستودعات أسلحة ومقر قيادة لحزب الله، في أعقاب هجوم بطائرتين مسيرتين قالت إسرائيل إن الجماعة نفذته داخل مناطق تسيطر عليها قواتها. وأفادت وزارة الصحة، الأحد 6 سبتمبر، بمقتل رجلين […] The post غارات على جنوب لبنان توقع 4 قتلى appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "id": "hespress-ar-11",
+      "title": "\"ذاكرة 11 شتنبر\" تتآكل في أمريكا",
+      "link": "https://www.hespress.com/%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-11-%d8%b4%d8%aa%d9%86%d8%a8%d8%b1-%d8%aa%d8%aa%d8%a2%d9%83%d9%84-%d9%81%d9%8a-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-1801131.html",
+      "description": "غادر الطالب الأميركي ماكس أفينا موقع مركز التجارة العالمي في نيويورك وهو يكاد يعجز عن وصف ما شاهده، بعدما وقف للمرة الأولى في المكان الذي انهار فيه البرجان قبل خمسة وعشرين عاما، وقرأ شهادات تركها أقارب أشخاص قتلوا في هجمات 11 شتنبر 2001، وهي تجربة جعلت الحدث الذي عرفه من الروايات والصور أقرب إليه من […] The post \"ذاكرة 11 شتنبر\" تتآكل في أمريكا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-09-06T15:01:42Z",
+      "published": "2026-09-06T18:56:27Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "إسرائيل تحذر من السفر إلى دول عدة",
-      "link": "https://www.hespress.com/%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%a7%d9%84%d8%b3%d9%81%d8%b1-%d8%a5%d9%84%d9%89-%d8%af%d9%88%d9%84-%d8%b9%d8%af%d8%a9-1802796.html",
-      "description": "حذر مجلس الأمن القومي الإسرائيلي، الأحد، من استمرار محاولات استهداف إسرائيليين ويهود في دول مختلفة، بالتزامن مع اقتراب الأعياد اليهودية، مشيرا إلى ارتفاع مستوى المخاطر المرتبطة بالمواجهة مع إيران وحزب الله وحركة حماس وتنظيمات أخرى. وقال المجلس إن المواجهات المستمرة وسعت نطاق المخاطر التي يتعرض لها الإسرائيليون في الخارج، متحدثا عن زيادة محاولات تنفيذ هجمات […] The post إسرائيل تحذر من السفر إلى دول عدة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-06T14:10:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-march-de-l-assurance-une-croissance-plusieurs-vitesses",
-      "title": "Marché de l'assurance : une croissance à plusieurs vitesses",
-      "link": "https://fr.hespress.com/487047-marche-de-lassurance-une-croissance-a-plusieurs-vitesses.html",
-      "description": "Le marché de l’assurance a poursuivi sa progression au deuxième trimestre 2026, porté par une dynamique qui se transforme progressivement. Derrière la hausse globale des primes, les statistiques de l’ACAPS révèlent des évolutions contrastées entre les différentes branches, une poussée remarquable de certains produits d’épargne et une nouvelle configuration des placements du secteur. Le marché […] The post Marché de l'assurance : une croissance à plusieurs vitesses appeared first on Hespress Fran",
+      "id": "hespress-fr-huit-pays-arabes-condamnent-les-appels-des-ministres-isra-liens-d-placer-les-gazaouis",
+      "title": "Huit pays arabes condamnent les appels des ministres israéliens à déplacer les Gazaouis",
+      "link": "https://fr.hespress.com/487333-huit-pays-arabes-condamnent-les-appels-des-ministres-israeliens-a-deplacer-les-gazaouis.html",
+      "description": "Les ministres des Affaires étrangères du Qatar, de l’Arabie saoudite, de la Jordanie, des Émirats arabes unis, de l’Indonésie, du Pakistan, de l’Égypte et de la Turquie ont fermement condamné les déclarations du ministre israélien de la Sécurité nationale, Itamar Ben-Gvir, et du ministre de la Défense, Yisrael Katz, concernant le déplacement des palestiniens de […] The post Huit pays arabes condamnent les appels des ministres israéliens à déplacer les Gazaouis appeared first on Hespress Français",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-06T13:06:05Z",
+      "published": "2026-09-06T17:54:11Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -191,19 +178,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-04T10:35:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-apr-s-des-semaines-riches-en-activit-s-culturelles-artistiques-et-sportives-clap-de-fin-pour-les",
-      "title": "Après des semaines riches en activités culturelles, artistiques et sportives: Clap de fin pour les colonies de vacances 2026",
-      "link": "https://aujourdhui.ma/societe/apres-des-semaines-riches-en-activites-culturelles-artistiques-et-sportives-clap-de-fin-pour-les-colonies-de-vacances-2026",
-      "description": "Chantier éducatif Cette édition constitue une nouvelle étape dans le développement du système d’estivage, à travers l’amélioration des conditions d’accueil et d’encadrement et le renforcement de protection et sécurité, avec l’adoption des dispositions éducatives visant le développement de la personnalité de l’enfant et le renforcement de ses capacités de communication, du travail d’équipe et de […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-04T10:23:33Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
