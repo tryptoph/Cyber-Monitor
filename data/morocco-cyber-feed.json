@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-06T20:29:41Z",
+  "generatedAt": "2026-09-07T04:51:51Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-11",
-      "title": "\"ذاكرة 11 شتنبر\" تتآكل في أمريكا",
-      "link": "https://www.hespress.com/%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-11-%d8%b4%d8%aa%d9%86%d8%a8%d8%b1-%d8%aa%d8%aa%d8%a2%d9%83%d9%84-%d9%81%d9%8a-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-1801131.html",
-      "description": "غادر الطالب الأميركي ماكس أفينا موقع مركز التجارة العالمي في نيويورك وهو يكاد يعجز عن وصف ما شاهده، بعدما وقف للمرة الأولى في المكان الذي انهار فيه البرجان قبل خمسة وعشرين عاما، وقرأ شهادات تركها أقارب أشخاص قتلوا في هجمات 11 شتنبر 2001، وهي تجربة جعلت الحدث الذي عرفه من الروايات والصور أقرب إليه من […] The post \"ذاكرة 11 شتنبر\" تتآكل في أمريكا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-06T18:56:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-huit-pays-arabes-condamnent-les-appels-des-ministres-isra-liens-d-placer-les-gazaouis",
-      "title": "Huit pays arabes condamnent les appels des ministres israéliens à déplacer les Gazaouis",
-      "link": "https://fr.hespress.com/487333-huit-pays-arabes-condamnent-les-appels-des-ministres-israeliens-a-deplacer-les-gazaouis.html",
-      "description": "Les ministres des Affaires étrangères du Qatar, de l’Arabie saoudite, de la Jordanie, des Émirats arabes unis, de l’Indonésie, du Pakistan, de l’Égypte et de la Turquie ont fermement condamné les déclarations du ministre israélien de la Sécurité nationale, Itamar Ben-Gvir, et du ministre de la Défense, Yisrael Katz, concernant le déplacement des palestiniens de […] The post Huit pays arabes condamnent les appels des ministres israéliens à déplacer les Gazaouis appeared first on Hespress Français",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-06T17:54:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "lavieeco-r-sidences-artistiques-log-s-nourris-cot-s",
       "title": "Résidences artistiques : Logés, nourris, cotés ?",
