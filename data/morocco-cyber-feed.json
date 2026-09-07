@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-07T04:51:51Z",
+  "generatedAt": "2026-09-07T12:44:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,58 @@
   ],
   "items": [
     {
+      "id": "dgssi-67960709-26-vuln-rabilit-s-critiques-dans-google-chrome",
+      "title": "67960709/26 - Vulnérabilités critiques dans Google Chrome",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-google-chrome-15",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-07T12:44:08Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-police-arrest-man-over-fatal-shooting-of-woman-in-oujda",
+      "title": "Morocco police arrest man over fatal shooting of woman in Oujda",
+      "link": "https://en.hespress.com/144986-morocco-police-arrest-man-over-fatal-shooting-of-woman-in-oujda.html",
+      "description": "Moroccan police have arrested a 58-year-old man suspected of fatally shooting a woman with a hunting rifle in the northeastern city of Oujda, authorities said. Officers from the Oujda Provincial Judicial Police Department, working with National Security services in nearby Nador, arrested the suspect early Monday, Sept. 7, according to a security source. The arrest […] The post Morocco police arrest man over fatal shooting of woman in Oujda appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-07T10:32:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-nouvelles-plaques-d-immatriculation-les-pr-cisions-de-la-narsa-sur-les-modalit-s-de-remplacement",
+      "title": "Nouvelles plaques d’immatriculation : Les précisions de la Narsa sur les modalités de remplacement",
+      "link": "https://aujourdhui.ma/societe/nouvelles-plaques-dimmatriculation-les-precisions-de-la-narsa-sur-les-modalites-de-remplacement",
+      "description": "Mesures L’Agence nationale de la sécurité routière (NARSA) dément l’obligation de remplacer toutes les plaques d’immatriculation des véhicules actuellement en circulation avant le 31 décembre 2026. L’Agence nationale de la sécurité routière (Narsa) a affirmé, vendredi, que la date du 31 décembre 2026 n’est pas une échéance générale pour le remplacement de l’ensemble des plaques […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-07T10:20:14Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-acc-l-ration-du-digital-et-gestion-des-polycliniques-la-cnss-cr-e-deux-nouvelles-filiales",
+      "title": "Accélération du digital et gestion des polycliniques: La CNSS crée deux nouvelles filiales",
+      "link": "https://aujourdhui.ma/societe/acceleration-du-digital-et-gestion-des-polycliniques-la-cnss-cree-deux-nouvelles-filiales",
+      "description": "Conseil d’administration La Caisse nationale de sécurité sociale (CNSS) a enregistré une hausse de ses principaux indicateurs en 2025. La Caisse va procéder au renforcement de la sécurité des systèmes d’information et à la création de deux filiales: l’une dédiée à l’accélération de sa transformation digitale et l’autre à la gestion de ses polycliniques. Les […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-07T10:13:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "lavieeco-r-sidences-artistiques-log-s-nourris-cot-s",
       "title": "Résidences artistiques : Logés, nourris, cotés ?",
       "link": "https://www.lavieeco.com/influences/culture/residences-artistiques-loges-nourris-cotes/",
@@ -22,19 +74,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-06T09:16:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-en-pr-sence-de-plus-de-10-mille-personnes-jarf-al-malha-akhannouch-une-aide-sera-vers-e-pendant-",
-      "title": "En présence de plus de 10 mille personnes à Jarf al-Malha, Akhannouch : « Une aide sera versée pendant un an à ceux qui trouveront un emploi »",
-      "link": "https://aujourdhui.ma/actualite/en-presence-de-plus-de-10-mille-personnes-a-jarf-al-malha-akhannouch-une-aide-sera-versee-pendant-un-an-a-ceux-qui-trouveront-un-emploi",
-      "description": "RNI promet aux travailleurs saisonniers une carte spéciale de sécurité sociale.",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-05T14:31:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -92,19 +131,6 @@
       "type": "news"
     },
     {
-      "id": "aujourdhui-cnss-plus-de-25-millions-de-b-n-ficiaires-de-l-amo-en-2025-en-hausse-de-3",
-      "title": "CNSS : Plus de 25 millions de bénéficiaires de l’AMO en 2025, en hausse de 3%",
-      "link": "https://aujourdhui.ma/societe/cnss-plus-de-25-millions-de-beneficiaires-de-lamo-en-2025-en-hausse-de-3",
-      "description": "Le nombre de bénéficiaires de l’Assurance Maladie Obligatoire (AMO) a atteint 25,08 millions en 2025, en hausse de 3% par rapport à 2024, a indiqué la Caisse Nationale de Sécurité Sociale (CNSS), qui fait état de 22,65 milliards de dirhams (MMDH, +17%) de prestations servies. Par ailleurs, le régime AMO des travailleurs salariés a compté […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-04T12:19:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67920409-26-ficker-stealer-infostealer",
       "title": "67920409/26 - “ Ficker Stealer ” Infostealer",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/ficker-stealer-infostealer",
@@ -128,19 +154,6 @@
       "published": "2026-09-04T11:26:34Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-en-pr-vision-de-la-rentr-e-scolaire-la-r-habilitation-des-tablissements-scolaires-s-acc-l-re",
-      "title": "En prévision de la rentrée scolaire: La réhabilitation des établissements scolaires s’accélère",
-      "link": "https://aujourdhui.ma/societe/en-prevision-de-la-rentree-scolaire-la-rehabilitation-des-etablissements-scolaires-saccelere",
-      "description": "Contraintes Les préparatifs de la rentrée scolaire 2026-2027 se poursuivent dans la province de Khénifra dans un contexte de mobilisation soutenue visant à renforcer la préparation des établissements scolaires et à améliorer leurs espaces. Plusieurs chantiers de réhabilitation sont ainsi menés au niveau d’un certain nombre d’établissements relevant de la direction provinciale du ministère de […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-04T11:07:49Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -308,19 +321,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-02T11:26:47Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67780109-26-vuln-rabilit-s-critiques-affectant-plusieurs-plugins-wordpress",
-      "title": "67780109/26 - Vulnérabilités critiques affectant plusieurs plugins WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-plusieurs-plugins-wordpress-2",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-01T16:44:17Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
