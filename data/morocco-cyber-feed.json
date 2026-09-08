@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-08T11:26:51Z",
+  "generatedAt": "2026-09-08T16:43:08Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68100809-26-vuln-rabilit-s-critiques-dans-dell-secure-connect-gateway",
+      "title": "68100809/26 - Vulnérabilités critiques dans Dell Secure Connect Gateway",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-dell-secure-connect-gateway",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-08T16:43:06Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68090809-26-vuln-rabilit-s-dans-les-produits-jetbrains",
+      "title": "68090809/26 - Vulnérabilités dans les produits JetBrains",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-jetbrains-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-08T16:43:06Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68080809-26-vuln-rabilit-s-affectant-juniper-junos-os",
+      "title": "68080809/26 - Vulnérabilités affectant Juniper Junos OS",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-juniper-junos-os-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-08T16:43:06Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-group-of-40-states-reaffirms-support-for-morocco-s-full-and-complete-sovereignty-over-sahara",
+      "title": "Group of 40 states reaffirms support for Morocco’s 'full and complete' Sovereignty over Sahara",
+      "link": "https://en.hespress.com/145076-group-of-40-states-reaffirms-support-for-moroccos-full-and-complete-sovereignty-over-sahara.html",
+      "description": "A group of 40 states reaffirmed, on Tuesday in Geneva, its support for the “full and complete sovereignty” of Morocco over its Southern Provinces, stressing that the Sahara issue is a political dispute falling under the purview of the United Nations Security Council and highlighting the exclusivity of a solution based on the Moroccan Autonomy […] The post Group of 40 states reaffirms support for Morocco’s 'full and complete' Sovereignty over Sahara appeared first on HESPRESS English - Morocco Ne",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-08T13:31:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-sahara-gen-ve-un-groupe-de-40-tats-r-affirme-son-soutien-au-maroc",
+      "title": "Sahara : À Genève, un groupe de 40 États réaffirme son soutien au Maroc",
+      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/sahara-a-geneve-un-groupe-de-40-etats-reaffirme-son-soutien-au-maroc/",
+      "description": "Le groupe a exprimé son appui à la mise en œuvre de la résolution 2797 du Conseil de sécurité, adoptée le 31 octobre 2025, visant la relance du processus politique à travers l’organisation de négociations entre les quatre parties nommément citées, sur la base du Plan d’autonomie marocain, en vue de parvenir à une solution politique définitive et mutuellement acceptable à ce différend. L’article Sahara : À Genève, un groupe de 40 États réaffirme son soutien au Maroc est apparu en premier sur La V",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-08T13:18:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68070809-26-vuln-rabilit-s-critiques-dans-les-produits-sap",
       "title": "68070809/26 - Vulnérabilités critiques dans les produits SAP",
@@ -100,19 +165,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-09-08T09:44:57Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-ibrahim-maalouf-en-concert-exclusif-au-th-tre-royal-de-rabat",
-      "title": "Ibrahim Maalouf : en Concert exclusif au Théâtre Royal de Rabat",
-      "link": "https://aujourdhui.ma/culture/ibrahim-maalouf-en-concert-exclusif-au-theatre-royal-de-rabat",
-      "description": "Artiste innovant Le trompettiste, compositeur et producteur de renommée internationale Ibrahim Maalouf donnera un concert exceptionnel au Théâtre Royal de Rabat. Le Théâtre Royal de Rabat s’apprête à accueillir le trompettiste virtuose de renommée internationale Ibrahim Maalouf. Cet artiste présente en effet « Trumpets of Michel-Ange» le mardi 22 septembre 2026 à 20h30. Considéré parmi […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-08T09:44:33Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -209,19 +261,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-r-sidences-artistiques-log-s-nourris-cot-s",
-      "title": "Résidences artistiques : Logés, nourris, cotés ?",
-      "link": "https://www.lavieeco.com/influences/culture/residences-artistiques-loges-nourris-cotes/",
-      "description": "Entre temps de création, frais de production, propriété des œuvres et passage en galerie, les résidences artistiques constituent un maillon essentiel du parcours des créateurs. Mais derrière cet accompagnement, les modèles de financement restent très variables et l’accès au marché demeure incertain. L’article Résidences artistiques : Logés, nourris, cotés ? est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-06T09:16:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67950409-26-vuln-rabilit-s-dans-les-produits-microsoft",
       "title": "67950409/26 - Vulnérabilités dans les produits Microsoft",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-microsoft-0",
@@ -269,45 +308,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-04T11:26:34Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67910409-26-vuln-rabilit-s-critiques-affectant-vmware-workstation-et-vmware-fusion",
-      "title": "67910409/26 - Vulnérabilités critiques affectant VMware Workstation et VMware Fusion",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-vmware-workstation-et-vmware-fusion",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-04T11:26:34Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67900309-26-vuln-rabilit-s-affectant-des-modules-pour-le-cms-drupal",
-      "title": "67900309/26 - Vulnérabilités affectant des modules pour le CMS Drupal",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-modules-pour-le-cms-drupal-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-03T16:31:22Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67890309-26-vuln-rabilit-s-dans-les-produits-f5",
-      "title": "67890309/26 - Vulnérabilités dans les produits F5",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-f5-4",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-03T16:31:22Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
