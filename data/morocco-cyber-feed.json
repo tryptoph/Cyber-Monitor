@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-08T16:43:08Z",
+  "generatedAt": "2026-09-08T21:14:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "الجيش الأمريكي يضرب ناقلة إيرانية",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%8a%d8%b6%d8%b1%d8%a8-%d9%86%d8%a7%d9%82%d9%84%d8%a9-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-1804222.html",
+      "description": "أفادت وكالة أنباء إيرانية، اليوم الثلاثاء، بأن الجيش الأمريكي استهدف بضربة صاروخية ناقلة نفط صغيرة قرب جزيرة خارك، بعد تقارير عن سماع دوي انفجارات في المنطقة. وقالت وكالة تسنيم: “تعرضت ناقلة نفط إيرانية صغيرة لهجوم صاروخي من قبل الجيش الإرهابي الأمريكي”، على بعد بضعة كيلومترات من الجزيرة التي تعد منصة أساسية لتصدير الخام من الجمهورية […] The post الجيش الأمريكي يضرب ناقلة إيرانية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-08T20:11:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68100809-26-vuln-rabilit-s-critiques-dans-dell-secure-connect-gateway",
       "title": "68100809/26 - Vulnérabilités critiques dans Dell Secure Connect Gateway",
@@ -50,19 +63,6 @@
       "published": "2026-09-08T16:43:06Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-group-of-40-states-reaffirms-support-for-morocco-s-full-and-complete-sovereignty-over-sahara",
-      "title": "Group of 40 states reaffirms support for Morocco’s 'full and complete' Sovereignty over Sahara",
-      "link": "https://en.hespress.com/145076-group-of-40-states-reaffirms-support-for-moroccos-full-and-complete-sovereignty-over-sahara.html",
-      "description": "A group of 40 states reaffirmed, on Tuesday in Geneva, its support for the “full and complete sovereignty” of Morocco over its Southern Provinces, stressing that the Sahara issue is a political dispute falling under the purview of the United Nations Security Council and highlighting the exclusivity of a solution based on the Moroccan Autonomy […] The post Group of 40 states reaffirms support for Morocco’s 'full and complete' Sovereignty over Sahara appeared first on HESPRESS English - Morocco Ne",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-08T13:31:03Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -128,19 +128,6 @@
       "published": "2026-09-08T11:26:48Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-us-military-delegation-visits-dakhla-atlantic-port-amid-growing-morocco-us-cooperation",
-      "title": "US military delegation visits Dakhla Atlantic Port amid growing Morocco-US cooperation",
-      "link": "https://en.hespress.com/145053-us-military-delegation-visits-dakhla-atlantic-port-amid-growing-morocco-us-cooperation.html",
-      "description": "A delegation of senior U.S. military officials from the U.S. Embassy in Rabat visited the Dakhla Atlantic Port, highlighting the strategic importance of the major infrastructure project as Morocco and the United States deepen cooperation on security, economic development and regional connectivity. During the visit, the delegation reviewed maritime activities in the region and discussed […] The post US military delegation visits Dakhla Atlantic Port amid growing Morocco-US cooperation appeared fi",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-08T10:55:24Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
