@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-08T04:47:32Z",
+  "generatedAt": "2026-09-08T11:26:51Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,110 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68070809-26-vuln-rabilit-s-critiques-dans-les-produits-sap",
+      "title": "68070809/26 - Vulnérabilités critiques dans les produits SAP",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-sap-15",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-08T11:26:48Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68060809-26-vuln-rabilit-affectant-f5-big-ip-dns",
+      "title": "68060809/26 - Vulnérabilité affectant F5 BIG-IP DNS",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-f5-big-ip-dns",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-08T11:26:48Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68050809-26-zero-day-dans-adobe-commerce-et-magento-open-source-stylesmuggler",
+      "title": "68050809/26 - Zero-day dans Adobe Commerce et Magento Open Source (« StyleSmuggler »)",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/zero-day-dans-adobe-commerce-et-magento-open-source-stylesmuggler",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-08T11:26:48Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68040809-26-exploitation-active-d-une-vuln-rabilit-critique-affectant-citrix-netscaler",
+      "title": "68040809/26 - Exploitation active d’une vulnérabilité critique affectant Citrix NetScaler",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/exploitation-active-dune-vulnerabilite-critique-affectant-citrix-netscaler",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-08T11:26:48Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-us-military-delegation-visits-dakhla-atlantic-port-amid-growing-morocco-us-cooperation",
+      "title": "US military delegation visits Dakhla Atlantic Port amid growing Morocco-US cooperation",
+      "link": "https://en.hespress.com/145053-us-military-delegation-visits-dakhla-atlantic-port-amid-growing-morocco-us-cooperation.html",
+      "description": "A delegation of senior U.S. military officials from the U.S. Embassy in Rabat visited the Dakhla Atlantic Port, highlighting the strategic importance of the major infrastructure project as Morocco and the United States deepen cooperation on security, economic development and regional connectivity. During the visit, the delegation reviewed maritime activities in the region and discussed […] The post US military delegation visits Dakhla Atlantic Port amid growing Morocco-US cooperation appeared fi",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-08T10:55:24Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-risques-professionnels-des-femmes-l-institut-national-des-conditions-de-vie-au-travail-lance-une",
+      "title": "Risques professionnels des femmes: L’Institut national des conditions de vie au travail lance une étude",
+      "link": "https://aujourdhui.ma/societe/risques-professionnels-des-femmes-linstitut-national-des-conditions-de-vie-au-travail-lance-une-etude",
+      "description": "Analyse L’Institut national des conditions de vie au travail (INCVT) a lancé un appel d’offres pour la réalisation d’une étude portant sur les enjeux de genre en santé et sécurité au travail. L’objectif étant d’améliorer les conditions de vie au travail des femmes. L’Institut national des conditions de vie au travail (INCVT ) va réaliser […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-08T10:06:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-f-s-d-mant-lement-d-un-r-seau-d-escroquerie-bancaire-par-t-l-phone",
+      "title": "Fès : Démantèlement d’un réseau d’escroquerie bancaire par téléphone",
+      "link": "https://aujourdhui.ma/faits-divers/fes-demantelement-dun-reseau-descroquerie-bancaire-par-telephone",
+      "description": "Machine bien huilée Dans les ruelles de Fès, une histoire s’écrivait dans l’ombre. Une histoire d’argent facile, de promesses trompeuses et de vies bouleversées. Au centre de ce récit, des jeunes hommes dont quatre sont déjà derrière les barreaux, le cinquième vient d’être mis hors d’état de nuire alors que d’autres sont en fuite. Dans […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-08T09:44:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-ibrahim-maalouf-en-concert-exclusif-au-th-tre-royal-de-rabat",
+      "title": "Ibrahim Maalouf : en Concert exclusif au Théâtre Royal de Rabat",
+      "link": "https://aujourdhui.ma/culture/ibrahim-maalouf-en-concert-exclusif-au-theatre-royal-de-rabat",
+      "description": "Artiste innovant Le trompettiste, compositeur et producteur de renommée internationale Ibrahim Maalouf donnera un concert exceptionnel au Théâtre Royal de Rabat. Le Théâtre Royal de Rabat s’apprête à accueillir le trompettiste virtuose de renommée internationale Ibrahim Maalouf. Cet artiste présente en effet « Trumpets of Michel-Ange» le mardi 22 septembre 2026 à 20h30. Considéré parmi […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-08T09:44:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68000709-26-vuln-rabilit-s-affectant-traefik",
       "title": "68000709/26 - Vulnérabilités affectant Traefik",
@@ -92,19 +196,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-dakhla-atlantique-la-visite-militaire-us-consacre-le-r-le-strat-gique-des-provinces-du-sud",
-      "title": "Dakhla Atlantique : la visite militaire US consacre le rôle stratégique des provinces du Sud",
-      "link": "https://fr.hespress.com/487510-dakhla-atlantique-la-visite-militaire-us-consacre-le-role-strategique-des-provinces-du-sud.html",
-      "description": "Une délégation d’officiers supérieurs relevant du bureau de coopération militaire de l’ambassade des États-Unis à Rabat s’est rendue sur le site du futur complexe portuaire de Dakhla Atlantique. Ce déplacement s’inscrit dans le prolongement direct de la mission effectuée en juin dernier au poste-frontière d’El Guerguerat, consacrée à la sécurité transfrontalière et à la lutte […] The post Dakhla Atlantique : la visite militaire US consacre le rôle stratégique des provinces du Sud appeared first ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-07T20:14:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-67960709-26-vuln-rabilit-s-critiques-dans-google-chrome",
       "title": "67960709/26 - Vulnérabilités critiques dans Google Chrome",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-google-chrome-15",
@@ -118,19 +209,6 @@
       "type": "news"
     },
     {
-      "id": "aujourdhui-nouvelles-plaques-d-immatriculation-les-pr-cisions-de-la-narsa-sur-les-modalit-s-de-remplacement",
-      "title": "Nouvelles plaques d’immatriculation : Les précisions de la Narsa sur les modalités de remplacement",
-      "link": "https://aujourdhui.ma/societe/nouvelles-plaques-dimmatriculation-les-precisions-de-la-narsa-sur-les-modalites-de-remplacement",
-      "description": "Mesures L’Agence nationale de la sécurité routière (NARSA) dément l’obligation de remplacer toutes les plaques d’immatriculation des véhicules actuellement en circulation avant le 31 décembre 2026. L’Agence nationale de la sécurité routière (Narsa) a affirmé, vendredi, que la date du 31 décembre 2026 n’est pas une échéance générale pour le remplacement de l’ensemble des plaques […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-07T10:20:14Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-r-sidences-artistiques-log-s-nourris-cot-s",
       "title": "Résidences artistiques : Logés, nourris, cotés ?",
       "link": "https://www.lavieeco.com/influences/culture/residences-artistiques-loges-nourris-cotes/",
@@ -139,19 +217,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-06T09:16:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-plaques-d-immatriculation-le-31-d-cembre-2026-ne-concerne-pas-tous-les-v-hicules",
-      "title": "Plaques d’immatriculation : Le 31 décembre 2026 ne concerne pas tous les véhicules",
-      "link": "https://www.lavieeco.com/au-royaume/plaques-dimmatriculation-le-31-decembre-2026-ne-concerne-pas-tous-les-vehicules/",
-      "description": "L'Agence nationale de la sécurité routière a démenti, vendredi, l'obligation généralisée de remplacer toutes les plaques d'immatriculation avant le 31 décembre 2026, précisant que des dispositions transitoires s'appliquent selon la situation de chaque véhicule. L’article Plaques d’immatriculation : Le 31 décembre 2026 ne concerne pas tous les véhicules est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-04T20:47:28Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -243,58 +308,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-03T16:31:22Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67880309-26-vuln-rabilit-s-dans-les-produits-jenkins",
-      "title": "67880309/26 - Vulnérabilités dans les produits Jenkins",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-jenkins-5",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-03T16:31:22Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67870309-26-vuln-rabilit-s-critiques-dans-les-produits-cisco",
-      "title": "67870309/26 - Vulnérabilités critiques dans les produits Cisco",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-cisco-19",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-03T11:23:21Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67860309-26-vuln-rabilit-s-dans-google-chrome",
-      "title": "67860309/26 - Vulnérabilités dans Google Chrome",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-google-chrome-34",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-03T11:23:21Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67850309-26-vuln-rabilit-s-dans-les-produits-nvidia",
-      "title": "67850309/26 - Vulnérabilités dans les produits NVIDIA",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-nvidia-9",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-03T11:23:21Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
