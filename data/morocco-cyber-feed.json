@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-07T21:35:21Z",
+  "generatedAt": "2026-09-08T04:47:32Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -100,19 +100,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-09-07T20:14:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-grants-posthumous-promotion-to-police-officer-killed-in-imzouren-operation",
-      "title": "Morocco grants posthumous promotion to police officer killed in Imzouren operation",
-      "link": "https://en.hespress.com/145021-morocco-grants-posthumous-promotion-to-police-officer-killed-in-imzouren-operation.html",
-      "description": "Morocco’s director-general of national security and domestic intelligence has granted a posthumous promotion to a police officer who died after being shot during an operation to arrest a wanted suspect in the northern city of Imzouren, authorities said Monday. Police officer Hamza Zaam, who served with the anti-gang unit of the Regional Security Directorate in […] The post Morocco grants posthumous promotion to police officer killed in Imzouren operation appeared first on HESPRESS English - Moro",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-07T15:25:54Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
