@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-09T16:44:25Z",
+  "generatedAt": "2026-09-09T20:59:50Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-s-oddly-codependent-wildly-improvised-way-of-forming-a-government-explained",
+      "title": "Morocco’s oddly codependent, wildly improvised way of forming a government - explained",
+      "link": "https://en.hespress.com/145112-moroccos-oddly-codependent-wildly-improvised-way-of-forming-a-government-explained.html",
+      "description": "Part 1 of a series on Morocco’s 2026 elections, set for September 23. On August 25, Morocco’s National Rally of Independents accused its own governing partner of poaching its lawmakers, naming eight officials it said its coalition partner, the Authenticity and Modernity Party, or PAM, had lured to defect. Then a recording leaked, attributed to […] The post Morocco’s oddly codependent, wildly improvised way of forming a government - explained appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-09T17:02:07Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68260909-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
       "title": "68260909/26 - Vulnérabilités critiques dans les plugins WordPress",
@@ -113,32 +126,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-09T15:09:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "صيباري يطرق أبواب المجد الأوروبي",
-      "link": "https://www.hespress.com/%d8%b5%d9%8a%d8%a8%d8%a7%d8%b1%d9%8a-%d9%8a%d8%b7%d8%b1%d9%82-%d8%a3%d8%a8%d9%88%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d8%ac%d8%af-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a-1804573.html",
-      "description": "شكّل إسماعيل صيباري، أحد أبرز لاعبي المغرب في كأس العالم 2026، إضافة جديدة هذا الصيف إلى القوة الهجومية لبايرن ميونيخ الألماني المتعطش للألقاب، الذي يستهل مشواره في دوري أبطال أوروبا على أرضه غدا الخميس أمام بودو غليمت النرويجي، واضعا نصب عينيه التتويج القاري السابع. وقال مدربه البلجيكي فنسان كومباني، الأربعاء، في المؤتمر الصحافي عشية المباراة، […] The post صيباري يطرق أبواب المجد الأوروبي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-09T15:08:14Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-launches-nationwide-inspection-program-for-private-security-guards",
-      "title": "Morocco launches nationwide inspection program for private security guards",
-      "link": "https://en.hespress.com/145145-morocco-launches-nationwide-inspection-program-for-private-security-guards.html",
-      "description": "Morocco’s Ministry of Economic Inclusion, Small Business, Employment and Skills on Wednesday launched a nationwide program to inspect working conditions for private security guards, targeting companies that fail to comply with a new legal limit of eight hours of actual work per day. The “National Program for Inspecting the Working Conditions of Private Security Guards […] The post Morocco launches nationwide inspection program for private security guards appeared first on HESPRESS English - Moro",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-09T13:10:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
