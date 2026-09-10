@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-10T04:52:12Z",
+  "generatedAt": "2026-09-10T11:28:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,84 @@
   ],
   "items": [
     {
+      "id": "dgssi-68301009-26-vuln-rabilit-affectant-connectwise-screenconnect",
+      "title": "68301009/26 - Vulnérabilité affectant ConnectWise ScreenConnect",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-connectwise-screenconnect",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-10T11:28:50Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68291009-26-vuln-rabilit-s-affectant-des-produits-palo-alto",
+      "title": "68291009/26 - Vulnérabilités affectant des produits Palo Alto",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-palo-alto-9",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-10T11:28:50Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68281009-26-vuln-rabilit-s-critiques-affectant-les-produits-check-point",
+      "title": "68281009/26 - Vulnérabilités critiques affectant les produits Check Point",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-les-produits-check-point",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-10T11:28:50Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68271009-26-vuln-rabilit-critique-dans-cpanel",
+      "title": "68271009/26 - Vulnérabilité critique dans cPanel",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-cpanel-0",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-10T11:28:50Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-reinforces-security-near-ceuta-amid-online-calls-for-mass-crossings",
+      "title": "Morocco reinforces security near Ceuta amid online calls for mass crossings",
+      "link": "https://en.hespress.com/145189-morocco-reinforces-security-near-ceuta-amid-online-calls-for-mass-crossings.html",
+      "description": "Moroccan authorities have reinforced security around Fnideq and routes toward Ceuta following social media calls for another mass crossing into the Spanish enclave, sources familiar with the measures said. Checkpoints on roads leading to Tetouan and Fnideq are monitoring movements by people suspected of seeking to cross irregularly, while security personnel are deployed throughout Fnideq’s […] The post Morocco reinforces security near Ceuta amid online calls for mass crossings appeared first on ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-10T10:59:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-ia-vid-osurveillance-rail-l-oncf-pr-pare-un-dispositif-d-envergure-l-horizon-2030",
+      "title": "IA, vidéosurveillance, rail… L’ONCF prépare un dispositif d’envergure à l’horizon 2030",
+      "link": "https://aujourdhui.ma/economie/ia-videosurveillance-rail-loncf-prepare-un-dispositif-denvergure-a-lhorizon-2030",
+      "description": "Schéma directeur L’ONCF entend poser les bases d’un système national de sûreté ferroviaire plus intégré, intelligent et résilient, capable d’accompagner l’extension du réseau et la hausse du trafic tout en répondant aux exigences de sécurité liées à la transformation du secteur ferroviaire à l’horizon 2030. L’Office national des chemins de fer (ONCF) s’attelle actuellement à […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-10T10:10:55Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-intel-reports-warned-spain-of-mass-entries-in-ceuta",
       "title": "Intel reports warned Spain of mass entries in Ceuta",
       "link": "https://en.hespress.com/145180-intel-reports-warned-spain-of-mass-entries-in-ceuta.html",
@@ -22,19 +100,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-09T21:42:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-s-oddly-codependent-wildly-improvised-way-of-forming-a-government-explained",
-      "title": "Morocco’s oddly codependent, wildly improvised way of forming a government - explained",
-      "link": "https://en.hespress.com/145112-moroccos-oddly-codependent-wildly-improvised-way-of-forming-a-government-explained.html",
-      "description": "Part 1 of a series on Morocco’s 2026 elections, set for September 23. On August 25, Morocco’s National Rally of Independents accused its own governing partner of poaching its lawmakers, naming eight officials it said its coalition partner, the Authenticity and Modernity Party, or PAM, had lured to defect. Then a recording leaked, attributed to […] The post Morocco’s oddly codependent, wildly improvised way of forming a government - explained appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-09T17:02:07Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -102,19 +167,6 @@
       "published": "2026-09-09T16:44:22Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-eu-gives-spain-115-mn-euros-aid-over-ceuta-crisis",
-      "title": "EU gives Spain 115 mn euros aid over Ceuta crisis",
-      "link": "https://en.hespress.com/145164-eu-gives-spain-115-mn-euros-aid-over-ceuta-crisis.html",
-      "description": "The EU on Wednesday said it was granting Spain 115 million euros ($130 million) in emergency aid to help bolster border security and assist returns after the massive migrant rush into the north African exclave. More than 70,000 migrants crossed into Spanish territory from Morocco on July 30 and 31 in an unprecedented rush that […] The post EU gives Spain 115 mn euros aid over Ceuta crisis appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-09T16:17:14Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -248,45 +300,6 @@
       "type": "news"
     },
     {
-      "id": "dgssi-68120909-26-vuln-rabilit-s-critiques-dans-microsoft-windows-patch-tuesday-septembre",
-      "title": "68120909/26 - Vulnérabilités critiques dans Microsoft Windows (Patch Tuesday Septembre…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-microsoft-windows-patch-tuesday-septembre-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68110909-26-vuln-rabilit-s-critiques-dans-microsoft-office-patch-tuesday-septembre",
-      "title": "68110909/26 - Vulnérabilités critiques dans Microsoft Office (Patch Tuesday Septembre…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-microsoft-office-patch-tuesday-septembre-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-jazz-rabat-l-ensemble-portugais-amara-quartet-ouvre-le-bal",
-      "title": "Jazz à Rabat : L’ensemble portugais Amara Quartet ouvre le bal",
-      "link": "https://aujourdhui.ma/culture/jazz-a-rabat-lensemble-portugais-amara-quartet-ouvre-le-bal",
-      "description": "Concerts Pour sa 28ème édition, Jazz à Rabat, le festival de l’Union européenne au Maroc, revient du 24 au 26 septembre 2026 à l’amphithéâtre du parc Hassan II. Au programme : des rencontres musicales audacieuses entre jazz européen et musiques marocaines. En voici le programme complet ! La programmation de la 28ème édition du festival […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-09T10:08:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-logistique-la-bataille-des-talents-est-lanc-e",
       "title": "Logistique : La bataille des talents est lancée",
       "link": "https://www.lavieeco.com/affaires/carriere/logistique-la-bataille-des-talents-est-lancee/",
@@ -297,32 +310,6 @@
       "published": "2026-09-09T08:37:34Z",
       "countryCode": "MA",
       "official": false,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68100809-26-vuln-rabilit-s-critiques-dans-dell-secure-connect-gateway",
-      "title": "68100809/26 - Vulnérabilités critiques dans Dell Secure Connect Gateway",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-dell-secure-connect-gateway",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-08T16:43:06Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68090809-26-vuln-rabilit-s-dans-les-produits-jetbrains",
-      "title": "68090809/26 - Vulnérabilités dans les produits JetBrains",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-jetbrains-1",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-08T16:43:06Z",
-      "countryCode": "MA",
-      "official": true,
       "type": "news"
     },
     {
