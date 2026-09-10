@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-09T20:59:50Z",
+  "generatedAt": "2026-09-10T04:52:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-intel-reports-warned-spain-of-mass-entries-in-ceuta",
+      "title": "Intel reports warned Spain of mass entries in Ceuta",
+      "link": "https://en.hespress.com/145180-intel-reports-warned-spain-of-mass-entries-in-ceuta.html",
+      "description": "Spanish Intelligence and security reports declassified on Wednesday had warned of possible “mass entries” by migrants into Ceuta just before thousands crossed into Spain’s North African enclave from Morocco. Prime Minister Pedro Sanchez had told parliament when he announced he would declassify these 40 documents that there was “no information that conveyed the magnitude” of […] The post Intel reports warned Spain of mass entries in Ceuta appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-09T21:42:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-s-oddly-codependent-wildly-improvised-way-of-forming-a-government-explained",
       "title": "Morocco’s oddly codependent, wildly improvised way of forming a government - explained",
@@ -89,19 +102,6 @@
       "published": "2026-09-09T16:44:22Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-hijaouy-l-angle-mort-de-la-presse-espagnole",
-      "title": "Hijaouy, l’angle mort de la presse espagnole",
-      "link": "https://fr.hespress.com/487803-hijaouy-langle-mort-de-la-presse-espagnole.html",
-      "description": "Certains médias espagnols présentent Mehdi Hijaouy comme une source privilégiée dès lors qu’il s’agit du Maroc. Mais leurs propres révélations dessinent parallèlement un dossier qui concerne directement l’Espagne : un homme recherché après avoir cessé de répondre aux convocations judiciaires, récemment localisé sur le territoire espagnol et auquel sont prêtées des informations sur l’affaire Pegasus. […] The post Hijaouy, l’angle mort de la presse espagnole appeared first on Hespress Français - A",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-09T16:33:56Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
