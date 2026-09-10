@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-10T11:28:52Z",
+  "generatedAt": "2026-09-10T16:30:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-allianz-trade-cinq-secteurs-marocains-confront-s-des-fragilit-s-persistantes",
+      "title": "Allianz Trade : cinq secteurs marocains confrontés à des fragilités persistantes",
+      "link": "https://fr.hespress.com/487822-allianz-trade-cinq-secteurs-marocains-confrontes-a-des-fragilites-persistantes.html",
+      "description": "Aucun des secteurs analysés au Maroc n’est placé en situation de risque élevé dans le nouvel Atlas sectoriel d’Allianz Trade. La photographie n’en est pas pour autant uniformément favorable. Cinq branches : l’énergie, le transport, le textile, les métaux et la construction, concentrent les vulnérabilités les plus marquées dans un environnement mondial bouleversé par les […] The post Allianz Trade : cinq secteurs marocains confrontés à des fragilités persistantes appeared first on Hespress França",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-10T15:20:54Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-les-smartphones-deviennent-plus-chers-redmi-note-justifie-pleinement-votre-investissement-d-sorm",
+      "title": "Les smartphones deviennent plus chers. REDMI Note justifie pleinement votre investissement, désormais disponible au Maroc",
+      "link": "https://fr.hespress.com/487916-les-smartphones-deviennent-plus-chers-redmi-note-justifie-pleinement-votre-investissement-desormais-disponible-au-maroc.html",
+      "description": "La série REDMI Note 17 arrive au Maroc avec un engagement « Conçu pour durer » (Built for Years) sur six ans, une triple certification de durabilité TÜV SÜD et la plus grande batterie de l’histoire de REDMI — conçue non pas seulement pour l’achat d’aujourd’hui, mais pour des années d’utilisation. Un nouveau standard pour […] The post Les smartphones deviennent plus chers. REDMI Note justifie pleinement votre investissement, désormais disponible au Maroc appeared first on Hespress Français - Actu",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-10T14:20:35Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68301009-26-vuln-rabilit-affectant-connectwise-screenconnect",
       "title": "68301009/26 - Vulnérabilité affectant ConnectWise ScreenConnect",
@@ -74,32 +100,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-10T10:59:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-ia-vid-osurveillance-rail-l-oncf-pr-pare-un-dispositif-d-envergure-l-horizon-2030",
-      "title": "IA, vidéosurveillance, rail… L’ONCF prépare un dispositif d’envergure à l’horizon 2030",
-      "link": "https://aujourdhui.ma/economie/ia-videosurveillance-rail-loncf-prepare-un-dispositif-denvergure-a-lhorizon-2030",
-      "description": "Schéma directeur L’ONCF entend poser les bases d’un système national de sûreté ferroviaire plus intégré, intelligent et résilient, capable d’accompagner l’extension du réseau et la hausse du trafic tout en répondant aux exigences de sécurité liées à la transformation du secteur ferroviaire à l’horizon 2030. L’Office national des chemins de fer (ONCF) s’attelle actuellement à […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-10T10:10:55Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-intel-reports-warned-spain-of-mass-entries-in-ceuta",
-      "title": "Intel reports warned Spain of mass entries in Ceuta",
-      "link": "https://en.hespress.com/145180-intel-reports-warned-spain-of-mass-entries-in-ceuta.html",
-      "description": "Spanish Intelligence and security reports declassified on Wednesday had warned of possible “mass entries” by migrants into Ceuta just before thousands crossed into Spain’s North African enclave from Morocco. Prime Minister Pedro Sanchez had told parliament when he announced he would declassify these 40 documents that there was “no information that conveyed the magnitude” of […] The post Intel reports warned Spain of mass entries in Ceuta appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-09T21:42:13Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
