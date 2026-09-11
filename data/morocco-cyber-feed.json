@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-10T20:56:25Z",
+  "generatedAt": "2026-09-11T04:48:51Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-rapports-de-renseignement-le-maroc-blanchi-et-les-failles-de-la-surench-re-s-curitaire-espagnole",
+      "title": "Rapports de renseignement : le Maroc blanchi et les failles de la « surenchère sécuritaire » espagnole mises au jour",
+      "link": "https://fr.hespress.com/487987-rapports-de-renseignement-le-maroc-blanchi-et-les-failles-de-la-surenchere-securitaire-espagnole-mises-au-jour.html",
+      "description": "Les rapports de renseignement récemment déclassifiés par les autorités espagnoles viennent disculper le Maroc et ses services de sécurité. Ils montrent que l’inaction, les manquements et les atermoiements dans la gestion des menaces liées aux vagues migratoires ayant touché les villes de Sebta et Melilla à la fin du mois de juillet dernier relevaient plutôt […] The post Rapports de renseignement : le Maroc blanchi et les failles de la « surenchère sécuritaire » espagnole mises au jour appeared f",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-10T23:01:24Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-un-envoy-targets-gunfire-and-mistrust-as-obstacles-to-sahara-settlement",
       "title": "UN envoy targets gunfire and mistrust as obstacles to Sahara settlement",
       "link": "https://en.hespress.com/145219-un-envoy-targets-gunfire-and-mistrust-as-obstacles-to-sahara-settlement.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-10T19:06:56Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-allianz-trade-cinq-secteurs-marocains-confront-s-des-fragilit-s-persistantes",
-      "title": "Allianz Trade : cinq secteurs marocains confrontés à des fragilités persistantes",
-      "link": "https://fr.hespress.com/487822-allianz-trade-cinq-secteurs-marocains-confrontes-a-des-fragilites-persistantes.html",
-      "description": "Aucun des secteurs analysés au Maroc n’est placé en situation de risque élevé dans le nouvel Atlas sectoriel d’Allianz Trade. La photographie n’en est pas pour autant uniformément favorable. Cinq branches : l’énergie, le transport, le textile, les métaux et la construction, concentrent les vulnérabilités les plus marquées dans un environnement mondial bouleversé par les […] The post Allianz Trade : cinq secteurs marocains confrontés à des fragilités persistantes appeared first on Hespress França",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-10T16:43:54Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
