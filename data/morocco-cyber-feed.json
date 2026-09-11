@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-11T16:34:42Z",
+  "generatedAt": "2026-09-11T21:02:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-lebanon-arrests-bashar-al-assad-s-relative-security-source",
+      "title": "Lebanon arrests Bashar al-Assad's relative: security source",
+      "link": "https://en.hespress.com/145295-lebanon-arrests-bashar-al-assads-relative-security-source.html",
+      "description": "Lebanon’s army on Friday arrested a relative of ousted Syrian ruler Bashar al-Assad, as well as the son of famous Lebanese drug lord Nouh Zaiter, a security source told AFP. The source, requesting anonymity, said that the military “arrested three people, including Suleiman Hilal al-Assad, the son of ousted Syrian President Bashar al-Assad’s cousin” while […] The post Lebanon arrests Bashar al-Assad's relative: security source appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-11T20:34:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-l-gislatives-2026-les-tribus-sahraouies-renouent-avec-leurs-traditions-de-concertation-l-approch",
+      "title": "Législatives 2026: les tribus sahraouies renouent avec leurs traditions de concertation à l’approche du scrutin",
+      "link": "https://fr.hespress.com/487868-legislatives-2026-les-tribus-sahraouies-renouent-avec-leurs-traditions-de-concertation-a-lapproche-du-scrutin.html",
+      "description": "A l’approche du scrutin du 23 septembre, les régions du sud marocain se préparent dans le cadre de leurs traditions de concertations et de discussions. Dans plusieurs villes du Sahara, les Cheikhs, notables des tribus, se réunissent lors de rencontres informelles pour partagers leurs points de vues et encourager à la participation. Les régions du […] The post Législatives 2026: les tribus sahraouies renouent avec leurs traditions de concertation à l’approche du scrutin appeared first on Hespress",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-11T17:07:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68351109-26-vuln-rabilit-s-dans-gitlab",
       "title": "68351109/26 - Vulnérabilités dans GitLab",
@@ -37,19 +63,6 @@
       "published": "2026-09-11T16:34:40Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-11",
-      "title": "أمريكا تحيي ذكرى \"هجمات 11 سبتمبر\"",
-      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d8%ad%d9%8a%d9%8a-%d8%b0%d9%83%d8%b1%d9%89-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-11-%d8%b3%d8%a8%d8%aa%d9%85%d8%a8%d8%b1-2-1805563.html",
-      "description": "بعد مرور 25 عاما على وقوع هجمات 11 سبتمبر 2001 تحيي الولايات المتحدة ذكرى الضحايا اليوم الجمعة1. ومن المتوقع أن يحضر الرئيس الأمريكي دونالد ترامب مراسم تأبين في مبنى وزارة الدفاع الأمريكية (البنتاغون)، وهو أحد المباني التي استهدفتها بشكل متعمد طائرات استولى عليها إرهابيون، إلى جانب برجي مركز التجارة العالمي في نيويورك. وفي نيويورك من […] The post أمريكا تحيي ذكرى \"هجمات 11 سبتمبر\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-11T15:06:31Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
