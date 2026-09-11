@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-11T11:30:51Z",
+  "generatedAt": "2026-09-11T16:34:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68351109-26-vuln-rabilit-s-dans-gitlab",
+      "title": "68351109/26 - Vulnérabilités dans GitLab",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-gitlab-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-11T16:34:40Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68341109-26-vuln-rabilit-s-critiques-dans-les-produits-ibm",
+      "title": "68341109/26 - Vulnérabilités critiques dans les produits IBM",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-ibm-5",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-11T16:34:40Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-11",
+      "title": "أمريكا تحيي ذكرى \"هجمات 11 سبتمبر\"",
+      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d8%ad%d9%8a%d9%8a-%d8%b0%d9%83%d8%b1%d9%89-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-11-%d8%b3%d8%a8%d8%aa%d9%85%d8%a8%d8%b1-2-1805563.html",
+      "description": "بعد مرور 25 عاما على وقوع هجمات 11 سبتمبر 2001 تحيي الولايات المتحدة ذكرى الضحايا اليوم الجمعة1. ومن المتوقع أن يحضر الرئيس الأمريكي دونالد ترامب مراسم تأبين في مبنى وزارة الدفاع الأمريكية (البنتاغون)، وهو أحد المباني التي استهدفتها بشكل متعمد طائرات استولى عليها إرهابيون، إلى جانب برجي مركز التجارة العالمي في نيويورك. وفي نيويورك من […] The post أمريكا تحيي ذكرى \"هجمات 11 سبتمبر\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-11T15:06:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68331109-26-matsnu-malware",
       "title": "68331109/26 - “ Matsnu ” Malware",
@@ -53,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "سعر الديزل يسجل رقما قياسيا بأمريكا",
-      "link": "https://www.hespress.com/%d8%b3%d8%b9%d8%b1-%d8%a7%d9%84%d8%af%d9%8a%d8%b2%d9%84-%d9%8a%d8%b3%d8%ac%d9%84-%d8%b1%d9%82%d9%85%d8%a7-%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a7-%d8%a8%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-1805580.html",
-      "description": "سجل سعر الديزل في الولايات المتحدة رقما قياسيا جديدا بتجاوزه عتبة الـ6 دولارات للغالون الجمعة، مدفوعا بالحرب في الشرق الأوسط، وارتفاع أسعار النفط الخام والهجمات الأوكرانية على مصافي التكرير الروسية. وبلغ متوسط سعر الغالون (3,78 لترات) 6,06 دولارات، متجاوزا بذلك هذه العتبة الرمزية للمرة الأولى، وفق بيانات “الجمعية الأمريكية للسيارات” (AAA). The post سعر الديزل يسجل رقما قياسيا بأمريكا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-11T10:07:51Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "aujourdhui-agents-de-s-curit-lancement-du-programme-national-d-inspection-des-conditions-de-travail",
       "title": "Agents de sécurité : Lancement du Programme national d’inspection des conditions de travail",
       "link": "https://aujourdhui.ma/societe/agents-de-securite-lancement-du-programme-national-dinspection-des-conditions-de-travail",
@@ -87,19 +113,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-11T09:52:20Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-11",
-      "title": "لوحات بوش تستعيد \"هجمات 11 شتنبر\"",
-      "link": "https://www.hespress.com/%d9%84%d9%88%d8%ad%d8%a7%d8%aa-%d8%a8%d9%88%d8%b4-%d8%aa%d8%b3%d8%aa%d8%b9%d9%8a%d8%af-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-11-%d8%b4%d8%aa%d9%86%d8%a8%d8%b1-1805565.html",
-      "description": "بعد خمسة وعشرين عاما على هجمات 11 شتنبر، يعرض الرئيس الأميركي الأسبق جورج دبليو بوش، الذي كان قد تولى رئاسة الولايات المتحدة قبل أشهر قليلة من وقوع الاعتداءات، في مدينة دالاس بولاية تكساس مجموعة من اللوحات المستوحاة من ذكرياته عن الهجمات التي أودت بحياة نحو ثلاثة آلاف شخص. ويفتتح المعرض، الذي يحمل عنوان “تذكر 11 […] The post لوحات بوش تستعيد \"هجمات 11 شتنبر\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-11T09:14:01Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -222,19 +235,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-s-curit-l-oncf-mobilise-6000-cam-ras-dop-es-l-ia",
-      "title": "Sécurité: L’ONCF mobilise 6000 caméras dopées à l’IA",
-      "link": "https://www.lavieeco.com/au-royaume/securite-loncf-mobilise-6000-cameras-dopees-a-lia/",
-      "description": "L’Office veut se doter, d’ici 2030, d’un système national intégré de sûreté combinant vidéosurveillance, IA et hypervision, capable de couvrir tout le réseau et d’accompagner son expansion. L’article Sécurité: L’ONCF mobilise 6000 caméras dopées à l’IA est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-09T15:09:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-68210909-26-vuln-rabilit-affectant-mozilla-firefox-for-ios",
       "title": "68210909/26 - Vulnérabilité affectant Mozilla Firefox for iOS",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-mozilla-firefox-ios",
@@ -277,32 +277,6 @@
       "id": "dgssi-68160909-26-vuln-rabilit-s-dans-microsoft-exchange-server-patch-tuesday-septembre",
       "title": "68160909/26 - Vulnérabilités dans Microsoft Exchange Server (Patch Tuesday Septembre…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-microsoft-exchange-server-patch-tuesday-septembre-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68150909-26-vuln-rabilit-s-dans-les-outils-de-d-veloppement-microsoft-patch-tuesday",
-      "title": "68150909/26 - Vulnérabilités dans les outils de développement Microsoft (Patch Tuesday…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-outils-de-developpement-microsoft-patch-tuesday-septembre-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68190909-26-vuln-rabilit-s-affectant-le-syst-me-d-exploitation-android",
-      "title": "68190909/26 - Vulnérabilités affectant le système d’exploitation Android",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-systeme-dexploitation-android-15",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
