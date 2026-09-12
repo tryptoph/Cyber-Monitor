@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-12T15:37:07Z",
+  "generatedAt": "2026-09-12T20:39:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "\"غلاء النفط\" يضع أسعار المحروقات تحت الضغط في محطات المغرب",
+      "link": "https://www.hespress.com/%d8%ba%d9%84%d8%a7%d8%a1-%d8%a7%d9%84%d9%86%d9%81%d8%b7-%d9%8a%d8%b6%d8%b9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%85%d8%ad%d8%b1%d9%88%d9%82%d8%a7%d8%aa-%d8%aa%d8%ad%d8%aa-%d8%a7%d9%84-1806138.html",
+      "description": "تتجه الأنظار إلى التأثيرات المرتقبة لارتفاع أسعار النفط العالمية على أثمان المحروقات في المغرب، وسط استمرار أزمة الهجمات على ناقلات النفط في مضيق هرمز. وارتفعت أسعار النفط مجدداً، الجمعة، مع اقتراب خام برنت من مستوى 110 دولارات للبرميل، في ظل استمرار المخاوف بشأن إمدادات النفط العالمية. وأشارت البيانات الاقتصادية إلى أن أسعار النفط والبيانات المتعلقة […] The post \"غلاء النفط\" يضع أسعار المحروقات تحت الضغط في محطات المغرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-12T20:00:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-s-istiqlal-party-unveils-proposals-on-purchasing-power-jobs-and-social-services",
       "title": "Morocco’s Istiqlal Party unveils proposals on purchasing power, jobs and social services",
