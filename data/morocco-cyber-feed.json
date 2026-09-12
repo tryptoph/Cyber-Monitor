@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-12T10:55:22Z",
+  "generatedAt": "2026-09-12T15:37:07Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-en-morocco-s-istiqlal-party-unveils-proposals-on-purchasing-power-jobs-and-social-services",
+      "title": "Morocco’s Istiqlal Party unveils proposals on purchasing power, jobs and social services",
+      "link": "https://en.hespress.com/145319-moroccos-istiqlal-party-unveils-proposals-on-purchasing-power-jobs-and-social-services.html",
+      "description": "Istiqlal Party Secretary-General Nizar Baraka outlined a series of economic and social proposals Friday as part of his party’s campaign for Morocco’s Sept. 23 parliamentary elections, focusing on purchasing power, direct social assistance, health care, housing, employment, water management and food security. Baraka, who is leading the party’s local electoral list in the Larache constituency, […] The post Morocco’s Istiqlal Party unveils proposals on purchasing power, jobs and social services app",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-12T13:26:14Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-un-parti-un-programme-trois-d-clinaisons",
+      "title": "Un parti, un programme, trois déclinaisons",
+      "link": "https://www.lavieeco.com/pouvoirs/partis/un-parti-un-programme-trois-declinaisons/",
+      "description": "Difficile de relater l’ensemble des mesures – des centaines pour certaines formations – des programmes élaborés par les formations politiques pour les législatives du 23 septembre. Voici, cependant, un aperçu sous l’angle institutionnel, économique et social de l’offre politique des partis RNI, Istiqlal, PAM, USFP et PPS. L’article Un parti, un programme, trois déclinaisons est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-12T12:20:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "lavieeco-promesses-budget-chiffres-ces-mesures-qui-d-fient-toute-logique",
       "title": "Promesses, budget, chiffres…, ces mesures qui défient toute logique",
       "link": "https://www.lavieeco.com/pouvoirs/partis/promesses-budget-chiffres-ces-mesures-qui-defient-toute-logique/",
@@ -22,32 +48,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-12T10:15:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "البهجة يلتحق بنادي المغرب التطواني",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d9%87%d8%ac%d8%a9-%d9%8a%d9%84%d8%aa%d8%ad%d9%82-%d8%a8%d9%86%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%a7%d9%84%d8%aa%d8%b7%d9%88%d8%a7%d9%86%d9%8a-1806055.html",
-      "description": "عزز نادي المغرب التطواني لكرة القدم تركيبته البشرية بالتعاقد مع اللاعب هيثم البهجة (32 سنة)، الذي يشغل مركز متوسط ميدان وجناح هجومي. ووقع عقد انضمام هيثم البهجة إلى صفوف الفريق رئيس النادي محمد جدعوني، بحضور وكيل اللاعب وأعضاء المكتب المديري. وسبق للاعب هيثم البهجة أن حمل ألوان أندية الرجاء الرياضي والوداد الرياضي والفتح الرياضي، وكانت […] The post البهجة يلتحق بنادي المغرب التطواني appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-12T09:59:48Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-lebanon-arrests-bashar-al-assad-s-relative-security-source",
-      "title": "Lebanon arrests Bashar al-Assad's relative: security source",
-      "link": "https://en.hespress.com/145295-lebanon-arrests-bashar-al-assads-relative-security-source.html",
-      "description": "Lebanon’s army on Friday arrested a relative of ousted Syrian ruler Bashar al-Assad, as well as the son of famous Lebanese drug lord Nouh Zaiter, a security source told AFP. The source, requesting anonymity, said that the military “arrested three people, including Suleiman Hilal al-Assad, the son of ousted Syrian President Bashar al-Assad’s cousin” while […] The post Lebanon arrests Bashar al-Assad's relative: security source appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-11T20:34:17Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
