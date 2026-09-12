@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-12T04:42:48Z",
+  "generatedAt": "2026-09-12T10:55:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-promesses-budget-chiffres-ces-mesures-qui-d-fient-toute-logique",
+      "title": "Promesses, budget, chiffres…, ces mesures qui défient toute logique",
+      "link": "https://www.lavieeco.com/pouvoirs/partis/promesses-budget-chiffres-ces-mesures-qui-defient-toute-logique/",
+      "description": "Dans leurs promesses électorales, certains partis politiques ont lâché les freins. Cela a donné lieu à des mesures irréalisables, excentriques, économiquement inutiles et financièrement onéreuses. Florilège. L’article Promesses, budget, chiffres…, ces mesures qui défient toute logique est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-12T10:15:59Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "البهجة يلتحق بنادي المغرب التطواني",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d9%87%d8%ac%d8%a9-%d9%8a%d9%84%d8%aa%d8%ad%d9%82-%d8%a8%d9%86%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%a7%d9%84%d8%aa%d8%b7%d9%88%d8%a7%d9%86%d9%8a-1806055.html",
+      "description": "عزز نادي المغرب التطواني لكرة القدم تركيبته البشرية بالتعاقد مع اللاعب هيثم البهجة (32 سنة)، الذي يشغل مركز متوسط ميدان وجناح هجومي. ووقع عقد انضمام هيثم البهجة إلى صفوف الفريق رئيس النادي محمد جدعوني، بحضور وكيل اللاعب وأعضاء المكتب المديري. وسبق للاعب هيثم البهجة أن حمل ألوان أندية الرجاء الرياضي والوداد الرياضي والفتح الرياضي، وكانت […] The post البهجة يلتحق بنادي المغرب التطواني appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-12T09:59:48Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-lebanon-arrests-bashar-al-assad-s-relative-security-source",
       "title": "Lebanon arrests Bashar al-Assad's relative: security source",
