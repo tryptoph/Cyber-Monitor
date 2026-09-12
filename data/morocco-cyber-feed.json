@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-11T21:02:39Z",
+  "generatedAt": "2026-09-12T04:42:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-11T20:34:17Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-l-gislatives-2026-les-tribus-sahraouies-renouent-avec-leurs-traditions-de-concertation-l-approch",
-      "title": "Législatives 2026: les tribus sahraouies renouent avec leurs traditions de concertation à l’approche du scrutin",
-      "link": "https://fr.hespress.com/487868-legislatives-2026-les-tribus-sahraouies-renouent-avec-leurs-traditions-de-concertation-a-lapproche-du-scrutin.html",
-      "description": "A l’approche du scrutin du 23 septembre, les régions du sud marocain se préparent dans le cadre de leurs traditions de concertations et de discussions. Dans plusieurs villes du Sahara, les Cheikhs, notables des tribus, se réunissent lors de rencontres informelles pour partagers leurs points de vues et encourager à la participation. Les régions du […] The post Législatives 2026: les tribus sahraouies renouent avec leurs traditions de concertation à l’approche du scrutin appeared first on Hespress",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-11T17:07:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
