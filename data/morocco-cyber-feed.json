@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-13T04:56:15Z",
+  "generatedAt": "2026-09-13T12:00:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "أوكرانيا تستعد لمواجهة شتاء قاس",
-      "link": "https://www.hespress.com/%d8%a3%d9%88%d9%83%d8%b1%d8%a7%d9%86%d9%8a%d8%a7-%d8%aa%d8%b3%d8%aa%d8%b9%d8%af-%d9%84%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%b4%d8%aa%d8%a7%d8%a1-%d9%82%d8%a7%d8%b3-1806488.html",
-      "description": "قال مسؤولون أوكرانيون، السبت، إن البلاد تستعد لشتاء قاسٍ، في ظل تصاعد الهجمات الروسية التي تستهدف البنية التحتية وقطاعات التصدير الرئيسية، ما يزيد الضغوط على المالية العامة. وقال وزير الاقتصاد أولكسندر كرافتشينكو إن الأضرار التي لحقت بالبنية التحتية والأصول الثابتة جراء الغارات الجوية الروسية تقدر بنحو 10 مليارات دولار منذ بداية العام، بينما تصل الخسائر […] The post أوكرانيا تستعد لمواجهة شتاء قاس appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-13T01:30:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-une-cyberattaque-met-nu-une-partie-de-l-appareil-militaire-alg-rien",
-      "title": "Une cyberattaque met à nu une partie de l’appareil militaire algérien",
-      "link": "https://fr.hespress.com/488168-une-cyberattaque-met-a-nu-une-partie-de-lappareil-militaire-algerien.html",
-      "description": "Le système de défense algérien a été victime d’une vaste cyberattaque ayant entraîné la fuite d’une base de données militaire extrêmement sensible, d’un volume estimé à près de 32 gigaoctets. Les données divulguées comprennent des informations personnelles, professionnelles et logistiques concernant des militaires, des unités et des équipements, dans un incident qui fait craindre de […] The post Une cyberattaque met à nu une partie de l’appareil militaire algérien appeared first on Hespress Fran",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-12T23:30:17Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-spain-s-sahrawi-citizenship-bill-revives-debate-over-colonial-legacy-and-morocco-ties",
       "title": "Spain’s Sahrawi citizenship bill revives debate over colonial legacy and Morocco ties",
