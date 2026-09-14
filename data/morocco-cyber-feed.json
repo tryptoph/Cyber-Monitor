@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-14T12:59:17Z",
+  "generatedAt": "2026-09-14T21:53:49Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68371409-26-vuln-rabilit-critique-dans-apache-opennlp",
+      "title": "68371409/26 - Vulnérabilité critique dans Apache OpenNLP",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-apache-opennlp",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-14T21:53:47Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68361409-26-vuln-rabilit-s-critiques-dans-le-noyau-linux",
+      "title": "68361409/26 - Vulnérabilités critiques dans le noyau Linux",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-le-noyau-linux-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-14T21:53:47Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-phosphate-le-washington-institute-souligne-le-poids-strat-gique-du-maroc",
+      "title": "Phosphate : le Washington Institute souligne le poids stratégique du Maroc",
+      "link": "https://fr.hespress.com/488347-phosphate-le-washington-institute-souligne-le-poids-strategique-du-maroc.html",
+      "description": "Dans une analyse consacrée aux vulnérabilités des chaînes mondiales d’approvisionnement en engrais, le Washington Institute met en avant les atouts du Maroc et de son industrie phosphatière. Le think tank américain présente le Royaume comme le principal point d’ancrage potentiel d’une stratégie de diversification des approvisionnements occidentaux. Le phosphate s’impose progressivement comme un enjeu stratégique […] The post Phosphate : le Washington Institute souligne le poids stratégique du Ma",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-14T21:02:38Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-over-73-of-spaniards-value-morocco-ties-as-border-security-concerns-rise",
+      "title": "Over 73% of Spaniards value Morocco ties as border security concerns rise",
+      "link": "https://en.hespress.com/145440-over-73-of-spaniards-value-morocco-ties-as-border-security-concerns-rise.html",
+      "description": "More than 73% of Spaniards consider friendly relations with Morocco important, while over 82% support stronger border security, according to a survey released Monday, September 14, by Spain’s government-run Center for Sociological Research, known as CIS. The findings follow the mass migrant crossings into Ceuta in late July, events that more than 97% of respondents […] The post Over 73% of Spaniards value Morocco ties as border security concerns rise appeared first on HESPRESS English - Morocco ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-14T21:00:47Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "aujourdhui-moga-festival-dix-ans-de-musique-de-rencontres-et-d-ouverture-sur-le-monde",
       "title": "MOGA Festival : Dix ans de musique, de rencontres et d’ouverture sur le monde",
@@ -27,19 +79,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "الصين تنفي تقديم معلومات إلى إيران",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%aa%d9%86%d9%81%d9%8a-%d8%aa%d9%82%d8%af%d9%8a%d9%85-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a5%d9%84%d9%89-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1807131.html",
-      "description": "اعتبرت بكين، اليوم الاثنين، أن “لا أساس” لتقارير إعلامية تفيد بأن كيانات صينية زودت طهران بصور أقمار اصطناعية لقاعدة عسكرية في الأردن، قبل وبعد هجوم إيراني عليها أسفر عن مقتل ثلاثة جنود أمريكيين. ويتعلق التقرير، الذي نشرته صحيفة “وول ستريت جورنال”، بالضربات الصاروخية الإيرانية التي استهدفت في 17 يوليوز الفائت قاعدة موفق السلطي الجوية في […] The post الصين تنفي تقديم معلومات إلى إيران appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-14T12:07:22Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-un-parti-un-programme-trois-d-clinaisons",
       "title": "Un parti, un programme, trois déclinaisons",
       "link": "https://www.lavieeco.com/pouvoirs/partis/un-parti-un-programme-trois-declinaisons/",
@@ -48,19 +87,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-12T12:20:53Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-promesses-budget-chiffres-ces-mesures-qui-d-fient-toute-logique",
-      "title": "Promesses, budget, chiffres…, ces mesures qui défient toute logique",
-      "link": "https://www.lavieeco.com/pouvoirs/partis/promesses-budget-chiffres-ces-mesures-qui-defient-toute-logique/",
-      "description": "Dans leurs promesses électorales, certains partis politiques ont lâché les freins. Cela a donné lieu à des mesures irréalisables, excentriques, économiquement inutiles et financièrement onéreuses. Florilège. L’article Promesses, budget, chiffres…, ces mesures qui défient toute logique est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-12T10:15:59Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -264,32 +290,6 @@
       "id": "dgssi-68200909-26-vuln-rabilit-s-affectant-des-produits-de-fortinet",
       "title": "68200909/26 - Vulnérabilités affectant des produits de Fortinet",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-de-fortinet-8",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68170909-26-vuln-rabilit-s-critiques-dans-plusieurs-produits-microsoft-patch",
-      "title": "68170909/26 - Vulnérabilités critiques dans plusieurs produits Microsoft (Patch…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-plusieurs-produits-microsoft-patch-septembre-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68160909-26-vuln-rabilit-s-dans-microsoft-exchange-server-patch-tuesday-septembre",
-      "title": "68160909/26 - Vulnérabilités dans Microsoft Exchange Server (Patch Tuesday Septembre…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-microsoft-exchange-server-patch-tuesday-septembre-2026",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
