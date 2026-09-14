@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-13T20:55:06Z",
+  "generatedAt": "2026-09-14T12:59:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "aujourdhui-moga-festival-dix-ans-de-musique-de-rencontres-et-d-ouverture-sur-le-monde",
+      "title": "MOGA Festival : Dix ans de musique, de rencontres et d’ouverture sur le monde",
+      "link": "https://aujourdhui.ma/culture/moga-festival-dix-ans-de-musique-de-rencontres-et-douverture-sur-le-monde-1",
+      "description": "édition anniversaire Du 30 septembre au 4 octobre 2026, le MOGA Festival célébrera son dixième anniversaire à Essaouira avec une programmation qui entend dépasser les frontières du simple événement musical. Entre concerts, création, cultures urbaines, patrimoine, gastronomie et transmission, le festival investira la ville et ses lieux emblématiques pour faire d’Essaouira une véritable destination culturelle. […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-14T12:36:18Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الصين تنفي تقديم معلومات إلى إيران",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%aa%d9%86%d9%81%d9%8a-%d8%aa%d9%82%d8%af%d9%8a%d9%85-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a5%d9%84%d9%89-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1807131.html",
+      "description": "اعتبرت بكين، اليوم الاثنين، أن “لا أساس” لتقارير إعلامية تفيد بأن كيانات صينية زودت طهران بصور أقمار اصطناعية لقاعدة عسكرية في الأردن، قبل وبعد هجوم إيراني عليها أسفر عن مقتل ثلاثة جنود أمريكيين. ويتعلق التقرير، الذي نشرته صحيفة “وول ستريت جورنال”، بالضربات الصاروخية الإيرانية التي استهدفت في 17 يوليوز الفائت قاعدة موفق السلطي الجوية في […] The post الصين تنفي تقديم معلومات إلى إيران appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-14T12:07:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-un-parti-un-programme-trois-d-clinaisons",
       "title": "Un parti, un programme, trois déclinaisons",
@@ -102,32 +128,6 @@
       "published": "2026-09-11T11:30:48Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-agents-de-s-curit-lancement-du-programme-national-d-inspection-des-conditions-de-travail",
-      "title": "Agents de sécurité : Lancement du Programme national d’inspection des conditions de travail",
-      "link": "https://aujourdhui.ma/societe/agents-de-securite-lancement-du-programme-national-dinspection-des-conditions-de-travail",
-      "description": "Respect de la durée de travail Le Programme national d’inspection des conditions de travail des agents de sécurité privée a été lancé mercredi à Rabat. L’une des priorités majeures de ce programme consiste à veiller à l’application effective des dispositions légales relatives à la durée du travail. Le coup d’envoi du Programme national d’inspection des […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-11T10:01:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-akhannouch-le-lieu-de-la-finale-du-mondial-2030-est-une-affaire-de-grands",
-      "title": "Akhannouch : Le lieu de la finale du Mondial 2030 est «une affaire de grands»",
-      "link": "https://www.lavieeco.com/pouvoirs/partis/akhannouch-le-lieu-de-la-finale-du-mondial-2030-est-une-affaire-de-grands/",
-      "description": "L’organisation de la finale de la Coupe du monde 2030 n’a pas encore fait l’objet de discussions entre les parties organisatrices. Le chef du gouvernement et membre du bureau politique du RNI critique vivement, sans les nommer, ceux qui avancent, dès aujourd’hui avec certitude, que ce match aura lieu au Maroc, à Benslimane. L’article Akhannouch : Le lieu de la finale du Mondial 2030 est «une affaire de grands» est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-11T09:52:20Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
