@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-14T21:53:49Z",
+  "generatedAt": "2026-09-15T11:52:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68391509-26-vuln-rabilit-dans-aws-systems-manager-agent",
+      "title": "68391509/26 - Vulnérabilité dans AWS Systems Manager Agent",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-aws-systems-manager-agent",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-15T11:52:19Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68381509-26-vuln-rabilit-critique-dans-cisco-secure-email-gateway",
+      "title": "68381509/26 - Vulnérabilité critique dans Cisco Secure Email Gateway",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-cisco-secure-email-gateway",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-15T11:52:19Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-cih-bank-annonce-le-maintien-de-la-certification-iso-de-trois-activit-s-strat-giques",
+      "title": "CIH BANK annonce le maintien de la certification ISO de trois activités stratégiques",
+      "link": "https://www.lavieeco.com/comese/cih-bank-annonce-le-maintien-de-la-certification-iso-de-trois-activites-strategiques/",
+      "description": "CIH BANK confirme le maintien de la certification ISO de ses activités Monétique, Crédit Immobilier amortissable aux Particuliers et Gestion des Réclamations Clients. L’article CIH BANK annonce le maintien de la certification ISO de trois activités stratégiques est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-15T11:38:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-asmita-quand-ce-que-nous-poss-dons-devient-ce-que-nous-sommes",
+      "title": "ASMITA : Quand ce que nous possédons devient ce que nous sommes",
+      "link": "https://aujourdhui.ma/chroniques/asmita-quand-ce-que-nous-possedons-devient-ce-que-nous-sommes",
+      "description": "Transformation Il existe une forme de souffrance particulièrement difficile à reconnaître parce qu’elle ne ressemble pas, au premier regard, à de la souffrance. Elle peut prendre la forme d’une belle voiture, d’une maison parfaitement choisie, d’un métier prestigieux, d’une réussite professionnelle, d’un certain niveau de vie, d’une position sociale, d’un corps que l’on entretient avec […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-15T10:12:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68371409-26-vuln-rabilit-critique-dans-apache-opennlp",
       "title": "68371409/26 - Vulnérabilité critique dans Apache OpenNLP",
@@ -40,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-phosphate-le-washington-institute-souligne-le-poids-strat-gique-du-maroc",
-      "title": "Phosphate : le Washington Institute souligne le poids stratégique du Maroc",
-      "link": "https://fr.hespress.com/488347-phosphate-le-washington-institute-souligne-le-poids-strategique-du-maroc.html",
-      "description": "Dans une analyse consacrée aux vulnérabilités des chaînes mondiales d’approvisionnement en engrais, le Washington Institute met en avant les atouts du Maroc et de son industrie phosphatière. Le think tank américain présente le Royaume comme le principal point d’ancrage potentiel d’une stratégie de diversification des approvisionnements occidentaux. Le phosphate s’impose progressivement comme un enjeu stratégique […] The post Phosphate : le Washington Institute souligne le poids stratégique du Ma",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-14T21:02:38Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-over-73-of-spaniards-value-morocco-ties-as-border-security-concerns-rise",
       "title": "Over 73% of Spaniards value Morocco ties as border security concerns rise",
       "link": "https://en.hespress.com/145440-over-73-of-spaniards-value-morocco-ties-as-border-security-concerns-rise.html",
@@ -61,32 +100,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-14T21:00:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-moga-festival-dix-ans-de-musique-de-rencontres-et-d-ouverture-sur-le-monde",
-      "title": "MOGA Festival : Dix ans de musique, de rencontres et d’ouverture sur le monde",
-      "link": "https://aujourdhui.ma/culture/moga-festival-dix-ans-de-musique-de-rencontres-et-douverture-sur-le-monde-1",
-      "description": "édition anniversaire Du 30 septembre au 4 octobre 2026, le MOGA Festival célébrera son dixième anniversaire à Essaouira avec une programmation qui entend dépasser les frontières du simple événement musical. Entre concerts, création, cultures urbaines, patrimoine, gastronomie et transmission, le festival investira la ville et ses lieux emblématiques pour faire d’Essaouira une véritable destination culturelle. […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-14T12:36:18Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-un-parti-un-programme-trois-d-clinaisons",
-      "title": "Un parti, un programme, trois déclinaisons",
-      "link": "https://www.lavieeco.com/pouvoirs/partis/un-parti-un-programme-trois-declinaisons/",
-      "description": "Difficile de relater l’ensemble des mesures – des centaines pour certaines formations – des programmes élaborés par les formations politiques pour les législatives du 23 septembre. Voici, cependant, un aperçu sous l’angle institutionnel, économique et social de l’offre politique des partis RNI, Istiqlal, PAM, USFP et PPS. L’article Un parti, un programme, trois déclinaisons est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-12T12:20:53Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -269,32 +282,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-09T16:44:22Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68210909-26-vuln-rabilit-affectant-mozilla-firefox-for-ios",
-      "title": "68210909/26 - Vulnérabilité affectant Mozilla Firefox for iOS",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-mozilla-firefox-ios",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68200909-26-vuln-rabilit-s-affectant-des-produits-de-fortinet",
-      "title": "68200909/26 - Vulnérabilités affectant des produits de Fortinet",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-de-fortinet-8",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T11:32:15Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
