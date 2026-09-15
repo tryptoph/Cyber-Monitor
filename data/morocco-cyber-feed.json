@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-15T17:06:14Z",
+  "generatedAt": "2026-09-15T21:27:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-la-coop-ration-s-curitaire-entre-primaut-du-droit-et-d-rives-des-fuites-lecture-des-contre-v-rit",
+      "title": "La coopération sécuritaire entre primauté du droit et dérives des fuites : lecture des contre-vérités médiatiques françaises",
+      "link": "https://fr.hespress.com/488502-la-cooperation-securitaire-entre-primaute-du-droit-et-derives-des-fuites-lecture-des-contre-verites-mediatiques-francaises.html",
+      "description": "Dans un monde où la criminalité transnationale devient de plus en plus complexe, la coopération sécuritaire et judiciaire internationale s’impose comme l’ultime rempart pour protéger les sociétés et garantir que les criminels soient arrêtés et traduits en justice. n’échappent pas à leurs sanctions. Cependant, cette coopération, qui devrait reposer sur la confiance mutuelle et le […] The post La coopération sécuritaire entre primauté du droit et dérives des fuites : lecture des contre-vérités méd",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-15T21:10:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "المغرب والتسريبات الفرنسية.. يقظة أمنية لا تنتظر صكوك الغفران الإعلامية",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%88%d8%a7%d9%84%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%81%d8%b1%d9%86%d8%b3%d9%8a%d8%a9-%d9%8a%d9%82%d8%b8%d8%a9-%d8%a3%d9%85%d9%86%d9%8a-1808012.html",
+      "description": "أصبح التعاون الأمني والقضائي الدولي ضرورة عملية في مواجهة الجريمة العابرة للحدود، غير أن فعاليته تظل مرتبطة بقدر كبير من الثقة بين الدول والالتزام الصارم بالاتفاقيات الثنائية والمساطر القانونية، وهو ما يجعل تحويل القضايا الأمنية الحساسة إلى مادة للتسريب والتوظيف الإعلامي عاملا مربكا لهذا التعاون. وقد برز ذلك أخيرا في حملة إعلامية فرنسية استندت إلى […] The post المغرب والتسريبات الفرنسية.. يقظة أمنية لا تنتظر صكوك الغفران الإعلامية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-15T20:46:55Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68411509-26-vuln-rabilit-s-dans-les-produits-ibm",
       "title": "68411509/26 - Vulnérabilités dans les produits IBM",
@@ -61,19 +87,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-15T16:43:57Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "أزمة سبتة تفجر مواجهة سياسية في البرلمان الأوروبي حول المسؤوليات",
-      "link": "https://www.hespress.com/%d8%a3%d8%b2%d9%85%d8%a9-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%aa%d9%81%d8%ac%d8%b1-%d9%85%d9%88%d8%a7%d8%ac%d9%87%d8%a9-%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d8%a8%d8%b1%d9%84%d9%85-1807744.html",
-      "description": "ناقش البرلمان الأوروبي، اليوم الثلاثاء، أزمة سبتة ضمن جلسة خصصت لـ”الهجمات الهجينة الأخيرة واستغلال المهاجرين في سبتة المحتلة والحاجة إلى استجابة منسقة لحماية حدود الاتحاد الأوروبي”. ويأتي النقاش على خلفية الدخول الجماعي للمهاجرين إلى المدينة خلال نهاية يوليوز الماضي. ووصف البرلمان الأوروبي القضية بأنها اختبار لسياسات الاتحاد في مجال الهجرة وإدارة الحدود والاستجابة للأزمات. كما […] The post أزمة سبتة تفجر مواجهة سياسية في البرلمان الأوروبي حول المسؤوليات appeared first on Hespress - هسبريس جريدة",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-15T15:30:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -167,19 +180,6 @@
       "published": "2026-09-14T21:53:47Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-over-73-of-spaniards-value-morocco-ties-as-border-security-concerns-rise",
-      "title": "Over 73% of Spaniards value Morocco ties as border security concerns rise",
-      "link": "https://en.hespress.com/145440-over-73-of-spaniards-value-morocco-ties-as-border-security-concerns-rise.html",
-      "description": "More than 73% of Spaniards consider friendly relations with Morocco important, while over 82% support stronger border security, according to a survey released Monday, September 14, by Spain’s government-run Center for Sociological Research, known as CIS. The findings follow the mass migrant crossings into Ceuta in late July, events that more than 97% of respondents […] The post Over 73% of Spaniards value Morocco ties as border security concerns rise appeared first on HESPRESS English - Morocco ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-14T21:00:47Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
