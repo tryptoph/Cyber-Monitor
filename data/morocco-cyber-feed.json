@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-16T11:45:52Z",
+  "generatedAt": "2026-09-16T17:06:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "dgssi-68441609-26-vuln-rabilit-affectant-le-serveur-web-nginx",
+      "title": "68441609/26 - Vulnérabilité affectant le serveur web Nginx",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-le-serveur-web-nginx",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-16T17:06:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68431609-26-mises-jour-de-s-curit-pour-plusieurs-produits-d-oracle",
+      "title": "68431609/26 - Mises à jour de sécurité pour plusieurs produits d'oracle",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/mises-jour-de-securite-pour-plusieurs-produits-doracle-7",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-16T17:06:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-al-taawoun-sanctionn-apr-s-les-chants-visant-la-mort-de-diogo-jota",
+      "title": "Al-Taawoun sanctionné après les chants visant la mort de Diogo Jota",
+      "link": "https://fr.hespress.com/488554-al-taawoun-sanctionne-apres-les-chants-visant-la-mort-de-diogo-jota.html",
+      "description": "La Fédération saoudienne de football a lourdement sanctionné Al-Taawoun après les chants de certains supporters visant Diogo Jota lors du match face à Al-Hilal (0-6). La Commission de discipline et d’éthique a ordonné au club de disputer ses deux prochains matchs à domicile à huis clos, en plus d’une amende de 100 000 riyals, soit […] The post Al-Taawoun sanctionné après les chants visant la mort de Diogo Jota appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-16T14:13:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "dgssi-68421609-26-vuln-rabilit-critique-activement-exploit-e-affectant-le-navigateur",
       "title": "68421609/26 - Vulnérabilité critique activement exploitée affectant le navigateur…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-le-navigateur-microsoft-edge-1",
@@ -24,32 +63,6 @@
       "published": "2026-09-16T11:45:49Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-l-gislatives-les-artistes-investissent-la-campagne-lectorale",
-      "title": "Législatives : les artistes investissent la campagne électorale",
-      "link": "https://fr.hespress.com/488465-legislatives-les-artistes-investissent-la-campagne-electorale.html",
-      "description": "À quelques jours des élections législatives prévues le 23 septembre, la campagne électorale voit émerger un acteur familier du paysage public marocain : le monde artistique. Réalisateurs, comédiens et personnalités de la culture multiplient les apparitions lors des rencontres partisanes, certains en tant que candidats ou militants engagés, d’autres à titre de soutien ponctuel à […] The post Législatives : les artistes investissent la campagne électorale appeared first on Hespress Français - Actu",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-16T08:45:26Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-eu-chief-calls-for-creation-of-a-european-security-council",
-      "title": "EU chief calls for creation of a 'European Security Council'",
-      "link": "https://en.hespress.com/145487-eu-chief-calls-for-creation-of-a-european-security-council.html",
-      "description": "EU chief Ursula von der Leyen on Wednesday pitched setting up a “European Security Council” with countries including Britain and Ukraine, as the continent grapples with the threat from Russia. “For a long time, we have discussed a leaders’ format focused on the security of our continent, with partners like Canada, Norway, Ukraine, the United […] The post EU chief calls for creation of a 'European Security Council' appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-16T08:44:10Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -68,7 +81,7 @@
     {
       "id": "dgssi-68401509-26-vuln-rabilit-s-critiques-dans-les-produits-apple",
       "title": "68401509/26 - Vulnérabilités critiques dans les produits Apple",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-apple-13",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-apple-14",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
@@ -81,7 +94,7 @@
     {
       "id": "dgssi-68401509-26-vuln-rabilit-s-critiques-dans-les-produits-apple",
       "title": "68401509/26 - Vulnérabilités critiques dans les produits Apple",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-apple-14",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-apple-13",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
@@ -269,32 +282,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-10T11:28:50Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68271009-26-vuln-rabilit-critique-dans-cpanel",
-      "title": "68271009/26 - Vulnérabilité critique dans cPanel",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-cpanel-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-10T11:28:50Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68260909-26-vuln-rabilit-s-critiques-dans-les-plugins-wordpress",
-      "title": "68260909/26 - Vulnérabilités critiques dans les plugins WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-plugins-wordpress-13",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-09T16:44:22Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
