@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-15T21:27:39Z",
+  "generatedAt": "2026-09-16T04:57:20Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-onu-l-ia-au-c-ur-des-d-bats-face-aux-risques-pour-l-humanit",
+      "title": "ONU : l’IA au cœur des débats face aux risques pour l’humanité",
+      "link": "https://fr.hespress.com/488403-onu-lia-au-coeur-des-debats-face-aux-risques-pour-lhumanite.html",
+      "description": "L’intelligence artificielle devrait occuper une place centrale dans les discussions internationales la semaine prochaine. À l’occasion de l’Assemblée générale des Nations unies, le Conseil de sécurité devrait consacrer une réunion aux risques liés au développement rapide de cette technologie, notamment à ceux que certains experts qualifient désormais de potentiellement existentiels pour l’humanité. L’initiative intervient alors […] The post ONU : l’IA au cœur des débats face aux risques pour l’h",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-16T00:08:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-la-coop-ration-s-curitaire-entre-primaut-du-droit-et-d-rives-des-fuites-lecture-des-contre-v-rit",
       "title": "La coopération sécuritaire entre primauté du droit et dérives des fuites : lecture des contre-vérités médiatiques françaises",
       "link": "https://fr.hespress.com/488502-la-cooperation-securitaire-entre-primaute-du-droit-et-derives-des-fuites-lecture-des-contre-verites-mediatiques-francaises.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-09-15T21:10:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "المغرب والتسريبات الفرنسية.. يقظة أمنية لا تنتظر صكوك الغفران الإعلامية",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%88%d8%a7%d9%84%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%81%d8%b1%d9%86%d8%b3%d9%8a%d8%a9-%d9%8a%d9%82%d8%b8%d8%a9-%d8%a3%d9%85%d9%86%d9%8a-1808012.html",
-      "description": "أصبح التعاون الأمني والقضائي الدولي ضرورة عملية في مواجهة الجريمة العابرة للحدود، غير أن فعاليته تظل مرتبطة بقدر كبير من الثقة بين الدول والالتزام الصارم بالاتفاقيات الثنائية والمساطر القانونية، وهو ما يجعل تحويل القضايا الأمنية الحساسة إلى مادة للتسريب والتوظيف الإعلامي عاملا مربكا لهذا التعاون. وقد برز ذلك أخيرا في حملة إعلامية فرنسية استندت إلى […] The post المغرب والتسريبات الفرنسية.. يقظة أمنية لا تنتظر صكوك الغفران الإعلامية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-15T20:46:55Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
