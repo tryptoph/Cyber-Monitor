@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-16T17:06:22Z",
+  "generatedAt": "2026-09-16T21:23:34Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-lections-les-retrait-s-r-clament-2-000-dh-de-hausse-et-une-pension-minimale-de-3-000-dh",
+      "title": "Élections : les retraités réclament 2.000 DH de hausse et une pension minimale de 3.000 DH",
+      "link": "https://fr.hespress.com/488579-elections-les-retraites-reclament-2-000-dh-de-hausse-et-une-pension-minimale-de-3-000-dh.html",
+      "description": "Alors que se préparent les élections législatives, le dossier des retraites et des retraités est devenu un enjeu électoral bien qu’il ne soit pas encore abordé de manière approfondie. Entre promesses d’augmentations aux montants variables, et des augmentations restreintes à certaines catégories, la Fédération des retraités du Maroc a fait entendre sa voix en appelant […] The post Élections : les retraités réclament 2.000 DH de hausse et une pension minimale de 3.000 DH appeared first on Hespress",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-16T18:33:06Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68441609-26-vuln-rabilit-affectant-le-serveur-web-nginx",
       "title": "68441609/26 - Vulnérabilité affectant le serveur web Nginx",
@@ -37,19 +50,6 @@
       "published": "2026-09-16T17:06:14Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-al-taawoun-sanctionn-apr-s-les-chants-visant-la-mort-de-diogo-jota",
-      "title": "Al-Taawoun sanctionné après les chants visant la mort de Diogo Jota",
-      "link": "https://fr.hespress.com/488554-al-taawoun-sanctionne-apres-les-chants-visant-la-mort-de-diogo-jota.html",
-      "description": "La Fédération saoudienne de football a lourdement sanctionné Al-Taawoun après les chants de certains supporters visant Diogo Jota lors du match face à Al-Hilal (0-6). La Commission de discipline et d’éthique a ordonné au club de disputer ses deux prochains matchs à domicile à huis clos, en plus d’une amende de 100 000 riyals, soit […] The post Al-Taawoun sanctionné après les chants visant la mort de Diogo Jota appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-16T14:13:00Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
