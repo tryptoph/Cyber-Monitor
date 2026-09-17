@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-17T04:59:25Z",
+  "generatedAt": "2026-09-17T11:50:16Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-le-groupe-nass-el-ghiwane-retrouve-le-public-casablancais-pour-une-soir-e-entre-m-moire-et-motio",
-      "title": "Le groupe Nass El Ghiwane retrouve le public casablancais pour une soirée entre mémoire et émotion",
-      "link": "https://fr.hespress.com/488522-nass-el-ghiwane-retrouve-le-public-casablancais-pour-une-soiree-entre-memoire-et-emotion.html",
-      "description": "Le Théâtre l’Hermitage accueillera, samedi 26 septembre 2026 à partir de 20h, un concert de Nass El Ghiwane, figure emblématique de la musique marocaine. Une soirée qui promet de faire revivre les grands titres d’un répertoire profondément ancré dans la mémoire collective. Nass El Ghiwane s’apprête à retrouver son public casablancais pour une soirée placée […] The post Le groupe Nass El Ghiwane retrouve le public casablancais pour une soirée entre mémoire et émotion appeared first on Hespress Fr",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "dgssi-68451709-26-vuln-rabilit-s-critiques-dans-les-produits-cisco",
+      "title": "68451709/26 - Vulnérabilités critiques dans les produits Cisco",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-cisco-20",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-17T11:50:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-woman-claiming-supernatural-powers-arrested-over-casablanca-jewelry-thefts",
+      "title": "Woman claiming ‘supernatural powers’ arrested over Casablanca jewelry thefts",
+      "link": "https://en.hespress.com/145548-woman-claiming-supernatural-powers-arrested-over-casablanca-jewelry-thefts.html",
+      "description": "Police arrested a woman suspected of using claims of “supernatural powers” and threats with a bladed weapon to take jewelry from women in Casablanca, a security source said Thursday. Judicial police from the Ain Chock district detained the suspect Wednesday evening, September 16, in Tamaris, on the outskirts of Casablanca, following complaints from several women. […] The post Woman claiming ‘supernatural powers’ arrested over Casablanca jewelry thefts appeared first on HESPRESS English - Morocco",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-09-17T01:54:10Z",
+      "published": "2026-09-17T11:32:03Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -105,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-tourisme-durable-souss-massa-passe-la-certification",
-      "title": "Tourisme durable : Souss-Massa passe à la certification",
-      "link": "https://www.lavieeco.com/au-royaume/tourisme-durable-souss-massa-passe-a-la-certification/",
-      "description": "Le Souss-Massa expérimente le premier programme régional de certification du tourisme durable au Maroc. La SDR SMART tourisme pilote l’opération. Sur 67 établissements évalués, 55 ont déjà décroché le label. L’article Tourisme durable : Souss-Massa passe à la certification est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-15T12:43:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-68391509-26-vuln-rabilit-dans-aws-systems-manager-agent",
       "title": "68391509/26 - Vulnérabilité dans AWS Systems Manager Agent",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-aws-systems-manager-agent",
@@ -141,19 +141,6 @@
       "published": "2026-09-15T11:52:19Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-cih-bank-annonce-le-maintien-de-la-certification-iso-de-trois-activit-s-strat-giques",
-      "title": "CIH BANK annonce le maintien de la certification ISO de trois activités stratégiques",
-      "link": "https://www.lavieeco.com/comese/cih-bank-annonce-le-maintien-de-la-certification-iso-de-trois-activites-strategiques/",
-      "description": "CIH BANK confirme le maintien de la certification ISO de ses activités Monétique, Crédit Immobilier amortissable aux Particuliers et Gestion des Réclamations Clients. L’article CIH BANK annonce le maintien de la certification ISO de trois activités stratégiques est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-15T11:38:21Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -264,19 +251,6 @@
       "id": "dgssi-68291009-26-vuln-rabilit-s-affectant-des-produits-palo-alto",
       "title": "68291009/26 - Vulnérabilités affectant des produits Palo Alto",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-palo-alto-9",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-10T11:28:50Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68281009-26-vuln-rabilit-s-critiques-affectant-les-produits-check-point",
-      "title": "68281009/26 - Vulnérabilités critiques affectant les produits Check Point",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-les-produits-check-point",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
