@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-17T21:28:30Z",
+  "generatedAt": "2026-09-18T04:51:54Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-coop-ration-s-curitaire-le-maroc-r-colte-les-loges-du-fbi-et-des-autorit-s-su-doises",
+      "title": "Coopération sécuritaire : le Maroc récolte les éloges du FBI et des autorités suédoises",
+      "link": "https://fr.hespress.com/488819-cooperation-securitaire-le-maroc-recolte-les-eloges-du-fbi-et-des-autorites-suedoises.html",
+      "description": "Les services de sécurité marocains continuent de recueillir les éloges de leurs partenaires internationaux. À quelques jours d’intervalle, les autorités suédoises et américaines ont publiquement salué le professionnalisme et l’expertise des forces de sécurité du royaume, mettant en avant leur contribution dans la lutte contre la criminalité organisée ainsi que leur rôle dans la sécurisation […] The post Coopération sécuritaire : le Maroc récolte les éloges du FBI et des autorités suédoises appea",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-17T23:24:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-french-algerian-national-wanted-in-drug-trafficking-case-arrested-in-mohammedia",
+      "title": "French-Algerian national wanted in drug trafficking case arrested in Mohammedia",
+      "link": "https://en.hespress.com/145596-french-algerian-national-wanted-in-drug-trafficking-case-arrested-in-mohammedia.html",
+      "description": "Moroccan police arrested a 37-year-old Algerian national who also holds French citizenship in Mohammedia on Thursday, acting on an international arrest warrant issued by French authorities, Morocco’s General Directorate of National Security said. Preliminary information from the investigation indicates that the man was listed as internationally wanted at the request of French judicial authorities in […] The post French-Algerian national wanted in drug trafficking case arrested in Mohammedia appe",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-17T21:45:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-joins-interpol-operation-targeting-terrorism-suspects-across-mena",
       "title": "Morocco joins Interpol operation targeting terrorism suspects across MENA",
