@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-18T16:31:20Z",
+  "generatedAt": "2026-09-18T20:58:49Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -56,24 +56,11 @@
       "id": "lavieeco-souss-massa-la-srm-sm-r-ussit-son-audit-de-surveillance-et-maintient-ses-certifications",
       "title": "Souss-Massa : La SRM-SM réussit son audit de surveillance et maintient ses certifications",
       "link": "https://www.lavieeco.com/affaires/souss-massa-la-srm-sm-reussit-son-audit-de-surveillance-et-maintient-ses-certifications/",
-      "description": "La Société Régionale Multiservices vient de réussir son audit de surveillance N°2, portant sur son Système de Management Intégré, selon les exigences des normes internationales ISO 9001, ISO 14001 et ISO 45001, dans leurs versions en vigueur, confirmant ainsi le maintien de ses certificats QSE. L’article Souss-Massa : La SRM-SM réussit son audit de surveillance et maintient ses certifications est apparu en premier sur La Vie éco .",
+      "description": "La Société régionale multiservices vient de réussir son audit de surveillance n° 2, portant sur son Système de management intégré, selon les exigences des normes internationales ISO 9001, ISO 14001 et ISO 45001, dans leurs versions en vigueur, confirmant ainsi le maintien de ses certificats QSE. L’article Souss-Massa : La SRM-SM réussit son audit de surveillance et maintient ses certifications est apparu en premier sur La Vie éco .",
       "source": "La Vie Eco",
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-18T15:50:05Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-proposes-international-code-of-conduct-for-maritime-straits",
-      "title": "Morocco proposes international code of conduct for maritime straits",
-      "link": "https://en.hespress.com/145627-morocco-proposes-international-code-of-conduct-for-maritime-straits.html",
-      "description": "Morocco has called for an international code of conduct for countries bordering strategic maritime straits, with Foreign Minister Nasser Bourita saying their management carries international responsibilities. Speaking at an informal U.N. Security Council meeting organized by Bahrain in New York, Bourita said the proposed code should uphold freedom of navigation and keep international shipping routes […] The post Morocco proposes international code of conduct for maritime straits appeared first o",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-18T14:00:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
