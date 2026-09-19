@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-18T20:58:49Z",
+  "generatedAt": "2026-09-19T20:48:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-sebta-strasbourg-l-offensive-contre-le-maroc-se-heurte-aux-r-alit-s-du-partenariat-euro-marocain",
+      "title": "Sebta: à Strasbourg, l’offensive contre le Maroc se heurte aux réalités du partenariat euro-marocain",
+      "link": "https://fr.hespress.com/489030-sebta-a-strasbourg-loffensive-contre-le-maroc-se-heurte-aux-realites-du-partenariat-euro-marocain.html",
+      "description": "L’offensive engagée au Parlement européen autour des événements de Sebta n’aura finalement pas produit le basculement espéré par les formations espagnoles les plus critiques à l’égard du Maroc. Adoptée le 17 septembre, la résolution européenne maintient certes une pression politique sur Rabat, mais reste très en deçà des mesures coercitives évoquées dans le débat ayant […] The post Sebta: à Strasbourg, l’offensive contre le Maroc se heurte aux réalités du partenariat euro-marocain appeared first",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-19T19:38:52Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-sahara-marocain-une-pr-sidence-grecque-une-ch-ance-cl-au-conseil-de-s-curit",
+      "title": "Sahara marocain : une présidence grecque à une échéance clé au Conseil de sécurité",
+      "link": "https://fr.hespress.com/489001-sahara-marocain-une-presidence-grecque-a-une-echeance-cle-au-conseil-de-securite.html",
+      "description": "Le Conseil de sécurité s’apprête à renouer, fin octobre, avec son rendez-vous consacré au Sahara marocain. Cette échéance intervient cette année dans un contexte particulier, avec la Grèce à la présidence de l’organe onusien et une position d’Athènes désormais clairement exprimée en faveur de la proposition marocaine d’autonomie. Le Conseil de sécurité s’apprête à examiner […] The post Sahara marocain : une présidence grecque à une échéance clé au Conseil de sécurité appeared first on Hespress F",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-19T17:37:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68591809-26-vuln-rabilit-s-dans-google-pixel",
       "title": "68591809/26 - Vulnérabilités dans Google Pixel",
