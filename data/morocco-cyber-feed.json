@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-20T11:33:38Z",
+  "generatedAt": "2026-09-20T16:14:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-pol-mique-autour-de-gaza-ed-sheeran-reconna-t-une-situation-catastrophique-et-injustifiable",
-      "title": "Polémique autour de Gaza: Ed Sheeran reconnaît une situation \"catastrophique\" et \"injustifiable\"",
-      "link": "https://fr.hespress.com/489049-polemique-autour-de-gaza-ed-sheeran-reconnait-une-situation-catastrophique-et-injustifiable.html",
-      "description": "Ed Sheeran a assuré que la situation à Gaza était « injustifiable » et a reconnu « des erreurs », samedi soir à Philadelphie, lors de son premier concert depuis la polémique sur l’éviction de sa tournée du rappeur Macklemore, qui avait tenu des propos propalestiniens. Cet artiste, qui assurait les premières parties de la star de la pop, […] The post Polémique autour de Gaza: Ed Sheeran reconnaît une situation \"catastrophique\" et \"injustifiable\" appeared first on Hespress Français - Actualités du",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-20T05:10:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-from-campaign-violence-to-hacking-claims-seven-election-linked-probes-open-in-morocco",
-      "title": "From campaign violence to hacking claims, seven election-linked probes open in Morocco",
-      "link": "https://en.hespress.com/145708-from-campaign-violence-to-hacking-claims-seven-election-linked-probes-open-in-morocco.html",
-      "description": "Moroccan prosecutors and police have opened at least seven investigations linked to the parliamentary election campaign since early September, according to cases documented by Hespress, with the latest inquiry examining a leaked audio recording that authorities say could affect perceptions of electoral integrity. The public prosecutor at the Settat Court of Appeal said Saturday that […] The post From campaign violence to hacking claims, seven election-linked probes open in Morocco appeared first",
+      "id": "hespress-en-spain-move-u20-friendly-from-ceuta-amid-migration-crisis",
+      "title": "Spain move U20 friendly from Ceuta amid migration crisis",
+      "link": "https://en.hespress.com/145737-spain-move-u20-friendly-from-ceuta-amid-migration-crisis.html",
+      "description": "A Spain Under-20 match will be moved from Ceuta because of security concerns, Spanish football federation president Rafael Louzan said Sunday. They were due to face Mexico on September 30 in a friendly in the Spanish territory in north Africa which is currently gripped by a migration crisis. “The police advised us against going ahead […] The post Spain move U20 friendly from Ceuta amid migration crisis appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-09-19T20:46:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-google-gemini-ai-carried-out-cyberattacks-guessed-passwords",
-      "title": "Google Gemini AI carried out cyberattacks, guessed passwords",
-      "link": "https://en.hespress.com/145706-google-gemini-ai-carried-out-cyberattacks-guessed-passwords.html",
-      "description": "Google’s consumer AI model Gemini hacked multiple systems through guessing login credentials, the company told AFP on Friday, the latest case of rogue AI cybersecurity transgressions, which have generated safety concerns. The hacks, first reported by the Wall Street Journal, took place in May and were discovered by Google in July. “In a standard evaluation, […] The post Google Gemini AI carried out cyberattacks, guessed passwords appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-19T19:33:47Z",
+      "published": "2026-09-20T15:19:02Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
