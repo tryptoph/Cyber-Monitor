@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-19T20:48:21Z",
+  "generatedAt": "2026-09-20T05:00:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-from-campaign-violence-to-hacking-claims-seven-election-linked-probes-open-in-morocco",
+      "title": "From campaign violence to hacking claims, seven election-linked probes open in Morocco",
+      "link": "https://en.hespress.com/145708-from-campaign-violence-to-hacking-claims-seven-election-linked-probes-open-in-morocco.html",
+      "description": "Moroccan prosecutors and police have opened at least seven investigations linked to the parliamentary election campaign since early September, according to cases documented by Hespress, with the latest inquiry examining a leaked audio recording that authorities say could affect perceptions of electoral integrity. The public prosecutor at the Settat Court of Appeal said Saturday that […] The post From campaign violence to hacking claims, seven election-linked probes open in Morocco appeared first",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-19T20:46:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-sebta-strasbourg-l-offensive-contre-le-maroc-se-heurte-aux-r-alit-s-du-partenariat-euro-marocain",
       "title": "Sebta: à Strasbourg, l’offensive contre le Maroc se heurte aux réalités du partenariat euro-marocain",
@@ -27,14 +40,14 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-sahara-marocain-une-pr-sidence-grecque-une-ch-ance-cl-au-conseil-de-s-curit",
-      "title": "Sahara marocain : une présidence grecque à une échéance clé au Conseil de sécurité",
-      "link": "https://fr.hespress.com/489001-sahara-marocain-une-presidence-grecque-a-une-echeance-cle-au-conseil-de-securite.html",
-      "description": "Le Conseil de sécurité s’apprête à renouer, fin octobre, avec son rendez-vous consacré au Sahara marocain. Cette échéance intervient cette année dans un contexte particulier, avec la Grèce à la présidence de l’organe onusien et une position d’Athènes désormais clairement exprimée en faveur de la proposition marocaine d’autonomie. Le Conseil de sécurité s’apprête à examiner […] The post Sahara marocain : une présidence grecque à une échéance clé au Conseil de sécurité appeared first on Hespress F",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-en-google-gemini-ai-carried-out-cyberattacks-guessed-passwords",
+      "title": "Google Gemini AI carried out cyberattacks, guessed passwords",
+      "link": "https://en.hespress.com/145706-google-gemini-ai-carried-out-cyberattacks-guessed-passwords.html",
+      "description": "Google’s consumer AI model Gemini hacked multiple systems through guessing login credentials, the company told AFP on Friday, the latest case of rogue AI cybersecurity transgressions, which have generated safety concerns. The hacks, first reported by the Wall Street Journal, took place in May and were discovered by Google in July. “In a standard evaluation, […] The post Google Gemini AI carried out cyberattacks, guessed passwords appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-09-19T17:37:43Z",
+      "published": "2026-09-19T19:33:47Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
