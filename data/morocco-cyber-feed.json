@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-20T16:14:19Z",
+  "generatedAt": "2026-09-20T20:54:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-turquie-deux-ressortissants-marocains-interpell-s-dans-une-affaire-de-fraude-au-forex",
+      "title": "Turquie: deux ressortissants marocains interpellés dans une affaire de fraude au Forex",
+      "link": "https://fr.hespress.com/489114-turquie-deux-ressortissants-marocains-interpelles-dans-une-affaire-de-fraude-au-forex.html",
+      "description": "Les autorités turques ont démantelé, dans le cadre d’une opération conjointe menée par les services de renseignement et la direction de la sécurité d’Istanbul, sous la supervision du parquet, un réseau international d’escroquerie qui, selon elles, serait lié à Israël. Plus de 200 personnes ont été arrêtées, dont des ressortissants étrangers, parmi lesquels deux Marocains […] The post Turquie: deux ressortissants marocains interpellés dans une affaire de fraude au Forex appeared first on Hespress",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-20T18:36:47Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-spain-move-u20-friendly-from-ceuta-amid-migration-crisis",
       "title": "Spain move U20 friendly from Ceuta amid migration crisis",
@@ -152,32 +165,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-18T10:20:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-attaques-des-houthis-le-maroc-r-affirme-sa-pleine-solidarit-avec-l-arabie-saoudite",
-      "title": "Attaques des Houthis : Le Maroc réaffirme sa pleine solidarité avec l’Arabie saoudite",
-      "link": "https://www.lavieeco.com/au-royaume/attaques-des-houthis-le-maroc-reaffirme-sa-pleine-solidarite-avec-larabie-saoudite/",
-      "description": "Devant le Conseil de sécurité de l’ONU, Nasser Bourita a appelé à renforcer la réponse internationale aux crises qui touchent les détroits d’Ormuz et de Bab al-Mandab. Le ministre a également réaffirmé la solidarité du Maroc avec l’Arabie saoudite après les attaques des Houthis. L’article Attaques des Houthis : Le Maroc réaffirme sa pleine solidarité avec l’Arabie saoudite est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-18T08:10:16Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-le-rni-ou-la-d-monstration-par-les-faits",
-      "title": "Le RNI ou la démonstration par les faits",
-      "link": "https://www.lavieeco.com/idees/edito/le-rni-ou-la-demonstration-par-les-faits/",
-      "description": "Là où certains font de la campagne un tribunal et de l’invective un programme, là où d’autres se bornent à des promesses non chiffrées, le RNI se présente fort d’un bilan. L’article Le RNI ou la démonstration par les faits est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-18T07:35:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
