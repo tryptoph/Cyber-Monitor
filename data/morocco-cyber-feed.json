@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-20T20:54:43Z",
+  "generatedAt": "2026-09-21T05:05:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-turquie-deux-ressortissants-marocains-interpell-s-dans-une-affaire-de-fraude-au-forex",
-      "title": "Turquie: deux ressortissants marocains interpellés dans une affaire de fraude au Forex",
-      "link": "https://fr.hespress.com/489114-turquie-deux-ressortissants-marocains-interpelles-dans-une-affaire-de-fraude-au-forex.html",
-      "description": "Les autorités turques ont démantelé, dans le cadre d’une opération conjointe menée par les services de renseignement et la direction de la sécurité d’Istanbul, sous la supervision du parquet, un réseau international d’escroquerie qui, selon elles, serait lié à Israël. Plus de 200 personnes ont été arrêtées, dont des ressortissants étrangers, parmi lesquels deux Marocains […] The post Turquie: deux ressortissants marocains interpellés dans une affaire de fraude au Forex appeared first on Hespress",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-20T18:36:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-spain-move-u20-friendly-from-ceuta-amid-migration-crisis",
       "title": "Spain move U20 friendly from Ceuta amid migration crisis",
@@ -154,19 +141,6 @@
       "published": "2026-09-18T11:25:29Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-s-curit-des-d-troits-bourita-appelle-l-laboration-d-un-code-de-conduite-international",
-      "title": "Sécurité des détroits : Bourita appelle à l’élaboration d’un code de conduite international",
-      "link": "https://www.lavieeco.com/pouvoirs/securite-des-detroits-bourita-appelle-a-lelaboration-dun-code-de-conduite-international/",
-      "description": "À l’occasion d’une réunion du Conseil de sécurité selon la formule Arria, le ministère des affaires étrangères a proposé une initiative internationale pour renforcer la sécurité et la liberté de navigation dans les détroits, notamment celui de Gibraltar. L’article Sécurité des détroits : Bourita appelle à l’élaboration d’un code de conduite international est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-18T10:20:02Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
