@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-21T12:58:32Z",
+  "generatedAt": "2026-09-21T22:02:50Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68632109-26-vuln-rabilit-s-dans-exim",
+      "title": "68632109/26 - Vulnérabilités dans Exim",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-exim",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-21T22:02:40Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-ia-et-technologies-de-l-information-le-maroc-et-la-serbie-veulent-approfondir-leur-partenariat",
+      "title": "IA et technologies de l’information : le Maroc et la Serbie veulent approfondir leur partenariat",
+      "link": "https://www.lavieeco.com/tech/ia-et-technologies-de-linformation-le-maroc-et-la-serbie-veulent-approfondir-leur-partenariat/",
+      "description": "Lors d'une rencontre à Belgrade, l'ambassadeur du Royaume, Omar Amghar, et le ministre serbe de l'Information et des Télécommunications, Boris Bratina, ont examiné les moyens de renforcer leur coopération, de la 5G à la cybersécurité. L’article IA et technologies de l’information : le Maroc et la Serbie veulent approfondir leur partenariat est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-21T19:07:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-brazilian-meat-faces-stricter-eu-antimicrobial-rules-as-morocco-continues-imports",
+      "title": "Brazilian meat faces stricter EU antimicrobial rules as Morocco continues imports",
+      "link": "https://en.hespress.com/145791-brazilian-meat-faces-stricter-eu-antimicrobial-rules-as-morocco-continues-imports.html",
+      "description": "Brazilian meat remains eligible for import into Morocco as stricter European Union requirements take effect for countries exporting animals and animal products to the bloc over their use of antimicrobials. Since Sept. 3, exporters of certain animals and animal products to the EU have been required to provide guarantees that they comply with European rules […] The post Brazilian meat faces stricter EU antimicrobial rules as Morocco continues imports appeared first on HESPRESS English - Morocco Ne",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-21T18:26:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-maroc-ccg-bourita-appelle-renforcer-la-r-ponse-internationale-face-aux-groupes-arm-s-non-tatique",
+      "title": "Maroc-CCG: Bourita appelle à renforcer la réponse internationale face aux groupes armés non-étatiques",
+      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/maroc-ccg-bourita-appelle-a-renforcer-la-reponse-internationale-face-aux-groupes-armes-non-etatiques/",
+      "description": "Intervenant lors d'une rencontre organisée en marge de la 81e session de l’Assemblée générale de l’ONU, le ministre des Affaires étrangères a condamné les actes criminels des milices houthies qui ciblent l’Arabie Saoudite et des attaques iraniennes ciblant la sécurité et la stabilité des pays du CCG. L’article Maroc-CCG: Bourita appelle à renforcer la réponse internationale face aux groupes armés non-étatiques est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-21T14:57:31Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68622109-26-vuln-rabilit-s-critiques-dans-le-cms-wordpress",
       "title": "68622109/26 - Vulnérabilités critiques dans le CMS WordPress",
@@ -50,32 +102,6 @@
       "published": "2026-09-21T12:58:26Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-frais-suppl-mentaires-proc-dures-acc-l-r-es-l-ue-lance-le-chantier-de-la-r-forme-des-visas-schen",
-      "title": "Frais supplémentaires, procédures accélérées : l’UE lance le chantier de la réforme des visas Schengen",
-      "link": "https://fr.hespress.com/489202-frais-supplementaires-procedures-accelerees-lue-lance-le-chantier-de-la-reforme-des-visas-schengen.html",
-      "description": "Bruxelles s’apprête à rouvrir le chantier des visas Schengen. Frais supplémentaires, assouplissement des conditions d’octroi des visas à entrées multiples pour certains voyageurs réguliers, procédures accélérées pour des catégories ciblées de professionnels : la Commission européenne a engagé une réflexion de fond sur l’évolution du cadre régissant les visas de court séjour au sein de […] The post Frais supplémentaires, procédures accélérées : l’UE lance le chantier de la réforme des visas Schen",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-21T11:33:06Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-european-union-fines-google-for-data-location-breach",
-      "title": "European Union fines Google for data location breach",
-      "link": "https://en.hespress.com/145764-european-union-fines-google-for-data-location-breach.html",
-      "description": "Ireland’s data protection watchdog, acting on behalf of the European Union, said Monday that it had fined Google 403 million euros ($462 million) for breaching users’ location data. The technology giant infringed the EU’s General Data Protection Regulation on the matter between May 2018 and February 2020, Ireland’s Data Protection Commission, which is charged with […] The post European Union fines Google for data location breach appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-21T10:43:43Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -251,19 +277,6 @@
       "id": "dgssi-68471709-26-vuln-rabilit-s-affectant-le-navigateur-mozilla-firefox",
       "title": "68471709/26 - Vulnérabilités affectant le navigateur Mozilla Firefox",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-mozilla-firefox-33",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-17T17:06:58Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68461709-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
-      "title": "68461709/26 - Vulnérabilités affectant le navigateur Google Chrome",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-google-chrome-59",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
