@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-22T11:47:56Z",
+  "generatedAt": "2026-09-22T17:02:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,97 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68672209-26-vuln-rabilit-critique-activement-exploit-e-affectant-veeam-backup",
+      "title": "68672209/26 - Vulnérabilité critique activement exploitée affectant Veeam Backup &…",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-veeam-backup-replication",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-22T17:02:18Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-s-central-bank-maintains-key-rate-unchanged-at-2-25",
+      "title": "Morocco's central bank maintains key rate unchanged at 2.25%",
+      "link": "https://en.hespress.com/145855-moroccos-central-bank-maintains-key-rate-unchanged-at-2-25.html",
+      "description": "The Board of Morocco’s Central Bank, Bank Al-Maghrib (BAM), meeting Tuesday in Rabat, convened to keep the key interest rate unchanged at 2.25%. “Taking into account the very high level of uncertainty surrounding the economic outlook, and in and in view of the medium-term evolution of inflation at moderate levels and the expected consolidation of […] The post Morocco's central bank maintains key rate unchanged at 2.25% appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-22T15:25:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-bank-al-maghrib-keeps-rates-steady-what-its-latest-outlook-says-about-morocco-s-economy",
+      "title": "Bank Al-Maghrib keeps rates steady: What its latest outlook says about Morocco’s economy",
+      "link": "https://en.hespress.com/145846-bank-al-maghrib-keeps-rates-steady-what-its-latest-outlook-says-about-moroccos-economy.html",
+      "description": "Morocco’s central bank held its benchmark interest rate steady at 2.25% on Tuesday, citing contained inflation and a global economic backdrop the bank’s council described as facing persistently elevated uncertainty. The rate decision Bank Al-Maghrib’s council, meeting for the third quarter of 2026, kept its key rate unchanged, judging the move appropriate given two factors: […] The post Bank Al-Maghrib keeps rates steady: What its latest outlook says about Morocco’s economy appeared first on HES",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-22T14:23:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-bank-al-maghrib-maintient-son-taux-directeur-inchang-2-25",
+      "title": "Bank Al-Maghrib maintient son taux directeur inchangé à 2,25%",
+      "link": "https://aujourdhui.ma/economie/bank-al-maghrib-maintient-son-taux-directeur-inchange-a-225-3",
+      "description": "Le Conseil de Bank Al-Maghrib (BAM), réuni mardi à Rabat, a décidé de maintenir le taux directeur inchangé à 2,25%. « Tenant compte de la forte incertitude pesant sur les perspectives économiques et au regard de l’évolution à moyen terme de l’inflation à des niveaux modérés et de la consolidation attendue de la dynamique de l’activité […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-22T14:02:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-tightens-penalties-for-election-interference-ahead-of-sept-23-vote",
+      "title": "Morocco tightens penalties for election interference ahead of Sept. 23 vote",
+      "link": "https://en.hespress.com/145827-morocco-tightens-penalties-for-election-interference-ahead-of-sept-23-vote.html",
+      "description": "Morocco has increased penalties for several election-related offenses ahead of the Sept. 23 parliamentary vote, including interference with voting, ballot tampering, breaches of voting secrecy and attempts to manipulate election results. The changes are part of Organic Law No. 53.25, which amended Organic Law No. 27.11 governing elections to the House of Representatives. The amended […] The post Morocco tightens penalties for election interference ahead of Sept. 23 vote appeared first on HESPRES",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-22T14:00:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-us-denmark-greenland-to-sign-us-security-deal-for-greenland",
+      "title": "US, Denmark, Greenland to sign US security deal for Greenland",
+      "link": "https://en.hespress.com/145836-us-denmark-greenland-to-sign-us-security-deal-for-greenland.html",
+      "description": "The United States, Denmark and Greenland will on Tuesday sign the announced US security deal for Greenland on the sidelines of the UN General Assembly in New York, Denmark’s government said. US President Donald Trump said last Friday that the arrangement will give America “permanent control” over security for Greenland, an autonomous Danish territory in […] The post US, Denmark, Greenland to sign US security deal for Greenland appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-22T13:21:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-what-to-know-about-the-sept-23-push-to-cross-into-ceuta",
+      "title": "What to know about the Sept. 23 push to cross into Ceuta",
+      "link": "https://en.hespress.com/145831-what-to-know-about-the-sept-23-push-to-cross-into-ceuta.html",
+      "description": "A month before Moroccans went to vote, Sept. 23 was already circulating in WhatsApp groups for a different reason: as the next date to try to reach Ceuta. It has since traveled a long way from those group chats. Two Spanish ministries, Moroccan security forces and diplomats from both governments are now treating it as […] The post What to know about the Sept. 23 push to cross into Ceuta appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-22T12:00:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68662209-26-purelogs-infostealer",
       "title": "68662209/26 - “ PureLogs ” Infostealer",
@@ -50,19 +141,6 @@
       "published": "2026-09-22T11:47:54Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-la-narsa-s-attaque-aux-conditions-de-travail-des-livreurs-et-pr-pare-une-r-forme-de-l-immatricul",
-      "title": "La NARSA s’attaque aux conditions de travail des livreurs et prépare une réforme de l’immatriculation des motos",
-      "link": "https://fr.hespress.com/489325-la-narsa-sattaque-aux-conditions-de-travail-des-livreurs-et-prepare-une-reforme-de-limmatriculation-des-motos.html",
-      "description": "L’Agence nationale de la sécurité routière (NARSA) entend renforcer la pression sur les entreprises de livraison de commandes afin d’améliorer les conditions de travail des conducteurs et de limiter les pratiques susceptibles de les pousser à rouler à une vitesse excessive. La sécurité des travailleurs de ce secteur figurait ainsi parmi les principaux sujets abordés […] The post La NARSA s’attaque aux conditions de travail des livreurs et prépare une réforme de l’immatriculation des motos appear",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-22T09:45:18Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -264,19 +342,6 @@
       "id": "dgssi-68511709-26-vuln-rabilit-s-dans-les-produits-jenkins",
       "title": "68511709/26 - Vulnérabilités dans les produits Jenkins",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-jenkins-6",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-17T17:06:58Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68501709-26-vuln-rabilit-s-dans-le-cms-drupal",
-      "title": "68501709/26 - Vulnérabilités dans le CMS Drupal",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-le-cms-drupal-2",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
