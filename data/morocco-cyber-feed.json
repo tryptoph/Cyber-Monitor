@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-22T17:02:22Z",
+  "generatedAt": "2026-09-22T21:25:27Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-onu-le-mod-le-traditionnel-de-s-curit-de-l-ia-est-en-train-de-s-effondrer",
+      "title": "ONU : le modèle traditionnel de sécurité de l’IA « est en train de s’effondrer »",
+      "link": "https://fr.hespress.com/489221-onu-le-modele-traditionnel-de-securite-de-lia-est-en-train-de-seffondrer.html",
+      "description": "Un comité scientifique indépendant mandaté par l’ONU alerte sur les limites actuelles de l’encadrement de l’intelligence artificielle. Selon ses experts, les systèmes d’IA progressent désormais plus rapidement que les dispositifs de sécurité censés les contrôler. Le modèle traditionnel de gestion des risques liés à l’intelligence artificielle « est en train de s’effondrer », avertit un […] The post ONU : le modèle traditionnel de sécurité de l’IA « est en train de s’effondrer » appeared first on",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-22T20:49:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-le-fmi-dresse-un-constat-alarmant-sur-les-quilibres-macro-conomiques-de-l-alg-rie",
+      "title": "Le FMI dresse un constat alarmant sur les équilibres macroéconomiques de l'Algérie",
+      "link": "https://fr.hespress.com/489428-le-fmi-dresse-un-constat-alarmant-sur-les-equilibres-macroeconomiques-de-lalgerie.html",
+      "description": "Déficits qui s’enkystent, dette qui s’envole, réserves de change qui fondent de plus de moitié d’ici 2031 : le diagnostic du FMI sur l’Algérie ne laisse guère de place à l’optimisme. Derrière la façade d’une croissance qui tient en apparence, l’institution décrit une économie qui vit à crédit et consume ses derniers filets de sécurité. […] The post Le FMI dresse un constat alarmant sur les équilibres macroéconomiques de l'Algérie appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-22T18:30:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68672209-26-vuln-rabilit-critique-activement-exploit-e-affectant-veeam-backup",
       "title": "68672209/26 - Vulnérabilité critique activement exploitée affectant Veeam Backup &…",
@@ -61,45 +87,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-09-22T14:02:51Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-tightens-penalties-for-election-interference-ahead-of-sept-23-vote",
-      "title": "Morocco tightens penalties for election interference ahead of Sept. 23 vote",
-      "link": "https://en.hespress.com/145827-morocco-tightens-penalties-for-election-interference-ahead-of-sept-23-vote.html",
-      "description": "Morocco has increased penalties for several election-related offenses ahead of the Sept. 23 parliamentary vote, including interference with voting, ballot tampering, breaches of voting secrecy and attempts to manipulate election results. The changes are part of Organic Law No. 53.25, which amended Organic Law No. 27.11 governing elections to the House of Representatives. The amended […] The post Morocco tightens penalties for election interference ahead of Sept. 23 vote appeared first on HESPRES",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-22T14:00:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-us-denmark-greenland-to-sign-us-security-deal-for-greenland",
-      "title": "US, Denmark, Greenland to sign US security deal for Greenland",
-      "link": "https://en.hespress.com/145836-us-denmark-greenland-to-sign-us-security-deal-for-greenland.html",
-      "description": "The United States, Denmark and Greenland will on Tuesday sign the announced US security deal for Greenland on the sidelines of the UN General Assembly in New York, Denmark’s government said. US President Donald Trump said last Friday that the arrangement will give America “permanent control” over security for Greenland, an autonomous Danish territory in […] The post US, Denmark, Greenland to sign US security deal for Greenland appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-22T13:21:08Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-what-to-know-about-the-sept-23-push-to-cross-into-ceuta",
-      "title": "What to know about the Sept. 23 push to cross into Ceuta",
-      "link": "https://en.hespress.com/145831-what-to-know-about-the-sept-23-push-to-cross-into-ceuta.html",
-      "description": "A month before Moroccans went to vote, Sept. 23 was already circulating in WhatsApp groups for a different reason: as the next date to try to reach Ceuta. It has since traveled a long way from those group chats. Two Spanish ministries, Moroccan security forces and diplomats from both governments are now treating it as […] The post What to know about the Sept. 23 push to cross into Ceuta appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-22T12:00:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
