@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-23T04:52:11Z",
+  "generatedAt": "2026-09-23T11:47:50Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,79 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-donald-trump-signe-l-onu-un-accord-de-s-curit-avec-le-groenland-et-le-danemark",
-      "title": "Donald Trump signe à l'ONU un accord de sécurité avec le Groenland et le Danemark",
-      "link": "https://fr.hespress.com/489500-donald-trump-signe-a-lonu-un-accord-de-securite-avec-le-groenland-et-le-danemark.html",
-      "description": "Le président américain, Donald Trump, a signé mardi au siège de l’ONU à New York, un accord de sécurité avec le Groenland et le Danemark conférant aux Etats-Unis un « contrôle permanent » de la sécurité du territoire arctique. L’accord tripartite a été signé par Trump lors d’une cérémonie en marge de la 81e session de l’Assemblée […] The post Donald Trump signe à l'ONU un accord de sécurité avec le Groenland et le Danemark appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "dgssi-68682309-26-vuln-rabilit-critique-affectant-f5-big-ip-apm",
+      "title": "68682309/26 - Vulnérabilité critique affectant F5 BIG-IP APM",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-f5-big-ip-apm",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-23T11:47:48Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-le-maroc-candidat-un-si-ge-non-permanent-au-conseil-de-s-curit-pour-2028-2029",
+      "title": "Le Maroc candidat à un siège non-permanent au Conseil de sécurité pour 2028-2029",
+      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/le-maroc-candidat-a-un-siege-non-permanent-au-conseil-de-securite-pour-2028-2029/",
+      "description": "Nasser Bourita a annoncé, mardi à New York, la candidature du Royaume à un siège de membre non permanent du Conseil de sécurité des Nations Unies pour la période 2028-2029, à l'occasion du débat général de la 81e session de l'Assemblée générale de l'ONU. L’article Le Maroc candidat à un siège non-permanent au Conseil de sécurité pour 2028-2029 est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-23T11:05:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-le-maroc-candidat-un-si-ge-non-permanent-au-cs-de-l-onu-pour-la-p-riode-2028-29",
+      "title": "Le Maroc candidat à un siège non-permanent au CS de l'ONU pour la période 2028/29",
+      "link": "https://fr.hespress.com/489518-le-maroc-candidat-a-un-siege-non-permanent-au-cs-de-lonu-pour-la-periode-2028-29.html",
+      "description": "Le ministre des Affaires étrangères, de la Coopération africaine et des Marocains résidant à l’étranger, Nasser Bourita, a annoncé, mardi à New York, la candidature du Royaume du Maroc à un siège de membre non permanent au Conseil de sécurité des Nations Unies pour la période 2028-2029. Dans un discours au nom du Maroc au […] The post Le Maroc candidat à un siège non-permanent au CS de l'ONU pour la période 2028/29 appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-23T01:23:13Z",
+      "published": "2026-09-23T11:02:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-le-parquet-d-el-jadida-d-ment-le-r-cit-d-limination-d-un-candidat",
+      "title": "Le parquet d'El Jadida dément le récit d’\"élimination\" d’un candidat",
+      "link": "https://fr.hespress.com/489546-le-parquet-del-jadida-dement-le-recit-delimination-dun-candidat.html",
+      "description": "Le parquet près le tribunal de première instance d’El Jadida a démenti les informations diffusées sur les réseaux sociaux et certains sites électroniques faisant état de la prétendue « élimination » d’un candidat dans le cadre d’un différend électoral. Dans un communiqué publié ce mercredi, le procureur du Roi indique que les premiers résultats de […] The post Le parquet d'El Jadida dément le récit d’\"élimination\" d’un candidat appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-23T11:01:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-mercedes-benz-rappelle-plus-de-23-000-voitures-dans-le-monde",
+      "title": "Mercedes-Benz rappelle plus de 23.000 voitures dans le monde",
+      "link": "https://aujourdhui.ma/automobile/mercedes-benz-rappelle-plus-de-23-000-voitures-dans-le-monde",
+      "description": "Défaut Le constructeur automobile allemand Mercedes-Benz a rappelé 23.606 véhicules de son modèle SUV GLE dans le monde en raison d’un défaut susceptible d’entraîner une fuite de carburant et une perte de propulsion, selon l’Office fédéral allemand des véhicules automobiles (KBA). Le rappel concerne 6.772 véhicules en Allemagne et porte sur des modèles produits entre […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-23T10:35:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-rev-tement-de-sols-et-de-murs-worqbox-d-croche-la-certification-iso-9001-2015",
+      "title": "Revêtement de sols et de murs : Worqbox® décroche la certification ISO 9001 : 2015",
+      "link": "https://aujourdhui.ma/economie/revetement-de-sols-et-de-murs-worqbox-decroche-la-certification-iso-9001-2015",
+      "description": "Certification qualité Le Groupe Worqbox® obtient la certification ISO 9001 :2015 pour ses activités de revêtements de sols et de murs. Cette certification, délivrée par Tüv Nord CERT GmbH, vient consacrer le renforcement de l’organisation du groupe et de ses processus qualité. Elle témoigne ainsi d’une structuration engagée depuis plusieurs années, avec notamment la création d’un […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-23T09:52:55Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -53,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-onu-le-mod-le-traditionnel-de-s-curit-de-l-ia-est-en-train-de-s-effondrer",
-      "title": "ONU : le modèle traditionnel de sécurité de l’IA « est en train de s’effondrer »",
-      "link": "https://fr.hespress.com/489221-onu-le-modele-traditionnel-de-securite-de-lia-est-en-train-de-seffondrer.html",
-      "description": "Un comité scientifique indépendant mandaté par l’ONU alerte sur les limites actuelles de l’encadrement de l’intelligence artificielle. Selon ses experts, les systèmes d’IA progressent désormais plus rapidement que les dispositifs de sécurité censés les contrôler. Le modèle traditionnel de gestion des risques liés à l’intelligence artificielle « est en train de s’effondrer », avertit un […] The post ONU : le modèle traditionnel de sécurité de l’IA « est en train de s’effondrer » appeared first on",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-22T20:49:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-68672209-26-vuln-rabilit-critique-activement-exploit-e-affectant-veeam-backup",
       "title": "68672209/26 - Vulnérabilité critique activement exploitée affectant Veeam Backup &…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-veeam-backup-replication",
@@ -76,19 +128,6 @@
       "published": "2026-09-22T17:02:18Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-bank-al-maghrib-maintient-son-taux-directeur-inchang-2-25",
-      "title": "Bank Al-Maghrib maintient son taux directeur inchangé à 2,25%",
-      "link": "https://aujourdhui.ma/economie/bank-al-maghrib-maintient-son-taux-directeur-inchange-a-225-3",
-      "description": "Le Conseil de Bank Al-Maghrib (BAM), réuni mardi à Rabat, a décidé de maintenir le taux directeur inchangé à 2,25%. « Tenant compte de la forte incertitude pesant sur les perspectives économiques et au regard de l’évolution à moyen terme de l’inflation à des niveaux modérés et de la consolidation attendue de la dynamique de l’activité […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-22T14:02:51Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -303,19 +342,6 @@
       "id": "dgssi-68521709-26-vuln-rabilit-critique-dans-les-produits-check-point",
       "title": "68521709/26 - Vulnérabilité critique dans les produits Check Point",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-les-produits-check-point",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-17T17:06:58Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68511709-26-vuln-rabilit-s-dans-les-produits-jenkins",
-      "title": "68511709/26 - Vulnérabilités dans les produits Jenkins",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-jenkins-6",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
