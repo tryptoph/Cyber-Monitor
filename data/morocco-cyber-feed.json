@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-23T17:11:32Z",
+  "generatedAt": "2026-09-23T21:35:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-lections-2026-le-pjd-appelle-la-remise-des-proc-s-verbaux-des-bureaux-de-vote",
+      "title": "Élections 2026 : le PJD appelle à la remise des procès-verbaux des bureaux de vote",
+      "link": "https://fr.hespress.com/489669-elections-2026-le-pjd-appelle-a-la-remise-des-proces-verbaux-des-bureaux-de-vote.html",
+      "description": "Le Parti de la justice et du développement (PJD) a appelé les autorités à respecter la loi et à remettre les procès-verbaux des bureaux de vote, sur fond de plaintes faisant état de l’intention de certains présidents de bureaux de s’abstenir de les remettre. Dans un communiqué publié sur son site officiel, avant la fermeture […] The post Élections 2026 : le PJD appelle à la remise des procès-verbaux des bureaux de vote appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-23T20:04:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-industrie-automobile-le-maroc-devance-la-chine-et-le-mexique-sur-le-co-t-de-la-main-d-uvre",
+      "title": "Industrie automobile : le Maroc devance la Chine et le Mexique sur le coût de la main-d’œuvre",
+      "link": "https://fr.hespress.com/489367-industrie-automobile-le-maroc-devance-la-chine-et-le-mexique-sur-le-cout-de-la-main-doeuvre.html",
+      "description": "Dans une industrie automobile mondiale confrontée à la montée des coûts, à la concurrence chinoise et aux incertitudes entourant la transition vers l’électrique, le Maroc confirme son statut de plateforme industrielle de premier plan. Selon une étude du cabinet de conseil international Oliver Wyman, le Royaume affiche désormais le coût de main-d’œuvre par véhicule le […] The post Industrie automobile : le Maroc devance la Chine et le Mexique sur le coût de la main-d’œuvre appeared first on Hespr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-23T20:02:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68752309-26-mise-jour-de-s-curit-pour-le-cms-wordpress",
       "title": "68752309/26 - Mise à jour de sécurité pour le CMS WordPress",
@@ -139,32 +165,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-23T11:05:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-mercedes-benz-rappelle-plus-de-23-000-voitures-dans-le-monde",
-      "title": "Mercedes-Benz rappelle plus de 23.000 voitures dans le monde",
-      "link": "https://aujourdhui.ma/automobile/mercedes-benz-rappelle-plus-de-23-000-voitures-dans-le-monde",
-      "description": "Défaut Le constructeur automobile allemand Mercedes-Benz a rappelé 23.606 véhicules de son modèle SUV GLE dans le monde en raison d’un défaut susceptible d’entraîner une fuite de carburant et une perte de propulsion, selon l’Office fédéral allemand des véhicules automobiles (KBA). Le rappel concerne 6.772 véhicules en Allemagne et porte sur des modèles produits entre […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-23T10:35:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-takes-first-unga-seat-as-iran-ukraine-and-gulf-security-drive-the-week",
-      "title": "Morocco takes first UNGA seat as Iran, Ukraine and Gulf security drive the week",
-      "link": "https://en.hespress.com/145872-morocco-takes-first-unga-seat-as-iran-ukraine-and-gulf-security-drive-the-week.html",
-      "description": "Morocco occupies the first seat in the United Nations General Assembly Hall for its 81st session, putting its delegation at the front of the chamber during a week consumed by Iran, Gulf security, Ukraine and pressure on global energy markets. The session opened Sept. 8 and the General Debate began today. Morocco won the first […] The post Morocco takes first UNGA seat as Iran, Ukraine and Gulf security drive the week appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-22T21:58:24Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
