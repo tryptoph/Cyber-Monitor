@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-22T21:25:27Z",
+  "generatedAt": "2026-09-23T04:52:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-donald-trump-signe-l-onu-un-accord-de-s-curit-avec-le-groenland-et-le-danemark",
+      "title": "Donald Trump signe à l'ONU un accord de sécurité avec le Groenland et le Danemark",
+      "link": "https://fr.hespress.com/489500-donald-trump-signe-a-lonu-un-accord-de-securite-avec-le-groenland-et-le-danemark.html",
+      "description": "Le président américain, Donald Trump, a signé mardi au siège de l’ONU à New York, un accord de sécurité avec le Groenland et le Danemark conférant aux Etats-Unis un « contrôle permanent » de la sécurité du territoire arctique. L’accord tripartite a été signé par Trump lors d’une cérémonie en marge de la 81e session de l’Assemblée […] The post Donald Trump signe à l'ONU un accord de sécurité avec le Groenland et le Danemark appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-23T01:23:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-takes-first-unga-seat-as-iran-ukraine-and-gulf-security-drive-the-week",
+      "title": "Morocco takes first UNGA seat as Iran, Ukraine and Gulf security drive the week",
+      "link": "https://en.hespress.com/145872-morocco-takes-first-unga-seat-as-iran-ukraine-and-gulf-security-drive-the-week.html",
+      "description": "Morocco occupies the first seat in the United Nations General Assembly Hall for its 81st session, putting its delegation at the front of the chamber during a week consumed by Iran, Gulf security, Ukraine and pressure on global energy markets. The session opened Sept. 8 and the General Debate began today. Morocco won the first […] The post Morocco takes first UNGA seat as Iran, Ukraine and Gulf security drive the week appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-22T21:58:24Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-trump-signs-security-deal-with-greenland-denmark-at-un",
+      "title": "Trump signs security deal with Greenland, Denmark at UN",
+      "link": "https://en.hespress.com/145873-trump-signs-security-deal-with-greenland-denmark-at-un.html",
+      "description": "US President Donald Trump signed a security deal Tuesday with the leaders of Greenland and Denmark, cooling temperatures after his contentious calls to acquire the autonomous Danish territory. “It’s going to be a long-term, fantastic relationship,” Trump said at a signing ceremony on the sidelines of the UN General Assembly in New York. “This is […] The post Trump signs security deal with Greenland, Denmark at UN appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-22T21:50:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-onu-le-mod-le-traditionnel-de-s-curit-de-l-ia-est-en-train-de-s-effondrer",
       "title": "ONU : le modèle traditionnel de sécurité de l’IA « est en train de s’effondrer »",
       "link": "https://fr.hespress.com/489221-onu-le-modele-traditionnel-de-securite-de-lia-est-en-train-de-seffondrer.html",
@@ -22,19 +61,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-09-22T20:49:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-fmi-dresse-un-constat-alarmant-sur-les-quilibres-macro-conomiques-de-l-alg-rie",
-      "title": "Le FMI dresse un constat alarmant sur les équilibres macroéconomiques de l'Algérie",
-      "link": "https://fr.hespress.com/489428-le-fmi-dresse-un-constat-alarmant-sur-les-equilibres-macroeconomiques-de-lalgerie.html",
-      "description": "Déficits qui s’enkystent, dette qui s’envole, réserves de change qui fondent de plus de moitié d’ici 2031 : le diagnostic du FMI sur l’Algérie ne laisse guère de place à l’optimisme. Derrière la façade d’une croissance qui tient en apparence, l’institution décrit une économie qui vit à crédit et consume ses derniers filets de sécurité. […] The post Le FMI dresse un constat alarmant sur les équilibres macroéconomiques de l'Algérie appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-22T18:30:56Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -50,32 +76,6 @@
       "published": "2026-09-22T17:02:18Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-s-central-bank-maintains-key-rate-unchanged-at-2-25",
-      "title": "Morocco's central bank maintains key rate unchanged at 2.25%",
-      "link": "https://en.hespress.com/145855-moroccos-central-bank-maintains-key-rate-unchanged-at-2-25.html",
-      "description": "The Board of Morocco’s Central Bank, Bank Al-Maghrib (BAM), meeting Tuesday in Rabat, convened to keep the key interest rate unchanged at 2.25%. “Taking into account the very high level of uncertainty surrounding the economic outlook, and in and in view of the medium-term evolution of inflation at moderate levels and the expected consolidation of […] The post Morocco's central bank maintains key rate unchanged at 2.25% appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-22T15:25:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-bank-al-maghrib-keeps-rates-steady-what-its-latest-outlook-says-about-morocco-s-economy",
-      "title": "Bank Al-Maghrib keeps rates steady: What its latest outlook says about Morocco’s economy",
-      "link": "https://en.hespress.com/145846-bank-al-maghrib-keeps-rates-steady-what-its-latest-outlook-says-about-moroccos-economy.html",
-      "description": "Morocco’s central bank held its benchmark interest rate steady at 2.25% on Tuesday, citing contained inflation and a global economic backdrop the bank’s council described as facing persistently elevated uncertainty. The rate decision Bank Al-Maghrib’s council, meeting for the third quarter of 2026, kept its key rate unchanged, judging the move appropriate given two factors: […] The post Bank Al-Maghrib keeps rates steady: What its latest outlook says about Morocco’s economy appeared first on HES",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-22T14:23:50Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -152,19 +152,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-21T19:07:17Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-maroc-ccg-bourita-appelle-renforcer-la-r-ponse-internationale-face-aux-groupes-arm-s-non-tatique",
-      "title": "Maroc-CCG: Bourita appelle à renforcer la réponse internationale face aux groupes armés non-étatiques",
-      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/maroc-ccg-bourita-appelle-a-renforcer-la-reponse-internationale-face-aux-groupes-armes-non-etatiques/",
-      "description": "Intervenant lors d'une rencontre organisée en marge de la 81e session de l’Assemblée générale de l’ONU, le ministre des Affaires étrangères a condamné les actes criminels des milices houthies qui ciblent l’Arabie Saoudite et des attaques iraniennes ciblant la sécurité et la stabilité des pays du CCG. L’article Maroc-CCG: Bourita appelle à renforcer la réponse internationale face aux groupes armés non-étatiques est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-21T14:57:31Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
