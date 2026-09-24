@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-24T17:17:56Z",
+  "generatedAt": "2026-09-24T21:35:43Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-onu-les-patrons-d-openai-et-d-anthropic-appellent-encadrer-l-ia-sans-tomber-dans-le-catastrophis",
+      "title": "ONU : les patrons d’OpenAI et d’Anthropic appellent à encadrer l’IA sans tomber dans le catastrophisme",
+      "link": "https://fr.hespress.com/489756-onu-les-patrons-dopenai-et-danthropic-appellent-a-encadrer-lia-sans-tomber-dans-le-catastrophisme.html",
+      "description": "Devant le Conseil de sécurité de l’ONU, Sam Altman et Dario Amodei ont plaidé pour davantage de vigilance face aux risques liés à l’intelligence artificielle, tout en appelant à éviter aussi bien l’optimisme aveugle que le catastrophisme. Les dirigeants de plusieurs grandes entreprises de l’intelligence artificielle ont appelé mercredi à une vigilance accrue face au […] The post ONU : les patrons d’OpenAI et d’Anthropic appellent à encadrer l’IA sans tomber dans le catastrophisme appeared first ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-24T18:16:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68802409-26-vuln-rabilit-critique-affectant-arista-velocloud-orchestrator-on-prem",
       "title": "68802409/26 - Vulnérabilité critique affectant Arista VeloCloud Orchestrator On-Prem",
