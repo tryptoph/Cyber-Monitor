@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-24T05:00:35Z",
+  "generatedAt": "2026-09-24T11:56:10Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-cr-ation-d-entreprises-casablanca-settat-concentre-pr-s-de-quatre-immatriculations-sur-dix",
-      "title": "Création d’entreprises : Casablanca-Settat concentre près de quatre immatriculations sur dix",
-      "link": "https://fr.hespress.com/487884-creation-dentreprises-casablanca-settat-concentre-pres-de-quatre-immatriculations-sur-dix.html",
-      "description": "La dynamique entrepreneuriale s’est maintenue au Maroc durant les six premiers mois de 2026. Selon les données publiées par l’Office marocain de la propriété industrielle et commerciale (OMPIC), 51.805 nouvelles entreprises ont été immatriculées au registre du commerce entre janvier et juin, confirmant l’attractivité persistante de certaines régions et de secteurs d’activité clés de l’économie […] The post Création d’entreprises : Casablanca-Settat concentre près de quatre immatriculations sur d",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "aujourdhui-cybers-curit-665-futurs-ing-nieurs-de-l-emsi-mis-l-preuve-d-une-crise-cyber-grandeur-nature",
+      "title": "Cybersécurité : 665 futurs ingénieurs de l’EMSI mis à l’épreuve d’une crise cyber grandeur nature",
+      "link": "https://aujourdhui.ma/emploi/cybersecurite-665-futurs-ingenieurs-de-lemsi-mis-a-lepreuve-dune-crise-cyber-grandeur-nature",
+      "description": "Simulation. Pendant trois jours du 23 au 25 septembre, 665 étudiants du parcours Cybersécurité de l’EMSI ont été plongés simultanément dans une même crise cyber depuis Casablanca, Rabat, Marrakech et Tanger. Conçu avec Cybersup, école parisienne spécialisée dans les métiers de la cybersécurité, cet exercice immersif rapproche les apprentissages académiques des réalités opérationnelles de la […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
       "category": "morocco",
-      "published": "2026-09-23T23:58:27Z",
+      "published": "2026-09-24T11:17:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-un-r-cent-rapport-propose-une-s-rie-d-actions-l-ires-braque-les-projecteurs-sur-la-d-gradation-d",
+      "title": "Un récent rapport propose une série d’actions: L’IRES braque les projecteurs sur la dégradation des sols",
+      "link": "https://aujourdhui.ma/economie/un-recent-rapport-propose-une-serie-dactions-lires-braque-les-projecteurs-sur-la-degradation-des-sols",
+      "description": "Recommandations. Le rapport défend une approche intégrée de la protection des sols, fondée sur une meilleure gouvernance, une connaissance renforcée des territoires, des interventions adaptées aux différents milieux et des financements inscrits dans la durée. Il s’agit de faire de la préservation des sols un pilier stratégique de sécurité alimentaire, hydrique, écologique et territoriale. La […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-09-24T10:59:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إيران تهدد بالتوسيع الجغرافي للنزاع",
+      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d9%87%d8%af%d8%af-%d8%a8%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d8%ac%d8%ba%d8%b1%d8%a7%d9%81%d9%8a-%d9%84%d9%84%d9%86%d8%b2%d8%a7%d8%b9-1812791.html",
+      "description": "حذّر مستشار للمرشد الأعلى الإيراني مجتبى خامنئي، الخميس، من أن أية هجمات أخرى تشنها الولايات المتحدة وإسرائيل على إيران قد تؤدي إلى توسع جغرافي للنزاع “حتى المحيط الهندي”. وقال يحيى رحيم صفوي، في مقطع مصور بثته وكالة أنباء فارس: “مع امتداد النزاع الآن من الخليج الفارسي ومضيق هرمز إلى البحر الأحمر، فمن المحتمل أن يتسع […] The post إيران تهدد بالتوسيع الجغرافي للنزاع appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-24T09:33:50Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
