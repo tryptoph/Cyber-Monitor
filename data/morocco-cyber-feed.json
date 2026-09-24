@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-23T21:35:06Z",
+  "generatedAt": "2026-09-24T05:00:35Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-lections-2026-le-pjd-appelle-la-remise-des-proc-s-verbaux-des-bureaux-de-vote",
-      "title": "Élections 2026 : le PJD appelle à la remise des procès-verbaux des bureaux de vote",
-      "link": "https://fr.hespress.com/489669-elections-2026-le-pjd-appelle-a-la-remise-des-proces-verbaux-des-bureaux-de-vote.html",
-      "description": "Le Parti de la justice et du développement (PJD) a appelé les autorités à respecter la loi et à remettre les procès-verbaux des bureaux de vote, sur fond de plaintes faisant état de l’intention de certains présidents de bureaux de s’abstenir de les remettre. Dans un communiqué publié sur son site officiel, avant la fermeture […] The post Élections 2026 : le PJD appelle à la remise des procès-verbaux des bureaux de vote appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-fr-cr-ation-d-entreprises-casablanca-settat-concentre-pr-s-de-quatre-immatriculations-sur-dix",
+      "title": "Création d’entreprises : Casablanca-Settat concentre près de quatre immatriculations sur dix",
+      "link": "https://fr.hespress.com/487884-creation-dentreprises-casablanca-settat-concentre-pres-de-quatre-immatriculations-sur-dix.html",
+      "description": "La dynamique entrepreneuriale s’est maintenue au Maroc durant les six premiers mois de 2026. Selon les données publiées par l’Office marocain de la propriété industrielle et commerciale (OMPIC), 51.805 nouvelles entreprises ont été immatriculées au registre du commerce entre janvier et juin, confirmant l’attractivité persistante de certaines régions et de secteurs d’activité clés de l’économie […] The post Création d’entreprises : Casablanca-Settat concentre près de quatre immatriculations sur d",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-23T20:04:16Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-industrie-automobile-le-maroc-devance-la-chine-et-le-mexique-sur-le-co-t-de-la-main-d-uvre",
-      "title": "Industrie automobile : le Maroc devance la Chine et le Mexique sur le coût de la main-d’œuvre",
-      "link": "https://fr.hespress.com/489367-industrie-automobile-le-maroc-devance-la-chine-et-le-mexique-sur-le-cout-de-la-main-doeuvre.html",
-      "description": "Dans une industrie automobile mondiale confrontée à la montée des coûts, à la concurrence chinoise et aux incertitudes entourant la transition vers l’électrique, le Maroc confirme son statut de plateforme industrielle de premier plan. Selon une étude du cabinet de conseil international Oliver Wyman, le Royaume affiche désormais le coût de main-d’œuvre par véhicule le […] The post Industrie automobile : le Maroc devance la Chine et le Mexique sur le coût de la main-d’œuvre appeared first on Hespr",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-23T20:02:10Z",
+      "published": "2026-09-23T23:58:27Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
