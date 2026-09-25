@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-25T17:18:16Z",
+  "generatedAt": "2026-09-25T21:39:57Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-moga-festival-c-l-bre-ses-10-ans-et-investit-essaouira-avec-un-programme-off-in-dit",
+      "title": "MOGA Festival célèbre ses 10 ans et investit Essaouira avec un programme OFF inédit",
+      "link": "https://fr.hespress.com/489982-moga-festival-celebre-ses-10-ans-et-investit-essaouira-avec-un-programme-off-inedit.html",
+      "description": "51 événements, 30 activités, 2 concerts, 18 lieux partenaires et un nouveau volet professionnel “Moga Academy”: en 2026, MOGA poursuit son ambition de faire d’Essaouira une destination culturelle vivante, bien au-delà du festival IN. Dix ans après sa création à Essaouira, MOGA Festival revient dans la ville qui l’a vu naître du 30 septembre au […] The post MOGA Festival célèbre ses 10 ans et investit Essaouira avec un programme OFF inédit appeared first on Hespress Français - Actualités du Maroc",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-25T19:32:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-bourita-met-en-avant-new-york-la-vision-royale-pour-un-sahel-plus-int-gr-et-prosp-re",
+      "title": "Bourita met en avant à New York la Vision Royale pour un Sahel plus intégré et prospère",
+      "link": "https://www.lavieeco.com/pouvoirs/bourita-met-en-avant-a-new-york-la-vision-royale-pour-un-sahel-plus-integre-et-prospere/",
+      "description": "Le ministre des Affaires étrangères a réaffirmé, vendredi à New York, l'engagement du Maroc aux côtés des pays du Sahel, portée par la Vision de Sa Majesté le Roi Mohammed VI en faveur de la sécurité, du développement et de la prospérité de la région. L’article Bourita met en avant à New York la Vision Royale pour un Sahel plus intégré et prospère est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-25T17:55:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68842509-26-groupe-cybercriminel-inc-ransom",
       "title": "68842509/26 - Groupe cybercriminel “ INC Ransom ”",
@@ -35,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-25T16:02:46Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-elections-le-pjd-d-nonce-certaines-pratiques-et-annonce-saisir-la-justice",
-      "title": "Elections : le PJD dénonce certaines pratiques et annonce saisir la justice",
-      "link": "https://fr.hespress.com/489933-elections-le-pjd-denonce-certaines-pratiques-et-annonce-saisir-la-justice.html",
-      "description": "Le Parti de la justice et du développement (PJD) estime avoir signé son retour sur la scène politique marocaine à l’issue des élections législatives du 23 septembre. Réuni en session extraordinaire, jeudi à Rabat, sous la présidence de son secrétaire général, Abdelilah Benkirane, le secrétariat général du parti a dressé une lecture largement positive des […] The post Elections : le PJD dénonce certaines pratiques et annonce saisir la justice appeared first on Hespress Français - Actualités du Ma",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-25T13:05:22Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
