@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-25T11:58:12Z",
+  "generatedAt": "2026-09-25T17:18:16Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68842509-26-groupe-cybercriminel-inc-ransom",
+      "title": "68842509/26 - Groupe cybercriminel “ INC Ransom ”",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/groupe-cybercriminel-inc-ransom",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-25T17:18:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-italy-bans-burqas-and-niqabs-in-schools-caps-some-non-italian-speaking-students-at-30",
+      "title": "Italy bans burqas and niqabs in schools, caps some non-Italian-speaking students at 30%",
+      "link": "https://en.hespress.com/146129-italy-bans-burqas-and-niqabs-in-schools-caps-some-non-italian-speaking-students-at-30.html",
+      "description": "Italy’s government has approved a decree banning burqas and niqabs in schools and limiting to 30% the share of students in certain classes who lack an adequate command of Italian. The cap will apply from the first year of primary school through middle and secondary school and is based on language proficiency rather than nationality, […] The post Italy bans burqas and niqabs in schools, caps some non-Italian-speaking students at 30% appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-25T16:02:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-elections-le-pjd-d-nonce-certaines-pratiques-et-annonce-saisir-la-justice",
+      "title": "Elections : le PJD dénonce certaines pratiques et annonce saisir la justice",
+      "link": "https://fr.hespress.com/489933-elections-le-pjd-denonce-certaines-pratiques-et-annonce-saisir-la-justice.html",
+      "description": "Le Parti de la justice et du développement (PJD) estime avoir signé son retour sur la scène politique marocaine à l’issue des élections législatives du 23 septembre. Réuni en session extraordinaire, jeudi à Rabat, sous la présidence de son secrétaire général, Abdelilah Benkirane, le secrétariat général du parti a dressé une lecture largement positive des […] The post Elections : le PJD dénonce certaines pratiques et annonce saisir la justice appeared first on Hespress Français - Actualités du Ma",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-25T13:05:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68822509-26-vuln-rabilit-s-dans-php",
       "title": "68822509/26 - Vulnérabilités dans PHP",
@@ -37,32 +76,6 @@
       "published": "2026-09-25T11:58:07Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-publicit-meta-applique-la-tva-au-maroc-d-s-octobre",
-      "title": "Publicité : Meta applique la TVA au Maroc dès octobre",
-      "link": "https://fr.hespress.com/489385-publicite-meta-applique-la-tva-au-maroc-des-octobre.html",
-      "description": "Les annonceurs marocains utilisant les services publicitaires de Meta devront composer avec une nouvelle règle de facturation à partir du 1er octobre 2026. Une TVA de 20 % sera appliquée selon les informations fiscales renseignées dans leurs comptes publicitaires. Les dépenses publicitaires effectuées sur Facebook et Instagram vont évoluer pour certains annonceurs au Maroc. Meta […] The post Publicité : Meta applique la TVA au Maroc dès octobre appeared first on Hespress Français - Actualités du",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-25T11:33:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-launches-2028-29-un-security-council-bid-as-sahara-talks-enter-sensitive-phase",
-      "title": "Morocco launches 2028-29 UN Security Council bid as Sahara talks enter sensitive phase",
-      "link": "https://en.hespress.com/146109-morocco-launches-2028-29-un-security-council-bid-as-sahara-talks-enter-sensitive-phase.html",
-      "description": "Morocco has formally announced its candidacy for a non-permanent seat on the United Nations Security Council for 2028-2029, a bid that would return the kingdom to the body for the first time since 2013 and place it directly inside the institution overseeing the UN process on the Sahara. Foreign Minister Nasser Bourita announced the candidacy […] The post Morocco launches 2028-29 UN Security Council bid as Sahara talks enter sensitive phase appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-25T11:05:25Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -277,19 +290,6 @@
       "id": "dgssi-68662209-26-purelogs-infostealer",
       "title": "68662209/26 - “ PureLogs ” Infostealer",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/purelogs-infostealer",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-22T11:47:54Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68652209-26-vuln-rabilit-critique-activement-exploit-e-affectant-roundcube-webmail",
-      "title": "68652209/26 - Vulnérabilité critique activement exploitée affectant Roundcube Webmail",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-roundcube-webmail",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
