@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-24T21:35:43Z",
+  "generatedAt": "2026-09-25T05:04:56Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-onu-les-patrons-d-openai-et-d-anthropic-appellent-encadrer-l-ia-sans-tomber-dans-le-catastrophis",
-      "title": "ONU : les patrons d’OpenAI et d’Anthropic appellent à encadrer l’IA sans tomber dans le catastrophisme",
-      "link": "https://fr.hespress.com/489756-onu-les-patrons-dopenai-et-danthropic-appellent-a-encadrer-lia-sans-tomber-dans-le-catastrophisme.html",
-      "description": "Devant le Conseil de sécurité de l’ONU, Sam Altman et Dario Amodei ont plaidé pour davantage de vigilance face aux risques liés à l’intelligence artificielle, tout en appelant à éviter aussi bien l’optimisme aveugle que le catastrophisme. Les dirigeants de plusieurs grandes entreprises de l’intelligence artificielle ont appelé mercredi à une vigilance accrue face au […] The post ONU : les patrons d’OpenAI et d’Anthropic appellent à encadrer l’IA sans tomber dans le catastrophisme appeared first ",
+      "id": "hespress-fr-la-narsa-d-ment-avoir-fait-pression-sur-les-entreprises-de-livraison",
+      "title": "La NARSA dément avoir fait pression sur les entreprises de livraison",
+      "link": "https://fr.hespress.com/489859-la-narsa-dement-avoir-fait-pression-sur-les-entreprises-de-livraison.html",
+      "description": "L’Agence nationale de la sécurité routière (NARSA) a démenti que son directeur général, Nasser Boulaajoul, ait évoqué un « durcissement de la pression » sur les entreprises de livraison de commandes afin d’améliorer les conditions de travail des conducteurs, précisant que les conditions de travail ne relèvent pas de ses attributions. Cette mise au point […] The post La NARSA dément avoir fait pression sur les entreprises de livraison appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-24T18:16:23Z",
+      "published": "2026-09-24T22:10:42Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
