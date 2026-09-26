@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-26T05:07:52Z",
+  "generatedAt": "2026-09-26T11:32:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "هل تعيد \"أمننة الهجرة\" في سبتة صياغة الشراكة المغربية الأوروبية؟",
-      "link": "https://www.hespress.com/%d9%87%d9%84-%d8%aa%d8%b9%d9%8a%d8%af-%d8%a3%d9%85%d9%86%d9%86%d8%a9-%d8%a7%d9%84%d9%87%d8%ac%d8%b1%d8%a9-%d9%81%d9%8a-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%b5%d9%8a%d8%a7%d8%ba%d8%a9-%d8%a7%d9%84%d8%b4-1813709.html",
-      "description": "لم يعد من الممكن قراءة أزمة سبتة الأخيرة باعتبارها مجرد حادثة مرتبطة بالهجرة غير النظامية أو بإدارة الحدود الأوروبية. فالقرار الذي اعتمده البرلمان الأوروبي في 17 شتنبر 2026، بشأن ما وصفه بـ”الهجمات الهجينة الأخيرة واستغلال المهاجرين في سبتة”، يكشف عن تحول أعمق في الطريقة التي يعيد بها الاتحاد الأوروبي تعريف العلاقة بين الهجرة والأمن والسيادة […] The post هل تعيد \"أمننة الهجرة\" في سبتة صياغة الشراكة المغربية الأوروبية؟ appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "lavieeco-conseil-de-s-curit-le-maroc-met-en-avant-sa-candidature-pour-2028-2029",
+      "title": "Conseil de sécurité : le Maroc met en avant sa candidature pour 2028-2029",
+      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/conseil-de-securite-le-maroc-met-en-avant-sa-candidature-pour-2028-2029/",
+      "description": "Candidat à un siège non permanent au Conseil de sécurité de l’ONU, le Maroc entend s’appuyer sur ses initiatives régionales et multilatérales. À New York, Nasser Bourita a présenté cette candidature comme le reflet de la place du Royaume sur la scène internationale. L’article Conseil de sécurité : le Maroc met en avant sa candidature pour 2028-2029 est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
       "category": "morocco",
-      "published": "2026-09-26T05:00:02Z",
+      "published": "2026-09-26T10:57:22Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "اختتام قمة ترامب وشي.. احتفالات بارزة ومراسم فخمة وإنجازات \"متقشفة\"",
-      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d8%aa%d8%a7%d9%85-%d9%82%d9%85%d8%a9-%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%88%d8%b4%d9%8a-%d8%a7%d8%ad%d8%aa%d9%81%d8%a7%d9%84%d8%a7%d8%aa-%d8%a8%d8%a7%d8%b1%d8%b2%d8%a9-%d9%88%d9%85-1813529.html",
-      "description": "اصطحب الرئيس الأميركي دونالد ترامب نظيره الصيني شي جينبينغ للاطلاع على الوثائق التأسيسية للديمقراطية الأميركية الجمعة، في ختام زيارة رسمية اتسمت بمراسم فخمة واحتفالات بارزة، لكنها خلت من أي اختراقات جوهرية. وصرح ترامب بأنه ناقش مع شي ملف إيران الشائك، وأكد الزعيمان أنهما سيعقدان لقاءين إضافيين هذا العام على هامش قمتين دوليتين في كل من […] The post اختتام قمة ترامب وشي.. احتفالات بارزة ومراسم فخمة وإنجازات \"متقشفة\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "lavieeco-bourita-un-signal-fort-la-veille-des-r-unions-du-conseil-de-s-curit-sur-le-sahara",
+      "title": "Bourita : Un « signal fort » à la veille des réunions du Conseil de sécurité sur le Sahara",
+      "link": "https://www.lavieeco.com/pouvoirs/bourita-un-signal-fort-a-la-veille-des-reunions-du-conseil-de-securite-sur-le-sahara/",
+      "description": "Le ministre a estimé que le soutien international croissant à la marocanité du Sahara envoie un message clair avant les échéances onusiennes du mois prochain. L’article Bourita : Un « signal fort » à la veille des réunions du Conseil de sécurité sur le Sahara est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
       "category": "morocco",
-      "published": "2026-09-26T00:00:01Z",
+      "published": "2026-09-26T10:06:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-bourita-la-candidature-du-maroc-au-conseil-de-s-curit-refl-te-le-poids-du-royaume-en-tant-qu-act",
+      "title": "Bourita : La candidature du Maroc au Conseil de sécurité reflète le poids du Royaume en tant qu’acteur international agissant",
+      "link": "https://fr.hespress.com/490020-bourita-la-candidature-du-maroc-au-conseil-de-securite-reflete-le-poids-du-royaume-en-tant-quacteur-international-agissant.html",
+      "description": "La candidature du Maroc à un siège non permanent au Conseil de sécurité de l’ONU pour la période 2028-2029 reflète le poids et la place du Royaume en tant qu’acteur agissant et crédible au niveau régional et international, a affirmé, vendredi à New York, le ministre des Affaires étrangères, de la Coopération africaine et des […] The post Bourita : La candidature du Maroc au Conseil de sécurité reflète le poids du Royaume en tant qu’acteur international agissant appeared first on Hespress Françai",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-26T08:21:27Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -180,19 +193,6 @@
       "published": "2026-09-24T17:17:54Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-l-gislatives-le-pam-n-a-pas-de-lignes-rouges-concernant-les-alliances",
-      "title": "Législatives : Le PAM n’a pas de « lignes rouges » concernant les alliances",
-      "link": "https://www.lavieeco.com/pouvoirs/legislatives-le-pam-na-pas-de-lignes-rouges-concernant-les-alliances/",
-      "description": "Arrivé en tête des législatives avec 97 sièges selon les résultats provisoires, le PAM se dit ouvert à l'ensemble des formations nationales. Sa coordinatrice, Fatima Zahra El Mansouri, met en avant le dialogue et la concertation. L’article Législatives : Le PAM n’a pas de « lignes rouges » concernant les alliances est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-24T15:26:50Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
