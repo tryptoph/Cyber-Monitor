@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-25T21:39:57Z",
+  "generatedAt": "2026-09-26T05:07:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-moga-festival-c-l-bre-ses-10-ans-et-investit-essaouira-avec-un-programme-off-in-dit",
-      "title": "MOGA Festival célèbre ses 10 ans et investit Essaouira avec un programme OFF inédit",
-      "link": "https://fr.hespress.com/489982-moga-festival-celebre-ses-10-ans-et-investit-essaouira-avec-un-programme-off-inedit.html",
-      "description": "51 événements, 30 activités, 2 concerts, 18 lieux partenaires et un nouveau volet professionnel “Moga Academy”: en 2026, MOGA poursuit son ambition de faire d’Essaouira une destination culturelle vivante, bien au-delà du festival IN. Dix ans après sa création à Essaouira, MOGA Festival revient dans la ville qui l’a vu naître du 30 septembre au […] The post MOGA Festival célèbre ses 10 ans et investit Essaouira avec un programme OFF inédit appeared first on Hespress Français - Actualités du Maroc",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-item",
+      "title": "هل تعيد \"أمننة الهجرة\" في سبتة صياغة الشراكة المغربية الأوروبية؟",
+      "link": "https://www.hespress.com/%d9%87%d9%84-%d8%aa%d8%b9%d9%8a%d8%af-%d8%a3%d9%85%d9%86%d9%86%d8%a9-%d8%a7%d9%84%d9%87%d8%ac%d8%b1%d8%a9-%d9%81%d9%8a-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%b5%d9%8a%d8%a7%d8%ba%d8%a9-%d8%a7%d9%84%d8%b4-1813709.html",
+      "description": "لم يعد من الممكن قراءة أزمة سبتة الأخيرة باعتبارها مجرد حادثة مرتبطة بالهجرة غير النظامية أو بإدارة الحدود الأوروبية. فالقرار الذي اعتمده البرلمان الأوروبي في 17 شتنبر 2026، بشأن ما وصفه بـ”الهجمات الهجينة الأخيرة واستغلال المهاجرين في سبتة”، يكشف عن تحول أعمق في الطريقة التي يعيد بها الاتحاد الأوروبي تعريف العلاقة بين الهجرة والأمن والسيادة […] The post هل تعيد \"أمننة الهجرة\" في سبتة صياغة الشراكة المغربية الأوروبية؟ appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-09-25T19:32:16Z",
+      "published": "2026-09-26T05:00:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "اختتام قمة ترامب وشي.. احتفالات بارزة ومراسم فخمة وإنجازات \"متقشفة\"",
+      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d8%aa%d8%a7%d9%85-%d9%82%d9%85%d8%a9-%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%88%d8%b4%d9%8a-%d8%a7%d8%ad%d8%aa%d9%81%d8%a7%d9%84%d8%a7%d8%aa-%d8%a8%d8%a7%d8%b1%d8%b2%d8%a9-%d9%88%d9%85-1813529.html",
+      "description": "اصطحب الرئيس الأميركي دونالد ترامب نظيره الصيني شي جينبينغ للاطلاع على الوثائق التأسيسية للديمقراطية الأميركية الجمعة، في ختام زيارة رسمية اتسمت بمراسم فخمة واحتفالات بارزة، لكنها خلت من أي اختراقات جوهرية. وصرح ترامب بأنه ناقش مع شي ملف إيران الشائك، وأكد الزعيمان أنهما سيعقدان لقاءين إضافيين هذا العام على هامش قمتين دوليتين في كل من […] The post اختتام قمة ترامب وشي.. احتفالات بارزة ومراسم فخمة وإنجازات \"متقشفة\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-26T00:00:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-new-york-fm-highlights-royal-vision-for-a-more-integrated-resilient-prosperous-sahel",
+      "title": "New York: FM highlights royal vision for a more integrated, resilient & prosperous Sahel",
+      "link": "https://en.hespress.com/146154-new-york-fm-highlights-royal-vision-for-a-more-integrated-resilient-prosperous-sahel.html",
+      "description": "Minister of Foreign Affairs, African Cooperation and Moroccan Expatriates, Nasser Bourita, highlighted on Friday in New York the Vision of His Majesty King Mohammed VI to support Sahel countries in their efforts to promote security, development and prosperity. Speaking at a high-level event on “Security and Development in the Sahel”, held on the sidelines of […] The post New York: FM highlights royal vision for a more integrated, resilient & prosperous Sahel appeared first on HESPRESS English - ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-25T22:19:59Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -50,19 +76,6 @@
       "published": "2026-09-25T17:18:14Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-italy-bans-burqas-and-niqabs-in-schools-caps-some-non-italian-speaking-students-at-30",
-      "title": "Italy bans burqas and niqabs in schools, caps some non-Italian-speaking students at 30%",
-      "link": "https://en.hespress.com/146129-italy-bans-burqas-and-niqabs-in-schools-caps-some-non-italian-speaking-students-at-30.html",
-      "description": "Italy’s government has approved a decree banning burqas and niqabs in schools and limiting to 30% the share of students in certain classes who lack an adequate command of Italian. The cap will apply from the first year of primary school through middle and secondary school and is based on language proficiency rather than nationality, […] The post Italy bans burqas and niqabs in schools, caps some non-Italian-speaking students at 30% appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-25T16:02:46Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
