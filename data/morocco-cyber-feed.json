@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-26T16:30:00Z",
+  "generatedAt": "2026-09-26T21:16:29Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-a-paris-le-pape-plaide-pour-vivre-ensemble-dans-la-dignit",
-      "title": "A Paris, le pape plaide pour \"vivre ensemble dans la dignité\"",
-      "link": "https://fr.hespress.com/490037-a-paris-le-pape-plaide-pour-vivre-ensemble-dans-la-dignite.html",
-      "description": "Quelque 600.000 fidèles sont attendus samedi à Paris sous haute sécurité pour la messe géante présidée par le pape Léon XIV, qui a plaidé pour « vivre ensemble dans la dignité et la paix » en rencontrant des personnes migrantes au début de sa deuxième journée de visite en France. « L’histoire de l’Église et de l’humanité (…) […] The post A Paris, le pape plaide pour \"vivre ensemble dans la dignité\" appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-26T13:50:36Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-woman-arrested-after-fatal-hit-and-run-kills-casablanca-police-officer",
-      "title": "Woman arrested after fatal hit-and-run kills Casablanca police officer",
-      "link": "https://en.hespress.com/146172-woman-arrested-after-fatal-hit-and-run-kills-casablanca-police-officer.html",
-      "description": "Moroccan police arrested a woman Saturday suspected of causing a fatal hit-and-run that killed a police officer while he was on duty in Casablanca, authorities said. The officer, a police guard assigned to the Anfa security district, was conducting traffic-control operations when a speeding car struck him and fled the scene, according to preliminary findings […] The post Woman arrested after fatal hit-and-run kills Casablanca police officer appeared first on HESPRESS English - Morocco News .",
+      "id": "hespress-en-morocco-arrests-libyan-national-wanted-by-interpol",
+      "title": "Morocco arrests Libyan national wanted by Interpol",
+      "link": "https://en.hespress.com/146198-morocco-arrests-libyan-national-wanted-by-interpol.html",
+      "description": "Moroccan authorities on Saturday referred a 66-year-old Libyan national to prosecutors after arresting him in Bouznika under an international warrant issued by Libyan judicial authorities, Morocco’s General Directorate of National Security said. The man was arrested following security coordination between police in Bouznika and the Royal Gendarmerie in Mansouria. An identity check showed that he […] The post Morocco arrests Libyan national wanted by Interpol appeared first on HESPRESS English - ",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-09-26T13:27:24Z",
+      "published": "2026-09-26T18:29:07Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
