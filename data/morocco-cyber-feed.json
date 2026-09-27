@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-27T12:11:34Z",
+  "generatedAt": "2026-09-27T17:03:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,53 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-4",
-      "title": "تسريب بيانات 4 ملايين عسكري أميركي",
-      "link": "https://www.hespress.com/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-4-%d9%85%d9%84%d8%a7%d9%8a%d9%8a%d9%86-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a-%d8%a3%d9%85%d9%8a%d8%b1%d9%83%d9%8a-1814246.html",
-      "description": "تعرضت وزارة الدفاع الأميركية «البنتاغون» لاختراق إلكتروني أدى إلى تسريب بيانات شخصية ووظيفية تخص نحو 4 ملايين عسكري حالي وسابق، وفق ما أفادت به شبكة «سي إن إن»، في حادثة واسعة النطاق تمس معلومات مرتبطة بأفراد خدموا في القوات المسلحة الأميركية أو ما زالوا في الخدمة. وتشمل البيانات التي طالها الاختراق معلومات شخصية ووظيفية للعسكريين […] The post تسريب بيانات 4 ملايين عسكري أميركي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-27T09:33:16Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-quels-scenarios-m-ritons-nous-la-suite-des-r-sultats-pr-liminaires-du-scrutin-du-23-septembre",
-      "title": "Quels scenarios méritons nous à la suite des résultats préliminaires du scrutin du 23 septembre",
-      "link": "https://fr.hespress.com/489924-quels-scenarios-meritons-nous-a-la-suite-des-resultats-preliminaires-du-scrutin-du-23-septembre.html",
-      "description": "Suite à la proclamation des résultats préliminaires du scrutin électoral législatif du 23 septembre, certains citoyens s’interrogent à juste titre pourquoi le nombre de sièges proclamés par le ministère de l’Intérieur pour certains partis politiques ne reflète pas le nombre en valeur absolue des voix obtenues dans les urnes lors du scrutin?. La réponse réside […] The post Quels scenarios méritons nous à la suite des résultats préliminaires du scrutin du 23 septembre appeared first on Hespress Fr",
+      "id": "hespress-fr-bulletins-saisis-tanger-mounir-limouri-d-ment-toute-fuite-vers-l-espagne",
+      "title": "Bulletins saisis à Tanger : Mounir Limouri dément toute fuite vers l’Espagne",
+      "link": "https://fr.hespress.com/490201-bulletins-saisis-a-tanger-mounir-limouri-dement-toute-fuite-vers-lespagne.html",
+      "description": "Après la vive controverse suscitée par le départ du maire de Tanger, Mounir Limouri, vers l’Espagne, et les rumeurs faisant état d’une supposée « fuite » destinée à lui éviter de comparaître devant la justice dans le cadre de l’enquête en cours sur les présumées irrégularités électorales, l’intéressé a démenti ces informations, assurant qu’il regagnerait […] The post Bulletins saisis à Tanger : Mounir Limouri dément toute fuite vers l’Espagne appeared first on Hespress Français - Actualités du M",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-27T08:21:14Z",
+      "published": "2026-09-27T13:22:58Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-en-un-refugee-chief-warns-conditions-worsening-for-sahrawi-refugees-in-tindouf",
-      "title": "UN refugee chief warns conditions worsening for Sahrawi refugees in Tindouf",
-      "link": "https://en.hespress.com/146212-un-refugee-chief-warns-conditions-worsening-for-sahrawi-refugees-in-tindouf.html",
-      "description": "United Nations High Commissioner for Refugees Barham Salih warned Friday that conditions for Sahrawi refugees in and around Tindouf, Algeria, are deteriorating, saying humanitarian needs remain significantly underfunded after more than five decades of displacement. Addressing the U.N. Security Council, Salih said generations of Sahrawi refugees have grown up in Tindouf and nearby camps facing […] The post UN refugee chief warns conditions worsening for Sahrawi refugees in Tindouf appeared first ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
+      "id": "hespress-fr-royaume-uni-arrestations-suite-un-incident-majeur-pr-s-d-une-base-a-rienne",
+      "title": "Royaume-Uni : arrestations suite à \"un incident majeur\" près d’une base aérienne",
+      "link": "https://fr.hespress.com/490193-royaume-uni-arrestations-suite-a-un-incident-majeur-pres-dune-base-aerienne.html",
+      "description": "La police britannique a déclaré dimanche un « incident majeur » dans le village de Whelford, dans le sud-ouest de l’Angleterre, près de la base aérienne de la Royal Air Force (RAF) de Fairford, entraînant l’évacuation de plusieurs habitations et l’arrestation de plusieurs hommes. « Un certain nombre de propriétés sont actuellement évacuées dans le secteur de Whelford […] The post Royaume-Uni : arrestations suite à \"un incident majeur\" près d’une base aérienne appeared first on Hespress Français ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-26T23:03:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-arrests-libyan-national-wanted-by-interpol",
-      "title": "Morocco arrests Libyan national wanted by Interpol",
-      "link": "https://en.hespress.com/146198-morocco-arrests-libyan-national-wanted-by-interpol.html",
-      "description": "Moroccan authorities on Saturday referred a 66-year-old Libyan national to prosecutors after arresting him in Bouznika under an international warrant issued by Libyan judicial authorities, Morocco’s General Directorate of National Security said. The man was arrested following security coordination between police in Bouznika and the Royal Gendarmerie in Mansouria. An identity check showed that he […] The post Morocco arrests Libyan national wanted by Interpol appeared first on HESPRESS English - ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-26T18:29:07Z",
+      "published": "2026-09-27T12:52:34Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -154,19 +128,6 @@
       "published": "2026-09-25T11:58:07Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-croissance-inflation-d-ficit-les-nouvelles-pr-visions-de-bam",
-      "title": "Croissance, inflation, déficit : Les nouvelles prévisions de BAM",
-      "link": "https://www.lavieeco.com/au-royaume/evenement/croissance-inflation-deficit-les-nouvelles-previsions-de-bam/",
-      "description": "Taux directeur inchangé à 2,25%, mais projections remaniées. Bank Al-Maghrib table désormais sur une croissance de 4,4% et une inflation de 0,7% en 2026, dans un contexte international toujours marqué par de fortes incertitudes. L’article Croissance, inflation, déficit : Les nouvelles prévisions de BAM est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-25T09:33:08Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
