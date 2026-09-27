@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-26T21:16:29Z",
+  "generatedAt": "2026-09-27T05:25:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-un-refugee-chief-warns-conditions-worsening-for-sahrawi-refugees-in-tindouf",
+      "title": "UN refugee chief warns conditions worsening for Sahrawi refugees in Tindouf",
+      "link": "https://en.hespress.com/146212-un-refugee-chief-warns-conditions-worsening-for-sahrawi-refugees-in-tindouf.html",
+      "description": "United Nations High Commissioner for Refugees Barham Salih warned Friday that conditions for Sahrawi refugees in and around Tindouf, Algeria, are deteriorating, saying humanitarian needs remain significantly underfunded after more than five decades of displacement. Addressing the U.N. Security Council, Salih said generations of Sahrawi refugees have grown up in Tindouf and nearby camps facing […] The post UN refugee chief warns conditions worsening for Sahrawi refugees in Tindouf appeared first ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-26T23:03:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-arrests-libyan-national-wanted-by-interpol",
       "title": "Morocco arrests Libyan national wanted by Interpol",
