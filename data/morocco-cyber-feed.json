@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-27T05:25:45Z",
+  "generatedAt": "2026-09-27T12:11:34Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-4",
+      "title": "تسريب بيانات 4 ملايين عسكري أميركي",
+      "link": "https://www.hespress.com/%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-4-%d9%85%d9%84%d8%a7%d9%8a%d9%8a%d9%86-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a-%d8%a3%d9%85%d9%8a%d8%b1%d9%83%d9%8a-1814246.html",
+      "description": "تعرضت وزارة الدفاع الأميركية «البنتاغون» لاختراق إلكتروني أدى إلى تسريب بيانات شخصية ووظيفية تخص نحو 4 ملايين عسكري حالي وسابق، وفق ما أفادت به شبكة «سي إن إن»، في حادثة واسعة النطاق تمس معلومات مرتبطة بأفراد خدموا في القوات المسلحة الأميركية أو ما زالوا في الخدمة. وتشمل البيانات التي طالها الاختراق معلومات شخصية ووظيفية للعسكريين […] The post تسريب بيانات 4 ملايين عسكري أميركي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-27T09:33:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-quels-scenarios-m-ritons-nous-la-suite-des-r-sultats-pr-liminaires-du-scrutin-du-23-septembre",
+      "title": "Quels scenarios méritons nous à la suite des résultats préliminaires du scrutin du 23 septembre",
+      "link": "https://fr.hespress.com/489924-quels-scenarios-meritons-nous-a-la-suite-des-resultats-preliminaires-du-scrutin-du-23-septembre.html",
+      "description": "Suite à la proclamation des résultats préliminaires du scrutin électoral législatif du 23 septembre, certains citoyens s’interrogent à juste titre pourquoi le nombre de sièges proclamés par le ministère de l’Intérieur pour certains partis politiques ne reflète pas le nombre en valeur absolue des voix obtenues dans les urnes lors du scrutin?. La réponse réside […] The post Quels scenarios méritons nous à la suite des résultats préliminaires du scrutin du 23 septembre appeared first on Hespress Fr",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-09-27T08:21:14Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-un-refugee-chief-warns-conditions-worsening-for-sahrawi-refugees-in-tindouf",
       "title": "UN refugee chief warns conditions worsening for Sahrawi refugees in Tindouf",
