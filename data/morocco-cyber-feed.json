@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-27T21:25:59Z",
+  "generatedAt": "2026-09-28T05:32:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-l-gislatives-2026-anciens-ministres-chefs-de-partis-et-d-put-s-ject-s-de-leurs-si-ges",
-      "title": "Législatives 2026 : anciens ministres, chefs de partis, et députés éjectés de leurs sièges",
-      "link": "https://fr.hespress.com/490058-legislatives-2026-anciens-ministres-chefs-de-partis-et-deputes-ejectes-de-leurs-sieges.html",
-      "description": "Les élections législatives du 23 septembre ont réservé leur lot de surprises. Si certains partis ont consolidé leurs positions, plusieurs figures bien établies de la vie politique marocaine ont, elles, été sanctionnées par les urnes. Anciens ministres, chefs de partis ou parlementaires de longue date n’ont pas réussi à conserver ou à conquérir un siège […] The post Législatives 2026 : anciens ministres, chefs de partis, et députés éjectés de leurs sièges appeared first on Hespress Français - Act",
+      "id": "hespress-fr-cybercriminalit-la-d-claration-d-abou-dhabi-appelle-une-riposte-globale",
+      "title": "Cybercriminalité : la Déclaration d'Abou Dhabi appelle à une riposte globale",
+      "link": "https://fr.hespress.com/490254-cybercriminalite-la-declaration-dabou-dhabi-appelle-a-une-riposte-globale.html",
+      "description": "Réunis dans la capitale émiratie à l’occasion du 15e Congrès des Nations Unies pour la prévention du crime et la justice pénale, les États membres ont adopté par acclamation, dès l’ouverture des travaux, la Déclaration d’Abou Dhabi. Ce texte d’orientation stratégique formalise un engagement international renforcé pour contrer les nouvelles menaces criminelles amplifiées par les […] The post Cybercriminalité : la Déclaration d'Abou Dhabi appelle à une riposte globale appeared first on Hespress Fr",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-27T19:35:39Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-alerte-m-t-o-averses-orageuses-avec-gr-le-et-rafales-de-vent-dimanche-dans-certaines-r-gions",
-      "title": "Alerte météo : averses orageuses avec grêle et rafales de vent dimanche dans certaines régions",
-      "link": "https://fr.hespress.com/490249-alerte-meteo-averses-orageuses-avec-grele-et-rafales-de-vent-dimanche-dans-certaines-regions.html",
-      "description": "La Direction générale de la météorologie (DGM), a annoncé des averses orageuses avec grêle et rafales de vent sous orages, attendues, dimanche, dans certaines provinces du Royaume. Dans un bulletin d’alerte de niveau de vigilance orange, la DGM précise que ces averses orageuses (20 à 30 mm) sont prévues dimanche de 13H00 à 22H00 dans […] The post Alerte météo : averses orageuses avec grêle et rafales de vent dimanche dans certaines régions appeared first on Hespress Français - Actualités du Maro",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-27T17:08:59Z",
+      "published": "2026-09-27T21:50:02Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
