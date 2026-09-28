@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-28T05:32:48Z",
+  "generatedAt": "2026-09-28T14:07:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-cybercriminalit-la-d-claration-d-abou-dhabi-appelle-une-riposte-globale",
-      "title": "Cybercriminalité : la Déclaration d'Abou Dhabi appelle à une riposte globale",
-      "link": "https://fr.hespress.com/490254-cybercriminalite-la-declaration-dabou-dhabi-appelle-a-une-riposte-globale.html",
-      "description": "Réunis dans la capitale émiratie à l’occasion du 15e Congrès des Nations Unies pour la prévention du crime et la justice pénale, les États membres ont adopté par acclamation, dès l’ouverture des travaux, la Déclaration d’Abou Dhabi. Ce texte d’orientation stratégique formalise un engagement international renforcé pour contrer les nouvelles menaces criminelles amplifiées par les […] The post Cybercriminalité : la Déclaration d'Abou Dhabi appelle à une riposte globale appeared first on Hespress Fr",
+      "id": "dgssi-68862809-26-vuln-rabilit-critique-activement-exploit-e-affectant-microsoft-sharepoint",
+      "title": "68862809/26 - Vulnérabilité critique activement exploitée affectant Microsoft SharePoint",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-microsoft-sharepoint",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-28T14:07:48Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68852809-26-vuln-rabilit-s-critiques-activement-exploit-es-zero-day-dans-citrix",
+      "title": "68852809/26 - Vulnérabilités critiques activement exploitées (zero-day) dans Citrix…",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-activement-exploitees-zero-day-dans-citrix-netscaler-adc-et",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-28T14:07:48Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-sahara-les-tractations-diplomatiques-s-intensifient-new-york-avant-le-conseil-de-s-curit",
+      "title": "Sahara : les tractations diplomatiques s’intensifient à New York avant le Conseil de sécurité",
+      "link": "https://fr.hespress.com/490302-sahara-les-tractations-diplomatiques-sintensifient-a-new-york-avant-le-conseil-de-securite.html",
+      "description": "Le dossier du Sahara connaît de nouveaux développements. Depuis New York, en marge des travaux de l’Assemblée générale de l’ONU, où les tractations diplomatiques s’intensifient, les rencontres se succèdent et témoignent d’une activité diplomatique renouvelée notamment au niveau marocain et algérien. Alors que le Conseil de sécurité s’apprête à examiner fin octobre le dossier du […] The post Sahara : les tractations diplomatiques s’intensifient à New York avant le Conseil de sécurité appeared fir",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-09-27T21:50:02Z",
+      "published": "2026-09-28T11:33:41Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -282,32 +308,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-23T11:47:48Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68672209-26-vuln-rabilit-critique-activement-exploit-e-affectant-veeam-backup",
-      "title": "68672209/26 - Vulnérabilité critique activement exploitée affectant Veeam Backup &…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-veeam-backup-replication",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-22T17:02:18Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68662209-26-purelogs-infostealer",
-      "title": "68662209/26 - “ PureLogs ” Infostealer",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/purelogs-infostealer",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-22T11:47:54Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
