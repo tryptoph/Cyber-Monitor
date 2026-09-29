@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-28T23:21:28Z",
+  "generatedAt": "2026-09-29T05:50:58Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -74,19 +74,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-09-28T22:16:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-un-v-hicule-force-les-barrages-du-poste-fronti-re-de-bab-sebta",
-      "title": "Un véhicule force les barrages du poste-frontière de Bab Sebta",
-      "link": "https://fr.hespress.com/490382-un-vehicule-force-les-barrages-du-poste-frontiere-de-bab-sebta.html",
-      "description": "Un important dispositif de sécurité a été déployé ce lundi matin au niveau du poste-frontière de Bab Sebta, suite au forçage spectaculaire des barrages de contrôle marocains et espagnols par un véhicule qui est parvenu à s’introduire dans le préside occupé sans que son conducteur ne puisse être intercepté sur le coup. Selon des sources […] The post Un véhicule force les barrages du poste-frontière de Bab Sebta appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-28T19:22:39Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
