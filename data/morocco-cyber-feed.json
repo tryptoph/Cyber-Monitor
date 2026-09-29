@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-29T05:50:58Z",
+  "generatedAt": "2026-09-29T13:02:40Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-68942909-26-malware-expiro",
+      "title": "68942909/26 - Malware Expiro",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/malware-expiro",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-29T13:02:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68912909-26-vuln-rabilit-critique-activement-exploit-e-affectant-plusieurs-produits",
+      "title": "68912909/26 - Vulnérabilité critique activement exploitée affectant plusieurs produits…",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-plusieurs-produits-dapple",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-29T13:02:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68932909-26-vuln-rabilit-critique-dans-postgresql",
+      "title": "68932909/26 - Vulnérabilité critique dans PostgreSQL",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-postgresql",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-29T13:02:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68922909-26-vuln-rabilit-s-dans-les-points-d-acc-s-watchguard",
+      "title": "68922909/26 - Vulnérabilités dans les points d’accès WatchGuard",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-points-dacces-watchguard",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-29T13:02:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68902909-26-vuln-rabilit-s-affectant-apache-tomcat",
+      "title": "68902909/26 - Vulnérabilités affectant Apache Tomcat",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-apache-tomcat-6",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-29T13:02:38Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "dgssi-68872809-26-vuln-rabilit-critique-affectant-zimbra-collaboration-suite",
       "title": "68872809/26 - Vulnérabilité critique affectant Zimbra Collaboration suite",
@@ -53,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-l-gislatives-2026-ces-20-circonscriptions-qui-ont-dessin-une-partie-du-rapport-de-forces",
-      "title": "Législatives 2026 : ces 20 circonscriptions qui ont dessiné une partie du rapport de forces",
-      "link": "https://fr.hespress.com/490399-legislatives-2026-ces-20-circonscriptions-qui-ont-dessine-une-partie-du-rapport-de-forces.html",
-      "description": "Les élections législatives du 23 septembre ont livré leur verdict national. Mais derrière les 395 sièges de la Chambre des représentants, certaines circonscriptions ont concentré une bataille électorale particulièrement serrée, avec deux sièges à pourvoir et des écarts parfois réduits entre les candidats arrivés en tête. Sur les 20 circonscriptions concernées, soit 40 sièges au […] The post Législatives 2026 : ces 20 circonscriptions qui ont dessiné une partie du rapport de forces appeared first",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-09-28T22:32:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-morocco-police-officer-detained-in-marrakech-over-suspected-rape",
       "title": "Morocco police officer detained in Marrakech over suspected rape",
       "link": "https://en.hespress.com/146309-morocco-police-officer-detained-in-marrakech-over-suspected-rape.html",
@@ -87,19 +139,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-09-28T18:43:05Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-chief-holds-separate-talks-with-algerian-mauritanian-foreign-ministers-in-new-york",
-      "title": "UN chief holds separate talks with Algerian, Mauritanian foreign ministers in New York",
-      "link": "https://en.hespress.com/146278-un-chief-holds-separate-talks-with-algerian-mauritanian-foreign-ministers-in-new-york.html",
-      "description": "UN Secretary-General António Guterres is scheduled to hold separate meetings Monday with Algerian Foreign Minister Ahmed Attaf and Mauritanian Foreign Minister Mohamed Salem Ould Merzoug on the sidelines of the UN General Assembly in New York. The talks come weeks before the Security Council is due to return to the Sahara in October, when members […] The post UN chief holds separate talks with Algerian, Mauritanian foreign ministers in New York appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-28T17:00:57Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -128,32 +167,6 @@
       "published": "2026-09-28T14:07:48Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-yango-ride-d-voile-son-rapport-s-curit-2024-2025",
-      "title": "Yango Ride dévoile son Rapport Sécurité 2024-2025",
-      "link": "https://www.lavieeco.com/comese/yango-ride-devoile-son-rapport-securite-2024-2025/",
-      "description": "Yango Ride, service de mobilité du groupe technologique international Yango Group, rend publics ce jour les résultats de son Rapport Sécurité 2024-2025. Le document détaille les technologies et les dispositifs d'assistance qui contribuent à sécuriser les trajets des passagers comme des chauffeurs partenaires, au Maroc comme dans l'ensemble des pays où le service opère. L’article Yango Ride dévoile son Rapport Sécurité 2024-2025 est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-26T12:16:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-conseil-de-s-curit-le-maroc-met-en-avant-sa-candidature-pour-2028-2029",
-      "title": "Conseil de sécurité : le Maroc met en avant sa candidature pour 2028-2029",
-      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/conseil-de-securite-le-maroc-met-en-avant-sa-candidature-pour-2028-2029/",
-      "description": "Candidat à un siège non permanent au Conseil de sécurité de l’ONU, le Maroc entend s’appuyer sur ses initiatives régionales et multilatérales. À New York, Nasser Bourita a présenté cette candidature comme le reflet de la place du Royaume sur la scène internationale. L’article Conseil de sécurité : le Maroc met en avant sa candidature pour 2028-2029 est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-26T10:57:22Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -256,71 +269,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-24T17:17:54Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68752309-26-mise-jour-de-s-curit-pour-le-cms-wordpress",
-      "title": "68752309/26 - Mise à jour de sécurité pour le CMS WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/mise-jour-de-securite-pour-le-cms-wordpress-4",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-23T17:11:30Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68712309-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
-      "title": "68712309/26 - Vulnérabilités affectant le navigateur Google Chrome",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-google-chrome-60",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-23T17:11:30Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68742309-26-vuln-rabilit-critique-dans-les-produits-check-point-activement-exploit-e",
-      "title": "68742309/26 - Vulnérabilité critique dans les produits Check Point activement exploitée",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-les-produits-check-point-activement-exploitee",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-23T17:11:30Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68732309-26-vuln-rabilit-s-dans-les-produits-nvidia",
-      "title": "68732309/26 - Vulnérabilités dans les produits NVIDIA",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-nvidia-10",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-23T17:11:30Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68722309-26-vuln-rabilit-s-critiques-dans-les-produits-adobe",
-      "title": "68722309/26 - Vulnérabilités critiques dans les produits Adobe",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-adobe-2",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-23T17:11:30Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
