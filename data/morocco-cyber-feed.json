@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-29T13:02:40Z",
+  "generatedAt": "2026-09-29T22:22:27Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,16 +14,55 @@
   ],
   "items": [
     {
-      "id": "dgssi-68942909-26-malware-expiro",
-      "title": "68942909/26 - Malware Expiro",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/malware-expiro",
+      "id": "dgssi-68962909-26-vuln-rabilit-s-dans-zoho-manageengine-ddi-central",
+      "title": "68962909/26 - Vulnérabilités dans Zoho ManageEngine DDI Central",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-zoho-manageengine-ddi-central",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
       "category": "official",
-      "published": "2026-09-29T13:02:38Z",
+      "published": "2026-09-29T22:22:24Z",
       "countryCode": "MA",
       "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-68942909-26-malware-expiro",
+      "title": "68942909/26 - Malware Expiro",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/malware-expiro-0",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-29T22:22:24Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "سوريا تعلن توقيف خلية لـ\"حزب الله\"",
+      "link": "https://www.hespress.com/%d8%b3%d9%88%d8%b1%d9%8a%d8%a7-%d8%aa%d8%b9%d9%84%d9%86-%d8%aa%d9%88%d9%82%d9%8a%d9%81-%d8%ae%d9%84%d9%8a%d8%a9-%d9%84%d9%80%d8%ad%d8%b2%d8%a8-%d8%a7%d9%84%d9%84%d9%87-1815565.html",
+      "description": "أعلنت السلطات السورية، الثلاثاء، اعتقال خلية قالت إنها تابعة لحزب الله في منطقة حوض اليرموك بمحافظة درعا، مشيرة إلى أن أفرادها كانوا يعملون على تجهيز منصات لإطلاق صواريخ بهدف تنفيذ هجمات. وقالت قوى الأمن الداخلي، في بيان نقله التلفزيون الرسمي السوري، إن جهاز الاستخبارات العامة أحبط بالتعاون معها “مخططا تخريبيا” في المنطقة، وألقى القبض على […] The post سوريا تعلن توقيف خلية لـ\"حزب الله\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-29T21:03:54Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-circulation-52-213-contraventions-et-7-632-proc-s-verbaux-dress-s-en-une-semaine",
+      "title": "Circulation : 52.213 contraventions et 7.632 procès-verbaux dressés en une semaine",
+      "link": "https://www.lavieeco.com/au-royaume/circulation-52-213-contraventions-7-632-proces-verbaux-dresses-en-une-semaine/",
+      "description": "La DGSN dresse un bilan chiffré de son action en matière de sécurité routière pour la semaine du 21 au 27 septembre : plus de 52.000 contraventions, 26 morts et 3.423 blessés dans 2.447 accidents en milieu urbain. L’article Circulation : 52.213 contraventions et 7.632 procès-verbaux dressés en une semaine est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-09-29T18:01:59Z",
+      "countryCode": "MA",
+      "official": false,
       "type": "news"
     },
     {
@@ -115,19 +154,6 @@
       "published": "2026-09-28T23:21:26Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-police-officer-detained-in-marrakech-over-suspected-rape",
-      "title": "Morocco police officer detained in Marrakech over suspected rape",
-      "link": "https://en.hespress.com/146309-morocco-police-officer-detained-in-marrakech-over-suspected-rape.html",
-      "description": "Moroccan authorities have detained a police officer in Marrakech over allegations that he sexually assaulted a woman, the General Directorate of National Security said Monday. The provincial judicial police opened a judicial investigation under the supervision of the competent public prosecutor after a woman filed a complaint alleging that she had been sexually assaulted by […] The post Morocco police officer detained in Marrakech over suspected rape appeared first on HESPRESS English - Morocco ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-28T22:16:13Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -251,19 +277,6 @@
       "id": "dgssi-68772409-26-vuln-rabilit-s-dans-les-produits-gitlab-community-edition-et-enterprise",
       "title": "68772409/26 - Vulnérabilités dans les produits GitLab Community Edition et Enterprise…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-gitlab-community-edition-et-enterprise-edition-2",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-24T17:17:54Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68762409-26-vuln-rabilit-s-critiques-dans-apache-tomcat",
-      "title": "68762409/26 - Vulnérabilités critiques dans Apache Tomcat",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-apache-tomcat-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
