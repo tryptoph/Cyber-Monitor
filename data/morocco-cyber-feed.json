@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-30T12:44:42Z",
+  "generatedAt": "2026-09-30T22:22:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,84 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69023009-26-vuln-rabilit-s-affectant-hpe-networking-instant-on-access-points",
+      "title": "69023009/26 - Vulnérabilités affectant HPE Networking Instant ON Access Points",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-hpe-networking-instant-access-points",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-30T22:22:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69013009-26-vuln-rabilit-s-affectant-teamviewer",
+      "title": "69013009/26 - Vulnérabilités affectant TeamViewer",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-teamviewer",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-30T22:22:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69003009-26-vuln-rabilit-s-affectant-openssl",
+      "title": "69003009/26 - Vulnérabilités affectant OpenSSL",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-openssl-3",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-09-30T22:22:14Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "كلاب ضالة تنهي حياة رجل بأيت زينب",
+      "link": "https://www.hespress.com/%d9%83%d9%84%d8%a7%d8%a8-%d8%b6%d8%a7%d9%84%d8%a9-%d8%aa%d9%86%d9%87%d9%8a-%d8%ad%d9%8a%d8%a7%d8%a9-%d8%b1%d8%ac%d9%84-%d8%a8%d8%a3%d9%8a%d8%aa-%d8%b2%d9%8a%d9%86%d8%a8-1815983.html",
+      "description": "استفاقت ساكنة جماعة أيت زينب بإقليم ورزازات، الأربعاء، على وقع فاجعة مأساوية خلفت حالة من الصدمة والحزن، بعدما لقي رجل في عقده الخامس مصرعه إثر هجوم مباغت وشرس لقطيع من الكلاب الضالة بالمنطقة الرابطة بين دوار أيت بن حدو السياحي ودوار أسفالو. وحسب معطيات حصلت عليها هسبريس من مصادر محلية، فإن الضحية باغته القطيع بشكل […] The post كلاب ضالة تنهي حياة رجل بأيت زينب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-09-30T20:21:26Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-moroccan-sahara-what-changed-since-the-last-u-n-security-council-vote",
+      "title": "Moroccan Sahara: what changed since the last U.N. Security Council vote",
+      "link": "https://en.hespress.com/146429-moroccan-sahara-what-changed-since-the-last-u-n-security-council-vote.html",
+      "description": "The Moroccan Sahara file is heading back to the U.N. Security Council in October, almost a year after the Council adopted a resolution that changed the tone of the political process and put Morocco’s autonomy proposal at the center of the talks. Since then, Morocco, the Polisario Front, Algeria and Mauritania have returned to discussions, […] The post Moroccan Sahara: what changed since the last U.N. Security Council vote appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-30T20:00:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-germany-praises-morocco-germany-security-cooperation-as-ties-expand",
+      "title": "Germany praises Morocco-Germany security cooperation as ties expand",
+      "link": "https://en.hespress.com/146442-germany-praises-morocco-germany-security-cooperation-as-ties-expand.html",
+      "description": "Germany is praising Morocco’s security services as the two countries expand cooperation on terrorism, organized crime, irregular migration and cybercrime. Dieter Romann, head of Germany’s Federal Police, described Morocco as a key security partner during recent talks between officials from both countries. The cooperation involves Morocco’s General Directorate of National Security and General Directorate for […] The post Germany praises Morocco-Germany security cooperation as ties expand appeared",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-09-30T17:00:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-68993009-26-vuln-rabilit-dans-watchguard-fireware",
       "title": "68993009/26 - Vulnérabilité dans WatchGuard Fireware",
@@ -222,19 +300,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-ouarzazate-red-rock-mining-annonce-de-nouveaux-r-sultats-prometteurs-sur-idelsane",
-      "title": "Ouarzazate : Red Rock Mining annonce de nouveaux résultats prometteurs sur Idelsane",
-      "link": "https://www.lavieeco.com/au-royaume/ouarzazate-red-rock-mining-annonce-de-nouveaux-resultats-prometteurs-sur-idelsane/",
-      "description": "Ils confirment l'intérêt croissant du potentiel exploitable à ciel ouvert du projet. Le programme de certification des ressources minérales est en cours de finalisation. L’article Ouarzazate : Red Rock Mining annonce de nouveaux résultats prometteurs sur Idelsane est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-28T18:43:05Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-68862809-26-vuln-rabilit-critique-activement-exploit-e-affectant-microsoft-sharepoint",
       "title": "68862809/26 - Vulnérabilité critique activement exploitée affectant Microsoft SharePoint",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-microsoft-sharepoint",
@@ -269,45 +334,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-25T17:18:14Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68822509-26-vuln-rabilit-s-dans-php",
-      "title": "68822509/26 - Vulnérabilités dans PHP",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-php-6",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-25T11:58:07Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68812509-26-vuln-rabilit-s-dans-les-produits-ibm",
-      "title": "68812509/26 - Vulnérabilités dans les produits IBM",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-ibm-26",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-25T11:58:07Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68802409-26-vuln-rabilit-critique-affectant-arista-velocloud-orchestrator-on-prem",
-      "title": "68802409/26 - Vulnérabilité critique affectant Arista VeloCloud Orchestrator On-Prem",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-arista-velocloud-orchestrator-prem",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-24T17:17:54Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
