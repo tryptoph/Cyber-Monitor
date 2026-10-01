@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-09-30T22:22:17Z",
+  "generatedAt": "2026-10-01T06:06:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-exercice-chebec-paris-et-rabat-approfondissent-leur-coop-ration-navale",
+      "title": "Exercice Chebec : Paris et Rabat approfondissent leur coopération navale",
+      "link": "https://fr.hespress.com/490509-exercice-chebec-paris-et-rabat-approfondissent-leur-cooperation-navale.html",
+      "description": "La Marine nationale française et la Marine Royale marocaine conduisent, depuis le 11 septembre, l’exercice annuel naval « Chebec ». Les deux marines s’entraînent à mener des opérations ensemble en mer notamment pour des exercices de sécurité et de sûreté maritimes. Cet exercice conjoint annuel ayant débuté en 1994, témoigne de la coopération navale franco-marocaine et l’un […] The post Exercice Chebec : Paris et Rabat approfondissent leur coopération navale appeared first on Hespress Français - ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-01T04:11:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69023009-26-vuln-rabilit-s-affectant-hpe-networking-instant-on-access-points",
       "title": "69023009/26 - Vulnérabilités affectant HPE Networking Instant ON Access Points",
@@ -50,19 +63,6 @@
       "published": "2026-09-30T22:22:14Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "كلاب ضالة تنهي حياة رجل بأيت زينب",
-      "link": "https://www.hespress.com/%d9%83%d9%84%d8%a7%d8%a8-%d8%b6%d8%a7%d9%84%d8%a9-%d8%aa%d9%86%d9%87%d9%8a-%d8%ad%d9%8a%d8%a7%d8%a9-%d8%b1%d8%ac%d9%84-%d8%a8%d8%a3%d9%8a%d8%aa-%d8%b2%d9%8a%d9%86%d8%a8-1815983.html",
-      "description": "استفاقت ساكنة جماعة أيت زينب بإقليم ورزازات، الأربعاء، على وقع فاجعة مأساوية خلفت حالة من الصدمة والحزن، بعدما لقي رجل في عقده الخامس مصرعه إثر هجوم مباغت وشرس لقطيع من الكلاب الضالة بالمنطقة الرابطة بين دوار أيت بن حدو السياحي ودوار أسفالو. وحسب معطيات حصلت عليها هسبريس من مصادر محلية، فإن الضحية باغته القطيع بشكل […] The post كلاب ضالة تنهي حياة رجل بأيت زينب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-09-30T20:21:26Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
