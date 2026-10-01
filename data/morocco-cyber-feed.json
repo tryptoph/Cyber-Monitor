@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-01T13:29:00Z",
+  "generatedAt": "2026-10-01T22:45:59Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,123 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69070110-26-vuln-rabilit-s-affectant-des-routeurs-asus",
+      "title": "69070110/26 - Vulnérabilités affectant des routeurs Asus",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-routeurs-asus",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-01T22:45:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69080110-26-vuln-rabilit-s-affectant-les-produits-kiteworks",
+      "title": "69080110/26 - Vulnérabilités affectant les produits Kiteworks",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-les-produits-kiteworks",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-01T22:45:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69060110-26-vuln-rabilit-s-dans-les-produits-nvidia",
+      "title": "69060110/26 - Vulnérabilités dans les produits NVIDIA",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-nvidia-11",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-01T22:45:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69050110-26-vuln-rabilit-s-dans-les-produits-apache",
+      "title": "69050110/26 - Vulnérabilités dans les produits Apache",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-apache-8",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-01T22:45:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-police-officer-in-sidi-bennour-commits-suicide-with-service-weapon-amid-sexual-assault-probe",
+      "title": "Police officer in Sidi Bennour commits suicide with service weapon amid sexual assault probe",
+      "link": "https://en.hespress.com/146562-police-officer-in-sidi-bennour-commits-suicide-with-service-weapon-amid-sexual-assault-probe.html",
+      "description": "A police officer stationed in Sidi Bennour ended his life using his service weapon on Thursday evening, October 1, according to the Provincial Security Department in El Jadida.The deceased officer, who held the rank of Police Officer (Officier de Police), was reportedly the subject of an ongoing judicial investigation at the time of the incident. […] The post Police officer in Sidi Bennour commits suicide with service weapon amid sexual assault probe appeared first on HESPRESS English - Morocco ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-01T22:25:59Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-un-security-council-sets-october-talks-on-the-sahara-ahead-of-minurso-vote",
+      "title": "UN Security Council sets October talks on the Sahara ahead of MINURSO vote",
+      "link": "https://en.hespress.com/146560-un-security-council-sets-october-talks-on-the-sahara-ahead-of-minurso-vote.html",
+      "description": "The UN Security Council will return to Sahara this month as it prepares to decide whether to renew the mandate of MINURSO, the UN mission whose current authorization expires on Oct. 31. Greece holds the Council presidency for October. A provisional program circulated under the Greek presidency schedules closed discussions on the file for Oct. […] The post UN Security Council sets October talks on the Sahara ahead of MINURSO vote appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-01T22:14:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "وهبي: كلام بنكيران \"ينقض الوضوء\".. وهذه كواليس تعيين المنصوري",
+      "link": "https://www.hespress.com/%d9%88%d9%87%d8%a8%d9%8a-%d8%ae%d8%b7%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a8%d9%86%d9%83%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d9%8f%d9%86%d9%82%d8%b6-%d8%a7%d9%84%d9%88%d8%b6%d9%88%d8%a1-%d9%88%d9%87%d8%b0-1816790.html",
+      "description": "انتقدّ عبد اللطيف وهبي، عضو المكتب السياسي لحزب الأصالة والمعاصرة، خطاب الأمين العام لحزب العدالة والتنمية، عبد الله بنكيران، خلال مختلف مراحل المحطة الانتخابية الأخيرة، معتبراً أن خطابات الرجل “باتت تَنقُض الوضوء”. وقال وهبي، في حوارٍ خاص مع جريدة هسبريس الإلكترونية، إن “ما قاله راشيد الطالبي العلمي”، عضو المكتب السياسي للتجمع الوطني للأحرار، في التسريب […] The post وهبي: كلام بنكيران \"ينقض الوضوء\".. وهذه كواليس تعيين المنصوري appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-01T22:00:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-sahara-deux-rendez-vous-cl-s-au-cs-avant-le-renouvellement-de-la-minurso",
+      "title": "Sahara : deux rendez-vous clés au CS avant le renouvellement de la MINURSO",
+      "link": "https://fr.hespress.com/490842-sahara-deux-rendez-vous-cles-au-cs-avant-le-renouvellement-de-la-minurso.html",
+      "description": "Le dossier du Sahara revient au premier plan du Conseil de sécurité des Nations unies en octobre, à quelques semaines de l’échéance du mandat de la Mission des Nations unies pour l’organisation d’un référendum au Sahara occidental (MINURSO). Le programme de travail provisoire du Conseil prévoit en effet deux réunions consacrées au dossier les 7 […] The post Sahara : deux rendez-vous clés au CS avant le renouvellement de la MINURSO appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-01T20:19:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-cash-plus-et-damanesign-s-associent-pour-faciliter-l-acc-s-la-signature-lectronique",
+      "title": "Cash Plus et Damanesign s’associent pour faciliter l’accès à la signature électronique",
+      "link": "https://www.lavieeco.com/affaires/cash-plus-et-damanesign-sassocient-pour-faciliter-lacces-a-la-signature-electronique/",
+      "description": "Les utilisateurs concernés pourront se rendre dans l'une des agences Cash Plus participantes pour déposer leur dossier et procéder aux étapes de vérification d'identité requises. Après validation par Damanesign, ils pourront y retirer leur clé USB sécurisée contenant le certificat délivré. L’article Cash Plus et Damanesign s’associent pour faciliter l’accès à la signature électronique est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-01T13:53:24Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69040110-26-vuln-rabilit-critique-dans-cisco-catalyst-sd-wan-activement-exploit-e",
       "title": "69040110/26 - Vulnérabilité critique dans Cisco Catalyst SD-WAN activement exploitée",
@@ -37,32 +154,6 @@
       "published": "2026-10-01T13:28:58Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-voitures-de-luxe-l-anrf-enqu-te-sur-des-transactions-suspect-es-de-blanchiment",
-      "title": "Voitures de luxe : L’ANRF enquête sur des transactions suspectées de blanchiment",
-      "link": "https://fr.hespress.com/490730-voitures-de-luxe-lanrf-enquete-sur-des-transactions-suspectees-de-blanchiment.html",
-      "description": "L’acquisition de véhicules de luxe pour plusieurs millions de dirhams par des acheteurs soupçonnés, pour certains, d’entretenir des liens avec des réseaux internationaux de trafic de drogue a attiré l’attention de l’Autorité nationale du renseignement financier (ANRF). Des transactions réalisées à Casablanca, Rabat et Tanger font actuellement l’objet d’investigations approfondies, en raison de soupçons portant […] The post Voitures de luxe : L’ANRF enquête sur des transactions suspectées de blan",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-01T11:33:43Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sahara-marocain-mike-waltz-met-le-polisario-face-l-vidence-les-bases-d-une-solution-existent",
-      "title": "Sahara marocain : Mike Waltz met le polisario face à l'évidence, les bases d'une solution existent",
-      "link": "https://fr.hespress.com/490716-sahara-marocain-mike-waltz-met-le-polisario-face-a-levidence-les-bases-dune-solution-existent.html",
-      "description": "À New York, l’ambassadeur américain auprès de l’ONU, Mike Waltz, a reçu des représentants du polisario et leur a rappelé que « les bases d’une solution » existent déjà. Cet entretien a lieu à l’approche de la nouvelle échéance du Conseil de sécurité, dans le prolongement de la résolution 2797, qui a hissé l’initiative marocaine […] The post Sahara marocain : Mike Waltz met le polisario face à l'évidence, les bases d'une solution existent appeared first on Hespress Français - Actualités du Maroc ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-01T09:45:24Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -144,19 +235,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-s-curit-en-afrique-le-maroc-appelle-une-coop-ration-op-rationnelle-renforc-e-face-aux-menaces-tr",
-      "title": "Sécurité en Afrique : le Maroc appelle à une coopération opérationnelle renforcée face aux menaces transfrontalières",
-      "link": "https://www.lavieeco.com/pouvoirs/securite/securite-en-afrique-le-maroc-appelle-a-une-cooperation-operationnelle-renforcee-face-aux-menaces-transfrontalieres/",
-      "description": "À Abou Dhabi, l'ambassadeur Azzeddine Farhane a appelé à renforcer la coopération face à la criminalité, au terrorisme et aux mouvements séparatistes dans la région du Sahel et du Sahara. L’article Sécurité en Afrique : le Maroc appelle à une coopération opérationnelle renforcée face aux menaces transfrontalières est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-30T10:18:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-68962909-26-vuln-rabilit-s-dans-zoho-manageengine-ddi-central",
       "title": "68962909/26 - Vulnérabilités dans Zoho ManageEngine DDI Central",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-zoho-manageengine-ddi-central",
@@ -180,19 +258,6 @@
       "published": "2026-09-29T22:22:24Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-circulation-52-213-contraventions-et-7-632-proc-s-verbaux-dress-s-en-une-semaine",
-      "title": "Circulation : 52.213 contraventions et 7.632 procès-verbaux dressés en une semaine",
-      "link": "https://www.lavieeco.com/au-royaume/circulation-52-213-contraventions-7-632-proces-verbaux-dresses-en-une-semaine/",
-      "description": "La DGSN dresse un bilan chiffré de son action en matière de sécurité routière pour la semaine du 21 au 27 septembre : plus de 52.000 contraventions, 26 morts et 3.423 blessés dans 2.447 accidents en milieu urbain. L’article Circulation : 52.213 contraventions et 7.632 procès-verbaux dressés en une semaine est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-09-29T18:01:59Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -243,58 +308,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-29T13:02:38Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68872809-26-vuln-rabilit-critique-affectant-zimbra-collaboration-suite",
-      "title": "68872809/26 - Vulnérabilité critique affectant Zimbra Collaboration suite",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-zimbra-collaboration-suite",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-28T23:21:26Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68892809-26-vuln-rabilit-s-dans-les-plugins-wordpress",
-      "title": "68892809/26 - Vulnérabilités dans les plugins WordPress",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-plugins-wordpress-5",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-28T23:21:26Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68882809-26-vuln-rabilit-s-dans-glpi",
-      "title": "68882809/26 - Vulnérabilités dans GLPI",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-glpi-3",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-28T23:21:26Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68862809-26-vuln-rabilit-critique-activement-exploit-e-affectant-microsoft-sharepoint",
-      "title": "68862809/26 - Vulnérabilité critique activement exploitée affectant Microsoft SharePoint",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-microsoft-sharepoint",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-28T14:07:48Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
