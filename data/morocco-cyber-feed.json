@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-01T06:06:21Z",
+  "generatedAt": "2026-10-01T13:29:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,53 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-exercice-chebec-paris-et-rabat-approfondissent-leur-coop-ration-navale",
-      "title": "Exercice Chebec : Paris et Rabat approfondissent leur coopération navale",
-      "link": "https://fr.hespress.com/490509-exercice-chebec-paris-et-rabat-approfondissent-leur-cooperation-navale.html",
-      "description": "La Marine nationale française et la Marine Royale marocaine conduisent, depuis le 11 septembre, l’exercice annuel naval « Chebec ». Les deux marines s’entraînent à mener des opérations ensemble en mer notamment pour des exercices de sécurité et de sûreté maritimes. Cet exercice conjoint annuel ayant débuté en 1994, témoigne de la coopération navale franco-marocaine et l’un […] The post Exercice Chebec : Paris et Rabat approfondissent leur coopération navale appeared first on Hespress Français - ",
+      "id": "dgssi-69040110-26-vuln-rabilit-critique-dans-cisco-catalyst-sd-wan-activement-exploit-e",
+      "title": "69040110/26 - Vulnérabilité critique dans Cisco Catalyst SD-WAN activement exploitée",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-cisco-catalyst-sd-wan-activement-exploitee",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-01T13:28:58Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69030110-26-vuln-rabilit-s-dans-google-chrome",
+      "title": "69030110/26 - Vulnérabilités dans Google Chrome",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-google-chrome-35",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-01T13:28:58Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-voitures-de-luxe-l-anrf-enqu-te-sur-des-transactions-suspect-es-de-blanchiment",
+      "title": "Voitures de luxe : L’ANRF enquête sur des transactions suspectées de blanchiment",
+      "link": "https://fr.hespress.com/490730-voitures-de-luxe-lanrf-enquete-sur-des-transactions-suspectees-de-blanchiment.html",
+      "description": "L’acquisition de véhicules de luxe pour plusieurs millions de dirhams par des acheteurs soupçonnés, pour certains, d’entretenir des liens avec des réseaux internationaux de trafic de drogue a attiré l’attention de l’Autorité nationale du renseignement financier (ANRF). Des transactions réalisées à Casablanca, Rabat et Tanger font actuellement l’objet d’investigations approfondies, en raison de soupçons portant […] The post Voitures de luxe : L’ANRF enquête sur des transactions suspectées de blan",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-10-01T04:11:03Z",
+      "published": "2026-10-01T11:33:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-sahara-marocain-mike-waltz-met-le-polisario-face-l-vidence-les-bases-d-une-solution-existent",
+      "title": "Sahara marocain : Mike Waltz met le polisario face à l'évidence, les bases d'une solution existent",
+      "link": "https://fr.hespress.com/490716-sahara-marocain-mike-waltz-met-le-polisario-face-a-levidence-les-bases-dune-solution-existent.html",
+      "description": "À New York, l’ambassadeur américain auprès de l’ONU, Mike Waltz, a reçu des représentants du polisario et leur a rappelé que « les bases d’une solution » existent déjà. Cet entretien a lieu à l’approche de la nouvelle échéance du Conseil de sécurité, dans le prolongement de la résolution 2797, qui a hissé l’initiative marocaine […] The post Sahara marocain : Mike Waltz met le polisario face à l'évidence, les bases d'une solution existent appeared first on Hespress Français - Actualités du Maroc ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-01T09:45:24Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -66,32 +105,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-moroccan-sahara-what-changed-since-the-last-u-n-security-council-vote",
-      "title": "Moroccan Sahara: what changed since the last U.N. Security Council vote",
-      "link": "https://en.hespress.com/146429-moroccan-sahara-what-changed-since-the-last-u-n-security-council-vote.html",
-      "description": "The Moroccan Sahara file is heading back to the U.N. Security Council in October, almost a year after the Council adopted a resolution that changed the tone of the political process and put Morocco’s autonomy proposal at the center of the talks. Since then, Morocco, the Polisario Front, Algeria and Mauritania have returned to discussions, […] The post Moroccan Sahara: what changed since the last U.N. Security Council vote appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-30T20:00:40Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-germany-praises-morocco-germany-security-cooperation-as-ties-expand",
-      "title": "Germany praises Morocco-Germany security cooperation as ties expand",
-      "link": "https://en.hespress.com/146442-germany-praises-morocco-germany-security-cooperation-as-ties-expand.html",
-      "description": "Germany is praising Morocco’s security services as the two countries expand cooperation on terrorism, organized crime, irregular migration and cybercrime. Dieter Romann, head of Germany’s Federal Police, described Morocco as a key security partner during recent talks between officials from both countries. The cooperation involves Morocco’s General Directorate of National Security and General Directorate for […] The post Germany praises Morocco-Germany security cooperation as ties expand appeared",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-09-30T17:00:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-68993009-26-vuln-rabilit-dans-watchguard-fireware",
       "title": "68993009/26 - Vulnérabilité dans WatchGuard Fireware",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-watchguard-fireware",
@@ -128,32 +141,6 @@
       "published": "2026-09-30T12:44:40Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-violences-faites-aux-femmes-droits-des-adolescentes-et-des-personnes-autistes-le-fnuap-dresse-le",
-      "title": "Violences faites aux femmes, droits des adolescentes et des personnes autistes : Le FNUAP dresse le bilan de ses actions au Maroc",
-      "link": "https://aujourdhui.ma/societe/violences-faites-aux-femmes-droits-des-adolescentes-et-des-personnes-autistes-le-fnuap-dresse-le-bilan-de-ses-actions-au-maroc",
-      "description": "Le ministère de la solidarité, de l’insertion sociale et de la famille a mis en place AMAN LAKI («Vous êtes en sécurité»), un système intégré d’information consacré à la réponse sociale aux violences faites aux femmes. Rapport : Le Fonds des Nations Unies pour la population ( FNUAP) a publié son rapport intitulé «Livre orange […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-30T11:04:23Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-portant-sur-l-exercice-2025-et-le-1er-trimestre-2026-le-document-de-r-f-rence-du-cr-dit-agricole",
-      "title": "Portant sur l’exercice 2025 et le 1er trimestre 2026 : Le document de référence du Crédit Agricole du Maroc enregistré à l’AMMC",
-      "link": "https://aujourdhui.ma/economie/portant-sur-lexercice-2025-et-le-1er-trimestre-2026-le-document-de-reference-du-credit-agricole-du-maroc-enregistre-a-lammc",
-      "description": "Certificats de dépôt : L’Autorité marocaine du marché des capitaux (AMMC) a enregistré, en date du 24 septembre 2026 et sous la référence N°EN/EM/031/2026, le document de référence relatif à l’exercice 2025 et au premier trimestre (T1) 2026 du Crédit Agricole du Maroc (CAM). À la date d’enregistrement du document de référence précité, la mise […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-09-30T10:50:29Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -308,32 +295,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-28T14:07:48Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68852809-26-vuln-rabilit-s-critiques-activement-exploit-es-zero-day-dans-citrix",
-      "title": "68852809/26 - Vulnérabilités critiques activement exploitées (zero-day) dans Citrix…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-activement-exploitees-zero-day-dans-citrix-netscaler-adc-et",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-28T14:07:48Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68842509-26-groupe-cybercriminel-inc-ransom",
-      "title": "68842509/26 - Groupe cybercriminel “ INC Ransom ”",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/groupe-cybercriminel-inc-ransom",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-25T17:18:14Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
