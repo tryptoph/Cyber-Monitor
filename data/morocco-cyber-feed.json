@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-02T12:47:41Z",
+  "generatedAt": "2026-10-02T22:19:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69140210-26-vuln-rabilit-s-dans-les-produits-vmware",
+      "title": "69140210/26 - Vulnérabilités dans les produits VMware",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-vmware-10",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-02T22:19:50Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69130210-26-vuln-rabilit-s-affectant-linux-redhat",
+      "title": "69130210/26 - Vulnérabilités affectant Linux RedHat",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-linux-redhat",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-02T22:19:50Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69120210-26-vuln-rabilit-critique-dans-watchguard-endpoint-security",
+      "title": "69120210/26 - Vulnérabilité critique dans WatchGuard Endpoint Security",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-watchguard-endpoint-security",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-02T22:19:50Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-poesam-2026-orange-maroc-propulse-trois-innovations-marocaines-fort-impact-vers-la-finale-intern",
+      "title": "POESAM 2026 : Orange Maroc propulse trois innovations marocaines à fort impact vers la finale internationale",
+      "link": "https://fr.hespress.com/490937-poesam-2026-orange-maroc-propulse-trois-innovations-marocaines-a-fort-impact-vers-la-finale-internationale.html",
+      "description": "Agriculture durable, intelligence artificielle, emploi, cybersécurité, santé, éducation… La 16ᵉ édition du Prix Orange de l’Entrepreneur Social en Afrique et au Moyen-Orient (POESAM) confirme la vitalité d’une nouvelle génération d’entrepreneurs marocains qui mettent la technologie au service de problématiques concrètes. Avec 345 candidatures reçues à travers le Royaume, l’édition 2026 témoigne de la dynamique de […] The post POESAM 2026 : Orange Maroc propulse trois innovations marocaines à for",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-02T20:49:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69110210-26-vuln-rabilit-s-dans-apache-http-server",
       "title": "69110210/26 - Vulnérabilités dans Apache HTTP Server",
@@ -92,32 +144,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-tindouf-camp-investment-losses-enter-un-rights-debate-in-geneva",
-      "title": "Tindouf camp investment losses enter UN rights debate in Geneva",
-      "link": "https://en.hespress.com/146564-tindouf-camp-investment-losses-enter-un-rights-debate-in-geneva.html",
-      "description": "The collapse of investment company Infravest in the Tindouf camps has moved beyond a dispute over lost savings, with rights advocates in Geneva using the case to argue that financial insecurity and weak oversight can leave already vulnerable communities more exposed to exploitation. The case was raised during a side event held alongside the UN […] The post Tindouf camp investment losses enter UN rights debate in Geneva appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-01T23:46:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-n-torture-rapporteur-urges-independent-probe-into-migrant-abuse-in-ceuta",
-      "title": "N torture rapporteur urges independent probe into migrant abuse in Ceuta",
-      "link": "https://en.hespress.com/146566-n-torture-rapporteur-urges-independent-probe-into-migrant-abuse-in-ceuta.html",
-      "description": "UN Special Rapporteur on Torture Pau Pérez-Sales called for a “prompt, effective and independent” investigation into allegations that Spanish military personnel abused migrants in Ceuta, in remarks to El País published Thursday, Oct. 1. Pérez-Sales said some of the reported acts, if substantiated, could amount to cruel, inhuman or degrading treatment and, in certain circumstances, […] The post N torture rapporteur urges independent probe into migrant abuse in Ceuta appeared first on HESPRESS Eng",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-01T23:45:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-69080110-26-vuln-rabilit-s-affectant-les-produits-kiteworks",
       "title": "69080110/26 - Vulnérabilités affectant les produits Kiteworks",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-les-produits-kiteworks",
@@ -154,45 +180,6 @@
       "published": "2026-10-01T22:45:57Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-police-officer-in-sidi-bennour-commits-suicide-with-service-weapon-amid-sexual-assault-probe",
-      "title": "Police officer in Sidi Bennour commits suicide with service weapon amid sexual assault probe",
-      "link": "https://en.hespress.com/146562-police-officer-in-sidi-bennour-commits-suicide-with-service-weapon-amid-sexual-assault-probe.html",
-      "description": "A police officer stationed in Sidi Bennour ended his life using his service weapon on Thursday evening, October 1, according to the Provincial Security Department in El Jadida.The deceased officer, who held the rank of Police Officer (Officier de Police), was reportedly the subject of an ongoing judicial investigation at the time of the incident. […] The post Police officer in Sidi Bennour commits suicide with service weapon amid sexual assault probe appeared first on HESPRESS English - Morocco ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-01T22:25:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-security-council-sets-october-talks-on-the-sahara-ahead-of-minurso-vote",
-      "title": "UN Security Council sets October talks on the Sahara ahead of MINURSO vote",
-      "link": "https://en.hespress.com/146560-un-security-council-sets-october-talks-on-the-sahara-ahead-of-minurso-vote.html",
-      "description": "The UN Security Council will return to Sahara this month as it prepares to decide whether to renew the mandate of MINURSO, the UN mission whose current authorization expires on Oct. 31. Greece holds the Council presidency for October. A provisional program circulated under the Greek presidency schedules closed discussions on the file for Oct. […] The post UN Security Council sets October talks on the Sahara ahead of MINURSO vote appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-01T22:14:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-cash-plus-et-damanesign-s-associent-pour-faciliter-l-acc-s-la-signature-lectronique",
-      "title": "Cash Plus et Damanesign s’associent pour faciliter l’accès à la signature électronique",
-      "link": "https://www.lavieeco.com/affaires/cash-plus-et-damanesign-sassocient-pour-faciliter-lacces-a-la-signature-electronique/",
-      "description": "Les utilisateurs concernés pourront se rendre dans l'une des agences Cash Plus participantes pour déposer leur dossier et procéder aux étapes de vérification d'identité requises. Après validation par Damanesign, ils pourront y retirer leur clé USB sécurisée contenant le certificat délivré. L’article Cash Plus et Damanesign s’associent pour faciliter l’accès à la signature électronique est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-01T13:53:24Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -295,45 +282,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-09-30T12:44:40Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68962909-26-vuln-rabilit-s-dans-zoho-manageengine-ddi-central",
-      "title": "68962909/26 - Vulnérabilités dans Zoho ManageEngine DDI Central",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-zoho-manageengine-ddi-central",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-29T22:22:24Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68942909-26-malware-expiro",
-      "title": "68942909/26 - Malware Expiro",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/malware-expiro-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-29T22:22:24Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68912909-26-vuln-rabilit-critique-activement-exploit-e-affectant-plusieurs-produits",
-      "title": "68912909/26 - Vulnérabilité critique activement exploitée affectant plusieurs produits…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-plusieurs-produits-dapple",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-29T13:02:38Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
