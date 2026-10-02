@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-02T05:49:25Z",
+  "generatedAt": "2026-10-02T12:47:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,84 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69110210-26-vuln-rabilit-s-dans-apache-http-server",
+      "title": "69110210/26 - Vulnérabilités dans Apache HTTP Server",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-apache-http-server-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-02T12:47:35Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69100210-26-vuln-rabilit-s-critiques-dans-cpanel",
+      "title": "69100210/26 - Vulnérabilités critiques dans cPanel",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-cpanel-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-02T12:47:35Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69090210-26-zero-day-dans-fortimail",
+      "title": "69090210/26 - Zero-day dans FortiMail",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/zero-day-dans-fortimail",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-02T12:47:35Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69070110-26-vuln-rabilit-s-affectant-des-produits-asus",
+      "title": "69070110/26 - Vulnérabilités affectant des produits Asus",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-asus",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-02T12:47:35Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-cr-ches-sociales-et-inclusives-d-veloppement-d-un-curriculum-p-dagogique",
+      "title": "Crèches sociales et inclusives : Développement d’un curriculum pédagogique",
+      "link": "https://aujourdhui.ma/societe/creches-sociales-et-inclusives-developpement-dun-curriculum-pedagogique",
+      "description": "Enfants migrants et en situation de vulnérabilité Accompagnement : Un curriculum pédagogique et un kit pratique de formation seront développés afin de renforcer les capacités des éducateurs et éducatrices de crèches sociales et inclusives accueillant des enfants en situation de vulnérabilité, y compris les enfants migrants. L’Organisation internationale pour les migrations (OIM) au Maroc vient […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-02T10:51:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-pour-faciliter-l-acc-s-la-signature-lectronique-cash-plus-et-damanesign-s-allient",
+      "title": "Pour faciliter l’accès à la signature électronique : Cash Plus et Damanesign s’allient",
+      "link": "https://aujourdhui.ma/economie/pour-faciliter-lacces-a-la-signature-electronique-cash-plus-et-damanesign-sallient",
+      "description": "Partenariat : Cash Plus et Damanesign viennent d’annoncer un partenariat visant à faciliter l’accès aux certificats de signature électronique qualifiée délivrés par Damanesign. « Dans le cadre de ce dispositif, Cash Plus intervient en qualité d’autorité d’enregistrement déléguée et met à disposition un premier périmètre de 13 agences comme points de dépôt et de retrait. […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-02T10:43:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-tindouf-camp-investment-losses-enter-un-rights-debate-in-geneva",
       "title": "Tindouf camp investment losses enter UN rights debate in Geneva",
@@ -37,19 +115,6 @@
       "published": "2026-10-01T23:45:34Z",
       "countryCode": "MA",
       "official": false,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69070110-26-vuln-rabilit-s-affectant-des-routeurs-asus",
-      "title": "69070110/26 - Vulnérabilités affectant des routeurs Asus",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-routeurs-asus",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-01T22:45:57Z",
-      "countryCode": "MA",
-      "official": true,
       "type": "news"
     },
     {
@@ -264,45 +329,6 @@
       "id": "dgssi-68912909-26-vuln-rabilit-critique-activement-exploit-e-affectant-plusieurs-produits",
       "title": "68912909/26 - Vulnérabilité critique activement exploitée affectant plusieurs produits…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-plusieurs-produits-dapple",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-29T13:02:38Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68932909-26-vuln-rabilit-critique-dans-postgresql",
-      "title": "68932909/26 - Vulnérabilité critique dans PostgreSQL",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-postgresql",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-29T13:02:38Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68922909-26-vuln-rabilit-s-dans-les-points-d-acc-s-watchguard",
-      "title": "68922909/26 - Vulnérabilités dans les points d’accès WatchGuard",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-points-dacces-watchguard",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-09-29T13:02:38Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-68902909-26-vuln-rabilit-s-affectant-apache-tomcat",
-      "title": "68902909/26 - Vulnérabilités affectant Apache Tomcat",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-apache-tomcat-6",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
