@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-01T22:45:59Z",
+  "generatedAt": "2026-10-02T05:49:25Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-tindouf-camp-investment-losses-enter-un-rights-debate-in-geneva",
+      "title": "Tindouf camp investment losses enter UN rights debate in Geneva",
+      "link": "https://en.hespress.com/146564-tindouf-camp-investment-losses-enter-un-rights-debate-in-geneva.html",
+      "description": "The collapse of investment company Infravest in the Tindouf camps has moved beyond a dispute over lost savings, with rights advocates in Geneva using the case to argue that financial insecurity and weak oversight can leave already vulnerable communities more exposed to exploitation. The case was raised during a side event held alongside the UN […] The post Tindouf camp investment losses enter UN rights debate in Geneva appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-01T23:46:29Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-n-torture-rapporteur-urges-independent-probe-into-migrant-abuse-in-ceuta",
+      "title": "N torture rapporteur urges independent probe into migrant abuse in Ceuta",
+      "link": "https://en.hespress.com/146566-n-torture-rapporteur-urges-independent-probe-into-migrant-abuse-in-ceuta.html",
+      "description": "UN Special Rapporteur on Torture Pau Pérez-Sales called for a “prompt, effective and independent” investigation into allegations that Spanish military personnel abused migrants in Ceuta, in remarks to El País published Thursday, Oct. 1. Pérez-Sales said some of the reported acts, if substantiated, could amount to cruel, inhuman or degrading treatment and, in certain circumstances, […] The post N torture rapporteur urges independent probe into migrant abuse in Ceuta appeared first on HESPRESS Eng",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-01T23:45:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69070110-26-vuln-rabilit-s-affectant-des-routeurs-asus",
       "title": "69070110/26 - Vulnérabilités affectant des routeurs Asus",
@@ -87,32 +113,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-01T22:14:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "وهبي: كلام بنكيران \"ينقض الوضوء\".. وهذه كواليس تعيين المنصوري",
-      "link": "https://www.hespress.com/%d9%88%d9%87%d8%a8%d9%8a-%d8%ae%d8%b7%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a8%d9%86%d9%83%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d9%8f%d9%86%d9%82%d8%b6-%d8%a7%d9%84%d9%88%d8%b6%d9%88%d8%a1-%d9%88%d9%87%d8%b0-1816790.html",
-      "description": "انتقدّ عبد اللطيف وهبي، عضو المكتب السياسي لحزب الأصالة والمعاصرة، خطاب الأمين العام لحزب العدالة والتنمية، عبد الله بنكيران، خلال مختلف مراحل المحطة الانتخابية الأخيرة، معتبراً أن خطابات الرجل “باتت تَنقُض الوضوء”. وقال وهبي، في حوارٍ خاص مع جريدة هسبريس الإلكترونية، إن “ما قاله راشيد الطالبي العلمي”، عضو المكتب السياسي للتجمع الوطني للأحرار، في التسريب […] The post وهبي: كلام بنكيران \"ينقض الوضوء\".. وهذه كواليس تعيين المنصوري appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-01T22:00:40Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sahara-deux-rendez-vous-cl-s-au-cs-avant-le-renouvellement-de-la-minurso",
-      "title": "Sahara : deux rendez-vous clés au CS avant le renouvellement de la MINURSO",
-      "link": "https://fr.hespress.com/490842-sahara-deux-rendez-vous-cles-au-cs-avant-le-renouvellement-de-la-minurso.html",
-      "description": "Le dossier du Sahara revient au premier plan du Conseil de sécurité des Nations unies en octobre, à quelques semaines de l’échéance du mandat de la Mission des Nations unies pour l’organisation d’un référendum au Sahara occidental (MINURSO). Le programme de travail provisoire du Conseil prévoit en effet deux réunions consacrées au dossier les 7 […] The post Sahara : deux rendez-vous clés au CS avant le renouvellement de la MINURSO appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-01T20:19:21Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
