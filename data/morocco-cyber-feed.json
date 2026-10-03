@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-02T22:19:53Z",
+  "generatedAt": "2026-10-03T11:48:02Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-un-security-council-sets-two-moroccan-sahara-meetings-ahead-of-minurso-renewal",
+      "title": "UN Security Council sets two Moroccan Sahara meetings ahead of MINURSO renewal",
+      "link": "https://en.hespress.com/146627-un-security-council-sets-two-moroccan-sahara-meetings-ahead-of-minurso-renewal.html",
+      "description": "The U.N. Security Council is scheduled to hold two closed meetings on the Sahara on Oct. 7 and 8, as it prepares to consider the renewal of the U.N. mission in the territory, known as MINURSO. Greece holds the council’s rotating presidency in October. The meetings are expected to include briefings on developments surrounding the […] The post UN Security Council sets two Moroccan Sahara meetings ahead of MINURSO renewal appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-03T10:30:29Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-de-madrid-bruxelles-pourquoi-la-crise-de-sebta-d-passe-d-sormais-le-cadre-maroc-espagne",
+      "title": "De Madrid à Bruxelles : pourquoi la crise de Sebta dépasse désormais le cadre Maroc-Espagne",
+      "link": "https://fr.hespress.com/490925-de-madrid-a-bruxelles-pourquoi-la-crise-de-sebta-depasse-desormais-le-cadre-maroc-espagne.html",
+      "description": "La crise migratoire de juillet a changé la dimension du dossier de Sebta. Longtemps gérée principalement dans le cadre des relations entre Rabat et Madrid, la question est désormais suivie de près à Bruxelles, où elle touche directement aux politiques européennes de migration, de contrôle des frontières et de sécurité. Les événements de l’été ont […] The post De Madrid à Bruxelles : pourquoi la crise de Sebta dépasse désormais le cadre Maroc-Espagne appeared first on Hespress Français - Actualit",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-03T10:15:06Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-incident-flydubai-la-ram-affirme-avoir-cart-la-candidature-du-copilote",
+      "title": "Incident Flydubai : la RAM affirme avoir écarté la candidature du copilote",
+      "link": "https://fr.hespress.com/490950-incident-flydubai-la-ram-affirme-avoir-ecarte-la-candidature-du-copilote.html",
+      "description": "La Royal Air Maroc (RAM) a réagi officiellement à des informations selon lesquelles le copilote impliqué dans l’incident du vol Flydubai aurait auparavant travaillé au sein de la compagnie nationale. Ce dernier n’aurait pas été retenu pour travailler au sein de la RAM. Suite à des informations relayées par certains médias selon lesquelles le copilote […] The post Incident Flydubai : la RAM affirme avoir écarté la candidature du copilote appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-03T09:26:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-f-z-el-mansouri-cheffe-du-gouvernement-quand-la-comp-tence-ouvre-les-portes-du-sommet",
+      "title": "F.Z El Mansouri cheffe du gouvernement : quand la compétence ouvre les portes du sommet",
+      "link": "https://fr.hespress.com/490941-f-z-el-mansouri-cheffe-du-gouvernement-quand-la-competence-ouvre-les-portes-du-sommet.html",
+      "description": "Certaines nominations font simplement date, tandis que d’autres changent le regard qu’un pays porte sur lui-même. Celle de Mme Fatima-Zahra El Mansouri à la tête du gouvernement marocain, par le Roi Mohammed VI, appartient à cette seconde catégorie, puisque pour la première fois de l’histoire du Royaume, une femme dirigera l’exécutif. C’est avec une immense […] The post F.Z El Mansouri cheffe du gouvernement : quand la compétence ouvre les portes du sommet appeared first on Hespress Français - A",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-03T08:21:05Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69140210-26-vuln-rabilit-s-dans-les-produits-vmware",
       "title": "69140210/26 - Vulnérabilités dans les produits VMware",
@@ -50,19 +102,6 @@
       "published": "2026-10-02T22:19:50Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-poesam-2026-orange-maroc-propulse-trois-innovations-marocaines-fort-impact-vers-la-finale-intern",
-      "title": "POESAM 2026 : Orange Maroc propulse trois innovations marocaines à fort impact vers la finale internationale",
-      "link": "https://fr.hespress.com/490937-poesam-2026-orange-maroc-propulse-trois-innovations-marocaines-a-fort-impact-vers-la-finale-internationale.html",
-      "description": "Agriculture durable, intelligence artificielle, emploi, cybersécurité, santé, éducation… La 16ᵉ édition du Prix Orange de l’Entrepreneur Social en Afrique et au Moyen-Orient (POESAM) confirme la vitalité d’une nouvelle génération d’entrepreneurs marocains qui mettent la technologie au service de problématiques concrètes. Avec 345 candidatures reçues à travers le Royaume, l’édition 2026 témoigne de la dynamique de […] The post POESAM 2026 : Orange Maroc propulse trois innovations marocaines à for",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-02T20:49:30Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
