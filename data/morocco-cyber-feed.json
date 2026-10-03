@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-03T16:28:58Z",
+  "generatedAt": "2026-10-03T21:25:10Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,45 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-certificats-pharmaceutiques-russes-le-maroc-se-hisse-au-troisi-me-rang-mondial-des-destinations",
+      "title": "Certificats pharmaceutiques russes : le Maroc se hisse au troisième rang mondial des destinations",
+      "link": "https://fr.hespress.com/490379-certificats-pharmaceutiques-russes-le-maroc-se-hisse-au-troisieme-rang-mondial-des-destinations.html",
+      "description": "Avec 66 certificats de produit pharmaceutique sur 1 034 recensés depuis le 19 janvier, le Maroc se hisse au troisième rang des destinations visées par les fabricants russes. Le ministère russe de l’Industrie et du Commerce (Minpromtorg) a dénombré 1 034 certificats de produit pharmaceutique (CPP) obtenus par des fabricants russes entre le 19 janvier […] The post Certificats pharmaceutiques russes : le Maroc se hisse au troisième rang mondial des destinations appeared first on Hespress Français -",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-03T20:39:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الكوكب يفك شفرة دفاع \"الكوديم\"",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%83%d9%88%d9%83%d8%a8-%d9%8a%d9%81%d9%83-%d8%b4%d9%81%d8%b1%d8%a9-%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d9%83%d9%88%d8%af%d9%8a%d9%85-1817666.html",
+      "description": "عاد الكوكب المراكشي بانتصار ثمين من مكناس، بعدما تفوق على مضيفه النادي المكناسي بهدف دون رد، في المباراة التي جمعتهما مساء اليوم السبت على أرضية الملعب الشرفي، لحساب الجولة الثانية من الدوري الاحترافي. وانتهى الشوط الأول على وقع التعادل السلبي، بعدما تبادل الفريقان المحاولات الهجومية دون أن يتمكن أي منهما من الوصول إلى الشباك، لتتواصل […] The post الكوكب يفك شفرة دفاع \"الكوديم\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-03T20:34:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "الوداد يعود بفوز ثمين من الجديدة",
+      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%88%d8%af%d8%a7%d8%af-%d9%8a%d8%b9%d9%88%d8%af-%d8%a8%d9%81%d9%88%d8%b2-%d8%ab%d9%85%d9%8a%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af%d8%a9-1817658.html",
+      "description": "عاد الوداد الرياضي بفوز ثمين من الجديدة، بعدما تغلب على الدفاع الحسني الجديدي بهدفين دون رد، في المباراة التي جمعتهما مساء اليوم السبت على أرضية ملعب العبدي بالجديدة، لحساب الجولة الثانية من الدوري الاحترافي لكرة القدم. ودخل الفريقان المواجهة بطموح تحقيق نتيجة إيجابية، وشهدت الدقائق الأولى من اللقاء سجالا بين الطرفين، مع تبادل للهجمات ومحاولات […] The post الوداد يعود بفوز ثمين من الجديدة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-03T20:09:49Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "aujourdhui-incident-du-vol-flydubai-les-pr-cisions-de-royal-air-maroc",
       "title": "Incident du vol Flydubai : Les précisions de Royal Air Maroc",
       "link": "https://aujourdhui.ma/actualite/incident-du-vol-flydubai-les-precisions-de-royal-air-maroc",
@@ -22,19 +61,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-10-03T13:58:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-security-council-sets-two-moroccan-sahara-meetings-ahead-of-minurso-renewal",
-      "title": "UN Security Council sets two Moroccan Sahara meetings ahead of MINURSO renewal",
-      "link": "https://en.hespress.com/146627-un-security-council-sets-two-moroccan-sahara-meetings-ahead-of-minurso-renewal.html",
-      "description": "The U.N. Security Council is scheduled to hold two closed meetings on the Sahara on Oct. 7 and 8, as it prepares to consider the renewal of the U.N. mission in the territory, known as MINURSO. Greece holds the council’s rotating presidency in October. The meetings are expected to include briefings on developments surrounding the […] The post UN Security Council sets two Moroccan Sahara meetings ahead of MINURSO renewal appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-03T10:30:29Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
