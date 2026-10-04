@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-04T06:01:32Z",
+  "generatedAt": "2026-10-04T12:30:30Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-tunisie-des-touristes-marocains-d-noncent-des-restrictions-et-des-traitements-humiliants-l-a-rop",
+      "title": "Tunisie : des touristes marocains dénoncent des restrictions et des traitements humiliants à l’aéroport",
+      "link": "https://fr.hespress.com/491033-tunisie-des-touristes-marocains-denoncent-des-restrictions-et-des-traitements-humiliants-a-laeroport.html",
+      "description": "Les autorités tunisiennes continuent de soumettre les voyageurs marocains à l’aéroport international de Carthage à des restrictions répétées et à des traitements que certains passagers marocains qualifient d’humiliants et portant atteinte à leur dignité. Plusieurs d’entre eux seraient retenus pendant de longues heures dans les salles de l’aéroport, sans bénéficier des conditions minimales de confort […] The post Tunisie : des touristes marocains dénoncent des restrictions et des traitements humi",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-04T10:20:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-espagne-des-militants-d-extr-me-droite-font-le-salut-nazi-pr-s-d-un-campement-pour-le-droit-au-l",
       "title": "Espagne: des militants d’extrême droite font le salut nazi près d’un campement pour le droit au logement",
       "link": "https://fr.hespress.com/491037-espagne-des-militants-dextreme-droite-font-le-salut-nazi-pres-dun-campement-pour-le-droit-au-logement.html",
@@ -22,32 +35,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-10-04T04:11:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-certificats-pharmaceutiques-russes-le-maroc-se-hisse-au-troisi-me-rang-mondial-des-destinations",
-      "title": "Certificats pharmaceutiques russes : le Maroc se hisse au troisième rang mondial des destinations",
-      "link": "https://fr.hespress.com/490379-certificats-pharmaceutiques-russes-le-maroc-se-hisse-au-troisieme-rang-mondial-des-destinations.html",
-      "description": "Avec 66 certificats de produit pharmaceutique sur 1 034 recensés depuis le 19 janvier, le Maroc se hisse au troisième rang des destinations visées par les fabricants russes. Le ministère russe de l’Industrie et du Commerce (Minpromtorg) a dénombré 1 034 certificats de produit pharmaceutique (CPP) obtenus par des fabricants russes entre le 19 janvier […] The post Certificats pharmaceutiques russes : le Maroc se hisse au troisième rang mondial des destinations appeared first on Hespress Français -",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-03T22:21:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-formation-du-gouvernement-ouzzine-charg-de-n-gocier-au-nom-du-mouvement-populaire",
-      "title": "Formation du gouvernement : Ouzzine chargé de négocier au nom du Mouvement populaire",
-      "link": "https://fr.hespress.com/491017-formation-du-gouvernement-ouzzine-charge-de-negocier-au-nom-du-mouvement-populaire.html",
-      "description": "Le Conseil national du Mouvement populaire (MP) a mandaté, samedi, le secrétaire général du parti, Mohamed Ouzzine, pour poursuivre les concertations politiques et prendre la décision appropriée concernant la participation du MP au prochain gouvernement. Dans un communiqué publié à l’issue de sa session extraordinaire, le Conseil national explique que cette décision tient compte, en […] The post Formation du gouvernement : Ouzzine chargé de négocier au nom du Mouvement populaire appeared first o",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-03T22:17:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
