@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-03T21:25:10Z",
+  "generatedAt": "2026-10-04T06:01:32Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-espagne-des-militants-d-extr-me-droite-font-le-salut-nazi-pr-s-d-un-campement-pour-le-droit-au-l",
+      "title": "Espagne: des militants d’extrême droite font le salut nazi près d’un campement pour le droit au logement",
+      "link": "https://fr.hespress.com/491037-espagne-des-militants-dextreme-droite-font-le-salut-nazi-pres-dun-campement-pour-le-droit-au-logement.html",
+      "description": "Des dizaines de membres de groupes d’extrême droite, faisant le salut nazi, se sont rassemblés samedi soir dans le centre de Madrid, où certains ont tenté de rejoindre la place où campent des militants pour le droit au logement, ont constaté des journalistes de l’AFP et des médias locaux. La police a été déployée en […] The post Espagne: des militants d’extrême droite font le salut nazi près d’un campement pour le droit au logement appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-04T04:11:11Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-fr-certificats-pharmaceutiques-russes-le-maroc-se-hisse-au-troisi-me-rang-mondial-des-destinations",
       "title": "Certificats pharmaceutiques russes : le Maroc se hisse au troisième rang mondial des destinations",
       "link": "https://fr.hespress.com/490379-certificats-pharmaceutiques-russes-le-maroc-se-hisse-au-troisieme-rang-mondial-des-destinations.html",
@@ -21,33 +34,20 @@
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-10-03T20:39:32Z",
+      "published": "2026-10-03T22:21:32Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "الكوكب يفك شفرة دفاع \"الكوديم\"",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%83%d9%88%d9%83%d8%a8-%d9%8a%d9%81%d9%83-%d8%b4%d9%81%d8%b1%d8%a9-%d8%af%d9%81%d8%a7%d8%b9-%d8%a7%d9%84%d9%83%d9%88%d8%af%d9%8a%d9%85-1817666.html",
-      "description": "عاد الكوكب المراكشي بانتصار ثمين من مكناس، بعدما تفوق على مضيفه النادي المكناسي بهدف دون رد، في المباراة التي جمعتهما مساء اليوم السبت على أرضية الملعب الشرفي، لحساب الجولة الثانية من الدوري الاحترافي. وانتهى الشوط الأول على وقع التعادل السلبي، بعدما تبادل الفريقان المحاولات الهجومية دون أن يتمكن أي منهما من الوصول إلى الشباك، لتتواصل […] The post الكوكب يفك شفرة دفاع \"الكوديم\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-formation-du-gouvernement-ouzzine-charg-de-n-gocier-au-nom-du-mouvement-populaire",
+      "title": "Formation du gouvernement : Ouzzine chargé de négocier au nom du Mouvement populaire",
+      "link": "https://fr.hespress.com/491017-formation-du-gouvernement-ouzzine-charge-de-negocier-au-nom-du-mouvement-populaire.html",
+      "description": "Le Conseil national du Mouvement populaire (MP) a mandaté, samedi, le secrétaire général du parti, Mohamed Ouzzine, pour poursuivre les concertations politiques et prendre la décision appropriée concernant la participation du MP au prochain gouvernement. Dans un communiqué publié à l’issue de sa session extraordinaire, le Conseil national explique que cette décision tient compte, en […] The post Formation du gouvernement : Ouzzine chargé de négocier au nom du Mouvement populaire appeared first o",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-10-03T20:34:51Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "الوداد يعود بفوز ثمين من الجديدة",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%88%d8%af%d8%a7%d8%af-%d9%8a%d8%b9%d9%88%d8%af-%d8%a8%d9%81%d9%88%d8%b2-%d8%ab%d9%85%d9%8a%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af%d8%a9-1817658.html",
-      "description": "عاد الوداد الرياضي بفوز ثمين من الجديدة، بعدما تغلب على الدفاع الحسني الجديدي بهدفين دون رد، في المباراة التي جمعتهما مساء اليوم السبت على أرضية ملعب العبدي بالجديدة، لحساب الجولة الثانية من الدوري الاحترافي لكرة القدم. ودخل الفريقان المواجهة بطموح تحقيق نتيجة إيجابية، وشهدت الدقائق الأولى من اللقاء سجالا بين الطرفين، مع تبادل للهجمات ومحاولات […] The post الوداد يعود بفوز ثمين من الجديدة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-03T20:09:49Z",
+      "published": "2026-10-03T22:17:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
