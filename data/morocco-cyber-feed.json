@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-04T12:30:30Z",
+  "generatedAt": "2026-10-04T21:36:15Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-tunisie-des-touristes-marocains-d-noncent-des-restrictions-et-des-traitements-humiliants-l-a-rop",
-      "title": "Tunisie : des touristes marocains dénoncent des restrictions et des traitements humiliants à l’aéroport",
-      "link": "https://fr.hespress.com/491033-tunisie-des-touristes-marocains-denoncent-des-restrictions-et-des-traitements-humiliants-a-laeroport.html",
-      "description": "Les autorités tunisiennes continuent de soumettre les voyageurs marocains à l’aéroport international de Carthage à des restrictions répétées et à des traitements que certains passagers marocains qualifient d’humiliants et portant atteinte à leur dignité. Plusieurs d’entre eux seraient retenus pendant de longues heures dans les salles de l’aéroport, sans bénéficier des conditions minimales de confort […] The post Tunisie : des touristes marocains dénoncent des restrictions et des traitements humi",
+      "id": "hespress-fr-france-face-aux-violences-jusqu-500-tablissements-scolaires-ferm-s-lundi",
+      "title": "France: face aux violences, jusqu’à 500 établissements scolaires fermés lundi",
+      "link": "https://fr.hespress.com/491075-france-face-aux-violences-jusqua-500-etablissements-scolaires-fermes-lundi.html",
+      "description": "Les cours seront « totalement ou partiellement » suspendus lundi dans 400 à 500 établissements scolaires en France en lien avec la mobilisation des lycéens, a indiqué dimanche le ministre français de l’Éducation, Édouard Geffray. Dans des déclarations à la presse, M. Geffray a affirmé que les conditions de sécurité « ne sont pas réunies » alors que 24 […] The post France: face aux violences, jusqu’à 500 établissements scolaires fermés lundi appeared first on Hespress Français - Actualités du Mar",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-10-04T10:20:25Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-espagne-des-militants-d-extr-me-droite-font-le-salut-nazi-pr-s-d-un-campement-pour-le-droit-au-l",
-      "title": "Espagne: des militants d’extrême droite font le salut nazi près d’un campement pour le droit au logement",
-      "link": "https://fr.hespress.com/491037-espagne-des-militants-dextreme-droite-font-le-salut-nazi-pres-dun-campement-pour-le-droit-au-logement.html",
-      "description": "Des dizaines de membres de groupes d’extrême droite, faisant le salut nazi, se sont rassemblés samedi soir dans le centre de Madrid, où certains ont tenté de rejoindre la place où campent des militants pour le droit au logement, ont constaté des journalistes de l’AFP et des médias locaux. La police a été déployée en […] The post Espagne: des militants d’extrême droite font le salut nazi près d’un campement pour le droit au logement appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-04T04:11:11Z",
+      "published": "2026-10-04T18:53:40Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -141,19 +128,6 @@
       "published": "2026-10-02T12:47:35Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-cr-ches-sociales-et-inclusives-d-veloppement-d-un-curriculum-p-dagogique",
-      "title": "Crèches sociales et inclusives : Développement d’un curriculum pédagogique",
-      "link": "https://aujourdhui.ma/societe/creches-sociales-et-inclusives-developpement-dun-curriculum-pedagogique",
-      "description": "Enfants migrants et en situation de vulnérabilité Accompagnement : Un curriculum pédagogique et un kit pratique de formation seront développés afin de renforcer les capacités des éducateurs et éducatrices de crèches sociales et inclusives accueillant des enfants en situation de vulnérabilité, y compris les enfants migrants. L’Organisation internationale pour les migrations (OIM) au Maroc vient […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-02T10:51:16Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
