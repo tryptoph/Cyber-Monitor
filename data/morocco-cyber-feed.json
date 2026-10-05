@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-04T21:36:15Z",
+  "generatedAt": "2026-10-05T05:51:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-hundreds-of-schools-to-shut-monday-as-student-protests-rock-france",
+      "title": "Hundreds of schools to shut Monday as student protests rock France",
+      "link": "https://en.hespress.com/146716-hundreds-of-schools-to-shut-monday-as-student-protests-rock-france.html",
+      "description": "Up to 500 schools across France will be totally or partly closed on Monday because of a wave of student protests that has shaken the country, the education minister said. Lessons will be “totally or partly suspended” in some “400-500” high schools as the security conditions “have not been fulfilled”, said Education Minister Edouard Geffray […] The post Hundreds of schools to shut Monday as student protests rock France appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-04T21:34:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-france-face-aux-violences-jusqu-500-tablissements-scolaires-ferm-s-lundi",
       "title": "France: face aux violences, jusqu’à 500 établissements scolaires fermés lundi",
