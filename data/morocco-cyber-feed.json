@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-05T14:53:40Z",
+  "generatedAt": "2026-10-06T00:08:28Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-cybers-curit-rabat-accueille-une-formation-ex-cutive-destin-e-aux-dirigeants-africains",
+      "title": "Cybersécurité : Rabat accueille une formation exécutive destinée aux dirigeants africains",
+      "link": "https://www.lavieeco.com/pouvoirs/securite/cybersecurite-rabat-accueille-une-formation-executive-destinee-aux-dirigeants-africains/",
+      "description": "Pilotée conjointement par la DGSSI et la Banque mondiale, en partenariat avec la Smart Africa Digital Academy, cette session s'inscrit dans une démarche plus large de montée en compétences des responsables africains en matière de gouvernance numérique et de sécurité informatique. L’article Cybersécurité : Rabat accueille une formation exécutive destinée aux dirigeants africains est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-05T19:24:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69170510-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
       "title": "69170510/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
