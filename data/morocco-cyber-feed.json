@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-06T18:27:53Z",
+  "generatedAt": "2026-10-07T06:09:10Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-rabat-le-rni-pr-pare-une-offensive-judiciaire-contre-des-lus-locaux-ayant-quitt-ses-rangs",
+      "title": "À Rabat, le RNI prépare une offensive judiciaire contre des élus locaux ayant quitté ses rangs",
+      "link": "https://fr.hespress.com/491336-a-rabat-le-rni-prepare-une-offensive-judiciaire-contre-des-elus-locaux-ayant-quitte-ses-rangs.html",
+      "description": "Le Rassemblement national des indépendants (RNI) n’entend pas tourner rapidement la page des dernières élections législatives à Rabat. Ébranlé par la perte de deux sièges parlementaires dans les circonscriptions de l’Océan et de Chellah, le parti dirigé par Aziz Akhannouch prépare une contre-offensive politique et juridique visant certains élus et responsables locaux ayant quitté ses […] The post À Rabat, le RNI prépare une offensive judiciaire contre des élus locaux ayant quitté ses rangs appea",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-06T21:17:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69210610-26-vuln-rabilit-s-critiques-affectant-progress-software",
       "title": "69210610/26 - Vulnérabilités critiques affectant Progress Software",
