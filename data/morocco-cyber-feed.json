@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-07T23:10:36Z",
+  "generatedAt": "2026-10-08T06:15:36Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "تنظيم الذكاء الاصطناعي .. ثلاثة نماذج مختلفة في أمريكا والصين وأوروبا",
+      "link": "https://www.hespress.com/%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%ab%d9%84%d8%a7%d8%ab%d8%a9-%d9%86%d9%85%d8%a7%d8%b0%d8%ac-%d9%85%d8%ae-1819491.html",
+      "description": "تسلك الولايات المتحدة والصين والاتحاد الأوروبي طرقا مختلفة لتنظيم الذكاء الاصطناعي، في وقت تتزايد فيه المخاوف من قدرات النماذج الأكثر تطورا ومن استخدامها في الهجمات الإلكترونية أو نشر المحتوى المضلل أو خلق اعتماد عاطفي لدى الأطفال. وتعتمد واشنطن أساسا على التزامات الشركات والقرارات التنفيذية مع الحرص على عدم إبطاء قطاع التكنولوجيا، بينما تركز بكين على […] The post تنظيم الذكاء الاصطناعي .. ثلاثة نماذج مختلفة في أمريكا والصين وأوروبا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-08T01:00:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69290710-26-vuln-rabilit-critique-affectant-sonicwall-sma-1000",
       "title": "69290710/26 - Vulnérabilité critique affectant SonicWall SMA 1000",
@@ -79,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "وفاة مغربية في اعتداء حوثي بالسعودية",
-      "link": "https://www.hespress.com/%d9%88%d9%81%d8%a7%d8%a9-%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d8%b9%d8%aa%d8%af%d8%a7%d8%a1-%d8%ad%d9%88%d8%ab%d9%8a-%d8%a8%d8%a7%d9%84%d8%b3%d8%b9%d9%88%d8%af%d9%8a%d8%a9-1819439.html",
-      "description": "أعلنت الهيئة العامة للطيران المدني السعودية وفاة مقيمة مغربية، إلى جانب مقيمة جزائرية، جراء هجوم استهدف مطار أبها الدولي، ضمن اعتداءات أعلن الحوثيون مسؤوليتهم عنها وطالت أيضا مطار الملك خالد الدولي بالرياض يومي الثلاثاء والأربعاء 6 و7 أكتوبر الجاري. وأوضحت الهيئة، في بيان رسمي، أن الاعتداء على مطار أبها أسفر عن وفاة المقيمتين المغربية والجزائرية، […] The post وفاة مغربية في اعتداء حوثي بالسعودية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-07T19:14:41Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-man-arrested-in-casablanca-for-allegedly-posing-as-judge",
       "title": "Man arrested in Casablanca for allegedly posing as judge",
       "link": "https://en.hespress.com/146867-man-arrested-in-casablanca-for-allegedly-posing-as-judge.html",
@@ -100,19 +100,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-07T17:13:41Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-security-council-begins-consultations-on-minurso-as-mandate-expiry-nears",
-      "title": "UN Security Council begins consultations on MINURSO as mandate expiry nears",
-      "link": "https://en.hespress.com/146870-un-security-council-begins-consultations-on-minurso-as-mandate-expiry-nears.html",
-      "description": "The U.N. Security Council is set to hold its first closed consultations on the U.N. Mission for the Referendum in the Sahara (MINURSO) on Wednesday, as the Council begins discussions on the mission’s future ahead of the expiry of its current mandate on Oct. 31. The consultations, scheduled for 7 p.m. as part of the […] The post UN Security Council begins consultations on MINURSO as mandate expiry nears appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-07T16:18:07Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
