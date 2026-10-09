@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-08T23:26:23Z",
+  "generatedAt": "2026-10-09T06:18:15Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -63,19 +63,6 @@
       "published": "2026-10-08T23:26:20Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "قمة المغرب الفاسي والرجاء بلا أهداف",
-      "link": "https://www.hespress.com/%d9%82%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%a7%d9%84%d9%81%d8%a7%d8%b3%d9%8a-%d9%88%d8%a7%d9%84%d8%b1%d8%ac%d8%a7%d8%a1-%d8%a8%d9%84%d8%a7-%d8%a3%d9%87%d8%af%d8%a7%d9%81-1819983.html",
-      "description": "حسم التعادل السلبي (0-0) مواجهة المغرب الفاسي وضيفه الرجاء الرياضي، التي جرت مساء اليوم الخميس على أرضية الملعب الشرفي بمكناس، لحساب الجولة الثالثة من الدوري الاحترافي لكرة القدم. وفرض المغرب الفاسي أفضليته خلال الشوط الأول، من خلال سيطرة واضحة ومحاولات هجومية متكررة، غير أن لاعبيه لم ينجحوا في ترجمة الفرص التي أتيحت لهم إلى أهداف، […] The post قمة المغرب الفاسي والرجاء بلا أهداف appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-08T22:07:44Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
