@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-10T12:41:41Z",
+  "generatedAt": "2026-10-10T21:50:59Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-tanger-interpellation-d-un-extr-miste-affili-daech",
+      "title": "Tanger : Interpellation d’un extrémiste affilié à « Daech »",
+      "link": "https://www.lavieeco.com/pouvoirs/securite/tanger-interpellation-dun-extremiste-affilie-a-daech-2/",
+      "description": "La perquisition menée dans cette affaire a permis la saisie de manuscrits détaillant le mode opératoire criminel employé dans l’intrusion cybernétique, ainsi que de matériel électronique, dont un téléphone modifié et relié à des fils électriques. L’article Tanger : Interpellation d’un extrémiste affilié à « Daech » est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-10T17:32:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-trump-annonce-un-accord-avec-poutine-sur-le-diesel-russe",
+      "title": "Trump annonce un accord avec Poutine sur le diesel russe",
+      "link": "https://fr.hespress.com/491745-trump-annonce-un-accord-avec-poutine-sur-le-diesel-russe.html",
+      "description": "Donald Trump a annoncé un accord avec Vladimir Poutine permettant la livraison de centaines de milliers de tonnes de diesel russe aux marchés américain et mondial, avec une levée temporaire de certaines sanctions. Une décision vivement critiquée par Volodymyr Zelensky, qui dénonce un accord « indigne » des partenaires de l’Ukraine. Une annonce qui fait […] The post Trump annonce un accord avec Poutine sur le diesel russe appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-10T15:23:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-sahara-une-tape-d-cisive",
+      "title": "Sahara, une étape décisive",
+      "link": "https://www.lavieeco.com/pouvoirs/diplomatie/sahara-une-etape-decisive/",
+      "description": "En attendant le vote d’une nouvelle résolution, le 31 octobre, le rapport soumis par le Secrétaire général au Conseil de sécurité marque un tournant. Mais pas une rupture par rapport à la proposition marocaine. L’article Sahara, une étape décisive est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-10T15:00:58Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-police-find-4-1-tonnes-of-hashish-and-smuggling-boats-at-farm-near-fez",
+      "title": "Police find 4.1 tonnes of hashish and smuggling boats at farm near Fez",
+      "link": "https://en.hespress.com/147033-police-find-4-1-tonnes-of-hashish-and-smuggling-boats-at-farm-near-fez.html",
+      "description": "Moroccan security services seized 4.1 tonnes of hashish, four inflatable boats and four marine engines during an operation at a farm near Fez early Saturday, arresting three people suspected of links to an international drug-trafficking network. The operation was carried out by the Fez regional judicial police brigade in coordination with the General Directorate for […] The post Police find 4.1 tonnes of hashish and smuggling boats at farm near Fez appeared first on HESPRESS English - Morocco Ne",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-10T13:39:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-l-effet-dunning-kruger",
       "title": "L’effet Dunning-Kruger",
