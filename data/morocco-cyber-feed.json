@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-09T18:24:47Z",
+  "generatedAt": "2026-10-10T12:41:41Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-l-effet-dunning-kruger",
+      "title": "L’effet Dunning-Kruger",
+      "link": "https://www.lavieeco.com/idees/chronique/leffet-dunning-kruger/",
+      "description": "Comment la surconfiance en ses capacités peut engendrer de mauvaises politiques ? Un appel à la concertation citoyenne et à l’humilité intellectuelle. L’article L’effet Dunning-Kruger est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-10T11:00:20Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69410910-26-vuln-rabilit-s-dans-les-produits-ibm",
       "title": "69410910/26 - Vulnérabilités dans les produits IBM",
