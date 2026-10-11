@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-10T21:50:59Z",
+  "generatedAt": "2026-10-11T05:57:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "صفقة تروم تحصين صندوق المقاصة ضد مخاطر القرصنة وتسريب البيانات",
+      "link": "https://www.hespress.com/%d8%b5%d9%81%d9%82%d8%a9-%d8%aa%d8%b1%d9%88%d9%85-%d8%aa%d8%ad%d8%b5%d9%8a%d9%86-%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9-%d8%b6%d8%af-%d9%85%d8%ae%d8%a7%d8%b7%d8%b1-1820243.html",
+      "description": "أطلق صندوق المقاصة صفقة لإنجاز افتحاص شامل لأمن نظامه المعلوماتي، بهدف تحصين بنياته الرقمية ضد مخاطر القرصنة الإلكترونية وتسريب البيانات الحساسة، والكشف عن الثغرات التقنية والتنظيمية التي قد تسمح بالولوج غير المشروع إلى المعطيات أو اعتراضها والتلاعب بمحتوياتها، في ظل تزايد التهديدات السيبرانية التي تستهدف المؤسسات العمومية. وكشفت معطيات طلب العروض، المرتقب فتح أظرفته في […] The post صفقة تروم تحصين صندوق المقاصة ضد مخاطر القرصنة وتسريب البيانات appeared first on Hespress - هسبريس جريدة إلكترونية",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-11T03:00:48Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-le-r-ti-d-amanda-sthers-d-barque-casablanca",
+      "title": "« Le Rôti » d’Amanda Sthers débarque à Casablanca",
+      "link": "https://fr.hespress.com/491755-le-roti-damanda-sthers-debarque-a-casablanca.html",
+      "description": "Un simple dîner entre amis peut-il faire voler en éclats toutes les certitudes ? C’est le pari d’Amanda Sthers avec « Le Rôti », une comédie mordante présentée le 15 octobre au Studio des Arts Vivants de Casablanca. Dans le cadre de la programmation des Théâtrales, Top Event Production accueille à Casablanca la nouvelle comédie […] The post « Le Rôti » d’Amanda Sthers débarque à Casablanca appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-11T02:54:06Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "مدرب بوتافوغو يشيد بمؤهلات زياش",
+      "link": "https://www.hespress.com/%d9%85%d8%af%d8%b1%d8%a8-%d8%a8%d9%88%d8%aa%d8%a7%d9%81%d9%88%d8%ba%d9%88-%d9%8a%d8%b4%d9%8a%d8%af-%d8%a8%d9%85%d8%a4%d9%87%d9%84%d8%a7%d8%aa-%d8%b2%d9%8a%d8%a7%d8%b4-1820880.html",
+      "description": "أشاد تيتي، مدرب بوتافوغو البرازيلي لكرة القدم، بالإمكانات الفنية للدولي المغربي حكيم زياش، مؤكدا أن قدرته على شغل أكثر من مركز هجومي تمنح الفريق خيارات تكتيكية متنوعة، خصوصا في صناعة اللعب. وأوضح المدرب البرازيلي، في تصريحات لوسائل إعلام محلية، أن زياش يمتلك المؤهلات اللازمة للعب في مركز صانع الألعاب، أو ما يعرف بالمركز رقم 10، […] The post مدرب بوتافوغو يشيد بمؤهلات زياش appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-11T00:12:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-tanger-interpellation-d-un-extr-miste-affili-daech",
       "title": "Tanger : Interpellation d’un extrémiste affilié à « Daech »",
@@ -27,19 +66,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-trump-annonce-un-accord-avec-poutine-sur-le-diesel-russe",
-      "title": "Trump annonce un accord avec Poutine sur le diesel russe",
-      "link": "https://fr.hespress.com/491745-trump-annonce-un-accord-avec-poutine-sur-le-diesel-russe.html",
-      "description": "Donald Trump a annoncé un accord avec Vladimir Poutine permettant la livraison de centaines de milliers de tonnes de diesel russe aux marchés américain et mondial, avec une levée temporaire de certaines sanctions. Une décision vivement critiquée par Volodymyr Zelensky, qui dénonce un accord « indigne » des partenaires de l’Ukraine. Une annonce qui fait […] The post Trump annonce un accord avec Poutine sur le diesel russe appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-10T15:23:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-sahara-une-tape-d-cisive",
       "title": "Sahara, une étape décisive",
       "link": "https://www.lavieeco.com/pouvoirs/diplomatie/sahara-une-etape-decisive/",
@@ -48,19 +74,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-10T15:00:58Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-police-find-4-1-tonnes-of-hashish-and-smuggling-boats-at-farm-near-fez",
-      "title": "Police find 4.1 tonnes of hashish and smuggling boats at farm near Fez",
-      "link": "https://en.hespress.com/147033-police-find-4-1-tonnes-of-hashish-and-smuggling-boats-at-farm-near-fez.html",
-      "description": "Moroccan security services seized 4.1 tonnes of hashish, four inflatable boats and four marine engines during an operation at a farm near Fez early Saturday, arresting three people suspected of links to an international drug-trafficking network. The operation was carried out by the Fez regional judicial police brigade in coordination with the General Directorate for […] The post Police find 4.1 tonnes of hashish and smuggling boats at farm near Fez appeared first on HESPRESS English - Morocco Ne",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-10T13:39:16Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
