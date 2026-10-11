@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-11T05:57:53Z",
+  "generatedAt": "2026-10-11T13:02:47Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,66 @@
   ],
   "items": [
     {
+      "id": "hespress-en-mauritania-s-un-envoy-meets-de-mistura-after-security-council-talks-on-sahara",
+      "title": "Mauritania’s UN envoy meets de Mistura after Security Council talks on Sahara",
+      "link": "https://en.hespress.com/147088-mauritanias-un-envoy-meets-de-mistura-after-security-council-talks-on-sahara.html",
+      "description": "Mauritania’s ambassador to the United Nations, Cheikhna Ould Nenni, met with UN Secretary-General’s Personal Envoy for the Sahara, Staffan de Mistura, in New York to discuss the latest developments in the dispute, following a closed-door meeting of the UN Security Council. Ould Nenni said in a Facebook post that the meeting took place a day […] The post Mauritania’s UN envoy meets de Mistura after Security Council talks on Sahara appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-11T12:20:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-uae-says-stands-in-solidarity-with-saudi-after-airport-attack",
+      "title": "UAE says stands in solidarity with Saudi after airport attack",
+      "link": "https://en.hespress.com/147080-uae-says-stands-in-solidarity-with-saudi-after-airport-attack.html",
+      "description": "The United Arab Emirates said on Sunday it stands in solidarity with Saudi Arabia after the deadly attack on Riyadh’s airport, and expressed support for “all measures” to safeguard the kingdom’s security. The UAE foreign ministry in a statement denounced the “flagrant violation” of Saudi Arabia’s sovereignty. It “reaffirmed the UAE’s full solidarity with Saudi […] The post UAE says stands in solidarity with Saudi after airport attack appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-11T11:20:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-ar-item",
-      "title": "صفقة تروم تحصين صندوق المقاصة ضد مخاطر القرصنة وتسريب البيانات",
-      "link": "https://www.hespress.com/%d8%b5%d9%81%d9%82%d8%a9-%d8%aa%d8%b1%d9%88%d9%85-%d8%aa%d8%ad%d8%b5%d9%8a%d9%86-%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b5%d8%a9-%d8%b6%d8%af-%d9%85%d8%ae%d8%a7%d8%b7%d8%b1-1820243.html",
-      "description": "أطلق صندوق المقاصة صفقة لإنجاز افتحاص شامل لأمن نظامه المعلوماتي، بهدف تحصين بنياته الرقمية ضد مخاطر القرصنة الإلكترونية وتسريب البيانات الحساسة، والكشف عن الثغرات التقنية والتنظيمية التي قد تسمح بالولوج غير المشروع إلى المعطيات أو اعتراضها والتلاعب بمحتوياتها، في ظل تزايد التهديدات السيبرانية التي تستهدف المؤسسات العمومية. وكشفت معطيات طلب العروض، المرتقب فتح أظرفته في […] The post صفقة تروم تحصين صندوق المقاصة ضد مخاطر القرصنة وتسريب البيانات appeared first on Hespress - هسبريس جريدة إلكترونية",
+      "title": "كانت تستعد للعودة إلى المغرب .. تشييع ضحية المسيّرة الحوثية بمكة",
+      "link": "https://www.hespress.com/%d9%83%d8%a7%d9%86%d8%aa-%d8%aa%d8%b3%d8%aa%d8%b9%d8%af-%d9%84%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%aa%d8%b4%d9%8a%d9%8a%d8%b9-%d8%b6%d8%ad-1821121.html",
+      "description": "شُيّع، اليوم الأحد 11 أكتوبر، جثمان الشابة المغربية، التي لقيت مصرعها بمدينة أبها السعودية إثر هجوم بطائرة مسيّرة حوثية، حيث أُقيمت صلاة الجنازة عليها بالمسجد الحرام، قبل مواراتها الثرى بمقبرة المعلاة في مكة المكرمة. وتُظهر صور توثق مراسم الجنازة نقل جثمان الفقيدة، ملفوفاً بغطاء أخضر، بواسطة سيارة مخصصة لنقل الموتى تابعة لجمعية المهاجرين لإكرام الموتى […] The post كانت تستعد للعودة إلى المغرب .. تشييع ضحية المسيّرة الحوثية بمكة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
       "source": "Hespress Arabic",
       "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-10-11T03:00:48Z",
+      "published": "2026-10-11T11:00:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "تشييع المغربية ضحية الهجوم الحوثي",
+      "link": "https://www.hespress.com/%d8%aa%d8%b4%d9%8a%d9%8a%d8%b9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%b6%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d9%87%d8%ac%d9%88%d9%85-%d8%a7%d9%84%d8%ad%d9%88%d8%ab%d9%8a-1821124.html",
+      "description": "The post تشييع المغربية ضحية الهجوم الحوثي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-11T10:57:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إدانات دولية واسعة لهجوم الرياض",
+      "link": "https://www.hespress.com/%d8%a5%d8%af%d8%a7%d9%86%d8%a7%d8%aa-%d8%af%d9%88%d9%84%d9%8a%d8%a9-%d9%88%d8%a7%d8%b3%d8%b9%d8%a9-%d9%84%d9%87%d8%ac%d9%88%d9%85-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6-1821099.html",
+      "description": "أثار الهجوم الدامي على مطار الرياض، الذي أوقع 12 قتيلا ومئات الجرحى السبت، موجة إدانات غربية واسعة. واعتبرت أورسولا فون دير لايين، رئيسة المفوضية الأوروبية، هذا الهجوم المنسوب إلى الحوثيين اليمنيين المدعومين من طهران، وهو الأكبر في السعودية منذ سنوات، “تصعيدا خطيرا”. وكتبت فون دير لايين، عبر منصة “إكس”: “هذه الهجمات التي يشنها وكلاء إيران […] The post إدانات دولية واسعة لهجوم الرياض appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-11T10:25:53Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,19 +87,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-10-11T02:54:06Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "مدرب بوتافوغو يشيد بمؤهلات زياش",
-      "link": "https://www.hespress.com/%d9%85%d8%af%d8%b1%d8%a8-%d8%a8%d9%88%d8%aa%d8%a7%d9%81%d9%88%d8%ba%d9%88-%d9%8a%d8%b4%d9%8a%d8%af-%d8%a8%d9%85%d8%a4%d9%87%d9%84%d8%a7%d8%aa-%d8%b2%d9%8a%d8%a7%d8%b4-1820880.html",
-      "description": "أشاد تيتي، مدرب بوتافوغو البرازيلي لكرة القدم، بالإمكانات الفنية للدولي المغربي حكيم زياش، مؤكدا أن قدرته على شغل أكثر من مركز هجومي تمنح الفريق خيارات تكتيكية متنوعة، خصوصا في صناعة اللعب. وأوضح المدرب البرازيلي، في تصريحات لوسائل إعلام محلية، أن زياش يمتلك المؤهلات اللازمة للعب في مركز صانع الألعاب، أو ما يعرف بالمركز رقم 10، […] The post مدرب بوتافوغو يشيد بمؤهلات زياش appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-11T00:12:57Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
