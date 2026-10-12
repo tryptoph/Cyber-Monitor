@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-11T22:06:00Z",
+  "generatedAt": "2026-10-12T06:08:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-item",
-      "title": "بيل غيتس يحذر من تصاعد الهجمات الإلكترونية باستخدام الذكاء الاصطناعي",
-      "link": "https://www.hespress.com/%d8%a8%d9%8a%d9%84-%d8%ba%d9%8a%d8%aa%d8%b3-%d9%8a%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%aa%d8%b5%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d9%84%d9%83%d8%aa%d8%b1-1821445.html",
-      "description": "حذر بيل غيتس، المؤسس المشارك لشركة “مايكروسوفت”، من تنامي المخاطر المرتبطة باستخدام الذكاء الاصطناعي في الهجمات الإلكترونية، متوقعا أن يشهد العام المقبل تصاعدا في التهديدات السيبرانية، خصوصا مع إمكانية تعطيل أنظمة الحماية المدمجة في التقنيات الحديثة. وقال الملياردير الأمريكي، في مقابلة مع شبكة “إيه بي سي نيوز” الأحد، إن التهديد الأكثر إلحاحا لا يرتبط حاليا […] The post بيل غيتس يحذر من تصاعد الهجمات الإلكترونية باستخدام الذكاء الاصطناعي appeared first on Hespress - هسبريس جريدة إلكترونية مغربية ",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-11T20:16:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-algeria-arrests-61-moroccans-accused-of-allegedly-planning-acts-of-sabotage",
       "title": "Algeria arrests 61 Moroccans accused of allegedly planning 'acts of sabotage'",
@@ -48,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-11T19:15:20Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sahara-washington-tudie-l-avenir-de-la-minurso",
-      "title": "Sahara : Washington étudie l’avenir de la MINURSO",
-      "link": "https://fr.hespress.com/491818-sahara-washington-etudie-lavenir-de-la-minurso.html",
-      "description": "À quelques semaines du vote du Conseil de sécurité sur le renouvellement du mandat de la MINURSO, les États-Unis examinent plusieurs scénarios concernant l’avenir de la mission onusienne au Sahara. Une réunion à huis clos a notamment réuni des chercheurs et universitaires à Washington pour alimenter les réflexions américaines. Le département d’État américain a organisé, […] The post Sahara : Washington étudie l’avenir de la MINURSO appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-11T18:02:29Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
