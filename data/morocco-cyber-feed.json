@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-13T14:21:19Z",
+  "generatedAt": "2026-10-13T22:52:58Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,84 @@
   ],
   "items": [
     {
+      "id": "dgssi-69461310-26-vuln-rabilit-s-dans-les-produits-ibm",
+      "title": "69461310/26 - Vulnérabilités dans les produits IBM",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-ibm-28",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-13T22:52:54Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69451310-26-vuln-rabilit-s-dans-progress-marklogic-server",
+      "title": "69451310/26 - Vulnérabilités dans Progress MarkLogic Server",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-progress-marklogic-server",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-13T22:52:54Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-s-un-ambassador-defends-autonomy-plan-as-basis-for-sahara-talks",
+      "title": "Morocco’s UN Ambassador defends autonomy plan as basis for Sahara talks",
+      "link": "https://en.hespress.com/147255-moroccos-un-ambassador-defends-autonomy-plan-as-basis-for-sahara-talks.html",
+      "description": "Morocco’s Permanent Representative to the United Nations, Omar Hilale, has defended the kingdom’s autonomy initiative as the basis for negotiations on the Sahara, arguing that Security Council Resolution 2797 marked a turning point in international efforts to resolve the decades-long dispute. Speaking during the Fourth Committee’s ninth meeting at the 81st session of the UN […] The post Morocco’s UN Ambassador defends autonomy plan as basis for Sahara talks appeared first on HESPRESS English - M",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-13T21:00:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-jordan-reaffirms-support-for-morocco-s-sovereignty-territorial-integrity-before-un",
+      "title": "Jordan reaffirms support for Morocco’s sovereignty, territorial integrity before UN",
+      "link": "https://en.hespress.com/147246-jordan-reaffirms-support-for-moroccos-sovereignty-territorial-integrity-before-un.html",
+      "description": "Jordan has reaffirmed, before the UN Fourth Committee, its support for the sovereignty and territorial integrity of the Kingdom of Morocco, welcoming the adoption of UN Security Council Resolution 2797 aimed at resolving the Moroccan Sahara issue “on the basis of the Moroccan Autonomy Initiative.” Jordan welcomes the adoption of Resolution 2797, which gives fresh […] The post Jordan reaffirms support for Morocco’s sovereignty, territorial integrity before UN appeared first on HESPRESS English - ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-13T19:06:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-anthropic-warns-of-ai-worms-spreading-across-smart-gadgets",
+      "title": "Anthropic warns of AI 'worms' spreading across smart gadgets",
+      "link": "https://en.hespress.com/147181-anthropic-warns-of-ai-worms-spreading-across-smart-gadgets.html",
+      "description": "Small artificial intelligence models may be only months away from being able to behave like a computer worm, copying themselves from one internet-connected gadget to the next without human help, AI giant Anthropic said. The finding potentially opens a new front in the cybersecurity threats emerging from AI, which have rattled governments and the companies […] The post Anthropic warns of AI 'worms' spreading across smart gadgets appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-13T17:15:42Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-maroc-s-n-gal-laftit-et-ciss-renforcent-la-coop-ration-s-curitaire",
+      "title": "Maroc-Sénégal : Laftit et Cissé renforcent la coopération sécuritaire",
+      "link": "https://www.lavieeco.com/pouvoirs/securite/maroc-senegal-laftit-et-cisse-renforcent-la-cooperation-securitaire/",
+      "description": "Le ministre de l’Intérieur, Abdelouafi Laftit, a reçu ce mardi à Rabat son homologue sénégalais, Mouhamadou Makhtar Cissé. Les deux responsables ont passé en revue la coopération bilatérale, notamment dans les domaines de la sécurité, de la protection civile et de la gestion des grands événements sportifs. L’article Maroc-Sénégal : Laftit et Cissé renforcent la coopération sécuritaire est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-13T16:01:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "dgssi-69441310-26-vuln-rabilit-s-critiques-dans-les-produits-sap",
       "title": "69441310/26 - Vulnérabilités critiques dans les produits SAP",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-sap-16",
@@ -24,19 +102,6 @@
       "published": "2026-10-13T14:21:15Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-m-dicaments-et-produits-de-sant-l-ammps-et-l-imanor-renforcent-leur-coop-ration",
-      "title": "Médicaments et produits de santé : L’AMMPS et l’Imanor renforcent leur coopération",
-      "link": "https://aujourdhui.ma/societe/medicaments-et-produits-de-sante-lammps-et-limanor-renforcent-leur-cooperation",
-      "description": "Partenariat : Une convention de partenariat a été signée récemment entre l’Agence marocaine du médicament et des produits de santé et l’Institut marocain de normalisation en vue de renforcer leur coopération dans les domaines de la normalisation, de la certification et de l’évaluation de la conformité applicables aux médicaments et aux produits de santé. L’Agence […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-13T11:06:20Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -66,19 +131,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-ceuta-hands-out-spanish-flags-tightens-security-ahead-of-felipe-vi-overnight-visit",
-      "title": "Ceuta hands out Spanish flags, tightens security ahead of Felipe VI overnight visit",
-      "link": "https://en.hespress.com/147191-ceuta-hands-out-spanish-flags-tightens-security-ahead-of-felipe-vi-overnight-visit.html",
-      "description": "The North African city of Ceuta was making final preparations Monday for the arrival of Spain’s King Felipe VI and Queen Letizia, repainting streets, distributing thousands of Spanish and local flags and preparing a large security operation for the first visit by a reigning Spanish monarch since 2007. The Spanish-administered city has spent several days […] The post Ceuta hands out Spanish flags, tightens security ahead of Felipe VI overnight visit appeared first on HESPRESS English - Morocco Ne",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-12T22:00:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-cybers-curit-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti",
       "title": "Cybersécurité : Orange Maroc renforce son offre avec Fortinet, NETSCOUT et Ivanti",
       "link": "https://www.lavieeco.com/videos/cybersecurite-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti/",
@@ -100,19 +152,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-12T17:11:46Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-morocco-cybersecurity-week-abdeltif-loudyi-d-voile-les-priorit-s-du-maroc",
-      "title": "Morocco CyberSecurity Week : Abdeltif Loudyi dévoile les priorités du Maroc",
-      "link": "https://www.lavieeco.com/au-royaume/morocco-cybersecurity-week-abdeltif-loudyi-devoile-les-priorites-du-maroc/",
-      "description": "À l'ouverture de la Semaine nationale de la cybersécurité, Abdeltif Loudyi a présenté les principaux chantiers à renforcer pour faire face aux cybermenaces, dont la formation des talents, le soutien à l'écosystème national, la protection des infrastructures vitales et l’anticipation des risques liés à l'intelligence artificielle. L’article Morocco CyberSecurity Week : Abdeltif Loudyi dévoile les priorités du Maroc est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-12T13:12:13Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -277,32 +316,6 @@
       "id": "dgssi-69290710-26-vuln-rabilit-critique-affectant-sonicwall-sma-1000",
       "title": "69290710/26 - Vulnérabilité critique affectant SonicWall SMA 1000",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-sonicwall-sma-1000",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-07T23:10:33Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69280710-26-vuln-rabilit-s-affectant-les-produits-arista",
-      "title": "69280710/26 - Vulnérabilités affectant les produits Arista",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-les-produits-arista",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-07T23:10:33Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69270710-26-vuln-rabilit-dans-github-enterprise-server",
-      "title": "69270710/26 - Vulnérabilité dans GitHub Enterprise Server",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-github-enterprise-server-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
