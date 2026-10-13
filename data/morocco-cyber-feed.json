@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-13T00:48:30Z",
+  "generatedAt": "2026-10-13T14:21:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69441310-26-vuln-rabilit-s-critiques-dans-les-produits-sap",
+      "title": "69441310/26 - Vulnérabilités critiques dans les produits SAP",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-sap-16",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-13T14:21:15Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-m-dicaments-et-produits-de-sant-l-ammps-et-l-imanor-renforcent-leur-coop-ration",
+      "title": "Médicaments et produits de santé : L’AMMPS et l’Imanor renforcent leur coopération",
+      "link": "https://aujourdhui.ma/societe/medicaments-et-produits-de-sante-lammps-et-limanor-renforcent-leur-cooperation",
+      "description": "Partenariat : Une convention de partenariat a été signée récemment entre l’Agence marocaine du médicament et des produits de santé et l’Institut marocain de normalisation en vue de renforcer leur coopération dans les domaines de la normalisation, de la certification et de l’évaluation de la conformité applicables aux médicaments et aux produits de santé. L’Agence […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-13T11:06:20Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69431210-26-vuln-rabilit-s-affectant-gitlab",
       "title": "69431210/26 - Vulnérabilités affectant GitLab",
@@ -53,32 +79,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "\"اتصالات المغرب\" تعزز الأمن السيبراني",
-      "link": "https://www.hespress.com/%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%aa%d8%b9%d8%b2%d8%b2-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a-1821965.html",
-      "description": "The post \"اتصالات المغرب\" تعزز الأمن السيبراني appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-12T21:49:26Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-african-cybersecurity-forum-2026-maroc-telecom-place-la-confiance-num-rique-au-c-ur-de-sa-strat-",
-      "title": "African Cybersecurity Forum 2026 : Maroc Telecom place la confiance numérique au cœur de sa stratégie",
-      "link": "https://fr.hespress.com/491975-african-cybersecurity-forum-2026-maroc-telecom-place-la-confiance-numerique-au-coeur-de-sa-strategie.html",
-      "description": "Présent à l’African Cybersecurity Forum 2026, organisé du 12 au 14 octobre à Rabat, Maroc Telecom met en avant son rôle dans la construction d’un environnement numérique plus sûr et résilient. À travers ses solutions de connectivité, de cybersécurité et de cloud souverain, mais aussi à travers les interventions de ses experts, le Groupe entend […] The post African Cybersecurity Forum 2026 : Maroc Telecom place la confiance numérique au cœur de sa stratégie appeared first on Hespress Français - A",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-12T21:15:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-cybers-curit-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti",
       "title": "Cybersécurité : Orange Maroc renforce son offre avec Fortinet, NETSCOUT et Ivanti",
       "link": "https://www.lavieeco.com/videos/cybersecurite-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti/",
@@ -92,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-algeria-arrests-61-moroccans-over-alleged-sabotage-plot-as-questions-surround-evidence",
-      "title": "Algeria arrests 61 Moroccans over alleged sabotage plot as questions surround evidence",
-      "link": "https://en.hespress.com/147180-algeria-arrests-61-moroccans-over-alleged-sabotage-plot-as-questions-surround-evidence.html",
-      "description": "Algerian authorities said they arrested 61 Moroccan nationals accused of preparing acts of sabotage, in a case that has drawn scrutiny over the evidence disclosed publicly and comes amid renewed diplomatic tension between Algiers and Rabat. Algeria’s General Directorate of National Security, or DGSN, said Sunday that judicial police in Oran had dismantled what it […] The post Algeria arrests 61 Moroccans over alleged sabotage plot as questions surround evidence appeared first on HESPRESS English",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-12T18:56:00Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-la-cybers-curit-une-composante-essentielle-de-la-souverainet-num-rique",
       "title": "La cybersécurité, une composante essentielle de la souveraineté numérique",
       "link": "https://www.lavieeco.com/pouvoirs/securite/la-cybersecurite-une-composante-essentielle-de-la-souverainete-numerique/",
@@ -113,32 +100,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-12T17:11:46Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-les-enfants-du-covid",
-      "title": "Les enfants du Covid…",
-      "link": "https://aujourdhui.ma/chroniques/les-enfants-du-covid",
-      "description": "Anxiété Au Maroc, nous avons connu un épisode, certes différent mais qui révèle au fond la même crainte, je veux parler de Fnideq où nous avons vu des milliers de nos jeunes tenter l’immigration clandestine, avec tous les dangers que cela représente. Toute une génération bouge, se cherche, nous interpelle, lance des signaux. Bien entendu […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-12T13:49:52Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-holland-gnawa-festival-la-musique-gnaoua-fait-vibrer-la-haye",
-      "title": "«Holland Gnawa Festival» La musique gnaoua fait vibrer La Haye",
-      "link": "https://aujourdhui.ma/culture/holland-gnawa-festival-la-musique-gnaoua-fait-vibrer-la-haye",
-      "description": "Manifestation Du 28 octobre au 7 novembre 2026, la capitale néerlandaise accueillera la 8ème édition du «Holland Gnawa Festival». Au programme : des concerts, des fusions musicales, des ateliers et des rencontres culturelles célébrant le patrimoine gnaoua, la richesse de la culture marocaine et le dialogue interculturel.. La musique gnaoua s’apprête à investir les scènes […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-12T13:31:56Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -342,19 +303,6 @@
       "id": "dgssi-69270710-26-vuln-rabilit-dans-github-enterprise-server",
       "title": "69270710/26 - Vulnérabilité dans GitHub Enterprise Server",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-github-enterprise-server-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-07T23:10:33Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69260710-26-vuln-rabilit-s-dans-les-produits-dell",
-      "title": "69260710/26 - Vulnérabilités dans les produits Dell",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-dell-1",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
