@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-14T17:19:22Z",
+  "generatedAt": "2026-10-14T21:47:15Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-patrimoine-la-dgsn-et-la-fnm-s-allient-contre-le-vol-et-le-trafic-d-uvres",
+      "title": "Patrimoine : La DGSN et la FNM s’allient contre le vol et le trafic d’œuvres",
+      "link": "https://www.lavieeco.com/influences/culture/patrimoine-la-dgsn-et-la-fnm-sallient-contre-le-vol-et-le-trafic-doeuvres/",
+      "description": "La DGSN et la FNM ont signé, mercredi à Rabat, une convention de partenariat destinée à renforcer la sécurité des musées nationaux et la protection du patrimoine culturel contre le vol, la falsification et le trafic illicite. L’article Patrimoine : La DGSN et la FNM s’allient contre le vol et le trafic d’œuvres est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-14T17:34:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69551410-26-vuln-rabilit-s-dans-les-produits-nvidia",
       "title": "69551410/26 - Vulnérabilités dans les produits NVIDIA",
@@ -74,32 +87,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-14T16:42:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "إيران تعدم متهما بالتعاون مع إسرائيل",
-      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b9%d8%af%d9%85-%d9%85%d8%aa%d9%87%d9%85%d8%a7-%d8%a8%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84-1822648.html",
-      "description": "أعلنت السلطة القضائية الإيرانية، الأربعاء، تنفيذ حكم الإعدام شنقا بحق علي سينا مصطفوي، بعد إدانته بتنفيذ هجمات مسلحة خلال الحرب مع إسرائيل والولايات المتحدة، والتواصل مع جهات تصفها طهران بالمعادية. وأفادت السلطة القضائية بأن مصطفوي نفذ عدة هجمات مسلحة في مدينة كرمان، جنوب شرق البلاد، أسفرت عن إصابة عدد من السكان، مشيرة إلى إدانته بتهمة […] The post إيران تعدم متهما بالتعاون مع إسرائيل appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-14T15:01:39Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-la-cheffe-de-la-police-su-doise-salue-la-coop-ration-s-curitaire-avec-le-maroc",
-      "title": "La cheffe de la police suédoise salue la coopération sécuritaire avec le Maroc",
-      "link": "https://fr.hespress.com/492217-la-cheffe-de-la-police-suedoise-salue-la-cooperation-securitaire-avec-le-maroc.html",
-      "description": "La cheffe de la police nationale suédoise a salué la coopération sécuritaire avec le Maroc, exprimant sa gratitude aux services de sécurité marocains pour leurs efforts ayant permis l’arrestation de personnes recherchées par la justice suédoise. Elle a également souligné l’importance de la coopération entre les deux pays pour traquer les individus impliqués dans des […] The post La cheffe de la police suédoise salue la coopération sécuritaire avec le Maroc appeared first on Hespress Français - A",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-14T14:12:36Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
