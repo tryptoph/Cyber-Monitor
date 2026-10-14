@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-13T22:52:58Z",
+  "generatedAt": "2026-10-14T05:01:56Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-un-envoy-outlines-seven-areas-for-consideration-in-possible-sahara-autonomy-framework",
+      "title": "UN Envoy outlines seven areas for consideration in possible Sahara autonomy framework",
+      "link": "https://en.hespress.com/147253-un-envoy-outlines-seven-areas-for-consideration-in-possible-sahara-autonomy-framework.html",
+      "description": "Staffan de Mistura, the United Nations secretary-general’s personal envoy for the Sahara, has declined to answer questions from Hespress about the latest developments in the dispute, citing ongoing deliberations at the UN Security Council. In a written response to Hespress, Christopher Thornton, an adviser to the personal envoy, said de Mistura had decided not to […] The post UN Envoy outlines seven areas for consideration in possible Sahara autonomy framework appeared first on HESPRESS English ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-14T01:00:04Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-bourse-les-b-n-fices-ne-suffisent-plus-soutenir-le-masi",
+      "title": "Bourse : les bénéfices ne suffisent plus à soutenir le MASI",
+      "link": "https://fr.hespress.com/491945-bourse-les-benefices-ne-suffisent-plus-a-soutenir-le-masi.html",
+      "description": "Les résultats semestriels des sociétés cotées n’ont pas permis d’enrayer le repli de la Bourse de Casablanca. Alors que la progression des bénéfices ralentit par rapport aux performances enregistrées ces dernières années, les investisseurs accordent davantage de poids aux risques macrofinanciers, à l’évolution des taux d’intérêt et aux incertitudes liées au choc énergétique. La perspective […] The post Bourse : les bénéfices ne suffisent plus à soutenir le MASI appeared first on Hespress Françai",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-14T00:07:30Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69461310-26-vuln-rabilit-s-dans-les-produits-ibm",
       "title": "69461310/26 - Vulnérabilités dans les produits IBM",
@@ -66,32 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-anthropic-warns-of-ai-worms-spreading-across-smart-gadgets",
-      "title": "Anthropic warns of AI 'worms' spreading across smart gadgets",
-      "link": "https://en.hespress.com/147181-anthropic-warns-of-ai-worms-spreading-across-smart-gadgets.html",
-      "description": "Small artificial intelligence models may be only months away from being able to behave like a computer worm, copying themselves from one internet-connected gadget to the next without human help, AI giant Anthropic said. The finding potentially opens a new front in the cybersecurity threats emerging from AI, which have rattled governments and the companies […] The post Anthropic warns of AI 'worms' spreading across smart gadgets appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-13T17:15:42Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-maroc-s-n-gal-laftit-et-ciss-renforcent-la-coop-ration-s-curitaire",
-      "title": "Maroc-Sénégal : Laftit et Cissé renforcent la coopération sécuritaire",
-      "link": "https://www.lavieeco.com/pouvoirs/securite/maroc-senegal-laftit-et-cisse-renforcent-la-cooperation-securitaire/",
-      "description": "Le ministre de l’Intérieur, Abdelouafi Laftit, a reçu ce mardi à Rabat son homologue sénégalais, Mouhamadou Makhtar Cissé. Les deux responsables ont passé en revue la coopération bilatérale, notamment dans les domaines de la sécurité, de la protection civile et de la gestion des grands événements sportifs. L’article Maroc-Sénégal : Laftit et Cissé renforcent la coopération sécuritaire est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-13T16:01:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-69441310-26-vuln-rabilit-s-critiques-dans-les-produits-sap",
       "title": "69441310/26 - Vulnérabilités critiques dans les produits SAP",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-sap-16",
@@ -128,32 +128,6 @@
       "published": "2026-10-13T00:48:28Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-cybers-curit-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti",
-      "title": "Cybersécurité : Orange Maroc renforce son offre avec Fortinet, NETSCOUT et Ivanti",
-      "link": "https://www.lavieeco.com/videos/cybersecurite-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti/",
-      "description": "Orange Maroc réaffirme son engagement en faveur de la cybersécurité et d’une transformation numérique de confiance à l’occasion de la « Morocco CyberSecurity Week », organisée à Rabat sous le thème « La cybersécurité au service de la transformation et du développement numérique ». L’article Cybersécurité : Orange Maroc renforce son offre avec Fortinet, NETSCOUT et Ivanti est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-12T20:00:53Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-la-cybers-curit-une-composante-essentielle-de-la-souverainet-num-rique",
-      "title": "La cybersécurité, une composante essentielle de la souveraineté numérique",
-      "link": "https://www.lavieeco.com/pouvoirs/securite/la-cybersecurite-une-composante-essentielle-de-la-souverainete-numerique/",
-      "description": "Selon le directeur général de la DGSSI, l’IA, qui transforme la nature des menaces, constitue un défi à placer au cœur de la cybersécurité nationale. Il est nécessaire de la mettre au service de la protection du cyberespace marocain, à travers le développement des solutions nationales en la matière. L’article La cybersécurité, une composante essentielle de la souveraineté numérique est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-12T17:11:46Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
