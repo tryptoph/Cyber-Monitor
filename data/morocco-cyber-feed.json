@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-14T12:03:22Z",
+  "generatedAt": "2026-10-14T17:19:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,97 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69551410-26-vuln-rabilit-s-dans-les-produits-nvidia",
+      "title": "69551410/26 - Vulnérabilités dans les produits NVIDIA",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-nvidia-12",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-14T17:19:18Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69541410-26-vuln-rabilit-s-critiques-dans-les-produits-fortinet",
+      "title": "69541410/26 - Vulnérabilités critiques dans les produits Fortinet",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-fortinet-3",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-14T17:19:18Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69531410-26-vuln-rabilit-s-critiques-dans-les-produits-ivanti",
+      "title": "69531410/26 - Vulnérabilités critiques dans les produits Ivanti",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-ivanti-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-14T17:19:18Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69521410-26-vuln-rabilit-critique-activement-exploit-e-affectant-ivanti-connect-secure",
+      "title": "69521410/26 - Vulnérabilité critique activement exploitée affectant Ivanti Connect Secure",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-ivanti-connect-secure",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-14T17:19:18Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-swedish-police-chief-praises-morocco-after-arrests-of-five-wanted-swedish-nationals",
+      "title": "Swedish Police Chief praises Morocco after arrests of five wanted Swedish nationals",
+      "link": "https://en.hespress.com/147300-swedish-police-chief-praises-morocco-after-arrests-of-five-wanted-swedish-nationals.html",
+      "description": "Sweden’s national police chief has praised security cooperation with Morocco after Moroccan authorities arrested five Swedish nationals wanted by Swedish justice over the past month, highlighting joint efforts to track suspects accused of involvement in serious crimes. In a post on her official Instagram account, the Swedish official thanked Moroccan police for their cooperation, writing: […] The post Swedish Police Chief praises Morocco after arrests of five wanted Swedish nationals appeared fi",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-14T16:42:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إيران تعدم متهما بالتعاون مع إسرائيل",
+      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b9%d8%af%d9%85-%d9%85%d8%aa%d9%87%d9%85%d8%a7-%d8%a8%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84-1822648.html",
+      "description": "أعلنت السلطة القضائية الإيرانية، الأربعاء، تنفيذ حكم الإعدام شنقا بحق علي سينا مصطفوي، بعد إدانته بتنفيذ هجمات مسلحة خلال الحرب مع إسرائيل والولايات المتحدة، والتواصل مع جهات تصفها طهران بالمعادية. وأفادت السلطة القضائية بأن مصطفوي نفذ عدة هجمات مسلحة في مدينة كرمان، جنوب شرق البلاد، أسفرت عن إصابة عدد من السكان، مشيرة إلى إدانته بتهمة […] The post إيران تعدم متهما بالتعاون مع إسرائيل appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-14T15:01:39Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-la-cheffe-de-la-police-su-doise-salue-la-coop-ration-s-curitaire-avec-le-maroc",
+      "title": "La cheffe de la police suédoise salue la coopération sécuritaire avec le Maroc",
+      "link": "https://fr.hespress.com/492217-la-cheffe-de-la-police-suedoise-salue-la-cooperation-securitaire-avec-le-maroc.html",
+      "description": "La cheffe de la police nationale suédoise a salué la coopération sécuritaire avec le Maroc, exprimant sa gratitude aux services de sécurité marocains pour leurs efforts ayant permis l’arrestation de personnes recherchées par la justice suédoise. Elle a également souligné l’importance de la coopération entre les deux pays pour traquer les individus impliqués dans des […] The post La cheffe de la police suédoise salue la coopération sécuritaire avec le Maroc appeared first on Hespress Français - A",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-14T14:12:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69511410-26-vuln-rabilit-s-dans-plusieurs-produits-microsoft-patch-octobre-2026",
       "title": "69511410/26 - Vulnérabilités dans plusieurs produits Microsoft (Patch Octobre 2026)",
@@ -105,32 +196,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-sahara-trois-options-se-dessinent-au-cs-pour-l-avenir-de-la-minurso",
-      "title": "Sahara : trois options se dessinent au CS pour l’avenir de la MINURSO",
-      "link": "https://fr.hespress.com/491989-sahara-trois-options-se-dessinent-au-cs-pour-lavenir-de-la-minurso.html",
-      "description": "Le Conseil de sécurité doit trancher ce mois-ci sur le renouvellement du mandat de la MINURSO, qui expire le 31 octobre. Selon le dernier Monthly Forecast du Security Council Report, trois scénarios sont envisagés dans un contexte marqué par l’absence de progrès dans les négociations politiques et par l’incertitude autour de la revue stratégique de […] The post Sahara : trois options se dessinent au CS pour l’avenir de la MINURSO appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-14T09:45:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-envoy-outlines-seven-areas-for-consideration-in-possible-sahara-autonomy-framework",
-      "title": "UN Envoy outlines seven areas for consideration in possible Sahara autonomy framework",
-      "link": "https://en.hespress.com/147253-un-envoy-outlines-seven-areas-for-consideration-in-possible-sahara-autonomy-framework.html",
-      "description": "Staffan de Mistura, the United Nations secretary-general’s personal envoy for the Sahara, has declined to answer questions from Hespress about the latest developments in the dispute, citing ongoing deliberations at the UN Security Council. In a written response to Hespress, Christopher Thornton, an adviser to the personal envoy, said de Mistura had decided not to […] The post UN Envoy outlines seven areas for consideration in possible Sahara autonomy framework appeared first on HESPRESS English ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-14T01:00:04Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-69461310-26-vuln-rabilit-s-dans-les-produits-ibm",
       "title": "69461310/26 - Vulnérabilités dans les produits IBM",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-ibm-28",
@@ -209,19 +274,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-cybers-curit-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti",
-      "title": "Cybersécurité : Orange Maroc renforce son offre avec Fortinet, NETSCOUT et Ivanti",
-      "link": "https://www.lavieeco.com/videos/cybersecurite-orange-maroc-renforce-son-offre-avec-fortinet-netscout-et-ivanti/",
-      "description": "Orange Maroc réaffirme son engagement en faveur de la cybersécurité et d’une transformation numérique de confiance à l’occasion de la « Morocco CyberSecurity Week », organisée à Rabat sous le thème « La cybersécurité au service de la transformation et du développement numérique ». L’article Cybersécurité : Orange Maroc renforce son offre avec Fortinet, NETSCOUT et Ivanti est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-12T20:00:53Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-69410910-26-vuln-rabilit-s-dans-les-produits-ibm",
       "title": "69410910/26 - Vulnérabilités dans les produits IBM",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-ibm-27",
@@ -269,58 +321,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-10-09T18:24:44Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69380910-26-vuln-rabilit-s-dans-des-extensions-joomla",
-      "title": "69380910/26 - Vulnérabilités dans des extensions Joomla",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-des-extensions-joomla",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-09T18:24:44Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69370810-26-vuln-rabilit-s-affectant-des-produits-splunk",
-      "title": "69370810/26 - Vulnérabilités affectant des produits Splunk",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-splunk-5",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-08T23:26:20Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69320810-26-vuln-rabilit-s-affectant-ibm-websphere-application-server",
-      "title": "69320810/26 - Vulnérabilités affectant IBM WebSphere Application Server",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-ibm-websphere-application-server-0",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-08T23:26:20Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69360810-26-vuln-rabilit-dans-docker-engine",
-      "title": "69360810/26 - Vulnérabilité dans Docker Engine",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-docker-engine",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-08T23:26:20Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
