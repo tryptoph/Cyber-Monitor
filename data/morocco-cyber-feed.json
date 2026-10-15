@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-15T17:08:29Z",
+  "generatedAt": "2026-10-15T21:30:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -66,19 +66,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "قتلى بقصف حوثي للقصر الرئاسي بعدن",
-      "link": "https://www.hespress.com/%d9%82%d8%aa%d9%84%d9%89-%d9%81%d9%8a-%d9%82%d8%b5%d9%81-%d8%ad%d9%88%d8%ab%d9%8a-%d9%84%d9%84%d9%82%d8%b5%d8%b1-%d8%a7%d9%84%d8%b1%d8%a6%d8%a7%d8%b3%d9%8a-%d8%a8%d8%b9%d8%af%d9%86-1823339.html",
-      "description": "أسفر هجوم صاروخي شنّه الحوثيين على قصر المعاشيق الرئاسي في عدن الخميس عن مقتل أربعة أشخاص على الأقل وإصابة 10 آخرين في حصيلة أولية، وفق ما أفادت ثلاثة مصادر عسكرية حكومية يمنية وكالة فرانس برس. وكانت مصادر أمنية في شرطة عدن أفادت فرانس برس في وقت سابق بأن المقاتلين المدعومين من إيران استهدفوا بصواريخ القصر […] The post قتلى بقصف حوثي للقصر الرئاسي بعدن appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-15T16:40:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-imf-official-moroccan-economy-shows-persistent-resilience",
       "title": "IMF Official: Moroccan economy shows persistent resilience",
       "link": "https://en.hespress.com/147349-imf-official-moroccan-economy-shows-persistent-resilience.html",
@@ -87,32 +74,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-15T15:25:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-20",
-      "title": "التحالف يرصد 20 هجوما على الرياض",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%ad%d8%a7%d9%84%d9%81-%d9%8a%d8%b1%d8%b5%d8%af-20-%d9%87%d8%ac%d9%88%d9%85%d8%a7-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6-1823254.html",
-      "description": "أفاد التحالف العسكري بقيادة السعودية الداعم للحكومة اليمنية بأن الحوثيين اليمنيين المدعومين من إيران نفذوا 20 هجوما على مطار الرياض في أكتوبر، مشددا على ضرورة أن يوقفوا فورا “العمليات الإرهابية” ضد المنشآت المدنية. وعرض المتحدث باسم التحالف تركي المالكي خلال مؤتمر صحافي حضرته وكالة فرانس برس، قائمة بالهجمات التي طالت المطار خلال الشهر الجاري. وأضاف […] The post التحالف يرصد 20 هجوما على الرياض appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-15T14:45:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-states-urge-unhcr-to-inform-tindouf-camps-populations-of-durable-solutions-available-under-resol",
-      "title": "States urge UNHCR to inform Tindouf camps' populations of 'durable solutions' available under resolution 2797",
-      "link": "https://en.hespress.com/147343-states-urge-unhcr-to-inform-tindouf-camps-populations-of-durable-solutions-available-under-resolution-2797.html",
-      "description": "The support group for the role of the United Nations High Commissioner for Refugees (UNHCR) in resolving protracted refugee situations on Thursday called for the populations of the Tindouf camps to be informed of the various “durable solutions” available to them, in light of UN Security Council Resolution 2797 (2025) and subsequent diplomatic developments. “This […] The post States urge UNHCR to inform Tindouf camps' populations of 'durable solutions' available under resolution 2797 appeared fir",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-15T12:28:44Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -180,19 +141,6 @@
       "published": "2026-10-15T11:40:08Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-de-mistura-calls-for-moroccan-autonomy-plan-to-anchor-next-phase-of-sahara-talks",
-      "title": "De Mistura calls for Moroccan Autonomy Plan to anchor next phase of Sahara talks",
-      "link": "https://en.hespress.com/147336-de-mistura-calls-for-moroccan-autonomy-plan-to-anchor-next-phase-of-sahara-talks.html",
-      "description": "United Nations envoy Staffan de Mistura has described negotiations over the Sahara as being at a “deadlock,” urging the Security Council to clarify what he sees as ambiguities in Resolution 2797 and make autonomy the basis for the next phase of talks. During a closed-door briefing to Security Council members on October 8, de Mistura […] The post De Mistura calls for Moroccan Autonomy Plan to anchor next phase of Sahara talks appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-15T11:15:31Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
