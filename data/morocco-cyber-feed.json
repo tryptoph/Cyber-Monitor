@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-14T21:47:15Z",
+  "generatedAt": "2026-10-15T04:50:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "رئيس الشاباك السابق يقاضي نتنياهو",
+      "link": "https://www.hespress.com/%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%b4%d8%a7%d8%a8%d8%a7%d9%83-%d8%a7%d9%84%d8%b3%d8%a7%d8%a8%d9%82-%d9%8a%d9%82%d8%a7%d8%b6%d9%8a-%d9%86%d8%aa%d9%86%d9%8a%d8%a7%d9%87%d9%88-1822902.html",
+      "description": "رفع رونين بار، الرئيس السابق لجهاز الأمن الداخلي الإسرائيلي “الشاباك”، دعوى قضائية ضد رئيس الوزراء بنيامين نتنياهو، يتهمه فيها بالتشهير وتقديم روايات غير صحيحة بشأن المسؤولية عن الإخفاقات الأمنية التي سبقت هجوم حركة حماس في السابع من أكتوبر 2023. وأفادت وكالة الأنباء الفرنسية بأن بار تقدم، الأربعاء، بشكوى قضائية من 134 صفحة، اتهم فيها نتنياهو […] The post رئيس الشاباك السابق يقاضي نتنياهو appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-15T04:42:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "هجوم إلكتروني يكشف ثغرات التأمين",
+      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%88%d9%85-%d8%a5%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a-%d9%8a%d9%83%d8%b4%d9%81-%d8%ab%d8%ba%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%a3%d9%85%d9%8a%d9%86-1822903.html",
+      "description": "أثار هجوم إلكتروني استهدف أنظمة التبريد داخل متاجر كبرى في فرنسا تساؤلات بشأن قدرة عقود التأمين التقليدية على تغطية الأضرار المادية الناجمة عن الهجمات السيبرانية، بعدما اضطرت مؤسسات تجارية إلى التخلص من كميات من المنتجات الغذائية بسبب تعطل تجهيزاتها. ووفق وكالة الأنباء الفرنسية، وقع الهجوم خلال ليلة الأحد إلى الاثنين، وطال تجهيزات التبريد في مئات […] The post هجوم إلكتروني يكشف ثغرات التأمين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-15T00:33:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-minurso-washington-sonde-des-experts-avant-le-vote-du-conseil",
+      "title": "Minurso : Washington sonde des experts avant le vote du Conseil",
+      "link": "https://fr.hespress.com/491964-minurso-washington-sonde-des-experts-avant-le-vote-du-conseil.html",
+      "description": "Alors que le mandat de la Minurso arrive à échéance le 31 octobre, les États-Unis multiplient les consultations en amont des négociations sur le futur projet de résolution du Conseil de sécurité. Le Département d’État a réuni à huis clos des chercheurs et des universitaires pour évaluer le sort de la mission onusienne. Washington, qui […] The post Minurso : Washington sonde des experts avant le vote du Conseil appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-15T00:25:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-african-cybersecurity-forum-maroc-telecom-mobilis-pour-une-afrique-num-rique-plus-r-siliente",
+      "title": "African Cybersecurity Forum : Maroc Telecom mobilisé pour une Afrique numérique plus résiliente",
+      "link": "https://fr.hespress.com/492339-african-cybersecurity-forum-maroc-telecom-mobilise-pour-une-afrique-numerique-plus-resiliente.html",
+      "description": "À l’occasion de l’African Cybersecurity Forum, organisé du 12 au 14 octobre à Rabat, Maroc Telecom a réaffirmé son engagement en faveur de la confiance numérique et de la résilience des infrastructures. À travers ses interventions et les ateliers animés par ses experts et ses filiales, le Groupe met en avant une approche combinant solutions […] The post African Cybersecurity Forum : Maroc Telecom mobilisé pour une Afrique numérique plus résiliente appeared first on Hespress Français - Actualités",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-14T23:30:39Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-patrimoine-la-dgsn-et-la-fnm-s-allient-contre-le-vol-et-le-trafic-d-uvres",
       "title": "Patrimoine : La DGSN et la FNM s’allient contre le vol et le trafic d’œuvres",
@@ -76,19 +128,6 @@
       "published": "2026-10-14T17:19:18Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-swedish-police-chief-praises-morocco-after-arrests-of-five-wanted-swedish-nationals",
-      "title": "Swedish Police Chief praises Morocco after arrests of five wanted Swedish nationals",
-      "link": "https://en.hespress.com/147300-swedish-police-chief-praises-morocco-after-arrests-of-five-wanted-swedish-nationals.html",
-      "description": "Sweden’s national police chief has praised security cooperation with Morocco after Moroccan authorities arrested five Swedish nationals wanted by Swedish justice over the past month, highlighting joint efforts to track suspects accused of involvement in serious crimes. In a post on her official Instagram account, the Swedish official thanked Moroccan police for their cooperation, writing: […] The post Swedish Police Chief praises Morocco after arrests of five wanted Swedish nationals appeared fi",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-14T16:42:50Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
