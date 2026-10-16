@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-15T21:30:21Z",
+  "generatedAt": "2026-10-16T04:40:28Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-couverture-sanitaire-des-fragilit-s-financi-res-menacent-la-p-rennit-de-certains-r-gimes",
+      "title": "Couverture sanitaire : des fragilités financières menacent la pérennité de certains régimes",
+      "link": "https://fr.hespress.com/492369-couverture-sanitaire-des-fragilites-financieres-menacent-la-perennite-de-certains-regimes.html",
+      "description": "L’élargissement de la couverture sanitaire à près de 80 % de la population ne suffit pas à garantir la pérennité du système, prévient Abderrahim Chaffai, président de l’Autorité de contrôle des assurances et de la prévoyance sociale. Il appelle à évaluer séparément les régimes d’assurance-maladie obligatoire et à adapter leur financement aux besoins des bénéficiaires. […] The post Couverture sanitaire : des fragilités financières menacent la pérennité de certains régimes appeared first on Hespre",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-16T01:08:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69621510-26-vuln-rabilit-s-affectant-juniper-junos-os",
       "title": "69621510/26 - Vulnérabilités affectant Juniper Junos OS",
@@ -63,19 +76,6 @@
       "published": "2026-10-15T17:08:27Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-imf-official-moroccan-economy-shows-persistent-resilience",
-      "title": "IMF Official: Moroccan economy shows persistent resilience",
-      "link": "https://en.hespress.com/147349-imf-official-moroccan-economy-shows-persistent-resilience.html",
-      "description": "Morocco’s economy is showing persistent resilience against global uncertainties said on Thursday in Bangkok Taline Koranchelian, Deputy Director in the Middle East and Central Asia Department of the International Monetary Fund (IMF). “Moroccan economy’s growth prospects remain genuinely favorable despite a very uncertain global context,” Koranchelian told MAP, on the sidelines of the IMF and […] The post IMF Official: Moroccan economy shows persistent resilience appeared first on HESPRESS Englis",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-15T15:25:15Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -141,6 +141,19 @@
       "published": "2026-10-15T11:40:08Z",
       "countryCode": "MA",
       "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-patrimoine-la-dgsn-et-la-fnm-s-allient-contre-le-vol-et-le-trafic-d-uvres",
+      "title": "Patrimoine : La DGSN et la FNM s’allient contre le vol et le trafic d’œuvres",
+      "link": "https://www.lavieeco.com/influences/culture/patrimoine-la-dgsn-et-la-fnm-sallient-contre-le-vol-et-le-trafic-doeuvres/",
+      "description": "La DGSN et la FNM ont signé, mercredi à Rabat, une convention de partenariat destinée à renforcer la sécurité des musées nationaux et la protection du patrimoine culturel contre le vol, la falsification et le trafic illicite. L’article Patrimoine : La DGSN et la FNM s’allient contre le vol et le trafic d’œuvres est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-14T17:34:03Z",
+      "countryCode": "MA",
+      "official": false,
       "type": "news"
     },
     {
