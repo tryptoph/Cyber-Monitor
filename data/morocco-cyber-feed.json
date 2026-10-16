@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-16T16:45:21Z",
+  "generatedAt": "2026-10-16T21:19:53Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-says-tangier-terror-suspect-reached-advanced-stage-of-explosives-preparation",
+      "title": "Morocco says Tangier terror suspect reached advanced stage of explosives preparation",
+      "link": "https://en.hespress.com/147452-morocco-says-tangier-terror-suspect-reached-advanced-stage-of-explosives-preparation.html",
+      "description": "Forensic examinations of materials seized from a 22-year-old suspected Islamic State supporter arrested in Tangier have revealed advanced preparations for manufacturing explosives, including evidence of experimental detonations, Moroccan security authorities said Friday. The findings follow the suspect’s arrest on October 9 over allegations that he was preparing terrorist attacks in Morocco. According to a statement […] The post Morocco says Tangier terror suspect reached advanced stage of explo",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-16T20:54:26Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69701610-26-vuln-rabilit-critique-affectant-beyondtrust-remote-support",
       "title": "69701610/26 - Vulnérabilité critique affectant BeyondTrust Remote Support",
