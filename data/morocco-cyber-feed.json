@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-16T11:34:17Z",
+  "generatedAt": "2026-10-16T16:45:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69701610-26-vuln-rabilit-critique-affectant-beyondtrust-remote-support",
+      "title": "69701610/26 - Vulnérabilité critique affectant BeyondTrust Remote Support",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-beyondtrust-remote-support",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-16T16:45:17Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69671610-26-vuln-rabilit-s-dans-sonicwall-network-security-manager",
+      "title": "69671610/26 - Vulnérabilités dans Sonicwall Network Security Manager",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-sonicwall-network-security-manager",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-16T16:45:17Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69691610-26-vuln-rabilit-s-affectant-le-navigateur-google-chrome",
+      "title": "69691610/26 - Vulnérabilités affectant le navigateur Google Chrome",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-google-chrome-62",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-16T16:45:17Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69681610-26-vuln-rabilit-s-affectant-ibm-websphere-application-server",
+      "title": "69681610/26 - Vulnérabilités affectant IBM WebSphere Application Server",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-ibm-websphere-application-server-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-16T16:45:17Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-travail-des-enfants-sar-la-princesse-lalla-meryem-lance-le-dispositif-national-d-radication",
+      "title": "Travail des Enfants : SAR la Princesse Lalla Meryem lance le Dispositif national d’éradication",
+      "link": "https://www.lavieeco.com/au-royaume/travail-des-enfants-sar-la-princesse-lalla-meryem-lance-le-dispositif-national-deradication/",
+      "description": "Le lancement de ce dispositif s’inscrit dans la continuité de l’engagement de Sa Majesté le Roi Mohammed VI, que Dieu Le préserve, en faveur de la protection de l’enfance et de la promotion des droits de l’enfant, et des actions menées par l’ONDE pour protéger les enfants en situation de vulnérabilité et lutter contre le travail des enfants, indique un communiqué de l’observatoire. L’article Travail des Enfants : SAR la Princesse Lalla Meryem lance le Dispositif national d’éradication est apparu",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-16T12:54:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69661610-26-vuln-rabilit-s-dans-le-cms-drupal",
       "title": "69661610/26 - Vulnérabilités dans le CMS Drupal",
@@ -37,32 +102,6 @@
       "published": "2026-10-16T11:34:10Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-chelsea-reece-james-op-r-du-genou-son-retour-reste-incertain",
-      "title": "Chelsea : Reece James opéré du genou, son retour reste incertain",
-      "link": "https://fr.hespress.com/492525-chelsea-reece-james-opere-du-genou-son-retour-reste-incertain.html",
-      "description": "Le capitaine de Chelsea, Reece James, a subi avec succès une opération du genou, a annoncé vendredi le club londonien. Aucune date de retour à la compétition n’a pour l’instant été communiquée. Nouveau coup dur pour Chelsea. Le capitaine des Blues, Reece James, a été opéré du genou à la suite d’une blessure contractée à […] The post Chelsea : Reece James opéré du genou, son retour reste incertain appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-16T10:13:57Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-committee-backs-sahara-resolution-with-152-votes-references-morocco-autonomy-framework",
-      "title": "UN committee backs Sahara resolution with 152 votes, references Morocco autonomy framework",
-      "link": "https://en.hespress.com/147386-un-committee-backs-sahara-resolution-with-152-votes-references-morocco-autonomy-framework.html",
-      "description": "The UN General Assembly’s Fourth Committee adopted its annual Sahara resolution on Thursday by 152 votes to two, incorporating a reference to last year’s Security Council decision that made Morocco’s autonomy proposal the basis for negotiations over the disputed territory. Morocco and Algeria both supported the text at the meeting in New York, while the […] The post UN committee backs Sahara resolution with 152 votes, references Morocco autonomy framework appeared first on HESPRESS English - Mor",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-16T09:15:25Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -183,19 +222,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-patrimoine-la-dgsn-et-la-fnm-s-allient-contre-le-vol-et-le-trafic-d-uvres",
-      "title": "Patrimoine : La DGSN et la FNM s’allient contre le vol et le trafic d’œuvres",
-      "link": "https://www.lavieeco.com/influences/culture/patrimoine-la-dgsn-et-la-fnm-sallient-contre-le-vol-et-le-trafic-doeuvres/",
-      "description": "La DGSN et la FNM ont signé, mercredi à Rabat, une convention de partenariat destinée à renforcer la sécurité des musées nationaux et la protection du patrimoine culturel contre le vol, la falsification et le trafic illicite. L’article Patrimoine : La DGSN et la FNM s’allient contre le vol et le trafic d’œuvres est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-14T17:34:03Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-69551410-26-vuln-rabilit-s-dans-les-produits-nvidia",
       "title": "69551410/26 - Vulnérabilités dans les produits NVIDIA",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-nvidia-12",
@@ -230,58 +256,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-10-14T17:19:18Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69521410-26-vuln-rabilit-critique-activement-exploit-e-affectant-ivanti-connect-secure",
-      "title": "69521410/26 - Vulnérabilité critique activement exploitée affectant Ivanti Connect Secure",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-ivanti-connect-secure",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-14T17:19:18Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69511410-26-vuln-rabilit-s-dans-plusieurs-produits-microsoft-patch-octobre-2026",
-      "title": "69511410/26 - Vulnérabilités dans plusieurs produits Microsoft (Patch Octobre 2026)",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-plusieurs-produits-microsoft-patch-octobre-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-14T12:03:18Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69501410-26-vuln-rabilit-s-critiques-dans-microsoft-exchange-server-patch-tuesday",
-      "title": "69501410/26 - Vulnérabilités critiques dans Microsoft Exchange Server (Patch Tuesday…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-microsoft-exchange-server-patch-tuesday-octobre-2026",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-14T12:03:18Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69491410-26-vuln-rabilit-s-critiques-dans-les-outils-de-d-veloppement-microsoft-patch",
-      "title": "69491410/26 - Vulnérabilités critiques dans les outils de développement Microsoft (Patch…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-outils-de-developpement-microsoft-patch-tuesday-octobre",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-14T12:03:18Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
