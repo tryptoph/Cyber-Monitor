@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-16T21:19:53Z",
+  "generatedAt": "2026-10-17T04:37:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-kouloub-faitah-nouvelle-ministre-d-l-gu-e-charg-e-des-relations-avec-le-parlement-et-la-soci-t-c",
+      "title": "Kouloub Faitah, nouvelle ministre déléguée chargée des Relations avec le Parlement et la Société civile",
+      "link": "https://fr.hespress.com/492685-kouloub-faitah-nouvelle-ministre-deleguee-chargee-des-relations-avec-le-parlement-et-la-societe-civile.html",
+      "description": "Kouloub Faitah, que le Roi Mohammed VI a nommée, vendredi, ministre déléguée auprès de la Cheffe du gouvernement, chargée des Relations avec le Parlement et la Société civile, est avocate au Barreau de Tanger. Titulaire d’une Licence en Droit privé et d’un Master en sciences criminelles et études sur la sécurité à l’Université Abdelmalek Essaâdi, […] The post Kouloub Faitah, nouvelle ministre déléguée chargée des Relations avec le Parlement et la Société civile appeared first on Hespress Françai",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-17T04:11:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-morocco-says-tangier-terror-suspect-reached-advanced-stage-of-explosives-preparation",
       "title": "Morocco says Tangier terror suspect reached advanced stage of explosives preparation",
