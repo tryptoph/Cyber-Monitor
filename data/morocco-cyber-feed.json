@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-17T10:54:20Z",
+  "generatedAt": "2026-10-17T15:42:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-en-morocco-says-tangier-terror-suspect-reached-advanced-stage-of-explosives-preparation",
-      "title": "Morocco says Tangier terror suspect reached advanced stage of explosives preparation",
-      "link": "https://en.hespress.com/147452-morocco-says-tangier-terror-suspect-reached-advanced-stage-of-explosives-preparation.html",
-      "description": "Forensic examinations of materials seized from a 22-year-old suspected Islamic State supporter arrested in Tangier have revealed advanced preparations for manufacturing explosives, including evidence of experimental detonations, Moroccan security authorities said Friday. The findings follow the suspect’s arrest on October 9 over allegations that he was preparing terrorist attacks in Morocco. According to a statement […] The post Morocco says Tangier terror suspect reached advanced stage of explo",
+      "id": "aujourdhui-vid-o-salon-du-cheval-d-el-jadida-la-police-questre-au-service-de-l-environnement-et-la-s-curit-",
+      "title": "Vidéo. Salon du cheval d’El Jadida: la police équestre au service de l’environnement et la sécurité touristique",
+      "link": "https://aujourdhui.ma/actualite/video-salon-du-cheval-del-jadida-la-police-equestre-au-service-de-lenvironnement-et-la-securite-touristique",
+      "description": "La Direction générale de la Sûreté nationale (DGSN) marque une présence remarquable à la 17e édition du Salon du Cheval d’El Jadida, organisée sous le Haut Patronage de Sa Majesté le Roi Mohammed VI, en mettant en lumière les missions de la police équestre en matière de maintien de l’ordre public, la protection de l’environnement […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-17T13:26:10Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-french-protesters-briefly-break-into-town-hall-in-marseille-afp",
+      "title": "French protesters briefly break into town hall in Marseille: AFP",
+      "link": "https://en.hespress.com/147479-french-protesters-briefly-break-into-town-hall-in-marseille-afp.html",
+      "description": "Protesters briefly broke into the town hall of France’s second city Marseille on Saturday amid nationwide protests against the cost of living, an AFP reporter said. Masked protesters rammed the door with security barriers. Several then entered, one spray painting an anarchist “A” symbol on a wall before police intervened, the reporter said. “We’re taking […] The post French protesters briefly break into town hall in Marseille: AFP appeared first on HESPRESS English - Morocco News .",
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-10-16T20:54:26Z",
+      "published": "2026-10-17T11:44:31Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
