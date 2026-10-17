@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-17T15:42:19Z",
+  "generatedAt": "2026-10-17T20:42:40Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-en-ex-senegal-president-macky-sall-withdraws-as-candidate-for-un-leader",
+      "title": "Ex-Senegal president Macky Sall withdraws as candidate for UN leader",
+      "link": "https://en.hespress.com/147508-ex-senegal-president-macky-sall-withdraws-as-candidate-for-un-leader.html",
+      "description": "Former president of Senegal Macky Sall on Saturday withdrew from the seven person race to be the next UN secretary general, a day after an informal UN Security Council poll produced no clear favourite. In a statement released on social media, Sall said he had noted the result of the poll and “hoped to contribute […] The post Ex-Senegal president Macky Sall withdraws as candidate for UN leader appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-17T18:16:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "aujourdhui-vid-o-salon-du-cheval-d-el-jadida-la-police-questre-au-service-de-l-environnement-et-la-s-curit-",
       "title": "Vidéo. Salon du cheval d’El Jadida: la police équestre au service de l’environnement et la sécurité touristique",
       "link": "https://aujourdhui.ma/actualite/video-salon-du-cheval-del-jadida-la-police-equestre-au-service-de-lenvironnement-et-la-securite-touristique",
@@ -22,19 +35,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-10-17T13:26:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-french-protesters-briefly-break-into-town-hall-in-marseille-afp",
-      "title": "French protesters briefly break into town hall in Marseille: AFP",
-      "link": "https://en.hespress.com/147479-french-protesters-briefly-break-into-town-hall-in-marseille-afp.html",
-      "description": "Protesters briefly broke into the town hall of France’s second city Marseille on Saturday amid nationwide protests against the cost of living, an AFP reporter said. Masked protesters rammed the door with security barriers. Several then entered, one spray painting an anarchist “A” symbol on a wall before police intervened, the reporter said. “We’re taking […] The post French protesters briefly break into town hall in Marseille: AFP appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-17T11:44:31Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
