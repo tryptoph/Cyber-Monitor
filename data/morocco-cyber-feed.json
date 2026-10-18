@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-18T11:19:47Z",
+  "generatedAt": "2026-10-18T15:57:57Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,40 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "هجمات الحوثيين تغلق برج المملكة",
-      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%88%d8%ab%d9%8a%d9%8a%d9%86-%d8%aa%d8%ba%d9%84%d9%82-%d8%a8%d8%b1%d8%ac-%d8%a7%d9%84%d9%85%d9%85%d9%84%d9%83%d8%a9-1824875.html",
-      "description": "أبلغ مركز المملكة موظفي مكاتبه الإدارية بالعمل عن بُعد والامتناع عن الحضور إلى مكاتبهم بدءا من الأحد وحتى إشعار آخر، فيما تتواصل هجمات الحوثيين المدعومين من إيران ضد المملكة منذ أسبوعين. وجاء في رسالة بالبريد الإلكتروني للمكاتب الإدارية بالمركز المؤلف من 99 طابقا، أُرسلت في وقت متأخر من مساء السبت: “يُرجى العلم بأنه تقرر إلزام […] The post هجمات الحوثيين تغلق برج المملكة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-18T11:01:25Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-rapport-de-l-onu-sur-le-sahara-les-contours-d-un-tournant-diplomatique-majeur",
-      "title": "Rapport de l'ONU sur le Sahara : les contours d'un tournant diplomatique majeur",
-      "link": "https://fr.hespress.com/492627-rapport-de-lonu-sur-le-sahara-les-contours-dun-tournant-diplomatique-majeur.html",
-      "description": "Le rapport annuel remis le 1er octobre 2026 par le Secrétaire général des Nations Unies, António Guterres, aux membres du Conseil de sécurité marque un tournant qualitatif dans le traitement du différend territorial sur le Sahara marocain. Premier document consécutif à l’adoption de la résolution 2797 (2025), ce texte acte le déplacement irréversible du processus […] The post Rapport de l'ONU sur le Sahara : les contours d'un tournant diplomatique majeur appeared first on Hespress Français - Act",
+      "id": "hespress-fr-madiha-khayr-une-nomination-clair-au-gouvernement-suivie-d-une-pol-mique-sur-des-faits-anciens",
+      "title": "Madiha Khayr : une nomination éclair au gouvernement, suivie d’une polémique sur des faits anciens",
+      "link": "https://fr.hespress.com/492946-madiha-khayr-une-nomination-eclair-au-gouvernement-suivie-dune-polemique-sur-des-faits-anciens.html",
+      "description": "Nommée ministre déléguée chargée de la Formation professionnelle et de la Qualification vendredi 16 octobre, Madiha Khayr a été déchargée de ses fonctions dimanche 18 octobre, à la demande de la cheffe du gouvernement, Fatima Ezzahra El Mansouri. Cette décision intervient dans un contexte de polémique autour d’un certificat médico-légal daté de 2004, diffusé sur […] The post Madiha Khayr : une nomination éclair au gouvernement, suivie d’une polémique sur des faits anciens appeared first on Hespr",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-10-18T08:37:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-ex-senegal-president-macky-sall-withdraws-as-candidate-for-un-leader",
-      "title": "Ex-Senegal president Macky Sall withdraws as candidate for UN leader",
-      "link": "https://en.hespress.com/147508-ex-senegal-president-macky-sall-withdraws-as-candidate-for-un-leader.html",
-      "description": "Former president of Senegal Macky Sall on Saturday withdrew from the seven person race to be the next UN secretary general, a day after an informal UN Security Council poll produced no clear favourite. In a statement released on social media, Sall said he had noted the result of the poll and “hoped to contribute […] The post Ex-Senegal president Macky Sall withdraws as candidate for UN leader appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-17T18:16:44Z",
+      "published": "2026-10-18T15:35:24Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
