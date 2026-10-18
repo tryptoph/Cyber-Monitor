@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-17T20:42:40Z",
+  "generatedAt": "2026-10-18T04:43:12Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-mariage-des-mineures-au-maroc-moins-de-demandes-une-exception-judiciaire-qui-persiste",
+      "title": "Mariage des mineures au Maroc : moins de demandes, une exception judiciaire qui persiste",
+      "link": "https://fr.hespress.com/492496-mariage-des-mineures-au-maroc-moins-de-demandes-une-exception-judiciaire-qui-persiste.html",
+      "description": "Le nombre de demandes d’autorisation de mariage impliquant des mineures a reculé de 17% en 2024, selon les données du Conseil supérieur du pouvoir judiciaire. Pourtant, plus de 10.600 autorisations ont été accordées au cours de la même année. Derrière cette baisse, les disparités territoriales, les vulnérabilités sociales et la persistance d’unions informelles posent la […] The post Mariage des mineures au Maroc : moins de demandes, une exception judiciaire qui persiste appeared first on Hespres",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-18T00:23:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-akhannouch-quitte-la-pr-sidence-du-gouvernement-la-conscience-tranquille",
+      "title": "Akhannouch quitte la présidence du Gouvernement \"la conscience tranquille\"",
+      "link": "https://fr.hespress.com/492863-akhannouch-quitte-la-presidence-du-gouvernement-la-conscience-tranquille.html",
+      "description": "Au terme de cinq années à la tête du gouvernement, Aziz Akhannouch a publié un message d’adieu dans lequel il remercie le Roi Mohammed VI pour sa confiance et met en avant le bilan de son équipe. Reconnaissant que certains chantiers n’ont pas été menés à terme, le chef de l’Exécutif sortant affirme quitter ses […] The post Akhannouch quitte la présidence du Gouvernement \"la conscience tranquille\" appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-17T21:12:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-ex-senegal-president-macky-sall-withdraws-as-candidate-for-un-leader",
       "title": "Ex-Senegal president Macky Sall withdraws as candidate for UN leader",
