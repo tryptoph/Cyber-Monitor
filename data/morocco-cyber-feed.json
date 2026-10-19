@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-18T20:52:43Z",
+  "generatedAt": "2026-10-19T04:51:30Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,19 +14,6 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "المغرب الفاسي يتعادل مع أسيك الإيفواري",
-      "link": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%a7%d9%84%d9%81%d8%a7%d8%b3%d9%8a-%d9%8a%d8%aa%d8%b9%d8%a7%d8%af%d9%84-%d9%85%d8%b9-%d8%a3%d8%b3%d9%8a%d9%83-%d8%a7%d9%84%d8%a5%d9%8a%d9%81%d9%88%d8%a7%d8%b1-1825198.html",
-      "description": "تعادل نادي المغرب الفاسي مع ضيفه أسيك ميموزا الإيفواري بنتيجة 1-1، في المباراة التي جمعتهما، اليوم السبت، على أرضية الملعب الشرفي بمكناس، برسم ذهاب الدور التمهيدي الثاني لمسابقة دوري أبطال إفريقيا لكرة القدم. وفرض الفريق الفاسي تفوقه في أغلب أطوار الشوط الأول، حيث تحكم في مجريات اللعب وخلق عددًا من المحاولات الهجومية، في وقت اعتمد […] The post المغرب الفاسي يتعادل مع أسيك الإيفواري appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-18T20:09:13Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-sahara-deadlock-raises-pressure-on-un-but-tougher-enforcement-seen-as-premature",
       "title": "Sahara deadlock raises pressure on UN, but tougher enforcement seen as premature",
       "link": "https://en.hespress.com/147556-sahara-deadlock-raises-pressure-on-un-but-tougher-enforcement-seen-as-premature.html",
@@ -35,19 +22,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-18T20:00:12Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-benabdallah-intervient-pour-annuler-le-licenciement-d-un-agent-de-s-cuti",
-      "title": "Benabdallah intervient pour annuler le licenciement d'un agent de sécutié",
-      "link": "https://fr.hespress.com/492913-benabdallah-intervient-pour-annuler-le-licenciement-dun-agent-de-secutie.html",
-      "description": "Un agent de sécurité privée, récemment démis de ses fonctions après avoir empêché une délégation ministérielle d’accéder aux locaux du ministère de l’éducation nationale, devrait finalement conserver son emploi. Selon Loubna Najib, représentante du Syndicat national des agents de sécurité privée, de nettoyage et de cuisine, affilié à la Confédération démocratique du travail (CDT), le […] The post Benabdallah intervient pour annuler le licenciement d'un agent de sécutié appeared first on Hespress",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-18T17:07:59Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
