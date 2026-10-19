@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-19T13:32:31Z",
+  "generatedAt": "2026-10-19T22:27:08Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69731910-26-vuln-rabilit-critique-activement-exploit-e-affectant-beyondtrust-remote",
+      "title": "69731910/26 - Vulnérabilité critique activement exploitée affectant BeyondTrust Remote…",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-activement-exploitee-affectant-beyondtrust-remote-support",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-19T22:27:05Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-69721910-26-vuln-rabilit-s-affectant-roundcube-webmail",
+      "title": "69721910/26 - Vulnérabilités affectant Roundcube Webmail",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-roundcube-webmail-4",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-19T22:27:05Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
     {
       "id": "dgssi-69711910-26-vuln-rabilit-s-affectant-plusieurs-plugins-et-th-mes-wordpress",
       "title": "69711910/26 - Vulnérabilités affectant plusieurs plugins et thèmes WordPress",
@@ -27,45 +53,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-france-s-marseille-bans-daytime-gatherings-after-unrest-authorities",
-      "title": "France's Marseille bans daytime gatherings after unrest: authorities",
-      "link": "https://en.hespress.com/147604-frances-marseille-bans-daytime-gatherings-after-unrest-authorities.html",
-      "description": "The southern French city of Marseille has banned all “gatherings and demonstrations” from noon to 8:00 pm (1000-1800 GMT) on Monday, police said, following violence and looting at the weekend during cost-of-living protests. Interior Minister Laurent Nunez is expected to arrive in France’s second-largest city later in the day, after its mayor criticised security arrangements for Saturday’s […] The post France's Marseille bans daytime gatherings after unrest: authorities appeared first on HESPRESS",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-19T13:29:09Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-fatima-saadi-d-ment-les-informations-faisant-tat-d-une-condamnation-judiciaire",
-      "title": "Fatima Saadi dément les informations faisant état d’une condamnation judiciaire",
-      "link": "https://fr.hespress.com/493029-fatima-saadi-dement-les-informations-faisant-etat-dune-condamnation-judiciaire.html",
-      "description": "Une source proche de Fatima Saadi, ministre déléguée chargée du Logement et de la Politique de la ville, a démenti les informations relayées par certaines plateformes de réseaux sociaux et certains médias faisant état d’un jugement rendu à son encontre dans le cadre d’une affaire remontant à une dizaine d’années. Elle a affirmé que les […] The post Fatima Saadi dément les informations faisant état d’une condamnation judiciaire appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-19T13:13:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-france-le-gouvernement-instaure-un-couvre-feu-et-n-exclut-pas-l-tat-d-urgence",
-      "title": "France : le gouvernement instaure un couvre-feu et n’exclut pas l’état d’urgence",
-      "link": "https://fr.hespress.com/493022-france-le-gouvernement-instaure-un-couvre-feu-et-nexclut-pas-letat-durgence.html",
-      "description": "Le Premier ministre français, Sébastien Lecornu, a annoncé avoir demandé aux préfets de « déclencher un certain nombre de couvre-feux » lundi soir qui seront « partiels » et « localisés » afin de protéger notamment les commerces, après un week-end marqué par des scènes de chaos dans plusieurs villes. Il a ajouté qu’un état d’urgence pourrait être instauré « si c’est […] The post France : le gouvernement instaure un couvre-feu et n’exclut pas l’état d’urgence appeared first on Hespress Français -",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-19T11:37:12Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "aujourdhui-a-f-s-le-festival-de-la-culture-soufie-s-ouvre-sur-les-chemins-de-l-amour-spirituel",
       "title": "A Fès: Le Festival de la culture soufie s’ouvre sur les «Chemins de l’amour spirituel»",
       "link": "https://aujourdhui.ma/culture/a-fes-le-festival-de-la-culture-soufie-souvre-sur-les-chemins-de-lamour-spirituel",
@@ -74,32 +61,6 @@
       "sourceKey": "aujourdhui",
       "category": "morocco",
       "published": "2026-10-19T11:20:09Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-us-strategic-ties-challenge-spain-s-influence-in-washington-report-says",
-      "title": "Morocco-US strategic ties challenge Spain’s influence in Washington, report says",
-      "link": "https://en.hespress.com/147595-morocco-us-strategic-ties-challenge-spains-influence-in-washington-report-says.html",
-      "description": "Morocco’s relationship with the United States has evolved from a predominantly security-focused partnership into a broader strategic alliance spanning geopolitics, supply chains, energy, technology and engagement in Africa, according to a report by Spain’s Elcano Royal Institute. The report identifies the Western Sahara issue as the central political pillar of the relationship and a key […] The post Morocco-US strategic ties challenge Spain’s influence in Washington, report says appeared first o",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-19T10:00:57Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-sahara-deadlock-raises-pressure-on-un-but-tougher-enforcement-seen-as-premature",
-      "title": "Sahara deadlock raises pressure on UN, but tougher enforcement seen as premature",
-      "link": "https://en.hespress.com/147556-sahara-deadlock-raises-pressure-on-un-but-tougher-enforcement-seen-as-premature.html",
-      "description": "UN envoy Staffan de Mistura’s warning that Sahara negotiations have reached a deadlock has intensified debate over whether the Security Council should strengthen its diplomatic pressure or consider more forceful measures, as it prepares to decide the future of its mission in the territory. During closed-door consultations on October 8, de Mistura reportedly told council […] The post Sahara deadlock raises pressure on UN, but tougher enforcement seen as premature appeared first on HESPRESS Englis",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-18T20:00:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -295,32 +256,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-10-15T11:40:08Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69551410-26-vuln-rabilit-s-dans-les-produits-nvidia",
-      "title": "69551410/26 - Vulnérabilités dans les produits NVIDIA",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-nvidia-12",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-14T17:19:18Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69541410-26-vuln-rabilit-s-critiques-dans-les-produits-fortinet",
-      "title": "69541410/26 - Vulnérabilités critiques dans les produits Fortinet",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-fortinet-3",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-14T17:19:18Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
