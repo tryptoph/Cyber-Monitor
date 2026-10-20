@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-19T22:27:08Z",
+  "generatedAt": "2026-10-20T04:59:38Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "هجمات الحوثيين تلغي رالي السعودية",
+      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%88%d8%ab%d9%8a%d9%8a%d9%86-%d8%aa%d9%84%d8%ba%d9%8a-%d8%b1%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%b3%d8%b9%d9%88%d8%af%d9%8a%d8%a9-1825894.html",
+      "description": "أعلن الاتحاد السعودي للسيارات والدراجات النارية، الاثنين، إلغاء رالي السعودية ضمن بطولة الشرق الأوسط للراليات لعام 2026، والذي كان مقررا إقامته في مدينة جدة خلال شهر نونبر المقبل؛ فيما تتواصل هجمات الحوثيين المدعومين من إيران في اليمن. وجاء في بيان مشترك للاتحاد السعودي للسيارات والدراجات النارية وشركة رياضة المحركات السعودية أنه، بعد التنسيق مع الاتحاد […] The post هجمات الحوثيين تلغي رالي السعودية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-20T03:29:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-de-fausses-alertes-la-bombe-visent-des-centaines-d-coles-en-europe",
+      "title": "De fausses alertes à la bombe visent des centaines d’écoles en Europe",
+      "link": "https://fr.hespress.com/493045-de-fausses-alertes-a-la-bombe-visent-des-centaines-decoles-en-europe.html",
+      "description": "Des centaines d’écoles en Irlande du Nord, Ecosse, Hongrie et Serbie ont reçu lundi des messages d’alerte à la bombe, entraînant l’évacuation de certaines d’entre elles, ont indiqué les autorités locales, qui les considèrent comme des canulars. On ignore pour l’heure si ces incidents sont liés ou non. En Irlande du Nord, « jusqu’à 300 écoles […] The post De fausses alertes à la bombe visent des centaines d’écoles en Europe appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-20T01:08:58Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-fez-hosts-training-session-for-prosecution-judicial-officials-on-ai-human-rights",
+      "title": "Fez hosts training session for prosecution judicial officials on 'AI & human rights'",
+      "link": "https://en.hespress.com/147617-fez-hosts-training-session-for-prosecution-judicial-officials-on-ai-human-rights.html",
+      "description": "The Presidency of the Public Prosecutor’s Office is holding a training session in Fez on Monday and Tuesday, in partnership with the Geneva Centre for Security Sector Governance (DCAF) for judicial officials in public prosecution offices under the theme ”Artificial Intelligence and Human Rights”. This training session is part of the program of strengthening the […] The post Fez hosts training session for prosecution judicial officials on 'AI & human rights' appeared first on HESPRESS English - M",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-19T22:31:11Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69731910-26-vuln-rabilit-critique-activement-exploit-e-affectant-beyondtrust-remote",
       "title": "69731910/26 - Vulnérabilité critique activement exploitée affectant BeyondTrust Remote…",
