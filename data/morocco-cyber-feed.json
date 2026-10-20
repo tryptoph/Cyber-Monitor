@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-20T17:17:19Z",
+  "generatedAt": "2026-10-20T21:42:48Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,32 @@
   ],
   "items": [
     {
+      "id": "hespress-ar-item",
+      "title": "باريس يزور شباك البارصا أربع مرات",
+      "link": "https://www.hespress.com/%d8%a8%d8%a7%d8%b1%d9%8a%d8%b3-%d9%8a%d8%b2%d9%88%d8%b1-%d8%b4%d8%a8%d8%a7%d9%83-%d8%a7%d9%84%d8%a8%d8%a7%d8%b1%d8%b5%d8%a7-4-%d9%85%d8%b1%d8%a7%d8%aa-1826332.html",
+      "description": "في مباراة مثيرة انتهت مواجهة باريس سان جيرمان وبرشلونة، ضمن منافسات دوري أبطال أوروبا، بفوز الأول بأربعة أهداف مقابل هدفين لأصدقاء يامين لامال. وشهد اللقاء صراعا قويا بين الفريقين، في مباراة اتسمت بالإيقاع السريع وتبادل المحاولات الهجومية. وسعى الفريق الباريسي إلى استثمار عاملي الأرض والجمهور لفرض أسلوبه، بينما حاول الفريق الكتالوني استغلال مهارات لاعبيه في بناء […] The post باريس يزور شباك البارصا أربع مرات appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-20T20:56:17Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-17",
+      "title": "\"لبؤات أقل من 17 سنة\" ينهزمن برباعية أمام ألمانيا في \"المونديال\"",
+      "link": "https://www.hespress.com/%d9%84%d8%a8%d8%a4%d8%a7%d8%aa-%d8%a3%d9%82%d9%84-%d9%85%d9%86-17-%d8%b3%d9%86%d8%a9-%d9%8a%d9%86%d9%87%d8%b2%d9%85%d9%86-%d8%a8%d8%b1%d8%a8%d8%a7%d8%b9%d9%8a%d8%a9-%d8%a3%d9%85%d8%a7%d9%85-%d8%a3-1826337.html",
+      "description": "انهزم المنتخب الوطني النسوي لأقل من 17 سنة أمام نظيره الألماني بنتيجة 4-2، في المباراة التي جمعتهما مساء اليوم الثلاثاء بمركب محمد السادس لكرة القدم، لحساب الجولة الثانية من منافسات المجموعة الأولى ضمن نهائيات كأس العالم لكرة القدم النسوية لأقل من 17 سنة، المقامة بالمغرب. وانطلق الشوط الأول سجالًا بين المنتخبين، مع تبادل للهجمات، قبل […] The post \"لبؤات أقل من 17 سنة\" ينهزمن برباعية أمام ألمانيا في \"المونديال\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-20T20:10:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-french-pm-vows-massive-police-deployment-for-new-demonstrations-saturday",
       "title": "French PM vows 'massive' police deployment for new demonstrations Saturday",
       "link": "https://en.hespress.com/147674-french-pm-vows-massive-police-deployment-for-new-demonstrations-saturday.html",
@@ -22,32 +48,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-20T15:30:35Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-terrorisme-la-cnasnu-inscrit-10-nouvelles-personnes-sur-la-liste-locale-de-sanctions",
-      "title": "Terrorisme : la CNASNU inscrit 10 nouvelles personnes sur la liste locale de sanctions",
-      "link": "https://fr.hespress.com/493265-terrorisme-la-cnasnu-inscrit-10-nouvelles-personnes-sur-la-liste-locale-de-sanctions.html",
-      "description": "Dans le cadre du renforcement continu du dispositif national de lutte contre le terrorisme, la prolifération des armes de destruction massive et leur financement, la Commission nationale chargée de l’application des sanctions prévues par les résolutions du Conseil de sécurité des Nations Unies (CNASNU) a tenu une réunion ce lundi 19 octobre au siège du […] The post Terrorisme : la CNASNU inscrit 10 nouvelles personnes sur la liste locale de sanctions appeared first on Hespress Français - Actuali",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-20T15:20:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-preschool-teachers-protest-outside-parliament-demand-higher-pay-and-public-sector-integr",
-      "title": "Morocco preschool teachers protest outside Parliament, demand higher pay and public-sector integration",
-      "link": "https://en.hespress.com/147664-morocco-preschool-teachers-protest-outside-parliament-demand-higher-pay-and-public-sector-integration.html",
-      "description": "Preschool teachers staged a sit-in outside Parliament in Rabat on Monday evening before security forces intervened to disperse them, as part of a broader protest movement calling for better pay, improved working conditions and greater job security. The sit-in followed an afternoon demonstration attended by hundreds of teachers and organized by a coordination body representing […] The post Morocco preschool teachers protest outside Parliament, demand higher pay and public-sector integration appea",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-20T12:45:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
