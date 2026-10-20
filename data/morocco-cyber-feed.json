@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-20T11:48:35Z",
+  "generatedAt": "2026-10-20T17:17:19Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-french-pm-vows-massive-police-deployment-for-new-demonstrations-saturday",
+      "title": "French PM vows 'massive' police deployment for new demonstrations Saturday",
+      "link": "https://en.hespress.com/147674-french-pm-vows-massive-police-deployment-for-new-demonstrations-saturday.html",
+      "description": "French Prime Minister Sebastien Lecornu said Tuesday authorities would mobilise a “massive” security presence next weekend, with organisers announcing plans for new protests after riots erupted on the sidelines of nationwide demonstrations. “The deployment for next Saturday will be massive,” Lecornu said in parliament, acknowledging that the security operation for the protests last weekend had […] The post French PM vows 'massive' police deployment for new demonstrations Saturday appeared first ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-20T15:30:35Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-terrorisme-la-cnasnu-inscrit-10-nouvelles-personnes-sur-la-liste-locale-de-sanctions",
+      "title": "Terrorisme : la CNASNU inscrit 10 nouvelles personnes sur la liste locale de sanctions",
+      "link": "https://fr.hespress.com/493265-terrorisme-la-cnasnu-inscrit-10-nouvelles-personnes-sur-la-liste-locale-de-sanctions.html",
+      "description": "Dans le cadre du renforcement continu du dispositif national de lutte contre le terrorisme, la prolifération des armes de destruction massive et leur financement, la Commission nationale chargée de l’application des sanctions prévues par les résolutions du Conseil de sécurité des Nations Unies (CNASNU) a tenu une réunion ce lundi 19 octobre au siège du […] The post Terrorisme : la CNASNU inscrit 10 nouvelles personnes sur la liste locale de sanctions appeared first on Hespress Français - Actuali",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-20T15:20:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-preschool-teachers-protest-outside-parliament-demand-higher-pay-and-public-sector-integr",
+      "title": "Morocco preschool teachers protest outside Parliament, demand higher pay and public-sector integration",
+      "link": "https://en.hespress.com/147664-morocco-preschool-teachers-protest-outside-parliament-demand-higher-pay-and-public-sector-integration.html",
+      "description": "Preschool teachers staged a sit-in outside Parliament in Rabat on Monday evening before security forces intervened to disperse them, as part of a broader protest movement calling for better pay, improved working conditions and greater job security. The sit-in followed an afternoon demonstration attended by hundreds of teachers and organized by a coordination body representing […] The post Morocco preschool teachers protest outside Parliament, demand higher pay and public-sector integration appea",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-20T12:45:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69742010-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
       "title": "69742010/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
@@ -27,45 +66,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-53",
-      "title": "مسيرة تستهدف سوقا وتقتل 53 شخصا",
-      "link": "https://www.hespress.com/%d9%85%d8%b3%d9%8a%d8%b1%d8%a9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%b3%d9%88%d9%82%d8%a7-%d9%88%d8%aa%d9%82%d8%aa%d9%84-53-%d8%b4%d8%ae%d8%b5%d8%a7-1825943.html",
-      "description": "قتل 53 شخصا في هجوم بطائرة مسيرة للجيش السوداني على سوق بمنطقة أبيي المتنازع عليها بين السودان وجنوب السودان، بحسب بيان لسلطات المنطقة الاثنين. ودانت إدارة منطقة أبيي، الواقعة بين ولاية غرب كردفان السودانية الواقعة تحت سيطرة قوات الدعم السريع ودولة جنوب السودان، في بيانها “الهجوم المدمر بطائرة مسيرة على سوق أميت” الاثنين “من قبل […] The post مسيرة تستهدف سوقا وتقتل 53 شخصا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-20T11:10:30Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-spain-security-corridor-faces-growing-isis-threat-from-sahel-report-warns",
-      "title": "Morocco–Spain security corridor faces growing ISIS threat from Sahel, report warns",
-      "link": "https://en.hespress.com/147654-morocco-spain-security-corridor-faces-growing-isis-threat-from-sahel-report-warns.html",
-      "description": "Morocco and Spain need closer counterterrorism cooperation to disrupt an emerging Islamic State logistical corridor from the Sahel into southern Europe, according to an analysis published Sunday by US national security outlet Lawfare. Authors Lucas Webber, Peter Smith and Colin P. Clarke warn that Islamic State-Sahel Province, previously focused on insurgency in Mali, Niger and […] The post Morocco–Spain security corridor faces growing ISIS threat from Sahel, report warns appeared first on HESPR",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-20T10:56:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-report-highlights-crucial-role-of-morocco-spain-anti-terrorism-cooperation",
-      "title": "Report highlights crucial role of Morocco-Spain anti-terrorism cooperation",
-      "link": "https://en.hespress.com/147657-report-highlights-crucial-role-of-morocco-spain-anti-terrorism-cooperation.html",
-      "description": "A report by the US-based national security research website Lawfare, in collaboration with the Brookings Institution, has warned that the Islamic State’s Sahel branch is developing logistical networks linking West Africa to southern Europe, underscoring the need for stronger security cooperation between Morocco and Spain. The report argues that treating security challenges in the Sahel […] The post Report highlights crucial role of Morocco-Spain anti-terrorism cooperation appeared first on HESPR",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-20T10:30:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-r-serves-de-change-cinq-ans-de-hausse-d-affil-e",
       "title": "Réserves de change : Cinq ans de hausse d’affilée",
       "link": "https://www.lavieeco.com/argent/reserves-de-change-cinq-ans-de-hausse-daffilee/",
@@ -74,19 +74,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-20T09:33:16Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-fez-hosts-training-session-for-prosecution-judicial-officials-on-ai-human-rights",
-      "title": "Fez hosts training session for prosecution judicial officials on 'AI & human rights'",
-      "link": "https://en.hespress.com/147617-fez-hosts-training-session-for-prosecution-judicial-officials-on-ai-human-rights.html",
-      "description": "The Presidency of the Public Prosecutor’s Office is holding a training session in Fez on Monday and Tuesday, in partnership with the Geneva Centre for Security Sector Governance (DCAF) for judicial officials in public prosecution offices under the theme ”Artificial Intelligence and Human Rights”. This training session is part of the program of strengthening the […] The post Fez hosts training session for prosecution judicial officials on 'AI & human rights' appeared first on HESPRESS English - M",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-19T22:31:11Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
