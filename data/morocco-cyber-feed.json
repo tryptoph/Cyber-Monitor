@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-21T17:20:05Z",
+  "generatedAt": "2026-10-21T21:48:30Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "aujourdhui-lutte-antiterroriste-le-maroc-inscrit-dix-nouvelles-personnes-sur-sa-liste",
+      "title": "Lutte antiterroriste : le maroc inscrit dix nouvelles personnes sur sa liste",
+      "link": "https://aujourdhui.ma/actualite/lutte-antiterroriste-le-maroc-inscrit-dix-nouvelles-personnes-sur-sa-liste",
+      "description": "Sécurité. Le Maroc poursuit ses efforts de lutte contre le terrorisme en procédant à la mise à jour de sa liste locale des personnes soumises aux mesures de gel immédiat des avoirs, d’interdiction de toute transaction ainsi que d’interdiction de voyager. Les détails. La lutte contre le terrorisme et la prolifération des armes de destruction […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-21T18:50:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-police-arrest-18-suspects-in-laayoune-over-theft-drug-trafficking-and-violence",
+      "title": "Police arrest 18 suspects in Laayoune over theft, drug trafficking and violence",
+      "link": "https://en.hespress.com/147746-police-arrest-18-suspects-in-laayoune-over-theft-drug-trafficking-and-violence.html",
+      "description": "Police in the southern Moroccan city of Laayoune have arrested 18 people, including a woman and a minor, over suspected involvement in various criminal offenses during the past 10 days, according to security officials. The suspects are being investigated in connection with alleged theft, violence, threats, drug trafficking and the sale of illicit alcohol, among […] The post Police arrest 18 suspects in Laayoune over theft, drug trafficking and violence appeared first on HESPRESS English - Morocc",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-21T17:21:32Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69812110-26-vuln-rabilit-critique-affectant-openstack-manila",
       "title": "69812110/26 - Vulnérabilité critique affectant OpenStack Manila",
@@ -63,19 +89,6 @@
       "published": "2026-10-21T17:20:02Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-france-macron-d-nonce-les-commentaires-inacceptables-et-stupides-de-dirigeants-trangers",
-      "title": "France : Macron dénonce les « commentaires inacceptables et stupides » de dirigeants étrangers",
-      "link": "https://fr.hespress.com/493367-france-macron-denonce-les-commentaires-inacceptables-et-stupides-de-dirigeants-etrangers.html",
-      "description": "Depuis Doha, Emmanuel Macron a vivement réagi mercredi aux déclarations de responsables étrangers sur les violences du 17 octobre en France. Le président français dénonce une « manipulation étrangère de l’information » et accuse certains acteurs de relayer de fausses images, notamment générées par intelligence artificielle. Emmanuel Macron hausse le ton face aux réactions internationales […] The post France : Macron dénonce les « commentaires inacceptables et stupides » de dirigeants étrangers a",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-21T14:01:51Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
