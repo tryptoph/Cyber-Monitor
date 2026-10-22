@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-22T05:00:05Z",
+  "generatedAt": "2026-10-22T12:03:11Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-69832210-26-les-vuln-rabilit-s-critiques-affectant-php-php2shell-concernent",
+      "title": "69832210/26 - Les vulnérabilités critiques affectant PHP « PHP2Shell » concernent…",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/les-vulnerabilites-critiques-affectant-php-php2shell-concernent-plusieurs-produits-f5",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-22T12:02:57Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-mazagan-concerts-une-12-dition-aux-rythmes-du-ra-avec-faudel-et-kader-japonais",
+      "title": "Mazagan Concerts : une 12ᵉ édition aux rythmes du Raï avec Faudel et Kader Japonais",
+      "link": "https://www.lavieeco.com/comese/mazagan-concerts-une-12%e1%b5%89-edition-aux-rythmes-du-rai-avec-faudel-et-kader-japonais/",
+      "description": "Signature Communication, en partenariat avec le Mazagan Beach & Golf Resort, donne rendez-vous au public le samedi 24 octobre 2026 pour une soirée placée sous le signe de la musique et de la fête. L’article Mazagan Concerts : une 12ᵉ édition aux rythmes du Raï avec Faudel et Kader Japonais est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-22T11:37:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-cybers-curit-la-dgssi-met-une-alerte-critique-sur-deux-failles-majeures-affectant-php-au-maroc-e",
+      "title": "Cybersécurité : la DGSSI émet une alerte critique sur deux failles majeures affectant PHP au Maroc et à l'international",
+      "link": "https://fr.hespress.com/493526-cybersecurite-la-dgssi-emet-une-alerte-critique-sur-deux-failles-majeures-affectant-php-au-maroc-et-a-linternational.html",
+      "description": "Une alerte mondiale de niveau critique a été déclenchée ce mercredi 21 octobre 2026 suite à la découverte de deux vulnérabilités majeures au sein de PHP, l’un des langages de programmation les plus répandus pour l’administration des sites web et des systèmes de gestion de contenu comme WordPress, Drupal ou Joomla. Au Maroc, la Direction […] The post Cybersécurité : la DGSSI émet une alerte critique sur deux failles majeures affectant PHP au Maroc et à l'international appeared first on Hespress F",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-22T11:02:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "هجوم على مطار الدمام يخلف قتيلين",
+      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%88%d9%85-%d8%b9%d9%84%d9%89-%d9%85%d8%b7%d8%a7%d8%b1-%d8%a7%d9%84%d8%af%d9%85%d8%a7%d9%85-%d9%8a%d8%ae%d9%84%d9%81-%d9%82%d8%aa%d9%8a%d9%84%d9%8a%d9%86-1827013.html",
+      "description": "أعلنت الهيئة العامة للطيران المدني السعودي، اليوم الخميس، ارتفاع حصيلة ضحايا الهجوم الذي استهدف مطار الملك فهد الدولي بالدمام، مساء الأربعاء، إلى قتيلين وثمانية مصابين، مؤكدة استئناف العمليات التشغيلية وعودة الحركة الجوية إلى طبيعتها. وأوضحت الهيئة، في بيان نشرته عبر منصة «إكس»، أن القتيلين مواطن سعودي ومقيم هندي، فيما تتراوح إصابات الجرحى، الذين يحملون جنسيات […] The post هجوم على مطار الدمام يخلف قتيلين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-22T09:16:13Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69822110-26-mises-jour-de-s-curit-urgentes-affectant-plusieurs-produits-fortinet",
       "title": "69822110/26 - Mises à jour de sécurité urgentes affectant plusieurs produits Fortinet",
@@ -27,19 +79,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-p-kin-et-moscou-d-noncent-les-ing-rences-trang-res-en-eurasie",
-      "title": "Pékin et Moscou dénoncent les ingérences étrangères en Eurasie",
-      "link": "https://fr.hespress.com/493505-pekin-et-moscou-denoncent-les-ingerences-etrangeres-en-eurasie.html",
-      "description": "La Chine et la Russie dénoncent les « ingérences extérieures destructrices » comme la principale cause d’instabilité en Eurasie, dans un communiqué conjoint publié dans les médias d’Etat chinois à l’occasion d’une visite du Premier ministre chinois en Russie. « La Chine soutient la Russie dans la préservation de sa sécurité, de sa stabilité, de son unité nationale, […] The post Pékin et Moscou dénoncent les ingérences étrangères en Eurasie appeared first on Hespress Français - Actualités du Maro",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-22T02:54:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-morocco-disciplines-68-judges-in-2025-most-for-professional-misconduct",
       "title": "Morocco disciplines 68 judges in 2025, most for professional misconduct",
       "link": "https://en.hespress.com/147769-morocco-disciplines-68-judges-in-2025-most-for-professional-misconduct.html",
@@ -48,19 +87,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-21T22:19:36Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-lutte-antiterroriste-le-maroc-inscrit-dix-nouvelles-personnes-sur-sa-liste",
-      "title": "Lutte antiterroriste : le maroc inscrit dix nouvelles personnes sur sa liste",
-      "link": "https://aujourdhui.ma/actualite/lutte-antiterroriste-le-maroc-inscrit-dix-nouvelles-personnes-sur-sa-liste",
-      "description": "Sécurité. Le Maroc poursuit ses efforts de lutte contre le terrorisme en procédant à la mise à jour de sa liste locale des personnes soumises aux mesures de gel immédiat des avoirs, d’interdiction de toute transaction ainsi que d’interdiction de voyager. Les détails. La lutte contre le terrorisme et la prolifération des armes de destruction […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-21T18:50:46Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -118,19 +144,6 @@
       "type": "news"
     },
     {
-      "id": "aujourdhui-irrigation-le-japon-soutient-le-maroc",
-      "title": "Irrigation : Le Japon soutient le Maroc",
-      "link": "https://aujourdhui.ma/economie/irrigation-le-japon-soutient-le-maroc",
-      "description": "1.264 habitants bénéficiaires d’un projet à Taroudant Coopération : Ce projet, financé par le gouvernement du Japon, vise à renforcer la résilience de l’écosystème local face aux impacts croissants du changement climatique et à contribuer à l’amélioration de la sécurité alimentaire des 1.264 habitants des quatre douars concernés. Le Maroc et le Japon continuent de […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-21T13:33:46Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-archives-lve-1996-le-chaos-des-commissions-bancaires",
       "title": "Archives LVE 1996. Le chaos des commissions bancaires",
       "link": "https://www.lavieeco.com/influences/archives/archives-lve-1996-le-chaos-des-commissions-bancaires/",
@@ -139,19 +152,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-21T12:56:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-au-travail-oser-parler-ne-devrait-pas-tre-un-acte-de-courage",
-      "title": "Au travail, oser parler ne devrait pas être un acte de courage",
-      "link": "https://aujourdhui.ma/chroniques/au-travail-oser-parler-ne-devrait-pas-etre-un-acte-de-courage",
-      "description": "Mieux communiquer, mieux vivre… Sécurité psychologique Une équipe psychologiquement sécurisante n’est pas une équipe où tout le monde est toujours d’accord. C’est une équipe où chacun peut exprimer son désaccord sans devenir un problème ! «Je préfère me taire plutôt que de risquer une remarque.» «J’avais une idée, mais je n’ai pas osé la proposer.» […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-21T12:16:16Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -196,32 +196,6 @@
       "type": "news"
     },
     {
-      "id": "aujourdhui-piratage-et-fausses-amendes-un-duo-crou-casablanca",
-      "title": "Piratage et fausses amendes : Un duo écroué à Casablanca",
-      "link": "https://aujourdhui.ma/faits-divers/piratage-et-fausses-amendes-un-duo-ecroue-a-casablanca",
-      "description": "Escroquerie Deux jeunes hommes, âgés de vingt-trois et vingt-huit ans, ont été arrêtés, samedi 17 octobre, à Casablanca par la brigade de police judiciaire du district de la sûreté d’Aïn Sebaâ-Hay Mohammadi, apprend-on d’une source judiciaire. Ils sont soupçonnés d’atteinte aux systèmes de traitement automatisé de données, de piratage international d’appels téléphoniques, d’escroquerie et de […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-21T11:55:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "aujourdhui-marrakech-un-chauffeur-de-moto-indrive-interpell-apr-s-le-d-c-s-d-un-client",
-      "title": "Marrakech : Un chauffeur de moto inDrive interpellé après le décès d’un client",
-      "link": "https://aujourdhui.ma/faits-divers/marrakech-un-chauffeur-de-moto-indrive-interpelle-apres-le-deces-dun-client",
-      "description": "Délit de fuite Un chauffeur moto opérant via l’application «inDrive» a été identifié, puis arrêté à Casablanca, après avoir pris la fuite à la suite de la chute mortelle d’un client en état d’ébriété avancé à Marrakech, apprend-on d’une source judiciaire. L’enquête policière a révélé que le conducteur avait pris en charge, à Marrakech, ce […]",
-      "source": "Aujourd'hui le Maroc",
-      "sourceKey": "aujourdhui",
-      "category": "morocco",
-      "published": "2026-10-21T11:55:23Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-les-nouveaux-territoires-fort-potentiel",
       "title": "Les nouveaux territoires à fort potentiel",
       "link": "https://www.lavieeco.com/affaires/secteurs/les-nouveaux-territoires-a-fort-potentiel/",
@@ -245,19 +219,6 @@
       "published": "2026-10-20T11:48:32Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-r-serves-de-change-cinq-ans-de-hausse-d-affil-e",
-      "title": "Réserves de change : Cinq ans de hausse d’affilée",
-      "link": "https://www.lavieeco.com/argent/reserves-de-change-cinq-ans-de-hausse-daffilee/",
-      "description": "Entre 2021 et 2025, les avoirs officiels de réserve sont passés de 330,8 MMDH à 443 MMDH. Certaines politiques publiques, mises en œuvre au cours du dernier quinquennat, ont été déterminantes pour cette trajectoire haussière. Décryptage. L’article Réserves de change : Cinq ans de hausse d’affilée est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-20T09:33:16Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -355,19 +316,6 @@
       "id": "dgssi-69661610-26-vuln-rabilit-s-dans-le-cms-drupal",
       "title": "69661610/26 - Vulnérabilités dans le CMS Drupal",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-le-cms-drupal-3",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-16T11:34:10Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69651610-26-vuln-rabilit-dans-symantec-endpoint-detection-and-response",
-      "title": "69651610/26 - Vulnérabilité dans Symantec Endpoint Detection and Response",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-symantec-endpoint-detection-and-response",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
