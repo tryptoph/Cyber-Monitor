@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-22T17:17:39Z",
+  "generatedAt": "2026-10-22T21:43:29Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-impact-of-houthi-attacks-on-saudi-economy-limited-for-now-imf",
+      "title": "Impact of Houthi attacks on Saudi economy 'limited' for now: IMF",
+      "link": "https://en.hespress.com/147814-impact-of-houthi-attacks-on-saudi-economy-limited-for-now-imf.html",
+      "description": "Houthi attacks on Saudi Arabia are having only a “limited” economic impact on the kingdom so far, owing to robust domestic demand, the IMF’s regional director told AFP, though geopolitical uncertainty remains a threat. The Iranian-backed Yemeni group has ramped up its attacks on Saudi Arabia in recent weeks, hitting oil facilities and airports among […] The post Impact of Houthi attacks on Saudi economy 'limited' for now: IMF appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-22T19:09:09Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-diplomatie-omar-hilale-le-maroc-trait-d-union-entre-l-onu-et-l-ua",
+      "title": "Diplomatie – Omar Hilale : «Le Maroc, trait d’union entre l’ONU et l’UA»",
+      "link": "https://aujourdhui.ma/actualite/diplomatie-omar-hilale-le-maroc-trait-dunion-entre-lonu-et-lua",
+      "description": "Afrique : L’ambassadeur représentant permanent du Maroc auprès des Nations Unies, Omar Hilale, a co-présidé, mercredi à New York, en sa qualité de président de la Commission de consolidation de la paix de l’ONU (PBC), la 9ème réunion consultative annuelle entre la PBC et le Conseil de paix et de sécurité (CPS) de l’Union africaine […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-22T17:20:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69892210-26-vuln-rabilit-s-dans-les-produits-splunk",
       "title": "69892210/26 - Vulnérabilités dans les produits Splunk",
@@ -92,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "ثغرات تهدد أنظمة معلوماتية.. وتحذير رسمي مغربي من الاختراق عن بُعد",
-      "link": "https://www.hespress.com/%d8%ab%d8%ba%d8%b1%d8%a7%d8%aa-%d8%aa%d9%87%d8%af%d8%af-%d8%a3%d9%86%d8%b8%d9%85%d8%a9-%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa%d9%8a%d8%a9-%d9%88%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1-%d8%b1%d8%b3%d9%85-1827254.html",
-      "description": "حذّرت المديرية العامة لأمن نظم المعلومات بالمغرب من ثغرتين أمنيتين خطيرتين في لغة البرمجة “PHP” مصنفتين ضمن مستوى الخطورة الحرج، بسبب إمكانية استغلالهما لتنفيذ تعليمات برمجية عن بُعد على الأنظمة المتأثرة. ويأتي هذا التحذير في إطار التنبيه العالمي إلى المخاطر التي قد تهدد الخوادم والمواقع الإلكترونية التي تستخدم إصدارات غير محيّنة من هذه اللغة. وتكمن […] The post ثغرات تهدد أنظمة معلوماتية.. وتحذير رسمي مغربي من الاختراق عن بُعد appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-22T16:24:09Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-british-national-found-dead-in-meknes-tourist-accommodation-police-investigate",
       "title": "British national found dead in Meknes tourist accommodation, police investigate",
       "link": "https://en.hespress.com/147791-british-national-found-dead-in-meknes-tourist-accommodation-police-investigate.html",
@@ -113,19 +126,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-22T13:45:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-dakar-rally-could-return-to-morocco-for-first-time-since-2007-amid-saudi-security-concerns",
-      "title": "Dakar Rally could return to Morocco for first time since 2007 amid Saudi security concerns",
-      "link": "https://en.hespress.com/147785-dakar-rally-could-return-to-morocco-for-first-time-since-2007-amid-saudi-security-concerns.html",
-      "description": "The Dakar Rally is expected to return to Morocco in January 2027, ending seven years in Saudi Arabia as escalating hostilities in the Middle East force organizers to reconsider the race’s location. Three sources involved in the World Rally-Raid Championship told Reuters that the event would begin in Europe, with a prologue in Spain or […] The post Dakar Rally could return to Morocco for first time since 2007 amid Saudi security concerns appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-22T12:41:16Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
