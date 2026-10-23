@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-23T17:15:31Z",
+  "generatedAt": "2026-10-23T21:29:45Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-plf-2027-lekjaa-promet-de-concilier-engagements-et-marges-financi-res",
+      "title": "PLF 2027 : Lekjaa promet de concilier engagements et marges financières",
+      "link": "https://www.lavieeco.com/au-royaume/plf-2027-lekjaa-promet-de-concilier-engagements-et-marges-financieres/",
+      "description": "Présentant le texte devant le Parlement, le ministre de l'Économie et des Finances a plaidé pour une hiérarchisation des priorités et une dépense publique à l'impact tangible, dans un contexte international marqué par les incertitudes. L’article PLF 2027 : Lekjaa promet de concilier engagements et marges financières est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-23T21:09:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "نتنياهو يهدد بتدمير الضفة الغربية",
+      "link": "https://www.hespress.com/%d9%86%d8%aa%d9%86%d9%8a%d8%a7%d9%87%d9%88-%d9%8a%d9%87%d8%af%d8%af-%d8%a8%d8%aa%d8%af%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b6%d9%81%d8%a9-%d8%a7%d9%84%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-1827977.html",
+      "description": "هدد رئيس الوزراء بنيامين نتنياهو، الجمعة، بشنّ عملية عسكرية على نطاق غير مسبوق منذ عقود في الضفة الغربية المحتلة، عقب هجوم نفذه مسلّحان فلسطينيان وأسفر عن مقتل جنديين إسرائيليين قرب الخليل. وسارع نتانياهو، الذي يخوض معركة محتدمة للفوز في الانتخابات العامة المقرّرة الثلاثاء، ووزراء من حكومته، إلى الإدلاء بتصريحات تصعيدية وعنيفة حول الهجوم. وقال إنه […] The post نتنياهو يهدد بتدمير الضفة الغربية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-23T20:44:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-t-touan-marcel-khalife-ouvre-la-27e-dition-du-festival-international-de-luth",
+      "title": "Tétouan : Marcel Khalife ouvre la 27e édition du Festival international de luth",
+      "link": "https://fr.hespress.com/493709-tetouan-marcel-khalife-ouvre-la-27e-edition-du-festival-international-de-luth.html",
+      "description": "Du 29 au 31 octobre 2026, le Festival international de luth de Tétouan réunira des artistes marocains et internationaux autour du thème « La Méditerranée, bassin des trois cultures ». Parmi les temps forts de cette édition : le concert d’ouverture de Marcel Khalife et la création d’un orchestre marocain du oud réunissant 50 instrumentistes […] The post Tétouan : Marcel Khalife ouvre la 27e édition du Festival international de luth appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-23T19:32:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-netanyahu-launches-major-west-bank-operation-after-israeli-soldiers-killed",
+      "title": "Netanyahu launches major West Bank operation after Israeli soldiers killed",
+      "link": "https://en.hespress.com/147877-netanyahu-launches-major-west-bank-operation-after-israeli-soldiers-killed.html",
+      "description": "Prime Minister Benjamin Netanyahu announced a major military operation in the occupied West Bank on Friday after Palestinian gunmen killed two soldiers in an attack near Hebron, days ahead of Israeli elections in which security has been a central focus. Netanyahu is locked in a tight race to keep his job in Tuesday’s vote, having […] The post Netanyahu launches major West Bank operation after Israeli soldiers killed appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-23T18:35:15Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-69942310-26-les-vuln-rabilit-s-critiques-affectant-php-php2shell-concernent",
       "title": "69942310/26 - Les vulnérabilités critiques affectant PHP « PHP2Shell » concernent…",
@@ -66,6 +118,19 @@
       "type": "news"
     },
     {
+      "id": "hespress-en-morocco-s-bourita-holds-talks-with-russia-s-lavrov-as-un-sahara-negotiations-intensify",
+      "title": "Morocco's Bourita holds talks with Russia's Lavrov as UN Sahara negotiations intensify",
+      "link": "https://en.hespress.com/147875-moroccos-bourita-holds-talks-with-russias-lavrov-as-un-sahara-negotiations-intensify.html",
+      "description": "Moroccan Foreign Minister Nasser Bourita held telephone talks Friday with his Russian counterpart Sergei Lavrov, discussing bilateral cooperation and coordination at the United Nations amid negotiations over a new Security Council resolution on the Moroccan Sahara. The conversation took place at Morocco’s initiative, according to the Russian Foreign Ministry. The two ministers discussed strengthening Moroccan-Russian […] The post Morocco's Bourita holds talks with Russia's Lavrov as UN Sahara ne",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-23T17:11:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-spain-and-italy-end-border-restrictions-imposed-after-ceuta-migration-crisis",
       "title": "Spain and Italy end border restrictions imposed after Ceuta migration crisis",
       "link": "https://en.hespress.com/147852-spain-and-italy-end-border-restrictions-imposed-after-ceuta-migration-crisis.html",
@@ -74,45 +139,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-23T15:54:12Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-plf-2027-baisse-de-l-ir-fiscalit-renforc-e-pour-les-grands-distributeurs-de-carburants",
-      "title": "PLF 2027 : baisse de l'IR, fiscalité renforcée pour les grands distributeurs de carburants",
-      "link": "https://fr.hespress.com/493726-plf-2027-baisse-de-lir-fiscalite-renforcee-pour-les-grands-distributeurs-de-carburants.html",
-      "description": "Le projet de loi de finances (PLF) 2027 prévoit une refonte progressive du barème de l’impôt sur le revenu, avec un taux marginal ramené à 30% à l’horizon 2031. Il propose également de porter à 40% l’impôt sur les sociétés de certaines grandes entreprises d’importation et de distribution de carburants, d’instaurer un acompte fiscal de […] The post PLF 2027 : baisse de l'IR, fiscalité renforcée pour les grands distributeurs de carburants appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-23T15:36:06Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sebta-apr-s-le-d-mant-lement-des-campements-la-vuln-rabilit-des-migrants-reste-enti-re",
-      "title": "Sebta : après le démantèlement des campements, la vulnérabilité des migrants reste entière",
-      "link": "https://fr.hespress.com/493677-sebta-apres-le-demantelement-des-campements-la-vulnerabilite-des-migrants-reste-entiere.html",
-      "description": "Le démantèlement des campements informels au préside occupé de Sebta n’a pas mis fin aux difficultés rencontrées par les migrants. Après les évacuations, des mineurs marocains ont notamment passé la nuit devant les locaux de la police nationale, dans l’attente de leur identification et d’une orientation. Une situation qui met en évidence les difficultés de […] The post Sebta : après le démantèlement des campements, la vulnérabilité des migrants reste entière appeared first on Hespress Français -",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-23T14:40:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-moroccan-court-sentences-rni-politician-to-seven-years-in-prison-over-property-fraud",
-      "title": "Moroccan court sentences RNI politician to seven years in prison over property fraud",
-      "link": "https://en.hespress.com/147843-moroccan-court-sentences-rni-politician-to-seven-years-in-prison-over-property-fraud.html",
-      "description": "A court in Tangier sentenced Ahmed Zegaf, deputy president of the Mghogha district and a member of the National Rally of Independents (RNI), to seven years in prison on Friday over property-related offenses. The criminal chamber of the Tangier Court of Appeal issued the first-instance verdict after a trial involving allegations of forged administrative certificates, […] The post Moroccan court sentences RNI politician to seven years in prison over property fraud appeared first on HESPRESS Englis",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-23T12:11:35Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
