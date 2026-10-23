@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-22T21:43:29Z",
+  "generatedAt": "2026-10-23T05:01:13Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-sant-mentale-au-travail-agir-sur-les-causes-de-la-pression",
+      "title": "Santé mentale au travail : agir sur les causes de la pression",
+      "link": "https://fr.hespress.com/493170-sante-mentale-au-travail-agir-sur-les-causes-de-la-pression.html",
+      "description": "Responsabiliser les salariés face au stress trouve vite ses limites lorsque les difficultés tiennent aux conditions de travail. Dans cet entretien accordé à Hespress FR, Yann Karim Chennaoui, Master Coach certifié et spécialiste du neurocoaching stratégique, plaide pour des organisations qui écoutent réellement leurs équipes et donnent aux managers un vrai pouvoir d’agir, l’empathie ne […] The post Santé mentale au travail : agir sur les causes de la pression appeared first on Hespress Français ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-22T22:04:54Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-french-authorities-seek-to-ban-or-curb-fresh-protests",
+      "title": "French authorities seek to ban or curb fresh protests",
+      "link": "https://en.hespress.com/147821-french-authorities-seek-to-ban-or-curb-fresh-protests.html",
+      "description": "French authorities on Thursday imposed bans or restrictions on fresh protests springing up in the wake of demonstrations last weekend that degenerated into the country’s worst street violence in years. President Emmanuel Macron said after chairing a meeting of key ministers and intelligence officials that curfews and other security measures would be imposed, including bans […] The post French authorities seek to ban or curb fresh protests appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-22T21:43:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-impact-of-houthi-attacks-on-saudi-economy-limited-for-now-imf",
       "title": "Impact of Houthi attacks on Saudi economy 'limited' for now: IMF",
@@ -118,19 +144,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-british-national-found-dead-in-meknes-tourist-accommodation-police-investigate",
-      "title": "British national found dead in Meknes tourist accommodation, police investigate",
-      "link": "https://en.hespress.com/147791-british-national-found-dead-in-meknes-tourist-accommodation-police-investigate.html",
-      "description": "Moroccan police have opened an investigation after a British national was found dead inside tourist accommodation in the historic medina of Meknes, according to Moroccan newspaper Assabah. The newspaper reported Thursday that security services began investigating the circumstances of the death on Monday, October 19, after the body was discovered in a tourist property in […] The post British national found dead in Meknes tourist accommodation, police investigate appeared first on HESPRESS English",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-22T13:45:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "aujourdhui-quand-l-intelligence-artificielle-devient-notre-confidente",
       "title": "Quand l’intelligence artificielle devient notre confidente",
       "link": "https://aujourdhui.ma/chroniques/quand-lintelligence-artificielle-devient-notre-confidente",
@@ -154,6 +167,19 @@
       "published": "2026-10-22T12:02:57Z",
       "countryCode": "MA",
       "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-mazagan-concerts-une-12-dition-aux-rythmes-du-ra-avec-faudel-et-kader-japonais",
+      "title": "Mazagan Concerts : une 12ᵉ édition aux rythmes du Raï avec Faudel et Kader Japonais",
+      "link": "https://www.lavieeco.com/comese/mazagan-concerts-une-12%e1%b5%89-edition-aux-rythmes-du-rai-avec-faudel-et-kader-japonais/",
+      "description": "Signature Communication, en partenariat avec le Mazagan Beach & Golf Resort, donne rendez-vous au public le samedi 24 octobre 2026 pour une soirée placée sous le signe de la musique et de la fête. L’article Mazagan Concerts : une 12ᵉ édition aux rythmes du Raï avec Faudel et Kader Japonais est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-22T11:37:51Z",
+      "countryCode": "MA",
+      "official": false,
       "type": "news"
     },
     {
@@ -222,6 +248,19 @@
       "type": "news"
     },
     {
+      "id": "lavieeco-archives-lve-1996-le-chaos-des-commissions-bancaires",
+      "title": "Archives LVE 1996. Le chaos des commissions bancaires",
+      "link": "https://www.lavieeco.com/influences/archives/archives-lve-1996-le-chaos-des-commissions-bancaires/",
+      "description": "Il y a 30 ans, parmi d’autres commissions, certaines banques débitent votre compte de 5,35 DH à chaque fois que vous y versez un chèque. Et ce n’est pas tout… L’article Archives LVE 1996. Le chaos des commissions bancaires est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-21T12:56:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "dgssi-69762110-26-vuln-rabilit-s-affectant-nginx",
       "title": "69762110/26 - Vulnérabilités affectant Nginx",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-nginx",
@@ -258,6 +297,19 @@
       "published": "2026-10-21T12:00:15Z",
       "countryCode": "MA",
       "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-les-nouveaux-territoires-fort-potentiel",
+      "title": "Les nouveaux territoires à fort potentiel",
+      "link": "https://www.lavieeco.com/affaires/secteurs/les-nouveaux-territoires-a-fort-potentiel/",
+      "description": "Les périphéries ne sont plus de simples zones de report. Certaines deviennent de véritables pôles de croissance immobilière, à mesure que l’industrie, la logistique, les transports et les équipements s’y développent. Une mutation qui commence déjà à se refléter dans les prix. L’article Les nouveaux territoires à fort potentiel est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-21T09:49:27Z",
+      "countryCode": "MA",
+      "official": false,
       "type": "news"
     },
     {
