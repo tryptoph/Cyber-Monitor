@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-24T04:46:10Z",
+  "generatedAt": "2026-10-24T11:13:50Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "نتنياهو: مفاجأة تنتظر السلطة الفلسطينية",
+      "link": "https://www.hespress.com/%d9%86%d8%aa%d9%86%d9%8a%d8%a7%d9%87%d9%88-%d9%85%d9%81%d8%a7%d8%ac%d8%a3%d8%a9-%d8%aa%d9%86%d8%aa%d8%b8%d8%b1-%d8%a7%d9%84%d8%b3%d9%84%d8%b7%d8%a9-%d8%a7%d9%84%d9%81%d9%84%d8%b3%d8%b7%d9%8a%d9%86-1828083.html",
+      "description": "توعد رئيس الوزراء الإسرائيلي بنيامين نتنياهو السلطة الفلسطينية بـ”مفاجأة كبيرة جدا”، بالتزامن مع إطلاق الجيش الإسرائيلي عملية عسكرية واسعة في الضفة الغربية المحتلة، عقب هجوم مسلح قرب مدينة الخليل أسفر عن مقتل جنديين إسرائيليين وإصابة ثلاثة آخرين، وذلك قبل أيام من الانتخابات التشريعية الإسرائيلية المقررة الثلاثاء المقبل. وقال نتنياهو، في مقابلة مع شبكة “آي24 نيوز” […] The post نتنياهو: مفاجأة تنتظر السلطة الفلسطينية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-24T10:44:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-security-high-as-france-braces-for-new-protests",
+      "title": "Security high as France braces for new protests",
+      "link": "https://en.hespress.com/147895-security-high-as-france-braces-for-new-protests.html",
+      "description": "France was erecting a ring of steel in major cities ahead of new protests Saturday, with police, helicopters and armoured vehicles seeking to prevent a repeat of the violence and looting which erupted during nationwide demonstrations last weekend. Shops and restaurants in central Paris were boarded up, the world-famous Louvre and Musee d’Orsay were closed […] The post Security high as France braces for new protests appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-24T09:31:22Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-libya-host-regional-security-meeting-on-terrorism-and-organized-crime",
+      "title": "Morocco, Libya host regional security meeting on terrorism and organized crime",
+      "link": "https://en.hespress.com/147897-morocco-libya-host-regional-security-meeting-on-terrorism-and-organized-crime.html",
+      "description": "Moroccan and Libyan intelligence agencies co-hosted a high-level regional meeting in Benghazi, eastern Libya, bringing together 40 security delegations to discuss cooperation against terrorism and organized crime in Africa. The meeting was organized by Libya’s intelligence service and Morocco’s General Directorate for Studies and Documentation (DGED), with participation from the United Nations through the Marrakech […] The post Morocco, Libya host regional security meeting on terrorism and organ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-24T09:30:12Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-polisario-threatens-to-quit-un-peace-process-over-us-draft-on-moroccan-sahara",
       "title": "Polisario threatens to quit UN peace process over US draft on Moroccan Sahara",
@@ -35,19 +74,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-23T21:09:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-t-touan-marcel-khalife-ouvre-la-27e-dition-du-festival-international-de-luth",
-      "title": "Tétouan : Marcel Khalife ouvre la 27e édition du Festival international de luth",
-      "link": "https://fr.hespress.com/493709-tetouan-marcel-khalife-ouvre-la-27e-edition-du-festival-international-de-luth.html",
-      "description": "Du 29 au 31 octobre 2026, le Festival international de luth de Tétouan réunira des artistes marocains et internationaux autour du thème « La Méditerranée, bassin des trois cultures ». Parmi les temps forts de cette édition : le concert d’ouverture de Marcel Khalife et la création d’un orchestre marocain du oud réunissant 50 instrumentistes […] The post Tétouan : Marcel Khalife ouvre la 27e édition du Festival international de luth appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-23T19:32:01Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -115,19 +141,6 @@
       "published": "2026-10-23T17:15:28Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-s-bourita-holds-talks-with-russia-s-lavrov-as-un-sahara-negotiations-intensify",
-      "title": "Morocco's Bourita holds talks with Russia's Lavrov as UN Sahara negotiations intensify",
-      "link": "https://en.hespress.com/147875-moroccos-bourita-holds-talks-with-russias-lavrov-as-un-sahara-negotiations-intensify.html",
-      "description": "Moroccan Foreign Minister Nasser Bourita held telephone talks Friday with his Russian counterpart Sergei Lavrov, discussing bilateral cooperation and coordination at the United Nations amid negotiations over a new Security Council resolution on the Moroccan Sahara. The conversation took place at Morocco’s initiative, according to the Russian Foreign Ministry. The two ministers discussed strengthening Moroccan-Russian […] The post Morocco's Bourita holds talks with Russia's Lavrov as UN Sahara ne",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-23T17:11:22Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
