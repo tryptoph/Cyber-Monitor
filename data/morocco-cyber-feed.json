@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-24T11:13:50Z",
+  "generatedAt": "2026-10-24T16:03:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "نتنياهو: مفاجأة تنتظر السلطة الفلسطينية",
-      "link": "https://www.hespress.com/%d9%86%d8%aa%d9%86%d9%8a%d8%a7%d9%87%d9%88-%d9%85%d9%81%d8%a7%d8%ac%d8%a3%d8%a9-%d8%aa%d9%86%d8%aa%d8%b8%d8%b1-%d8%a7%d9%84%d8%b3%d9%84%d8%b7%d8%a9-%d8%a7%d9%84%d9%81%d9%84%d8%b3%d8%b7%d9%8a%d9%86-1828083.html",
-      "description": "توعد رئيس الوزراء الإسرائيلي بنيامين نتنياهو السلطة الفلسطينية بـ”مفاجأة كبيرة جدا”، بالتزامن مع إطلاق الجيش الإسرائيلي عملية عسكرية واسعة في الضفة الغربية المحتلة، عقب هجوم مسلح قرب مدينة الخليل أسفر عن مقتل جنديين إسرائيليين وإصابة ثلاثة آخرين، وذلك قبل أيام من الانتخابات التشريعية الإسرائيلية المقررة الثلاثاء المقبل. وقال نتنياهو، في مقابلة مع شبكة “آي24 نيوز” […] The post نتنياهو: مفاجأة تنتظر السلطة الفلسطينية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-fr-automobile-le-projet-de-loi-de-finances-2027-pr-voit-une-hausse-de-la-taxe-sur-les-v-hicules-de-",
+      "title": "Automobile : le projet de loi de finances 2027 prévoit une hausse de la taxe sur les véhicules de luxe",
+      "link": "https://fr.hespress.com/493807-utomobile-le-projet-de-loi-de-finances-2027-prevoit-une-hausse-de-la-taxe-sur-les-vehicules-de-luxe.html",
+      "description": "Le projet de loi de finances (PLF) 2027 prévoit une augmentation des droits appliqués aux véhicules de luxe, avec un relèvement des taux de la taxe correspondante de 20 % dans les différentes tranches de valeur. Cette mesure, qui concerne les véhicules dont la valeur dépasse certains seuils, s’inscrit dans le cadre des nouvelles dispositions […] The post Automobile : le projet de loi de finances 2027 prévoit une hausse de la taxe sur les véhicules de luxe appeared first on Hespress Français - Ac",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-10-24T10:44:16Z",
+      "published": "2026-10-24T10:55:37Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -53,19 +53,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-polisario-threatens-to-quit-un-peace-process-over-us-draft-on-moroccan-sahara",
-      "title": "Polisario threatens to quit UN peace process over US draft on Moroccan Sahara",
-      "link": "https://en.hespress.com/147857-polisario-threatens-to-quit-un-peace-process-over-us-draft-on-moroccan-sahara.html",
-      "description": "The Polisario Front has threatened to withdraw from the UN-led peace process on the Moroccan Sahara if the UN Security Council adopts a US draft resolution on MINURSO without major changes. In a letter sent Thursday evening to Security Council President Aglaia Balta, Sidi Mohamed Omar, the Polisario’s representative to the UN and coordinator with […] The post Polisario threatens to quit UN peace process over US draft on Moroccan Sahara appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-23T22:00:49Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-plf-2027-lekjaa-promet-de-concilier-engagements-et-marges-financi-res",
       "title": "PLF 2027 : Lekjaa promet de concilier engagements et marges financières",
       "link": "https://www.lavieeco.com/au-royaume/plf-2027-lekjaa-promet-de-concilier-engagements-et-marges-financieres/",
@@ -74,19 +61,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-23T21:09:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-netanyahu-launches-major-west-bank-operation-after-israeli-soldiers-killed",
-      "title": "Netanyahu launches major West Bank operation after Israeli soldiers killed",
-      "link": "https://en.hespress.com/147877-netanyahu-launches-major-west-bank-operation-after-israeli-soldiers-killed.html",
-      "description": "Prime Minister Benjamin Netanyahu announced a major military operation in the occupied West Bank on Friday after Palestinian gunmen killed two soldiers in an attack near Hebron, days ahead of Israeli elections in which security has been a central focus. Netanyahu is locked in a tight race to keep his job in Tuesday’s vote, having […] The post Netanyahu launches major West Bank operation after Israeli soldiers killed appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-23T18:35:15Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -310,19 +284,6 @@
       "published": "2026-10-22T12:02:57Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-mazagan-concerts-une-12-dition-aux-rythmes-du-ra-avec-faudel-et-kader-japonais",
-      "title": "Mazagan Concerts : une 12ᵉ édition aux rythmes du Raï avec Faudel et Kader Japonais",
-      "link": "https://www.lavieeco.com/comese/mazagan-concerts-une-12%e1%b5%89-edition-aux-rythmes-du-rai-avec-faudel-et-kader-japonais/",
-      "description": "Signature Communication, en partenariat avec le Mazagan Beach & Golf Resort, donne rendez-vous au public le samedi 24 octobre 2026 pour une soirée placée sous le signe de la musique et de la fête. L’article Mazagan Concerts : une 12ᵉ édition aux rythmes du Raï avec Faudel et Kader Japonais est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-22T11:37:51Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
