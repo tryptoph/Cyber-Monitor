@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-24T20:56:59Z",
+  "generatedAt": "2026-10-25T04:53:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,14 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-france-de-vives-tensions-lors-de-la-mobilisation-du-24-octobre-plusieurs-villes-sous-pression",
-      "title": "France : de vives tensions lors de la mobilisation du 24 octobre, plusieurs villes sous pression",
-      "link": "https://fr.hespress.com/493830-france-de-vives-tensions-lors-de-la-mobilisation-du-24-octobre-plusieurs-villes-sous-pression.html",
-      "description": "Des tensions ont éclaté samedi dans plusieurs villes françaises, notamment à Nantes, Lyon et Clermont-Ferrand, lors d’une journée de mobilisation marquée par un important dispositif de sécurité. À Orléans, où se tient le congrès du Rassemblement national (RN), des milliers de personnes ont manifesté contre le parti d’extrême droite. La mobilisation du samedi 24 octobre […] The post France : de vives tensions lors de la mobilisation du 24 octobre, plusieurs villes sous pression appeared first on ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
+      "id": "hespress-ar-20",
+      "title": "مسلحون يقتلون 20 شخصًا في بنيجيريا",
+      "link": "https://www.hespress.com/%d9%85%d8%b3%d9%84%d8%ad%d9%88%d9%86-%d9%8a%d9%82%d8%aa%d9%84%d9%88%d9%86-20-%d8%b4%d8%ae%d8%b5%d9%8b%d8%a7-%d9%81%d9%8a-%d8%a8%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-1828450.html",
+      "description": "اقتحم مسلّحون على متن دراجات نارية قرية ريفية في نيجيريا وقتلوا 20 شخصا على الأقل، وفق ما أفاد ناجون وكالة فرانس برس السبت، في أحدث هجوم يشهده شمال شرق البلاد. وقال سكان إن المهاجمين فتحوا النار بُعيد صلاة الجمعة في قرية بيناري الريفية الواقعة في ولاية تارابا. وتشهد منطقة شمال شرق نيجيريا تمردا جهاديا فيما […] The post مسلحون يقتلون 20 شخصًا في بنيجيريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
       "category": "morocco",
-      "published": "2026-10-24T18:07:03Z",
+      "published": "2026-10-25T02:33:32Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -35,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-24T16:32:46Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sahara-marocain-les-quilibres-au-conseil-de-s-curit-au-c-ur-du-prochain-vote",
-      "title": "Sahara marocain : les équilibres au Conseil de sécurité au cœur du prochain vote",
-      "link": "https://fr.hespress.com/493833-sahara-marocain-les-equilibres-au-conseil-de-securite-au-coeur-du-prochain-vote-de-lonu.html",
-      "description": "À l’approche du vote attendu fin octobre au Conseil de sécurité sur le renouvellement du mandat de la MINURSO, les positions des membres permanents et non permanents sont scrutées de près. Plusieurs pays ont déjà exprimé leur soutien à l’initiative marocaine d’autonomie, tandis que d’autres maintiennent une position plus réservée. La diplomatie marocaine aborde une […] The post Sahara marocain : les équilibres au Conseil de sécurité au cœur du prochain vote appeared first on Hespress Français - ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-24T16:05:10Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
