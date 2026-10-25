@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-25T04:53:06Z",
+  "generatedAt": "2026-10-25T11:43:30Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,45 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-ar-20",
-      "title": "مسلحون يقتلون 20 شخصًا في بنيجيريا",
-      "link": "https://www.hespress.com/%d9%85%d8%b3%d9%84%d8%ad%d9%88%d9%86-%d9%8a%d9%82%d8%aa%d9%84%d9%88%d9%86-20-%d8%b4%d8%ae%d8%b5%d9%8b%d8%a7-%d9%81%d9%8a-%d8%a8%d9%86%d9%8a%d8%ac%d9%8a%d8%b1%d9%8a%d8%a7-1828450.html",
-      "description": "اقتحم مسلّحون على متن دراجات نارية قرية ريفية في نيجيريا وقتلوا 20 شخصا على الأقل، وفق ما أفاد ناجون وكالة فرانس برس السبت، في أحدث هجوم يشهده شمال شرق البلاد. وقال سكان إن المهاجمين فتحوا النار بُعيد صلاة الجمعة في قرية بيناري الريفية الواقعة في ولاية تارابا. وتشهد منطقة شمال شرق نيجيريا تمردا جهاديا فيما […] The post مسلحون يقتلون 20 شخصًا في بنيجيريا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-10-25T02:33:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-french-protests-kick-off-amid-heavy-security-blanket",
-      "title": "French protests kick off amid heavy security blanket",
-      "link": "https://en.hespress.com/147923-french-protests-kick-off-amid-heavy-security-blanket.html",
-      "description": "French police arrested more than 130 people and fired tear gas at some protesters on Saturday as fresh demonstrations started, but the government said there were no early signs of the street violence that marred protests last weekend. Authorities deployed 70,000 security forces across the country as nationwide marches were held against the cost of […] The post French protests kick off amid heavy security blanket appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-24T16:32:46Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-moroccan-sahara-focus-turns-to-un-security-council-s-next-vote",
-      "title": "Moroccan Sahara: Focus turns to UN Security Council’s next vote",
-      "link": "https://en.hespress.com/147919-moroccan-sahara-focus-turns-to-un-security-councils-next-vote.html",
-      "description": "The U.N. Security Council is expected to vote on a new resolution on the Sahara in late October, with attention focused on the wording of a draft circulated by the United States, the council’s lead negotiator on the file. The proposed resolution comes a year after the council adopted Resolution 2797, which received 11 votes […] The post Moroccan Sahara: Focus turns to UN Security Council’s next vote appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-24T16:00:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "lavieeco-plf-2027-lekjaa-promet-de-concilier-engagements-et-marges-financi-res",
       "title": "PLF 2027 : Lekjaa promet de concilier engagements et marges financières",
