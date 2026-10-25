@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-25T11:43:30Z",
+  "generatedAt": "2026-10-25T16:32:08Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "كريستوفر روس ينتقد المقاربة الأمريكية ويعزف على وتر الانفصال بالصحراء",
+      "link": "https://www.hespress.com/%d9%83%d8%b1%d9%8a%d8%b3%d8%aa%d9%88%d9%81%d8%b1-%d8%b1%d9%88%d8%b3-%d9%8a%d9%86%d8%aa%d9%82%d8%af-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%b1%d8%a8%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-1828649.html",
+      "description": "عاد كريستوفر روس، المبعوث الشخصي السابق للأمين العام للأمم المتحدة إلى الصحراء المغربية، إلى التعليق على تطورات النزاع، في أعقاب تسريب المسودة الأولية لمشروع القرار الأمريكي المعروض على مجلس الأمن، مفضلا الاصطفاف مجددا إلى جانب مقاربة تتقاطع مع مواقف الجزائر وجبهة البوليساريو، في وقت تتجه فيه النقاشات الأممية نحو البحث عن تسوية سياسية عملية وواقعية […] The post كريستوفر روس ينتقد المقاربة الأمريكية ويعزف على وتر الانفصال بالصحراء appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-25T16:00:19Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-moroccan-energy-coalition-calls-for-samir-refinery-restart-amid-global-supply-concerns",
+      "title": "Moroccan energy coalition calls for Samir refinery restart amid global supply concerns",
+      "link": "https://en.hespress.com/147962-moroccan-energy-coalition-calls-for-samir-refinery-restart-amid-global-supply-concerns.html",
+      "description": "Morocco’s National Front for Saving the Moroccan Oil Refinery has renewed calls to restart the shuttered Samir refinery and restore fuel price regulation, warning that international conflicts and disruptions to energy supplies threaten the country’s energy security. In a statement following its executive bureau meeting on Friday, October 23, the coalition urged Moroccan authorities to […] The post Moroccan energy coalition calls for Samir refinery restart amid global supply concerns appeared fir",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-25T15:00:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-us-military-officer-leaves-minurso-as-un-security-council-weighs-mission-changes",
+      "title": "US military officer leaves MINURSO as UN Security Council weighs mission changes",
+      "link": "https://en.hespress.com/147965-us-military-officer-leaves-minurso-as-un-security-council-weighs-mission-changes.html",
+      "description": "US Captain Asa D. Kim, chief of staff of the military component of the United Nations Mission for the Referendum in the Sahara (MINURSO), has concluded his assignment and officially departed Laayoune, according to an informed UN source. His departure comes as the UN Security Council discusses the mission’s future, with a US-drafted resolution reportedly […] The post US military officer leaves MINURSO as UN Security Council weighs mission changes appeared first on HESPRESS English - Morocco News ",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-10-25T14:13:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-plf-2027-lekjaa-promet-de-concilier-engagements-et-marges-financi-res",
       "title": "PLF 2027 : Lekjaa promet de concilier engagements et marges financières",
