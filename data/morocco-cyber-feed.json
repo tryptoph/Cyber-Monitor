@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-26T04:57:16Z",
+  "generatedAt": "2026-10-26T13:15:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,71 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-70012310-26-vuln-rabilit-s-dans-mongodb",
+      "title": "70012310/26 - Vulnérabilités dans MongoDB",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-mongodb-4",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-26T13:15:43Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-70002310-26-vuln-rabilit-dans-watchguard-agent-pour-windows",
+      "title": "70002310/26 - Vulnérabilité dans WatchGuard Agent pour Windows",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-dans-watchguard-agent-pour-windows",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-26T13:15:43Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-tiznit-des-policiers-contraints-de-brandir-leurs-armes",
+      "title": "Tiznit : Des policiers contraints de brandir leurs armes",
+      "link": "https://aujourdhui.ma/faits-divers/tiznit-des-policiers-contraints-de-brandir-leurs-armes",
+      "description": "Tapage A Tiznit, les éléments de la police judiciaire ont dû dégainer leurs armes de service, sans en faire usage, aux premières heures du jeudi dernier, lors d’une intervention visant à arrêter un malfrat qui menaçait la sécurité des passants et des policiers avec une arme blanche. Les policiers étaient intervenus pour contrôler trois jeunes […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-26T11:49:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-sahara-le-projet-am-ricain-place-le-plan-d-autonomie-marocain-au-c-ur-des-n-gociations",
+      "title": "Sahara : Le projet américain place le plan d'autonomie marocain au cœur des négociations",
+      "link": "https://fr.hespress.com/493939-sahara-le-projet-americain-place-le-plan-dautonomie-marocain-au-coeur-des-negociations.html",
+      "description": "Les discussions se poursuivent au Conseil de sécurité des Nations unies autour du nouveau projet de résolution américain sur le Sahara marocain. Le texte propose de redéfinir les missions de la Minurso, en les articulant plus étroitement avec le processus politique conduit par le secrétaire général de l’ONU, Antonio Guterres, et son envoyé personnel, Staffan […] The post Sahara : Le projet américain place le plan d'autonomie marocain au cœur des négociations appeared first on Hespress Français -",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-26T11:37:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-plac-sous-le-th-me-la-m-diterran-e-bassin-des-trois-cultures-festival-international-de-luth-de-t",
+      "title": "Placé sous le thème «La Méditerranée, bassin des trois cultures»/ Festival international de luth de Tétouan : Marcel Khalifé ouvre le bal",
+      "link": "https://aujourdhui.ma/culture/place-sous-le-theme-la-mediterranee-bassin-des-trois-cultures-festival-international-de-luth-de-tetouan-marcel-khalife-ouvre-le-bal",
+      "description": "Manifestation Du 29 au 31 octobre, la 27ème édition du Festival international de luth de Tétouan fera dialoguer les traditions musicales méditerranéennes. Placée sous le thème «La Méditerranée, bassin des trois cultures», cette édition réunira des artistes marocains et internationaux, avec en point d’orgue un concert exceptionnel de l’Orchestre marocain du oud pour célébrer le […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-26T11:15:44Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "lavieeco-plf-2027-lekjaa-promet-de-concilier-engagements-et-marges-financi-res",
       "title": "PLF 2027 : Lekjaa promet de concilier engagements et marges financières",
@@ -144,19 +209,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-banques-dix-nouveaux-textes-pour-renforcer-la-r-glementation",
-      "title": "Banques : Dix nouveaux textes pour renforcer la réglementation",
-      "link": "https://www.lavieeco.com/argent/banques/banques-dix-nouveaux-textes-pour-renforcer-la-reglementation/",
-      "description": "Refinancement, cyberrisque, vigilance et protection de la clientèle : le Comité des établissements de crédit a examiné dix textes destinés à renforcer l'encadrement du secteur bancaire et à l'aligner sur les standards internationaux. L’article Banques : Dix nouveaux textes pour renforcer la réglementation est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-23T11:14:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-69892210-26-vuln-rabilit-s-dans-les-produits-splunk",
       "title": "69892210/26 - Vulnérabilités dans les produits Splunk",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-dans-les-produits-splunk-10",
@@ -243,32 +295,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-10-22T12:02:57Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69822110-26-mises-jour-de-s-curit-urgentes-affectant-plusieurs-produits-fortinet",
-      "title": "69822110/26 - Mises à jour de sécurité urgentes affectant plusieurs produits Fortinet",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/mises-jour-de-securite-urgentes-affectant-plusieurs-produits-fortinet",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-22T05:00:01Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-69812110-26-vuln-rabilit-critique-affectant-openstack-manila",
-      "title": "69812110/26 - Vulnérabilité critique affectant OpenStack Manila",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-openstack-manila",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-21T17:20:02Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
