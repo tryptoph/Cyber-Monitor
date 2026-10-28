@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-27T22:22:27Z",
+  "generatedAt": "2026-10-28T05:53:20Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "أمل موكادور للكرة الشاطئية يتألق عالميا",
+      "link": "https://www.hespress.com/%d8%a3%d9%85%d9%84-%d9%85%d9%88%d9%83%d8%a7%d8%af%d9%88%d8%b1-%d9%84%d9%84%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d8%b4%d8%a7%d8%b7%d8%a6%d9%8a%d8%a9-%d9%8a%d8%aa%d8%a3%d9%84%d9%82-%d8%b9%d8%a7%d9%84%d9%85-1830075.html",
+      "description": "واصل فريق أمل موكادور المغربي تألقه في بطولة كأس الفائزين العالمية للأندية لكرة القدم الشاطئية، المقامة بمدينة ألانيا التركية، بعدما حقق انتصاره الثاني على التوالي، إثر فوزه العريض على بونيهاد المجري بنتيجة 12 هدفا مقابل هدفين، الثلاثاء، ضمن منافسات المسابقة. وقدم ممثل مدينة الصويرة أداء هجوميا متميزا، مكنه من حسم المواجهة بفارق عشرة أهداف، ليؤكد […] The post أمل موكادور للكرة الشاطئية يتألق عالميا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-10-28T01:41:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-br-sil-fl-vio-bolsonaro-s-enfuit-aux-tats-unis",
+      "title": "Brésil : Flávio Bolsonaro s'enfuit aux États-Unis",
+      "link": "https://fr.hespress.com/494114-bresil-flavio-bolsonaro-senfuit-aux-etats-unis.html",
+      "description": "Deux jours après sa défaite à l’élection présidentielle brésilienne face à Lula da Silva, Flávio Bolsonaro aurait quitté le Brésil en direction des États-Unis. Visé par deux enquêtes pénales pour des soupçons de corruption, de blanchiment d’argent et de fuite de capitaux, le fils de l’ancien président Jair Bolsonaro fait l’objet de déclarations contradictoires sur […] The post Brésil : Flávio Bolsonaro s'enfuit aux États-Unis appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-27T23:15:46Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-67092710-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
       "title": "67092710/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
@@ -100,19 +126,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-27T19:35:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cps-de-l-ua-le-maroc-r-affirme-son-attachement-la-souverainet-et-l-int-grit-territoriale-de-la-r",
-      "title": "CPS de l'UA : le Maroc réaffirme son attachement à la souveraineté et à l’intégrité territoriale de la RDC",
-      "link": "https://fr.hespress.com/494085-cps-de-lua-le-maroc-reaffirme-son-attachement-a-la-souverainete-et-a-lintegrite-territoriale-de-la-rdc.html",
-      "description": "Le Maroc a réaffirmé, mardi à Addis-Abeba, son attachement indéfectible au respect de la souveraineté, de l’unité nationale et de l’intégrité territoriale de la République Démocratique du Congo (RDC), ainsi que sa position constante contre toute forme de séparatisme. Intervenant lors d’une réunion du Conseil de paix et de sécurité (CPS) de l’Union africaine (UA), […] The post CPS de l'UA : le Maroc réaffirme son attachement à la souveraineté et à l’intégrité territoriale de la RDC appeared first",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-27T18:16:55Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
