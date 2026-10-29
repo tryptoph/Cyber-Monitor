@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-29T13:15:22Z",
+  "generatedAt": "2026-10-29T22:50:46Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,84 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-70262910-26-vuln-rabilit-affectant-des-produits-de-kaspersky",
+      "title": "70262910/26 - Vulnérabilité affectant des produits de Kaspersky",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-affectant-des-produits-de-kaspersky",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-29T22:50:45Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-70252910-26-vuln-rabilit-critique-dans-sophos-utm",
+      "title": "70252910/26 - Vulnérabilité critique dans Sophos UTM",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-dans-sophos-utm",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-29T22:50:45Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-70242910-26-vuln-rabilit-s-critiques-affectant-dell-powerprotect-data-domain",
+      "title": "70242910/26 - Vulnérabilités critiques affectant Dell PowerProtect Data Domain",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-dell-powerprotect-data-domain",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-29T22:50:45Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-70232910-26-vuln-rabilit-s-critiques-dans-les-produits-juniper",
+      "title": "70232910/26 - Vulnérabilités critiques dans les produits Juniper",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-juniper",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-29T22:50:45Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-lections-2027-laftit-largit-la-concertation-aux-autres-partis-politiques",
+      "title": "Élections 2027 : Laftit élargit la concertation aux autres partis politiques",
+      "link": "https://www.lavieeco.com/pouvoirs/partis/elections-2027-laftit-elargit-la-concertation-aux-autres-partis-politiques/",
+      "description": "Après une première rencontre avec les partis disposant d’un groupe ou d’un groupement parlementaire, le ministre de l’Intérieur a réuni jeudi les dirigeants des autres formations politiques afin de préparer le dispositif juridique des échéances électorales de 2027. Les partis sont invités à soumettre leurs propositions avant le 15 novembre 2026. L’article Élections 2027 : Laftit élargit la concertation aux autres partis politiques est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-29T20:07:59Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-agadir-un-policier-percut-une-tentative-de-fuite-et-trois-interpellations",
+      "title": "Agadir : un policier percuté, une tentative de fuite et trois interpellations",
+      "link": "https://fr.hespress.com/494404-agadir-un-policier-percute-une-tentative-de-fuite-et-trois-interpellations.html",
+      "description": "Les éléments de police relevant de la préfecture de police d’Agadir ont interpellé, ce jeudi 29 octobre au matin, trois individus, dont le conducteur d’une voiture particulière et deux passagers qui l’accompagnaient. Ils sont soupçonnés d’être impliqués dans une affaire liée à l’état d’ivresse, au refus d’obtempérer et à des violences volontaires commises à l’encontre […] The post Agadir : un policier percuté, une tentative de fuite et trois interpellations appeared first on Hespress Français - ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-29T19:32:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-70222910-26-vuln-rabilit-critique-affectant-cisco-asa-et-ftd-activement-exploit-e",
       "title": "70222910/26 - Vulnérabilité critique affectant Cisco ASA et FTD activement exploitée",
@@ -196,19 +274,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-us-revises-sahara-resolution-draft-retains-moroccan-autonomy-plan-as-sole-basis-for-talks",
-      "title": "US revises Sahara resolution draft, retains Moroccan autonomy plan as sole basis for talks",
-      "link": "https://en.hespress.com/148176-us-revises-sahara-resolution-draft-retains-moroccan-autonomy-plan-as-sole-basis-for-talks.html",
-      "description": "The United States has revised its draft UN Security Council resolution on the Sahara, removing proposed deadlines for restructuring MINURSO while retaining Morocco’s autonomy plan as the sole basis for negotiations, according to a UN source familiar with the discussions. The changes follow objections from some Council members ahead of a vote expected Friday, October […] The post US revises Sahara resolution draft, retains Moroccan autonomy plan as sole basis for talks appeared first on HESPRESS ",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-28T22:09:37Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-lections-2027-le-minist-re-de-l-int-rieur-lance-les-concertations-avec-les-partis-politiques",
       "title": "Élections 2027 : Le ministère de l’Intérieur lance les concertations avec les partis politiques",
       "link": "https://www.lavieeco.com/au-royaume/elections-2027-le-ministere-de-linterieur-lance-les-concertations-avec-les-partis-politiques/",
@@ -256,58 +321,6 @@
       "sourceKey": "dgssi",
       "category": "official",
       "published": "2026-10-27T22:22:25Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-70082710-26-la-vuln-rabilit-critique-affectant-le-d-codeur-brotli-http2shell",
-      "title": "70082710/26 - La vulnérabilité critique affectant le décodeur Brotli «HTTP2Shell »…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/la-vulnerabilite-critique-affectant-le-decodeur-brotli-http2shell-concerne-plusieurs",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-27T22:22:25Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-70072710-26-vuln-rabilit-s-critiques-affectant-zip",
-      "title": "70072710/26 - Vulnérabilités critiques affectant Zip",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-zip",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-27T22:22:25Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-70062710-26-vuln-rabilit-s-critiques-affectant-arcgis-server",
-      "title": "70062710/26 - Vulnérabilités critiques affectant ArcGIS Server",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-arcgis-server",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-27T22:22:25Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-70052710-26-vuln-rabilit-s-critiques-dans-les-produits-apple",
-      "title": "70052710/26 - Vulnérabilités critiques dans les produits Apple",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-apple-15",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-27T12:23:10Z",
       "countryCode": "MA",
       "official": true,
       "type": "news"
