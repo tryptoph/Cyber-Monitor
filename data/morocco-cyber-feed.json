@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-28T22:41:15Z",
+  "generatedAt": "2026-10-29T13:15:22Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,8 +14,86 @@
   ],
   "items": [
     {
-      "id": "dgssi-67192810-26-vuln-rabilit-s-affectant-des-produits-nextcloud",
-      "title": "67192810/26 - Vulnérabilités affectant des produits Nextcloud",
+      "id": "dgssi-70222910-26-vuln-rabilit-critique-affectant-cisco-asa-et-ftd-activement-exploit-e",
+      "title": "70222910/26 - Vulnérabilité critique affectant Cisco ASA et FTD activement exploitée",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-cisco-asa-et-ftd-activement-exploitee",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-29T13:15:19Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-70202910-26-vuln-rabilit-s-critiques-dans-le-cms-wordpress",
+      "title": "70202910/26 - Vulnérabilités critiques dans le CMS WordPress",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-le-cms-wordpress-1",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-29T13:15:19Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-70212910-26-vuln-rabilit-s-affectant-jenkins",
+      "title": "70212910/26 - Vulnérabilités affectant Jenkins",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-jenkins-2",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-10-29T13:15:19Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-bilan-d-finitif-de-la-narsa-en-2025-4786-tu-s-et-160-661-accidents",
+      "title": "Bilan définitif de la Narsa en 2025 : 4786 tués et 160.661 accidents",
+      "link": "https://aujourdhui.ma/societe/bilan-definitif-de-la-narsa-en-2025-4786-tues-et-160-661-accidents",
+      "description": "Août et décembre, les deux mois les plus meurtriers Statistiques : Le bilan 2025 définitif de la sécurité routière vient d’être publié. Avec 4786 tués l’an passé, le Maroc enregistre une mortalité routière en hausse de 18,94% comparé à 2024. Voici les chiffres clés de ce sombre bilan. L’Agence nationale de sécurité routière (Narsa) […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-29T11:39:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "aujourdhui-harc-lement-scolaire-quand-l-cole-cesse-d-tre-un-refuge",
+      "title": "Harcèlement scolaire : Quand l’école cesse d’être un refuge",
+      "link": "https://aujourdhui.ma/chroniques/harcelement-scolaire-quand-lecole-cesse-detre-un-refuge",
+      "description": "Détresse psychologique Longtemps réduit à de simples «chamailleries» entre enfants, le harcèlement scolaire est aujourd’hui reconnu comme un véritable problème de santé publique, de sécurité et de cohésion sociale. Au Maroc comme ailleurs, insultes, humiliations, violences physiques, exclusion, rumeurs, menaces et cyberharcèlement peuvent transformer l’école, lieu d’apprentissage et de socialisation, en espace de peur. Comprendre […]",
+      "source": "Aujourd'hui le Maroc",
+      "sourceKey": "aujourdhui",
+      "category": "morocco",
+      "published": "2026-10-29T11:16:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-le-budget-avant-la-confiance",
+      "title": "Le budget avant la confiance !",
+      "link": "https://www.lavieeco.com/idees/chronique/le-budget-avant-la-confiance/",
+      "description": "Le PLF 2027 serait-il inconstitutionnel ? Le Conseil constitutionnel avait déjà admis en 2015 que des «circonstances de nécessité» pouvaient justifier certaines décisions dépassant les affaires courantes. L’article Le budget avant la confiance ! est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-10-29T10:15:55Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "dgssi-70192810-26-vuln-rabilit-s-affectant-des-produits-nextcloud",
+      "title": "70192810/26 - Vulnérabilités affectant des produits Nextcloud",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-nextcloud-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -27,8 +105,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67152810-26-vuln-rabilit-s-affectant-le-client-de-messagerie-mozilla-thunderbird",
-      "title": "67152810/26 - Vulnérabilités affectant le client de messagerie Mozilla Thunderbird",
+      "id": "dgssi-70152810-26-vuln-rabilit-s-affectant-le-client-de-messagerie-mozilla-thunderbird",
+      "title": "70152810/26 - Vulnérabilités affectant le client de messagerie Mozilla Thunderbird",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-client-de-messagerie-mozilla-thunderbird-21",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -40,8 +118,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67182810-26-vuln-rabilit-s-critiques-affectant-teamviewer",
-      "title": "67182810/26 - Vulnérabilités critiques affectant TeamViewer",
+      "id": "dgssi-70182810-26-vuln-rabilit-s-critiques-affectant-teamviewer",
+      "title": "70182810/26 - Vulnérabilités critiques affectant TeamViewer",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-teamviewer",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -53,8 +131,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67172810-26-vuln-rabilit-s-critiques-dans-les-produits-adobe",
-      "title": "67172810/26 - Vulnérabilités critiques dans les produits Adobe",
+      "id": "dgssi-70172810-26-vuln-rabilit-s-critiques-dans-les-produits-adobe",
+      "title": "70172810/26 - Vulnérabilités critiques dans les produits Adobe",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-adobe-4",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -66,8 +144,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67162810-26-vuln-rabilit-s-critiques-dans-le-syst-me-d-exploitation-de-watchguard",
-      "title": "67162810/26 - Vulnérabilités critiques dans le système d’exploitation de WatchGuard",
+      "id": "dgssi-70162810-26-vuln-rabilit-s-critiques-dans-le-syst-me-d-exploitation-de-watchguard",
+      "title": "70162810/26 - Vulnérabilités critiques dans le système d’exploitation de WatchGuard",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-le-systeme-dexploitation-de-watchguard",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -79,8 +157,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67142810-26-vuln-rabilit-s-critiques-affectent-hcl-domino-server-et-hcl-notes-client",
-      "title": "67142810/26 - Vulnérabilités critiques affectent HCL Domino Server et HCL Notes Client",
+      "id": "dgssi-70142810-26-vuln-rabilit-s-critiques-affectent-hcl-domino-server-et-hcl-notes-client",
+      "title": "70142810/26 - Vulnérabilités critiques affectent HCL Domino Server et HCL Notes Client",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectent-hcl-domino-server-et-hcl-notes-client",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -92,8 +170,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67132810-26-vuln-rabilit-s-affectant-le-navigateur-mozilla-firefox",
-      "title": "67132810/26 - Vulnérabilités affectant le navigateur Mozilla Firefox",
+      "id": "dgssi-70132810-26-vuln-rabilit-s-affectant-le-navigateur-mozilla-firefox",
+      "title": "70132810/26 - Vulnérabilités affectant le navigateur Mozilla Firefox",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-mozilla-firefox-34",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -105,8 +183,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67122810-26-vuln-rabilit-s-critiques-php-php2shell-affectant-citrix-netscaler-adc",
-      "title": "67122810/26 - Vulnérabilités critiques PHP « PHP2Shell » affectant Citrix Netscaler ADC…",
+      "id": "dgssi-70122810-26-vuln-rabilit-s-critiques-php-php2shell-affectant-citrix-netscaler-adc",
+      "title": "70122810/26 - Vulnérabilités critiques PHP « PHP2Shell » affectant Citrix Netscaler ADC…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-php-php2shell-affectant-citrix-netscaler-adc-et-gateway",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -144,8 +222,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67112810-26-vuln-rabilit-s-affectant-des-produits-veeam",
-      "title": "67112810/26 - Vulnérabilités affectant des produits Veeam",
+      "id": "dgssi-70112810-26-vuln-rabilit-s-affectant-des-produits-veeam",
+      "title": "70112810/26 - Vulnérabilités affectant des produits Veeam",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-des-produits-veeam-0",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -157,8 +235,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67102810-26-vuln-rabilit-critique-affectant-le-pilote-pxe-d-edk-ii-utilis-dans-les",
-      "title": "67102810/26 - Vulnérabilité critique affectant le pilote PXE d’EDK II, utilisé dans les…",
+      "id": "dgssi-70102810-26-vuln-rabilit-critique-affectant-le-pilote-pxe-d-edk-ii-utilis-dans-les",
+      "title": "70102810/26 - Vulnérabilité critique affectant le pilote PXE d’EDK II, utilisé dans les…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-affectant-le-pilote-pxe-dedk-ii-utilise-dans-les-micrologiciels",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -170,8 +248,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67092710-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
-      "title": "67092710/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
+      "id": "dgssi-70092710-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
+      "title": "70092710/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-le-navigateur-microsoft-edge-23",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -183,8 +261,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67082710-26-la-vuln-rabilit-critique-affectant-le-d-codeur-brotli-http2shell",
-      "title": "67082710/26 - La vulnérabilité critique affectant le décodeur Brotli «HTTP2Shell »…",
+      "id": "dgssi-70082710-26-la-vuln-rabilit-critique-affectant-le-d-codeur-brotli-http2shell",
+      "title": "70082710/26 - La vulnérabilité critique affectant le décodeur Brotli «HTTP2Shell »…",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/la-vulnerabilite-critique-affectant-le-decodeur-brotli-http2shell-concerne-plusieurs",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -196,8 +274,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67072710-26-vuln-rabilit-s-critiques-affectant-zip",
-      "title": "67072710/26 - Vulnérabilités critiques affectant Zip",
+      "id": "dgssi-70072710-26-vuln-rabilit-s-critiques-affectant-zip",
+      "title": "70072710/26 - Vulnérabilités critiques affectant Zip",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-zip",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -209,8 +287,8 @@
       "type": "news"
     },
     {
-      "id": "dgssi-67062710-26-vuln-rabilit-s-critiques-affectant-arcgis-server",
-      "title": "67062710/26 - Vulnérabilités critiques affectant ArcGIS Server",
+      "id": "dgssi-70062710-26-vuln-rabilit-s-critiques-affectant-arcgis-server",
+      "title": "70062710/26 - Vulnérabilités critiques affectant ArcGIS Server",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-arcgis-server",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
@@ -222,61 +300,9 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-g-n-ration-green-l-innovation-et-la-recherche-leviers-d-un-mod-le-agricole-plus-r-silient",
-      "title": "Génération Green : L’innovation et la recherche, leviers d’un modèle agricole plus résilient",
-      "link": "https://www.lavieeco.com/affaires/agriculture/generation-green-linnovation-et-la-recherche-leviers-dun-modele-agricole-plus-resilient/",
-      "description": "Présidée par le ministre Khalid Hatimy à l'Institut agronomique et vétérinaire Hassan II, la célébration de l'édition 2026 s'est déroulée en présence du représentant de la FAO au Maroc. Elle a placé l'innovation au cœur de la sécurité et de la souveraineté alimentaires. L’article Génération Green : L’innovation et la recherche, leviers d’un modèle agricole plus résilient est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-27T16:23:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67052710-26-vuln-rabilit-s-critiques-dans-les-produits-apple",
-      "title": "67052710/26 - Vulnérabilités critiques dans les produits Apple",
+      "id": "dgssi-70052710-26-vuln-rabilit-s-critiques-dans-les-produits-apple",
+      "title": "70052710/26 - Vulnérabilités critiques dans les produits Apple",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-les-produits-apple-15",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-27T12:23:10Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67042710-26-vuln-rabilit-s-critiques-dans-wasmtime",
-      "title": "67042710/26 - Vulnérabilités critiques dans Wasmtime",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-dans-wasmtime",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-27T12:23:10Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-70032310-26-vuln-rabilit-critique-http2shell-affectant-le-d-codeur-brotli",
-      "title": "70032310/26 - Vulnérabilité critique « HTTP2Shell » affectant le décodeur Brotli",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-http2shell-affectant-le-decodeur-brotli",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-10-27T12:23:10Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-67022610-26-retrait-d-emudhra-du-march-mondial-des-certificats-ssl-tls-la-suite-de",
-      "title": "67022610/26 - Retrait d’eMudhra du marché mondial des certificats SSL/TLS à la suite de…",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/retrait-demudhra-du-marche-mondial-des-certificats-ssltls-la-suite-de-la-compromission-de",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
