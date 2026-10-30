@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-29T22:50:46Z",
+  "generatedAt": "2026-10-30T05:58:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -74,19 +74,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-10-29T20:07:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-agadir-un-policier-percut-une-tentative-de-fuite-et-trois-interpellations",
-      "title": "Agadir : un policier percuté, une tentative de fuite et trois interpellations",
-      "link": "https://fr.hespress.com/494404-agadir-un-policier-percute-une-tentative-de-fuite-et-trois-interpellations.html",
-      "description": "Les éléments de police relevant de la préfecture de police d’Agadir ont interpellé, ce jeudi 29 octobre au matin, trois individus, dont le conducteur d’une voiture particulière et deux passagers qui l’accompagnaient. Ils sont soupçonnés d’être impliqués dans une affaire liée à l’état d’ivresse, au refus d’obtempérer et à des violences volontaires commises à l’encontre […] The post Agadir : un policier percuté, une tentative de fuite et trois interpellations appeared first on Hespress Français - ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-29T19:32:36Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
