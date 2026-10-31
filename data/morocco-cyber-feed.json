@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-31T05:54:40Z",
+  "generatedAt": "2026-10-31T12:44:42Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,6 +14,19 @@
   ],
   "items": [
     {
+      "id": "hespress-fr-sahara-comment-le-veto-russe-a-ouvert-une-nouvelle-s-quence-favorable-au-maroc",
+      "title": "Sahara : comment le veto russe a ouvert une nouvelle séquence favorable au Maroc",
+      "link": "https://fr.hespress.com/494584-sahara-comment-le-veto-russe-a-ouvert-une-nouvelle-sequence-favorable-au-maroc.html",
+      "description": "Le rejet du projet de résolution américain par le veto russe, suivi de l’échec du texte alternatif porté par Moscou, a placé le Conseil de sécurité dans une situation inédite: aucun accord n’a été trouvé sur le renouvellement du mandat de la MINURSO. Pour Rabat, cette issue marque une étape importante vers une nouvelle approche […] The post Sahara : comment le veto russe a ouvert une nouvelle séquence favorable au Maroc appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-31T08:36:03Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
       "id": "hespress-en-us-says-it-will-support-orderly-minurso-withdrawal-after-security-council-deadlock",
       "title": "US says it will support orderly MINURSO withdrawal after Security Council deadlock",
       "link": "https://en.hespress.com/148309-us-says-it-will-support-orderly-minurso-withdrawal-after-security-council-deadlock.html",
@@ -22,19 +35,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-30T23:55:49Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-cs-onu-omar-hilale-remet-l-alg-rie-au-centre-du-dossier-du-sahara",
-      "title": "CS-ONU : Omar Hilale remet l'Algérie au centre du dossier du Sahara",
-      "link": "https://fr.hespress.com/494585-cs-onu-omar-hilale-remet-lalgerie-au-centre-du-dossier-du-sahara.html",
-      "description": "Le représentant du Maroc à New York, Omar Hilale, a remis l’Algérie au centre du dossier du Sahara devant le Conseil de sécurité en la présentant comme la 2è partie au conflit, et en la mettant en cause directement dans la situation des camps de réfugiés à Tindouf. Le diplomate marocain a également appelé à […] The post CS-ONU : Omar Hilale remet l'Algérie au centre du dossier du Sahara appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-30T23:17:44Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -126,19 +126,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-30T22:22:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-maroc-satisfait-de-la-non-reconduction-du-mandat-de-la-minurso-et-demeure-fermement-attach-au",
-      "title": "Le Maroc satisfait de la non reconduction du mandat de la Minurso et demeure fermement attaché au respect de son intégrité territoriale",
-      "link": "https://fr.hespress.com/494572-le-maroc-satisfait-de-la-non-reconduction-du-mandat-de-la-minurso-et-demeure-fermement-attache-au-respect-de-son-integrite-territoriale.html",
-      "description": "A l’issue de la séance de vote au Conseil de sécurité de l’ONU, le Maroc a exprimé sa satisfaction de la non reconduction du mandat de la Minurso qui tourne une page de 35 ans. Il a également assuré demeurer fermement attaché au strict respect du cessez-le-feu et de son intégrité territoriale, indique un communiqué […] The post Le Maroc satisfait de la non reconduction du mandat de la Minurso et demeure fermement attaché au respect de son intégrité territoriale appeared first on Hespress Françai",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-30T21:37:47Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -362,19 +349,6 @@
       "published": "2026-10-29T22:50:45Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-lections-2027-laftit-largit-la-concertation-aux-autres-partis-politiques",
-      "title": "Élections 2027 : Laftit élargit la concertation aux autres partis politiques",
-      "link": "https://www.lavieeco.com/pouvoirs/partis/elections-2027-laftit-elargit-la-concertation-aux-autres-partis-politiques/",
-      "description": "Après une première rencontre avec les partis disposant d’un groupe ou d’un groupement parlementaire, le ministre de l’Intérieur a réuni jeudi les dirigeants des autres formations politiques afin de préparer le dispositif juridique des échéances électorales de 2027. Les partis sont invités à soumettre leurs propositions avant le 15 novembre 2026. L’article Élections 2027 : Laftit élargit la concertation aux autres partis politiques est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-29T20:07:59Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
