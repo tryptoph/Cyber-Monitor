@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-01T06:20:23Z",
+  "generatedAt": "2026-11-01T17:58:09Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,40 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-veto-russe-joe-wilson-r-clame-des-sanctions-contre-l-alg-rie",
-      "title": "Veto russe : Joe Wilson réclame des sanctions contre l’Algérie",
-      "link": "https://fr.hespress.com/494622-veto-russe-joe-wilson-reclame-des-sanctions-contre-lalgerie.html",
-      "description": "Le congressman républicain dénonce la volonté de Moscou de déstabiliser l’Afrique après le blocage du projet de résolution sur le Sahara. Il exige que le polisario soit classé organisation terroriste étrangère et que le régime algérien soit frappé de sanctions CAATSA. Au lendemain du veto russe au Conseil de sécurité, le congressman américain Joe Wilson […] The post Veto russe : Joe Wilson réclame des sanctions contre l’Algérie appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-fr-fin-de-la-minurso-des-experts-analysent-les-implications-de-la-prochaine-tape",
+      "title": "Fin de la MINURSO: des experts analysent les implications de la prochaine étape",
+      "link": "https://fr.hespress.com/494692-fin-de-la-minurso-des-experts-analysent-les-implications-de-la-prochaine-etape.html",
+      "description": "L’évolution liée à l’avenir de la Mission des Nations unies au Sahara marocain (MINURSO) et les répercussions des délibérations du Conseil de sécurité sur le différend ont suscité un débat autour de la nature de la prochaine étape que connaîtra ce dossier au sein des instances onusiennes. Cette évolution intervient dans un contexte marqué par […] The post Fin de la MINURSO: des experts analysent les implications de la prochaine étape appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-10-31T21:32:57Z",
+      "published": "2026-11-01T14:30:50Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-s-security-chief-orders-exceptional-promotion-for-officer-injured-in-agadir-car-attack",
+      "title": "Morocco's security chief orders exceptional promotion for officer injured in Agadir car attack",
+      "link": "https://en.hespress.com/148368-moroccos-security-chief-orders-exceptional-promotion-for-officer-injured-in-agadir-car-attack.html",
+      "description": "Morocco’s national security chief Abdellatif Hammouchi has ordered an exceptional promotion and full medical support for a police officer seriously injured in a deliberate vehicle attack while on duty in Agadir. A senior security delegation visited the injured officer at Mohammed VI University Hospital in Agadir to assess his recovery, following direct instructions from Hammouchi, […] The post Morocco's security chief orders exceptional promotion for officer injured in Agadir car attack appeared",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-01T14:28:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-un-begins-liquidation-of-minurso-after-security-council-fails-to-renew-mandate",
+      "title": "UN begins liquidation of MINURSO after Security Council fails to renew mandate",
+      "link": "https://en.hespress.com/148362-un-begins-liquidation-of-minurso-after-security-council-fails-to-renew-mandate.html",
+      "description": "The United Nations officially began liquidating its MINURSO mission in the Sahara on Sunday, November 1, following the expiry of its mandate without an extension from the Security Council, ending 35 years of peacekeeping operations. UN Secretary-General António Guterres’ spokesperson, Stéphane Dujarric, announced that a reduced team reporting to the UN Department of Operational Support […] The post UN begins liquidation of MINURSO after Security Council fails to renew mandate appeared first on H",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-01T12:41:24Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -34,33 +60,7 @@
       "source": "Hespress English",
       "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-10-31T20:21:49Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-moroccan-government-reacts-to-minurso-non-renewal-sees-path-to-closing-sahara-file-at-un",
-      "title": "Moroccan government reacts to MINURSO non-renewal, sees path to closing Sahara file at UN",
-      "link": "https://en.hespress.com/148341-moroccan-government-reacts-to-minurso-non-renewal-sees-path-to-closing-sahara-file-at-un.html",
-      "description": "Morocco’s government said Saturday that the failure to renew MINURSO’s mandate represents a significant step toward closing the Sahara dispute at the United Nations, following Russia’s veto of a US-backed Security Council resolution. Government spokesperson and Housing Minister Samir Belfqih said the development reflected growing international support for Morocco’s sovereignty over its southern provinces and […] The post Moroccan government reacts to MINURSO non-renewal, sees path to closing Sah",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-31T19:11:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-us-congressman-urges-polisario-terror-designation-algeria-sanctions-after-russian-veto",
-      "title": "US congressman urges Polisario terror designation, Algeria sanctions after Russian veto",
-      "link": "https://en.hespress.com/148336-us-congressman-urges-polisario-terror-designation-algeria-sanctions-after-russian-veto.html",
-      "description": "Republican US Representative Joe Wilson called Saturday for the Polisario Front to be designated a foreign terrorist organization and for sanctions against Algeria over its purchases of Russian weapons, following Moscow’s veto of an American resolution on the Sahara at the UN Security Council. In remarks attributed to an October 31 post on X, Wilson […] The post US congressman urges Polisario terror designation, Algeria sanctions after Russian veto appeared first on HESPRESS English - Morocco Ne",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-10-31T16:36:59Z",
+      "published": "2026-11-01T09:21:49Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -206,19 +206,6 @@
       "published": "2026-10-30T13:07:21Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-es-semara-plus-de-15-mdh-pour-la-s-curit-hydrique-et-le-d-veloppement-agricole",
-      "title": "Es-Semara : Plus de 15 MDH pour la sécurité hydrique et le développement agricole",
-      "link": "https://www.lavieeco.com/au-royaume/es-semara-plus-de-15-mdh-pour-la-securite-hydrique-et-le-developpement-agricole/",
-      "description": "Le premier projet porte sur la création et l’aménagement d’un périmètre irrigué de 100 hectares dans la zone de Ferdoukha. Le second concerne l’équipement de deux puits en installations d’exploitation alimentées à l’énergie solaire. L’article Es-Semara : Plus de 15 MDH pour la sécurité hydrique et le développement agricole est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-10-30T12:47:21Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
