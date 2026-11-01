@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-01T17:58:09Z",
+  "generatedAt": "2026-11-01T22:09:31Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "قرصنة \"بينانس\" تطرح تحديات جديدة أمام إطلاق الدرهم الرقمي بالمغرب",
+      "link": "https://www.hespress.com/%d9%82%d8%b1%d8%b5%d9%86%d8%a9-%d8%a8%d9%8a%d9%86%d8%a7%d9%86%d8%b3-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%a3%d9%85%d8%a7%d9%85-%d8%a5-1832740.html",
+      "description": "تضع عملية القرصنة التي استهدفت منصة “Binance” لتداول العملات الرقمية تحديات جديدة أمام إطلاق الدرهم الرقمي بالمغرب، وفق خبراء في المجال. وسبق أن حذّر والي بنك المغرب، عبد اللطيف الجواهري، خلال افتتاح الندوة القارية لجمعية البنوك المركزية الإفريقية بالرباط في 2025، من تنامي المخاطر السيبرانية التي تواجه المنظومة المالية، في ظل تسارع التحول الرقمي وانتشار […] The post قرصنة \"بينانس\" تطرح تحديات جديدة أمام إطلاق الدرهم الرقمي بالمغرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-11-01T21:00:55Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-fr-fin-de-la-minurso-des-experts-analysent-les-implications-de-la-prochaine-tape",
       "title": "Fin de la MINURSO: des experts analysent les implications de la prochaine étape",
@@ -48,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-11-01T12:41:24Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-minurso-s-exit-leaves-350-vehicles-and-un-assets-facing-uncertain-handover-in-morocco",
-      "title": "MINURSO's exit leaves 350 vehicles and UN assets facing uncertain handover in Morocco",
-      "link": "https://en.hespress.com/148330-minursos-exit-leaves-350-vehicles-and-un-assets-facing-uncertain-handover-in-morocco.html",
-      "description": "The withdrawal of MINURSO from Morocco’s southern provinces will require the United Nations to account for 350 vehicles, government-provided buildings and extensive communications and aviation infrastructure accumulated during 35 years of operations, according to UN financial and legal records. The mission’s January 2026 budget identifies a fleet of 350 vehicles, three aircraft planned for its […] The post MINURSO's exit leaves 350 vehicles and UN assets facing uncertain handover in Morocco appe",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-01T09:21:49Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
