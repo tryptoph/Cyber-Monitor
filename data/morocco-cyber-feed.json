@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-10-31T21:42:31Z",
+  "generatedAt": "2026-11-01T06:20:23Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-veto-russe-joe-wilson-r-clame-des-sanctions-contre-l-alg-rie",
+      "title": "Veto russe : Joe Wilson réclame des sanctions contre l’Algérie",
+      "link": "https://fr.hespress.com/494622-veto-russe-joe-wilson-reclame-des-sanctions-contre-lalgerie.html",
+      "description": "Le congressman républicain dénonce la volonté de Moscou de déstabiliser l’Afrique après le blocage du projet de résolution sur le Sahara. Il exige que le polisario soit classé organisation terroriste étrangère et que le régime algérien soit frappé de sanctions CAATSA. Au lendemain du veto russe au Conseil de sécurité, le congressman américain Joe Wilson […] The post Veto russe : Joe Wilson réclame des sanctions contre l’Algérie appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-10-31T21:32:57Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "hespress-en-minurso-s-exit-leaves-350-vehicles-and-un-assets-facing-uncertain-handover-in-morocco",
       "title": "MINURSO's exit leaves 350 vehicles and UN assets facing uncertain handover in Morocco",
@@ -40,19 +53,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-le-pam-salue-les-volutions-au-conseil-de-s-curit-et-r-affirme-son-soutien-au-plan-d-autonomie",
-      "title": "Le PAM salue les évolutions au Conseil de sécurité et réaffirme son soutien au plan d'autonomie",
-      "link": "https://fr.hespress.com/494624-le-pam-salue-les-evolutions-au-conseil-de-securite-et-reaffirme-son-soutien-au-plan-dautonomie.html",
-      "description": "Le Bureau politique du Parti authenticité et modernité (PAM) a tenu une réunion extraordinaire, présidée par la direction collégiale du secrétariat général du parti, ce samedi 31 octobre 2026, au siège central du parti à Rabat. Cette réunion a été consacrée à l’examen des derniers développements de la question du Sahara marocain au Conseil de […] The post Le PAM salue les évolutions au Conseil de sécurité et réaffirme son soutien au plan d'autonomie appeared first on Hespress Français - Actualit",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-31T17:12:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-us-congressman-urges-polisario-terror-designation-algeria-sanctions-after-russian-veto",
       "title": "US congressman urges Polisario terror designation, Algeria sanctions after Russian veto",
       "link": "https://en.hespress.com/148336-us-congressman-urges-polisario-terror-designation-algeria-sanctions-after-russian-veto.html",
@@ -61,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-10-31T16:36:59Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sahara-marocain-le-double-veto-point-d-inflexion",
-      "title": "Sahara marocain : le double veto, point d’inflexion",
-      "link": "https://fr.hespress.com/494602-sahara-marocain-le-double-veto-point-dinflexion.html",
-      "description": "Le veto russe au projet de résolution américain, puis celui de Washington au contre-projet de Moscou, laissent la Minurso sans reconduction de son mandat. Le dossier quitte ainsi la logique de gestion du différend pour entrer dans une dynamique de résolution défintive, autour de l’initiative d’autonomie. Le Conseil de sécurité des Nations unies n’a adopté, […] The post Sahara marocain : le double veto, point d’inflexion appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-10-31T14:31:28Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
