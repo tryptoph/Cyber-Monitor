@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-01T22:09:31Z",
+  "generatedAt": "2026-11-02T06:21:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,27 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-ar-item",
-      "title": "قرصنة \"بينانس\" تطرح تحديات جديدة أمام إطلاق الدرهم الرقمي بالمغرب",
-      "link": "https://www.hespress.com/%d9%82%d8%b1%d8%b5%d9%86%d8%a9-%d8%a8%d9%8a%d9%86%d8%a7%d9%86%d8%b3-%d8%aa%d8%b7%d8%b1%d8%ad-%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%a3%d9%85%d8%a7%d9%85-%d8%a5-1832740.html",
-      "description": "تضع عملية القرصنة التي استهدفت منصة “Binance” لتداول العملات الرقمية تحديات جديدة أمام إطلاق الدرهم الرقمي بالمغرب، وفق خبراء في المجال. وسبق أن حذّر والي بنك المغرب، عبد اللطيف الجواهري، خلال افتتاح الندوة القارية لجمعية البنوك المركزية الإفريقية بالرباط في 2025، من تنامي المخاطر السيبرانية التي تواجه المنظومة المالية، في ظل تسارع التحول الرقمي وانتشار […] The post قرصنة \"بينانس\" تطرح تحديات جديدة أمام إطلاق الدرهم الرقمي بالمغرب appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
+      "id": "hespress-en-morocco-is-not-waiting-experts-say-un-deadlock-marks-shift-in-sahara-policy",
+      "title": "“Morocco is not waiting”: Experts say UN deadlock marks shift in Sahara policy",
+      "link": "https://en.hespress.com/148389-morocco-is-not-waiting-experts-say-un-deadlock-marks-shift-in-sahara-policy.html",
+      "description": "Morocco no longer intends to wait for a new UN Security Council resolution on the Sahara after Friday’s diplomatic deadlock, according to two international law experts who said the Russian veto had not overturned the negotiating framework established by Resolution 2797. Abdelfattah Belamchi, president of the Moroccan Center for Parallel Diplomacy and Dialogue of Civilizations, […] The post “Morocco is not waiting”: Experts say UN deadlock marks shift in Sahara policy appeared first on HESPRESS E",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
       "category": "morocco",
-      "published": "2026-11-01T21:00:55Z",
+      "published": "2026-11-01T22:36:26Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
     },
     {
-      "id": "hespress-fr-fin-de-la-minurso-des-experts-analysent-les-implications-de-la-prochaine-tape",
-      "title": "Fin de la MINURSO: des experts analysent les implications de la prochaine étape",
-      "link": "https://fr.hespress.com/494692-fin-de-la-minurso-des-experts-analysent-les-implications-de-la-prochaine-etape.html",
-      "description": "L’évolution liée à l’avenir de la Mission des Nations unies au Sahara marocain (MINURSO) et les répercussions des délibérations du Conseil de sécurité sur le différend ont suscité un débat autour de la nature de la prochaine étape que connaîtra ce dossier au sein des instances onusiennes. Cette évolution intervient dans un contexte marqué par […] The post Fin de la MINURSO: des experts analysent les implications de la prochaine étape appeared first on Hespress Français - Actualités du Maroc .",
+      "id": "hespress-fr-minurso-apr-s-35-ans-la-page-se-tourne-estime-un-expert-s-n-galais",
+      "title": "MINURSO : « Après 35 ans, la page se tourne », estime un expert sénégalais",
+      "link": "https://fr.hespress.com/494717-minurso-apres-35-ans-la-page-se-tourne-estime-un-expert-senegalais.html",
+      "description": "La non-reconduction par le Conseil de sécurité de l’ONU du mandat de la Minurso marque un tournant majeur dans le traitement de la question du Sahara marocain au sein des Nations Unies, a souligné le directeur général du Centre international de sécurité et de paix pour l’Afrique (CISPAIX), Abdoul Latif Aïdara. « Il s’agit en réalité […] The post MINURSO : « Après 35 ans, la page se tourne », estime un expert sénégalais appeared first on Hespress Français - Actualités du Maroc .",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-11-01T14:30:50Z",
+      "published": "2026-11-01T19:23:10Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
