@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-02T21:46:29Z",
+  "generatedAt": "2026-11-03T06:57:31Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-what-happens-to-the-buffer-zone-after-minurso-s-departure",
+      "title": "What happens to the buffer zone after MINURSO’s departure?",
+      "link": "https://en.hespress.com/148422-what-happens-to-the-buffer-zone-after-minursos-departure.html",
+      "description": "The withdrawal of MINURSO from the Moroccan Sahara raises questions about the future of the buffer zone east of Morocco’s security wall, which the Polisario Front has used to launch attacks against. The buffer zone is a five-kilometer-wide strip east of the security wall. Its rules are set out in Military Agreement No. 1, signed […] The post What happens to the buffer zone after MINURSO’s departure? appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-02T22:03:38Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-70430211-26-vuln-rabilit-s-affectant-des-produits-apache-tomcat",
       "title": "70430211/26 - Vulnérabilités affectant des produits Apache Tomcat",
@@ -128,32 +141,6 @@
       "published": "2026-11-02T21:46:28Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-l-apr-s-minurso-vision-royale-de-la-r-gionalisation-avanc-e-et-souverainet-du-royaume",
-      "title": "L'après Minurso, vision royale de la régionalisation avancée et souveraineté du Royaume",
-      "link": "https://fr.hespress.com/494784-lapres-minurso-vision-royale-de-la-regionalisation-avancee-et-souverainete-du-royaume.html",
-      "description": "Le blocage au sein du Conseil de Sécurité, ayant entraîné l’expiration définitive et non renouvelée du mandat de la MINURSO, marque l’effondrement de l’architecture diplomatique en vigueur depuis 1991. I – Nouveau cadre institutionnel : vide juridique L’élimination du terme « Référendum » des projets de résolution occidentaux et la paralysie par veto croisé signifient […] The post L'après Minurso, vision royale de la régionalisation avancée et souveraineté du Royaume appeared first on Hespress F",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-02T20:49:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-sahara-marocain-les-membres-des-deux-chambres-du-parlement-saluent-hautement-le-contenu-du-commu",
-      "title": "Sahara marocain: les membres des deux Chambres du Parlement saluent hautement le contenu du communiqué du Cabinet Royal et les efforts diplomatiques du Royaume",
-      "link": "https://fr.hespress.com/494851-sahara-marocain-les-membres-des-deux-chambres-du-parlement-saluent-hautement-le-contenu-du-communique-du-cabinet-royal-et-les-efforts-diplomatiques-du-royaume.html",
-      "description": "Les membres des deux Chambres du Parlement ont salué hautement, lundi, le contenu du communiqué du Cabinet Royal du 30 octobre, publié à l’issue de la réunion du Conseil de sécurité de l’ONU sur la question du Sahara marocain ainsi que les efforts déployés par la diplomatie marocaine pour clore définitivement ce conflit artificiel. Lors […] The post Sahara marocain: les membres des deux Chambres du Parlement saluent hautement le contenu du communiqué du Cabinet Royal et les efforts diplomatiques",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-02T20:13:57Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
