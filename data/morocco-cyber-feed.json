@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-03T19:34:33Z",
+  "generatedAt": "2026-11-04T06:38:24Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "\"مقابلات وهمية\" وراء اختراق \"باينانس\"",
+      "link": "https://www.hespress.com/%d9%85%d9%82%d8%a7%d8%a8%d9%84%d8%a7%d8%aa-%d9%88%d9%87%d9%85%d9%8a%d8%a9-%d9%88%d8%b1%d8%a7%d8%a1-%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%a8%d8%a7%d9%8a%d9%86%d8%a7%d9%86%d8%b3-1834216.html",
+      "description": "كشفت منصة “باينانس”، أكبر منصة لتداول العملات المشفرة في العالم، تفاصيل الهجوم الإلكتروني الذي تعرضت له أواخر أكتوبر الماضي، وأسفر عن سرقة 6.34 مليارات دولار، موضحة أن القراصنة استخدموا مقابلات توظيف وهمية وبرمجيات خبيثة لاختراق أنظمتها الداخلية وتنفيذ واحدة من أضخم عمليات سرقة العملات المشفرة. وأفادت المنصة، في تحقيق أصدرته الثلاثاء، بأن الهجوم نُفذ خلال […] The post \"مقابلات وهمية\" وراء اختراق \"باينانس\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-11-04T02:29:26Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-70530311-26-vuln-rabilit-s-affectant-postgresql-odbc",
       "title": "70530311/26 - Vulnérabilités affectant PostgreSQL ODBC",
@@ -157,32 +170,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-hammouchi-et-al-kaabi-examinent-la-coop-ration-s-curitaire",
-      "title": "Hammouchi et Al-Kaabi examinent la coopération sécuritaire",
-      "link": "https://fr.hespress.com/494984-hammouchi-et-al-kaabi-examinent-la-cooperation-securitaire.html",
-      "description": "Abdellatif Hammouchi, directeur général de la Sûreté nationale et de la Surveillance du territoire, a reçu ce mardi, au siège de la DGSN à Rabat, Khalfan bin Ali bin Khalfan Al-Batty Al-Kaabi, chef du Service de la sécurité de l’État du Qatar, accompagné d’une délégation sécuritaire de haut niveau. Cette rencontre s’inscrit dans le cadre […] The post Hammouchi et Al-Kaabi examinent la coopération sécuritaire appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-03T18:16:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "قرصنة البرادات تربك متاجر أوروبية",
-      "link": "https://www.hespress.com/%d9%82%d8%b1%d8%b5%d9%86%d8%a9-%d8%a7%d9%84%d8%a8%d8%b1%d8%a7%d8%af%d8%a7%d8%aa-%d8%aa%d8%b1%d8%a8%d9%83-%d9%85%d8%aa%d8%a7%d8%ac%d8%b1-%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a%d8%a9-1834018.html",
-      "description": "تعرضت متاجر كبرى في ثماني دول أوروبية لموجة جديدة من الهجمات الإلكترونية استهدفت أنظمة التبريد والتجميد، ما تسبب في ارتفاع درجات حرارة البرادات وإتلاف كميات كبيرة من المواد الغذائية، ودفع سلاسل تجارية إلى اتخاذ إجراءات عاجلة لحماية تجهيزاتها. وسارعت متاجر التجزئة الأوروبية، اليوم الثلاثاء، إلى تحديث أنظمتها وتعزيز إجراءات الحماية، بعد تعرضها لهجمات مماثلة لتلك […] The post قرصنة البرادات تربك متاجر أوروبية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-03T17:42:15Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-morocco-seizes-971-kilograms-of-cocaine-at-tanger-med-port",
       "title": "Morocco seizes 971 kilograms of cocaine at Tanger Med port",
       "link": "https://en.hespress.com/148498-morocco-seizes-971-kilograms-of-cocaine-at-tanger-med-port.html",
@@ -191,19 +178,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-11-03T16:53:10Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-br-sil-un-ex-agent-du-mossad-aurait-aid-fl-vio-bolsonaro-fuir-vers-les-tats-unis",
-      "title": "Brésil : un ex-agent du Mossad aurait aidé Flávio Bolsonaro à fuir vers les États-Unis",
-      "link": "https://fr.hespress.com/494871-bresil-un-ex-agent-du-mossad-aurait-aide-flavio-bolsonaro-a-fuir-vers-les-etats-unis.html",
-      "description": "La fuite de Flávio Bolsonaro prend une nouvelle dimension. Selon CNN Brasil, le sénateur brésilien aurait bénéficié d’une opération préparée avant l’élection présidentielle, baptisée « Opération Alba », avec le soutien présumé d’un ancien agent du Mossad et de relais en Argentine. Dans la nuit du 27 au 28 octobre, Flávio Bolsonaro, son épouse et […] The post Brésil : un ex-agent du Mossad aurait aidé Flávio Bolsonaro à fuir vers les États-Unis appeared first on Hespress Français - Actualités du ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-03T15:20:55Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
