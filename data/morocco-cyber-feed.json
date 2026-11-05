@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-04T19:52:05Z",
+  "generatedAt": "2026-11-05T06:58:44Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-morocco-s-press-council-urges-media-to-counter-sahara-disinformation-after-minurso-exit",
+      "title": "Morocco's Press Council urges media to counter Sahara disinformation after MINURSO exit",
+      "link": "https://en.hespress.com/148568-moroccos-press-council-urges-media-to-counter-sahara-disinformation-after-minurso-exit.html",
+      "description": "Morocco’s National Press Council has called on domestic media organizations to strengthen their coverage of the Sahara dispute and counter what it described as misleading foreign narratives following the UN Security Council’s failure to renew MINURSO’s mandate on October 30. In a statement, the council welcomed the Royal Cabinet’s position on the mission’s departure and […] The post Morocco's Press Council urges media to counter Sahara disinformation after MINURSO exit appeared first on HESPRESS",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-04T20:10:01Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-70610411-26-vuln-rabilit-s-dans-hpe-networking",
       "title": "70610411/26 - Vulnérabilités dans HPE Networking",
@@ -131,32 +144,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-l-uir-inaugure-le-centre-edge-avec-le-soutien-de-cisco-pour-acc-l-rer-l-innovation-en-ia-et-cybe",
-      "title": "L’UIR inaugure le Centre EDGE avec le soutien de Cisco pour accélérer l’innovation en IA et cybersécurité au Maroc",
-      "link": "https://fr.hespress.com/495091-luir-inaugure-le-centre-edge-avec-le-soutien-de-cisco-pour-accelerer-linnovation-en-ia-et-cybersecurite-au-maroc.html",
-      "description": "L’Université Internationale de Rabat a célébré aujourd’hui l’inauguration de son nouveau pôle d’innovation et d’incubation, le Centre EDGE. Cette structure a pour vocation de promouvoir la recherche académique, de développer les compétences numériques stratégiques et de favoriser l’émergence de nouveaux cas d’usage en intelligence artificielle et en cybersécurité, contribuant ainsi à façonner l’avenir numérique du […] The post L’UIR inaugure le Centre EDGE avec le soutien de Cisco pour accélérer",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-04T18:16:41Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-king-mohammed-vi-outlines-priorities-for-morocco-after-minurso",
-      "title": "King Mohammed VI outlines priorities for Morocco after MINURSO",
-      "link": "https://en.hespress.com/148551-king-mohammed-vi-outlines-priorities-for-morocco-after-minurso.html",
-      "description": "King Mohammed VI has laid out five priorities for Morocco’s transition following the end of MINURSO’s mandate, assigning the Interior Ministry responsibility for coordinating the UN mission’s withdrawal while ordering civilian and military authorities to maintain security, uphold the ceasefire and continue development projects in the Sahara. The directives emerged from a working session at […] The post King Mohammed VI outlines priorities for Morocco after MINURSO appeared first on HESPRESS Engl",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-04T16:53:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-agadir-un-congr-s-international-d-cortique-la-s-curit-l-re-du-num-rique",
       "title": "Agadir : Un congrès international décortique la sécurité à l’ère du numérique",
       "link": "https://www.lavieeco.com/pouvoirs/securite/agadir-un-congres-international-decortique-la-securite-a-lere-du-numerique/",
@@ -178,19 +165,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-04T14:59:17Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-will-uphold-sahara-ceasefire-after-minurso-exit-royal-cabinet-says",
-      "title": "Morocco will uphold Sahara ceasefire after MINURSO exit, Royal Cabinet says",
-      "link": "https://en.hespress.com/148536-morocco-will-uphold-sahara-ceasefire-after-minurso-exit-royal-cabinet-says.html",
-      "description": "“His Majesty King Mohammed VI, may God assist Him, chaired today November 4, 2026, at the Rabat Royal Palace, a working session to follow up on the next step after the conclusion of the United Nations mission tasks, following the non-renewal by the UN Security Council of its mandate at its meeting held on October […] The post Morocco will uphold Sahara ceasefire after MINURSO exit, Royal Cabinet says appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-04T14:54:22Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
