@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-06T19:30:19Z",
+  "generatedAt": "2026-11-07T06:09:56Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-nouvelles-manifestations-samedi-en-france-avant-des-annonces-du-gouvernement",
+      "title": "Nouvelles manifestations samedi en France, avant des annonces du gouvernement",
+      "link": "https://fr.hespress.com/495464-nouvelles-manifestations-samedi-en-france-avant-des-annonces-du-gouvernement.html",
+      "description": "La colère sociale ne retombe pas en France. De nouvelles manifestations sont prévues samedi sous haute sécurité pour le quatrième week-end consécutif, avec pour épicentre Paris où des gilets jaunes entendent s’approcher des lieux de pouvoir, deux jours après une mobilisation nationale de grande ampleur à l’appel des syndicats. Entre 575.000 personnes, selon les autorités, […] The post Nouvelles manifestations samedi en France, avant des annonces du gouvernement appeared first on Hespress Françai",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-07T02:54:33Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-eu-seeks-clarification-from-algeria-over-military-deployment-in-niger",
+      "title": "EU seeks clarification from Algeria over military deployment in Niger",
+      "link": "https://en.hespress.com/148683-eu-seeks-clarification-from-algeria-over-military-deployment-in-niger.html",
+      "description": "The European Union has asked Algeria to clarify the nature, objectives and legal basis of its military deployment in Niger, as the reported presence of Algerian troops on Nigerien territory raises questions about regional security and respect for national sovereignty. Anouar El Anouni, the European Commission’s spokesperson for foreign affairs, addressed the deployment during the […] The post EU seeks clarification from Algeria over military deployment in Niger appeared first on HESPRESS English",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-06T23:00:14Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-70730511-26-vuln-rabilit-critique-de-contournement-de-l-authentification-affectant",
       "title": "70730511/26 - Vulnérabilité critique de contournement de l’authentification affectant…",
