@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-07T06:09:56Z",
+  "generatedAt": "2026-11-07T13:14:57Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,53 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-nouvelles-manifestations-samedi-en-france-avant-des-annonces-du-gouvernement",
-      "title": "Nouvelles manifestations samedi en France, avant des annonces du gouvernement",
-      "link": "https://fr.hespress.com/495464-nouvelles-manifestations-samedi-en-france-avant-des-annonces-du-gouvernement.html",
-      "description": "La colère sociale ne retombe pas en France. De nouvelles manifestations sont prévues samedi sous haute sécurité pour le quatrième week-end consécutif, avec pour épicentre Paris où des gilets jaunes entendent s’approcher des lieux de pouvoir, deux jours après une mobilisation nationale de grande ampleur à l’appel des syndicats. Entre 575.000 personnes, selon les autorités, […] The post Nouvelles manifestations samedi en France, avant des annonces du gouvernement appeared first on Hespress Françai",
+      "id": "hespress-en-three-arrested-in-suspected-sexual-assault-of-16-year-old-girl-in-inzegane",
+      "title": "Three arrested in suspected sexual assault of 16-year-old girl in Inzegane",
+      "link": "https://en.hespress.com/148698-three-arrested-in-suspected-sexual-assault-of-16-year-old-girl-in-inzegane.html",
+      "description": "Police in the southern Moroccan city of Inzegane arrested three people on Friday, November 6, on suspicion of luring a 16-year-old girl, sexually assaulting her, and providing her with narcotic substances, according to the National Security Directorate (DGSN). The arrests followed an investigation launched after the girl’s mother reported her disappearance under suspicious circumstances to […] The post Three arrested in suspected sexual assault of 16-year-old girl in Inzegane appeared first on H",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-07T12:42:24Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-marche-verte-51-ans-apr-s-la-diplomatie-royale-l-heure-de-la-cons-cration",
+      "title": "Marche Verte : 51 ans après, la diplomatie royale à l’heure de la consécration",
+      "link": "https://fr.hespress.com/495304-marche-verte-51-ans-apres-la-diplomatie-royale-a-lheure-de-la-consecration.html",
+      "description": "À l’occasion du 51e anniversaire de la Marche Verte, les récents développements autour du dossier du Sahara replacent la diplomatie marocaine au centre de l’actualité internationale. Entre évolution des rapports de force au Conseil de sécurité, soutien de plusieurs puissances et progression de l’initiative d’autonomie, cette séquence est présentée comme le prolongement, sur le terrain […] The post Marche Verte : 51 ans après, la diplomatie royale à l’heure de la consécration appeared first on He",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-11-07T02:54:33Z",
+      "published": "2026-11-07T12:05:08Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إيران تعدم مدانا بمهاجمة مركز للشرطة",
+      "link": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%b9%d8%af%d9%85-%d9%85%d8%af%d8%a7%d9%86%d8%a7-%d8%a8%d9%85%d9%87%d8%a7%d8%ac%d9%85%d8%a9-%d9%85%d8%b1%d9%83%d8%b2-%d9%84%d9%84%d8%b4%d8%b1%d8%b7%d8%a9-1836012.html",
+      "description": "أعلنت السلطات القضائية الإيرانية، السبت، تنفيذ حكم الإعدام بحق رجل أدين بالمشاركة في هجوم مسلح استهدف مركزا للشرطة في جنوب شرق البلاد، وأسفر عن سقوط قتلى وجرحى في صفوف قوات الأمن. وأفاد موقع «ميزان أونلاين»، التابع للسلطة القضائية الإيرانية، بأن حكم الإعدام نُفذ صباح السبت بحق محمد عارف شاهبخش، بعد استكمال جميع الإجراءات القانونية المتعلقة […] The post إيران تعدم مدانا بمهاجمة مركز للشرطة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-11-07T12:01:56Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-888-le-roman-d-amine-jama-qui-d-branche-les-certitudes-du-monde",
+      "title": "«888», le roman d’Amine Jamaï qui débranche les certitudes du monde",
+      "link": "https://www.lavieeco.com/influences/culture/888-le-roman-damine-jamai-qui-debranche-les-certitudes-du-monde/",
+      "description": "Et si la fin du monde ne venait ni d’une guerre nucléaire ni d’une catastrophe naturelle, mais d’un simple ordre informatique ? Avec «888», Amine Jamaï imagine une humanité brutalement dépossédée de sa puissance technologique. Un thriller géopolitique aux accents philosophiques, dans lequel un général marocain défie l’impuissance des grandes puissances et interroge les certitudes d’une civilisation qui a peut-être confondu progrès et dépendance. L’article «888», le roman d’Amine Jamaï qui débran",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-11-07T11:05:33Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
