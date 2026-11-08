@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-08T06:15:13Z",
+  "generatedAt": "2026-11-08T13:38:52Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -14,14 +14,27 @@
   ],
   "items": [
     {
-      "id": "hespress-fr-tomates-apr-s-la-suspension-des-exportations-vers-l-afrique-les-prix-reculent-sur-les-march-s-ma",
-      "title": "Tomates : Après la suspension des exportations vers l’Afrique, les prix reculent sur les marchés marocains",
-      "link": "https://fr.hespress.com/495553-tomates-apres-la-suspension-des-exportations-vers-lafrique-les-prix-reculent-sur-les-marches-marocains.html",
-      "description": "Après avoir atteint 17 dirhams le kilogramme dans certains marchés, les prix des tomates ont amorcé une baisse sur les marchés de détail. Samedi, le produit se négociait entre 13 et 15 dirhams le kilogramme, contre 17 dirhams auparavant, selon les constatations de Hespress. Des détaillants interrogés dans plusieurs marchés populaires et de proximité de […] The post Tomates : Après la suspension des exportations vers l’Afrique, les prix reculent sur les marchés marocains appeared first on Hespres",
+      "id": "hespress-fr-campagne-agricole-2026-27-le-maroc-vise-plus-de-4-9-mha-de-cultures",
+      "title": "Campagne agricole 2026/27 : le Maroc vise plus de 4,9 Mha de cultures",
+      "link": "https://fr.hespress.com/495599-campagne-agricole-2026-27-le-maroc-vise-plus-de-49-mha-de-cultures.html",
+      "description": "Le Maroc a officiellement lancé, samedi, la campagne agricole 2026/27, avec un objectif de plus de 4,9 millions d’hectares consacrés aux céréales, aux légumineuses et aux cultures fourragères. Le programme prévoit notamment la mise à disposition de 1,3 million de quintaux de semences certifiées subventionnées à hauteur de 50%, ainsi que de 500.000 tonnes d’engrais […] The post Campagne agricole 2026/27 : le Maroc vise plus de 4,9 Mha de cultures appeared first on Hespress Français - Actualités d",
       "source": "Hespress Français",
       "sourceKey": "hespress-fr",
       "category": "morocco",
-      "published": "2026-11-07T21:30:32Z",
+      "published": "2026-11-08T12:05:25Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-launches-new-farming-season-after-90-million-quintal-cereal-harvest",
+      "title": "Morocco launches new farming season after 90 million quintal cereal harvest",
+      "link": "https://en.hespress.com/148745-morocco-launches-new-farming-season-after-90-million-quintal-cereal-harvest.html",
+      "description": "Morocco launched its 2026–2027 agricultural season on Saturday in the Tadla plain, seeking to build on a cereal harvest of approximately 90 million quintals while expanding irrigation infrastructure and securing subsidized seeds for farmers facing rising production costs and climate uncertainty. Agriculture, Fisheries and Food Sovereignty Minister Khalid Hatimi announced the new season during a […] The post Morocco launches new farming season after 90 million quintal cereal harvest appeared firs",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-08T11:54:13Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
