@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-07T21:58:20Z",
+  "generatedAt": "2026-11-08T06:15:13Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "hespress-fr",
       "category": "morocco",
       "published": "2026-11-07T21:30:32Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "انفجارات مجهولة المصدر تهز جنوب إيران",
-      "link": "https://www.hespress.com/%d8%a7%d9%86%d9%81%d8%ac%d8%a7%d8%b1%d8%a7%d8%aa-%d9%85%d8%ac%d9%87%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d8%af%d8%b1-%d8%aa%d9%87%d8%b2-%d8%ac%d9%86%d9%88%d8%a8-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1836323.html",
-      "description": "أفادت وسائل إعلام إيرانية، اليوم السبت، بسماع دوي انفجارات في جزيرة قشم الواقعة بمضيق هرمز وميناء جاسك جنوب إيران، دون اتضاح أسبابها، في وقت أعلنت فيه القيادة المركزية الأمريكية تعطيل سفينة تجارية حاولت اختراق الحصار المفروض على إيران في خليج عمان. وذكرت وكالة “تسنيم” الإيرانية للأنباء، في وقت سابق، أن صاروخين أصابا جزيرة قشم، قبل […] The post انفجارات مجهولة المصدر تهز جنوب إيران appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-07T21:04:20Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
