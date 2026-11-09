@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-08T22:15:10Z",
+  "generatedAt": "2026-11-09T06:48:25Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,32 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-fonction-publique-les-femmes-dominent-dans-la-sant-et-la-justice-mais-restent-minoritaires-dans-",
-      "title": "Fonction publique : les femmes dominent dans la santé et la justice, mais restent minoritaires dans l’emploi",
-      "link": "https://fr.hespress.com/495521-fonction-publique-les-femmes-dominent-dans-la-sante-et-la-justice-mais-restent-minoritaires-dans-lemploi.html",
-      "description": "La fonction publique marocaine continue de se féminiser, mais cette progression ne suffit pas à compenser les difficultés persistantes des femmes sur le marché du travail. Alors que leur présence s’affirme dans certains secteurs de l’administration, notamment la santé et la justice, leur accès à l’emploi, particulièrement dans le secteur privé, demeure limité. Les dernières […] The post Fonction publique : les femmes dominent dans la santé et la justice, mais restent minoritaires dans l’emploi a",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-08T18:42:27Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-gaz-l-aie-pointe-l-exposition-du-maroc-aux-chocs-de-prix",
-      "title": "Gaz : l’AIE pointe l’exposition du Maroc aux chocs de prix",
-      "link": "https://fr.hespress.com/495443-gaz-laie-pointe-lexposition-du-maroc-aux-chocs-de-prix.html",
-      "description": "L’Agence internationale de l’énergie range le Royaume parmi les économies africaines qui recourent le plus au gaz importé, alors que le marché mondial est secoué par les perturbations du GNL au détroit d’Ormuz. Dans le Global Gas Security Review 2026, l’Agence internationale de l’énergie (AIE) classe le Maroc parmi les pays du continent qui recourent […] The post Gaz : l’AIE pointe l’exposition du Maroc aux chocs de prix appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-08T18:05:01Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "hespress-en-more-than-80-injured-as-train-derails-in-egypt-s-giza",
       "title": "More than 80 injured as train derails in Egypt’s Giza",
