@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-10T19:50:40Z",
+  "generatedAt": "2026-11-11T06:40:37Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-intemp-ries-les-usagers-de-la-route-appel-s-la-vigilance-lors-de-leurs-d-placements",
+      "title": "Intempéries: les usagers de la route appelés à la vigilance lors de leurs déplacements",
+      "link": "https://fr.hespress.com/495997-intemperies-les-usagers-de-la-route-appeles-a-la-vigilance-lors-de-leurs-deplacements.html",
+      "description": "Le ministère de l’Equipement, de l’Eau et des Forêts a appelé les usagers de la route à observer un ensemble de mesures de prévention afin de garantir leur sécurité, suite au bulletin d’alerte météorologique émis par la Direction générale de la météorologie qui prévoit, mercredi et jeudi, de fortes pluies orageuses accompagnées d’importantes précipitations dans […] The post Intempéries: les usagers de la route appelés à la vigilance lors de leurs déplacements appeared first on Hespress Français ",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-11T01:08:38Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-accidents-du-travail-et-d-c-s-un-co-t-conomique-estim-entre-4-et-5-du-pib",
+      "title": "Accidents du travail et décès : Un coût économique estimé entre 4 et 5% du PIB",
+      "link": "https://www.lavieeco.com/affaires/accidents-du-travail-et-deces-un-cout-economique-estime-entre-4-et-5-du-pib/",
+      "description": "L'investissement dans la santé et la sécurité au travail relève d'un devoir moral et humain autant que d'une obligation légale. L'accompagnement des entreprises marocaines doit être renforcé. L’article Accidents du travail et décès : Un coût économique estimé entre 4 et 5% du PIB est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-11-10T22:10:53Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-who-said-what-on-morocco-s-sahara-at-the-un-general-assembly",
+      "title": "Who said what on Morocco's Sahara at the UN General Assembly",
+      "link": "https://en.hespress.com/148914-who-said-what-on-moroccos-sahara-at-the-un-general-assembly.html",
+      "description": "The United States, France, Gulf countries and several African governments reaffirmed support for Morocco’s autonomy initiative during Tuesday’s UN General Assembly debate, while Russia, Algeria and other delegations challenged attempts to make autonomy the predetermined outcome of negotiations. The November 10 session, convened following Russia’s veto of a US-backed Security Council resolution, also revealed divisions […] The post Who said what on Morocco's Sahara at the UN General Assembly appe",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-10T21:27:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-70831011-26-vuln-rabilit-s-critiques-dans-google-chrome",
       "title": "70831011/26 - Vulnérabilités critiques dans Google Chrome",
@@ -89,32 +128,6 @@
       "published": "2026-11-10T19:50:38Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-onu-moscou-justifie-son-veto-et-reconna-t-les-efforts-de-d-veloppement-du-maroc-au-sahara",
-      "title": "ONU : Moscou justifie son veto et reconnaît les efforts de développement du Maroc au Sahara",
-      "link": "https://fr.hespress.com/495891-russie-moscou-justifie-son-veto-et-reconnait-les-efforts-de-developpement-du-maroc-au-sahara.html",
-      "description": "La représentante de la Fédération de Russie a déclaré que le vote de son pays contre le projet de résolution américain relatif à la prorogation du mandat de la Mission des Nations unies pour l’organisation d’un référendum au Sahara (MINURSO), lors de la réunion du Conseil de sécurité du 30 octobre dernier, reposait sur la […] The post ONU : Moscou justifie son veto et reconnaît les efforts de développement du Maroc au Sahara appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-10T16:21:08Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-russia-defends-vote-against-un-resolution-on-sahara-before-unga",
-      "title": "Russia defends vote against UN resolution on Sahara before UNGA",
-      "link": "https://en.hespress.com/148893-russia-defends-vote-against-un-resolution-on-sahara-before-unga.html",
-      "description": "Russia has defended its decision to vote against a U.S.-drafted Security Council resolution extending the mandate of the United Nations Mission for the Referendum in the Sahara (MINURSO), arguing that the text failed to reflect the positions of both Morocco and the Polisario Front. Speaking before the UN General Assembly on Tuesday, the Russian representative […] The post Russia defends vote against UN resolution on Sahara before UNGA appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-10T16:10:09Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
