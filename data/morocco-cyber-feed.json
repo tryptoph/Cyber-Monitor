@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-11T19:42:08Z",
+  "generatedAt": "2026-11-12T07:22:00Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,45 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-su-de-le-parlement-ouvre-la-voie-la-r-vocation-de-la-citoyennet-des-binationaux",
+      "title": "Suède : le Parlement ouvre la voie à la révocation de la citoyenneté des binationaux",
+      "link": "https://fr.hespress.com/496106-suede-le-parlement-ouvre-la-voie-a-la-revocation-de-la-citoyennete-des-binationaux.html",
+      "description": "Le Parlement suédois a approuvé mercredi une révision de la Constitution permettant, sous certaines conditions, de retirer la citoyenneté suédoise à des personnes binationales. La mesure vise notamment les cas d’obtention frauduleuse de la nationalité ou de condamnations pour des crimes considérés comme portant gravement atteinte aux intérêts du pays. Le texte a été adopté […] The post Suède : le Parlement ouvre la voie à la révocation de la citoyenneté des binationaux appeared first on Hespress",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-12T04:11:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-artisanat-l-ex-cutif-reconna-t-les-difficult-s-de-paiement-des-cotisations-l-amo",
+      "title": "Artisanat : l'Exécutif reconnaît les difficultés de paiement des cotisations à l’AMO",
+      "link": "https://fr.hespress.com/496007-artisanat-lexecutif-reconnait-les-difficultes-de-paiement-des-cotisations-a-lamo.html",
+      "description": "Avec près de 2,7 millions de professionnels, soit environ 22 % de la population active, l’artisanat occupe une place importante dans le tissu économique marocain. Pourtant, l’accès à la protection sociale demeure problématique pour une partie des artisans, dont certains peinent à honorer leurs cotisations mensuelles. Une difficulté reconnue par Abdeljebbar Rachidi, ministre délégué chargé […] The post Artisanat : l'Exécutif reconnaît les difficultés de paiement des cotisations à l’AMO appeared f",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-11T22:50:26Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "lavieeco-alerte-m-t-o-jusqu-110-mm-de-pluies-et-des-rafales-de-vent-100-km-h",
+      "title": "Alerte météo : jusqu’à 110 mm de pluies et des rafales de vent à 100 km/h",
+      "link": "https://www.lavieeco.com/influences/climat/alerte-meteo-au-maroc-jusqua-110-mm-de-pluie-et-des-rafales-de-vent-a-100-km-h/",
+      "description": "La Direction générale de la météorologie (DGM) a actualisé, mercredi 11 novembre, son bulletin d’alerte de niveau orange, annonçant de fortes précipitations accompagnées localement de grêle, ainsi que de violentes rafales de vent dans plusieurs provinces du Royaume. Les cumuls pluviométriques pourraient atteindre 110 mm dans certaines zones, tandis que les vents devraient souffler jusqu’à 100 km/h. Ces perturbations sont attendues entre mercredi soir et jeudi à la mi-journée. L’article Alerte mé",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-11-11T20:28:23Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-70941111-26-vuln-rabilit-s-affectant-roundcube-webmail",
       "title": "70941111/26 - Vulnérabilités affectant Roundcube Webmail",
@@ -154,19 +193,6 @@
       "published": "2026-11-11T19:42:06Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-onu-le-s-n-gal-r-it-re-son-soutien-au-plan-d-autonomie-et-appelle-r-former-le-cs",
-      "title": "ONU : le Sénégal réitère son soutien au plan d'autonomie et appelle à réformer le CS",
-      "link": "https://fr.hespress.com/496101-onu-le-senegal-reitere-son-soutien-au-plan-dautonomie-et-appelle-a-reformer-le-cs.html",
-      "description": "Devant l’Assemblée générale des Nations unies réunie pour examiner l’usage du droit de veto au Conseil de sécurité, le Sénégal a regretté le blocage ayant empêché le renouvellement du mandat de la Minurso, tout en renouvelant son soutien plein et entier à l’initiative marocaine d’autonomie, affirmant qu’elle « offre des fondements concrets pour le développement […] The post ONU : le Sénégal réitère son soutien au plan d'autonomie et appelle à réformer le CS appeared first on Hespress Français - ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-11T19:32:41Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
