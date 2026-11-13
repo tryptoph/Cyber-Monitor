@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-12T20:04:00Z",
+  "generatedAt": "2026-11-13T06:54:50Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-droits-de-l-homme-belkouch-et-la-soci-t-civile-en-concertation-sur-trois-rapports",
+      "title": "Droits de l'Homme : Belkouch et la société civile en concertation sur trois rapports",
+      "link": "https://fr.hespress.com/496295-droits-de-lhomme-belkouch-et-la-societe-civile-en-concertation-sur-trois-rapports.html",
+      "description": "Le Délégué interministériel chargé des droits de l’Homme, Mohammed El Habib Belkouch, présidera lundi 16 novembre 2026 une rencontre de concertation avec les associations, consacrée à l’élaboration de trois rapports nationaux. Mohammed El Habib Belkouch, Délégué interministériel chargé des droits de l’Homme, présidera, le lundi 16 novembre 2026, une rencontre de concertation avec les associations […] The post Droits de l'Homme : Belkouch et la société civile en concertation sur trois rapports ap",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-13T02:54:02Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71001211-26-une-campagne-d-attaques-majeure-cible-actuellement-les-panneaux-cloud",
       "title": "71001211/26 - Une campagne d'attaques majeure cible actuellement les panneaux cloud…",
@@ -92,19 +105,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-la-dgssi-d-clenche-une-alerte-critique-sur-une-vague-de-cyberattaques-au-maroc",
-      "title": "La DGSSI déclenche une alerte critique sur une vague de cyberattaques au Maroc",
-      "link": "https://fr.hespress.com/496251-la-dgssi-declenche-une-alerte-critique-sur-une-vague-de-cyberattaques-au-maroc.html",
-      "description": "La Direction générale de la sécurité des systèmes d’information (DGSSI) a publié, ce jeudi 12 novembre 2026, un bulletin d’alerte classé au niveau de risque et d’impact « critique » (réf. 71001211/26) concernant une vaste campagne de cyberattaques visant les panneaux d’administration cloud de la solution de télémaintenance « ConnectWise ScreenConnect » ainsi que les fournisseurs de services informatiques […] The post La DGSSI déclenche une alerte critique sur une vague de cyberattaques au Maroc ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-12T19:32:58Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-morocco-warns-of-coordinated-cyberattacks-targeting-screenconnect-cloud-systems",
       "title": "Morocco warns of coordinated cyberattacks targeting ScreenConnect cloud systems",
       "link": "https://en.hespress.com/149044-morocco-warns-of-coordinated-cyberattacks-targeting-screenconnect-cloud-systems.html",
@@ -126,45 +126,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-12T17:40:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "مديرية أمن نظم المعلومات تحذر من هجمات سيبرانية واسعة بالمغرب",
-      "link": "https://www.hespress.com/%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a3%d9%85%d9%86-%d9%86%d8%b8%d9%85-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d9%87%d8%ac%d9%85%d8%a7%d8%aa-1838762.html",
-      "description": "أصدرت المديرية العامة لأمن نظم المعلومات بالمغرب (DGSSI)، اليوم الخميس، نشرة أمنية تحذر فيها من حملة هجمات سيبرانية كبرى تستهدف حاليا لوحات التحكم السحابية لبرمجية “ConnectWise ScreenConnect” ومزودي الخدمات المعلوماتية المدارة (MSP). واستندت النشرة التحذيرية إلى تنبيه أمني أصدرته شركة “ConnectWise”، كشف عن تعرض مزودي الخدمات المدارة الذين يستخدمون النسخة السحابية من “ScreenConnect” لهجوم منسق، […] The post مديرية أمن نظم المعلومات تحذر من هجمات سيبرانية واسعة بالمغرب appeared first on Hespress -",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-12T17:00:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-nvidia-faces-espionage-scandal-over-ceo-s-alleged-ties-to-chinese-spy",
-      "title": "Nvidia faces espionage scandal over CEO's alleged ties to Chinese spy",
-      "link": "https://en.hespress.com/149026-nvidia-faces-espionage-scandal-over-ceos-alleged-ties-to-chinese-spy.html",
-      "description": "Nvidia is facing growing scrutiny after reports linked CEO Jensen Huang to a Chinese businesswoman suspected of working for Beijing, prompting a U.S. investigation and raising concerns about the security of sensitive technology. The controversy centers on Alice Huang, a former executive at Singapore-based technology company Megaspeed International, whom U.S. intelligence agencies reportedly suspect of […] The post Nvidia faces espionage scandal over CEO's alleged ties to Chinese spy appeared fir",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-12T15:40:47Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-us-withdraws-from-under-17-world-cup-in-qatar-over-security-concerns",
-      "title": "US withdraws from Under-17 World Cup in Qatar over security concerns",
-      "link": "https://en.hespress.com/149020-us-withdraws-from-under-17-world-cup-in-qatar-over-security-concerns.html",
-      "description": "The United States has withdrawn from the Under-17 World Cup in Qatar over fears of escalating armed conflict in the region, citing safety concerns for players and staff. US Soccer informed players of the decision in a letter seen by Reuters, saying it acted on advice from the US Department of State and its warning […] The post US withdraws from Under-17 World Cup in Qatar over security concerns appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-12T15:05:19Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -349,19 +310,6 @@
       "published": "2026-11-11T19:42:06Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-casablanca-une-importante-panne-d-lectricit-affecte-plusieurs-quartiers",
-      "title": "Casablanca : une importante panne d’électricité affecte plusieurs quartiers",
-      "link": "https://www.lavieeco.com/au-royaume/casablanca-une-importante-panne-delectricite-affecte-plusieurs-quartiers-de-la-metropole/",
-      "description": "Plusieurs quartiers de Casablanca, ainsi que certaines zones de Bouskoura et de Nouaceur, ont été touchés mercredi en fin d’après-midi par une panne électrique. Les équipes de la Société Régionale Multiservices Casablanca-Settat (SRM-CS) sont mobilisées pour déterminer l’origine de l’incident et évaluer le délai nécessaire au rétablissement de l’alimentation. Cette perturbation intervient alors que la région est concernée par une alerte météorologique de niveau orange. L’article Casablanca : une",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-11-11T19:17:31Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
