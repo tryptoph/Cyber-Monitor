@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-13T19:50:35Z",
+  "generatedAt": "2026-11-14T06:39:36Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -128,58 +128,6 @@
       "published": "2026-11-13T19:50:34Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-panne-mondiale-d-outlook-microsoft-annonce-une-reprise-progressive",
-      "title": "Panne mondiale d’Outlook : Microsoft annonce une reprise progressive",
-      "link": "https://fr.hespress.com/496403-panne-mondiale-doutlook-microsoft-annonce-une-reprise-progressive.html",
-      "description": "Microsoft a annoncé ce vendredi une amélioration progressive de ses services touchés depuis jeudi par une panne mondiale. Outlook, Teams et Copilot restent toutefois perturbés dans certaines régions, avec des difficultés d’accès intermittentes et des retards dans l’acheminement des courriels. Le géant américain fait état de « progrès continus » dans le rétablissement de ses […] The post Panne mondiale d’Outlook : Microsoft annonce une reprise progressive appeared first on Hespress Français - Act",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-13T19:45:23Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-casablanca-police-arrest-15-year-old-suspected-of-making-false-terror-threat-against-schools",
-      "title": "Casablanca police arrest 15-year-old suspected of making false terror threat against schools",
-      "link": "https://en.hespress.com/149120-casablanca-police-arrest-15-year-old-suspected-of-making-false-terror-threat-against-schools.html",
-      "description": "Moroccan police arrested a 15-year-old student in Casablanca on Friday on suspicion of making a false report of a terrorist threat targeting educational institutions in the city, the General Directorate of National Security (DGSN) said. The arrest was carried out by the Casablanca Judicial Police Brigade in coordination with the General Directorate for Territorial Surveillance […] The post Casablanca police arrest 15-year-old suspected of making false terror threat against schools appeared first",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-13T19:07:55Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-casablanca-school-network-al-jabr-lifts-lockdown-after-vehicle-ramming-threat",
-      "title": "Casablanca school network Al Jabr lifts lockdown after vehicle-ramming threat",
-      "link": "https://en.hespress.com/149069-casablanca-school-network-al-jabr-lifts-lockdown-after-vehicle-ramming-threat.html",
-      "description": "A school network in Casablanca lifted a security lockdown on Friday afternoon after receiving a telephone threat warning of a possible vehicle-ramming attack targeting two of its campuses, according to a letter sent to parents by the school administration. The threat was received at around noon on November 13 and specifically targeted the Oasis campus […] The post Casablanca school network Al Jabr lifts lockdown after vehicle-ramming threat appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-13T18:10:34Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-false-bomb-threat-prompts-security-operation-at-casablanca-private-school",
-      "title": "False bomb threat prompts security operation at Casablanca private school",
-      "link": "https://en.hespress.com/149111-false-bomb-threat-prompts-security-operation-at-casablanca-private-school.html",
-      "description": "A bomb threat prompted a security operation at a private school in Casablanca on Friday, forcing administrators to restrict access to the premises before authorities determined the warning was a hoax. The incident occurred at Al Jabr School in the city’s L’Oasis neighbourhood after the institution received an anonymous telephone call claiming an explosive device […] The post False bomb threat prompts security operation at Casablanca private school appeared first on HESPRESS English - Morocco New",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-13T17:14:04Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
