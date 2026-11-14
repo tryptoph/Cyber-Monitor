@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-14T06:39:36Z",
+  "generatedAt": "2026-11-14T22:34:36Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-cybers-curit-le-maroc-d-tecte-des-failles-critiques-et-renforce-la-protection-des-plateformes-nu",
+      "title": "Cybersécurité : le Maroc détecte des failles critiques et renforce la protection des plateformes numériques",
+      "link": "https://fr.hespress.com/496472-cybersecurite-le-maroc-detecte-des-failles-critiques-et-renforce-la-protection-des-plateformes-numeriques.html",
+      "description": "Le Maroc renforce son dispositif de cybersécurité face à la multiplication des menaces numériques. En 2026, les opérations d’évaluation et d’audit menées auprès des institutions publiques et des infrastructures d’importance vitale ont permis d’identifier des vulnérabilités critiques sur 31 applications, tandis que plus de 2.100 menaces de sécurité ont été signalées de manière proactive aux […] The post Cybersécurité : le Maroc détecte des failles critiques et renforce la protection des plateform",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-14T18:34:35Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71081311-26-vuln-rabilit-s-affectant-plusieurs-plugins-et-th-mes-wordpress",
       "title": "71081311/26 - Vulnérabilités affectant plusieurs plugins et thèmes WordPress",
