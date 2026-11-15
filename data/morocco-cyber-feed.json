@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-15T06:45:46Z",
+  "generatedAt": "2026-11-15T18:57:21Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,32 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-realme-p4-power-5g",
+      "title": "Realme P4 Power 5G",
+      "link": "https://www.lavieeco.com/influences/tentation/realme-p4-power-5g/",
+      "description": "Présentation Le Realme P4 Power 5G embarque une batterie Titan de 10 001 mAh, la plus endurante jamais installée sur un téléphone de la marque. Selon Realme Lab, elle permet jusqu’à 11,7 heures de gaming, 185,7 heures d’écoute sur Spotify ou 32,5 heures de lecture sur YouTube. À 5% de charge, le mode Super économie d’énergie promet jusqu’à 218 minutes d’appels ou 46,8 heures de veille. Certifiée 5 étoiles par TÜV Rheinland, elle conserverait, selon Realme, plus de 80% de sa santé après huit ans ",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-11-15T16:04:21Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-false-flood-warnings-spark-fear-among-residents-of-morocco-s-ksar-el-kebir",
+      "title": "False flood warnings spark fear among residents of Morocco’s Ksar El Kebir",
+      "link": "https://en.hespress.com/149227-false-flood-warnings-spark-fear-among-residents-of-moroccos-ksar-el-kebir.html",
+      "description": "False rumors warning of imminent flooding have caused anxiety among residents of Ksar El Kebir and nearby rural communities in Larache province, following heavy rainfall across the region in recent days. The rumors claimed that residents in certain areas had been told to prepare to evacuate their homes in anticipation of possible flooding. However, local […] The post False flood warnings spark fear among residents of Morocco’s Ksar El Kebir appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-15T15:00:37Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71081311-26-vuln-rabilit-s-affectant-plusieurs-plugins-et-th-mes-wordpress",
       "title": "71081311/26 - Vulnérabilités affectant plusieurs plugins et thèmes WordPress",
@@ -219,19 +245,6 @@
       "published": "2026-11-12T20:03:58Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-maroc-tats-unis-un-m-morandum-d-entente-pour-la-surveillance-des-maladies-transmissibles",
-      "title": "Maroc- États-Unis : Un mémorandum d’entente pour la surveillance des maladies transmissibles",
-      "link": "https://www.lavieeco.com/affaires/secteurs/sante-le-maroc-et-les-etats-unis-lancent-strides-pour-renforcer-la-detection-precoce-des-maladies-transmissibles/",
-      "description": "Les États-Unis engagent 4 millions de dollars en faveur de STRIDES, qui s’ajoutent à plus de 10 millions de dollars consacrés aux actions conjointes de sécurité sanitaire, par l’intermédiaire des Centres pour le contrôle et la prévention des maladies et de l’Agence de réduction des menaces de défense. L’article Maroc- États-Unis : Un mémorandum d’entente pour la surveillance des maladies transmissibles est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-11-12T17:40:54Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
