@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-15T18:57:21Z",
+  "generatedAt": "2026-11-16T06:44:26Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -22,19 +22,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-15T16:04:21Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-false-flood-warnings-spark-fear-among-residents-of-morocco-s-ksar-el-kebir",
-      "title": "False flood warnings spark fear among residents of Morocco’s Ksar El Kebir",
-      "link": "https://en.hespress.com/149227-false-flood-warnings-spark-fear-among-residents-of-moroccos-ksar-el-kebir.html",
-      "description": "False rumors warning of imminent flooding have caused anxiety among residents of Ksar El Kebir and nearby rural communities in Larache province, following heavy rainfall across the region in recent days. The rumors claimed that residents in certain areas had been told to prepare to evacuate their homes in anticipation of possible flooding. However, local […] The post False flood warnings spark fear among residents of Morocco’s Ksar El Kebir appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-15T15:00:37Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
