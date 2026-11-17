@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-16T22:16:39Z",
+  "generatedAt": "2026-11-17T08:04:06Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -61,19 +61,6 @@
       "sourceKey": "hespress-en",
       "category": "morocco",
       "published": "2026-11-16T22:00:17Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "هجومان داميان يهزان جنوب أفريقيا",
-      "link": "https://www.hespress.com/%d9%87%d8%ac%d9%88%d9%85%d8%a7%d9%86-%d8%af%d8%a7%d9%85%d9%8a%d8%a7%d9%86-%d9%8a%d9%87%d8%b2%d8%a7%d9%86-%d8%ac%d9%86%d9%88%d8%a8-%d8%a3%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-1840818.html",
-      "description": "أعلنت الشرطة في جنوب أفريقيا، اليوم الاثنين، مقتل 17 شخصا على الأقل في حادثي إطلاق نار منفصلين وقعا الأحد، في منطقتين تفصل بينهما نحو 530 كيلومترا، دون تحديد دوافع الهجومين. وأوضحت الشرطة أنه تم العثور على ثمانية أشخاص قتلى داخل سيارة تعرضت لوابل من الرصاص بمنطقة سويت ووترز، قرب مدينة بيترماريتسبورغ، فيما عُثر على جثث […] The post هجومان داميان يهزان جنوب أفريقيا appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-16T21:35:29Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
