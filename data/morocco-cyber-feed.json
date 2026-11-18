@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-17T21:02:11Z",
+  "generatedAt": "2026-11-18T07:40:39Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-item",
+      "title": "اختراق طبي واعد .. فحص دم جديد يرصد تقدم مرض ألزهايمر في الدماغ",
+      "link": "https://www.hespress.com/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82-%d8%b7%d8%a8%d9%8a-%d9%88%d8%a7%d8%b9%d8%af-%d9%81%d8%ad%d8%b5-%d8%af%d9%85-%d8%ac%d8%af%d9%8a%d8%af-%d9%8a%d8%b1%d8%b5%d8%af-%d8%aa%d9%82%d8%af%d9%85-%d9%85-1841562.html",
+      "description": "كشف باحثون عن تطوير فحص دم جديد يمكن أن يساعد في تحديد مدى تقدم مرض ألزهايمر في الدماغ، من خلال قياس تراكم بروتين يرتبط بتطور المرض، في خطوة قد تساهم في تحسين التشخيص وتوجيه الخيارات العلاجية مستقبلا. وجرى تقديم نتائج الدراسة خلال مؤتمر «التجارب السريرية بشأن مرض ألزهايمر»، المنعقد بمدينة بوسطن الأمريكية، فيما نشرت تفاصيلها […] The post اختراق طبي واعد .. فحص دم جديد يرصد تقدم مرض ألزهايمر في الدماغ appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-11-18T03:00:00Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71191711-26-vuln-rabilit-s-affectant-adminneo",
       "title": "71191711/26 - Vulnérabilités affectant AdminNeo",
@@ -102,45 +115,6 @@
       "published": "2026-11-17T21:02:09Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-visa-for-music-2026-quatre-jours-de-concerts-et-de-rencontres-professionnelles-rabat",
-      "title": "Visa For Music 2026 : quatre jours de concerts et de rencontres professionnelles à Rabat",
-      "link": "https://fr.hespress.com/496817-visa-for-music-2026-quatre-jours-de-concerts-et-de-rencontres-professionnelles-a-rabat.html",
-      "description": "Du 18 au 21 novembre 2026, Rabat accueillera la 13ᵉ édition de Visa For Music, festival et marché professionnel des musiques d’Afrique et du Moyen-Orient. La programmation artistique s’articule autour de showcases live, d’une scène dédiée aux musiques électroniques au Chellah et d’un Focus Maroc réunissant quatre projets de la scène nationale. En parallèle des […] The post Visa For Music 2026 : quatre jours de concerts et de rencontres professionnelles à Rabat appeared first on Hespress Français",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-17T17:13:45Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-bourita-reveals-joint-morocco-us-proposals-aimed-at-ending-sahara-dispute",
-      "title": "Bourita reveals joint Morocco-US proposals aimed at ending Sahara dispute",
-      "link": "https://en.hespress.com/149364-bourita-reveals-joint-morocco-us-proposals-aimed-at-ending-sahara-dispute.html",
-      "description": "Moroccan Foreign Minister Nasser Bourita said Tuesday that Morocco and the United States had developed proposals aimed at addressing the concerns of parties involved in the Sahara dispute without forcing them into a humiliating political outcome, as Washington pledged to continue negotiations despite the failure of its latest Security Council initiative. Speaking at a joint […] The post Bourita reveals joint Morocco-US proposals aimed at ending Sahara dispute appeared first on HESPRESS English -",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-17T15:49:23Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-waltz-vows-to-press-ahead-with-sahara-talks-despite-russian-veto-and-minurso-closure",
-      "title": "Waltz vows to press ahead with Sahara talks despite Russian veto and MINURSO closure",
-      "link": "https://en.hespress.com/149356-waltz-vows-to-press-ahead-with-sahara-talks-despite-russian-veto-and-minurso-closure.html",
-      "description": "US Ambassador to the United Nations Mike Waltz said Tuesday that Washington would continue pressing for a settlement of the Sahara dispute based on Morocco’s autonomy proposal, despite Russia’s veto of an American Security Council resolution and the subsequent closure of MINURSO. Speaking at a joint news conference in Rabat with Moroccan Foreign Minister Nasser […] The post Waltz vows to press ahead with Sahara talks despite Russian veto and MINURSO closure appeared first on HESPRESS English - M",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-17T15:27:15Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
