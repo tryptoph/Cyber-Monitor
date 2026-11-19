@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-18T20:40:04Z",
+  "generatedAt": "2026-11-19T07:36:13Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,97 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "dgssi-71231811-26-vuln-rabilit-s-critiques-affectant-des-produits-f5",
+      "title": "71231811/26 - Vulnérabilités critiques affectant des produits F5",
+      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-critiques-affectant-des-produits-f5",
+      "description": "Official DGSSI / maCERT security bulletin.",
+      "source": "DGSSI / maCERT",
+      "sourceKey": "dgssi",
+      "category": "official",
+      "published": "2026-11-19T07:36:10Z",
+      "countryCode": "MA",
+      "official": true,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-u17",
+      "title": "أوراق رابحة في صفوف \"أشبال U17\"",
+      "link": "https://www.hespress.com/%d8%a3%d9%88%d8%b1%d8%a7%d9%82-%d8%b1%d8%a7%d8%a8%d8%ad%d8%a9-%d9%81%d9%8a-%d8%b5%d9%81%d9%88%d9%81-%d8%a3%d8%b4%d8%a8%d8%a7%d9%84-u17-1841699.html",
+      "description": "يراهن الناخب الوطني أحمد القنطاري على مؤهلات ثلاثة من أبرز المواهب الثمينة الصاعدة هجوميا في كرة القدم المغربية، ويتعلق الأمر بزياد باها وإبراهيم الرباج وإسماعيل العود، بهدف تعزيز الفعالية الهجومية للمنتخب الوطني لأقل من 17 سنة، خلال مشاركته في نهائيات كأس العالم المقررة بقطر من 19 نونبر الجاري إلى 13 دجنبر المقبل. ويستهل المنتخب الوطني […] The post أوراق رابحة في صفوف \"أشبال U17\" appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-11-19T06:41:43Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-ar-item",
+      "title": "إثيوبيا وإريتريا على شفا حرب شاملة",
+      "link": "https://www.hespress.com/%d8%a5%d8%ab%d9%8a%d9%88%d8%a8%d9%8a%d8%a7-%d9%88%d8%a5%d8%b1%d9%8a%d8%aa%d8%b1%d9%8a%d8%a7-%d8%b9%d9%84%d9%89-%d8%b4%d9%81%d8%a7-%d8%ad%d8%b1%d8%a8-%d8%b4%d8%a7%d9%85%d9%84%d8%a9-1841966.html",
+      "description": "تهدد هجمات بالمدفعية الثقيلة وعمليات توغل عبر الحدود بتصعيد جديد بين إثيوبيا وإريتريا، فيما يقف البلدان الجاران على شفا حرب شاملة، بحسب محللين. وخاض البلدان الواقعان في القرن الإفريقي حربا حدودية دامية في أواخر تسعينات القرن الماضي، وتصاعد التوتر مجددا في الأشهر الأخيرة وسط مخاوف إريتريا من أن تعتزم إثيوبيا الحبيسة غزوها لتأمين منفذ بحري […] The post إثيوبيا وإريتريا على شفا حرب شاملة appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-11-19T03:30:36Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-morocco-s-defense-industry-roadmap-targets-50-000-jobs-and-65-export-revenue-by-2035",
+      "title": "Morocco’s defense industry roadmap targets 50,000 jobs and 65% export revenue by 2035",
+      "link": "https://en.hespress.com/149449-moroccos-defense-industry-roadmap-targets-50000-jobs-and-65-export-revenue-by-2035.html",
+      "description": "Morocco is embarking on a new phase in the development of its defense industry, with a national roadmap aimed at building an integrated industrial ecosystem capable of meeting a significant share of the country’s military and security needs while expanding its presence in international markets. The strategy, presented to King Mohammed VI during a working […] The post Morocco’s defense industry roadmap targets 50,000 jobs and 65% export revenue by 2035 appeared first on HESPRESS English - Morocco",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-19T00:00:41Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-amdie-dg-morocco-offer-aim-to-foster-sovereign-competitive-industry",
+      "title": "AMDIE DG: 'Morocco Offer' aim to foster sovereign, competitive industry",
+      "link": "https://en.hespress.com/149443-amdie-dg-morocco-offer-aim-to-foster-sovereign-competitive-industry.html",
+      "description": "The “Morocco Offer” and the roadmap for the development of the national defense and security industry constitute a major strategic and economic ambition. They aim to foster the emergence of a sovereign, competitive, and internationally oriented industry that is set to become a new engine of growth, innovation, and value creation, stated Ali Seddiki, Director […] The post AMDIE DG: 'Morocco Offer' aim to foster sovereign, competitive industry appeared first on HESPRESS English - Morocco News .",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-18T22:40:16Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-industrie-de-d-fense-40-des-besoins-des-far-couverts-en-2035",
+      "title": "Industrie de défense : 40 % des besoins des FAR couverts en 2035",
+      "link": "https://fr.hespress.com/496969-industrie-de-defense-40-des-besoins-des-far-couverts-en-2035.html",
+      "description": "Portée par l’« Offre Maroc » présentée devant le Roi Mohammed VI, la feuille de route des industries de défense et de sécurité vise à couvrir environ 40 % des besoins des FAR et des organes de sécurité à l’horizon 2035, tout en réalisant plus de 65 % de son chiffre d’affaires à l’export. Couvrir […] The post Industrie de défense : 40 % des besoins des FAR couverts en 2035 appeared first on Hespress Français - Actualités du Maroc .",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-18T22:02:40Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-industry-minister-morocco-offer-roadmap-for-developing-national-defense-security-industry-confir",
+      "title": "Industry Minister: Morocco Offer' & roadmap for developing national defense & security industry confirm maturity of the Kingdom’s industrial ecosystem",
+      "link": "https://en.hespress.com/149441-industry-minister-morocco-offer-roadmap-for-developing-national-defense-security-industry-confirm-maturity-of-the-kingdoms-industrial-ecosystem.html",
+      "description": "The “Morocco Offer” and the roadmap for the development of the national defense and security industry, presented Wednesday to His Majesty King Mohammed VI, confirm the maturity of the Kingdom’s industrial ecosystem, Ryad Mezzour, Minister of Industry, Trade, Investment, and Economic Inclusion said. “The ‘Morocco Offer’ and the roadmap for its implementation “confirm the maturity […] The post Industry Minister: Morocco Offer' & roadmap for developing national defense & security industry confirm m",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-18T21:06:07Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71221811-26-nginx2root-des-vuln-rabilit-s-critiques-dans-f5-nginx",
       "title": "71221811/26 - « NGINX2Root » des vulnérabilités critiques dans F5 NGINX",
@@ -53,32 +144,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-cybermenaces-et-pannes-bancaires-pourquoi-le-syst-me-marocain-ne-serait-pas-concern",
-      "title": "Cybermenaces et pannes bancaires : Pourquoi le système marocain ne serait pas concerné",
-      "link": "https://fr.hespress.com/496929-cybermenaces-et-pannes-bancaires-pourquoi-le-systeme-marocain-ne-serait-pas-concerne.html",
-      "description": "Les récentes pannes informatiques ayant affecté plusieurs grandes banques américaines ne devraient pas avoir de répercussions sur le secteur bancaire marocain. C’est ce qu’affirme une source bien informée du milieu bancaire national, qui attribue ces incidents à des dysfonctionnements strictement locaux, sans lien avec les infrastructures financières du Royaume. S’exprimant auprès de Hespress sous couvert […] The post Cybermenaces et pannes bancaires : Pourquoi le système marocain ne serait pas ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-18T20:00:33Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "أمريكا تحذر رعاياها بالسعودية والبحرين",
-      "link": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d8%ad%d8%b0%d8%b1-%d8%b1%d8%b9%d8%a7%d9%8a%d8%a7%d9%87%d8%a7-%d8%a8%d8%a7%d9%84%d8%b3%d8%b9%d9%88%d8%af%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%a8%d8%ad%d8%b1-1841998.html",
-      "description": "جددت الولايات المتحدة، الأربعاء، تحذير رعاياها في السعودية والبحرين من تزايد خطر الهجمات المرتبطة بإيران. ودعت سفارة واشنطن في كل من الرياض والمنامة الرعايا الأميركيين إلى “توخي مزيد من اليقظة نظرا لتزايد خطر الهجمات المسلحة التي يشنها الحوثيون المدعومون من إيران، والجهود الإيرانية لاستهداف مسؤولين أميركيين ومنشآت في المنطقة”. وأتى تجديد التحذير في وقت يواصل […] The post أمريكا تحذر رعاياها بالسعودية والبحرين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-18T19:46:22Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "aujourdhui-d-veloppement-de-l-industrie-de-d-fense-et-de-s-curit-sm-le-roi-pr-side-une-s-ance-de-travail",
       "title": "Développement de l’industrie de défense et de sécurité : SM le Roi préside une séance de travail",
       "link": "https://aujourdhui.ma/actualite/developpement-de-lindustrie-de-defense-et-de-securite-sm-le-roi-preside-une-seance-de-travail",
@@ -100,45 +165,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-18T16:15:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-king-mohammed-vi-launches-roadmap-to-expand-morocco-s-defense-industry",
-      "title": "King Mohammed VI launches roadmap to expand Morocco’s defense industry",
-      "link": "https://en.hespress.com/149426-king-mohammed-vi-launches-roadmap-to-expand-moroccos-defense-industry.html",
-      "description": "Here follows a statement by the Royal Office: “His Majesty King Mohammed VI, may God assist Him, accompanied by His Royal Highness Crown Prince Moulay El Hassan, chaired on Wednesday at the Royal Palace in Rabat, a working session dedicated to presenting the “Morocco Offer” and the roadmap to develop the national defense and security […] The post King Mohammed VI launches roadmap to expand Morocco’s defense industry appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-18T15:53:54Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-le-roi-pr-side-une-s-ance-de-travail-consacr-e-l-offre-maroc-et-la-fdr-pour-le-d-veloppement-de-",
-      "title": "Le Roi préside une séance de travail consacrée à l'Offre Maroc\" et la FdR pour le développement de l'industrie nationale de défense",
-      "link": "https://fr.hespress.com/496961-le-roi-preside-une-seance-de-travail-consacree-a-loffre-maroc-et-la-fdr-pour-le-developpement-de-lindustrie-nationale-de-defense.html",
-      "description": "Le Roi Mohammed VI, accompagné du Prince Héritier Moulay El Hassan, a présidé, ce mercredi au Palais Royal de Rabat, une séance de travail consacrée à la présentation de l' »Offre Maroc » et de la feuille de route pour le développement de l’industrie nationale de défense et de sécurité, indique un communiqué du Cabinet Royal. Voici […] The post Le Roi préside une séance de travail consacrée à l'Offre Maroc\" et la FdR pour le développement de l'industrie nationale de défense appeared first on Hes",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-18T15:52:53Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-morocco-uae-sign-security-cooperation-agreement-to-strengthen-intelligence-sharing",
-      "title": "Morocco, UAE sign security cooperation agreement to strengthen intelligence sharing",
-      "link": "https://en.hespress.com/149416-morocco-uae-sign-security-cooperation-agreement-to-strengthen-intelligence-sharing.html",
-      "description": "Morocco and the United Arab Emirates have signed a memorandum of understanding to strengthen security cooperation, expand intelligence sharing and improve coordination in tackling cross-border criminal and security threats. The agreement was signed Tuesday by Abdellatif Hammouchi, director general of Morocco’s National Security and Territorial Surveillance agencies, and Abdullah Khalifa Al Marri, commander-in-chief of Dubai […] The post Morocco, UAE sign security cooperation agreement to strengt",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-18T14:20:02Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
@@ -235,19 +261,6 @@
       "type": "news"
     },
     {
-      "id": "lavieeco-dette-priv-e-les-obligations-reculent-le-papier-court-prend-le-relais",
-      "title": "Dette privée : Les obligations reculent, le papier court prend le relais",
-      "link": "https://www.lavieeco.com/argent/dette-privee-les-obligations-reculent-le-papier-court-prend-le-relais/",
-      "description": "Le marché de la dette privée traverse une année contrastée, entre recul des obligations, essoufflement du placement privé et dynamisme des certificats de dépôt. Les conditions de financement, elles, restent néanmoins avantageuses pour plusieurs émetteurs. L’article Dette privée : Les obligations reculent, le papier court prend le relais est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-11-17T10:02:09Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "dgssi-71101611-26-vuln-rabilit-critique-noisytcp-dans-le-noyau-linux",
       "title": "71101611/26 - Vulnérabilité critique « NoisyTCP » dans le noyau Linux",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilite-critique-noisytcp-dans-le-noyau-linux",
@@ -271,19 +284,6 @@
       "published": "2026-11-16T22:16:37Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-minurso-le-1er-contingent-amorce-son-d-part-de-la-youne",
-      "title": "Minurso : Le 1er contingent amorce son départ de Laâyoune",
-      "link": "https://www.lavieeco.com/au-royaume/minurso-le-1er-contingent-amorce-son-depart-de-laayoune/",
-      "description": "Cette opération s'inscrit dans le prolongement de la séance de travail présidée par Sa Majesté le Roi Mohammed VI, le 4 novembre dernier, consacrée aux dispositions devant accompagner la cessation des activités de la Mission, consécutivement à la non-reconduction de son mandat par le Conseil de sécurité des Nations unies. L’article Minurso : Le 1er contingent amorce son départ de Laâyoune est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-11-16T22:11:37Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
@@ -342,19 +342,6 @@
       "id": "dgssi-71041311-26-vulnerabilt-s-critiques-affectant-les-produits-check-point",
       "title": "71041311/26 - Vulnerabiltés critiques affectant les produits Check Point",
       "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabiltes-critiques-affectant-les-produits-check-point",
-      "description": "Official DGSSI / maCERT security bulletin.",
-      "source": "DGSSI / maCERT",
-      "sourceKey": "dgssi",
-      "category": "official",
-      "published": "2026-11-13T19:50:34Z",
-      "countryCode": "MA",
-      "official": true,
-      "type": "news"
-    },
-    {
-      "id": "dgssi-71031311-26-vuln-rabilit-s-affectant-les-produits-manageengine",
-      "title": "71031311/26 - Vulnérabilités affectant les produits ManageEngine",
-      "link": "https://www.dgssi.gov.ma/fr/bulletins/vulnerabilites-affectant-les-produits-manageengine",
       "description": "Official DGSSI / maCERT security bulletin.",
       "source": "DGSSI / maCERT",
       "sourceKey": "dgssi",
