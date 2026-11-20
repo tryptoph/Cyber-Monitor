@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-19T20:46:12Z",
+  "generatedAt": "2026-11-20T07:27:17Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,58 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-ar-2027",
+      "title": "ترامب يربط ضرب إيران بمطلع 2027",
+      "link": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%8a%d8%b1%d8%a8%d8%b7-%d8%b6%d8%b1%d8%a8-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%a8%d9%85%d8%b7%d9%84%d8%b9-2027-1842651.html",
+      "description": "أعلن الرئيس الأمريكي دونالد ترامب، الخميس، إرجاء اتخاذ قرار بشأن شن هجمات جديدة على إيران إلى ما بعد مطلع العام المقبل، في ظل استمرار المواجهة العسكرية بين البلدين منذ ثمانية أشهر. وقال ترامب، في مقابلة مع وكالة رويترز على متن طائرته أثناء عودته من الصين إلى واشنطن، ردا على سؤال بشأن احتمال تنفيذ ضربات جديدة […] The post ترامب يربط ضرب إيران بمطلع 2027 appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
+      "source": "Hespress Arabic",
+      "sourceKey": "hespress-ar",
+      "category": "morocco",
+      "published": "2026-11-20T04:32:34Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-en-kushner-says-trump-open-to-extending-nato-mutual-defense-type-clause-to-ukraine",
+      "title": "Kushner says Trump 'open' to extending NATO mutual defense-type clause to Ukraine",
+      "link": "https://en.hespress.com/149509-kushner-says-trump-open-to-extending-nato-mutual-defense-type-clause-to-ukraine.html",
+      "description": "US envoy Jared Kushner said Thursday that President Donald Trump was open to extending to Ukraine a security guarantee similar to NATO’s mutual defense clause, but stressed that Washington has to protect its interests too. “From America’s perspective, giving an Article Five-like security guarantee is a really, really big deal,” he told a press conference […] The post Kushner says Trump 'open' to extending NATO mutual defense-type clause to Ukraine appeared first on HESPRESS English - Morocco New",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-19T22:42:27Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-brahim-diaz-aurait-prolong-au-real-madrid-mais-r-clamerait-davantage-de-temps-de-jeu",
+      "title": "Brahim Diaz aurait prolongé au Real Madrid, mais réclamerait davantage de temps de jeu",
+      "link": "https://fr.hespress.com/497117-brahim-diaz-aurait-prolonge-au-real-madrid-mais-reclamerait-davantage-de-temps-de-jeu.html",
+      "description": "Le dossier contractuel de Brahim Diaz aurait connu une issue favorable. D’après le journaliste Matteo Moretto, l’international marocain aurait déjà signé sa prolongation avec le Real Madrid. Mais si son avenir contractuel semble désormais sécurisé, son statut sportif reste, lui, incertain. Arrivé à un moment charnière de sa carrière, Brahim Diaz aurait finalement choisi de […] The post Brahim Diaz aurait prolongé au Real Madrid, mais réclamerait davantage de temps de jeu appeared first on Hespre",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-19T22:10:28Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
+    {
+      "id": "hespress-fr-diplomatie-s-curitaire-le-maroc-multiplie-les-partenariats",
+      "title": "Diplomatie sécuritaire : le Maroc multiplie les partenariats",
+      "link": "https://fr.hespress.com/497140-diplomatie-securitaire-le-maroc-multiplie-les-partenariats.html",
+      "description": "Ces dernières années, les accords sécuritaires conclus par le directeur général de la Direction générale de la Sûreté nationale (DGSN) et directeur général de la Direction générale de la Surveillance du territoire (DGST), Abdellatif Hammouchi, avec des partenaires internationaux se sont multipliés, dans divers domaines liés à la sécurité et au renseignement. De l’Éthiopie au […] The post Diplomatie sécuritaire : le Maroc multiplie les partenariats appeared first on Hespress Français - Actualités",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-19T22:02:12Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71321911-26-nouvelles-mises-jour-de-s-curit-critiques-concernant-php",
       "title": "71321911/26 - Nouvelles mises à jour de sécurité critiques concernant PHP",
@@ -152,19 +204,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-19T20:40:19Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-six-soci-t-s-r-gionales-pour-tailler-dans-les-interm-diaires",
-      "title": "Six sociétés régionales pour tailler dans les intermédiaires",
-      "link": "https://fr.hespress.com/497106-six-societes-regionales-pour-tailler-dans-les-intermediaires.html",
-      "description": "Le porte-parole du Gouvernement a confirmé que le projet de six sociétés régionales de collecte et de distribution des produits agricoles sera présenté début 2027, avec pour mission de réduire la part de l’intermédiation dans la formation des prix, qu’il estime pouvoir atteindre jusqu’à 60 % sur certains produits. Interpellé ce jeudi 19 novembre, à […] The post Six sociétés régionales pour tailler dans les intermédiaires appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-19T16:42:43Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
