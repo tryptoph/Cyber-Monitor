@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-21T07:22:01Z",
+  "generatedAt": "2026-11-21T19:26:27Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,19 +13,6 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
-    {
-      "id": "hespress-fr-chine-droits-nuls-les-cueils-qui-font-perdre-la-pr-f-rence",
-      "title": "Chine à droits nuls : les écueils qui font perdre la préférence",
-      "link": "https://fr.hespress.com/497267-chine-a-droits-nuls-les-ecueils-qui-font-perdre-la-preference.html",
-      "description": "L’accès sans droits de douane au marché chinois n’est pas automatique : il se mérite, pièce par pièce. L’ADII vient de publier le certificat type et les règles de Pékin, dont l’inobservation peut priver l’exportateur de tout avantage tarifaire. Par sa circulaire n° 6786/223 du 20 novembre 2026, l’Administration des douanes et impôts indirects a […] The post Chine à droits nuls : les écueils qui font perdre la préférence appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-21T00:30:31Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
     {
       "id": "dgssi-71432011-26-vuln-rabilit-s-affectant-dell-powerstore",
       "title": "71432011/26 - Vulnérabilités affectant Dell PowerStore",
