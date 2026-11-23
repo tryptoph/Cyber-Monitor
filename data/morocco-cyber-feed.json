@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-22T19:48:57Z",
+  "generatedAt": "2026-11-23T07:51:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -27,32 +27,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "ضغطة زر",
-      "link": "https://www.hespress.com/%d8%b6%d8%ba%d8%b7%d8%a9-%d8%b2%d8%b1-1844036.html",
-      "description": "قد يستيقظ العالم ذات صباح ليكتشف أن جزءا كبيرا من حياته أصبح معطلا، لا بسبب حرب ولا كارثة طبيعية ولا أزمة مالية، بل لأن شركة تكنولوجية قررت تحديث أحد أنظمتها، فأخطأ مهندس في كتابة تعليمات برمجية، أو تعطل مركز بيانات في مكان بعيد. عندها لن تكون المشكلة في هاتف لا يفتح بريده الإلكتروني، بل في […] The post ضغطة زر appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-22T19:05:09Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "مفارقة أوروبية",
-      "link": "https://www.hespress.com/%d9%85%d9%81%d8%a7%d8%b1%d9%82%d8%a9-%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a%d8%a9-1844034.html",
-      "description": "في إيطاليا، خلال يوم واحد تقريبا، قيل كلامان مختلفان عن المهاجرين، الرئيس سيرجيو ماتاريلا تحدث أمام ممثلي الحرفيين عن دور العمال الأجانب في إنقاذ مهن تقليدية مهددة بالاندثار، وفي تورينو كان المستشار البلدي عبد اللهي أحمد، المولود في الصومال والحاصل على الجنسية الإيطالية، يواجه هجوما من السياسي اليميني روبرتو فاناتشي بسبب أصوله ولون بشرته، كأن […] The post مفارقة أوروبية appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-22T19:02:44Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-commerce-ext-rieur-les-exportations-marocaines-vers-la-chine-exemptes-de-droits-de-douane",
       "title": "Commerce extérieur : Les exportations marocaines vers la Chine exemptes de droits de douane",
       "link": "https://www.lavieeco.com/affaires/commerce-exterieur-les-exportations-marocaines-vers-la-chine-exemptes-de-droits-de-douane/",
@@ -61,32 +35,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-22T17:26:06Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-king-congratulates-lebanese-president-on-national-day",
-      "title": "King congratulates Lebanese President on national day",
-      "link": "https://en.hespress.com/149657-king-congratulates-lebanese-president-on-national-day-2.html",
-      "description": "King Mohammed VI has sent a message of congratulations to the President of the Lebanese Republic, General Joseph Aoun, on his country’s national day. In this message, the Sovereign expresses His sincere congratulations to the Lebanese President and His best wishes to the Lebanese people for further progress and prosperity in security and stability. The […] The post King congratulates Lebanese President on national day appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-22T15:38:41Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-climat-la-cop31-dans-l-impasse-faute-d-accord-sur-les-nergies-fossiles",
-      "title": "Climat : la COP31 dans l'impasse faute d'accord sur les énergies fossiles",
-      "link": "https://fr.hespress.com/497404-climat-la-cop31-dans-limpasse-faute-daccord-sur-les-energies-fossiles.html",
-      "description": "Le président turc de la COP31 a reconnu dimanche l’absence d’accord des pays sur le projet de décision finale de la conférence sur le climat, rejeté par certains pays en l’absence de mention des énergies fossiles. « Il semble que certaines parties s’opposent à ce texte » et, en l’absence de consensus, les « décisions n’ont pas été […] The post Climat : la COP31 dans l'impasse faute d'accord sur les énergies fossiles appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-22T12:33:38Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
