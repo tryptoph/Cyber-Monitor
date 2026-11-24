@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-24T00:00:32Z",
+  "generatedAt": "2026-11-24T10:02:25Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-fr-march-s-publics-les-d-lais-prolong-s-apr-s-les-interruptions-de-la-plateforme-lectronique",
+      "title": "Marchés publics : les délais prolongés après les interruptions de la plateforme électronique",
+      "link": "https://fr.hespress.com/497603-marches-publics-les-delais-prolonges-apres-les-interruptions-de-la-plateforme-electronique.html",
+      "description": "Les interruptions répétées de la plateforme nationale des marchés publics ont conduit les autorités à prendre des mesures pour préserver les droits des entreprises concernées. Les dates limites des procédures affectées ont été reprogrammées et les délais prolongés, tandis que le gouvernement explique ces perturbations par des opérations préventives destinées à renforcer la sécurité informatique […] The post Marchés publics : les délais prolongés après les interruptions de la plateforme électroni",
+      "source": "Hespress Français",
+      "sourceKey": "hespress-fr",
+      "category": "morocco",
+      "published": "2026-11-24T09:45:51Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71532311-26-vuln-rabilit-critique-affectant-gitlab",
       "title": "71532311/26 - Vulnérabilité critique affectant GitLab",
@@ -118,19 +131,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-sahara-madrid-d-plore-le-v-to-russe-au-cs-de-l-onu",
-      "title": "Sahara : Madrid déplore le véto russe au CS de l'ONU",
-      "link": "https://fr.hespress.com/497614-sahara-madrid-deplore-le-veto-russe-au-cs-de-lonu.html",
-      "description": "L’Espagne a exprimé ses regrets face à l’absence de consensus au Conseil de sécurité autour de la résolution sur le Sahara marocain. Lors d’un débat à l’Assemblée générale des Nations unies consacré aux conséquences du veto russe contre le projet américain de résolution sur le Sahara, Madrid a réaffirmé son soutien aux efforts de l’ONU […] The post Sahara : Madrid déplore le véto russe au CS de l'ONU appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-23T21:19:02Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-omar-mahmoud-bendjelloun-nous-nous-imposons-comme-une-force-d-opposition-constructive",
       "title": "Omar Mahmoud Bendjelloun : «Nous nous imposons comme une force d’opposition constructive»",
       "link": "https://www.lavieeco.com/pouvoirs/omar-mahmoud-bendjelloun-nous-nous-imposons-comme-une-force-dopposition-constructive/",
@@ -154,19 +154,6 @@
       "published": "2026-11-22T19:48:57Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "lavieeco-commerce-ext-rieur-les-exportations-marocaines-vers-la-chine-exemptes-de-droits-de-douane",
-      "title": "Commerce extérieur : Les exportations marocaines vers la Chine exemptes de droits de douane",
-      "link": "https://www.lavieeco.com/affaires/commerce-exterieur-les-exportations-marocaines-vers-la-chine-exemptes-de-droits-de-douane/",
-      "description": "Les produits d’origine marocaine peuvent entrer en Chine avec un droit de douane de 0 %. Dans une circulaire datée du 20 novembre, l’ADII précise les règles d’origine à respecter et publie le modèle de certificat requis pour bénéficier de ce régime préférentiel. L’article Commerce extérieur : Les exportations marocaines vers la Chine exemptes de droits de douane est apparu en premier sur La Vie éco .",
-      "source": "La Vie Eco",
-      "sourceKey": "lavieeco",
-      "category": "morocco",
-      "published": "2026-11-22T17:26:06Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
