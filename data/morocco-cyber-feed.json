@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-24T22:34:01Z",
+  "generatedAt": "2026-11-25T08:47:29Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "lavieeco-dialogue-social-les-syndicats-appellent-une-hausse-des-salaires-et-des-pensions-de-retraite",
+      "title": "Dialogue social : Les syndicats appellent à une hausse des salaires et des pensions de retraite",
+      "link": "https://www.lavieeco.com/au-royaume/dialogue-social-les-syndicats-appellent-a-une-hausse-des-salaires-et-des-pensions-de-retraite/",
+      "description": "À l'issue des rencontres de concertation avec la Cheffe du gouvernement, les centrales les plus représentatives ont plaidé pour de meilleurs revenus et un pouvoir d'achat renforcé des salariés et des fonctionnaires. L’article Dialogue social : Les syndicats appellent à une hausse des salaires et des pensions de retraite est apparu en premier sur La Vie éco .",
+      "source": "La Vie Eco",
+      "sourceKey": "lavieeco",
+      "category": "morocco",
+      "published": "2026-11-24T23:16:38Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71602411-26-vuln-rabilit-critique-activement-exploit-e-affectant-affectant-xen",
       "title": "71602411/26 - Vulnérabilité critique activement exploitée affectant affectant Xen…",
@@ -105,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-ar-item",
-      "title": "ليفربول يستهدف ضم المغربي وزان",
-      "link": "https://www.hespress.com/%d9%84%d9%8a%d9%81%d8%b1%d8%a8%d9%88%d9%84-%d9%8a%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%b6%d9%85-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a-%d9%88%d8%b2%d8%a7%d9%86-1845320.html",
-      "description": "دخل الدولي المغربي الشاب عبد الله وزان، لاعب أياكس أمستردام الهولندي، دائرة اهتمامات نادي ليفربول الإنجليزي، الذي يدرس إمكانية التعاقد معه خلال فترة الانتقالات الشتوية المقبلة، بهدف تعزيز خياراته الهجومية وتوفير بديل للوافد الألماني فلوريان فيرتز. وذكر موقع “أنفيلد ووتش”، نقلا عن معطيات أوردها موقع “غول”، أن إدارة ليفربول وضعت اسم وزان ضمن قائمة مختصرة […] The post ليفربول يستهدف ضم المغربي وزان appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-24T22:05:00Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-el-mansouri-re-oit-l-umt-l-ugtm-et-la-cdt",
       "title": "El Mansouri reçoit l’UMT, l’UGTM et la CDT",
       "link": "https://www.lavieeco.com/au-royaume/el-mansouri-recoit-lumt-lugtm-et-la-cdt/",
@@ -131,19 +131,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-gouvernement-el-mansouri-revendique-un-d-marrage-r-ussi-et-promet-un-changement-de-cap",
-      "title": "Gouvernement : El Mansouri revendique un démarrage réussi et promet un changement de cap",
-      "link": "https://fr.hespress.com/497757-gouvernement-el-mansouri-revendique-un-demarrage-reussi-et-promet-un-changement-de-cap.html",
-      "description": "À l’occasion de la signature de la charte de la majorité gouvernementale, mardi à Rabat, Fatima Ezzahra El Mansouri a défendu le bilan des premières semaines de son équipe, évoquant une dynamique positive et une volonté de rompre avec certains dysfonctionnements du passé. La cheffe du gouvernement a notamment mis en avant les premières mesures […] The post Gouvernement : El Mansouri revendique un démarrage réussi et promet un changement de cap appeared first on Hespress Français - Actualités du ",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-24T20:44:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-p-che-maritime-mezouari-annonce-un-nouveau-contrat-social-avec-les-acteurs-du-secteur",
       "title": "Pêche maritime : Mezouari annonce un nouveau contrat social avec les acteurs du secteur",
       "link": "https://www.lavieeco.com/au-royaume/peche-maritime-mezouari-annonce-un-nouveau-contrat-social-avec-les-acteurs-du-secteur/",
@@ -152,19 +139,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-24T20:31:25Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-ef-english-proficiency-index-le-maroc-devance-ses-voisins-maghr-bins-mais-les-disparit-s-persist",
-      "title": "EF English Proficiency Index : le Maroc devance ses voisins maghrébins, mais les disparités persistent",
-      "link": "https://fr.hespress.com/497696-ef-english-proficiency-index-le-maroc-devance-ses-voisins-maghrebins-mais-les-disparites-persistent.html",
-      "description": "Le niveau d’anglais des Marocains reste marqué par un contraste : les jeunes générations affichent des résultats encourageants, tandis que les compétences orales et certains secteurs professionnels accusent un retard. C’est l’un des principaux enseignements de l’édition 2026 de l’EF English Proficiency Index, qui maintient le Maroc à la 60e place mondiale sur 117 pays, […] The post EF English Proficiency Index : le Maroc devance ses voisins maghrébins, mais les disparités persistent appeared fir",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-24T19:32:06Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
