@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-25T21:48:40Z",
+  "generatedAt": "2026-11-26T08:33:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -118,19 +118,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-en-king-mohammed-vi-chairs-signing-of-two-agreements-to-finance-morocco-s-defense-industry",
-      "title": "King Mohammed VI chairs signing of two agreements to finance Morocco’s defense industry",
-      "link": "https://en.hespress.com/149911-king-mohammed-vi-chairs-signing-of-two-agreements-to-finance-moroccos-defense-industry.html",
-      "description": "King Mohammed VI, may God assist Him, His Royal Highness Crown Prince Moulay El Hassan, chaired on Wednesday, November 25, 2026, at the Royal Palace in Rabat, the signing ceremony of two new framework agreements on the financing of the roadmap to develop the defense and security industry and to involve the national private and […] The post King Mohammed VI chairs signing of two agreements to finance Morocco’s defense industry appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-25T17:18:18Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-d-fense-et-s-curit-sm-le-roi-pr-side-la-signature-de-deux-conventions-cadres",
       "title": "Défense et sécurité : SM Le Roi préside la signature de deux conventions-cadres",
       "link": "https://www.lavieeco.com/au-royaume/defense-et-securite-sm-le-roi-preside-la-signature-de-deux-conventions-cadres/",
@@ -139,32 +126,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-25T17:11:11Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-un-official-arrives-in-laayoune-as-minurso-liquidation-moves-forward",
-      "title": "UN Official arrives in Laayoune as MINURSO liquidation moves forward",
-      "link": "https://en.hespress.com/149880-un-official-arrives-in-laayoune-as-minurso-liquidation-moves-forward.html",
-      "description": "The United Nations Mission for the Referendum in the Sahara (MINURSO) is continuing preparations to wind down its operations in Laayoune, as administrative and logistical arrangements move forward following the failure to extend its mandate during an Oct. 30 UN Security Council session. As part of the process, Jorge Arenas Canal, head of procurement for […] The post UN Official arrives in Laayoune as MINURSO liquidation moves forward appeared first on HESPRESS English - Morocco News .",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-25T16:42:25Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-en-they-prevented-me-from-doing-my-job-what-the-afcon-referee-s-report-reveals",
-      "title": "'They prevented me from doing my job': What the AFCON referee’s report reveals",
-      "link": "https://en.hespress.com/149900-var-chaos-a-walk-off-and-a-stopped-match-what-the-afcon-referees-report-reveals.html",
-      "description": "A report by Congolese referee Jean-Jacques Ngambo Ndala, who officiated the 2025 Africa Cup of Nations final between Morocco and Senegal, has shed new light on the incidents that disrupted the match, including the Senegalese players’ temporary walk-off and clashes involving supporters and security personnel. French sports radio station RMC Sport published excerpts from the […] The post 'They prevented me from doing my job': What the AFCON referee’s report reveals appeared first on HESPRESS Engli",
-      "source": "Hespress English",
-      "sourceKey": "hespress-en",
-      "category": "morocco",
-      "published": "2026-11-25T16:30:00Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
