@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-26T21:41:36Z",
+  "generatedAt": "2026-11-27T08:46:04Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -13,6 +13,19 @@
     "https://www.lavieeco.com/feed/"
   ],
   "items": [
+    {
+      "id": "hespress-en-no-apology-for-securing-borders-mauritania-pushes-back-against-polisario-narrative",
+      "title": "No apology for securing borders: Mauritania pushes back against Polisario narrative",
+      "link": "https://en.hespress.com/149993-no-apology-for-securing-borders-mauritania-pushes-back-against-polisario-narrative.html",
+      "description": "Mauritania’s government has denied claims that its military apologized to the Polisario Front after detaining armed members of the group who reportedly entered Mauritanian territory, reigniting debate over Nouakchott’s response to the movement’s military activities near its borders and the limits of what it considers acceptable in matters of national sovereignty and security. The government’s […] The post No apology for securing borders: Mauritania pushes back against Polisario narrative appeare",
+      "source": "Hespress English",
+      "sourceKey": "hespress-en",
+      "category": "morocco",
+      "published": "2026-11-26T23:00:52Z",
+      "countryCode": "MA",
+      "official": false,
+      "type": "news"
+    },
     {
       "id": "dgssi-71722611-26-vuln-rabilit-s-affectant-le-navigateur-microsoft-edge",
       "title": "71722611/26 - Vulnérabilités affectant le navigateur Microsoft Edge",
@@ -79,19 +92,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-inwi-pr-sente-sa-strat-gie-de-souverainet-num-rique-lors-d-un-workshop-m-dia-rabat-technopolis",
-      "title": "Inwi présente sa stratégie de souveraineté numérique lors d’un workshop média à Rabat Technopolis",
-      "link": "https://fr.hespress.com/498035-inwi-presente-sa-strategie-de-souverainete-numerique-lors-dun-workshop-media-a-rabat-technopolis.html",
-      "description": "Inwi a présenté sa stratégie en matière d’hébergement, de cloud souverain et de cybersécurité lors d’un workshop média organisé dans son data center de Rabat Technopolis. L’opérateur global a montré comment des infrastructures développées et exploitées au Maroc permettent aux entreprises et aux administrations de mieux maîtriser l’hébergement de leurs données sensibles et de renforcer […] The post Inwi présente sa stratégie de souveraineté numérique lors d’un workshop média à Rabat Technopolis a",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-26T19:32:29Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "hespress-en-34-minurso-military-observers-leave-laayoune-as-un-mission-drawdown-continues",
       "title": "34 MINURSO military observers leave Laayoune as UN mission drawdown continues",
       "link": "https://en.hespress.com/149986-34-minurso-military-observers-leave-laayoune-as-un-mission-drawdown-continues.html",
@@ -105,19 +105,6 @@
       "type": "news"
     },
     {
-      "id": "hespress-fr-lections-2027-l-int-rieur-poursuit-les-concertations-avec-les-partis-politiques",
-      "title": "Élections 2027 : l’Intérieur poursuit les concertations avec les partis politiques",
-      "link": "https://fr.hespress.com/498048-elections-2027-linterieur-poursuit-les-concertations-avec-les-partis-politiques.html",
-      "description": "Le ministre de l’Intérieur a tenu, ce jeudi 26 novembre, une deuxième réunion avec les responsables des partis politiques, dans le cadre des préparatifs des élections prévues en 2027. Les discussions ont notamment porté sur la révision des listes électorales, l’encadrement des candidatures, la numérisation de certaines opérations et les garanties d’une compétition équitable entre […] The post Élections 2027 : l’Intérieur poursuit les concertations avec les partis politiques appeared first on Hes",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-26T18:16:28Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
       "id": "lavieeco-s-curit-des-barrages-un-nouveau-cadre-r-glementaire-pour-renforcer-le-contr-le",
       "title": "Sécurité des barrages : Un nouveau cadre réglementaire pour renforcer le contrôle",
       "link": "https://www.lavieeco.com/au-royaume/securite-des-barrages-un-nouveau-cadre-reglementaire-pour-renforcer-le-controle/",
@@ -126,19 +113,6 @@
       "sourceKey": "lavieeco",
       "category": "morocco",
       "published": "2026-11-26T18:10:50Z",
-      "countryCode": "MA",
-      "official": false,
-      "type": "news"
-    },
-    {
-      "id": "hespress-fr-barrages-et-importation-de-viande-le-gouvernement-annonce-de-nouvelles-mesures",
-      "title": "Barrages et importation de viande : le gouvernement annonce de nouvelles mesures",
-      "link": "https://fr.hespress.com/498030-barrages-et-importation-de-viande-le-gouvernement-annonce-de-nouvelles-mesures.html",
-      "description": "Le ministre de l’Aménagement du territoire national, de l’Urbanisme, de l’Habitat et de la Politique de la ville, porte-parole du gouvernement, Samir Belfqih, a indiqué que le projet de décret relatif à la classification des barrages, au suivi de leur sécurité et à leur évaluation, adopté ce jeudi après avoir été reporté depuis février 2026, […] The post Barrages et importation de viande : le gouvernement annonce de nouvelles mesures appeared first on Hespress Français - Actualités du Maroc .",
-      "source": "Hespress Français",
-      "sourceKey": "hespress-fr",
-      "category": "morocco",
-      "published": "2026-11-26T18:00:12Z",
       "countryCode": "MA",
       "official": false,
       "type": "news"
