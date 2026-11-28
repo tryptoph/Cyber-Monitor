@@ -1,6 +1,6 @@
 {
   "countryFocus": "MA",
-  "generatedAt": "2026-11-27T21:26:21Z",
+  "generatedAt": "2026-11-28T08:00:14Z",
   "sources": [
     "https://www.dgssi.gov.ma/fr/bulletins/",
     "https://www.dgssi.gov.ma/en/",
@@ -128,19 +128,6 @@
       "published": "2026-11-27T21:26:21Z",
       "countryCode": "MA",
       "official": true,
-      "type": "news"
-    },
-    {
-      "id": "hespress-ar-item",
-      "title": "لوبن تلوّح بتغليظ عقوبات الصحافيين",
-      "link": "https://www.hespress.com/%d9%84%d9%88%d8%a8%d9%86-%d8%aa%d9%84%d9%88%d9%91%d8%ad-%d8%a8%d8%aa%d8%ba%d9%84%d9%8a%d8%b8-%d8%a7%d9%84%d8%b9%d9%82%d9%88%d8%a8%d8%a7%d8%aa-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b5%d8%ad%d8%a7%d9%81-1846932.html",
-      "description": "شنّت زعيمة اليمين المتطرف في فرنسا، مارين لوبن، الجمعة، هجوما على وسائل الإعلام، ملوّحة بتشديد العقوبات المفروضة على الصحافيين الذين ينتهكون سرية التحقيقات القضائية، في حال فوزها بالانتخابات الرئاسية المقررة سنة 2027، والتي تتصدر استطلاعات الرأي المتعلقة بها. وتعليقا على تقارير صحافية تحدثت عن احتمال وجود مُخبر لحزب التجمع الوطني اليميني المتطرف داخل وزارة الداخلية، […] The post لوبن تلوّح بتغليظ عقوبات الصحافيين appeared first on Hespress - هسبريس جريدة إلكترونية مغربية .",
-      "source": "Hespress Arabic",
-      "sourceKey": "hespress-ar",
-      "category": "morocco",
-      "published": "2026-11-27T17:34:29Z",
-      "countryCode": "MA",
-      "official": false,
       "type": "news"
     },
     {
